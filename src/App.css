@@ -2,3 +2,8 @@ body {
   background-color: wheat;
   font-family: Tahoma;
 }
+
+.sideMenu{
+  float:right;
+  width: 20%;
+}
