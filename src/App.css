@@ -3,7 +3,7 @@ body {
   font-family: Tahoma;
 }
 
-.sideMenu{
+aside {
   float:right;
   width: 20%;
 }

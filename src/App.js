@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     const activeTab = this.state.activeTab;
     return (
-      <div className="App">
+      <aside className="App">
         <h1>Keller's Awesome Page</h1>
         <div className="sideMenu">
           <ul>
@@ -30,7 +30,7 @@ class App extends Component {
             <li onClick={this.openTab('church')}>Church</li>
             <li onClick={this.openTab('links')}>Links</li>
           </ul>
-        </div>
+        </aside>
         <div className="mainSection">
           {activeTab === 'links' && <Links />}
           {activeTab === 'church' && <Church />}
