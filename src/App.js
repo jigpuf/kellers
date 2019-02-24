@@ -16,9 +16,11 @@ class App extends Component {
   render() {
     const activeTab = this.state.activeTab;
     return (
-      <aside className="App">
-        <h1>Keller's Awesome Page</h1>
-        <div className="sideMenu">
+      <div className="App">
+        <div id="topName">
+          <h1>Keller's Awesome Page</h1>
+        </div>
+        <aside className="sideMenu">
           <ul>
             <li>Menu</li>
             <li>Healths</li>
@@ -35,8 +37,6 @@ class App extends Component {
           {activeTab === 'links' && <Links />}
           {activeTab === 'church' && <Church />}
           {activeTab === 'videos' && <Videos />}
-
-
         </div>
       </div>
     );
