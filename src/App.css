@@ -6,11 +6,16 @@ body {
 aside {
   float:right;
   width: 20%;
+  border: 1px solid black;
 }
 button {
   border: 2px solid black;
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
+}
+
+header {
+  border: 2px solid black;
 }
