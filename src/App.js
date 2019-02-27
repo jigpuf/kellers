@@ -25,12 +25,12 @@ class App extends Component {
             <li><button>Menu</button></li>
             <li><button>Healths</button></li>
             <li><button>Games</button></li>
-            <li onClick={this.openTab('videos')}>Videos</li>
+            <li><button onClick={this.openTab('videos')}>Videos</button></li>
             <li><button>Stories</button></li>
             <li><button>Maths</button></li>
             <li><button>Tools</button></li>
             <li><button onClick={this.openTab('church')}>Church</button></li>
-            <li onClick={this.openTab('links')}>Links</li>
+            <li><button onClick={this.openTab('links')}>Links</button></li>
           </ul>
         </aside>
         <div className="mainSection">
