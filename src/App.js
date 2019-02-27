@@ -29,7 +29,7 @@ class App extends Component {
             <li><button>Stories</button></li>
             <li><button>Maths</button></li>
             <li><button>Tools</button></li>
-            <li onClick={this.openTab('church')}>Church</li>
+            <li><button onClick={this.openTab('church')}>Church</button></li>
             <li onClick={this.openTab('links')}>Links</li>
           </ul>
         </aside>
