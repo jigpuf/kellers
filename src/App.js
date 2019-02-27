@@ -17,18 +17,18 @@ class App extends Component {
     const activeTab = this.state.activeTab;
     return (
       <div className="App">
-        <div id="topName">
+        <header>
           <h1>Keller's Awesome Page</h1>
-        </div>
+        </header>
         <aside className="sideMenu">
           <ul>
-            <li>Menu</li>
-            <li>Healths</li>
-            <li>Games</li>
+            <li><button>Menu</button></li>
+            <li><button>Healths</button></li>
+            <li><button>Games</button></li>
             <li onClick={this.openTab('videos')}>Videos</li>
-            <li>Stories</li>
-            <li>Maths</li>
-            <li>Tools</li>
+            <li><button>Stories</button></li>
+            <li><button>Maths</button></li>
+            <li><button>Tools</button></li>
             <li onClick={this.openTab('church')}>Church</li>
             <li onClick={this.openTab('links')}>Links</li>
           </ul>
