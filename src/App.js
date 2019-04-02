@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import SideMenu from './components/sideMenu';
 import MainSection from './components/mainSection';
-
-class App extends Component {
+class App extends React.Component {
   state = {
     activeTab: undefined,
   }
@@ -12,6 +11,7 @@ class App extends Component {
       this.setState({ activeTab: tab });
     }
   }
+
   render() {
     const activeTab = this.state.activeTab;
     return (
