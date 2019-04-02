@@ -13,6 +13,7 @@ class Videos extends React.Component {
           <button class="tier1">Programming</button>
           <button class="tier1">Other</button>
           <button class="tier1">Clear All</button>
+          <hr />
         </div>
         <div id="videosTier2"></div>
         <div id="videoTier3"></div>
