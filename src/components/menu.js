@@ -4,7 +4,7 @@ class Menu extends React.Component {
   render () {
     return (
       <div>
-        <div id="menuTier1"></div>
+        <div id="menuTier1">
           <button class="tier1">Drinks</button>
           <button class="tier1">Apetizers</button>
           <button class="tier1">Breakfast</button>
@@ -15,6 +15,7 @@ class Menu extends React.Component {
           <button class="tier1">Ingredients</button>
           <button class="tier1">Clear All</button>
           <hr />
+          </div>
         <div id="menuTier2"></div>
         <div id="menuTier3"></div>
       </div>

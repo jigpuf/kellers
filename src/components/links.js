@@ -25,14 +25,30 @@ class Links extends React.Component {
     ];
     const renderLinks = links.map((link, index) => {
       return (
-        <li key={index}>
-          <a target="_blank" href={link.url}>{link.name}</a>
-          <div className="description">{link.description}</div>
-        </li>
+
+
+          <li key={index}>
+            <a target="_blank" href={link.url}>{link.name}</a>
+            <div className="description">{link.description}</div>
+          </li>
       )
     })
     return (
       <div>
+      <div id="linksTier1">
+        <button class="tier1">Travel</button>
+        <button class="tier1">Church</button>
+        <button class="tier1">People Research</button>
+        <button class="tier1">Cooking</button>
+        <button class="tier1">Programming</button>
+        <button class="tier1">Mechanical</button>
+        <button class="tier1">Electrical</button>
+        <button class="tier1">Networking</button>
+        <button class="tier1">Financial</button>
+        <hr />
+      </div>
+      <div id="linksTier2"></div>
+      <div id="linksTier3"></div>
         <ul>
           {renderLinks}
         </ul>

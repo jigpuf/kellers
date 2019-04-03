@@ -9,6 +9,9 @@ class SideMenu extends React.Component {
       { name: 'Games', slug: 'games' },
       { name: 'Videos', slug: 'videos' },
       { name: 'Stories', slug: 'stories' },
+      { name: 'Church', slug: 'church' },
+      { name: 'Links', slug: 'links' },
+      { name: 'Media Lists', slug: 'mediaLists' },
       { name: 'Math', slug: 'math' },
       { name: 'Tools', slug: 'tools' },
       { name: 'Astronomy', slug: 'astronomy' },
@@ -16,10 +19,8 @@ class SideMenu extends React.Component {
       { name: 'Instrumentation', slug: 'instrumentation' },
       { name: 'Money', slug: 'money' },
       { name: 'Spanish', slug: 'spanish' },
-      { name: 'Media Lists', slug: 'mediaLists' },
       { name: 'Guitar', slug: 'guitar' },
-      { name: 'Church', slug: 'church' },
-      { name: 'Links', slug: 'links' },
+
     ];
     const renderSideMenuItems = sideMenuItems.map(item => {
       return (
