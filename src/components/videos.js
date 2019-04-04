@@ -23,12 +23,12 @@ class Videos extends React.Component {
           <h3>Favorite Music</h3>
             <ul>
               <li>Adriana Mezzadri:</li>
-                <ul>
+                <ol>
                   <li>Alianza Eterna</li>
                   <li>Fruto de la Inocencia</li>
                   <li>Marcas de Ayer</li>
                   <li>Te tengo Miedo</li>
-                </ul>
+                </ol>
               <li>Alice in Chains:</li>
                 <ul>
                   <li>Down in a Hole</li>

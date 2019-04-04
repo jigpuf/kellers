@@ -36,15 +36,15 @@ class Links extends React.Component {
     return (
       <div>
       <div id="linksTier1">
-        <button class="tier1">Travel</button>
-        <button class="tier1">Church</button>
-        <button class="tier1">People Research</button>
-        <button class="tier1">Cooking</button>
-        <button class="tier1">Programming</button>
-        <button class="tier1">Mechanical</button>
-        <button class="tier1">Electrical</button>
-        <button class="tier1">Networking</button>
-        <button class="tier1">Financial</button>
+        <button className="tier1">Travel</button>
+        <button className="tier1">Church</button>
+        <button className="tier1">People Research</button>
+        <button className="tier1">Cooking</button>
+        <button className="tier1">Programming</button>
+        <button className="tier1">Mechanical</button>
+        <button className="tier1">Electrical</button>
+        <button className="tier1">Networking</button>
+        <button className="tier1">Financial</button>
         <hr />
       </div>
       <div id="linksTier2"></div>
