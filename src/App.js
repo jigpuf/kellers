@@ -6,7 +6,7 @@ import MainSection from './components/mainSection';
 
 class App extends React.Component {
   state = {
-    activeTab: undefined,
+    activeTab: 'games',
   }
 /*Creates activeTab state. Shows that no value will be chosen upon loading Page.
 State is the way that the virtual DOM knows to compare the page against the DOM

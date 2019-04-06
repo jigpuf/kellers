@@ -10,7 +10,7 @@ aside {
   border-top: 0px;
 }
 
-.tier1{
+.tier1, .tier2{
   border: 2px solid black;
   display: inline;
   text-align: center;
