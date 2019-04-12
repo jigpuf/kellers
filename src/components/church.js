@@ -15,6 +15,11 @@ class Church extends React.Component {
       this.setState({tier2:item})
     }
   }
+  pickTier3 = (item) => {
+    return () => {
+      this.setState({tier3:item})
+    }
+  }
 
   render () {
     const bomItems = [
@@ -34,16 +39,62 @@ class Church extends React.Component {
       {name: 'Ether', slug: 'ether'},
       {name: 'Moroni', slug: 'moroni'},
     ]
+    const dcItems = [
+      {name: 'Escatology', slug: 'escatology'},
+      {name: 'Government', slug: 'government'},
+      {name: 'Scripture Commentary', slug: 'scripCom'},
+      {name: 'Church Government', slug: 'churchGov'},
+    ]
+    const pogpItems = [
+      {name: 'Moses', slug: 'moses'},
+      {name: 'Abraham', slug: 'abraham'},
+      {name: 'JST-Mathew', slug: 'jstm'},
+      {name: 'JS-History', slug: 'jsth'},
+      {name: 'JST Stuff', slug: 'jst'},
+      {name: 'Fascimiles', slug: 'fascimiles'},
+    ]
+    const symbolismItems = [
+      {name: 'Shapes & Numbers', slug: 'shapes'},
+      {name: 'Colors', slug: 'colors'},
+      {name: 'Astronomy', slug: 'astronomy'},
+      {name: 'Items', slug: 'items'},
+    ]
+    const textsItems = [
+      {name: 'Pseudopigraphy', slug: 'pseudo'},
+      {name: 'Church History', slug: 'churchHistory'},
+      {name: 'Journals', slug: 'journals'},
+      {name: 'Doctrinal Writings', slug: 'docWrite'},
+      {name: 'Church Fathers', slug: 'churchFathers'},
+    ]
+    const prophecyItems = [
+      {name: 'Scriptural', slug: 'scriptural'},
+      {name: 'General Authority', slug: 'genAuthority'},
+      {name: 'Second Hand', slug: 'secondHand'},
+      {name: 'Outide of Church', slug: 'outside'},
+    ]
+    const subjectsItems = [
+      {name: 'Priesthood', slug: 'priesthood'},
+      {name: 'Faith', slug: 'faith'},
+      {name: 'Repentance', slug: 'repentance'},
+      {name: 'Ordinances', slug: 'ordinances'},
+      {name: 'Temple', slug: 'temple'},
+      {name: 'Sermons', slug: 'sermons'},
+      {name: 'Pre-mortal Existance', slug: 'pre-mortal'},
+      {name: 'Escotology', slug: 'escotology'},
+      {name: 'Atonement', slug: 'atonement'},
+      {name: 'Creation and Fall', slug: 'creation'},
+      {name: 'Visions', slug: 'visions'},
+    ]
     const churchItems = [
       {name: 'BOM', slug: 'bom', tier2: bomItems},
-      {name: 'D&C', slug: 'dc'},
-      {name: 'POGP', slug: 'pogp'},
-      {name: 'OT', slug: 'ot'},
+      {name: 'D&C', slug: 'dc', tier2: dcItems},
+      {name: 'POGP', slug: 'pogp', tier2: pogpItems},
+      {name: 'OT', slug: 'ot',},
       {name: 'NT', slug: 'nt'},
-      {name: 'Symbolism', slug: 'symbolism'},
-      {name: 'Texts', slug: 'texts'},
-      {name: 'Prophecy', slug: 'prophecy'},
-      {name: 'Subjects', slug: 'subjects'},
+      {name: 'Symbolism', slug: 'symbolism', tier2: symbolismItems},
+      {name: 'Texts', slug: 'texts', tier2: textsItems},
+      {name: 'Prophecy', slug: 'prophecy', tier2: prophecyItems},
+      {name: 'Subjects', slug: 'subjects', tier2: subjectsItems},
     ]
     const renderChurchItems = churchItems.map(item => {
       return (
