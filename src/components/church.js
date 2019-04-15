@@ -53,6 +53,12 @@ class Church extends React.Component {
       {name: 'JST Stuff', slug: 'jst'},
       {name: 'Fascimiles', slug: 'fascimiles'},
     ]
+    const otItems = [
+      {name: 'Story', slug: 'story'},
+      {name: 'Temple', slug: 'Temple'},
+      {name: 'Wisdom', slug: 'wisdom'},
+      {name: 'Symbolism', slug: 'symbolism'},
+    ]
     const symbolismItems = [
       {name: 'Shapes & Numbers', slug: 'shapes'},
       {name: 'Colors', slug: 'colors'},
@@ -89,7 +95,7 @@ class Church extends React.Component {
       {name: 'BOM', slug: 'bom', tier2: bomItems},
       {name: 'D&C', slug: 'dc', tier2: dcItems},
       {name: 'POGP', slug: 'pogp', tier2: pogpItems},
-      {name: 'OT', slug: 'ot',},
+      {name: 'OT', slug: 'ot',tier2: otItems},
       {name: 'NT', slug: 'nt'},
       {name: 'Symbolism', slug: 'symbolism', tier2: symbolismItems},
       {name: 'Texts', slug: 'texts', tier2: textsItems},
