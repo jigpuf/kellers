@@ -7,13 +7,18 @@ class Movies extends React.Component {
       <div>
       <h3>Keller's Favorite Movies</h3>
       <ol>
+        <li>Adjustment Beurou</li>
+        <li>Aeon Flux</li>
         <li>Akira</li>
         <li>Aladdin</li>
         <li>Alien</li>
         <li>Alien 2</li>
         <li>American Beauty</li>
         <li>Amile</li>
+        <li>Anchorman</li>
+        <li>Apocalypto</li>
         <li>Atlantis</li>
+        <li>Avengers Infinity War</li>
         <li>Babadook</li>
         <li>Back to the Future</li>
         <li>Back to the Future 2</li>
@@ -32,20 +37,26 @@ class Movies extends React.Component {
         <li>Bram Stokers Dracula</li>
         <li>Bubba Hotep</li>
         <li>Burbs</li>
+        <li>Cabin in the Woods</li>
         <li>Castaway</li>
         <li>Cell</li>
         <li>Cocoon</li>
+        <li>Charlie and the Chocolate F</li>
         <li>Chicken Run</li>
         <li>Christmas Story</li>
         <li>City of Lost Children</li>
+        <li>Clerks</li>
+        <li>Cloverfield</li>
         <li>Clue</li>
         <li>Coraline</li>
+        <li>Cowboys and Aliens</li>
         <li>Crocodile Dundee</li>
         <li>Crocodile Dundee 2</li>
         <li>Crouching Tiger Hidden Dragon</li>
         <li>Dale and Tucker Vs Evil</li>
         <li>Dogma</li>
         <li>Donnie Darko</li>
+        <li>Drag me to Hell</li>
         <li>Edward Scissorhands</li>
         <li>Enemy at the Gates</li>
         <li>ET</li>
@@ -55,6 +66,7 @@ class Movies extends React.Component {
         <li>Evil Dead 3</li>
         <li>eXistenz</li>
         <li>Explorers</li>
+        <li>Fall</li>
         <li>Fantastic fear of Everything</li>
         <li>Fantastic Mr. Fox</li>
         <li>Fifth Element</li>
@@ -62,6 +74,7 @@ class Movies extends React.Component {
         <li>Finding a friend for the End of the World</li>
         <li>Flight of the Navigator</li>
         <li>Forrest Gump</li>
+        <li>Fury Road</li>
         <li>Ghostbusters</li>
         <li>Ghostbusters 2</li>
         <li>Ghost Dog</li>
@@ -69,52 +82,90 @@ class Movies extends React.Component {
         <li>Golden Child</li>
         <li>Goonies</li>
         <li>Gladiator</li>
+        <li>Grand Budapest Hotel</li>
+        <li>Green Street Hooligans</li>
         <li>Grudge</li>
+        <li>Guardians of the Galaxy</li>
+        <li>Guardians of the Galaxy 2</li>
         <li>Hector's Search for Happiness</li>
         <li>Hidden</li>
         <li>Hotel Budapest</li>
         <li>House of Flying Daggers</li>
         <li>Howard the Duck</li>
         <li>Hugo</li>
+        <li>Hunger Games</li>
+        <li>Hunger Games 2</li>
+        <li>Hunger Games 3</li>
         <li>Idle Hands</li>
         <li>In the Mouth of Madness</li>
         <li>Indiana Jones</li>
         <li>Indiana Jones 2</li>
         <li>Indiana Jones 3</li>
         <li>Inglorious Bastards</li>
+        <li>Inception</li>
+        <li>Interstellar</li>
         <li>Interview with a Vampire</li>
+        <li>Island</li>
+        <li>Isle of Dogs</li>
         <li>It's a Wonderful Life</li>
         <li>Joe Dirt</li>
         <li>Jurassic Park</li>
+        <li>Jurasic World Fallen Kingdom</li>
+        <li>Kick Ass</li>
+        <li>Kill Bill</li>
+        <li>Kill Bill 2</li>
         <li>King Arthur</li>
+        <li>kingsman</li>
         <li>Kung Fu Hustle</li>
         <li>Laberinth</li>
         <li>Legend of the Drunken Master</li>
         <li>Legend of Sleepy Hollow</li>
         <li>Let the Right One In</li>
+        <li>Life of Pi</li>
         <li>Little Evil</li>
         <li>Little Prince</li>
         <li>Lord of the Rings</li>
         <li>Lord of the Rings 2</li>
         <li>Lord of the Rings 3</li>
+        <li>Lucy</li>
+        <li>Maze Runner</li>
         <li>Mexican</li>
         <li>Momento</li>
         <li>Moon</li>
+        <li>Moonrise Kingdom</li>
         <li>Mystery Men</li>
+        <li>Nacho Libre</li>
+        <li>Napoleon Dynomite</li>
+        <li>National Treasure</li>
         <li>Neverending Story</li>
         <li>O Brother Where Art Thou</li>
+        <li>Odd Thomas</li>
         <li>Office Space</li>
         <li>Once Upon a Time in Mexico</li>
+        <li>Orphanage</li>
         <li>Others</li>
+        <li>Pan's Labrynth</li>
         <li>Pee Wee Herman's big Adventure</li>
         <li>Postman</li>
         <li>Princess Bride</li>
         <li>Princess Mononoke</li>
         <li>Pulp Fiction</li>
+        <li>Quiet Place</li>
+        <li>Red</li>
         <li>Ring</li>
         <li>Romancing the Stone</li>
+        <li>Romeo and Juliet</li>
         <li>Saving Private Ryan</li>
+        <li>Scott Pilgrim Vs. teh World</li>
         <li>Scrooged</li>
+        <li>Second Hand Lions</li>
+        <li>Secret Life of Walter Mitty</li>
+        <li>Secret Window</li>
+        <li>Series of unfortunate Events</li>
+        <li>Sherlock Holmes</li>
+        <li>Shoot em Up</li>
+        <li>Shutter Island</li>
+        <li>Sicarrio</li>
         <li>Simple Plan</li>
         <li>Sin City</li>
         <li>Snatch</li>
@@ -123,15 +174,19 @@ class Movies extends React.Component {
         <li>Star Wars 5</li>
         <li>Star Wars 6</li>
         <li>Star Wars 7</li>
+        <li>Sucker Punch</li>
+        <li>Super 8</li>
         <li>Swiss Family Robinson</li>
         <li>Terminator</li>
         <li>Terminator 2</li>
         <li>They Look Like People</li>
         <li>Thin Red Line</li>
+        <li>Troy</li>
         <li>Truman Show</li>
         <li>Unbreakable</li>
-        <li></li>
+        <li>Underworld</li>
         <li>Very Bad Things</li>
+        <li>Village</li>
         <li>Waterboy</li>
         <li>Way of the Gun</li>
         <li>What Dreams May Come</li>
@@ -142,14 +197,12 @@ class Movies extends React.Component {
         <li>Wizard of Oz 2</li>
         <li>Wrist Cutters</li>
         <li>Zombieland</li>
+        <li>10 Cloverfield Lane</li>
         <li>13th Warrior</li>
         <li>28 Days Later</li>
         <li>28 Weeks Later</li>
         <li>300</li>
-        <li>Still Need 2002 forward</li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>9</li>
       </ol>
       <h3>Other Peoples Favorites</h3>
       </div>

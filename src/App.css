@@ -39,6 +39,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+ol{
+  column-count: 3;
+}
 
 header {
   border: 2px solid black;
