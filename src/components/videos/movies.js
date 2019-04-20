@@ -205,54 +205,7 @@ class Movies extends React.Component {
         <li>9</li>
       </ol>
       <h3>Other Peoples Favorites</h3>
-      <div>
-        <h3>POGP Lectures Hugh Nibley</h3>
-        <h3>POGP RoundTable BYU</h3>
-        <h3>POGP RoundTable Interpreter</h3>
-        <h3>POGP Lectures Hyrum Andrus</h3>
-        <a href="https://www.youtube.com/watch?v=kq3M_CY2NHo&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n"
-        >1: Idea of the Temple</a><br />
-        <a href="https://www.youtube.com/watch?v=iHDx7Lm13vA&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=2"
-        >2: Knowing God through the Pearl of Great Price</a><br />
-        <a href="https://www.youtube.com/watch?v=2Gru2-ZF_Fc&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=3"
-        >3: Christ's Appearances to His Prophets</a><br />
-        <a href="https://www.youtube.com/watch?v=rZlEFtmWG3A&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=4"
-        >4: The Creations of God</a><br />
-        <a href="https://www.youtube.com/watch?v=7MgQNmZmOuU&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=5"
-        >5: The Fall of Adam</a><br />
-        <a href="https://www.youtube.com/watch?v=SCMUDx-E9Ro&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=6"
-        >6: Christ's Atonement</a><br />
-        <a href="https://www.youtube.com/watch?v=1gfv-CqIAas&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=7"
-        >7: The new birth</a><br />
-        <a href="https://www.youtube.com/watch?v=mhDBIZcj3HU&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=8"
-        >8: Pre-Earh Life</a><br />
-        <a href="https://www.youtube.com/watch?v=M5UdNcPF1so&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=9"
-        >9: The Zion of Enoch</a><br />
-        <a href="https://www.youtube.com/watch?v=_d34qhUWb9M&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=10"
-        >10: Zion through the Ages</a><br />
-        <a href="https://www.youtube.com/watch?v=QIEOStaItLo&list=PLlC7AHN3uipNRSifCzY_R60nqX_p5VZ6n&index=11"
-        >11: Second Comming of Christ</a><br />
-        <h3>Abraham</h3>
-        <a href="https://www.youtube.com/watch?v=XVAEC1wJFqY"
-        >Joseph Smith and ancient Egypt-John Gee</a><br />
-        <a href="https://www.youtube.com/watch?v=Xuiqna_SzY4"
-        >Puzzles from Joseph Smith Papyri-John Gee</a><br />
-        <a href="https://www.youtube.com/watch?v=4ye3SqOkWXo"
-        >Book of Abraham, I Presume-John Gee</a><br />
-        <a href="https://www.youtube.com/watch?v=ZL-wgUAeunk"
-        >The Book of Abraham and unnoticed Assumptions-Kerry Muelstien</a><br />
-        <a href="https://www.youtube.com/watch?v=_jGadnfI8zU"
-        >Most remarkable Book: The book of Abraham</a><br />
-        <a href="https://www.youtube.com/watch?v=c2rGi6gltqw"
-        >Book of Abraham in historical Context-John Gee</a><br />
-        <a href="https://www.youtube.com/watch?v=F19d5ClZMWo"
-        >Book of Abraham-Bruce Porter</a><br />
-        <a href="https://www.youtube.com/watch?v=L2ha3tbfB-M"
-        >Apocaplypse of Abraham reading</a><br />
-        <h3>Moses</h3>
-        <a href="https://www.youtube.com/watch?v=3tw-lTqFTmg"
-        >Apocalypse of Abraham as evidence of Moses</a><br />
-      </div>
+      
       </div>
     );
   }
