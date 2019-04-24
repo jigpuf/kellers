@@ -4,23 +4,28 @@ import React from 'react';
 class SideMenu extends React.Component {
   render () {
     const sideMenuItems = [
-      { name: 'Menu', slug: 'menu' },
-      { name: 'Health', slug: 'health' },
-      { name: 'Games', slug: 'games' },
-      { name: 'Videos', slug: 'videos' },
-      { name: 'Stories', slug: 'stories' },
-      { name: 'Church', slug: 'church' },
-      { name: 'Links', slug: 'links' },
-      { name: 'Media Lists', slug: 'mediaLists' },
-      { name: 'Math', slug: 'math' },
-      { name: 'Tools', slug: 'tools' },
+      { name: 'Apps', slug: 'apps' },
       { name: 'Astronomy', slug: 'astronomy' },
-      { name: 'Quotes', slug: 'quotes' },
-      { name: 'Instrumentation', slug: 'instrumentation' },
-      { name: 'Money', slug: 'money' },
-      { name: 'Spanish', slug: 'spanish' },
+      { name: 'Business', slug: 'business' },
+      { name: 'Church', slug: 'church' },
+      { name: 'Electronics', slug: 'electronics' },
+      { name: 'Food', slug: 'food' },
+      { name: 'Games', slug: 'games' },
+      { name: 'Gardening', slug: 'gardening' },
       { name: 'Guitar', slug: 'guitar' },
-
+      { name: 'Health', slug: 'health' },
+      { name: 'Instrumentation', slug: 'instrumentation' },
+      { name: 'Links', slug: 'links' },
+      { name: 'Math', slug: 'math' },
+      { name: 'Mechanics', slug: 'mechanics' },
+      { name: 'Media Lists', slug: 'mediaLists' },
+      { name: 'Programming', slug: 'programming' },
+      { name: 'Quotes', slug: 'quotes' },
+      { name: 'Spanish', slug: 'spanish' },
+      { name: 'Stories', slug: 'stories' },
+      { name: 'Survival', slug: 'survival' },
+      { name: 'Videos', slug: 'videos' },
+      { name: 'Woodworking', slug: 'woodworking' },
     ];
 //Build  array.  slug is an attribute of each item. Name is what shows.
     const renderSideMenuItems = sideMenuItems.map(item => {

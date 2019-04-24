@@ -24,6 +24,8 @@ class Conference extends React.Component {
           >To make a People prepared for the Lord-Delbert L. Stapley</a><br />
           <a href="https://www.youtube.com/watch?v=y2qldRb7oH0"
           >Americas fate and Destiny-Marion G. Romney</a><br />
+          <a href="https://www.youtube.com/watch?v=CnnJjzxRWZc"
+          >If They Will but Serve the God of the Land</a><br />
         </ol>
       </div>
     );

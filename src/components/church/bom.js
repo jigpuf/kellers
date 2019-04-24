@@ -27,6 +27,7 @@ class BOM extends React.Component {
           {name: 'Ether', slug: 'ether'},
           {name: 'Moroni', slug: 'moroni'},
           {name: 'Book of Mormon Whole', slug: 'bom'},
+          {name: 'Lectures', slug: 'lectures'},
         ]
         const renderBomItems = bomItems.map(item => {
           return (
