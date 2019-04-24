@@ -12,16 +12,14 @@ class Games extends React.Component {
   }
 
   render () {
-    const gamesItems = [
-      {name: 'D&D etc.', slug: 'dd' },
-      {name: 'Dice Rolling Tool', slug: 'dice' },
-      {name: 'Battleship', slug: 'battleship' },
-      {name: 'Tic-Tac-Toe', slug: 'ttt' },
+    const tier1Items = [
+      {name: 'Game List', slug: 'gameList' },
       {name: 'Character Creation', slug: 'character' },
       {name: 'Spells', slug: 'spells', component: <SpellItems />},
-      {name: 'Clear All', slug: 'clear' },
+      {name: 'Battle Rules', slug: 'battle' },
+      
     ]
-    const renderGamesItems = gamesItems.map(item => {
+    const renderTier1Items = tier1Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -30,14 +28,14 @@ class Games extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = gamesItems.filter(item => {
+    const tier1 = tier1Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderGamesItems}
+          {renderTier1Items}
         </ul>
         <hr />
         {renderTier2Component}

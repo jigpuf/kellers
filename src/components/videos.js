@@ -12,7 +12,7 @@ class Videos extends React.Component {
     }
 
   render () {
-    const videosItems = [
+    const tier1Items = [
       {name: 'Movies', slug: 'movies', component: <Movies />},
       {name: 'Music', slug: 'music' },
       {name: 'Funny', slug: 'funny' },
@@ -20,9 +20,13 @@ class Videos extends React.Component {
       {name: 'Church', slug: 'church' },
       {name: 'Mechanical', slug: 'mechanical' },
       {name: 'Electrical', slug: 'electrical' },
+      {name: 'Survival', slug: 'survival' },
+      {name: 'Math', slug: 'math' },
+      {name: 'Language', slug: 'language' },
+
     ]
-    const renderVideosItems = videosItems.map(item => {
-      return(
+    const renderTier1Items = tier1Items.map(item => {
+      return (
         <button
           key={item.slug}
           onClick={this.pickTier1(item.slug)}
@@ -30,20 +34,20 @@ class Videos extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = videosItems.filter(item => {
+    const tier1 = tier1Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderVideosItems}
+          {renderTier1Items}
         </ul>
         <hr />
-          {renderTier2Component}
+        {renderTier2Component}
       </div>
     )
+    }
   }
-}
 
 export default Videos;

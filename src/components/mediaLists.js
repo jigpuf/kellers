@@ -1,21 +1,46 @@
 import React from 'react';
 
 class MediaLists extends React.Component {
+  state = {
+    tier1: undefined,
+  }
+  pickTier1  = (item) => {
+    return () => {
+      this.setState({tier1:item})
+    }
+  }
   render () {
+    const tier1Items = [
+      {name: 'Music', slug: 'music' },
+      {name: 'Movies', slug: 'movies' },
+      {name: 'Books', slug: 'books' },
+      {name: 'TV Shows', slug: 'tv' },
+      {name: 'Video Games', slug: 'vg' },
+      {name: 'Board Games', slug: 'bg' },    
+    ]
+    const renderTier1Items = tier1Items.map(item => {
+      return (
+        <button
+          key={item.slug}
+          onClick={this.pickTier1(item.slug)}
+          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
+        >{item.name}</button>
+      )
+    })
+    const tier1 = tier1Items.filter(item => {
+      return this.state.tier1 === item.slug;
+    });
+    const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
-        <div id="mediaTier1">
-          <button class="tier1">Music</button>
-          <button class="tier1">Movies</button>
-          <button class="tier1">Books</button>
-          <button class="tier1">TV Shows</button>
-          <button class="tier1">Games</button>
-          <hr />
-        </div>
-        <div id="mediaTier2"></div>
-        <div id="mediaTier3"></div>
+        <ul>
+          {renderTier1Items}
+        </ul>
+        <hr />
+        {renderTier2Component}
       </div>
     )
+    }
   }
-}
+
 export default MediaLists;

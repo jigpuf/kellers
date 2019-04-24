@@ -1,11 +1,50 @@
 import React from 'react';
 
 class Spanish extends React.Component {
-  render () {
-    return (
-      <div>Spanish</div>
-    );
+  state = {
+    tier1: undefined,
   }
-}
+  pickTier1  = (item) => {
+    return () => {
+      this.setState({tier1:item})
+    }
+  }
+  render () {
+    const tier1Items = [
+      {name: 'Pronunciation', slug: 'pronunciation' },
+      {name: 'Nouns', slug: 'nouns' },
+      {name: 'Verbs', slug: 'verbs' },
+      {name: 'Adjectives', slug: 'adjectives' },
+      {name: 'Adverbs', slug: 'adverbs' },
+      {name: 'Prepositions', slug: 'prepositions' },
+      {name: 'Object Pronouns', slug: 'objects' },
+      {name: 'Numbers', slug: 'numbers' },
+      {name: 'Vocabulary', slug: 'vocabulary' },
+      {name: 'Finer Points', slug: 'finer' },
+    ]
+    const renderTier1Items = tier1Items.map(item => {
+      return (
+        <button
+          key={item.slug}
+          onClick={this.pickTier1(item.slug)}
+          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
+        >{item.name}</button>
+      )
+    })
+    const tier1 = tier1Items.filter(item => {
+      return this.state.tier1 === item.slug;
+    });
+    const renderTier2Component = tier1[0] && tier1[0].component;
+    return (
+      <div>
+        <ul>
+          {renderTier1Items}
+        </ul>
+        <hr />
+        {renderTier2Component}
+      </div>
+    )
+    }
+  }
 
 export default Spanish;
