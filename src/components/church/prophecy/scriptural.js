@@ -5,6 +5,7 @@ class Scriptural extends React.Component {
     return (
       <div>
       <h3>Doctrine and Covenants</h3>
+      <ol>
         <p>
         1-The Lord and Satan will both have power over their dominions. This
         will happen after or as peace is taken from the Earth(35,36)
@@ -140,6 +141,7 @@ class Scriptural extends React.Component {
         97-
         101,103,105,112,113,116,133
         </p>
+        </ol>
       <h3>Book of Mormon</h3>
         1Ne 8,10-15,19-22<br />
         2Ne 3,6-9,12-24,26-30<br />
