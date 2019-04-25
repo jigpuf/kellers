@@ -1,4 +1,5 @@
 import React from 'react';
+import Networking from './instrumentation/networking.js'
 
 class Instrumentation extends React.Component {
   state = {
@@ -16,6 +17,16 @@ class Instrumentation extends React.Component {
       {name: 'Accelerometers', slug: 'accels' },
       {name: 'Thermocouples', slug: 'thermocouples' },
       {name: 'RTDs', slug: 'rts' },
+      {name: 'LVDTs', slug: 'lvdts' },
+      {name: 'String Pots', slug: 'pots' },
+      {name: 'Strain Gaugess', slug: 'strain' },
+      {name: 'Load Cells', slug: 'load' },
+      {name: 'Igniterss', slug: 'igniter' },
+      {name: 'Gas Sensors', slug: 'gas' },
+      {name: 'Flame Detectors', slug: 'flame' },
+      {name: 'Clear Path', slug: 'clearPath' },
+      {name: 'Heaters', slug: 'heaters' },
+      {name: 'ZTSs', slug: 'zts' },
       {name: 'Flow', slug: 'flow' },
       {name: 'Cameras', slug: 'cameras' },
       {name: 'Microphones', slug: 'microphones' },
@@ -25,8 +36,9 @@ class Instrumentation extends React.Component {
       {name: 'Limits', slug: 'limits' },
       {name: 'VFD', slug: 'vfds' },
       {name: 'Explosion Codes', slug: 'explosion' },
-      {name: 'Networking', slug: 'networking' },
+      {name: 'Networking', slug: 'networking', component:<Networking /> },
       {name: 'PLC', slug: 'plc' },
+      {name: 'NI Hardware', slug: 'ni' },
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

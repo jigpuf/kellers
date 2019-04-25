@@ -1,4 +1,5 @@
 import React from 'react';
+import QuoteList from './quotes/quoteList.js';
 
 class Quotes extends React.Component {
   state = {
@@ -14,6 +15,7 @@ class Quotes extends React.Component {
       {name: 'Author', slug: 'author' },
       {name: 'Subject', slug: 'subject' },
       {name: 'Word', slug: 'word' },
+      {name: 'Quote List', slug: 'quotes', component:<QuoteList />}
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (
