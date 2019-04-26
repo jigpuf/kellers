@@ -3,60 +3,62 @@ import React from 'react';
 class Scriptural extends React.Component {
   render () {
     return (
-      <div>
+      <div className='twoColumn'>
       <h3>Doctrine and Covenants</h3>
-      <ol>
         <p>
-        1-The Lord and Satan will both have power over their dominions. This
-        will happen after or as peace is taken from the Earth(35,36)
+        1-The Lord and Satan will <mark>both have power over their dominions.
+        </mark>This will happen after or as peace is taken from the Earth(35,36)
         </p>
         <p>
-        5-A desolating scourge(sickness) will not stop until the coming of the
-        savior.(18,19)
+        5-A <mark>desolating scourge(sickness)</mark> will not stop until
+        the coming of the savior.(18,19)
         </p>
         <p>
-        45-Remnant will remain scattered until the time of the Gentiles is
-        fulfilled. There will be wars and rumors of wars.The earth will be in
-        commotion. Men's hearts will fail them. They will claim He delays His
-        comming. The love of men will wax cold. Evil will be everywhere. The
-        gospel in its fulness will be brought forth at the beginning of the time
-        of the gentiles. The desolating scourge will happen and cover the land.
-        The saints will stand in holy places of protection. There will be
-        earthquakes and war. The sign of the comming of the son of man, blood,
-        fire, and vapor of smoke. There will be wonders in heaven and in the
-        earth. The sun will be darkened and the moon turned to blood. Stars will
-        fall from heaven. The remnant will be gathered to Jerusalen and see
-        Christ return in a cloud of glory with all His angels. Before the arm of
-        the Lord falls, an angel will sound his trump, and the saints to meet
-        Christ in the sky.After that, the arm of the Lord falls on the nations.
-        Then, Christ will step on the Mount of Olives breaking it in half. The
-        earth and heavens will shake and the Earth will real to and fro.  The
-        Lord's voice shall be heard across the entir Earth. The wickid will be
-        destroyed. The Jews wil see Christ and accept Him. There will then be a
-        resurection of the heathen nations and Satan is bound.(24-57)The New
-        Jerusalem in Missouri, will be a place of refuge and Safety for the
-        saints. The wickid will not come to Jerusalem. The terror of the Lord
-        will be there. It will be called Zion.  If any man doesn't want to
-        fight in the chaos, he will have to come to Zion. It will be the only
+        45-Remnant will remain scattered until the <mark>time of the Gentiles
+        is fulfilled.</mark> There will be wars and rumors of wars.The earth
+        will be in commotion. Men's hearts will fail them. They will claim He
+        delays His comming. The love of men will wax cold. Evil will be
+        everywhere. The gospel in its fulness will be brought forth at the
+        beginning of the time of the gentiles. The <mark>desolating
+        scourge</mark> will happen and cover the land. The saints will stand
+        in holy places of protection. There will be earthquakes and war. The
+        <mark>sign of the comming of the son of man</mark>, blood,fire, and
+        vapor of smoke. There will be <mark>wonders in heaven and in the
+        earth.</mark> The sun will be darkened and the moon turned to blood.
+        Stars will fall from heaven. The <mark>remnant will be gathered to
+        Jerusalem</mark> and see <mark>Christ return in a cloud of
+        glory</mark> with all His angels. Before the arm of the Lord falls, an
+        angel will sound his trump, and the <mark>saints to meet Christ in the
+        sky.</mark> After that, the arm of the Lord falls on the nations.
+        Then, Christ will step on the <mark>Mount of Olives</mark> breaking
+        it in half. The earth and heavens will shake and the Earth will real to
+        and fro.  The Lord's <mark>voice shall be heard across the entire
+        Earth.</mark> The wickid will be destroyed. The Jews wil see Christ
+        and accept Him. There will then be a resurection of the heathen nations
+        and Satan is bound.(24-57)<mark>The New Jerusalem in
+        Missouri,</mark> will be a place of refuge and Safety for the saints.
+        The wickid will not come to Jerusalem. The <mark>terror of the Lord
+        will be there.</mark> It will be called Zion. If any man doesn't want
+        to fight in the chaos, he will have to come to Zion. It will be the only
         people not at war with its neighbor.(63-75)
         </p>
         <p>
         49-The heaven and Earth will be shaken. At the sounding of the trump,
-        mountains and Valleys will be made smooth. Before the Second Comming,
-        Jacob shall flourish in the desert, and the Lamanites will blossom as a
-        rose.  Zion will flourish upon the hills and rejoice in the place they
-        have been gathered.(22-25).
+        <mark>mountains and Valleys will be made smooth.</mark> Before the
+        Second Comming, <mark>Jacob shall flourish in the desert</mark>, and the
+        <mark>Lamanites will blossom as a rose.</mark> Zion will flourish upon
+        the hills and rejoice in the place they have been gathered.(22-25).
         </p>
         <p>
-        58-The feast of fat things will first be to the rich and learned. After
-        that comes the day of power, when the poor, lame, blind and deaf will
-        partake of the supper of the Lord, prepared for the Great Day to
-        Come(5-11)
+        58-The <mark>feast of fat things</mark> will first be to the rich and
+        learned. After that comes the day of power, when the poor, lame, blind
+        and deaf will partake of the supper of the Lord, prepared for the Great
+        Day to Come.(5-11)
         </p>
         <p>
-        61-In the Last Days the waters are cursed. The day will come when no one
-        is safe on the waters. Only the upright in heart will be able to come to
-        Zion by water.(14-19)
+        61-In the Last Days the <mark>waters are cursed.</mark> The day will
+        come when no one is safe on the waters. Only the upright in heart will
+        be able to come to Zion by water.(14-19)
         </p>
         <p>
         77-The seven seals represent the 7 thousands years of Earth's temporal
@@ -141,7 +143,6 @@ class Scriptural extends React.Component {
         97-
         101,103,105,112,113,116,133
         </p>
-        </ol>
       <h3>Book of Mormon</h3>
         1Ne 8,10-15,19-22<br />
         2Ne 3,6-9,12-24,26-30<br />

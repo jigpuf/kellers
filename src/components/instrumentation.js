@@ -1,5 +1,6 @@
 import React from 'react';
 import Networking from './instrumentation/networking.js'
+import Checkouts from './instrumentation/systemCheckouts.js'
 
 class Instrumentation extends React.Component {
   state = {
@@ -39,6 +40,7 @@ class Instrumentation extends React.Component {
       {name: 'Networking', slug: 'networking', component:<Networking /> },
       {name: 'PLC', slug: 'plc' },
       {name: 'NI Hardware', slug: 'ni' },
+      {name: 'System Checkouts', slug: 'checkouts', component:<Checkouts /> },
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (
