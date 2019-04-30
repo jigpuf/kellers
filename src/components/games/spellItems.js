@@ -18,7 +18,6 @@ class SpellItems extends React.Component {
       {name:'Earth', slug:'earth'},
       {name:'Light', slug:'light'},
       {name:'Dark', slug:'dark'},
-      {name:'Spoonal', slug:'spoonal'},
     ]
     const renderTier2Items = tier2Items.map(item => {
       return (

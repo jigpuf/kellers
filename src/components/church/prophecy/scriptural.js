@@ -10,10 +10,6 @@ class Scriptural extends React.Component {
         </mark>This will happen after or as peace is taken from the Earth(35,36)
         </p>
         <p>
-        5-A <mark>desolating scourge(sickness)</mark> will not stop until
-        the coming of the savior.(18,19)
-        </p>
-        <p>
         45-Remnant will remain scattered until the <mark>time of the Gentiles
         is fulfilled.</mark> There will be wars and rumors of wars.The earth
         will be in commotion. Men's hearts will fail them. They will claim He

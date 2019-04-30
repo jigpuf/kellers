@@ -1,36 +1,68 @@
 import React from 'react';
 
 class Checkouts extends React.Component {
+  state = {
+    tier1: undefined,
+  }
+  pickTier1  = (item) => {
+    return () => {
+      this.setState({tier1:item})
+    }
+  }
   render () {
+    const tier1Items = [
+    {name: 'Valve Control(K)', slug: 'valveControl' },
+    {name: 'Valve Feedback(E)', slug: 'valveFeedback' },
+    {name: 'Limit(L)', slug: 'limit' },
+    {name: 'Current Analog In(I)', slug: 'current' },
+    {name: 'Voltage Analog In(V)', slug: 'voltage' },
+    {name: 'Analog Out Voltage/Current', slug: 'analogOut' },
+    {name: 'Analog Out FB(AOFB)', slug: 'aofb' },
+    {name: 'Thermocouple(T)', slug: 'tc' },
+    {name: 'RTD(R)', slug: 'rtd' },
+    {name: 'Counter(C)', slug: 'counter' },
+    {name: 'High Speed Dynamic(HS/D)', slug: 'hsDynamic' },
+    {name: 'High Speed Voltage(HSV)', slug: 'hsv' },
+    {name: 'High Speed Y Voltage(HSY)', slug: 'hsy' },
+    {name: 'High Speed Strain(HSS)', slug: 'hss' },
+  ]
+  const renderTier1Items = tier1Items.map(item => {
     return (
-      <div>
-        <h3>System Types:</h3>
-        <ol>
-          <li>Low Speed PXI and SXCI</li>
-          <li>RTX for C-DAQ and C-RIO</li>
-          <li>High Speed for PXI</li>
-          <li>PLC</li>
-        </ol>
+      <button
+        key={item.slug}
+        onClick={this.pickTier1(item.slug)}
+        className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
+      >{item.name}</button>
+    )
+  })
+  const tier1 = tier1Items.filter(item => {
+    return this.state.tier1 === item.slug;
+  });
+  const renderTier2Component = tier1[0] && tier1[0].component;
+  return (
+    <div>
+    <div>
+      <ul>
+        {renderTier1Items}
+      </ul>
+      <hr />
+      {renderTier2Component}
+    </div>
+    <div>
         //Low Speed System
         <h3>Low Speed PXI and SCXI Systems on NI MAX</h3>
         <div className='twoColumn'>
         <ol>
           <li>Valve Digital Out(K)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>PXI-6512/SCB-100</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>Non-Throttable Valve</li>
-                  <li>Triggers</li>
-                  <li>Enables</li>
-                  <li>Exciter Power</li>
-                  <li>Spark Command</li>
-                </ul>
-              <li>MAX Settings:</li>
-            </ol>
+          <li>Module Types: PXI-6512/SCB-100</li>
+          <li>Instrument Types:</li>
+          <li>Non-Throttable Valve</li>
+          <li>Triggers</li>
+          <li>Enables</li>
+          <li>Exciter Power</li>
+          <li>Spark Command</li>
+          <li>MAX Settings:</li>
+        </ol>
           <li>Valve Feedback(E)</li>
             <ol>
               <li>Module Types:</li>
@@ -157,7 +189,6 @@ class Checkouts extends React.Component {
               <li>Meter Setup:</li>
               <li>MAX Settings:</li>
             </ol>
-        </ol>
         </div>
 
         <h3>High Speed PXI and SCXI Systems on NI MAX</h3>
@@ -220,15 +251,20 @@ class Checkouts extends React.Component {
                 <li>Meter Setup:</li>
                 <li>MAX Settings:</li>
               </ol>
-        </ol>
+              </ol>
         </div>
+        <div>
         <h3>Resources:</h3>
         <a href="https://www.youtube.com/watch?v=dvDpOA4Cs3c"
         >NI MAX Intro</a><br />
         <a href="https://www.youtube.com/watch?v=9z4Hgx13ujs"
         >NI MAX Create Task</a>
+        <br /><br /><br /><br />
+        </div>
+
       </div>
-    );
+</div>
+  )
   }
 }
 
