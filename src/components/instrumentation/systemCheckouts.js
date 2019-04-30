@@ -52,206 +52,82 @@ class Checkouts extends React.Component {
         //Low Speed System
         <h3>Low Speed PXI and SCXI Systems on NI MAX</h3>
         <div className='twoColumn'>
-        <ol>
-          <li>Valve Digital Out(K)</li>
-          <li>Module Types: PXI-6512/SCB-100</li>
-          <li>Instrument Types:</li>
-          <li>Non-Throttable Valve</li>
-          <li>Triggers</li>
-          <li>Enables</li>
-          <li>Exciter Power</li>
-          <li>Spark Command</li>
-          <li>MAX Settings:</li>
-        </ol>
-          <li>Valve Feedback(E)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>Typically on RTX</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>Valve Feedback</li>
-                </ul>
-              <li>MAX Settings:</li>
-            </ol>
+          <li>Valve Digital Out(K):</li><br />
+          Module Types: PXI-6512/SCB-100<br />
+          Instrument Types: Non-Throttable Valve, Trigger, Enable,
+          Exciter Power, Spark Command<br />
+          MAX Settings:<br /><br />
+          <li>Valve Feedback(E):</li><br />
+          Module Types: Typically on RTX<br />
+          Instrument Types: Valve Feedback<br />
+          MAX Settings:<br /><br />
           <li>Limit(L)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>Typically on RTX</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>Limit Heads</li>
-                </ul>
-              <li>Meter Setup:</li>
-              <li>MAX Settings:</li>
-            </ol>
+          Module Types: Typically on RTX<br />
+          Instrument Types: Limit Heads<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
           <li>Current Analog In(I)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>PXIe-4302/TB-4302</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>Pressure Transducers</li>
-                  <li>Temperature Transducer</li>
-                  <li>Dynamic Pressure </li>
-                </ul>
-              <li>Meter Setup:</li>
-              <li>MAX Settings:</li>
-            </ol>
+          Module Types: PXIe-4302/TB-4302<br />
+          Instrument Types: Pressure Transducers, Temperature Transducer,
+          Dynamic Pressure<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
           <li>Voltage Analog IN(V)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>PXIe-4302/TB-4302</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>Valve Position Feedback</li>
-                  <li>LVDT</li>
-                  <li>PSU Voltage Feedback</li>
-                  <li>Pressure Transducer</li>
-                  <li>Gas Sensor</li>
-                  <li>Flow Meter</li>
-                </ul>
-              <li>Meter Setup:</li>
-              <li>MAX Settings:</li>
-            </ol>
+          Module Types: PXIe-4302/TB-4302<br />
+          Instrument Types: Valve Position Feedback, LVDT, PSU Voltage Feedback,
+          Pressure Transducer, Gas Sensor, Flow Meter<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
           <li>Analog Out Voltage/Current(AO)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>PXIe-4322/TB-4322</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li></li>
-                </ul>
-              <li>Meter Setup:</li>
-              <li>MAX Settings:</li>
-            </ol>
+          Module Types: PXIe-4322/TB-4322<br />
+          Instrument Types:<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
           <li>Analog Out Feedback Voltage(AOFB)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>PXIe-4302/TB-4302</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>ER3K</li>
-                  <li>V200</li>
-                  <li>Triggers</li>
-                  <li>Stat Lines</li>
-                </ul>
-              <li>Meter Setup:</li>
-              <li>MAX Settings:</li>
-            </ol>
+          Module Types: PXIe-4302/TB-4302<br />
+          Instrument Types: ER3K, V200, Triggers, Stat Lines<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
           <li>Thermocouple(T)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>PXIe-4353/TB-4353</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>E/K Type Thermocouples</li>
-                </ul>
-              <li>Meter Setup:</li>
-              <li>MAX Settings:</li>
-            </ol>
+          Module Types: PXIe-4353/TB-4353<br />
+          Instrument Types: E/K Type Thermocouples<br />
+          Meter Setup:<br />
+          MAX Settings:<br />
           <li>RTD(R)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>PXIe-4357/TB-4357</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>RTD's</li>
-                </ul>
-              <li>Meter Setup:</li>
-              <li>MAX Settings:</li>
-            </ol>
+          Module Types: PXIe-4357/TB-4357<br />
+          Instrument Types: RTD's<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
           <li>Counter(C)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>PXI-6624/SCB-100</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>Flow Meter</li>
-                </ul>
-              <li>Meter Setup:</li>
-              <li>MAX Settings:</li>
-            </ol>
+          Module Types: PXI-6624/SCB-100<br />
+          Instrument Types: Flow Meter<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
         </div>
 
         <h3>High Speed PXI and SCXI Systems on NI MAX</h3>
         <div className='twoColumn'>
-        <ol>
           <li>High Speed Dynamic Voltage(HS/D)</li>
-            <ol>
-              <li>Module Types:</li>
-                <ul>
-                  <li>PXIe-4497</li>
-                </ul>
-              <li>Instrument Types:</li>
-                <ul>
-                  <li>Dynamic Pressure Ducers</li>
-                  <li>Accelerometers</li>
-                  <li>Microphone</li>
-                </ul>
-              <li>Meter Setup:</li>
-              <li>MAX Settings:</li>
-            </ol>
-            <li>High Speed Voltage(HSV)</li>
-              <ol>
-                <li>Module Types:</li>
-                  <ul>
-                    <li>PXIe-4300/TB-4300</li>
-                  </ul>
-                <li>Instrument Types:</li>
-                  <ul>
-                    <li>Spark Feedback</li>
-                    <li>LVDTs</li>
-                    <li>ZTS</li>
-                  </ul>
-                <li>Meter Setup:</li>
-                <li>MAX Settings:</li>
-              </ol>
-            <li>High Speed Y Voltage(HSY)</li>
-              <ol>
-                <li>Module Types:</li>
-                  <ul>
-                    <li>PXIe-4303/TB-4302</li>
-                  </ul>
-                <li>Instrument Types:</li>
-                  <ul>
-                    <li>Low Speed Current Channels</li>
-                  </ul>
-                <li>Meter Setup:</li>
-                <li>MAX Settings:</li>
-              </ol>
-            <li>High Speed Strain(HSS/S)</li>
-              <ol>
-                <li>Module Types:</li>
-                  <ul>
-                    <li>PXIe-4330/TB-4330</li>
-                  </ul>
-                <li>Instrument Types:</li>
-                  <ul>
-                    <li>Strain Gauges</li>
-                    <li>Load Cell</li>
-                  </ul>
-                <li>Meter Setup:</li>
-                <li>MAX Settings:</li>
-              </ol>
-              </ol>
+          Module Types: PXIe-4497<br />
+          Instrument Types: Dynamic Pressure Ducers, Accelerometers,
+          Microphone<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
+          <li>High Speed Voltage(HSV)</li>
+          Module Types: PXIe-4300/TB-4300<br />
+          Instrument Types: Spark Feedback, LVDTs, ZTS<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
+          <li>High Speed Y Voltage(HSY)</li>
+          Module Types: PXIe-4303/TB-4302<br />
+          Instrument Types: Low Speed Current Channels<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
+          <li>High Speed Strain(HSS/S)</li>
+          Module Types: PXIe-4330/TB-4330<br />
+          Instrument Types: Strain Gauges, Load Cell<br />
+          Meter Setup:<br />
+          MAX Settings:<br /><br />
         </div>
         <div>
         <h3>Resources:</h3>

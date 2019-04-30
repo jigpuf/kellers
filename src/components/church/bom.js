@@ -1,17 +1,18 @@
 import React from 'react';
+import Nephi1 from './bom/nephi1.js';
 
 class BOM extends React.Component {
-  state = {
-    tier2: undefined,
+  state= {
+  tier2: undefined,
+}
+pickTier2 = (item) => {
+  return () => {
+    this.setState({tier2:item})
   }
-  pickTier2 = (item) => {
-    return () => {
-      this.setState({tier1:item})
-    }
-  }
+}
   render () {
     const bomItems = [
-          {name: '1 Nephi', slug: 'nephi1'},
+          {name: '1 Nephi', slug: 'nephi1', component: <Nephi1 />},
           {name: '2 Nephi', slug: 'nephi2'},
           {name: 'Jacob', slug: 'jacob'},
           {name: 'Enos', slug: 'enos'},
@@ -34,20 +35,20 @@ class BOM extends React.Component {
             <button
               key={item.slug}
               onClick={this.pickTier2(item.slug)}
-              className={this.state.tier1 === item.slug ? "tier2 active" : "tier2"}
+              className={this.state.tier2 === item.slug ? "tier2 active" : "tier2"}
               >{item.name}</button>
           )
         })
         const tier2 = bomItems.filter(item => {
           return this.state.tier2 === item.slug;
         });
-        const renderTier2Component = tier2[0] && tier2[0].component;
+        const renderTier3Component = tier2[0] && tier2[0].component;
     return (
       <div>
         <ul>
         {renderBomItems}
         <hr />
-        {renderTier2Component}
+        {renderTier3Component}
         </ul>
       </div>
     );

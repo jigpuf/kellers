@@ -2,7 +2,8 @@ import React from 'react';
 import Scriptural from './prophecy/scriptural.js';
 import Talks from './prophecy/conference.js';
 
-class Prophecy extends React.Component {  state = {
+class Prophecy extends React.Component {
+    state = {
     tier2: undefined,
   }
   pickTier2 = (item) => {
