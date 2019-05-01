@@ -5,9 +5,9 @@ class Nephi1 extends React.Component {
     return (
       <div>
       <a href="https://www.youtube.com/watch?v=UQFyCmCzhYw"
-      >1</a> 
+      >1,</a>
       <a href="https://www.youtube.com/watch?v=UQFyCmCzhYw"
-      >2</a>
+      >2,</a>
       </div>
     );
   }

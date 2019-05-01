@@ -16,6 +16,8 @@ class Apps extends React.Component {
       {name: 'Battleship', slug: 'battleship' },
       {name: 'Tic-Tac-Toe', slug: 'ttt' },
       {name: 'Electronics Test', slug: 'et' },
+      {name: 'Homeschool', slug: 'homeschool'},
+      {name: 'Lawnmowing', slug: 'lawnmowing'},
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (
