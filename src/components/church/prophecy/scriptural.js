@@ -140,7 +140,7 @@ class Scriptural extends React.Component {
         101,103,105,112,113,116,133
         </p>
       <h3>Book of Mormon</h3>
-        1Ne 8,10-15,19-22<br />
+        1Ne 14,15,19-22<br />
         2Ne 3,6-9,12-24,26-30<br />
         Jacob 5,6<br />
         3 Ne 16,20-22,24,25<br />

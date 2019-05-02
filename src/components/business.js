@@ -14,6 +14,7 @@ class Business extends React.Component {
       {name: 'Business Ideas', slug: 'ideas' },
       {name: 'Money Concepts', slug: 'money' },
       {name: 'Tax Tracking', slug: 'tax' },
+      {name: 'Stock Trading', slug: 'stock' },
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

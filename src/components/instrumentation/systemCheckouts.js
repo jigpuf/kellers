@@ -138,7 +138,8 @@ class Checkouts extends React.Component {
         >NI MAX Create Task</a>
         <br /><br /><br /><br />
         </div>
-
+        <img src='instrumentation/tcSource.jpeg'></img>
+        <img src='instrumentation/tcMeasure.jpeg'></img>
       </div>
 </div>
   )
