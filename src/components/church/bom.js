@@ -1,5 +1,6 @@
 import React from 'react';
 import Nephi1 from './bom/nephi1.js';
+import Nephi2 from './bom/nephi2.js';
 
 class BOM extends React.Component {
   state= {
@@ -13,7 +14,7 @@ pickTier2 = (item) => {
   render () {
     const bomItems = [
           {name: '1 Nephi', slug: 'nephi1', component: <Nephi1 />},
-          {name: '2 Nephi', slug: 'nephi2'},
+          {name: '2 Nephi', slug: 'nephi2', component: <Nephi2 />},
           {name: 'Jacob', slug: 'jacob'},
           {name: 'Enos', slug: 'enos'},
           {name: 'Jarom', slug: 'jarom'},

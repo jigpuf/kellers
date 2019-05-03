@@ -31,27 +31,28 @@ class Nephi1 extends React.Component {
       <a href="https://www.youtube.com/watch?v=5m_WMTe49DE&t=56s"
       >12-Nephi's Vision 2-Fall of Nephite Nation</a><br />
       <a href="https://www.youtube.com/watch?v=F9ZcTMuiMF0"
-      >13-Nephi's Vision 3-Apostacy,America,Restoration,Zion</a><br />
+      >13-Nephi's Vision 3-Apostacy, America, Restoration, Zion</a><br />
       <a href="https://www.youtube.com/watch?v=jUBmNhTrUCA&t=17s"
-      >14-Nephi's Vision 4-Zion,Great Division,War,Comencement,John</a><br />
+      >14-Nephi's Vision 4-Zion, Great Division, War, Comencement,John</a><br />
       <a href="https://www.youtube.com/watch?v=VUsHWLT4GNc"
       >15-Nephi-Olive Tree & Lehi's Vision</a><br />
       <a href="https://www.youtube.com/watch?v=ah2We4V-AbA"
-      >16-Liahona,Death of Ishmael</a><br />
+      >16-Liahona, Broken Bow, Death of Ishmael</a><br />
       <a href="https://www.youtube.com/watch?v=dTXRE_DHVR4&t=493s"
-      >17</a><br />
+      >17-Boats and Dry Reeds</a><br />
       <a href="https://www.youtube.com/watch?v=3_Kxd308RGE"
-      >18</a><br />
+      >18-The Voyage</a><br />
       <a href="https://www.youtube.com/watch?v=qlDJqpwhpsE"
-      >19</a><br />
+      >19-Lost 116, Death of Christ, Scattering and Gathering</a><br />
       <a href="https://www.youtube.com/watch?v=YCcXCo8QCv8&t=52s"
-      >20</a><br />
+      >20-Isaiah 48-Jews turn on God, Furnace of Afffliction</a><br />
       <a href="https://www.youtube.com/watch?v=BgFevn7MCsc"
-      >21</a><br />
+      >21-Isaiah 49-Christ will deliver a scattered Israel</a><br />
       <a href="https://www.youtube.com/watch?v=tcMyd2GSCFQ&t=67s"
-      >22</a><br />
+      >22-Scattering, Gathering, Abominable church falls, Millenium</a><br />
       </div>
-      <h3>Iterpreter Round Table:</h3>
+      <h3>Interpreter Round Table:</h3>
+      <div className='twoColumn'>
       <a href="https://www.youtube.com/watch?v=NKb1SO4X-q0&list=PLRMn4gyXMWLujWOQeQnYwuONeAY0VzIXv"
       >1-Keystone of our religion</a><br />
       <a href="https://www.youtube.com/watch?v=vU4A4MNWTXw&list=PLRMn4gyXMWLujWOQeQnYwuONeAY0VzIXv&index=2"
@@ -128,6 +129,7 @@ class Nephi1 extends React.Component {
       <h3>BYU Studies</h3>
       <h3>BYU Speeches</h3>
       <h3>William Hamblin</h3>
+      </div>
       </div>
     );
   }
