@@ -1,5 +1,6 @@
 import React from 'react';
 import Networking from './instrumentation/networking.js'
+import Plc from './instrumentation/plc.js'
 import Checkouts from './instrumentation/systemCheckouts.js'
 import Instruments from './instrumentation/instruments.js'
 
@@ -16,12 +17,11 @@ class Instrumentation extends React.Component {
     const tier1Items = [
       {name: 'Cameras', slug: 'cameras' },
       {name: 'Power', slug: 'power' },
-      {name: 'HOA Switches', slug: 'hoa' },
       {name: 'VFD', slug: 'vfds' },
       {name: 'Explosion Codes', slug: 'explosion' },
       {name: 'Instruments', slug: 'instruments', component:<Instruments /> },
       {name: 'Networking', slug: 'networking', component:<Networking /> },
-      {name: 'PLC Hardware', slug: 'plc' },
+      {name: 'PLC Hardware', slug: 'plc', component:<Plc />},
       {name: 'NI Hardware', slug: 'ni' },
       {name: 'Channel Types', slug: 'checkouts', component:<Checkouts /> },
     ]

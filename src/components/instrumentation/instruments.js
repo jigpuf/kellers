@@ -30,6 +30,7 @@ class Instruments extends React.Component {
       {name: 'Flow', slug: 'flow' },
       {name: 'Coriolis', slug: 'coriolis' },
       {name: 'Microphones', slug: 'microphones' },
+      {name: 'HOA Switches', slug: 'hoa' },
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

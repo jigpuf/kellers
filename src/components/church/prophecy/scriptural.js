@@ -140,9 +140,65 @@ class Scriptural extends React.Component {
         101,103,105,112,113,116,133
         </p>
       <h3>Book of Mormon</h3>
-        1Ne 14,15,21-22<br />
-        2Ne 3,6-9,12-24,26-30<br />
-        Jacob 5,6<br />
+        1Ne *14,*15,21-*22<br />
+        2Ne *3,8,12,14,15,20-*25,*26-27,*29-*30<br />
+        Jacob 5:<br />
+        <ol>
+          <li>Israel is an olive tree(3)(~2000BC)</li>
+          <li>Tribes of Israel are born</li>
+          <li>Israel begins to decay(3)</li>
+          <li>Lord prunes,digs, nourishes(4-5)</li>
+          <li>Young branches, but top starts dying(6)</li>
+          <li>Branches from a wild olive are taken(7)</li>
+          <li>Dying natural branches are cut off and burned(7,9)</li>
+          <li>Northern Kingdom into Asyria</li>
+          <li>Many Young branches taken and grafted into other trees(8,13-14)</li>
+          <li>Lehites and 2 other groups leave</li>
+          <li>Wild branches grafted into the place of dying branches(8-10)</li>
+          <li>Original tree digged pruned and nourished(11-12)</li>
+          <li>A long time passes(15)</li>
+          <li>Original tree bears fruit(16-18)</li>
+          <li>Christian Church</li>
+          <li>Nethermost tree bring forth good fruit(19-20)</li>
+          <li>Some group is righteous</li>
+          <li>Servant recodnizes it as the poorest ground(21-22)</li>
+          <li>A third tree that was in an even worse spot but produced fruit(23)</li>
+          <li>Another group is righteous</li>
+          <li>A fourth tree was in a good spot,but it brought forth bad and good(24-25)</li>
+          <li>Nephites and Lamanites</li>
+          <li>Lord tells servant to pluck off bad branches and burn them(26)</li>
+          <li>Servant request continued care to produce better fruit(27)</li>
+          <li>They nourish the entire vinyard(28)</li>
+          <li>A long time passes(29)</li>
+          <li>The original tree produced all sorts of fruit none good(30-32)</li>
+          <li>Apostacy</li>
+          <li>Servant recognizes its good roots(33-34)</li>
+          <li>The fruit makes the tree worthless to the Lord(35-37)</li>
+          <li>on the nethermost parts, all three other branches had gone bad(38-39)</li>
+          <li>The forth tree was completely bad(40)</li>
+          <li>All trees are bad in the vinyard, even the best spot that had been cleared out for the tree(41-47)</li>
+          <li>The branches have overcome the root and went bad(48)</li>
+          <li>Apostacy of scattered Israel</li>
+          <li>Lord wants to burn vinyard but servant ask for more time(49-51)</li>
+          <li>They graft the branches from the three trees and graft them into the first(52)</li>
+          <li>The branches from the three trees are grafted in place of the worst branches(52)</li>
+          <li>This was done to save the roots of the original tree(53,56)</li>
+          <li>The branches from the first tree are grafted into the other 3(54-55,57)</li>
+          <li>They nourish trees and hope they can give good fruit again(58-60)</li>
+          <li>More servants are called and they carry out the swap and pune and dung(61-64)</li>
+          <li>Mixing of the Lehites and Jews</li>
+          <li>The bad is pruned from the trees slowly to allow the root to live and good to grow(65-70)</li>
+          <li>Verses 49-70 are the plan and 71-74 they carry out the plan</li>
+          <li>Good fruit is produced and bad branches cleared until all trees were good(74)</li>
+          <li>Separation and purifying of Church</li>
+          <li>All trees act as one body and a lot of fruit is given(74-76)</li>
+          <li>All Israel united</li>
+          <li>Millenium</li>
+          <li>After a long time, the bad will come back in, the bad and good will be separated(77)</li>
+          <li>The whole vinyard will be burned(77)</li>
+          <li>Celestial World</li>
+        </ol>
+        6<br />
         3 Ne 16,20-22,24,25<br />
         Ether 4,8,13<br />
       <h3>Pearl of Great Price</h3>
