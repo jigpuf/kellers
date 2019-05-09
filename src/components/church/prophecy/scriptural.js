@@ -183,20 +183,27 @@ class Scriptural extends React.Component {
           <li>They graft the branches from the three trees and graft them into the first(52)</li>
           <li>The branches from the three trees are grafted in place of the worst branches(52)</li>
           <li>This was done to save the roots of the original tree(53,56)</li>
-          <li>The branches from the first tree are grafted into the other 3(54-55,57)</li>
+          <li>The branches from the first tree are grafted into the other
+          3(54-55,57)</li>
           <li>They nourish trees and hope they can give good fruit again(58-60)</li>
-          <li>More servants are called and they carry out the swap and pune and dung(61-64)</li>
+          <li>More servants are called and they carry out the swap and pune and
+          dung(61-64)</li>
           <li>Mixing of the Lehites and Jews</li>
-          <li>The bad is pruned from the trees slowly to allow the root to live and good to grow(65-70)</li>
+          <li>The bad is pruned from the trees slowly to allow the root to live
+          and good to grow(65-70)</li>
           <li>Verses 49-70 are the plan and 71-74 they carry out the plan</li>
-          <li>Good fruit is produced and bad branches cleared until all trees were good(74)</li>
+          <li>Good fruit is produced and bad branches cleared until all trees
+          were good(74)</li>
           <li>Separation and purifying of Church</li>
           <li>All trees act as one body and a lot of fruit is given(74-76)</li>
           <li>All Israel united</li>
           <li>Millenium</li>
-          <li>After a long time, the bad will come back in, the bad and good will be separated(77)</li>
+          <li>After a long time, the bad will come back in,the bad and good
+          will be separated(77)</li>
           <li>The whole vinyard will be burned(77)</li>
           <li>Celestial World</li>
+          <a href='https://www.youtube.com/watch?v=XtPR_mBWdas'
+          >Alegory Breakdown</a>
         </ol>
         6<br />
         3 Ne 16,20-22,24,25<br />
