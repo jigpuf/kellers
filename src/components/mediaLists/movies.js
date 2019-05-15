@@ -20,13 +20,18 @@ class Movies extends React.Component {
         >Alien</a></li>
         <li><a href="https://www.youtube.com/watch?v=XKSQmYUaIyE"
         >Alien 2</a></li>
-        <li>American Beauty</li>
-        <li>Amile</li>
-        <li>Anchorman</li>
-        <li>Apocalypto</li>
-        <li>Atlantis</li>
-        <li>Avengers Infinity War</li>
-        <li>Babadook</li>
+        <li><a href="https://www.youtube.com/watch?v=3ycmmJ6rxA8"
+        >American Beauty</a></li>
+        <li><a href="https://www.youtube.com/watch?v=HUECWi5pX7o"
+        >Amile</a></li>
+        <li><a href="https://www.youtube.com/watch?v=-T3wnP91OnI"
+        >Anchorman</a></li>
+        <li><a href="https://www.youtube.com/watch?v=pXuwjdQx924"
+        >Apocalypto</a></li>
+        <li><a href="https://www.youtube.com/watch?v=sZIimDPZQwg"
+        >Atlantis</a></li>
+        <li><a href="https://www.youtube.com/watch?v=k5WQZzDRVtw"
+        >Babadook</a></li>
         <li>Back to the Future</li>
         <li>Back to the Future 2</li>
         <li>Back to the Future 3</li>
