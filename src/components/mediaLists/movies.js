@@ -32,14 +32,22 @@ class Movies extends React.Component {
         >Atlantis</a></li>
         <li><a href="https://www.youtube.com/watch?v=k5WQZzDRVtw"
         >Babadook</a></li>
-        <li>Back to the Future</li>
-        <li>Back to the Future 2</li>
-        <li>Back to the Future 3</li>
-        <li>Batteries not Included</li>
-        <li>Beach</li>
-        <li>Behind Enemy Lines</li>
-        <li>Beowolf</li>
-        <li>beatlejuice</li>
+        <li><a href="https://www.youtube.com/watch?v=qvsgGtivCgs"
+        >Back to the Future</a></li>
+        <li><a href="https://www.youtube.com/watch?v=MdENmefJRpw"
+        >Back to the Future 2</a></li>
+        <li><a href="https://www.youtube.com/watch?v=EYkguxpqsrg"
+        >Back to the Future 3</a></li>
+        <li><a href="https://www.youtube.com/watch?v=h25ZL7fxZ8o"
+        >Batteries not Included</a></li>
+        <li><a href="https://www.youtube.com/watch?v=RweHayPG3wA"
+        >Beach</a></li>
+        <li><a href="https://www.youtube.com/watch?v=PUeWBp_kmuo"
+        >Behind Enemy Lines</a></li>
+        <li><a href="https://www.youtube.com/watch?v=DaShOr5AeKA"
+        >Beowolf</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ickbVzajrk0"
+        >beatlejuice</a></li>
         <li>Big Fish</li>
         <li>Big Lebowski</li>
         <li>Black Hawk Down</li>

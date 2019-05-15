@@ -17,7 +17,6 @@ class Videos extends React.Component {
       {name: 'Music', slug: 'music' },
       {name: 'Funny', slug: 'funny' },
       {name: 'Programming', slug: 'programming' },
-      {name: 'Church', slug: 'church' },
       {name: 'Mechanical', slug: 'mechanical' },
       {name: 'Electrical', slug: 'electrical' },
       {name: 'Survival', slug: 'survival' },
