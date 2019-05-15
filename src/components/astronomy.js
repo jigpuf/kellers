@@ -11,7 +11,7 @@ class Astronomy extends React.Component {
   }
   render () {
     const tier1Items = [
-      {name: 'Soltices and Equinoxes', slug: 'soltices' },
+      {name: 'Solstices and Equinoxes', slug: 'solstices' },
       {name: 'Sirius', slug: 'sirius' },
       {name: 'Constallations', slug: 'constalations' },
       {name: 'Seasons', slug: 'seasons' },

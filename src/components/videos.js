@@ -1,5 +1,6 @@
 import React from 'react';
-import Movies from './videos/movies.js';
+
+
 
 class Videos extends React.Component {
     state = {
@@ -13,7 +14,6 @@ class Videos extends React.Component {
 
   render () {
     const tier1Items = [
-      {name: 'Movies', slug: 'movies', component: <Movies />},
       {name: 'Music', slug: 'music' },
       {name: 'Funny', slug: 'funny' },
       {name: 'Programming', slug: 'programming' },

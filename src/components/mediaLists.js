@@ -1,4 +1,6 @@
 import React from 'react';
+import Movies from './mediaLists/movies.js';
+
 
 class MediaLists extends React.Component {
   state = {
@@ -12,11 +14,11 @@ class MediaLists extends React.Component {
   render () {
     const tier1Items = [
       {name: 'Music', slug: 'music' },
-      {name: 'Movies', slug: 'movies' },
+      {name: 'Movies', slug: 'movies', component:<Movies />},
       {name: 'Books', slug: 'books' },
       {name: 'TV Shows', slug: 'tv' },
       {name: 'Video Games', slug: 'vg' },
-      {name: 'Board Games', slug: 'bg' },    
+      {name: 'Board Games', slug: 'bg' },
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

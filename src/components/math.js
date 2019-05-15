@@ -11,7 +11,6 @@ class Math extends React.Component {
   }
   render () {
     const tier1Items = [
-      {name: 'Math Properties', slug: 'properties' },
       {name: 'Arithmetic', slug: 'arithmetic' },
       {name: 'Algebra', slug: 'algebra' },
       {name: 'Geometry', slug: 'geometry' },

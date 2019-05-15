@@ -6,13 +6,20 @@ class Movies extends React.Component {
     return (
       <div>
       <h3>Keller's Favorite Movies</h3>
+      <div className="twoColumn">
       <ol>
-        <li>Adjustment Beurou</li>
-        <li>Aeon Flux</li>
-        <li>Akira</li>
-        <li>Aladdin</li>
-        <li>Alien</li>
-        <li>Alien 2</li>
+        <li><a href="https://www.youtube.com/watch?v=wZJ0TP4nTaE"
+        >Adjustment Bureau</a></li>
+        <li><a href="https://www.youtube.com/watch?v=d11loPMnC2w"
+        >Aeon Flux</a></li>
+        <li><a href="https://www.youtube.com/watch?v=i_MONOV1_sc"
+        >Akira</a></li>
+        <li><a href="https://www.youtube.com/watch?v=HlULSKurtzg"
+        >Aladdin</a></li>
+        <li><a href="https://www.youtube.com/watch?v=LjLamj-b0I8"
+        >Alien</a></li>
+        <li><a href="https://www.youtube.com/watch?v=XKSQmYUaIyE"
+        >Alien 2</a></li>
         <li>American Beauty</li>
         <li>Amile</li>
         <li>Anchorman</li>
@@ -201,11 +208,11 @@ class Movies extends React.Component {
         <li>13th Warrior</li>
         <li>28 Days Later</li>
         <li>28 Weeks Later</li>
-        <li>300</li>
-        <li>9</li>
+        <li><a href="https://www.youtube.com/watch?v=UrIbxk7idYA">300</a></li>
+        <li><a href="https://www.youtube.com/watch?v=_qApXdc1WPY">9</a></li>
       </ol>
       <h3>Other Peoples Favorites</h3>
-      
+        </div>
       </div>
     );
   }
