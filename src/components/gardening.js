@@ -10,7 +10,7 @@ class Gardening extends React.Component {
     }
   }
   render () {
-    const tier1Items = [
+    const Items = [
       {name: 'Ground Gardening', slug: 'ground' },
       {name: 'Square foot', slug: 'sqft' },
       {name: 'Companion Planting', slug: 'companion' },
@@ -18,7 +18,7 @@ class Gardening extends React.Component {
       {name: 'Plant Cures', slug: 'cures' },
       {name: 'Aquaponics', slug: 'aquaponics' },
     ]
-    const renderTier1Items = tier1Items.map(item => {
+    const renderItems = Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -27,14 +27,14 @@ class Gardening extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = tier1Items.filter(item => {
+    const tier1 = Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderTier1Items}
+          {renderItems}
         </ul>
         <hr />
         {renderTier2Component}

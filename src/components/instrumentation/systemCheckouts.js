@@ -11,7 +11,7 @@ class Checkouts extends React.Component {
     }
   }
   render () {
-    const tier1Items = [
+    const Items = [
     {name: 'Valve Control(K)', slug: 'valveControl' },
     {name: 'Valve Feedback(E)', slug: 'valveFeedback' },
     {name: 'Limit(L)', slug: 'limit' },
@@ -27,7 +27,7 @@ class Checkouts extends React.Component {
     {name: 'High Speed Y Voltage(HSY)', slug: 'hsy' },
     {name: 'High Speed Strain(HSS)', slug: 'hss' },
   ]
-  const renderTier1Items = tier1Items.map(item => {
+  const renderItems = Items.map(item => {
     return (
       <button
         key={item.slug}
@@ -36,7 +36,7 @@ class Checkouts extends React.Component {
       >{item.name}</button>
     )
   })
-  const tier1 = tier1Items.filter(item => {
+  const tier1 = Items.filter(item => {
     return this.state.tier1 === item.slug;
   });
   const renderTier2Component = tier1[0] && tier1[0].component;
@@ -44,7 +44,7 @@ class Checkouts extends React.Component {
     <div>
     <div>
       <ul>
-        {renderTier1Items}
+        {renderItems}
       </ul>
       <hr />
       {renderTier2Component}

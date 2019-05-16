@@ -21,7 +21,7 @@ class Church extends React.Component {
 
   render () {
 
-    const tier1Items = [
+    const Items = [
       {name: 'BOM', slug: 'bom', component:<Bom />},
       {name: 'D&C', slug: 'dc', component:<Dc />},
       {name: 'POGP', slug: 'pogp', component:<Pogp />},
@@ -31,8 +31,9 @@ class Church extends React.Component {
       {name: 'Texts', slug: 'texts', component:<Texts />},
       {name: 'Prophecy', slug: 'prophecy', component:<Prophecy />},
       {name: 'Subjects', slug: 'subjects', component:<Subject />},
+      {name: 'Favorite Talks', slug: 'talks'},
     ]
-    const rendertier1Items = tier1Items.map(item => {
+    const renderItems = Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -41,14 +42,14 @@ class Church extends React.Component {
           >{item.name}</button>
       )
     })
-    const tier1 = tier1Items.filter(item => {
+    const tier1 = Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
         const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
       <ul>
-        {rendertier1Items}
+        {renderItems}
         <hr />
         {renderTier2Component}
       </ul>

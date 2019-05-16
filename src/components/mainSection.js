@@ -3,6 +3,7 @@ import Apps from './apps.js';
 import Astronomy from './astronomy.js';
 import Business from './business.js';
 import Church from './church.js';
+import Efficiency from './efficiency.js';
 import Electronics from './electronics.js';
 import Food from './food.js';
 import Games from './games.js';
@@ -10,7 +11,6 @@ import Gardening from './gardening.js';
 import Guitar from './guitar.js';
 import Health from './health.js';
 import Instrumentation from './instrumentation.js';
-import Links from './links.js';
 import Math from './math.js';
 import Mechanics from './mechanics.js';
 import MediaLists from './mediaLists.js';
@@ -19,7 +19,6 @@ import Quotes from './quotes.js';
 import Spanish from './spanish.js';
 import Stories from './stories.js';
 import Survival from './survival.js';
-import Videos from './videos.js';
 import Woodworking from './woodworking.js';
 
 /*
@@ -37,6 +36,7 @@ const MainSection = (props) => {
       {activeTab3 === 'astronomy' && <Astronomy />}
       {activeTab3 === 'business' && <Business />}
       {activeTab3 === 'church' && <Church />}
+      {activeTab3 === 'efficiency' && <Efficiency />}
       {activeTab3 === 'electronics' && <Electronics />}
       {activeTab3 === 'food' && <Food />}
       {activeTab3 === 'games' && <Games />}
@@ -44,7 +44,6 @@ const MainSection = (props) => {
       {activeTab3 === 'guitar' && <Guitar />}
       {activeTab3 === 'health' && <Health />}
       {activeTab3 === 'instrumentation' && <Instrumentation />}
-      {activeTab3 === 'links' && <Links />}
       {activeTab3 === 'math' && <Math />}
       {activeTab3 === 'mechanics' && <Mechanics />}
       {activeTab3 === 'mediaLists' && <MediaLists />}
@@ -53,7 +52,6 @@ const MainSection = (props) => {
       {activeTab3 === 'spanish' && <Spanish />}
       {activeTab3 === 'stories' && <Stories />}
       {activeTab3 === 'survival' && <Survival />}
-      {activeTab3 === 'videos' && <Videos />}
       {activeTab3 === 'woodworking' && <Woodworking />}
     </div>
   );

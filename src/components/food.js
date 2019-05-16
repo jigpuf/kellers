@@ -14,7 +14,7 @@ class Food extends React.Component {
 
   render () {
 
-    const tier1Items = [
+    const Items = [
       {name: 'Drinks', slug: 'drinks' },
       {name: 'Appetizers', slug: 'appetizers' },
       {name: 'Breakfast', slug: 'breakfast' },
@@ -27,7 +27,7 @@ class Food extends React.Component {
       {name: 'Diet', slug: 'diet' },
     ];
 //Create array to build buttons
-  const rendertier1Items = tier1Items.map(item =>{
+  const renderItems = Items.map(item =>{
     return(
         <button
           onClick={this.pickTier1(item.slug)}
@@ -39,7 +39,7 @@ class Food extends React.Component {
   )
     return(
       <ul>
-        {rendertier1Items}
+        {renderItems}
         <hr />
       </ul>
     )

@@ -12,15 +12,16 @@ class Health extends React.Component {
     return() => {this.setState({tier2:item})}
   }
   render () {
-    const tier1Items = [
+    const Items = [
       {name: 'Diet', slug: 'diet' },
       {name: 'Stretching', slug: 'stretching' },
       {name: 'Lifting', slug: 'lifting' },
       {name: 'Cardio', slug: 'cardio' },
       {name: 'Hormones', slug: 'hormones' },
+      {name: 'Body Systems', slug: 'systems'},
       {name: 'Supplements', slug: 'supplements' },
     ]
-    const renderTier1Items = tier1Items.map(item => {
+    const renderItems = Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -29,14 +30,14 @@ class Health extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = tier1Items.filter(item => {
+    const tier1 = Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderTier1Items}
+          {renderItems}
         </ul>
         <hr />
         {renderTier2Component}

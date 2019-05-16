@@ -10,16 +10,15 @@ class Electronics extends React.Component {
     }
   }
   render () {
-    const tier1Items = [
+    const Items = [
       {name: 'RLC Circuits', slug: 'rlc' },
       {name: 'Semi-Conductors', slug: 'semi' },
       {name: 'Color Codes', slug: 'colors' },
       {name: 'Filters', slug: 'filters' },
       {name: 'Rectifiers', slug: 'rectifiers' },
       {name: 'Soldering', slug: 'soldering' },
-
     ]
-    const renderTier1Items = tier1Items.map(item => {
+    const renderItems = Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -28,14 +27,14 @@ class Electronics extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = tier1Items.filter(item => {
+    const tier1 = Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderTier1Items}
+          {renderItems}
         </ul>
         <hr />
         {renderTier2Component}

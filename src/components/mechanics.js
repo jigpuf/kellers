@@ -10,7 +10,7 @@ class Mechanics extends React.Component {
     }
   }
   render () {
-    const tier1Items = [
+    const Items = [
       {name: 'Titan', slug: 'titan' },
       {name: 'Tacoma', slug: 'tacoma' },
       {name: 'Drivetrain', slug: 'drivetrain' },
@@ -24,7 +24,7 @@ class Mechanics extends React.Component {
       {name: 'Lubrication', slug: 'lubrication' },
       {name: 'Fluids', slug: 'fluids' },
     ]
-    const renderTier1Items = tier1Items.map(item => {
+    const renderItems = Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -33,14 +33,14 @@ class Mechanics extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = tier1Items.filter(item => {
+    const tier1 = Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderTier1Items}
+          {renderItems}
         </ul>
         <hr />
         {renderTier2Component}

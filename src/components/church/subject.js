@@ -12,6 +12,7 @@ pickTier2 = (item) => {
   render () {
     const Items = [
       {name: 'Priesthood', slug: 'priesthood'},
+      {name: 'Comandments', slug: 'comandments'},
       {name: 'Faith', slug: 'faith'},
       {name: 'Repentance', slug: 'repentance'},
       {name: 'Ordinances', slug: 'ordinances'},
@@ -19,9 +20,13 @@ pickTier2 = (item) => {
       {name: 'Sermons', slug: 'sermons'},
       {name: 'Pre-mortal Existance', slug: 'pre-mortal'},
       {name: 'Escotology', slug: 'escotology'},
+      {name: 'Christology', slug: 'christology'},
       {name: 'Atonement', slug: 'atonement'},
       {name: 'Creation and Fall', slug: 'creation'},
+      {name: 'Gathering of Israel', slug: 'gathering'},
+      {name: 'Zion', slug: 'zion'},
       {name: 'Visions', slug: 'visions'},
+      {name: 'Cosmology', slug: 'cosmology'},
     ]
       const renderItems = Items.map(item => {
         return (

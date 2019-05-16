@@ -10,7 +10,7 @@ class Programming extends React.Component {
     }
   }
   render () {
-    const tier1Items = [
+    const Items = [
       {name: 'Methodology', slug: 'method' },
       {name: 'c++', slug: 'c' },
       {name: 'HTML', slug: 'html' },
@@ -19,7 +19,7 @@ class Programming extends React.Component {
       {name: 'JSX', slug: 'jsx' },
       {name: 'MongoDB', slug: 'mongo' },
     ]
-    const renderTier1Items = tier1Items.map(item => {
+    const renderItems = Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -28,14 +28,14 @@ class Programming extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = tier1Items.filter(item => {
+    const tier1 = Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderTier1Items}
+          {renderItems}
         </ul>
         <hr />
         {renderTier2Component}

@@ -8,6 +8,7 @@ class SideMenu extends React.Component {
       { name: 'Astronomy', slug: 'astronomy' },
       { name: 'Business', slug: 'business' },
       { name: 'Church', slug: 'church' },
+      { name: 'Efficiency', slug: 'efficiency'},
       { name: 'Electronics', slug: 'electronics' },
       { name: 'Food', slug: 'food' },
       { name: 'Games', slug: 'games' },
@@ -15,7 +16,6 @@ class SideMenu extends React.Component {
       { name: 'Guitar', slug: 'guitar' },
       { name: 'Health', slug: 'health' },
       { name: 'Instrumentation', slug: 'instrumentation' },
-      { name: 'Links', slug: 'links' },
       { name: 'Math', slug: 'math' },
       { name: 'Mechanics', slug: 'mechanics' },
       { name: 'Media Lists', slug: 'mediaLists' },
@@ -24,7 +24,6 @@ class SideMenu extends React.Component {
       { name: 'Spanish', slug: 'spanish' },
       { name: 'Stories', slug: 'stories' },
       { name: 'Survival', slug: 'survival' },
-      { name: 'Videos', slug: 'videos' },
       { name: 'Woodworking', slug: 'woodworking' },
     ];
 //Build  array.  slug is an attribute of each item. Name is what shows.

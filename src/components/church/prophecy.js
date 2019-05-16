@@ -12,7 +12,7 @@ class Prophecy extends React.Component {
     }
   }
   render () {
-    const prophecyItems = [
+    const Items = [
           {name: 'Scriptural', slug: 'scrip', component: <Scriptural />},
           {name: 'Talks', slug: 'talks', component: <Talks />},
           {name: 'Leaders', slug: 'leaders'},
@@ -20,7 +20,7 @@ class Prophecy extends React.Component {
           {name: 'Non-Member', slug: 'nonMember'},
           {name: 'Prophecy Subjects', slug: 'profSub'},
         ]
-        const renderProphecyItems = prophecyItems.map(item => {
+        const renderItems = Items.map(item => {
           return (
             <button
               key={item.slug}
@@ -29,14 +29,14 @@ class Prophecy extends React.Component {
               >{item.name}</button>
           )
         })
-        const tier2 = prophecyItems.filter(item => {
+        const tier2 = Items.filter(item => {
           return this.state.tier2 === item.slug;
         });
         const renderTier3Component = tier2[0] && tier2[0].component;
     return (
       <div>
         <ul>
-        {renderProphecyItems}
+        {renderItems}
         <hr />
         {renderTier3Component}
         </ul>

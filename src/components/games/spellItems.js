@@ -11,7 +11,7 @@ class SpellItems extends React.Component {
     }
   }
   render () {
-    const tier2Items = [
+    const Items = [
       {name:'Fire', slug:'fire', component: <Fire />},
       {name:'Water', slug:'water'},
       {name:'Wind', slug:'wind'},
@@ -19,7 +19,7 @@ class SpellItems extends React.Component {
       {name:'Light', slug:'light'},
       {name:'Dark', slug:'dark'},
     ]
-    const renderTier2Items = tier2Items.map(item => {
+    const renderItems = Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -28,14 +28,14 @@ class SpellItems extends React.Component {
         >{item.name}</button>
       )
     });
-    const tier2 = tier2Items.filter(item => {
+    const tier2 = Items.filter(item => {
       return this.state.tier2 === item.slug;
     });
     const renderTier3Component = tier2[0] && tier2[0].component;
     return (
       <div>
         <ul>
-          {renderTier2Items}
+          {renderItems}
         </ul>
         <hr />
         {renderTier3Component}

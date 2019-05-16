@@ -24,6 +24,7 @@ class Instrumentation extends React.Component {
       {name: 'PLC Hardware', slug: 'plc', component:<Plc />},
       {name: 'NI Hardware', slug: 'ni' },
       {name: 'Channel Types', slug: 'checkouts', component:<Checkouts /> },
+      {name: 'Electronics', slug: 'electronics'},
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

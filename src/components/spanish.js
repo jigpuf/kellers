@@ -10,7 +10,7 @@ class Spanish extends React.Component {
     }
   }
   render () {
-    const tier1Items = [
+    const Items = [
       {name: 'Pronunciation', slug: 'pronunciation' },
       {name: 'Nouns', slug: 'nouns' },
       {name: 'Verbs', slug: 'verbs' },
@@ -22,7 +22,7 @@ class Spanish extends React.Component {
       {name: 'Vocabulary', slug: 'vocabulary' },
       {name: 'Finer Points', slug: 'finer' },
     ]
-    const renderTier1Items = tier1Items.map(item => {
+    const renderItems = Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -31,14 +31,14 @@ class Spanish extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = tier1Items.filter(item => {
+    const tier1 = Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderTier1Items}
+          {renderItems}
         </ul>
         <hr />
         {renderTier2Component}

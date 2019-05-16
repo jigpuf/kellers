@@ -1,4 +1,5 @@
 import React from 'react';
+import Sirius from './astronomy/sirius.js';
 
 class Astronomy extends React.Component {
   state = {
@@ -10,16 +11,16 @@ class Astronomy extends React.Component {
     }
   }
   render () {
-    const tier1Items = [
+    const Items = [
       {name: 'Solstices and Equinoxes', slug: 'solstices' },
-      {name: 'Sirius', slug: 'sirius' },
-      {name: 'Constallations', slug: 'constalations' },
+      {name: 'Sirius', slug: 'sirius', component: <Sirius /> },
+      {name: 'Constallations', slug: 'constallations' },
       {name: 'Seasons', slug: 'seasons' },
       {name: 'Polaris', slug: 'polaris'},
       {name: 'Eclipses', slug: 'eclipses'},
       {name: 'Electric Universe', slug: 'electric' },
     ]
-    const renderTier1Items = tier1Items.map(item => {
+    const renderItems = Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -28,14 +29,14 @@ class Astronomy extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = tier1Items.filter(item => {
+    const tier1 = Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderTier1Items}
+          {renderItems}
         </ul>
         <hr />
         {renderTier2Component}

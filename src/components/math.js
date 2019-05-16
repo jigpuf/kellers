@@ -16,6 +16,7 @@ class Math extends React.Component {
       {name: 'Geometry', slug: 'geometry' },
       {name: 'Trigonometry', slug: 'trig' },
       {name: 'Applied Math', slug: 'applied' },
+      {name: 'Paradoxes', slug: 'paradoxes' },
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (
