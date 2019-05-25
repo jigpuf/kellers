@@ -1,6 +1,6 @@
 import React from 'react';
 import Movies from './mediaLists/movies.js';
-
+import Music from './mediaLists/music.js';
 
 class MediaLists extends React.Component {
   state = {
@@ -13,7 +13,7 @@ class MediaLists extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Music', slug: 'music' },
+      {name: 'Music', slug: 'music', component:<Music />},
       {name: 'Movies', slug: 'movies', component:<Movies />},
       {name: 'Books', slug: 'books' },
       {name: 'TV Shows', slug: 'tv' },
