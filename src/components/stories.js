@@ -1,4 +1,5 @@
 import React from 'react';
+import Journals from './stories/journals.js';
 
 class Stories extends React.Component {
   state = {
@@ -12,6 +13,7 @@ class Stories extends React.Component {
   render () {
     const Items = [
       {name: 'Kwai', slug: 'kwai' },
+      {name: 'Journals', slug: 'journals', component:<Journals />},
     ]
     const renderItems = Items.map(item => {
       return (

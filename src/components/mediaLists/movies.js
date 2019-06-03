@@ -48,15 +48,24 @@ class Movies extends React.Component {
         >Beowolf</a></li>
         <li><a href="https://www.youtube.com/watch?v=ickbVzajrk0"
         >beatlejuice</a></li>
-        <li>Big Fish</li>
-        <li>Big Lebowski</li>
-        <li>Black Hawk Down</li>
-        <li>Blade</li>
-        <li>Blair Witch Project</li>
-        <li>Boondock Saints</li>
-        <li>Bram Stokers Dracula</li>
-        <li>Bubba Hotep</li>
-        <li>Burbs</li>
+        <li><a href="https://www.youtube.com/watch?v=dF-Iy7vIOJA"
+        >Big Fish</a></li>
+        <li><a href="https://www.youtube.com/watch?v=cd-go0oBF4Y"
+        >Big Lebowski</a></li>
+        <li><a href="https://www.youtube.com/watch?v=2GfBkC3qs78"
+        >Black Hawk Down</a></li>
+        <li><a href="https://www.youtube.com/watch?v=kaU2A7KyOu4"
+        >Blade</a></li>
+        <li><a href="https://www.youtube.com/watch?v=a_Hw4bAUj8A"
+        >Blair Witch Project</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ydXojYfCF3I"
+        >Boondock Saints</a></li>
+        <li><a href="https://www.youtube.com/watch?v=PlDbxogHPao"
+        >Bram Stokers Dracula</a></li>
+        <li><a href="https://www.youtube.com/watch?v=pa9331xmvhg"
+        >Bubba Hotep</a></li>
+        <li><a href="https://www.youtube.com/watch?v=pyRUijyrXr4"
+        >Burbs</a></li>
         <li>Cabin in the Woods</li>
         <li>Castaway</li>
         <li>Cell</li>
