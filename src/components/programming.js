@@ -1,4 +1,5 @@
 import React from 'react';
+import Typing from './programming/typing.js';
 
 class Programming extends React.Component {
   state = {
@@ -11,6 +12,7 @@ class Programming extends React.Component {
   }
   render () {
     const Items = [
+      {name: 'Typing', slug: 'typing', component:<Typing /> },
       {name: 'Methodology', slug: 'method' },
       {name: 'c++', slug: 'c' },
       {name: 'HTML', slug: 'html' },
