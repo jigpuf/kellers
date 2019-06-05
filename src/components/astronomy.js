@@ -44,6 +44,8 @@ class Astronomy extends React.Component {
         >Earth's movement</a><br />
         <a href='https://www.youtube.com/watch?v=qc7MfcKF1-s'
         >eclipses</a><br />
+        <a href='https://www.youtube.com/watch?v=mxhxL1LzKww&t=1135s'
+        >How much of the earth can you see at Once?</a><br />
         <h3>James Kaler Astronomy Course</h3>
         <div className='twoColumn'>
         <a href='astronomy/01_universe.mp3'>1-Universe</a><br />

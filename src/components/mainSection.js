@@ -7,7 +7,6 @@ import Efficiency from './efficiency.js';
 import Electronics from './electronics.js';
 import Food from './food.js';
 import Games from './games.js';
-import Gardening from './gardening.js';
 import Guitar from './guitar.js';
 import Health from './health.js';
 import Instrumentation from './instrumentation.js';
@@ -40,7 +39,6 @@ const MainSection = (props) => {
       {activeTab3 === 'electronics' && <Electronics />}
       {activeTab3 === 'food' && <Food />}
       {activeTab3 === 'games' && <Games />}
-      {activeTab3 === 'gardening' && <Gardening />}
       {activeTab3 === 'guitar' && <Guitar />}
       {activeTab3 === 'health' && <Health />}
       {activeTab3 === 'instrumentation' && <Instrumentation />}
