@@ -1,5 +1,6 @@
 import React from 'react';
 import Food from './survival/food.js';
+import Defense from './survival/defense.js';
 
 class Survival extends React.Component {
   state = {
@@ -13,7 +14,7 @@ class Survival extends React.Component {
   render (){
     const Items = [
       {name: 'Communications', slug: 'coms' },
-      {name: 'Defense', slug: 'defense' },
+      {name: 'Defense', slug: 'defense', component:<Defense /> },
       {name: 'Disasters', slug: 'disaster' },
       {name: 'Energy', slug: 'energy' },
       {name: 'Fire', slug: 'fire' },

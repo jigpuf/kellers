@@ -119,6 +119,15 @@ class Nephi1 extends React.Component {
       >11-1Ne 16-18</a><br />
       <a href="https://www.youtube.com/watch?v=fBhGhBfgdBA&list=PLc5yYrpPFm2vlWAA184iiy_uV36l5NGpF&index=12"
       >12-1Ne 19-22</a><br />
+      <h3>Lost 116 Pages</h3>
+      <a href="https://www.youtube.com/watch?v=k0sTZ9n5eX8"
+      >Piercing the Veil: Temple Worship in the Lost 116 Pages - Don Bradley</a><br />
+      <a href="https://www.youtube.com/watch?v=j9xsZ0OSc48"
+      >What Was on the Lost 116 Pages? (Knowhy #452)</a><br />
+      <a href=""
+      ></a><br />
+      <a href=""
+      ></a><br />
       <h3>Hyrum Andrus BOM Lectures:</h3>
       <h3>Book of Mormon Central</h3>
       <h3>Maxwell Institute</h3>
@@ -129,6 +138,7 @@ class Nephi1 extends React.Component {
       <h3>BYU Studies</h3>
       <h3>BYU Speeches</h3>
       <h3>William Hamblin</h3>
+
       </div>
       </div>
     );

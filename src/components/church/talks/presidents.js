@@ -31,27 +31,37 @@ class Presidents extends React.Component {
         <li>Joseph Fielding Smith</li>
           <ul>
             <li><a href='https://www.youtube.com/watch?v=YLr7hJY4ZVs'
-            >The divine law of witnesses(1953)</a></li>
+            >The divine law of witnesses (1953)</a></li>
             <li><a href='https://www.youtube.com/watch?v=VYOzKaRA5p8'
-            >Predicted Judgements(1967)</a></li>
+            >Predicted Judgements (1967)</a></li>
             <li><a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/eternal-keys-and-the-right-to-preside?lang=eng'
-            >Eternal Keys and the Right to preside</a></li>
+            >Eternal Keys and the Right to preside (1972)</a></li>
             <li><a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/a-prophets-blessing?lang=eng'
-            >Last Conference Talk</a></li>
+            >A Prophet's Blessing (last talk) (1972)</a></li>
           </ul>
         <li>Harold B. Lee</li>
           <ul>
             <li><a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/todays-young-people?lang=eng'
-            >Today's Young People(1971)</a></li>
+            >Today's Young People (1971)</a></li>
             <li><a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/the-iron-rod?lang=eng'
-            >Iron Rod(1971)</a></li>
-            <li><a href=''
-            ></a></li>
+            >Iron Rod (1971)</a></li>
+            <li><a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood%3Flang%3Deng+&cd=1&hl=en&ct=clnk&gl=us'
+            >Responsibilities of the Priesthood (1971)</a></li>
+            <li><a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood?lang=eng#stickyAudio'
+            >May the Kingdom of God go Forth (first as presisdent)(1972)</a></li>
           </ul>
         <li>Spenser W Kimball</li>
         <li>Ezra Taft Benson</li>
+          <ul>
+            <li><a href='https://www.youtube.com/watch?v=fkWQMQmtZmw'
+            >Prepare for the Days of Tribulation</a></li>
+          </ul>
         <li>Howard W. Hunter</li>
         <li>Gordon B. Hinckley</li>
+        <ul>
+          <li><a href='https://www.youtube.com/watch?v=noDM2zmNy2c&t=66s'
+          >Emotional final Testimony</a></li>
+        </ul>
         <li>Thomas S. Monson</li>
         <li>Russell M. Nelson</li>
       </ol>

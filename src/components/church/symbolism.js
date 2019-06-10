@@ -1,4 +1,5 @@
 import React from 'react';
+import Architecture from './symbolism/architecture.js';
 
 class Symbolism extends React.Component {
   state= {
@@ -15,6 +16,7 @@ pickTier2 = (item) => {
       {name: 'Colors', slug: 'colors'},
       {name: 'Astronomy', slug: 'astronomy'},
       {name: 'Items', slug: 'items'},
+      {name: 'Architecture', slug: 'architecture', component:<Architecture />},
     ]
       const renderItems = Items.map(item => {
         return (

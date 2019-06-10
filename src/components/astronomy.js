@@ -1,5 +1,6 @@
 import React from 'react';
 import Sirius from './astronomy/sirius.js';
+import Polaris from './astronomy/polaris.js';
 
 class Astronomy extends React.Component {
   state = {
@@ -16,7 +17,7 @@ class Astronomy extends React.Component {
       {name: 'Sirius', slug: 'sirius', component: <Sirius /> },
       {name: 'Constallations', slug: 'constallations' },
       {name: 'Seasons', slug: 'seasons' },
-      {name: 'Polaris', slug: 'polaris'},
+      {name: 'Polaris', slug: 'polaris', component:<Polaris />},
       {name: 'Eclipses', slug: 'eclipses'},
       {name: 'Electric Universe', slug: 'electric' },
     ]
