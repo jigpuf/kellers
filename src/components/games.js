@@ -1,5 +1,6 @@
 import React from 'react';
 import SpellItems from './games/spellItems.js';
+import Gamelist from './games/gamelist.js';
 
 class Games extends React.Component {
   state = {
@@ -13,7 +14,7 @@ class Games extends React.Component {
 
   render () {
     const Items = [
-      {name: 'Game List', slug: 'gameList' },
+      {name: 'Game List', slug: 'gameList', component:<Gamelist />},
       {name: 'Character Creation', slug: 'character' },
       {name: 'Spells', slug: 'spells', component: <SpellItems />},
       {name: 'Battle Rules', slug: 'battle' },

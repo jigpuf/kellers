@@ -6,25 +6,30 @@ class Music extends React.Component {
       <div>
       <li>Adriana Mezzadri:</li>
         <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=19Yni_ffrKA'>Alianza Eterna</a><br/>
-          <a href=''>Fruto de la Inocencia,</a><br/>
-          <a href=''>Marcas de Ayer,</a><br/>
-          <a href=''>Te tengo Miedo</a><br/>
+          <a href='https://www.youtube.com/watch?v=19Yni_ffrKA'
+          >Alianza Eterna</a><br/>
+          <a href='https://www.youtube.com/watch?v=XJqRzHbZIxQ'
+          >Fruto de la Inocencia,</a><br/>
+          <a href='https://www.youtube.com/watch?v=z1toYIJKPa0'
+          >Marcas de Ayer,</a><br/>
+          <a href='https://www.youtube.com/watch?v=jke4CDzI1Ns'
+          >Te tengo Miedo</a><br/>
         </div>
         <hr/>
       <li>Alice in Chains:</li>
         <div className='twoColumn'>
-        <a href=''>Down in a Hole</a><br/>
+        <a href='https://www.youtube.com/watch?v=nWK0kqjPSVI'
+        >Down in a Hole</a><br/>
         </div>
         <hr/>
       <li>Alanis Morisett:</li>
         <div className='twoColumn'>
-        <a href=''>Uninvited</a><br/>
+        <a href='https://www.youtube.com/watch?v=uvgi7P97lu0'>Uninvited</a><br/>
         </div>
         <hr/>
       <li>America:</li>
         <div className='twoColumn'>
-        <a href=''>Horse with no Name</a><br/>
+        <a href='https://www.youtube.com/watch?v=oEHBTjIYejE'>Horse with no Name</a><br/>
         </div>
         <hr/>
       <li>Animals:</li>
@@ -35,50 +40,66 @@ class Music extends React.Component {
         <hr/>
       <li>AWOL Nation:</li>
         <div className='twoColumn'>
-        <a href=''>Sail</a><br/>
+        <a href='https://www.youtube.com/watch?v=tgIqecROs5M'
+        >Sail</a><br/>
         </div>
         <hr/>
-      <li>Beastie Boys: Sabatage</li>
+      <li>Beastie Boys:</li>
         <div className='twoColumn'>
-        <a href=''>Sabatage</a><br/>
+        <a href='https://www.youtube.com/watch?v=z5rRZdiu1UE'
+        >Sabatage</a><br/>
+        <a href='https://www.youtube.com/watch?v=ln-Jq6X6p-g'
+        >Intergallactic</a><br/>
         </div>
         <hr/>
       <li>Beck:</li>
         <div className='twoColumn'>
-        <a href=''>Where it's at</a><br/>
+        <a href='https://www.youtube.com/watch?v=EPfmNxKLDG4&list=PLaQqUACtlRRQvISGgS3IeEih-ViHzSWt1'
+        >Where it's at</a><br/>
         </div>
         <hr/>
       <li>Ben E. King:</li>
         <div className='twoColumn'>
-        <a href=''>Stand by Me</a><br/>
+        <a href='https://www.youtube.com/watch?v=hwZNL7QVJjE'
+        >Stand by Me</a><br/>
         </div>
         <hr/>
       <li>Bjork:</li>
         <div className='twoColumn'>
-          <a href=''>Human Behavior</a><br/>
-          <a href=''>Joga</a><br/>
-          <a href=''>Black Coffee</a><br/>
-          </div>
-          <hr/>
-          <li>Blind Melon:</li>
-          <div className='twoColumn'>
-          <a href=''>No Rain</a><br/>
-          </div>
-          <hr/>
-          <li>Blink 182:</li>
-          <div className='twoColumn'>
-          <a href=''>I miss You</a><br/>
-          </div>
-          <hr/>
-          <li>Blue Foundation:</li>
-          <div className='twoColumn'>
-          <a href=''>Eyes on Fire</a><br/>
-          </div>
-          <hr/>
-          <li>Blue October</li>
-          <div className='twoColumn'>
-          <a href=''>Come on Closer</a><br/>
-          <a href=''>X amount of Words</a><br/>
+          <a href='https://www.youtube.com/watch?v=36Srr08PN_Y'
+          >Human Behavior</a><br/>
+          <a href='https://www.youtube.com/watch?v=BBju9Sdh94k'
+          >Joga</a><br/>
+          <a href='https://www.youtube.com/watch?v=wBWJnp1YyJU'
+          >Black Coffee</a><br/>
+        </div>
+        <hr/>
+      <li>Blind Melon:</li>
+        <div className='twoColumn'>
+          <a href='https://www.youtube.com/watch?v=3qVPNONdF58'
+          >No Rain</a><br/>
+        </div>
+        <hr/>
+      <li>Blink 182:</li>
+        <div className='twoColumn'>
+          <a href='https://www.youtube.com/watch?v=s1tAYmMjLdY'
+          >I miss You</a><br/>
+        </div>
+        <hr/>
+      <li>Blue Foundation:</li>
+        <div className='twoColumn'>
+          <a href='https://www.youtube.com/watch?v=IUGzY-ihqWc'
+          >Eyes on Fire</a><br/>
+        </div>
+        <hr/>
+      <li>Blue October:</li>
+        <div className='twoColumn'>
+          <a href='https://www.youtube.com/watch?v=AzOnZ4rj6b0'
+          >Come in Closer</a><br/>
+          <a href='https://www.youtube.com/watch?v=wsk4QV4WLZ8'
+          >X amount of Words</a><br/>
+          <a href='https://www.youtube.com/watch?v=-pa8qsdIUqw'
+          >Clumsy Card House</a><br/>
         </div>
         <hr/>
       <li>Bob Marley:</li>
@@ -204,6 +225,7 @@ class Music extends React.Component {
       <li>Green Day</li>
       <li>Guns and Roses</li>
       <li>High Kings</li>
+      <li>Imagine Dragons</li>
       <li>Jem</li>
       <li>Jewel</li>
       <li>Jimmy Eat World</li>
@@ -229,28 +251,63 @@ class Music extends React.Component {
       <li>Marvin Gaye</li>
       <li>Massive Attack</li>
       <li>Matisyahu</li>
+      <li>Mazzy Star</li>
       <li>Metallica</li>
       <li>Missy Elliot</li>
       <li>Modest Mouse</li>
       <li>Morcheeba</li>
+      <li>Mormon Tabernacle Choir</li>
       <li>Mumford and sons</li>
       <li>Nelly Furtado</li>
       <li>No Doubt</li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li>
-        <a href=""></a>
-        <a href="https://www.youtube.com/watch?v=Wd6U_We1-ms">Mazzy Star: Fade into you</a><br />
-        <a href="https://www.youtube.com/watch?v=1cujypawzVQ">Poe: Hello</a>
-        <a href="">Red Hot Chili Peppers: Road Trippin'</a>
-        <a href="">Sublime: Summertime</a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </li>
+      <li>Oasis</li>
+      <li>Offspring</li>
+      <li>Old Crow Medicine Show</li>
+      <li>Our Lady Peace</li>
+      <li>Outkast</li>
+      <li>Pearl Jam</li>
+      <li>Pentatonix</li>
+      <li>Poe</li>
+      <li>Portishead</li>
+      <li>Postal Service</li>
+      <li>Prodigy</li>
+      <li>Ra</li>
+      <li>Rage Against the Machine</li>
+      <li>Red Hot Chili Peppers</li>
+      <li>Roots</li>
+      <li>Sade</li>
+      <li>Santana</li>
+      <li>Seether</li>
+      <li>Shakira</li>
+      <li>Skinny Puppy</li>
+      <li>Smashing Pumpkins</li>
+      <li>Soggy Bottom Boys</li>
+      <li>Soul Coughing</li>
+      <li>Soundgarden</li>
+      <li>Staind</li>
+      <li>Stereo MCs</li>
+      <li>Sting</li>
+      <li>Stone Sour</li>
+      <li>Stone Temple Pilots</li>
+      <li>Sublime</li>
+      <li>Submarines</li>
+      <li>Switchfoot</li>
+      <li>Sysem of a Down</li>
+      <li>Temptations</li>
+      <li>Third Eye Blind</li>
+      <li>Tom Petty</li>
+      <li>Tonic</li>
+      <li>Trapt</li>
+      <li>A Tribe Called Quest</li>
+      <li>Two Finger</li>
+      <li>Unkle</li>
+      <li>Verve</li>
+      <li>Verve Pipe</li>
+      <li>Weezer</li>
+      <li>White Town</li>
+      <li>Willie Nelson</li>
+      <li>Zack Brown Band</li>
+      <li>ZHU</li>
     </ul>
       </div>
     );

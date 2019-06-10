@@ -1,4 +1,5 @@
 import React from 'react';
+import Songs from './guitar/songs.js';
 
 class Guitar extends React.Component {
   state = {
@@ -12,7 +13,7 @@ class Guitar extends React.Component {
   render () {
     const Items = [
       {name: 'Chords', slug: 'chords' },
-      {name: 'Songs', slug: 'songs' },
+      {name: 'Songs', slug: 'songs', component:<Songs /> },
       {name: 'Tutorials', slug: 'tutorials' },
     ]
     const renderItems = Items.map(item => {

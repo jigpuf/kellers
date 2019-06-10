@@ -1,4 +1,5 @@
 import React from 'react';
+import Drinks from './food/drinks.js';
 
 class Food extends React.Component {
   state = {
@@ -15,7 +16,7 @@ class Food extends React.Component {
   render () {
 
     const Items = [
-      {name: 'Drinks', slug: 'drinks' },
+      {name: 'Drinks', slug: 'drinks', component:<Drinks />},
       {name: 'Appetizers', slug: 'appetizers' },
       {name: 'Breakfast', slug: 'breakfast' },
       {name: 'Entree', slug: 'entree' },
@@ -23,28 +24,31 @@ class Food extends React.Component {
       {name: 'Soup', slug: 'soup' },
       {name: 'Sauces', slug: 'sauces' },
       {name: 'Ingredients', slug: 'ingredients' },
-      {name: 'Nationanlity', slug: 'nationality' },
+      {name: 'Nationality', slug: 'nationality' },
       {name: 'Diet', slug: 'diet' },
     ];
-//Create array to build buttons
-  const renderItems = Items.map(item =>{
-    return(
+    const renderItems = Items.map(item => {
+      return (
         <button
+          key={item.slug}
           onClick={this.pickTier1(item.slug)}
           className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
-        >{item.name}
-        </button>
+        >{item.name}</button>
       )
-    }
-  )
-    return(
-      <ul>
-        {renderItems}
+    })
+    const tier1 = Items.filter(item => {
+      return this.state.tier1 === item.slug;
+    });
+    const renderTier2Component = tier1[0] && tier1[0].component;
+    return (
+      <div>
+        <ul>
+          {renderItems}
+        </ul>
         <hr />
-      </ul>
+        {renderTier2Component}
+      </div>
     )
-
-  }
-
-}
+    }
+    }
 export default Food;

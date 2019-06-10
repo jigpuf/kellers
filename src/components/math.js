@@ -1,4 +1,5 @@
 import React from 'react';
+import Arithmetic from './math/arithmetic.js';
 
 class Math extends React.Component {
   state = {
@@ -11,7 +12,7 @@ class Math extends React.Component {
   }
   render () {
     const tier1Items = [
-      {name: 'Arithmetic', slug: 'arithmetic' },
+      {name: 'Arithmetic', slug: 'arithmetic', component:<Arithmetic /> },
       {name: 'Algebra', slug: 'algebra' },
       {name: 'Geometry', slug: 'geometry' },
       {name: 'Trigonometry', slug: 'trig' },

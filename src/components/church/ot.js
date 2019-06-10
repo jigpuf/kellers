@@ -1,4 +1,5 @@
 import React from 'react';
+import Timelines from './ot/timelines.js';
 
 class Ot extends React.Component {
   state= {
@@ -11,7 +12,12 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
-        {name: 'Temple', slug: 'temple'}]
+        {name: 'Temple', slug: 'temple'},
+        {name: 'Timelines', slug: 'timelines', component:<Timelines />},
+        {name: 'Stories', slug: 'stories'},
+        {name: 'History', slug: 'history'},
+        {name: 'Covenants', slug: 'covenants'}
+      ]
       const renderItems = Items.map(item => {
         return (
           <button
@@ -32,20 +38,6 @@ pickTier2 = (item) => {
           <hr />
           {renderTier3Component}
           </ul>
-          <h3>Timelines</h3>
-          <a href="https://www.youtube.com/watch?v=QEm-ovpMM5c&t=5s" target="_blank"
-          >Biblical Exodus...Fairytale or historical fact</a><br />
-          <a href="https://www.youtube.com/watch?v=_QJ7_p7rX8w&list=PLb_xUir147TjObAAEuxtSvUYbUo1jqV1t" target="_blank"
-          >1174 - The exodus Discovered</a><br />
-          <a href="https://www.youtube.com/watch?v=FF0F8YjT1og&t=2s" target="_blank"
-          >How long were the israelites in Egypt?</a><br />
-          <a href="https://www.youtube.com/watch?v=VI1yRTC6kGE&t=2s" target="_blank"
-          >Were the pyramids built before the great flood?</a><br />
-          <a href=""
-          ></a>
-          <h3>Temple Practice</h3>
-          <a href=""></a>
-          <a href=""></a>
         </div>
       );
     }

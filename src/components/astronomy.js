@@ -1,6 +1,8 @@
 import React from 'react';
 import Sirius from './astronomy/sirius.js';
 import Polaris from './astronomy/polaris.js';
+import Eclipses from './astronomy/eclipses.js';
+
 
 class Astronomy extends React.Component {
   state = {
@@ -18,7 +20,7 @@ class Astronomy extends React.Component {
       {name: 'Constallations', slug: 'constallations' },
       {name: 'Seasons', slug: 'seasons' },
       {name: 'Polaris', slug: 'polaris', component:<Polaris />},
-      {name: 'Eclipses', slug: 'eclipses'},
+      {name: 'Eclipses', slug: 'eclipses', component:<Eclipses />},
       {name: 'Electric Universe', slug: 'electric' },
     ]
     const renderItems = Items.map(item => {
@@ -43,8 +45,6 @@ class Astronomy extends React.Component {
         {renderTier2Component}
         <a href='https://www.youtube.com/watch?v=IJhgZBn-LHg'
         >Earth's movement</a><br />
-        <a href='https://www.youtube.com/watch?v=qc7MfcKF1-s'
-        >eclipses</a><br />
         <a href='https://www.youtube.com/watch?v=mxhxL1LzKww&t=1135s'
         >How much of the earth can you see at Once?</a><br />
         <h3>James Kaler Astronomy Course</h3>

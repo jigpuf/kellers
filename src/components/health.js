@@ -1,4 +1,5 @@
 import React from 'react';
+import Stretch from './health/stretch.js'
 
 class Health extends React.Component {
   state = {
@@ -14,7 +15,7 @@ class Health extends React.Component {
   render () {
     const Items = [
       {name: 'Diet', slug: 'diet' },
-      {name: 'Stretching', slug: 'stretching' },
+      {name: 'Stretch', slug: 'stretch', component:<Stretch />},
       {name: 'Lifting', slug: 'lifting' },
       {name: 'Cardio', slug: 'cardio' },
       {name: 'Hormones', slug: 'hormones' },

@@ -1,4 +1,5 @@
 import React from 'react';
+import Tacoma from './mechanics/tacoma.js';
 
 class Mechanics extends React.Component {
   state = {
@@ -12,7 +13,7 @@ class Mechanics extends React.Component {
   render () {
     const Items = [
       {name: 'Titan', slug: 'titan' },
-      {name: 'Tacoma', slug: 'tacoma' },
+      {name: 'Tacoma', slug: 'tacoma', component:<Tacoma />},
       {name: 'Drivetrain', slug: 'drivetrain' },
       {name: 'Steering/Suspension', slug: 'steering' },
       {name: 'AC/Heat', slug: 'ac' },
