@@ -1,4 +1,5 @@
 import React from 'react';
+import Framing from './woodworking/framing.js';
 
 class Woodworking extends React.Component {
   state = {
@@ -12,7 +13,7 @@ class Woodworking extends React.Component {
   render () {
     const Items = [
       {name: 'Cabinets', slug: 'cabinets' },
-      {name: 'Framing', slug: 'framing' },
+      {name: 'Framing', slug: 'framing', component:<Framing /> },
       {name: 'Furniture', slug: 'furniture' },
     ]
     const renderItems = Items.map(item => {

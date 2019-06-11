@@ -1,5 +1,6 @@
 import React from 'react';
 import QuoteList from './quotes/quoteList.js';
+import Author from './quotes/author.js';
 
 class Quotes extends React.Component {
   state = {
@@ -12,7 +13,7 @@ class Quotes extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Author', slug: 'author' },
+      {name: 'Author', slug: 'author', component:<Author />},
       {name: 'Subject', slug: 'subject' },
       {name: 'Word', slug: 'word' },
       {name: 'Quote List', slug: 'quotes', component:<QuoteList />}

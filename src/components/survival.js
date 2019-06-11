@@ -1,6 +1,7 @@
 import React from 'react';
 import Food from './survival/food.js';
 import Defense from './survival/defense.js';
+import Energy from './survival/energy.js';
 
 class Survival extends React.Component {
   state = {
@@ -16,7 +17,7 @@ class Survival extends React.Component {
       {name: 'Communications', slug: 'coms' },
       {name: 'Defense', slug: 'defense', component:<Defense /> },
       {name: 'Disasters', slug: 'disaster' },
-      {name: 'Energy', slug: 'energy' },
+      {name: 'Energy', slug: 'energy', component:<Energy /> },
       {name: 'Fire', slug: 'fire' },
       {name: 'First Aid', slug: 'aid' },
       {name: 'Food', slug: 'food', component:<Food />},

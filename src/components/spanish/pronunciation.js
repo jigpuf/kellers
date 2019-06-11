@@ -1,8 +1,6 @@
 import React from 'react';
-import Journals from './stories/journals.js';
-import Kwai from './stories/kwai.js';
 
-class Stories extends React.Component {
+class Pronunciation extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -13,8 +11,8 @@ class Stories extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Kwai', slug: 'kwai', component:<Kwai />},
-      {name: 'Journals', slug: 'journals', component:<Journals />},
+      {name: 'Letters', slug: 'letters',},
+      {name: 'Accents', slug: 'accents',},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -40,4 +38,5 @@ class Stories extends React.Component {
     )
     }
   }
-export default Stories;
+
+export default Pronunciation;

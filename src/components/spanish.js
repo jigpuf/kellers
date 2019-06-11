@@ -1,4 +1,5 @@
 import React from 'react';
+import Pronunciation from './spanish/pronunciation.js';
 
 class Spanish extends React.Component {
   state = {
@@ -11,13 +12,13 @@ class Spanish extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Pronunciation', slug: 'pronunciation' },
+      {name: 'Pronunciation', slug: 'pronunciation', component:<Pronunciation />},
       {name: 'Nouns', slug: 'nouns' },
       {name: 'Verbs', slug: 'verbs' },
       {name: 'Adjectives', slug: 'adjectives' },
       {name: 'Adverbs', slug: 'adverbs' },
       {name: 'Prepositions', slug: 'prepositions' },
-      {name: 'Object Pronouns', slug: 'objects' },
+      {name: 'Pronouns', slug: 'pronouns' },
       {name: 'Numbers', slug: 'numbers' },
       {name: 'Vocabulary', slug: 'vocabulary' },
       {name: 'Finer Points', slug: 'finer' },

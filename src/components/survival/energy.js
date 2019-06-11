@@ -1,8 +1,7 @@
 import React from 'react';
-import Journals from './stories/journals.js';
-import Kwai from './stories/kwai.js';
+import Solar from './energy/solar.js';
 
-class Stories extends React.Component {
+class Energy extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -12,11 +11,12 @@ class Stories extends React.Component {
     }
   }
   render () {
-    const Items = [
-      {name: 'Kwai', slug: 'kwai', component:<Kwai />},
-      {name: 'Journals', slug: 'journals', component:<Journals />},
+    const tier1Items = [
+      {name: 'Solar', slug: 'solar', component:<Solar /> },
+      {name: 'Fuel', slug: 'fuel' },
+      {name: 'Heat', slug: 'heat' },
     ]
-    const renderItems = Items.map(item => {
+    const renderTier1Items = tier1Items.map(item => {
       return (
         <button
           key={item.slug}
@@ -25,14 +25,14 @@ class Stories extends React.Component {
         >{item.name}</button>
       )
     })
-    const tier1 = Items.filter(item => {
+    const tier1 = tier1Items.filter(item => {
       return this.state.tier1 === item.slug;
     });
     const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
         <ul>
-          {renderItems}
+          {renderTier1Items}
         </ul>
         <hr />
         {renderTier2Component}
@@ -40,4 +40,5 @@ class Stories extends React.Component {
     )
     }
   }
-export default Stories;
+
+export default Energy;
