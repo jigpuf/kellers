@@ -1,5 +1,7 @@
 import React from 'react';
 import Stretch from './health/stretch.js'
+import Systems from './health/systems.js'
+import Nutrition from './health/nutrition.js'
 
 class Health extends React.Component {
   state = {
@@ -15,12 +17,14 @@ class Health extends React.Component {
   render () {
     const Items = [
       {name: 'Diet', slug: 'diet' },
-      {name: 'Stretch', slug: 'stretch', component:<Stretch />},
-      {name: 'Lifting', slug: 'lifting' },
+      {name: 'Flexibility', slug: 'flexibility', component:<Stretch />},
+      {name: 'Muscular Strength/endurance', slug: 'strength' },
       {name: 'Cardio', slug: 'cardio' },
+      {name: 'Balance', slug: 'balance' },
+      {name: 'Speed', slug: 'speed' },
       {name: 'Hormones', slug: 'hormones' },
-      {name: 'Body Systems', slug: 'systems'},
-      {name: 'Supplements', slug: 'supplements' },
+      {name: 'Body Systems', slug: 'systems', component:<Systems />},
+      {name: 'Nutrition', slug: 'nutrition', component:<Nutrition />},
     ]
     const renderItems = Items.map(item => {
       return (

@@ -1,13 +1,6 @@
 import React from 'react';
-import Music from './mediaLists/music.js';
-import Movies from './mediaLists/movies.js';
-import Books from './mediaLists/books.js';
-import Tv from './mediaLists/tv.js';
-import Vg from './mediaLists/vg.js';
-import Bg from './mediaLists/bg.js';
 
-
-class MediaLists extends React.Component {
+class Systems extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -18,12 +11,18 @@ class MediaLists extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Board Games', slug: 'bg', component:<Bg /> },
-      {name: 'Books', slug: 'books', component:<Books /> },
-      {name: 'Music', slug: 'music', component:<Music />},
-      {name: 'Movies', slug: 'movies', component:<Movies />}, 
-      {name: 'TV Shows', slug: 'tv', component:<Tv /> },
-      {name: 'Video Games', slug: 'vg', component:<Vg /> },
+      {name: 'Cardiovascular', slug: 'cardiovascular'},
+      {name: 'Digestive', slug: 'digestive'},
+      {name: 'Endocrine', slug: 'endocrine'},
+      {name: 'Lymphatic', slug: 'lymphatic'},
+      {name: 'Muscular', slug: 'muscular'},
+      {name: 'Nervous', slug: 'nervous'},
+      {name: 'Reproductive', slug: 'reproductive'},
+      {name: 'Respiratory', slug: 'respiratory'},
+      {name: 'Immune', slug: 'immune'},
+      {name: 'Integumentary', slug: 'integumentary'},
+      {name: 'Skeletal', slug: 'skeletal'},
+      {name: 'Urinary', slug: 'urinary'},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -50,4 +49,5 @@ class MediaLists extends React.Component {
     }
   }
 
-export default MediaLists;
+
+export default Systems;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Electronics extends React.Component {
+class Nutrition extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -11,15 +11,11 @@ class Electronics extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'RLC Circuits', slug: 'rlc' },
-      {name: 'Semi-Conductors', slug: 'semi' },
-      {name: 'Color Codes', slug: 'colors' },
-      {name: 'Filters', slug: 'filters' },
-      {name: 'Rectifiers', slug: 'rectifiers' },
-      {name: 'Soldering', slug: 'soldering' },
-      {name: 'Digital', slug: 'digital' },
-      {name: 'Grounding/shielding', slug: 'ground' },
-      {name: 'Signals', slug: 'signals' },
+      {name: 'Vitamins', slug: 'vitamins' },
+      {name: 'Minerals', slug: 'minerals' },
+      {name: 'Amino Acids', slug: 'amino' },
+      {name: 'Compounds', slug: 'compounds' },
+      {name: 'Hormones', slug: 'hormones' },
     ]
     const renderItems = Items.map(item => {
       return (
@@ -45,5 +41,4 @@ class Electronics extends React.Component {
     )
     }
   }
-
-export default Electronics;
+export default Nutrition;
