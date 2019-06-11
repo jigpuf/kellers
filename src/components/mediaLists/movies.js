@@ -66,56 +66,106 @@ class Movies extends React.Component {
         >Bubba Hotep</a></li>
         <li><a href="https://www.youtube.com/watch?v=pyRUijyrXr4"
         >Burbs</a></li>
-        <li>Cabin in the Woods</li>
-        <li>Castaway</li>
-        <li>Cell</li>
-        <li>Cocoon</li>
-        <li>Charlie and the Chocolate F</li>
-        <li>Chicken Run</li>
-        <li>Christmas Story</li>
-        <li>City of Lost Children</li>
-        <li>Clerks</li>
-        <li>Cloverfield</li>
-        <li>Clue</li>
-        <li>Coraline</li>
-        <li>Cowboys and Aliens</li>
-        <li>Crocodile Dundee</li>
-        <li>Crocodile Dundee 2</li>
-        <li>Crouching Tiger Hidden Dragon</li>
-        <li>Dale and Tucker Vs Evil</li>
-        <li>Dogma</li>
-        <li>Donnie Darko</li>
-        <li>Drag me to Hell</li>
-        <li>Edward Scissorhands</li>
-        <li>Enemy at the Gates</li>
-        <li>ET</li>
-        <li>Eternal Sunshine of the Spotless Mind</li>
-        <li>Evil Dead</li>
-        <li>Evil Dead 2</li>
-        <li>Evil Dead 3</li>
-        <li>eXistenz</li>
-        <li>Explorers</li>
-        <li>Fall</li>
-        <li>Fantastic fear of Everything</li>
-        <li>Fantastic Mr. Fox</li>
-        <li>Fifth Element</li>
-        <li>Fight Club</li>
-        <li>Finding a friend for the End of the World</li>
-        <li>Flight of the Navigator</li>
-        <li>Forrest Gump</li>
-        <li>Fury Road</li>
-        <li>Ghostbusters</li>
-        <li>Ghostbusters 2</li>
-        <li>Ghost Dog</li>
-        <li>Gods must be Crazy</li>
-        <li>Golden Child</li>
-        <li>Goonies</li>
-        <li>Gladiator</li>
-        <li>Grand Budapest Hotel</li>
-        <li>Green Street Hooligans</li>
-        <li>Grudge</li>
-        <li>Guardians of the Galaxy</li>
-        <li>Guardians of the Galaxy 2</li>
+        <li><a href='https://www.youtube.com/watch?v=NsIilFNNmkY'
+        >Cabin in the Woods</a></li>
+        <li><a href='https://www.youtube.com/watch?v=2TWYDogv4WQ'
+        >Castaway</a></li>
+        <li><a href='https://www.youtube.com/watch?v=RQUdbvUVfgE'
+        >Cell</a></li>
+        <li><a href='https://www.youtube.com/watch?v=HHamE8gmA8Q'
+        >Cocoon</a></li>
+        <li><a href='https://www.youtube.com/watch?v=OFVGCUIXJls'
+        >Charlie and the Chocolate F</a></li>
+        <li><a href='https://www.youtube.com/watch?v=AEOfT7hUcDs'
+        >Chicken Run</a></li>
+        <li><a href='https://www.youtube.com/watch?v=cfjEZ88NHBw'
+        >Christmas Story</a></li>
+        <li><a href='https://www.youtube.com/watch?v=Pa7oVPru4J8'
+        >City of Lost Children</a></li>
+        <li><a href='https://www.youtube.com/watch?v=Mlfn5n-E2WE'
+        >Clerks</a></li>
+        <li><a href='https://www.youtube.com/watch?v=wxqSIsxMlYQ'
+        >Cloverfield</a></li>
+        <li><a href='https://www.youtube.com/watch?v=cDDdeHtrxfA'
+        >Clue</a></li>
+        <li><a href='https://www.youtube.com/watch?v=XyUwEO7xelY'
+        >Coraline</a></li>
+        <li><a href='https://www.youtube.com/watch?v=zH7KZD5vGBY'
+        >Cowboys and Aliens</a></li>
+        <li><a href='https://www.youtube.com/watch?v=rijQ5oBFlO0'
+        >Crocodile Dundee</a></li>
+        <li><a href='https://www.youtube.com/watch?v=oYaOhlHnuZw'
+        >Crocodile Dundee 2</a></li>
+        <li><a href='https://www.youtube.com/watch?v=gLpZ_5bHmo8'
+        >Crouching Tiger Hidden Dragon</a></li>
+        <li><a href='https://www.youtube.com/watch?v=l1t8OZn_uhE'
+        >Dale and Tucker Vs Evil</a></li>
+        <li><a href='https://www.youtube.com/watch?v=20CRw3XdETA'
+        >Dogma</a></li>
+        <li><a href='https://www.youtube.com/watch?v=bzLn8sYeM9o'
+        >Donnie Darko</a></li>
+        <li><a href='https://www.youtube.com/watch?v=PPOaxHqoYxo'
+        >Drag me to Hell</a></li>
+        <li><a href='https://www.youtube.com/watch?v=M94yyfWy-KI'
+        >Edward Scissorhands</a></li>
+        <li><a href='https://www.youtube.com/watch?v=4O-sMh_DO6I'
+        >Enemy at the Gates</a></li>
+        <li><a href='https://www.youtube.com/watch?v=qYAETtIIClk'
+        >ET</a></li>
+        <li><a href='https://www.youtube.com/results?search_query=eternal+sunshine+of+the+spotless+mind+official+trailer'
+        >Eternal Sunshine of the Spotless Mind</a></li>
+        <li><a href=''
+        >Evil Dead</a></li>
+        <li><a href=''
+        >Evil Dead 2</a></li>
+        <li><a href=''
+        >Evil Dead 3</a></li>
+        <li><a href=''
+        >eXistenz</a></li>
+        <li><a href=''
+        >Explorers</a></li>
+        <li><a href=''
+        >Fall</a></li>
+        <li><a href=''
+        >Fantastic fear of Everything</a></li>
+        <li><a href=''
+        >Fantastic Mr. Fox</a></li>
+        <li><a href=''
+        >Fifth Element</a></li>
+        <li><a href=''
+        >Fight Club</a></li>
+        <li><a href=''
+        >Finding a friend for the End of the World</a></li>
+        <li><a href=''
+        >Flight of the Navigator</a></li>
+        <li><a href=''
+        >Forrest Gump</a></li>
+        <li><a href=''
+        >Fury Road</a></li>
+        <li><a href=''
+        >Ghostbusters</a></li>
+        <li><a href=''
+        >Ghostbusters 2</a></li>
+        <li><a href=''
+        >Ghost Dog</a></li>
+        <li><a href=''
+        >Gods must be Crazy</a></li>
+        <li><a href=''
+        >Golden Child</a></li>
+        <li><a href=''
+        >Goonies</a></li>
+        <li><a href=''
+        >Gladiator</a></li>
+        <li><a href=''
+        >Grand Budapest Hotel</a></li>
+        <li><a href=''
+        >Green Street Hooligans</a></li>
+        <li><a href=''
+        >Grudge</a></li>
+        <li><a href=''
+        >Guardians of the Galaxy</a></li>
+        <li><a href=''
+        >Guardians of the Galaxy 2</a></li>
         <li>Hector's Search for Happiness</li>
         <li>Hidden</li>
         <li>Hotel Budapest</li>
@@ -241,3 +291,9 @@ class Movies extends React.Component {
 }
 
 export default Movies;
+
+/*
+
+
+
+*/

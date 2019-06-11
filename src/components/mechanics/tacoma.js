@@ -8,6 +8,9 @@ class Tacoma extends React.Component {
         <h3>2004 Toyota Tacoma:</h3>
         <li>Engine</li>
         <li>Transmision</li>
+        <li>Torque Values</li>
+        <li>Fluids</li>
+        <li>Specs</li>
         <li><a href='https://www.youtube.com/watch?v=wzwyYGh4km8&t=10s'
         >Center Dash Removal</a><br /></li>
         <li><a href='https://www.youtube.com/watch?v=VJRY0Xbs2JA'
