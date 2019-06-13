@@ -15,6 +15,7 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
+      {name: 'Atonement', slug: 'atonement', component:<Atonement />},
       {name: 'Priesthood', slug: 'priesthood'},
       {name: 'Comandments', slug: 'comandments'},
       {name: 'Faith', slug: 'faith'},
@@ -25,7 +26,6 @@ pickTier2 = (item) => {
       {name: 'Pre-mortal Existance', slug: 'pre-mortal'},
       {name: 'Escotology', slug: 'escotology'},
       {name: 'Christology', slug: 'christology'},
-      {name: 'Atonement', slug: 'atonement', component:<Atonement />},
       {name: 'Creation and Fall', slug: 'creation'},
       {name: 'Gathering of Israel', slug: 'gathering'},
       {name: 'Zion', slug: 'zion'},

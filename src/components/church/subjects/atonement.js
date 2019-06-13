@@ -32,9 +32,16 @@ class Atonement extends React.Component {
       >The Meaning of Gethsemene The Book of Mormon Lecture 03 by Hyrum Andrus</a></li>
       <li><a href='https://www.youtube.com/watch?v=0nqLuuCeUeg&t=84s'
       >The Meaning of Calvary The Book of Mormon Lecture 04 by Hyrum Andrus</a></li>
-
-
-
+      <li><a href='https://www.youtube.com/watch?v=REcwm16AMlA'
+      >Jesus Christ and Him Crucified | Bruce R. McConkie</a></li>
+      <li><a href='https://speeches.byu.edu/talks/bruce-r-mcconkie_knowest-thou-condescension-god/'
+      >Knowest Thou the Condescension of God?</a></li>
+      <li><a href='https://www.youtube.com/watch?v=qn7boTBtn3w&list=PLZUZDQl2Y4pfz1TMjQhQBolvzfA4tXZLk'
+      >Bruce R. McConkie's final testimony - April, 1985</a></li>
+      <li><a href='https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-purifying-power-of-gethsemane?lang=eng'
+      >The Purifying Power of Gethsemane - Bruce R. McConkie</a></li>
+      <li><a href='https://www.youtube.com/watch?v=Z8CAH2rh8o0'
+      >Robert L. Millet, "The Atonement as Taught in The Book of Mormon"</a></li>
       </div>
     );
   }
