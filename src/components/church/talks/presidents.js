@@ -25,7 +25,8 @@ class Presidents extends React.Component {
           </ul>
         <li>David O. Mckay</li>
           <ul>
-            <li></li>
+            <li><a href='https://speeches.byu.edu/talks/david-o-mckay_baccalaureate-service/?M=A'
+            >Baccalaureata Service (Truth) (1951)</a></li>
             <li></li>
           </ul>
         <li>Joseph Fielding Smith</li>
@@ -50,7 +51,7 @@ class Presidents extends React.Component {
             <li><a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood?lang=eng#stickyAudio'
             >May the Kingdom of God go Forth (first as presisdent)(1972)</a></li>
           </ul>
-        <li>Spenser W Kimball</li>
+        <li>Spencer W Kimball</li>
         <li>Ezra Taft Benson</li>
           <ul>
             <li><a href='https://www.youtube.com/watch?v=fkWQMQmtZmw'

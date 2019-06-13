@@ -5,6 +5,7 @@ class Apostles extends React.Component {
     return (
       <div>
         <ul>
+          <li>J.Reuben Clark</li>
           <li>Jeffrey R. Holland:</li>
             <ul>
               <li><a href='https://www.youtube.com/watch?v=u50__Z2P89Q&t=25s'

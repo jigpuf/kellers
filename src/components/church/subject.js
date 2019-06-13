@@ -2,6 +2,7 @@ import React from 'react';
 import Justify from './subjects/justify.js';
 import Evolution from './subjects/evolution.js';
 import Theosis from './subjects/theosis.js';
+import Atonement from './subjects/atonement.js';
 
 class Subject extends React.Component {
   state= {
@@ -24,7 +25,7 @@ pickTier2 = (item) => {
       {name: 'Pre-mortal Existance', slug: 'pre-mortal'},
       {name: 'Escotology', slug: 'escotology'},
       {name: 'Christology', slug: 'christology'},
-      {name: 'Atonement', slug: 'atonement'},
+      {name: 'Atonement', slug: 'atonement', component:<Atonement />},
       {name: 'Creation and Fall', slug: 'creation'},
       {name: 'Gathering of Israel', slug: 'gathering'},
       {name: 'Zion', slug: 'zion'},
@@ -33,6 +34,7 @@ pickTier2 = (item) => {
       {name: 'Justification/Sanctification', slug: 'justify', component:<Justify />},
       {name: 'Evolution', slug: 'evolution', component:<Evolution />},
       {name: 'Theosis', slug: 'theosis', component:<Theosis />},
+      {name: 'Redux Bible', slug: 'bible'},
     ]
       const renderItems = Items.map(item => {
         return (
