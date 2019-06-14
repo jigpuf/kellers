@@ -3,6 +3,7 @@ import Justify from './subjects/justify.js';
 import Evolution from './subjects/evolution.js';
 import Theosis from './subjects/theosis.js';
 import Atonement from './subjects/atonement.js';
+import Element from './subjects/element.js';
 
 class Subject extends React.Component {
   state= {
@@ -15,6 +16,7 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
+      {name: 'Elemental Nature', slug: 'element', component:<Element />},
       {name: 'Atonement', slug: 'atonement', component:<Atonement />},
       {name: 'Priesthood', slug: 'priesthood'},
       {name: 'Comandments', slug: 'comandments'},
