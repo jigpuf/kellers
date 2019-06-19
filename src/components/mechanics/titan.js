@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Tacoma extends React.Component {
+class Titan extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -43,18 +43,12 @@ class Tacoma extends React.Component {
         </ul>
         <hr />
         {renderTier2Component}
-        <li><a href='https://www.youtube.com/watch?v=VJRY0Xbs2JA'
-        >Windshield Washer fluid resevoir</a><br /></li>
-        <li><a href='https://www.youtube.com/watch?v=LHRPBWAMiKw'
-        >Grill,Headlight, and Side light</a><br /></li>
-        <li><a href='https://www.youtube.com/watch?v=UIJRulLkPOQ'
-        >Oil Change</a><br /></li>
-        <li><a href='https://www.youtube.com/watch?v=5gOeBE-ylQw'
-        >How to Diagnose and Replace Universal Joints (ULTIMATE Guide)</a></li>
+        <li><a href = 'https://www.youtube.com/watch?v=O7DELdn6Nls'
+          >Nissan Titan or Armada Driveshaft Universal U-Joint & Center Support Carrier Bearing</a></li>
+          <li><a href='https://www.youtube.com/watch?v=5gOeBE-ylQw'
+          >How to Diagnose and Replace Universal Joints (ULTIMATE Guide)</a></li>
       </div>
     )
     }
   }
-export default Tacoma;
-/*
-  */
+export default Titan;

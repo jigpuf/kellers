@@ -4,10 +4,11 @@ class Element extends React.Component {
   render () {
     return (
       <div>
+      Keywords:Glory, grace, light, spirit, intelligence, truth, life, power.<br />
       Texts:
-      <li>2 Ne 2</li>
+      <li>2 Ne 2,28</li>
       <li>Abraham 3</li>
-      <li>D&C 50,84,88,93,130,131</li>
+      <li>D&C 50,76,84,88,93,130,131</li>
       <li>King Follet Discourse</li>
       Audio:
       <li><a href='https://www.youtube.com/watch?v=yF3yrzoPbmM'

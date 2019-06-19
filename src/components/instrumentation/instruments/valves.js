@@ -1,8 +1,7 @@
 import React from 'react';
-import Tacoma from './mechanics/tacoma.js';
-import Titan from './mechanics/titan.js';
+import ND9 from './valves/nd9.js';
 
-class Mechanics extends React.Component {
+class Valves extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -13,8 +12,10 @@ class Mechanics extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Titan', slug: 'titan', component:<Titan /> },
-      {name: 'Tacoma', slug: 'tacoma', component:<Tacoma />},
+      {name: 'V200', slug: 'v200', },
+      {name: 'Metso ND9', slug: 'metso', component:<ND9 />},
+      {name: 'Versa', slug: 'versa', },
+      {name: 'Regular', slug: 'regular', },
     ]
     const renderItems = Items.map(item => {
       return (
@@ -36,10 +37,10 @@ class Mechanics extends React.Component {
         </ul>
         <hr />
         {renderTier2Component}
-
       </div>
     )
     }
   }
 
-export default Mechanics;
+
+export default Valves;

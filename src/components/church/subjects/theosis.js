@@ -4,6 +4,14 @@ class Theosis extends React.Component {
   render () {
     return (
       <div>
+      Text:
+      <li>Moroni 10</li>
+      <li>D&C 76,84,88</li>
+      <li>Moses 1</li>
+      <li>Abraham 1</li>
+      <li></li>
+      <li></li>
+      Audio:
       <a href='https://www.youtube.com/watch?v=qYKvjU4iKD0'
       >pt 1, Christ, The Firstfruits of Theosis</a><br/>
       <a href='https://www.youtube.com/watch?v=JW2VlU15TKg'

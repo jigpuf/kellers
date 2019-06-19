@@ -1,4 +1,5 @@
 import React from 'react';
+import Valves from './instruments/valves.js'
 
 class Instruments extends React.Component {
   state = {
@@ -11,7 +12,7 @@ class Instruments extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Valves', slug: 'Valves' },
+      {name: 'Valves', slug: 'Valves', component:<Valves />},
       {name: 'Pressure', slug: 'pressure' },
       {name: 'Limits', slug: 'limits' },
       {name: 'Accelerometers', slug: 'accels' },
@@ -31,6 +32,8 @@ class Instruments extends React.Component {
       {name: 'Coriolis', slug: 'coriolis' },
       {name: 'Microphones', slug: 'microphones' },
       {name: 'HOA Switches', slug: 'hoa' },
+      {name: 'HART Protocol', slug: 'hoa' },
+
     ]
     const renderItems = Items.map(item => {
       return (

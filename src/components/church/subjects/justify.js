@@ -4,6 +4,9 @@ class Justify extends React.Component {
   render () {
     return (
       <div>
+        text:
+        <li>Moroni 10</li>
+        Audio:
         <li><a href='https://www.youtube.com/watch?v=SzzOQW4NVBc'
         >Hyrum Andrus- Justification and Sanctification</a></li>
         <li><a href='https://www.youtube.com/watch?v=ym8XyBGUoEM'
