@@ -32,7 +32,7 @@ class Instruments extends React.Component {
       {name: 'Coriolis', slug: 'coriolis' },
       {name: 'Microphones', slug: 'microphones' },
       {name: 'HOA Switches', slug: 'hoa' },
-      {name: 'HART Protocol', slug: 'hoa' },
+      {name: 'HART Protocol', slug: 'heart' },
 
     ]
     const renderItems = Items.map(item => {

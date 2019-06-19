@@ -13,6 +13,10 @@ class Author extends React.Component {
   render () {
     const Items = [
       {name: 'J. Golden Kimball', slug: 'jGoldenKimball', component:<JGKimball />},
+      {name: 'CS Lewis', slug: 'cslewis',},
+      {name: 'Joseph Smith Jr', slug: 'josephSmithJunior',},
+      {name: 'Brigham Young', slug: 'brighamYoung',},
+      {name: 'Ronald Regan', slug: 'ronaldRegan',},
     ]
     const renderItems = Items.map(item => {
       return (

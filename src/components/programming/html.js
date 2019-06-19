@@ -1,4 +1,5 @@
 import React from 'react';
+import Text from './html/text.js';
 
 class Html extends React.Component {
     state = {
@@ -13,37 +14,26 @@ class Html extends React.Component {
     render () {
 
       const Items = [
-        {name: 'Headings', slug: 'headings'},
-        {name: 'Paragraphs', slug: 'paragraphs'},
-        {name: 'Formatting', slug: 'formatting'},
-        {name: 'Quotations', slug: 'quotations'},
-        {name: 'Components', slug: 'components'},
+        {name: 'Text', slug: 'text', component:<Text />},
         {name: 'Links', slug: 'links'},
         {name: 'Images', slug: 'images'},
+        {name: 'Video', slug: 'video'},
+        {name: 'Audio', slug: 'audio'},
+        {name: 'Components', slug: 'components'},
         {name: 'Tables', slug: 'tables'},
-        {name: 'Lists', slug: 'lists'},
         {name: 'Blocks', slug: 'blocks'},
-        {name: 'Classes', slug: 'classes'},
+        {name: 'Class', slug: 'class'},
         {name: 'Id', slug: 'id'},
-        {name: 'Iframes', slug: 'iframes'},
         {name: 'File Paths', slug: 'files'},
         {name: 'Head', slug: 'head'},
         {name: 'Layouts', slug: 'layouts'},
         {name: 'Responsive', slug: 'responsive'},
-        {name: 'Computercode', slug: ''},
-        {name: 'Symbols', slug: 'symbols'},
         {name: 'Charset', slug: 'charset'},
         {name: 'Forms', slug: 'forms'},
         {name: 'Symantics', slug: 'symantics'},
-        {name: 'Canvas', slug: 'canvas'},
-        {name: 'Svg', slug: 'svg'},
-        {name: 'Media', slug: ''},
-        {name: 'Video', slug: ''},
-        {name: 'Audio', slug: ''},
-        {name: 'Plugins', slug: ''},
-        {name: 'Youtube', slug: ''},
-        {name: 'Drag/Drop', slug: ''},
-        {name: 'Web Storage', slug: ''},
+        {name: 'Plugins', slug: 'plugins'},
+        {name: 'Drag/Drop', slug: 'drag'},
+        {name: 'Web Storage', slug: 'storage'},
       ]
       const renderItems = Items.map(item => {
         return (

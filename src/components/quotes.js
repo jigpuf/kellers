@@ -15,8 +15,8 @@ class Quotes extends React.Component {
     const Items = [
       {name: 'Author', slug: 'author', component:<Author />},
       {name: 'Subject', slug: 'subject' },
-      {name: 'Word', slug: 'word' },
-      {name: 'Quote List', slug: 'quotes', component:<QuoteList />}
+      {name: 'Quote List', slug: 'quotes', component:<QuoteList />},
+      {name: 'Movie Quotes', slug: 'movies',},
     ]
     const renderItems = Items.map(item => {
       return (

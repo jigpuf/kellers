@@ -16,7 +16,8 @@ class Valves extends React.Component {
       {name: 'V200', slug: 'v200', component:<V200 /> },
       {name: 'Metso ND9', slug: 'metso', component:<ND9 />},
       {name: 'Versa', slug: 'versa', },
-      {name: 'Regular', slug: 'regular', },
+      {name: 'Single Acting', slug: 'single', },
+      {name: 'Double Acting', slug: 'double', },
     ]
     const renderItems = Items.map(item => {
       return (

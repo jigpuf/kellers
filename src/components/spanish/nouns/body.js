@@ -5,46 +5,46 @@ class Body extends React.Component {
     return (
       <div>
       <ul>
-        <li>Head</li>
-        <li>Hair</li>
-        <li>Eye</li>
+        <li>Head-La Cabeza</li>
+        <li>Hair-El Pelo</li>
+        <li>Eye-El Ojo</li>
         <li>Eyebrow</li>
-        <li>Brain</li>
+        <li>Brain-</li>
         <li>Forehead</li>
-        <li>Ear</li>
-        <li>Mouth</li>
-        <li>Toungue</li>
+        <li>Ear-La oreja</li>
+        <li>Mouth-La boca</li>
+        <li>Toungue-La lengua</li>
         <li>Pupil</li>
         <li>Cornea</li>
         <li>Eye lid</li>
-        <li>Tooth</li>
-        <li>Lip</li>
+        <li>Tooth-El diente</li>
+        <li>Lip-El labio</li>
         <li>Gum</li>
         <li>Cheek</li>
         <li>Neck</li>
-        <li>Throat</li>
+        <li>Throat-La garganta</li>
         <li>Adam's Apple</li>
         <li>Shoulder</li>
         <li>Back</li>
-        <li>Rib</li>
-        <li>Heart</li>
+        <li>Rib-La costilla</li>
+        <li>Heart-El corazon</li>
         <li>Lung</li>
         <li>Kidney</li>
         <li>Liver</li>
-        <li>Stomach</li>
+        <li>Stomach-El estomago</li>
         <li>Intestine</li>
-        <li>Spine</li>
+        <li>Spine-</li>
         <li>Nipple</li>
         <li>Arm Pit</li>
         <li>Elbow</li>
         <li>Forearm</li>
         <li>Upper Arm</li>
         <li>Funny Bone</li>
-        <li>Finger</li>
-        <li>Thumb</li>
+        <li>Finger-El Dedo</li>
+        <li>Thumb-El Pulgar</li>
         <li>Knuckle</li>
         <li>Joint</li>
-        <li>Palm</li>
+        <li>Palm-La palma</li>
         <li>Wrist</li>
         <li>Fingernail</li>
         <li>Pointer finger</li>
@@ -58,13 +58,13 @@ class Body extends React.Component {
         <li>Vagina</li>
         <li>Buttocks</li>
         <li>Leg</li>
-        <li>Arm</li>
-        <li>Knee</li>
+        <li>Arm-El brazo</li>
+        <li>Knee-</li>
         <li>Shin</li>
         <li>Calf</li>
-        <li>Foot</li>
+        <li>Foot-El pie</li>
         <li>Ankle</li>
-        <li>Toe</li>
+        <li>Toe-El dedo de pie</li>
         <li>Toe Nail</li>
         <li>Ball of the foot</li>
         <li>Arch of the foot</li>
