@@ -1,5 +1,6 @@
 import React from 'react';
 import Arithmetic from './math/arithmetic.js';
+import Paradox from './math/paradox.js';
 
 class Math extends React.Component {
   state = {
@@ -17,7 +18,7 @@ class Math extends React.Component {
       {name: 'Geometry', slug: 'geometry' },
       {name: 'Trigonometry', slug: 'trig' },
       {name: 'Applied Math', slug: 'applied' },
-      {name: 'Paradoxes', slug: 'paradoxes' },
+      {name: 'Paradoxes', slug: 'paradoxes', component:<Paradox /> },
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

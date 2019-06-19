@@ -1,4 +1,5 @@
 import React from 'react';
+import Pseudo from './texts/pseudo.js';
 
 class Texts extends React.Component {
   state= {
@@ -11,7 +12,7 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
-      {name: 'Pseudopigraphy', slug: 'pseudo'},
+      {name: 'Pseudopigraphy', slug: 'pseudo', component: <Pseudo />},
       {name: 'Church History', slug: 'churchHistory'},
       {name: 'Journals', slug: 'journals'},
       {name: 'Doctrinal Writings', slug: 'docWrite'},

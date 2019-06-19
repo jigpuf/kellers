@@ -114,19 +114,19 @@ class Movies extends React.Component {
         >ET</a></li>
         <li><a href='https://www.youtube.com/results?search_query=eternal+sunshine+of+the+spotless+mind+official+trailer'
         >Eternal Sunshine of the Spotless Mind</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=coGH4OaR9hc'
         >Evil Dead</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=6lM3NPeEG24'
         >Evil Dead 2</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=UHZQEtG8xYo'
         >Evil Dead 3</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=HAdbdUt_h9M'
         >eXistenz</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=HAdbdUt_h9M'
         >Explorers</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=IwsYyRc9j4g'
         >Fall</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=HIjhgXteLlY'
         >Fantastic fear of Everything</a></li>
         <li><a href=''
         >Fantastic Mr. Fox</a></li>
