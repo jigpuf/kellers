@@ -18,6 +18,7 @@ class Apps extends React.Component {
       {name: 'Electronics Test', slug: 'et' },
       {name: 'Homeschool', slug: 'homeschool'},
       {name: 'Lawnmowing', slug: 'lawnmowing'},
+      {name: 'Countdown', slug: 'countdown'},
     ]
     const renderItems = Items.map(item => {
       return (

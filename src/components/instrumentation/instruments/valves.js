@@ -1,4 +1,5 @@
 import React from 'react';
+import V200 from './valves/v200.js';
 import ND9 from './valves/nd9.js';
 
 class Valves extends React.Component {
@@ -12,7 +13,7 @@ class Valves extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'V200', slug: 'v200', },
+      {name: 'V200', slug: 'v200', component:<V200 /> },
       {name: 'Metso ND9', slug: 'metso', component:<ND9 />},
       {name: 'Versa', slug: 'versa', },
       {name: 'Regular', slug: 'regular', },

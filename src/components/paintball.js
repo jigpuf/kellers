@@ -1,8 +1,6 @@
 import React from 'react';
-import Pronunciation from './spanish/pronunciation.js';
-import Nouns from './spanish/nouns.js';
 
-class Spanish extends React.Component {
+class Paintball extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -13,16 +11,9 @@ class Spanish extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Pronunciation', slug: 'pronunciation', component:<Pronunciation />},
-      {name: 'Nouns', slug: 'nouns',component:<Nouns />},
-      {name: 'Verbs', slug: 'verbs' },
-      {name: 'Adjectives', slug: 'adjectives' },
-      {name: 'Adverbs', slug: 'adverbs' },
-      {name: 'Prepositions', slug: 'prepositions' },
-      {name: 'Pronouns', slug: 'pronouns' },
-      {name: 'Numbers', slug: 'numbers' },
-      {name: 'Vocabulary', slug: 'vocabulary' },
-      {name: 'Finer Points', slug: 'finer' },
+      {name: 'Markers', slug: 'markers' },
+      {name: 'Games', slug: 'games' },
+      {name: 'Loadout', slug: 'Loadout' },
     ]
     const renderItems = Items.map(item => {
       return (
@@ -48,5 +39,4 @@ class Spanish extends React.Component {
     )
     }
   }
-
-export default Spanish;
+export default Paintball;

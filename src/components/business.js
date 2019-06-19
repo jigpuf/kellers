@@ -1,7 +1,7 @@
 import React from 'react';
 import Stock from './business/stocks.js';
 import Businesses from './business/businesses.js';
-
+import Money from './business/money.js';
 
 class Business extends React.Component {
   state = {
@@ -15,7 +15,7 @@ class Business extends React.Component {
   render (){
     const Items = [
       {name: 'Business Ideas', slug: 'ideas', component:<Businesses /> },
-      {name: 'Money Concepts', slug: 'money' },
+      {name: 'Money Concepts', slug: 'money', component:<Money /> },
       {name: 'Tax Tracking', slug: 'tax' },
       {name: 'Stock Trading', slug: 'stock', component: <Stock /> },
     ]

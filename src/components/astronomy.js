@@ -22,6 +22,7 @@ class Astronomy extends React.Component {
       {name: 'Polaris', slug: 'polaris', component:<Polaris />},
       {name: 'Eclipses', slug: 'eclipses', component:<Eclipses />},
       {name: 'Electric Universe', slug: 'electric' },
+      {name: 'Astronomy Lectures', slug: 'lectures'},
     ]
     const renderItems = Items.map(item => {
       return (

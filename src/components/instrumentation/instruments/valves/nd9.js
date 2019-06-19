@@ -14,8 +14,9 @@ class ND9 extends React.Component {
         >Neles® ND9000 Intelligent Valve Controller</a></li>
         <li><a href='https://www.metso.com/products/valve-controllers/neles/nd9000/' target ='_blank'
         >Specs</a></li>
-        <li><a href='http://valveproducts.metso.com/catalog/854/Series%20ND7000%2C%20ND9000_ENG1.html' target ='_blank'
+        <li><a href='http://valveproducts.metso.com/documents/neles/IMOs/en/7ND9071en.pdf' target ='_blank'
         >Documents</a></li>
+
       </div>
     );
   }

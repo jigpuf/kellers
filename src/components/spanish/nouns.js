@@ -1,8 +1,7 @@
 import React from 'react';
-import Pronunciation from './spanish/pronunciation.js';
-import Nouns from './spanish/nouns.js';
+import Body from './nouns/body.js';
 
-class Spanish extends React.Component {
+class Nouns extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -13,16 +12,15 @@ class Spanish extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Pronunciation', slug: 'pronunciation', component:<Pronunciation />},
-      {name: 'Nouns', slug: 'nouns',component:<Nouns />},
-      {name: 'Verbs', slug: 'verbs' },
-      {name: 'Adjectives', slug: 'adjectives' },
-      {name: 'Adverbs', slug: 'adverbs' },
-      {name: 'Prepositions', slug: 'prepositions' },
-      {name: 'Pronouns', slug: 'pronouns' },
-      {name: 'Numbers', slug: 'numbers' },
-      {name: 'Vocabulary', slug: 'vocabulary' },
-      {name: 'Finer Points', slug: 'finer' },
+      {name: 'Body', slug: 'body', component:<Body />},
+      {name: 'Color', slug: 'color'},
+      {name: 'Nature', slug: 'nature'},
+      {name: 'People', slug: 'people'},
+      {name: 'Places', slug: 'places'},
+      {name: 'Machines', slug: 'machines'},
+      {name: 'Time', slug: 'time'},
+      {name: '', slug: ''},
+
     ]
     const renderItems = Items.map(item => {
       return (
@@ -49,4 +47,5 @@ class Spanish extends React.Component {
     }
   }
 
-export default Spanish;
+
+export default Nouns;

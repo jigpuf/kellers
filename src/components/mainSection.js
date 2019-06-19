@@ -12,12 +12,14 @@ import Instrumentation from './instrumentation.js';
 import Math from './math.js';
 import Mechanics from './mechanics.js';
 import MediaLists from './mediaLists.js';
+import Paintball from './paintball.js'
 import Programming from './programming.js';
 import Quotes from './quotes.js';
 import Spanish from './spanish.js';
 import Stories from './stories.js';
 import Survival from './survival.js';
 import Woodworking from './woodworking.js';
+import Links from './links.js';
 
 /*
 Since all the sections are rendering in the Main Section, we must import
@@ -43,12 +45,14 @@ const MainSection = (props) => {
       {activeTab3 === 'math' && <Math />}
       {activeTab3 === 'mechanics' && <Mechanics />}
       {activeTab3 === 'mediaLists' && <MediaLists />}
+      {activeTab3 === 'paintball' && <Paintball />}
       {activeTab3 === 'programming' && <Programming />}
       {activeTab3 === 'quotes' && <Quotes />}
       {activeTab3 === 'spanish' && <Spanish />}
       {activeTab3 === 'stories' && <Stories />}
       {activeTab3 === 'survival' && <Survival />}
       {activeTab3 === 'woodworking' && <Woodworking />}
+      {activeTab3 === 'links' && <Links />}
     </div>
   );
 };
