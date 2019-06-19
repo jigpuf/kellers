@@ -1,5 +1,6 @@
 import React from 'react';
-import Valves from './instruments/valves.js'
+import Valves from './instruments/valves.js';
+import Heaters from './instruments/heaters.js';
 
 class Instruments extends React.Component {
   state = {
@@ -26,7 +27,7 @@ class Instruments extends React.Component {
       {name: 'Gas Sensors', slug: 'gas' },
       {name: 'Flame Detectors', slug: 'flame' },
       {name: 'Clear Path', slug: 'clearPath' },
-      {name: 'Heaters', slug: 'heaters' },
+      {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
       {name: 'ZTSs', slug: 'zts' },
       {name: 'Flow', slug: 'flow' },
       {name: 'Coriolis', slug: 'coriolis' },

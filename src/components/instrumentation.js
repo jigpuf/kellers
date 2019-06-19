@@ -4,6 +4,7 @@ import Plc from './instrumentation/plc.js'
 import Checkouts from './instrumentation/systemCheckouts.js'
 import Instruments from './instrumentation/instruments.js'
 import Electronics from './instrumentation/electronics.js'
+import Controls from './instrumentation/controls.js'
 
 class Instrumentation extends React.Component {
   state = {
@@ -26,6 +27,7 @@ class Instrumentation extends React.Component {
       {name: 'NI Hardware', slug: 'ni' },
       {name: 'Channel Types', slug: 'checkouts', component:<Checkouts /> },
       {name: 'Electronics', slug: 'electronics', component:<Electronics />},
+      {name: 'Control Components', slug: 'components', component:<Controls />},
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (
