@@ -16,12 +16,16 @@ class Heaters extends React.Component {
       and the temperature controller.</p>
       <li><a href='https://www.watlow.com/en/products/controllers/power-switching-devices' target='_blank'
       >Power Controllers (B and C most common)</a></li>
-      <img src='instrumentation/watlowPowerController.png'></img>
+      <img src='instrumentation/watlowPowerController.png' height='200'></img>
       <li><a href='https://www.watlow.com/en/products/controllers/temperature-and-process-controllers' target='_blank'
       >Temperature Controllers (RM Rail Mount controller most common)</a></li>
-      Heaters can be configured using EZ-Zone Configurator software
+      <img src='instrumentation/watlowTempController.png' height='200'></img>
       <li><a href='https://www.watlow.com/en/products/controllers/software/ez-zone-configurator-software' target='_blank'
-      >EZ-Zone configurator software</a></li>
+      >EZ-Zone configurator software(Controller config Software)</a></li>
+      <img src='instrumentation/ezzoneConfigSoftware.png' height='200'></img>
+      <li><a href='https://www.schneider-electric.com/en/product-range/664-tesys-d/?parent-category-id=1500&parent-subcategory-id=1510' target='_blank'
+      >Schneider Contactors (LC1D32P7 common)</a></li>
+      <img src='instrumentation/schneiderContactor.png' height='200'></img>
       <li><a href='' target='_blank'
       ></a></li>
       <li><a href='' target='_blank'
@@ -30,8 +34,7 @@ class Heaters extends React.Component {
       ></a></li>
       <li><a href='' target='_blank'
       ></a></li>
-      <li><a href='' target='_blank'
-      ></a></li>
+      <img src='instrumentation/heaterBoxTop.jpg' height='200'></img>
       </div>
     );
   }
