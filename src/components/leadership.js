@@ -16,7 +16,7 @@ class Leadership extends React.Component {
     const Items = [
       {name: 'Training', slug: 'training',component:<Training />},
       {name: 'Efficiency', slug: 'eficiency',component:<Efficiency /> },
-      {name: 'Relationship curency', slug: 'relation',component:<Relation /> },
+      {name: 'Relationship', slug: 'relation',component:<Relation /> },
     ]
     const renderItems = Items.map(item => {
       return (
