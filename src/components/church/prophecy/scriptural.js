@@ -137,11 +137,11 @@ class Scriptural extends React.Component {
         </p>
         <p>
         97-
-        101,103,105,112,113,116,133
+        101,103,105,106,109,112,113,115,116,130,133
         </p>
       <h3>Book of Mormon</h3>
-        1Ne *14,*15,21-*22<br />
-        2Ne *3,8,12,14,15,20-*25,*26-27,*29-*30<br />
+        1Ne 10,13,*14,*15,19,21-*22<br />
+        2Ne *3,6,8,9,10,12,14,15,20-*25,*26-27,*29-*30<br />
         Jacob 5:<br />
         <ol>
           <li>Israel is an olive tree(3)(~2000BC)</li>
@@ -207,6 +207,7 @@ class Scriptural extends React.Component {
         </ol>
         6<br />
         3 Ne 16,20-22,24,25<br />
+        Mormon 5,6<br />
         Ether 4,8,13<br />
       <h3>Pearl of Great Price</h3>
         Moses 7<br />
@@ -236,6 +237,9 @@ class Scriptural extends React.Component {
         Zachariah 2,3,6,8,10,12-14<br />
         Joel 2-3<br />
         Mal 3-4<br />
+
+      <h3>Consider:</h3>
+        D&C 29,43,57,63,64,86,
       <br /><br /><br /><br /><br />
       </div>
     );

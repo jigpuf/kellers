@@ -1,3 +1,5 @@
+import Leadership from './leadership.js';
+import Instrumentation from './instrumentation.js';
 import React from 'react';
 import Apps from './apps.js';
 import Astronomy from './astronomy.js';
@@ -8,7 +10,6 @@ import Food from './food.js';
 import Games from './games.js';
 import Guitar from './guitar.js';
 import Health from './health.js';
-import Instrumentation from './instrumentation.js';
 import Math from './math.js';
 import Mechanics from './mechanics.js';
 import MediaLists from './mediaLists.js';
@@ -32,6 +33,8 @@ const MainSection = (props) => {
   //creates variable to contain the props.activeTab2 value from App.js
   return (
     <div className="mainSection">
+      {activeTab3 === 'leadership' && <Leadership />}
+      {activeTab3 === 'instrumentation' && <Instrumentation />}
       {activeTab3 === 'apps' && <Apps />}
       {activeTab3 === 'astronomy' && <Astronomy />}
       {activeTab3 === 'business' && <Business />}
@@ -41,7 +44,6 @@ const MainSection = (props) => {
       {activeTab3 === 'games' && <Games />}
       {activeTab3 === 'guitar' && <Guitar />}
       {activeTab3 === 'health' && <Health />}
-      {activeTab3 === 'instrumentation' && <Instrumentation />}
       {activeTab3 === 'math' && <Math />}
       {activeTab3 === 'mechanics' && <Mechanics />}
       {activeTab3 === 'mediaLists' && <MediaLists />}

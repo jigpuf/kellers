@@ -51,6 +51,31 @@ class Songs extends React.Component {
       <li>The Freshman</li>
       <li>On the Road again</li>
       <li>Toes</li>
+      Church Songs:
+      <li>What child is this</li>
+      <li>O Holy Night</li>
+      <li>Come Thou Fount</li>
+      <li>God be with you till we meet again</li>
+      <li>The spirit of God</li>
+      <li>Poor Wayfaring man of grief</li>
+      <li>High on a mountain top</li>
+      <li>Israel god is calling</li>
+      <li>Redeamer of israel</li>
+      <li>Praise to the Man</li>
+      <li>Come come ye Saints</li>
+      <li>Battle hymn of the Republic</li>
+      <li>All creatures of our God and King</li>
+      <li>I need thee every hour</li>
+      <li>Sweet hour of Prayer</li>
+      <li>Abide with me</li>
+      <li>I stand all amazed</li>
+      <li>Onward Christian Soldiers</li>
+      <li>We are all enlisted</li>
+      <li>If you could hie to Kolob</li>
+      <li>Oh my Father</li>
+      <li>Ye Elders of Israel</li>
+      <li>Brightly Beams my Fathers mercy</li>
+
       </div>
     );
   }

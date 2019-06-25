@@ -11,6 +11,7 @@ class Tax extends React.Component {
           <li>Business Equipment</li>
           <li>Business Tax</li>
           <li>Business services</li>
+          <li>Milage</li>
           <li>Education</li>
           <li>Mortgage Interest</li>
           <li>Property Tax</li>

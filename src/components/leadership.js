@@ -1,7 +1,9 @@
 import React from 'react';
-import Dice from './apps/dice.js';
+import Training from './leadership/training.js';
+import Efficiency from './leadership/efficiency.js';
+import Relation from './leadership/relation.js';
 
-class Apps extends React.Component {
+class Leadership extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -12,20 +14,9 @@ class Apps extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Paycheck', slug: 'paycheck' },
-      {name: 'Dice Rolling Tool', slug: 'dice', component: <Dice /> },
-      {name: 'Battleship', slug: 'battleship' },
-      {name: 'Tic-Tac-Toe', slug: 'ttt' },
-      {name: 'Electronics Test', slug: 'et' },
-      {name: 'Homeschool', slug: 'homeschool'},
-      {name: 'Lawnmowing', slug: 'lawnmowing'},
-      {name: 'Countdown', slug: 'countdown'},
-      {name: 'Essential Oils', slug: 'oils'},
-      {name: 'Spanish', slug: 'spanish'},
-      {name: 'Scripture Keeper', slug: 'scripture'},
-      {name: 'Companion Planting', slug: 'companion'},
-      {name: 'Quotes', slug: 'quotes'},
-      {name: 'Fitness Tracker', slug: 'fitness'},
+      {name: 'Training', slug: 'training',component:<Training />},
+      {name: 'Efficiency', slug: 'eficiency',component:<Efficiency /> },
+      {name: 'Relationship curency', slug: 'relation',component:<Relation /> },
     ]
     const renderItems = Items.map(item => {
       return (
@@ -43,12 +34,15 @@ class Apps extends React.Component {
     return (
       <div>
         <ul>
+        The whole point of a leader is to produce a multiplying effect on the
+        crew<br/>
           {renderItems}
         </ul>
         <hr />
+
         {renderTier2Component}
       </div>
     )
     }
   }
-export default Apps;
+export default Leadership;

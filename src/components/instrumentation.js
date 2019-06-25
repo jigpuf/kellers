@@ -5,6 +5,7 @@ import Checkouts from './instrumentation/systemCheckouts.js'
 import Instruments from './instrumentation/instruments.js'
 import Electronics from './instrumentation/electronics.js'
 import Controls from './instrumentation/controls.js'
+import Avionics from './instrumentation/avionics.js'
 
 class Instrumentation extends React.Component {
   state = {
@@ -20,7 +21,7 @@ class Instrumentation extends React.Component {
       {name: 'Cameras', slug: 'cameras' },
       {name: 'Power', slug: 'power' },
       {name: 'VFD', slug: 'vfds' },
-      {name: 'Explosion Codes', slug: 'explosion' },
+      {name: 'Codes', slug: 'codes' },
       {name: 'Instruments', slug: 'instruments', component:<Instruments /> },
       {name: 'Networking', slug: 'networking', component:<Networking /> },
       {name: 'PLC Hardware', slug: 'plc', component:<Plc />},
@@ -28,6 +29,7 @@ class Instrumentation extends React.Component {
       {name: 'Channel Types', slug: 'checkouts', component:<Checkouts /> },
       {name: 'Electronics', slug: 'electronics', component:<Electronics />},
       {name: 'Control Components', slug: 'components', component:<Controls />},
+      {name: 'Avionics', slug: 'avionics', component:<Avionics />},
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

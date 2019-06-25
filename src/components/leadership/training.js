@@ -1,7 +1,9 @@
 import React from 'react';
-import Dice from './apps/dice.js';
+import Information from './training/information.js';
+import Practice from './training/practice.js';
+import Testing from './training/testing.js';
 
-class Apps extends React.Component {
+class Training extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -12,20 +14,9 @@ class Apps extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Paycheck', slug: 'paycheck' },
-      {name: 'Dice Rolling Tool', slug: 'dice', component: <Dice /> },
-      {name: 'Battleship', slug: 'battleship' },
-      {name: 'Tic-Tac-Toe', slug: 'ttt' },
-      {name: 'Electronics Test', slug: 'et' },
-      {name: 'Homeschool', slug: 'homeschool'},
-      {name: 'Lawnmowing', slug: 'lawnmowing'},
-      {name: 'Countdown', slug: 'countdown'},
-      {name: 'Essential Oils', slug: 'oils'},
-      {name: 'Spanish', slug: 'spanish'},
-      {name: 'Scripture Keeper', slug: 'scripture'},
-      {name: 'Companion Planting', slug: 'companion'},
-      {name: 'Quotes', slug: 'quotes'},
-      {name: 'Fitness Tracker', slug: 'fitness'},
+      {name: 'Information', slug: 'information',component:<Information /> },
+      {name: 'Practice', slug: 'practice',component:<Practice /> },
+      {name: 'Testing', slug: 'testing',component:<Testing /> },
     ]
     const renderItems = Items.map(item => {
       return (
@@ -43,12 +34,14 @@ class Apps extends React.Component {
     return (
       <div>
         <ul>
+          Training creates techs that are more autonomous, time efficient, and valuable<br/>
           {renderItems}
         </ul>
         <hr />
+
         {renderTier2Component}
       </div>
     )
     }
   }
-export default Apps;
+export default Training;

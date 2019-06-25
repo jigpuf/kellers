@@ -11,6 +11,8 @@ class Links extends React.Component {
         <h4>Travel</h4>
           <a href='https://www.atlasobscura.com/' target='_blank'
           >Atlas Obscura</a><br/>
+          <a href='https://www.roadsideamerica.com/' target='_blank'
+          >Roadside America</a><br/>
           <hr/>
         <h4>Church</h4>
           <a href='http://blog.templethemes.net/' target='_blank'
@@ -21,6 +23,8 @@ class Links extends React.Component {
           <a href='https://www.churchofjesuschrist.org/?lang=eng' target='_blank'
           >LDS.org</a><br/>
           <hr/>
+          <a href='https://www.scribd.com/document/57890369/Download-Free-LDS-Books' target='_blank'
+          >Free LDS Books</a><br/>
         <h4>Cooking</h4>
           <a href='https://www.epicurious.com/' target='_blank'
           >Epicuiour</a><br/>
@@ -49,9 +53,20 @@ class Links extends React.Component {
           <a href='https://providentliving.churchofjesuschrist.org/?lang=eng' target='_blank'
           >Provident Living</a><br/>
           <hr/>
+        <h4>Research People</h4>
+        <a href='https://www.truepeoplesearch.com/' target='_blank'
+        >True People Search</a><br/>
+        <a href='https://www.familysearch.org/en/' target='_blank'
+        >Family Search</a><br/>
+        <a href='https://www.familytree.com/' target='_blank'
+        >Family Tree</a><br/>
       </div>
     );
   }
 }
 
 export default Links;
+
+
+//<a href='' target='_blank'
+//></a><br/>

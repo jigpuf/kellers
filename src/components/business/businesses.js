@@ -12,6 +12,7 @@ class Businesses extends React.Component {
       <li>YouTube/Patreon</li>
       <li>Storage</li>
       <li>Air BNB</li>
+      <li>Air BNB Management</li>
       Active Income:
       <li>Instrumentation</li>
       <li>Software</li>

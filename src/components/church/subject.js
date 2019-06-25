@@ -5,6 +5,8 @@ import Theosis from './subjects/theosis.js';
 import Atonement from './subjects/atonement.js';
 import Element from './subjects/element.js';
 import Redux from './subjects/redux.js';
+import Temple from './subjects/temple.js';
+import Relationship from './subjects/relationship.js';
 
 class Subject extends React.Component {
   state= {
@@ -24,7 +26,7 @@ pickTier2 = (item) => {
       {name: 'Faith', slug: 'faith'},
       {name: 'Repentance', slug: 'repentance'},
       {name: 'Ordinances', slug: 'ordinances'},
-      {name: 'Temple', slug: 'temple'},
+      {name: 'Temple', slug: 'temple', component:<Temple />},
       {name: 'Sermons', slug: 'sermons'},
       {name: 'Pre-mortal Existance', slug: 'pre-mortal'},
       {name: 'Escotology', slug: 'escotology'},
@@ -34,6 +36,15 @@ pickTier2 = (item) => {
       {name: 'Zion', slug: 'zion'},
       {name: 'Visions', slug: 'visions'},
       {name: 'Cosmology', slug: 'cosmology'},
+      {name: 'Soteriology', slug: 'soteriology'},
+      {name: 'Agency', slug: 'agency'},
+      {name: 'Ecclesiology', slug: 'ecclesiology'},
+      {name: 'Pneumatology', slug: 'pneumatology'},
+      {name: 'Angels', slug: 'angels'},
+      {name: 'Theological Development', slug: 'development'},
+      {name: 'Conversion', slug: 'conversion'},
+      {name: 'Covenants', slug: 'covenants'},
+      {name: 'Relationships', slug: 'relationships', component:<Relationship />},
       {name: 'Justification/Sanctification', slug: 'justify', component:<Justify />},
       {name: 'Evolution', slug: 'evolution', component:<Evolution />},
       {name: 'Theosis', slug: 'theosis', component:<Theosis />},
