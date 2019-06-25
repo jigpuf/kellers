@@ -8,8 +8,6 @@ class Space extends React.Component {
       <li>Take out of packaging</li>
       <li>Get rid of unused stuff</li>
       <li>Organize in better way</li>
-      <li></li>
-      <li></li>
       </div>
     );
   }
