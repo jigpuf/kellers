@@ -1,5 +1,5 @@
 body {
-  background-color: wheat;
+  background-color: #f1e8de;
   font-family: Tahoma;
 }
 
@@ -46,7 +46,7 @@ ul {
 header {
   border: 2px solid black;
   Padding:5px;
-  background-color: tan;
+  background-color: #f1e8de;/*#bee6e8;*/
 }
 
 h2 {

@@ -3,7 +3,11 @@ import React from 'react';
 class Resources extends React.Component {
   render () {
     return (
-      <div>Resources</div>
+      <div>
+      <li>Inventory</li>
+      <li>Scrappiness</li>
+      <li>Money</li>
+      </div>
     );
   }
 }
