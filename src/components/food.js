@@ -26,6 +26,7 @@ class Food extends React.Component {
       {name: 'Ingredients', slug: 'ingredients' },
       {name: 'Nationality', slug: 'nationality' },
       {name: 'Diet', slug: 'diet' },
+      {name: 'Restaurants', slug: 'restaurants' },
     ];
     const renderItems = Items.map(item => {
       return (

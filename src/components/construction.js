@@ -1,5 +1,5 @@
 import React from 'react';
-import Framing from './woodworking/framing.js';
+import Carpentry from './construction/carpentry.js';
 
 class Woodworking extends React.Component {
   state = {
@@ -12,9 +12,14 @@ class Woodworking extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Cabinets', slug: 'cabinets' },
-      {name: 'Framing', slug: 'framing', component:<Framing /> },
-      {name: 'Furniture', slug: 'furniture' },
+      {name: 'Plumbing', slug: 'plumbing' },
+      {name: 'Carpentry', slug: 'carpentry', component:<Carpentry /> },
+      {name: 'Electrical', slug: 'electrical' },
+      {name: 'Flooring', slug: 'flooring' },
+      {name: 'Insulation', slug: 'insulation' },
+      {name: 'Networking', slug: 'networking' },
+      {name: 'Pest Control', slug: 'pest' },
+      {name: 'Heat/Ac', slug: 'ac' },
     ]
     const renderItems = Items.map(item => {
       return (

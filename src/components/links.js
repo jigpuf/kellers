@@ -25,6 +25,12 @@ class Links extends React.Component {
           <hr/>
           <a href='https://www.scribd.com/document/57890369/Download-Free-LDS-Books' target='_blank'
           >Free LDS Books</a><br/>
+          <a href='https://www.mormoninterpreter.com/' target='_blank'
+          >Interpreter</a><br/>
+          <a href='https://www.fairmormon.org/' target='_blank'
+          >Fair</a><br/>
+          <a href='https://askgramps.org/' target='_blank'
+          >Ask Gramps</a><br/>
         <h4>Cooking</h4>
           <a href='https://www.epicurious.com/' target='_blank'
           >Epicuiour</a><br/>

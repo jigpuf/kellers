@@ -19,7 +19,7 @@ import Quotes from './quotes.js';
 import Spanish from './spanish.js';
 import Stories from './stories.js';
 import Survival from './survival.js';
-import Woodworking from './woodworking.js';
+import Construction from './construction.js';
 import Links from './links.js';
 
 /*
@@ -53,7 +53,7 @@ const MainSection = (props) => {
       {activeTab3 === 'spanish' && <Spanish />}
       {activeTab3 === 'stories' && <Stories />}
       {activeTab3 === 'survival' && <Survival />}
-      {activeTab3 === 'woodworking' && <Woodworking />}
+      {activeTab3 === 'construction' && <Construction />}
       {activeTab3 === 'links' && <Links />}
     </div>
   );

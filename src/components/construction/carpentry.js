@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Framing extends React.Component {
+class Carpentry extends React.Component {
   render () {
     return (
       <div>
@@ -18,4 +18,4 @@ class Framing extends React.Component {
   }
 }
 
-export default Framing;
+export default Carpentry;

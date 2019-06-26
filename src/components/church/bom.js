@@ -3,6 +3,7 @@ import Nephi1 from './bom/nephi1.js';
 import Nephi2 from './bom/nephi2.js';
 import Jacob from './bom/jacob.js';
 import Geography from './bom/geography.js';
+import Lectures from './bom/lectures.js';
 
 class BOM extends React.Component {
   state= {
@@ -32,7 +33,7 @@ pickTier2 = (item) => {
           {name: 'Moroni', slug: 'moroni'},
           {name: 'Book of Mormon Whole', slug: 'bom'},
           {name: 'Geography', slug: 'geography', component: <Geography />},
-          {name: 'Lectures', slug: 'lectures'},
+          {name: 'Lectures', slug: 'lectures', component: <Lectures />},
         ]
         const renderItems = Items.map(item => {
           return (

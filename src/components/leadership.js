@@ -34,8 +34,6 @@ class Leadership extends React.Component {
     return (
       <div>
         <ul>
-        The whole point of a leader is to produce a multiplying effect on the
-        crew<br/>
           {renderItems}
         </ul>
         <hr />
