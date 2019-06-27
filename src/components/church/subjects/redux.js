@@ -5,13 +5,13 @@ class Redux extends React.Component {
     return (
       <div>
         BOM:
-        <li>1 Ne 8,10-15,19,22</li>
-        <li>2 Ne 1,*2,3,6,*9,10,25,26,28-32</li>
+        <li>1 Ne *8,10-15,19,22</li>
+        <li>2 Ne 1,*2,3,6,*9,10,25,26,28-*31,*32</li>
         <li>Jacob 2,5,6</li>
-        <li>Mosiah 2-5,15,16,29</li>
+        <li>Mosiah 2-5,15,16,*18,29</li>
         <li>Alma *5,7,11,12,*13,18,22,32-34,37,38-42</li>
         <li>Helaman 12</li>
-        <li>3 NE 5,11-30,32,34,37,39-42</li>
+        <li>3 NE 5,*11,12-30,32,34,37,39-42</li>
         <li>4 NE 1</li>
         <li>Mormon 5,7-9</li>
         <li>Ether 1-5,*8,*12,13</li>

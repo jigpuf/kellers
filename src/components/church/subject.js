@@ -7,6 +7,7 @@ import Element from './subjects/element.js';
 import Redux from './subjects/redux.js';
 import Temple from './subjects/temple.js';
 import Relationship from './subjects/relationship.js';
+import Ordinances from './subjects/ordinances.js';
 
 class Subject extends React.Component {
   state= {
@@ -25,7 +26,7 @@ pickTier2 = (item) => {
       {name: 'Comandments', slug: 'comandments'},
       {name: 'Faith', slug: 'faith'},
       {name: 'Repentance', slug: 'repentance'},
-      {name: 'Ordinances', slug: 'ordinances'},
+      {name: 'Ordinances', slug: 'ordinances', component:<Ordinances />},
       {name: 'Temple', slug: 'temple', component:<Temple />},
       {name: 'Sermons', slug: 'sermons'},
       {name: 'Pre-mortal Existance', slug: 'pre-mortal'},
