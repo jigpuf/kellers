@@ -4,11 +4,21 @@ class Ordinances extends React.Component {
   render () {
     return (
       <div>
-      Baptism: Gate, Take upon the name of Christ,
+      Baptism: Gate, Take upon the name of Christ, Sacrament
       <li>1 Ne 8,11</li>
       <li>2 Ne 31</li>
       <li>Mosiah 18</li>
-      <li>3 Ne 11</li>
+      <li>3 Ne 11,18</li>
+      <li>Moroni 8</li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
       <li></li>
       Gift of the Holy Ghost:
       <li></li>

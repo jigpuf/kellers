@@ -15,6 +15,7 @@ class Mechanics extends React.Component {
     const Items = [
       {name: 'Titan', slug: 'titan', component:<Titan /> },
       {name: 'Tacoma', slug: 'tacoma', component:<Tacoma />},
+      {name: 'Generic', slug: 'generic', }
     ]
     const renderItems = Items.map(item => {
       return (

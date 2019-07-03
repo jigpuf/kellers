@@ -13,27 +13,21 @@ class Instruments extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Valves', slug: 'Valves', component:<Valves />},
-      {name: 'Pressure', slug: 'pressure' },
-      {name: 'Limits', slug: 'limits' },
-      {name: 'Accelerometers', slug: 'accels' },
-      {name: 'Thermocouples', slug: 'thermocouples' },
-      {name: 'RTDs', slug: 'rts' },
-      {name: 'LVDTs', slug: 'lvdts' },
-      {name: 'String Pots', slug: 'pots' },
-      {name: 'Strain Gauges', slug: 'strain' },
-      {name: 'Load Cells', slug: 'load' },
+      {name: 'Positioners', slug: 'position', component:<Valves />},
+      {name: 'Position Feedback', slug: 'limits' },
+      {name: 'Motion', slug: 'motion' },
+      {name: 'Strain', slug: 'strain' },
       {name: 'Igniters', slug: 'igniter' },
       {name: 'Gas Sensors', slug: 'gas' },
       {name: 'Flame Detectors', slug: 'flame' },
       {name: 'Clear Path', slug: 'clearPath' },
-      {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
-      {name: 'ZTSs', slug: 'zts' },
+      {name: 'Proximity', slug: 'prox' },
       {name: 'Flow', slug: 'flow' },
-      {name: 'Coriolis', slug: 'coriolis' },
       {name: 'Microphones', slug: 'microphones' },
-      {name: 'HOA Switches', slug: 'hoa' },
+      {name: 'Pressure', slug: 'pressure' },
       {name: 'HART Protocol', slug: 'heart' },
+      {name: 'Temperature', slug: 'tempFeedback' },
+      {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
 
     ]
     const renderItems = Items.map(item => {

@@ -8,6 +8,8 @@ import Redux from './subjects/redux.js';
 import Temple from './subjects/temple.js';
 import Relationship from './subjects/relationship.js';
 import Ordinances from './subjects/ordinances.js';
+import Are from './subjects/are.js';
+import Covenant from './subjects/covenant.js';
 
 class Subject extends React.Component {
   state= {
@@ -44,12 +46,13 @@ pickTier2 = (item) => {
       {name: 'Angels', slug: 'angels'},
       {name: 'Theological Development', slug: 'development'},
       {name: 'Conversion', slug: 'conversion'},
-      {name: 'Covenants', slug: 'covenants'},
+      {name: 'Covenant Path', slug: 'covenant', component:<Covenant />},
       {name: 'Relationships', slug: 'relationships', component:<Relationship />},
       {name: 'Justification/Sanctification', slug: 'justify', component:<Justify />},
       {name: 'Evolution', slug: 'evolution', component:<Evolution />},
       {name: 'Theosis', slug: 'theosis', component:<Theosis />},
       {name: 'Redux Scripture', slug: 'bible', component:<Redux />},
+      {name: 'What things are', slug: 'are', component:<Are />},
     ]
       const renderItems = Items.map(item => {
         return (

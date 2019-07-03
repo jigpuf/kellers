@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Resources extends React.Component {
+class Property extends React.Component {
   render () {
     return (
       <div>
@@ -12,4 +12,4 @@ class Resources extends React.Component {
   }
 }
 
-export default Resources;
+export default Property;

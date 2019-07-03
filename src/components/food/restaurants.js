@@ -1,21 +1,24 @@
 import React from 'react';
+import City from './restaurants/city.js';
+import Waco from './restaurants/waco.js';
 
-class Controls extends React.Component {
+class Restaurants extends React.Component {
   state = {
     tier1: undefined,
+    tier2: undefined,
   }
-  pickTier1  = (item) => {
-    return () => {
-      this.setState({tier1:item})
-    }
+  pickTier1 = (item) => {
+    return() => {this.setState({tier1:item})
   }
+  }
+//This is function to change tier1 state
+//There needs to be state changes to bring up new buttons
+
   render () {
+
     const Items = [
-      {name: 'Fuse', slug: 'fuse',},
-      {name: 'Contactor', slug: 'contactor',},
-      {name: 'Relay', slug: 'relay',},
-      {name: 'Power Supply', slug: 'power',},
-      {name: 'HOA Switches', slug: 'hoa' },
+      {name: 'City', slug: 'city', component:<City />},
+      {name: 'Waco', slug: 'waco', component:<Waco />},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -40,18 +43,6 @@ class Controls extends React.Component {
       </div>
     )
     }
-  }
+    }
 
-
-export default Controls;
-/*<div>
-<li>Contactors</li>
-<li>Watlo Controllers</li>
-<li>Breakers</li>
-<li>Fuses</li>
-<li>Relays</li>
-<li></li>
-<li></li>
-<li></li>
-</div>
-);*/
+export default Restaurants;

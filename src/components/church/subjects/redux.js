@@ -11,11 +11,11 @@ class Redux extends React.Component {
         <li>Mosiah 2-5,15,16,*18,29</li>
         <li>Alma *5,7,11,12,*13,18,22,32-34,37,38-42</li>
         <li>Helaman 12</li>
-        <li>3 NE 5,*11,12-30,32,34,37,39-42</li>
+        <li>3 NE 5,*11,12-19,*20,21-30,32,34,37,39-42</li>
         <li>4 NE 1</li>
         <li>Mormon 5,7-9</li>
         <li>Ether 1-5,*8,*12,13</li>
-        <li>Moroni 2-10</li>
+        <li>Moroni 2-7,*8,9,10</li>
         POGP:
         <li>Abraham 1-5</li>
         <li>Moses 1-8</li>

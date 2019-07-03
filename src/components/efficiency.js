@@ -1,4 +1,10 @@
 import React from 'react';
+import Methodology from './efficiency/methodology.js';
+import Time from './efficiency/time.js';
+import Space from './efficiency/space.js';
+import Health from './efficiency/health.js';
+import Simplicity from './efficiency/simplicity.js';
+import Property from './efficiency/resources.js';
 
 class Efficiency extends React.Component {
   state = {
@@ -13,15 +19,16 @@ class Efficiency extends React.Component {
   render () {
 
     const Items = [
-      {name: 'Time', slug: 'time'},
-      {name: 'Property', slug: 'property'},
-      {name: 'Health', slug: 'health'},
-      {name: 'Space', slug: 'Space'},
-      {name: 'Simplicity', slug: 'simplicity'},
+      {name: 'Time', slug: 'time', component:<Time />},
+      {name: 'Property', slug: 'property', component:<Property />},
+      {name: 'Health', slug: 'health', component:<Health />},
+      {name: 'Space', slug: 'Space', component:<Space />},
+      {name: 'Simplicity', slug: 'simplicity', component:<Simplicity />},
       {name: 'Spirituality', slug: 'spirituality'},
       {name: 'Relationships', slug: 'relationships'},
       {name: 'Knowledge', slug: 'knowledge'},
       {name: 'Experience', slug: 'experience'},
+      {name: 'Methodology', slug: 'methodology', component:<Methodology />}
     ]
     const renderItems = Items.map(item => {
       return (

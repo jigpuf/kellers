@@ -1,6 +1,5 @@
 import React from 'react';
 import Training from './leadership/training.js';
-import Efficiency from './leadership/efficiency.js';
 import Relation from './leadership/relation.js';
 
 class Leadership extends React.Component {
@@ -15,7 +14,6 @@ class Leadership extends React.Component {
   render () {
     const Items = [
       {name: 'Training', slug: 'training',component:<Training />},
-      {name: 'Efficiency', slug: 'eficiency',component:<Efficiency /> },
       {name: 'Relationship', slug: 'relation',component:<Relation /> },
     ]
     const renderItems = Items.map(item => {

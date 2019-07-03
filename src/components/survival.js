@@ -2,6 +2,8 @@ import React from 'react';
 import Food from './survival/food.js';
 import Defense from './survival/defense.js';
 import Energy from './survival/energy.js';
+import Hygene from './survival/hygene.js';
+import Kit from './survival/kit.js';
 
 class Survival extends React.Component {
   state = {
@@ -25,6 +27,9 @@ class Survival extends React.Component {
       {name: 'Recreation', slug: 'recreation' },
       {name: 'Shelter', slug: 'shelter' },
       {name: 'Water', slug: 'water' },
+      {name: 'hygene', slug: 'hygene', component:<Hygene />},
+      {name: 'clothing', slug: 'clothing'},
+      {name: '72-hour kit', slug: 'kit', component:<Kit />},
     ]
     const renderItems = Items.map(item => {
       return (
