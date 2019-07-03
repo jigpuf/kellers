@@ -21,9 +21,10 @@ class Dcs extends React.Component {
       {name: 'Panels', slug: 'panels', component:<Panels />},
       {name: 'NI', slug: 'ni', component:<Ni />},
       {name: 'PLC', slug: 'plc', component:<Plc />},
-      {name: 'Codes', slug: 'codes'},
       {name: 'Software', slug: 'software', component:<Software />},
       {name: 'System Checkouts', slug: 'system', component:<Checkouts />},
+      {name: 'HART Protocol', slug: 'heart' },
+      {name: 'Codes', slug: 'codes'},
     ]
     const renderItems = Items.map(item => {
       return (

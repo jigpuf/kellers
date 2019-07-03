@@ -14,6 +14,7 @@ class Instruments extends React.Component {
   render () {
     const Items = [
       {name: 'Positioners', slug: 'position', component:<Valves />},
+      {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
       {name: 'Position Feedback', slug: 'limits' },
       {name: 'Motion', slug: 'motion' },
       {name: 'Strain', slug: 'strain' },
@@ -25,9 +26,7 @@ class Instruments extends React.Component {
       {name: 'Flow', slug: 'flow' },
       {name: 'Microphones', slug: 'microphones' },
       {name: 'Pressure', slug: 'pressure' },
-      {name: 'HART Protocol', slug: 'heart' },
       {name: 'Temperature', slug: 'tempFeedback' },
-      {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
 
     ]
     const renderItems = Items.map(item => {
