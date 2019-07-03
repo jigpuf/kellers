@@ -1,5 +1,5 @@
 import Leadership from './leadership.js';
-import Instrumentation from './instrumentation.js';
+import Work from './work.js';
 import React from 'react';
 import Apps from './apps.js';
 import Astronomy from './astronomy.js';
@@ -34,7 +34,7 @@ const MainSection = (props) => {
   return (
     <div className="mainSection">
       {activeTab3 === 'leadership' && <Leadership />}
-      {activeTab3 === 'instrumentation' && <Instrumentation />}
+      {activeTab3 === 'work' && <Work />}
       {activeTab3 === 'apps' && <Apps />}
       {activeTab3 === 'astronomy' && <Astronomy />}
       {activeTab3 === 'business' && <Business />}

@@ -4,8 +4,8 @@ import React from 'react';
 class SideMenu extends React.Component {
   render () {
     const sideMenuItems = [
+      { name: 'Work', slug: 'work' },
       { name: 'Leadership', slug: 'leadership' },
-      { name: 'Instrumentation', slug: 'instrumentation' },
       { name: 'Apps', slug: 'apps' },
       { name: 'Astronomy', slug: 'astronomy' },
       { name: 'Business', slug: 'business' },

@@ -1,13 +1,10 @@
 import React from 'react';
-import Telecom from './instrumentation/telecom.js'
-import Plc from './instrumentation/plc.js'
-import Checkouts from './instrumentation/systemCheckouts.js'
-import Instruments from './instrumentation/instruments.js'
-import Electronics from './instrumentation/electronics.js'
-import Controls from './instrumentation/controls.js'
-import Avionics from './instrumentation/avionics.js'
-import Ni from './instrumentation/ni.js'
-import Power from './instrumentation/power.js'
+import Telecom from './work/telecom.js'
+import Instruments from './work/instruments.js'
+import Electronics from './work/electronics.js'
+import Avionics from './work/avionics.js'
+import Power from './work/power.js'
+import Dcs from './work/dcs.js'
 
 class Instrumentation extends React.Component {
   state = {
@@ -20,10 +17,7 @@ class Instrumentation extends React.Component {
   }
   render () {
     const tier1Items = [
-      {name: 'NI', slug: 'ni', component:<Ni />},
-      {name: 'Jbox build', slug: 'components', component:<Controls />},
-      {name: 'PLC', slug: 'plc', component:<Plc />},
-      {name: 'Channel Types', slug: 'checkouts', component:<Checkouts /> },
+      {name: 'DCS', slug: 'dcs', component:<Dcs />},
       {name: 'Power', slug: 'power', component:<Power />},
       {name: 'Instruments', slug: 'instruments', component:<Instruments /> },
       {name: 'Telecom', slug: 'telecom', component:<Telecom /> },
