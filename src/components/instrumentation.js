@@ -1,11 +1,13 @@
 import React from 'react';
-import Networking from './instrumentation/networking.js'
+import Telecom from './instrumentation/telecom.js'
 import Plc from './instrumentation/plc.js'
 import Checkouts from './instrumentation/systemCheckouts.js'
 import Instruments from './instrumentation/instruments.js'
 import Electronics from './instrumentation/electronics.js'
 import Controls from './instrumentation/controls.js'
 import Avionics from './instrumentation/avionics.js'
+import Ni from './instrumentation/ni.js'
+import Power from './instrumentation/power.js'
 
 class Instrumentation extends React.Component {
   state = {
@@ -18,16 +20,13 @@ class Instrumentation extends React.Component {
   }
   render () {
     const tier1Items = [
-      {name: 'NI', slug: 'ni' },
+      {name: 'NI', slug: 'ni', component:<Ni />},
       {name: 'Jbox build', slug: 'components', component:<Controls />},
       {name: 'PLC', slug: 'plc', component:<Plc />},
       {name: 'Channel Types', slug: 'checkouts', component:<Checkouts /> },
-      {name: 'Power', slug: 'power' },
-      {name: 'VFD', slug: 'vfd' },
-      {name: 'Codes', slug: 'codes' },
+      {name: 'Power', slug: 'power', component:<Power />},
       {name: 'Instruments', slug: 'instruments', component:<Instruments /> },
-      {name: 'Networking', slug: 'networking', component:<Networking /> },
-      {name: 'Cameras', slug: 'cameras' },
+      {name: 'Telecom', slug: 'telecom', component:<Telecom /> },
       {name: 'Electronics', slug: 'electronics', component:<Electronics />},
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},
     ]
