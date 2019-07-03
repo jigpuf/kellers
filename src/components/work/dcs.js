@@ -25,6 +25,7 @@ class Dcs extends React.Component {
       {name: 'System Checkouts', slug: 'system', component:<Checkouts />},
       {name: 'HART Protocol', slug: 'heart' },
       {name: 'Codes', slug: 'codes'},
+      {name: 'Tools', slug: 'tools'},
     ]
     const renderItems = Items.map(item => {
       return (

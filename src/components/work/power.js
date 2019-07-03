@@ -15,6 +15,7 @@ class Power extends React.Component {
       {name: 'Switches', slug: 'switches' },
       {name: 'Panels', slug: 'panels' },
       {name: 'Codes', slug: 'codes' },
+      {name: 'Tools', slug: 'tools'},
 
     ]
     const renderItems = Items.map(item => {

@@ -19,7 +19,7 @@ class Instrumentation extends React.Component {
     const tier1Items = [
       {name: 'DCS', slug: 'dcs', component:<Dcs />},
       {name: 'Power', slug: 'power', component:<Power />},
-      {name: 'Instruments', slug: 'instruments', component:<Instruments /> },
+      {name: 'Instrumentation', slug: 'instruments', component:<Instruments /> },
       {name: 'Telecom', slug: 'telecom', component:<Telecom /> },
       {name: 'Electronics', slug: 'electronics', component:<Electronics />},
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},

@@ -27,6 +27,7 @@ class Instruments extends React.Component {
       {name: 'Microphones', slug: 'microphones' },
       {name: 'Pressure', slug: 'pressure' },
       {name: 'Temperature', slug: 'tempFeedback' },
+      {name: 'Tools', slug: 'tools'},
 
     ]
     const renderItems = Items.map(item => {
