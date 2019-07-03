@@ -21,7 +21,7 @@ class Kit extends React.Component {
       <li>Food:</li>
       Guns, Bullets, Tang, Canned Chicken, Rice-aRoni, Tuna, Lentils, MRE's,
       Mac and Cheese, Powdered Milk, Instant Pudding, instant Jello, Mess Kit,
-      Utensils, Wash Pad, dish soap, powered eggs, Sugar, Salt, Powdered Butter,
+      Utensils, Wash Pad, dish soap, powdered eggs, Sugar, Salt, Powdered Butter,
       Raman, Dehydrated fruit, Oatmeal, cooking spray, powdered Mashed potatoes,
       Fishing pole and gear<hr/>
       <li>Navigation:</li>

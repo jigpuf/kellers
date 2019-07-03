@@ -11,9 +11,13 @@ class Paintball extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Markers', slug: 'markers' },
-      {name: 'Games', slug: 'games' },
-      {name: 'Loadout', slug: 'Loadout' },
+      {name: 'Sports', slug: 'sports' },
+      {name: 'Table Games', slug: 'table' },
+      {name: 'Video Games', slug: 'video' },
+      {name: 'Movies', slug: 'movies' },
+      {name: 'Shopping', slug: 'Shopping' },
+      {name: 'Food', slug: 'food' },
+      {name: 'Education', slug: 'education' },
     ]
     const renderItems = Items.map(item => {
       return (

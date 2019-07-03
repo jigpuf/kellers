@@ -13,7 +13,7 @@ import Health from './health.js';
 import Math from './math.js';
 import Mechanics from './mechanics.js';
 import MediaLists from './mediaLists.js';
-import Paintball from './paintball.js'
+import Fun from './fun.js'
 import Programming from './programming.js';
 import Quotes from './quotes.js';
 import Spanish from './spanish.js';
@@ -47,7 +47,7 @@ const MainSection = (props) => {
       {activeTab3 === 'math' && <Math />}
       {activeTab3 === 'mechanics' && <Mechanics />}
       {activeTab3 === 'mediaLists' && <MediaLists />}
-      {activeTab3 === 'paintball' && <Paintball />}
+      {activeTab3 === 'fun' && <Fun />}
       {activeTab3 === 'programming' && <Programming />}
       {activeTab3 === 'quotes' && <Quotes />}
       {activeTab3 === 'spanish' && <Spanish />}
