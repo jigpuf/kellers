@@ -23,6 +23,9 @@ class Instrumentation extends React.Component {
       {name: 'Telecom', slug: 'telecom', component:<Telecom /> },
       {name: 'Electronics', slug: 'electronics', component:<Electronics />},
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},
+      {name: 'IT Department', slug: 'it',},
+      {name: 'Mechanical', slug: 'mechanical',},
+      {name: 'Software', slug: 'software',},
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (
