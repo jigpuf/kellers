@@ -1,6 +1,8 @@
 import React from 'react';
+import Ni from './daqs/ni.js';
+import Plc from './daqs/plc.js';
 
-class Electronics extends React.Component {
+class Daqs extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -11,15 +13,9 @@ class Electronics extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'RLC Circuits', slug: 'rlc' },
-      {name: 'Semi-Conductors', slug: 'semi' },
-      {name: 'Color Codes', slug: 'colors' },
-      {name: 'Filters', slug: 'filters' },
-      {name: 'Rectifiers', slug: 'rectifiers' },
-      {name: 'Soldering', slug: 'soldering' },
-      {name: 'Digital', slug: 'digital' },
-      {name: 'Grounding/shielding', slug: 'ground' },
-      {name: 'Signals', slug: 'signals' },
+      {name: 'NI', slug: 'ni', component:<Ni />},
+      {name: 'PLC', slug: 'plc', component:<Plc />},
+
     ]
     const renderItems = Items.map(item => {
       return (
@@ -46,4 +42,4 @@ class Electronics extends React.Component {
     }
   }
 
-export default Electronics;
+export default Daqs;

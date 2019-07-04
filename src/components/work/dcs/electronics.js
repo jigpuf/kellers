@@ -1,6 +1,7 @@
 import React from 'react';
+import Test from './electronics/test.js'
 
-class Power extends React.Component {
+class Electronics extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -11,13 +12,14 @@ class Power extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Duties', slug: 'duties'},
-      {name: 'Transformers', slug: 'transformers' },
-      {name: 'Switches', slug: 'switches' },
-      {name: 'Panels', slug: 'panels' },
-      {name: 'Codes', slug: 'codes' },
-      {name: 'Tools', slug: 'tools'},
-
+      {name: 'RLC Circuits/Power(1)', slug: 'rlc' },
+      {name: 'Wheatstone(2)', slug: 'wheatstone' },
+      {name: 'Components(1)', slug: 'components' },
+      {name: 'Circuit Protection(1)', slug: 'protection' },
+      {name: 'Test Equipment(1)', slug: 'test', component:<Test />},
+      {name: 'Digital/logic gates(2)', slug: 'digital' },
+      {name: 'Grounding/shielding/isolation/transient(4)', slug: 'isolation' },
+      {name: 'PCBs(3)', slug: 'pcb' },
     ]
     const renderItems = Items.map(item => {
       return (
@@ -44,4 +46,4 @@ class Power extends React.Component {
     }
   }
 
-export default Power;
+export default Electronics;

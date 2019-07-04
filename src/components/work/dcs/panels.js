@@ -16,6 +16,10 @@ class Controls extends React.Component {
       {name: 'Relay', slug: 'relay',},
       {name: 'Power Supply', slug: 'power',},
       {name: 'HOA Switches', slug: 'hoa' },
+      {name: 'Terminals', slug: 'terminals' },
+      {name: 'Current Transducers', slug: 'ct' },
+      {name: 'Relays', slug: 'relays' },
+
     ]
     const renderItems = Items.map(item => {
       return (

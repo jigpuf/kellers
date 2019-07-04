@@ -1,6 +1,9 @@
 import React from 'react';
+import Terminations from './cables/terminations.js'
+import Waterproofing from './cables/waterproofing.js'
+import Codes from './cables/codes.js'
 
-class Power extends React.Component {
+class Cables extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -11,12 +14,9 @@ class Power extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Duties', slug: 'duties'},
-      {name: 'Transformers', slug: 'transformers' },
-      {name: 'Switches', slug: 'switches' },
-      {name: 'Panels', slug: 'panels' },
-      {name: 'Codes', slug: 'codes' },
-      {name: 'Tools', slug: 'tools'},
+      {name: 'Terminations', slug: 'terminations', component:<Terminations />},
+      {name: 'Waterproofing', slug: 'waterproofing', component:<Waterproofing />},
+      {name: 'Codes', slug: 'codes', component:<Codes />},
 
     ]
     const renderItems = Items.map(item => {
@@ -44,4 +44,4 @@ class Power extends React.Component {
     }
   }
 
-export default Power;
+export default Cables;

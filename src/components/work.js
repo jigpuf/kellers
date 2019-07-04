@@ -1,7 +1,5 @@
 import React from 'react';
 import Telecom from './work/telecom.js'
-import Instruments from './work/instruments.js'
-import Electronics from './work/electronics.js'
 import Avionics from './work/avionics.js'
 import Power from './work/power.js'
 import Dcs from './work/dcs.js'
@@ -19,9 +17,8 @@ class Instrumentation extends React.Component {
     const tier1Items = [
       {name: 'DCS', slug: 'dcs', component:<Dcs />},
       {name: 'Power', slug: 'power', component:<Power />},
-      {name: 'Instrumentation', slug: 'instruments', component:<Instruments /> },
+
       {name: 'Telecom', slug: 'telecom', component:<Telecom /> },
-      {name: 'Electronics', slug: 'electronics', component:<Electronics />},
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},
       {name: 'IT Department', slug: 'it',},
       {name: 'Mechanical', slug: 'mechanical',},

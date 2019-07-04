@@ -1,10 +1,18 @@
 import React from 'react';
 import Panels from './dcs/panels.js';
-import Ni from './dcs/ni.js';
-import Plc from './dcs/plc.js';
-import Software from './dcs/software.js';
+import Computer from './dcs/computer.js';
 import Checkouts from './dcs/systemCheckouts.js';
-
+import Electronics from './dcs/electronics.js'
+import Instruments from './dcs/instruments.js'
+import Training from './dcs/training.js'
+import Cables from './dcs/cables.js'
+import Daqs from './dcs/daqs.js'
+import Coms from './dcs/coms.js'
+import Raceways from './dcs/raceways.js'
+import Codes from './dcs/codes.js'
+import Tools from './dcs/tools.js'
+import Power from './dcs/power.js'
+import Safety from './dcs/safety.js'
 
 
 class Dcs extends React.Component {
@@ -18,14 +26,20 @@ class Dcs extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Panels', slug: 'panels', component:<Panels />},
-      {name: 'NI', slug: 'ni', component:<Ni />},
-      {name: 'PLC', slug: 'plc', component:<Plc />},
-      {name: 'Software', slug: 'software', component:<Software />},
+      {name: 'Panels(2)', slug: 'panels', component:<Panels />},
+      {name: 'Instrumentation', slug: 'instruments', component:<Instruments /> },
+      {name: 'Electronics', slug: 'electronics', component:<Electronics />},
+      {name: 'DAQS', slug: 'daqs', component:<Daqs />},
+      {name: 'Computer Skills', slug: 'computer', component:<Computer />},
       {name: 'System Checkouts', slug: 'system', component:<Checkouts />},
-      {name: 'HART Protocol', slug: 'heart' },
-      {name: 'Codes', slug: 'codes'},
-      {name: 'Tools', slug: 'tools'},
+      {name: 'Cables', slug: 'cables', component:<Cables /> },
+      {name: 'Codes', slug: 'codes', component:<Codes />},
+      {name: 'Tools', slug: 'tools', component:<Tools />},
+      {name: 'Raceways', slug: 'raceways', component:<Raceways />},
+      {name: 'Coms', slug: 'coms', component:<Coms />},
+      {name: 'Training', slug: 'training', component:<Training />},
+      {name: 'Power Distribution', slug: 'power', component:<Power />},
+      {name: 'Safety', slug: 'safety', component:<Safety />},
     ]
     const renderItems = Items.map(item => {
       return (
