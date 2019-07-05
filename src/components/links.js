@@ -66,6 +66,16 @@ class Links extends React.Component {
         >Family Search</a><br/>
         <a href='https://www.familytree.com/' target='_blank'
         >Family Tree</a><br/>
+        <h4>Media Sharing</h4>
+        <a href='https://www.mediafire.com/' target='_blank'
+        >Media Fire</a><br/>
+        <a href='https://www.dropbox.com/' target='_blank'
+        >Drop Box</a><br/>
+        <a href='https://www2.sugarsync.com/' target='_blank'
+        >SugarSync</a><br/>
+        <h4>Podcast Hosting</h4>
+        <a href='https://www.podbean.com/' target='_blank'
+        >Pod Bean</a><br/>
       </div>
     );
   }

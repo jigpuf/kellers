@@ -10,6 +10,7 @@ import Texts from './church/texts.js';
 import React from 'react';
 import Scriptures from './church/scriptures.js';
 import Talks from './church/talks.js';
+import Geneology from './church/geneology.js';
 
 class Church extends React.Component {
   state = {
@@ -35,6 +36,7 @@ class Church extends React.Component {
       {name: 'Subjects', slug: 'subjects', component:<Subject />},
       {name: 'Favorite Talks', slug: 'talks', component:<Talks />},
       {name: 'Favorite Scriptures', slug: 'scriptures', component:<Scriptures />},
+      {name: 'Geneology', slug: 'geneology', component:<Geneology />},
     ]
     const renderItems = Items.map(item => {
       return (

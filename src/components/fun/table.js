@@ -1,8 +1,8 @@
 import React from 'react';
-import Duties from './power/duties.js'
-import Concepts from './power/concepts.js'
+import Gamelist from './table/gamelist.js'
+import SpellItems from './table/spellItems.js'
 
-class Power extends React.Component {
+class Table extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -11,15 +11,13 @@ class Power extends React.Component {
       this.setState({tier1:item})
     }
   }
+
   render () {
     const Items = [
-      {name: 'Duties', slug: 'duties'},
-      {name: 'Power concepts', slug: 'concepts', component:<Concepts />},
-      {name: 'Transformers', slug: 'transformers' },
-      {name: 'Switches', slug: 'switches' },
-      {name: 'Panels', slug: 'panels' },
-      {name: 'Codes', slug: 'codes' },
-      {name: 'Tools', slug: 'tools'},
+      {name: 'Game List', slug: 'gameList', component:<Gamelist />},
+      {name: 'Character Creation', slug: 'character' },
+      {name: 'Spells', slug: 'spells', component: <SpellItems />},
+      {name: 'Battle Rules', slug: 'battle' },
 
     ]
     const renderItems = Items.map(item => {
@@ -44,7 +42,7 @@ class Power extends React.Component {
         {renderTier2Component}
       </div>
     )
-    }
   }
+}
 
-export default Power;
+export default Table;

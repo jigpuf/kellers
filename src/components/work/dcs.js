@@ -40,6 +40,7 @@ class Dcs extends React.Component {
       {name: 'Training', slug: 'training', component:<Training />},
       {name: 'Power Distribution', slug: 'power', component:<Power />},
       {name: 'Safety', slug: 'safety', component:<Safety />},
+      {name: 'Matrix', slug: 'matrix'},
     ]
     const renderItems = Items.map(item => {
       return (

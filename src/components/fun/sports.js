@@ -1,8 +1,6 @@
 import React from 'react';
-import SpellItems from './games/spellItems.js';
-import Gamelist from './games/gamelist.js';
 
-class Games extends React.Component {
+class Sports extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -14,11 +12,22 @@ class Games extends React.Component {
 
   render () {
     const Items = [
-      {name: 'Game List', slug: 'gameList', component:<Gamelist />},
-      {name: 'Character Creation', slug: 'character' },
-      {name: 'Spells', slug: 'spells', component: <SpellItems />},
-      {name: 'Battle Rules', slug: 'battle' },
-
+      {name: 'Paintball', slug: 'paintball',},
+      {name: 'Hiking', slug: 'hiking',},
+      {name: 'Biking', slug: 'biking',},
+      {name: 'Camping', slug: 'camping',},
+      {name: 'Swimming', slug: 'swimming',},
+      {name: 'Kayaking', slug: 'kayaking',},
+      {name: 'Boating', slug: 'boating',},
+      {name: 'Crochet', slug: 'crochet',},
+      {name: 'Ultimate Frisbee', slug: 'frisbee',},
+      {name: 'Parking Lot Socker', slug: 'plsoccer',},
+      {name: 'Soccer', slug: 'soccer',},
+      {name: 'Disc Golf', slug: 'disc',},
+      {name: 'Work Out', slug: 'lift',},
+      {name: 'Two Square', slug: 'square',},
+      {name: 'Jogging', slug: 'jogging',},
+      {name: 'Tennis', slug: 'tennis',},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -44,4 +53,5 @@ class Games extends React.Component {
     )
   }
 }
-export default Games;
+
+export default Sports;

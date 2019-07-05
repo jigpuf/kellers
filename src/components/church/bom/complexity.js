@@ -1,4 +1,5 @@
 import React from 'react';
+import Locations from './complexity/locations.js'
 
 class Complexity extends React.Component {
   state= {
@@ -11,7 +12,7 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
-        {name: 'Locations', slug: 'locations'},
+        {name: 'Locations', slug: 'locations', component:<Locations />},
         {name: 'Names', slug: 'names'},
         {name: 'Characters', slug: 'characters'},
         {name: 'Warfare', slug: 'warfare'},

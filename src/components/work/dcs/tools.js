@@ -8,6 +8,7 @@ class Tools extends React.Component {
       Cutters, Label Maker,Heat Gun, Shrink, Solder splice, hot melt(1)</li>
       <li>Crimpers(1)</li>
       <li>Swagelock fittings(3)</li>
+      
       </div>
     );
   }

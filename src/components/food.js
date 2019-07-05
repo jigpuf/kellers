@@ -1,6 +1,8 @@
 import React from 'react';
 import Drinks from './food/drinks.js';
 import Restaurants from './food/restaurants.js';
+import Spice from './food/spice.js'
+
 class Food extends React.Component {
   state = {
     tier1: undefined,
@@ -26,6 +28,7 @@ class Food extends React.Component {
       {name: 'Ingredients', slug: 'ingredients' },
       {name: 'Nationality', slug: 'nationality' },
       {name: 'Diet', slug: 'diet' },
+      {name: 'Spice', slug: 'Spice', component:<Spice />},
       {name: 'Restaurants', slug: 'restaurants', component:<Restaurants /> },
     ];
     const renderItems = Items.map(item => {

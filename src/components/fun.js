@@ -1,4 +1,9 @@
 import React from 'react';
+import Table from './fun/table.js'
+import Sports from './fun/sports.js'
+import Movies from './fun/movies.js'
+import Shopping from './fun/shopping.js'
+import Education from './fun/education.js'
 
 class Paintball extends React.Component {
   state = {
@@ -11,13 +16,15 @@ class Paintball extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Sports', slug: 'sports' },
-      {name: 'Table Games', slug: 'table' },
+      {name: 'Sports', slug: 'sports', component:<Sports /> },
+      {name: 'Table Games', slug: 'table', component:<Table /> },
       {name: 'Video Games', slug: 'video' },
-      {name: 'Movies', slug: 'movies' },
-      {name: 'Shopping', slug: 'Shopping' },
+      {name: 'Movies', slug: 'movies', component:<Movies />},
+      {name: 'Shopping', slug: 'Shopping', component:<Shopping /> },
       {name: 'Food', slug: 'food' },
-      {name: 'Education', slug: 'education' },
+      {name: 'Education', slug: 'education', component:<Education /> },
+      {name: 'Travel', slug: 'travel' },
+      {name: 'Bucket List', slug: 'bucket' },
     ]
     const renderItems = Items.map(item => {
       return (

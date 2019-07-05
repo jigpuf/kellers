@@ -25,17 +25,24 @@
         <li>Barbecue</li>
         Rudy's, Rusty Star<hr/>
         <li>Desert</li>
-        Katy's, Three Spoons<hr/>
+        Katy's, Three Spoons, Dairy Queen<hr/>
         <li>Pizza</li>
         Old Chicago, Morosos,Papa John's, Papa Rollos, Dominoes, Marco's<hr/>
         <li>Burgers</li>
-        Twisted Root, Whataburger<hr/>
+        Twisted Root, Whataburger, Fudruckers<hr/>
         <li>Snacks</li>
         Corn off the Cob<hr/>
         <li>Sandwiches</li>
-        Jimmy John's, Chick-fil-e, Schlotzky's<hr/>
+        Jimmy John's, Chick-fil-e, Schlotzky's, Subway<hr/>
         <li>Indian</li>
         Stone Hearth<hr/>
+        <li>Cajun</li>
+        Tejan, Salty Dogs
+        <li>Sea Food</li>
+        Red Lobster
+        <li>Chicken</li>
+        Cane's, Wing Stop, Cheddars
+        
 
 
 
