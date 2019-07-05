@@ -1,7 +1,7 @@
 import React from 'react';
-import Duties from './power/duties.js'
+import Duties from './it/duties.js'
 
-class Power extends React.Component {
+class It extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -12,12 +12,8 @@ class Power extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Duties', slug: 'duties'},
-      {name: 'Transformers', slug: 'transformers' },
-      {name: 'Switches', slug: 'switches' },
-      {name: 'Panels', slug: 'panels' },
-      {name: 'Codes', slug: 'codes' },
-      {name: 'Tools', slug: 'tools'},
+      {name: 'Duties', slug: 'duties', component:<Duties />},
+
 
     ]
     const renderItems = Items.map(item => {
@@ -45,4 +41,4 @@ class Power extends React.Component {
     }
   }
 
-export default Power;
+export default It;

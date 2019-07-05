@@ -1,20 +1,44 @@
 import React from 'react';
+import Duties from './avionics/duties.js'
 
 class Avionics extends React.Component {
+  state = {
+    tier1: undefined,
+  }
+  pickTier1  = (item) => {
+    return () => {
+      this.setState({tier1:item})
+    }
+  }
   render () {
+    const Items = [
+      {name: 'Duties', slug: 'duties', component:<Duties />},
+
+
+    ]
+    const renderItems = Items.map(item => {
+      return (
+        <button
+          key={item.slug}
+          onClick={this.pickTier1(item.slug)}
+          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
+        >{item.name}</button>
+      )
+    })
+    const tier1 = Items.filter(item => {
+      return this.state.tier1 === item.slug;
+    });
+    const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
-      Avionics:<br/>
-      <li>Get order for build</li>
-      <li>Find out which work order it is on</li>
-      <li>Find out if parts are ordered</li>
-      <li>Start following work order</li>
-      <li>Standards are found on https://release.trac</li>
-      <li>Click Standards reference page AV1200-4</li>
-
+        <ul>
+          {renderItems}
+        </ul>
+        <hr />
+        {renderTier2Component}
       </div>
-    );
+    )
+    }
   }
-}
 
 export default Avionics;

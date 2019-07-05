@@ -1,8 +1,12 @@
 import React from 'react';
-import Telecom from './work/telecom.js'
 import Avionics from './work/avionics.js'
+import Telecom from './work/telecom.js'
+
 import Power from './work/power.js'
 import Dcs from './work/dcs.js'
+import It from './work/it.js'
+import Mechanical from './work/mechanical.js'
+import Software from './work/software.js'
 
 class Instrumentation extends React.Component {
   state = {
@@ -16,13 +20,12 @@ class Instrumentation extends React.Component {
   render () {
     const tier1Items = [
       {name: 'DCS', slug: 'dcs', component:<Dcs />},
-      {name: 'Power', slug: 'power', component:<Power />},
-
       {name: 'Telecom', slug: 'telecom', component:<Telecom /> },
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},
-      {name: 'IT Department', slug: 'it',},
-      {name: 'Mechanical', slug: 'mechanical',},
-      {name: 'Software', slug: 'software',},
+      {name: 'Power', slug: 'power', component:<Power />},
+      {name: 'IT Department', slug: 'it', component:<It />},
+      {name: 'Mechanical', slug: 'mechanical', component:<Mechanical />},
+      {name: 'Software', slug: 'software', component:<Software />},
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (
