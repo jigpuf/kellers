@@ -1,5 +1,6 @@
-import React from 'react';
-import Carpentry from './construction/carpentry.js';
+import React from 'react'
+import Carpentry from './construction/carpentry.js'
+import Flooring from './construction/flooring.js'
 
 class Woodworking extends React.Component {
   state = {
@@ -15,7 +16,7 @@ class Woodworking extends React.Component {
       {name: 'Plumbing', slug: 'plumbing' },
       {name: 'Carpentry', slug: 'carpentry', component:<Carpentry /> },
       {name: 'Electrical', slug: 'electrical' },
-      {name: 'Flooring', slug: 'flooring' },
+      {name: 'Flooring', slug: 'flooring', component:<Flooring /> },
       {name: 'Insulation', slug: 'insulation' },
       {name: 'Networking', slug: 'networking' },
       {name: 'Pest Control', slug: 'pest' },

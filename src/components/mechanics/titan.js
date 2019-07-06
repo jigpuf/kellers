@@ -1,4 +1,5 @@
 import React from 'react';
+import Drivetrain from './titan/drivetrain.js'
 
 class Titan extends React.Component {
   state = {
@@ -11,7 +12,7 @@ class Titan extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Drivetrain', slug: 'drivetrain' },
+      {name: 'Drivetrain', slug: 'drivetrain', component:<Drivetrain /> },
       {name: 'Steering/Suspension', slug: 'steering' },
       {name: 'AC/Heat', slug: 'ac' },
       {name: 'Body/Chasis', slug: 'body' },
@@ -43,10 +44,7 @@ class Titan extends React.Component {
         </ul>
         <hr />
         {renderTier2Component}
-        <li><a href = 'https://www.youtube.com/watch?v=O7DELdn6Nls' target ='_blank'
-          >Nissan Titan or Armada Driveshaft Universal U-Joint & Center Support Carrier Bearing</a></li>
-          <li><a href='https://www.youtube.com/watch?v=5gOeBE-ylQw' target ='_blank'
-          >How to Diagnose and Replace Universal Joints (ULTIMATE Guide)</a></li>
+        
       </div>
     )
     }

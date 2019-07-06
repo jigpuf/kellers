@@ -1,9 +1,10 @@
-import React from 'react';
-import Food from './survival/food.js';
-import Defense from './survival/defense.js';
-import Energy from './survival/energy.js';
-import Hygene from './survival/hygene.js';
-import Kit from './survival/kit.js';
+import React from 'react'
+import Food from './survival/food.js'
+import Defense from './survival/defense.js'
+import Energy from './survival/energy.js'
+import Hygene from './survival/hygene.js'
+import Kit from './survival/kit.js'
+import Water from './survival/water.js'
 
 class Survival extends React.Component {
   state = {
@@ -26,7 +27,7 @@ class Survival extends React.Component {
       {name: 'Navigation', slug: 'navigation' },
       {name: 'Recreation', slug: 'recreation' },
       {name: 'Shelter', slug: 'shelter' },
-      {name: 'Water', slug: 'water' },
+      {name: 'Water', slug: 'water', component:<Water />},
       {name: 'hygene', slug: 'hygene', component:<Hygene />},
       {name: 'clothing', slug: 'clothing'},
       {name: '72-hour kit', slug: 'kit', component:<Kit />},

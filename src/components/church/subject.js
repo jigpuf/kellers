@@ -1,16 +1,17 @@
-import React from 'react';
-import Justify from './subjects/justify.js';
-import Evolution from './subjects/evolution.js';
-import Theosis from './subjects/theosis.js';
-import Atonement from './subjects/atonement.js';
-import Element from './subjects/element.js';
-import Redux from './subjects/redux.js';
-import Temple from './subjects/temple.js';
-import Relationship from './subjects/relationship.js';
+import React from 'react'
+import Justify from './subjects/justify.js'
+import Evolution from './subjects/evolution.js'
+import Theosis from './subjects/theosis.js'
+import Atonement from './subjects/atonement.js'
+import Element from './subjects/element.js'
+import Redux from './subjects/redux.js'
+import Temple from './subjects/temple.js'
+import Relationship from './subjects/relationship.js'
 import Ordinances from './subjects/ordinances.js'
 import Are from './subjects/are.js'
 import Covenant from './subjects/covenant.js'
 import Money from './subjects/money.js'
+import Promised from './subjects/promised.js'
 
 class Subject extends React.Component {
   state= {
@@ -54,7 +55,8 @@ pickTier2 = (item) => {
       {name: 'Theosis', slug: 'theosis', component:<Theosis />},
       {name: 'Redux Scripture', slug: 'bible', component:<Redux />},
       {name: 'What things are', slug: 'are', component:<Are />},
-      {name: 'Money', slug: 'money', component: <Money />}
+      {name: 'Money', slug: 'money', component: <Money />},
+      {name: 'Promised Land covenant', slug: 'promised', component:<Promised />},
     ]
       const renderItems = Items.map(item => {
         return (

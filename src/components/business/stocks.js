@@ -14,8 +14,7 @@ class Stocks extends React.Component {
       >How to read stock charts</a><br />
       <a href='https://www.youtube.com/watch?v=DF23jO8Y0n0&t=8s'
       >How to buy stocks</a><br />
-      <a href=''
-      ></a><br />
+    
       </div>
     );
   }

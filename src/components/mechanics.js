@@ -1,6 +1,7 @@
 import React from 'react';
-import Tacoma from './mechanics/tacoma.js';
-import Titan from './mechanics/titan.js';
+import Tacoma from './mechanics/tacoma.js'
+import Titan from './mechanics/titan.js'
+import Generic from './mechanics/generic.js'
 
 class Mechanics extends React.Component {
   state = {
@@ -15,7 +16,7 @@ class Mechanics extends React.Component {
     const Items = [
       {name: 'Titan', slug: 'titan', component:<Titan /> },
       {name: 'Tacoma', slug: 'tacoma', component:<Tacoma />},
-      {name: 'Generic', slug: 'generic', }
+      {name: 'Generic', slug: 'generic', component:<Generic />},
     ]
     const renderItems = Items.map(item => {
       return (

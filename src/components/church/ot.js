@@ -1,5 +1,6 @@
-import React from 'react';
-import Timelines from './ot/timelines.js';
+import React from 'react'
+import Timelines from './ot/timelines.js'
+import Temple from './ot/temples.js'
 
 class Ot extends React.Component {
   state= {
@@ -12,7 +13,7 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
-        {name: 'Temple', slug: 'temple'},
+        {name: 'Temple', slug: 'temple', component:<Temple />},
         {name: 'Timelines', slug: 'timelines', component:<Timelines />},
         {name: 'Stories', slug: 'stories'},
         {name: 'History', slug: 'history'},
