@@ -1,10 +1,8 @@
-import React from 'react';
-import Nephi1 from './bom/nephi1.js';
-import Nephi2 from './bom/nephi2.js';
-import Jacob from './bom/jacob.js';
-import Geography from './bom/geography.js';
-import Lectures from './bom/lectures.js';
-import Complexity from './bom/complexity.js';
+import React from 'react'
+import Geography from './bom/geography.js'
+import Lectures from './bom/lectures.js'
+import Complexity from './bom/complexity.js'
+import Books from './bom/books.js'
 
 class BOM extends React.Component {
   state= {
@@ -17,22 +15,7 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
-          {name: '1 Nephi', slug: 'nephi1', component: <Nephi1 />},
-          {name: '2 Nephi', slug: 'nephi2', component: <Nephi2 />},
-          {name: 'Jacob', slug: 'jacob', component: <Jacob />},
-          {name: 'Enos', slug: 'enos'},
-          {name: 'Jarom', slug: 'jarom'},
-          {name: 'Omni', slug: 'omni'},
-          {name: 'Words of Mormon', slug: 'wom'},
-          {name: 'Mosiah', slug: 'mosiah'},
-          {name: 'Alma', slug: 'alma'},
-          {name: 'Helaman', slug: 'helaman'},
-          {name: '3 Nephi', slug: 'nephi3'},
-          {name: '4 Nephi', slug: 'nephi4'},
-          {name: 'Mormon', slug: 'mormon'},
-          {name: 'Ether', slug: 'ether'},
-          {name: 'Moroni', slug: 'moroni'},
-          {name: 'Book of Mormon Whole', slug: 'bom'},
+          {name: 'Books', slug: 'books', component:<Books />},
           {name: 'Geography', slug: 'geography', component: <Geography />},
           {name: 'Lectures', slug: 'lectures', component: <Lectures />},
           {name: 'Complexity', slug: 'complexity', component: <Complexity />}
