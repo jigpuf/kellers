@@ -6,6 +6,7 @@ import Tv from './mediaLists/tv.js';
 import Vg from './mediaLists/vg.js';
 import Bg from './mediaLists/bg.js';
 import Apps from './mediaLists/apps.js'
+import Videos from './mediaLists/mediaVideos.js'
 
 
 class MediaLists extends React.Component {
@@ -26,6 +27,7 @@ class MediaLists extends React.Component {
       {name: 'TV Shows', slug: 'tv', component:<Tv /> },
       {name: 'Video Games', slug: 'vg', component:<Vg /> },
       {name: 'Apps', slug: 'apps', component:<Apps /> },
+      {name: 'Crazy List of Videos', slug:'videos', component:<Videos />}
     ]
     const renderItems = Items.map(item => {
       return (

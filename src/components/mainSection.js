@@ -20,6 +20,7 @@ import Stories from './stories.js';
 import Survival from './survival.js';
 import Construction from './construction.js';
 import Links from './links.js';
+import Drive from './drive.js'
 
 /*
 Since all the sections are rendering in the Main Section, we must import
@@ -53,6 +54,7 @@ const MainSection = (props) => {
       {activeTab3 === 'survival' && <Survival />}
       {activeTab3 === 'construction' && <Construction />}
       {activeTab3 === 'links' && <Links />}
+      {activeTab3 === 'drive' && <Drive />}
     </div>
   );
 };
