@@ -2,8 +2,6 @@ import React from 'react'
 import Justify from './subjects/justify.js'
 import Evolution from './subjects/evolution.js'
 import Theosis from './subjects/theosis.js'
-import Atonement from './subjects/atonement.js'
-import Element from './subjects/element.js'
 import Redux from './subjects/redux.js'
 import Temple from './subjects/temple.js'
 import Relationship from './subjects/relationship.js'
@@ -24,8 +22,6 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
-      {name: 'Elemental Nature', slug: 'element', component:<Element />},
-      {name: 'Atonement', slug: 'atonement', component:<Atonement />},
       {name: 'Priesthood', slug: 'priesthood'},
       {name: 'Comandments', slug: 'comandments'},
       {name: 'Faith', slug: 'faith'},

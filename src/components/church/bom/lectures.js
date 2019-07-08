@@ -85,7 +85,8 @@ class Lectures extends React.Component {
             >7-Divine Justice and Mercy Part 2</a><br />
             <a href="https://www.youtube.com/watch?v=UJAzwpsirzY&list=PLlC7AHN3uipNa36e0_sRpmJfLJLXnewPI&index=8" target ='_blank'
             >8-Nephi's Last Day Prophecies Part 1</a><br />
-            <a href="https://www.youtube.com/watch?v=jDhTQMqSpb4&list=PLlC7AHN3uipNa36e0_sRpmJfLJLXnewPI&index=9" target ='_blank'
+            <a href="https://drive.google.com/open?id=1KJTX5bWNUlT0SRvNYFBd7vBAf4eWyB6K" target ='_blank'
+            //https://www.youtube.com/watch?v=jDhTQMqSpb4&list=PLlC7AHN3uipNa36e0_sRpmJfLJLXnewPI&index=9
             >9-Nephi's Last Day Prophecies Part 2</a><br />
             <a href="https://www.youtube.com/watch?v=ETxfqP3e5ug&list=PLlC7AHN3uipNa36e0_sRpmJfLJLXnewPI&index=10" target ='_blank'
             >10-Becoming Sons And Daughters Of Christ</a><br />
