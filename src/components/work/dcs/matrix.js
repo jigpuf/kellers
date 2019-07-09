@@ -1,8 +1,6 @@
 import React from 'react';
-import Ni from './daqs/ni.js';
-import Plc from './daqs/plc.js';
 
-class Daqs extends React.Component {
+class Matrix extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -13,11 +11,9 @@ class Daqs extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'National Instruments', slug: 'ni', component:<Ni />},
-      {name: 'Allen Bradley', slug: 'plc', component:<Plc />},
-      {name: 'Watlow Controller', slug: 'watlow',},
-      {name: 'Siemens', slug: 'siemens',},
-
+      {name: 'DCS', slug: 'dcs',},
+      {name: 'DCS Specialist', slug: 'specialist',},
+      {name: 'DCS Lead', slug: 'lead',},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -44,4 +40,5 @@ class Daqs extends React.Component {
     }
   }
 
-export default Daqs;
+
+export default Matrix;

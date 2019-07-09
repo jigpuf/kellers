@@ -1,15 +1,55 @@
 import React from 'react';
 
 class Safety extends React.Component {
+  state = {
+    tier1: undefined,
+  }
+  pickTier1  = (item) => {
+    return () => {
+      this.setState({tier1:item})
+    }
+  }
   render () {
+    const Items = [
+      {name: 'LOTO', slug: 'loto' },
+      {name: 'QD clearing', slug: 'qd' },
+      {name: 'Hazardous Material', slug: 'material' },
+      {name: 'Emergency Proceedures', slug: 'emergency' },
+    ]
+    const renderItems = Items.map(item => {
+      return (
+        <button
+          key={item.slug}
+          onClick={this.pickTier1(item.slug)}
+          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
+        >{item.name}</button>
+      )
+    })
+    const tier1 = Items.filter(item => {
+      return this.state.tier1 === item.slug;
+    });
+    const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
-      Demonstrate LOTO(1)<br />
-      QD Identification, hazardous material collection and handling(2)<br />
-      Emergency Proceedures(2)<br />
+        <ul>
+          {renderItems}
+        </ul>
+        <hr />
+        {renderTier2Component}
+      </div>
+    )
+    }
+  }
+
+  /*render () {
+    return (
+      <div>
+      Demonstrate LOTO<br />
+      QD Identification, hazardous material collection and handling<br />
+      Emergency Proceedures<br />
       </div>
     );
   }
-}
+}*/
 
 export default Safety;

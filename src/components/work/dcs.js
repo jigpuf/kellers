@@ -13,6 +13,8 @@ import Codes from './dcs/codes.js'
 import Tools from './dcs/tools.js'
 import Power from './dcs/power.js'
 import Safety from './dcs/safety.js'
+import Parts from './dcs/parts.js'
+import Matrix from './dcs/matrix.js'
 
 
 class Dcs extends React.Component {
@@ -26,7 +28,7 @@ class Dcs extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Panels(2)', slug: 'panels', component:<Panels />},
+      {name: 'Panels', slug: 'panels', component:<Panels />},
       {name: 'Instrumentation', slug: 'instruments', component:<Instruments /> },
       {name: 'Electronics', slug: 'electronics', component:<Electronics />},
       {name: 'DAQS', slug: 'daqs', component:<Daqs />},
@@ -40,7 +42,8 @@ class Dcs extends React.Component {
       {name: 'Training', slug: 'training', component:<Training />},
       {name: 'Power Distribution', slug: 'power', component:<Power />},
       {name: 'Safety', slug: 'safety', component:<Safety />},
-      {name: 'Matrix', slug: 'matrix'},
+      {name: 'Parts', slug: 'parts', component:<Parts />},
+      {name: 'Matrix', slug: 'matrix', component:<Matrix />},
     ]
     const renderItems = Items.map(item => {
       return (

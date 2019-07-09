@@ -27,7 +27,7 @@ class Instruments extends React.Component {
       {name: 'Microphones', slug: 'microphones' },
       {name: 'Pressure', slug: 'pressure' },
       {name: 'Temperature', slug: 'tempFeedback' },
-      {name: 'Tools', slug: 'tools'},
+      {name: 'PID Theory', slug:'pid',},
 
     ]
     const renderItems = Items.map(item => {
@@ -46,14 +46,6 @@ class Instruments extends React.Component {
     return (
       <div>
         <ul>
-          All istrumentation wiring is Level 1<br />
-          Operation Theory is Level 1<br />
-          In and Out Signals are Level 2<br />
-          Troubleshooting, EMI and Grounding are Level 2<br />
-          ER5K setup and config are level 3<br />
-          PID Theory is level 3 and 4<br />
-          Pnematic to current converters setup is level 3<br />
-          configuring web based hardware is level 3<br />
           {renderItems}
         </ul>
         <hr />

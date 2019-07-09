@@ -12,14 +12,14 @@ class Electronics extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'RLC Circuits/Power(1)', slug: 'rlc' },
-      {name: 'Wheatstone(2)', slug: 'wheatstone' },
-      {name: 'Components(1)', slug: 'components' },
-      {name: 'Circuit Protection(1)', slug: 'protection' },
-      {name: 'Test Equipment(1)', slug: 'test', component:<Test />},
-      {name: 'Digital/logic gates(2)', slug: 'digital' },
-      {name: 'Grounding/shielding/isolation/transient(4)', slug: 'isolation' },
-      {name: 'PCBs(3)', slug: 'pcb' },
+      {name: 'RLC Circuits/Power', slug: 'rlc' },
+      {name: 'Wheatstone', slug: 'wheatstone' },
+      {name: 'Components', slug: 'components' },
+      {name: 'Circuit Protection', slug: 'protection' },
+      {name: 'Test Equipment', slug: 'test', component:<Test />},
+      {name: 'Digital/logic gates', slug: 'digital' },
+      {name: 'Grounding/shielding/isolation/transient', slug: 'isolation' },
+      {name: 'PCBs', slug: 'pcb' },
     ]
     const renderItems = Items.map(item => {
       return (
