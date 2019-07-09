@@ -1,42 +1,67 @@
 import React from 'react';
+import Office from './computer/office.js'
+import Warpdrive from './computer/warpdrive.js'
+import Visio from './computer/visio.js'
+import Control from './computer/control.js'
+import Data from './computer/data.js'
+import Instruments from './computer/instruments.js'
+import Command from './computer/command.js'
+import Video from './computer/video.js'
+import Smods from './computer/smods.js'
+import Architect from './computer/architect.js'
+import Confluence from './computer/confluence.js'
+import Jira from './computer/jira.js'
+import Sharex from './computer/sharex.js'
+
 
 class Software extends React.Component {
+  state = {
+    tier1: undefined,
+  }
+  pickTier1  = (item) => {
+    return () => {
+      this.setState({tier1:item})
+    }
+  }
   render () {
+    const Items = [
+      {name: 'Office', slug: 'office', component:<Office />},
+      {name: 'Warpdrive', slug: 'warpdrive', component:<Warpdrive />},
+      {name: 'Visio', slug: 'visio', component:<Visio />},
+      {name: 'Control', slug: 'control', component:<Control />},
+      {name: 'Data', slug: 'data', component:<Data />},
+      {name: 'Instruments', slug: 'instruments', component:<Instruments />},
+      {name: 'Command Line', slug: 'command', component:<Command />},
+      {name: 'Video', slug: 'video', component:<Video />},
+      {name: 'Smods', slug: 'smods', component:<Smods />},
+      {name: 'Architect', slug: 'architect', component:<Architect />},
+      {name: 'Confluence', slug:'confluence', component:<Confluence />},
+      {name: 'Jira', slug:'jira', component:<Jira />},
+      {name: 'Sharex', slug:'sharex', component:<Sharex />},
+
+    ]
+    const renderItems = Items.map(item => {
+      return (
+        <button
+          key={item.slug}
+          onClick={this.pickTier1(item.slug)}
+          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
+        >{item.name}</button>
+      )
+    })
+    const tier1 = Items.filter(item => {
+      return this.state.tier1 === item.slug;
+    });
+    const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
-      Software List:
-      <li>Office(1)</li>
-      Word, Excel, Power Point, Skype, Outlook
-      <li>Work flow access(1), change (2) creation (4)</li>
-      Jira, Warpdrive workorders, Confluence task list
-      <li>Ordering Parts(2)</li>
-      RFI,RFPO,Punchout, CapX(4)
-      <li>Design:(4)</li>
-      Visio, Paint, Archetect for 1 lines, flow charts, cables
-      <li>Calibrate/Monitor</li>
-      ERTune, Sorrenson program, Camera Programs
-      <li>Cameras</li>
-      NX Winess, Camera viewer on sharex, Rack tables
-      <li>Data history(2):</li>
-      GUI's, Data Viewer,Historian, Borg
-      <li>PLC:</li>
-      Rockwell Automation to Read Ladder logic(3), Develop and Modify PLC Logic(4)
-      <li>NI</li>
-      NI Max for configuration and checkouts(3)
-      <li>Documentation</li>
-      MWL, Scaling, P&ID, Config, Architect find(2), change(3), Create(4)
-      <li>Instrument Specific</li>
-      ERTune, Sorrenson Program, Prosense, Cameras,
-      <li>Comand Line Troubleshooting(2)</li>
-      Ping,IP config,Startup,shutdown
-      <li>Final List</li>
-      Office, Skype, Jira, Warpdrive, Confluence, ShareX, CapX, Visio, Architect,
-      ER Tune, Sorrenson Program, Prosense, NX Witness, Rack Tables, Camera Viewer,
-      GUI's Texas Data Viewer, Historian, Borg, Rockwell Automation, NIMAX,
-      MWL, P&ID, Config and Scalin Files, SVN stuff
+        <ul>
+          {renderItems}
+        </ul>
+        <hr />
+        {renderTier2Component}
       </div>
-    );
+    )
+    }
   }
-}
-
 export default Software;
