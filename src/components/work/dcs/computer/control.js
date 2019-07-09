@@ -1,4 +1,7 @@
 import React from 'react';
+import Nimax from './control/nimax.js'
+import Rockwell from './control/rockwell.js'
+import NiControl from './control/nicontrol.js'
 
 class Control extends React.Component {
   state = {
@@ -11,9 +14,9 @@ class Control extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'NIMAX', slug: 'nimax',},
-      {name: 'Rockwell Automation', slug: 'rockwell',},
-      {name: 'NI Control Program', slug: 'control',},    
+      {name: 'NIMAX', slug: 'nimax', component:<Nimax />},
+      {name: 'Rockwell Automation', slug: 'rockwell', component:<Rockwell />},
+      {name: 'NI Control Program', slug: 'control', component:<NiControl />},
     ]
     const renderItems = Items.map(item => {
       return (

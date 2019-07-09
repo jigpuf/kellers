@@ -1,4 +1,10 @@
 import React from 'react';
+import Word from './office/word.js'
+import Excel from './office/excel.js'
+import Pp from './office/pp.js'
+import Skype from './office/skype.js'
+import Hip from './office/hip.js'
+import Outlook from './office/outlook.js'
 
 class Office extends React.Component {
   state = {
@@ -11,12 +17,12 @@ class Office extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Word', slug: 'word',},
-      {name: 'Excel', slug: 'excel',},
-      {name: 'Power Point', slug: 'pp',},
-      {name: 'Skype', slug: 'skype',},
-      {name: 'Hip Chat', slug: 'hipChat',},
-      {name: 'Outlook', slug: 'outlook',},
+      {name: 'Word', slug: 'word', component:<Word />},
+      {name: 'Excel', slug: 'excel', component:<Excel />},
+      {name: 'Power Point', slug: 'pp', component:<Pp />},
+      {name: 'Skype', slug: 'skype', component:<Skype />},
+      {name: 'Hip Chat', slug: 'hipChat', component:<Hip />},
+      {name: 'Outlook', slug: 'outlook', component:<Outlook />},
     ]
     const renderItems = Items.map(item => {
       return (
