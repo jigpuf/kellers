@@ -1,6 +1,7 @@
 import React from 'react';
 import Duties from './power/duties.js'
 import Concepts from './power/concepts.js'
+import Transformers from './power/transformers.js'
 
 class Power extends React.Component {
   state = {
@@ -15,7 +16,7 @@ class Power extends React.Component {
     const Items = [
       {name: 'Duties', slug: 'duties'},
       {name: 'Power concepts', slug: 'concepts', component:<Concepts />},
-      {name: 'Transformers', slug: 'transformers' },
+      {name: 'Transformers', slug: 'transformers', component:<Transformers /> },
       {name: 'Switches', slug: 'switches' },
       {name: 'Panels', slug: 'panels' },
       {name: 'Codes', slug: 'codes' },

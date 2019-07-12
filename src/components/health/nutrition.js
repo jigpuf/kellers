@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import Vitamins from './nutrition/vitamins.js'
 
 class Nutrition extends React.Component {
   state = {
@@ -11,7 +12,7 @@ class Nutrition extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Vitamins', slug: 'vitamins' },
+      {name: 'Vitamins', slug: 'vitamins', component:<Vitamins /> },
       {name: 'Minerals', slug: 'minerals' },
       {name: 'Amino Acids', slug: 'amino' },
       {name: 'Compounds', slug: 'compounds' },

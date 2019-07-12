@@ -4,6 +4,7 @@ import Polaris from './astronomy/polaris.js'
 import Eclipses from './astronomy/eclipses.js'
 import Lectures from './astronomy/lectures.js'
 import Seasons from './astronomy/seasons.js'
+import Constallations from './astronomy/constallations.js'
 
 
 class Astronomy extends React.Component {
@@ -18,7 +19,7 @@ class Astronomy extends React.Component {
   render () {
     const Items = [
       {name: 'Sirius', slug: 'sirius', component: <Sirius /> },
-      {name: 'Constallations', slug: 'constallations' },
+      {name: 'Constallations', slug: 'constallations', component:<Constallations /> },
       {name: 'Seasons', slug: 'seasons', component:<Seasons /> },
       {name: 'Polaris', slug: 'polaris', component:<Polaris />},
       {name: 'Eclipses', slug: 'eclipses', component:<Eclipses />},

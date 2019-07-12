@@ -53,6 +53,7 @@ pickTier2 = (item) => {
       {name: 'What things are', slug: 'are', component:<Are />},
       {name: 'Money', slug: 'money', component: <Money />},
       {name: 'Promised Land covenant', slug: 'promised', component:<Promised />},
+      {name: 'Mormons Christian?', slug: 'mormonChristian'},
     ]
       const renderItems = Items.map(item => {
         return (

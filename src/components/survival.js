@@ -1,5 +1,6 @@
 import React from 'react'
 import Food from './survival/food.js'
+import Intelligence from './survival/intelligence.js'
 import Defense from './survival/defense.js'
 import Energy from './survival/energy.js'
 import Hygene from './survival/hygene.js'
@@ -24,6 +25,7 @@ class Survival extends React.Component {
       {name: 'Fire', slug: 'fire' },
       {name: 'First Aid', slug: 'aid' },
       {name: 'Food', slug: 'food', component:<Food />},
+      {name: 'Intelligence', slug: 'intelligence', component:<Intelligence />},
       {name: 'Navigation', slug: 'navigation' },
       {name: 'Recreation', slug: 'recreation' },
       {name: 'Shelter', slug: 'shelter' },

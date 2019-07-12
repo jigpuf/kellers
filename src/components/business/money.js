@@ -3,7 +3,12 @@ import React from 'react';
 class Money extends React.Component {
   render () {
     return (
-      <div>Money</div>
+      <div>
+        <li>Opportunity Costs</li>
+        <li>Leverage</li>
+        <li>Cash Flow</li>
+        <li>Income/expenses</li>
+      </div>
     );
   }
 }

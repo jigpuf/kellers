@@ -17,6 +17,7 @@ class Author extends React.Component {
       {name: 'Joseph Smith Jr', slug: 'josephSmithJunior',},
       {name: 'Brigham Young', slug: 'brighamYoung',},
       {name: 'Ronald Regan', slug: 'ronaldRegan',},
+      {name: 'Unknown', slug: 'inknown'},
     ]
     const renderItems = Items.map(item => {
       return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import Timelines from './ot/timelines.js'
 import Temple from './ot/temples.js'
+import Stories from './ot/stories.js'
 
 class Ot extends React.Component {
   state= {
@@ -15,7 +16,7 @@ pickTier2 = (item) => {
     const Items = [
         {name: 'Temple', slug: 'temple', component:<Temple />},
         {name: 'Timelines', slug: 'timelines', component:<Timelines />},
-        {name: 'Stories', slug: 'stories'},
+        {name: 'Stories', slug: 'stories', component:<Stories />},
         {name: 'History', slug: 'history'},
         {name: 'Covenants', slug: 'covenants'}
       ]

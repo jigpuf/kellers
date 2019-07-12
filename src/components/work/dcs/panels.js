@@ -1,5 +1,6 @@
 import React from 'react';
 import Fuses from './panels/fuses.js'
+import Examples from './panels/examples.js'
 
 class Controls extends React.Component {
   state = {
@@ -21,6 +22,8 @@ class Controls extends React.Component {
       {name: 'Terminals', slug: 'terminals' },
       {name: 'Current Transducers', slug: 'ct' },
       {name: 'Relays', slug: 'relays' },
+      {name: 'Panel Examples', slug: 'examples', component:<Examples />},
+      {name: 'Resisters', slug: 'resisters',},
 
     ]
     const renderItems = Items.map(item => {

@@ -8,6 +8,8 @@ class Songs extends React.Component {
       <li>Alianza Eterna</li>
       <li>Down in a Hole</li>
       <li>Horse with no name</li>
+      Chords:Em,D,Dm,Bm,F#m,A<br />
+      Meter:<br />
       <li>No Rain</li>
       <li>Clumsy Card House</li>
       <li>Redemption Song</li>
@@ -75,7 +77,8 @@ class Songs extends React.Component {
       <li>Oh my Father</li>
       <li>Ye Elders of Israel</li>
       <li>Brightly Beams my Fathers mercy</li>
-
+      <a href='https://chordify.net/search/' target='_blank'
+      >Chordify</a><br/>
       </div>
     );
   }

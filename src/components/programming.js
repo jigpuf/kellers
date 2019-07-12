@@ -1,6 +1,7 @@
-import React from 'react';
-import Typing from './programming/typing.js';
-import Html from './programming/html.js';
+import React from 'react'
+import Typing from './programming/typing.js'
+import Html from './programming/html.js'
+import Css from './programming/css.js'
 
 class Programming extends React.Component {
   state = {
@@ -17,7 +18,7 @@ class Programming extends React.Component {
       {name: 'Methodology', slug: 'method' },
       {name: 'c++', slug: 'c' },
       {name: 'HTML', slug: 'html', component:<Html /> },
-      {name: 'CSS', slug: 'css' },
+      {name: 'CSS', slug: 'css', component:<Css /> },
       {name: 'Javascript', slug: 'js' },
       {name: 'JSX', slug: 'jsx' },
       {name: 'MongoDB', slug: 'mongo' },

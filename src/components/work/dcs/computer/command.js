@@ -26,7 +26,6 @@ class Command extends React.Component {
       >Windows Command Line Tutorial - 3 - Opening Files and History</a><br />
       <a href='https://www.youtube.com/watch?v=ODk8CoSLofA' target='_blank'
       >Windows Command Line Tutorial - 4 - Creating and Removing Directories</a><br />
-
       <a href='https://www.youtube.com/watch?v=8HK1BsRprt0' target='_blank'
       >Windows Command Line Tutorial - 5 - PATH Variable</a><br />
       </div>

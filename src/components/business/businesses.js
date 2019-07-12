@@ -22,7 +22,6 @@ class Businesses extends React.Component {
       <li>Solar</li>
       <li>Survival Sales</li>
       <li>Firearms Sales</li>
-      <li></li>
       </div>
     );
   }
