@@ -38,6 +38,7 @@ class Plc extends React.Component {
             <li>Available Ports</li>
             <li>Vlan</li>
           </ol>
+        <li>Communications</li>
       </ul>
       </div>
     );

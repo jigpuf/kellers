@@ -1,5 +1,6 @@
 import React from 'react';
 import Drinks from './food/drinks.js';
+import Desert from './food/desert.js'
 import Restaurants from './food/restaurants.js';
 import Spice from './food/spice.js'
 
@@ -22,7 +23,7 @@ class Food extends React.Component {
       {name: 'Appetizers', slug: 'appetizers' },
       {name: 'Breakfast', slug: 'breakfast' },
       {name: 'Entree', slug: 'entree' },
-      {name: 'Desert', slug: 'desert' },
+      {name: 'Desert', slug: 'desert', component:<Desert /> },
       {name: 'Soup', slug: 'soup' },
       {name: 'Sauces', slug: 'sauces' },
       {name: 'Ingredients', slug: 'ingredients' },

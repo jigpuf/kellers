@@ -8,8 +8,8 @@ class Body extends React.Component {
         <li>Head-La Cabeza</li>
         <li>Hair-El Pelo</li>
         <li>Eye-El Ojo</li>
-        <li>Eyebrow</li>
-        <li>Brain-</li>
+        <li>Eyebrow-La Ceja</li>
+        <li>Brain-El Cerebro</li>
         <li>Forehead</li>
         <li>Ear-La oreja</li>
         <li>Mouth-La boca</li>

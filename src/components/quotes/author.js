@@ -1,5 +1,6 @@
 import React from 'react';
 import JGKimball from './author/jgKimball.js';
+import Unknown from './author/unknown.js'
 
 class Author extends React.Component {
   state = {
@@ -17,7 +18,7 @@ class Author extends React.Component {
       {name: 'Joseph Smith Jr', slug: 'josephSmithJunior',},
       {name: 'Brigham Young', slug: 'brighamYoung',},
       {name: 'Ronald Regan', slug: 'ronaldRegan',},
-      {name: 'Unknown', slug: 'inknown'},
+      {name: 'Unknown', slug: 'unknown', component:<Unknown />},
     ]
     const renderItems = Items.map(item => {
       return (

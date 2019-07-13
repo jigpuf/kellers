@@ -5,12 +5,10 @@ class Health extends React.Component {
     return (
       <div>
       People work only as well as their health allows
-      <li>Safety Rules</li>
       <li>Ergonomics</li>
       <li>Position</li>
       <li>Work familiarity</li>
       <li>Exposure to conditions</li>
-      <li>Reporting</li>
       </div>
     );
   }

@@ -6,10 +6,12 @@ class Businesses extends React.Component {
       <div>
       Passive Income:
       <li>Stock</li>
+      Long term good stock, SpaceX Stock, Day trading
       <li>Laundry</li>
       <li>Apps</li>
       <li>ATM's</li>
       <li>YouTube/Patreon</li>
+      BOM Channel, Survival CHannel
       <li>Storage</li>
       <li>Air BNB</li>
       <li>Air BNB Management</li>

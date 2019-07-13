@@ -1,5 +1,6 @@
 import React from 'react';
 import Fuses from './panels/fuses.js'
+import Breaker from './panels/breaker.js'
 import Examples from './panels/examples.js'
 
 class Controls extends React.Component {
@@ -14,7 +15,7 @@ class Controls extends React.Component {
   render () {
     const Items = [
       {name: 'Fuse', slug: 'fuse', component:<Fuses />},
-      {name: 'Breaker', slug: 'breaker',},
+      {name: 'Breaker', slug: 'breaker', component:<Breaker />},
       {name: 'Contactor', slug: 'contactor',},
       {name: 'Relay', slug: 'relay',},
       {name: 'Power Supply', slug: 'power',},

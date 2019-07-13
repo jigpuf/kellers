@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 class Stretch extends React.Component {
   render () {
@@ -10,9 +10,10 @@ class Stretch extends React.Component {
       >How to Fix Plantar Fasciitis (NO MORE HEEL PAIN!)</a></li>
       <li><a href='https://www.youtube.com/watch?v=JSzCfi0wbcA'
       >Stretching Your Calf Muscles - Kinetic Health</a></li>
+      <li>Quads</li>
       <li>Glutes</li>
       <li>Abs</li>
-      <li>Hep Flexors</li>
+      <li>Hip Flexors</li>
       <li>Obliques</li>
       <li>Spine</li>
       <li>Bicepts</li>

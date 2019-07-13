@@ -1,5 +1,4 @@
 import React from 'react';
-import QuoteList from './quotes/quoteList.js';
 import Author from './quotes/author.js';
 
 class Quotes extends React.Component {
@@ -15,7 +14,6 @@ class Quotes extends React.Component {
     const Items = [
       {name: 'Author', slug: 'author', component:<Author />},
       {name: 'Subject', slug: 'subject' },
-      {name: 'Quote List', slug: 'quotes', component:<QuoteList />},
       {name: 'Movie Quotes', slug: 'movies',},
     ]
     const renderItems = Items.map(item => {

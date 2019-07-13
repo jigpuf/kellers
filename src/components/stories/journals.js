@@ -15,6 +15,7 @@ class Journals extends React.Component {
       {name: 'Mission1', slug: 'mission1',},
       {name: 'Mission2', slug: 'mission2',},
       {name: 'Mission3', slug: 'mission3',},
+      {name: 'Life', slug: 'life'},
 
     ]
     const renderItems = Items.map(item => {

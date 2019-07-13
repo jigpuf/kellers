@@ -1,4 +1,5 @@
 import React from 'react';
+import Lectures from './html/lectures.js'
 import Text from './html/text.js';
 
 class Html extends React.Component {
@@ -14,6 +15,7 @@ class Html extends React.Component {
     render () {
 
       const Items = [
+        {name: 'Lectures', slug: 'lectures', component:<Lectures />},
         {name: 'Text', slug: 'text', component:<Text />},
         {name: 'Links', slug: 'links'},
         {name: 'Images', slug: 'images'},

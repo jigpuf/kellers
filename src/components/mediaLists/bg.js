@@ -15,7 +15,7 @@ class Bg extends React.Component {
         <li>Chess</li>
         <li>Checkers</li>
         <li>Catan</li>
-        <li></li>
+        <li>D&D</li>
         <li></li>
         <li></li>
       </div>
