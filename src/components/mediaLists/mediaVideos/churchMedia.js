@@ -1,4 +1,5 @@
 import React from 'react';
+import Leaders from './churchMedia/leaders.js'
 import HughNibley from './churchMedia/hughNibley.js'
 
 class Church extends React.Component {
@@ -12,7 +13,7 @@ class Church extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Conference', slug: 'conference' },
+      {name: 'Church Leaders', slug: 'leaders', component:<Leaders />},
       {name: 'BYU', slug: 'byu' },
       {name: 'Hyrum Andrus', slug: 'hyrumAndrus' },
       {name: 'Hugh Nibley', slug: 'hughNibley', component:<HughNibley /> },

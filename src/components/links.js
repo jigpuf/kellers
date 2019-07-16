@@ -31,6 +31,8 @@ class Links extends React.Component {
           >Fair</a><br/>
           <a href='https://askgramps.org/' target='_blank'
           >Ask Gramps</a><br/>
+          <a href='https://www.lds-general-conference.org/'target='_blank'
+          >LDS COnference corpus</a><br />
         <h4>Cooking</h4>
           <a href='https://www.epicurious.com/' target='_blank'
           >Epicuiour</a><br/>

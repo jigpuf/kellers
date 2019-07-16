@@ -41,28 +41,22 @@ class Presidents extends React.Component {
             >A Prophet's Blessing (last talk) (1972)</a></li>
           </ul>
         <li>Harold B. Lee</li>
-          <ul>
-            <li><a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/todays-young-people?lang=eng'
-            >Today's Young People (1971)</a></li>
-            <li><a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/the-iron-rod?lang=eng'
-            >Iron Rod (1971)</a></li>
-            <li><a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood%3Flang%3Deng+&cd=1&hl=en&ct=clnk&gl=us'
-            >Responsibilities of the Priesthood (1971)</a></li>
-            <li><a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood?lang=eng#stickyAudio'
-            >May the Kingdom of God go Forth (first as presisdent)(1972)</a></li>
-          </ul>
+            <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/todays-young-people?lang=eng'
+            >Today's Young People (1971)</a>
+            <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/the-iron-rod?lang=eng'
+            >Iron Rod (1971)</a>
+            <a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood%3Flang%3Deng+&cd=1&hl=en&ct=clnk&gl=us'
+            >Responsibilities of the Priesthood (1971)</a>
+            <a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood?lang=eng#stickyAudio'
+            >May the Kingdom of God go Forth (first as presisdent)(1972)</a>
         <li>Spencer W Kimball</li>
         <li>Ezra Taft Benson</li>
-          <ul>
-            <li><a href='https://www.youtube.com/watch?v=fkWQMQmtZmw'
-            >Prepare for the Days of Tribulation</a></li>
-          </ul>
+            <a href='https://www.youtube.com/watch?v=fkWQMQmtZmw'
+            >Prepare for the Days of Tribulation</a>
         <li>Howard W. Hunter</li>
         <li>Gordon B. Hinckley</li>
-        <ul>
-          <li><a href='https://www.youtube.com/watch?v=noDM2zmNy2c&t=66s'
-          >Emotional final Testimony</a></li>
-        </ul>
+          <a href='https://www.youtube.com/watch?v=noDM2zmNy2c&t=66s'
+          >Emotional final Testimony</a>
         <li>Thomas S. Monson</li>
         <li>Russell M. Nelson</li>
       </ol>

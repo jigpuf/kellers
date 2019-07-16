@@ -1,5 +1,7 @@
 import React from 'react'
 import ChurchMedia from './mediaVideos/churchMedia.js'
+import Astronomy from './mediaVideos/astronomyMedia.js'
+import StocksMedia from './mediaVideos/stocksMedia.js'
 
 class Videos extends React.Component {
   state = {
@@ -13,15 +15,14 @@ class Videos extends React.Component {
   render (){
     const Items = [
       {name: 'Church', slug: 'church', component:<ChurchMedia />},
-      {name: 'History', slug: 'history',},
-      {name: 'Stocks', slug: 'stocks',},
+      {name: 'Stocks', slug: 'stocks', component:<StocksMedia />},
       {name: 'Programming', slug: 'programming',},
       {name: 'Survival', slug: 'survival',},
       {name: 'Work', slug: 'work',},
       {name: 'Construction', slug: 'construction',},
       {name: 'Math', slug: 'math',},
       {name: 'Travel', slug: 'travel',},
-      {name: 'Astronomy', slug: 'astronomy',},
+      {name: 'Astronomy', slug: 'astronomy', component:<Astronomy />},
       {name: 'Health', slug: 'health',},
       {name: 'Mechanics', slug: 'mechanics',},
     ]

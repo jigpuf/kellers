@@ -19,7 +19,6 @@ class Jacob extends React.Component {
         >6-</a><br />
         <a href="https://www.lds.org/scriptures/bofm/jacob/7?lang=eng" target ='_blank'
         >7-</a><br />
-
         <li><a href="https://www.youtube.com/watch?v=XtPR_mBWdas" target ='_blank'
         >Jacob 5 video</a></li>
         <li><a href="https://www.youtube.com/watch?v=APttsDfASOw&t=20s" target ='_blank'
