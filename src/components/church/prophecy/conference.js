@@ -26,6 +26,8 @@ class Conference extends React.Component {
           >Americas fate and Destiny-Marion G. Romney</a><br />
           <a href="https://www.youtube.com/watch?v=CnnJjzxRWZc" target ='_blank'
           >If They Will but Serve the God of the Land</a><br />
+          <a href="" target ='_blank'
+          >Great Trials Lie Ahead-Bruce R. Mckonkie</a><br />
         </ol>
       </div>
     );

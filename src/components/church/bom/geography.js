@@ -74,10 +74,10 @@ class Geography extends React.Component {
       >Artifacts</a><br />
       <a href='https://www.youtube.com/watch?v=2mT79Be3wTs' target ='_blank'
       >Wayne May — Book of Mormon Evidence in North America, The Mulekites</a><br />
-      <a href='' target ='_blank'
-      ></a><br />
-      <a href='' target ='_blank'
-      ></a><br />
+      <a href='https://www.youtube.com/watch?v=1LGx9tWI7AQ&t=10s' target ='_blank'
+      >Bruce Porter - Prophecies of the Book of Mormon</a><br />
+      <a href='https://www.youtube.com/watch?v=e9UR2gbDh1c&t=2868s' target ='_blank'
+      >Amberli Nelson — Jehovah's Holy Days In the Heartland</a><br />
       </div>
     );
   }

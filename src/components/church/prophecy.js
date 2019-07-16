@@ -1,6 +1,8 @@
-import React from 'react';
-import Scriptural from './prophecy/scriptural.js';
-import Talks from './prophecy/conference.js';
+import React from 'react'
+import Scriptural from './prophecy/scriptural.js'
+import Talks from './prophecy/conference.js'
+import Second from './prophecy/second.js'
+import Subjects from './prophecy/subjects.js'
 
 class Prophecy extends React.Component {
     state = {
@@ -16,9 +18,9 @@ class Prophecy extends React.Component {
           {name: 'Scriptural', slug: 'scrip', component: <Scriptural />},
           {name: 'Talks', slug: 'talks', component: <Talks />},
           {name: 'Leaders', slug: 'leaders'},
-          {name: 'Second Hand', slug: 'second'},
+          {name: 'Second Hand', slug: 'second', component: <Second />},
           {name: 'Non-Member', slug: 'nonMember'},
-          {name: 'Prophecy Subjects', slug: 'profSub'},
+          {name: 'Prophecy Subjects', slug: 'profSub', component:<Subjects />},
         ]
         const renderItems = Items.map(item => {
           return (
