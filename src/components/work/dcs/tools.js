@@ -1,4 +1,5 @@
 import React from 'react';
+import Crimpers from './tools/crimpers.js'
 
 class Tools extends React.Component {
   state = {
@@ -20,7 +21,7 @@ class Tools extends React.Component {
       {name: 'cutters/strippers', slug: 'cutters',},
       {name: 'Label Maker', slug: 'label',},
       {name: 'Heat Gun', slug: 'heat',},
-      {name: 'Crimpers', slug: 'crimpers',},
+      {name: 'Crimpers', slug: 'crimpers', component:<Crimpers />},
       {name: 'Swagelock', slug: 'swage',},
     ]
     const renderItems = Items.map(item => {
