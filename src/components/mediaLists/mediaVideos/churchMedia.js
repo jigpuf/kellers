@@ -1,5 +1,5 @@
 import React from 'react';
-import Leaders from './churchMedia/leaders.js'
+import Presidents from './churchMedia/presidents.js'
 import HughNibley from './churchMedia/hughNibley.js'
 
 class Church extends React.Component {
@@ -13,14 +13,13 @@ class Church extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Church Leaders', slug: 'leaders', component:<Leaders />},
+      {name: 'Presidents', slug: 'presidents', component:<Presidents />},
       {name: 'BYU', slug: 'byu' },
       {name: 'Hyrum Andrus', slug: 'hyrumAndrus' },
       {name: 'Hugh Nibley', slug: 'hughNibley', component:<HughNibley /> },
       {name: 'Fair Mormon', slug: 'fairMormon' },
       {name: 'Interpreter', slug: 'Interpreter' },
       {name: 'Heartland', slug: 'heartland' },
-      {name: 'Youtube', slug: 'Youtube' },
     ]
     const renderItems = Items.map(item => {
       return (
