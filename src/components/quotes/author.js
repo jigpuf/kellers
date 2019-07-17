@@ -1,6 +1,7 @@
 import React from 'react';
-import JGKimball from './author/jgKimball.js';
+import JGKimball from './author/jgKimball.js'
 import Unknown from './author/unknown.js'
+import JSJR from './author/jsjr.js'
 
 class Author extends React.Component {
   state = {
@@ -15,7 +16,7 @@ class Author extends React.Component {
     const Items = [
       {name: 'J. Golden Kimball', slug: 'jGoldenKimball', component:<JGKimball />},
       {name: 'CS Lewis', slug: 'cslewis',},
-      {name: 'Joseph Smith Jr', slug: 'josephSmithJunior',},
+      {name: 'Joseph Smith Jr', slug: 'josephSmithJunior', component:<JSJR />},
       {name: 'Brigham Young', slug: 'brighamYoung',},
       {name: 'Ronald Regan', slug: 'ronaldRegan',},
       {name: 'Unknown', slug: 'unknown', component:<Unknown />},

@@ -102,12 +102,16 @@ class Presidents extends React.Component {
           >14 fundamentals in following the prophet(1980)</a><br />
           <hr />
         <li>Howard W. Hunter</li>
-          <a href="https://speeches.byu.edu/talks/howard-w-hunter/baccalaureate-address-2/" target ='_blank'
-          >Baccalaureate Address(1960)(test)</a><br />
+          <a href="https://speeches.byu.edu/talks/howard-w-hunter/gifts-money-cannot-buy/" target ='_blank'
+          >Gifts That Money Cannot Buy(1961)(test)</a><br />
           <hr />
         <li>Gordon B. Hinkley</li>
           <a href="https://speeches.byu.edu/talks/gordon-b-hinckley/seven-pillars-wisdom/" target ='_blank'
-          >Seven Pillars of Wisdom(1958)(test)</a><br />
+          >Seven Pillars of Wisdom(1958)</a><br />
+          <a href="https://speeches.byu.edu/talks/gordon-b-hinckley/consequences-conversion/" target ='_blank'
+          >The Consequences of Conversion(1959)(test)</a><br />
+          <a href="https://speeches.byu.edu/talks/gordon-b-hinckley/building-eternal-home/" target ='_blank'
+          >Building An Eternal Home(1959)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/gordon-b-hinckley/caesar-circus-christ/'target ='_blank'
           >Caesar, Circus, or Christ(1965)</a><br />
           <a href='https://speeches.byu.edu/talks/gordon-b-hinckley/loneliness-leadership/'target ='_blank'
