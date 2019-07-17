@@ -147,7 +147,9 @@ class Presidents extends React.Component {
           <hr />
         <li>Russell M. Nelson</li>
           <a href='https://speeches.byu.edu/talks/russell-m-nelson/four-lessons-one-life/' target ='_blank'
-          >Four Lessons from One Life (1974)(test)</a><br />
+          >Four Lessons from One Life (1974)</a><br />
+          <a href='https://speeches.byu.edu/talks/russell-m-nelson/whats-name/' target ='_blank'
+          >What’s in a Name?(1980)(test)</a><br />
           <hr />
       </div>
     );

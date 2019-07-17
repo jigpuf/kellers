@@ -28,7 +28,8 @@ class Links extends React.Component {
           <a href='revolving/11 One Eternal Round (Lesson 11, 09.19.1990).mp3' target='_blank'
           >11OER</a><br />
           <a href='revolving/12 One Eternal Round (Lesson 12, 09.26.1990).mp3' target='_blank'
-          >12OER</a><br /><hr />
+          >12OER</a><br />
+          <hr />
         <h4>Programming</h4>
           <a href='https://www.w3schools.com/' target='_blank'
           >W3 Schools</a>
