@@ -36,31 +36,31 @@ class Presidents extends React.Component {
           >Message for LDS College Youth(1952)(test)</a><br />
           <hr />
         <li>Joseph Fielding Smith</li>
-          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/law-divine-witnesses/' target ='_blank
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/law-divine-witnesses/' target ='_blank'
           >The divine law of witnesses (1949)</a><br />
-          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/leadership-week-fulfilment-prophecy/' target ='_blank
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/leadership-week-fulfilment-prophecy/' target ='_blank'
           >Leadership Week: Fulfillment of Prophecy(1952)</a><br />
-          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/origin-man/' target ='_blank
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/origin-man/' target ='_blank'
           >The Origin of Man(1953)(test)</a><br />
-          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/immutable-laws-god/' target ='_blank
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/immutable-laws-god/' target ='_blank'
           >The Immutable Laws of God(1953)(test)</a><br />
-          <a href='https://www.youtube.com/watch?v=VYOzKaRA5p8' target ='_blank
+          <a href='https://www.youtube.com/watch?v=VYOzKaRA5p8' target ='_blank'
           >Predicted Judgements (1967)</a><br />
-          <a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/eternal-keys-and-the-right-to-preside?lang=eng' target ='_blank
+          <a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/eternal-keys-and-the-right-to-preside?lang=eng' target ='_blank'
           >Eternal Keys and the Right to preside (1972)</a><br />
-          <a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/a-prophets-blessing?lang=eng' target ='_blank
+          <a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/a-prophets-blessing?lang=eng' target ='_blank'
           >A Prophet's Blessing (last talk) (1972)</a><br />
           <hr />
         <li>Harold B. Lee</li>
-          <a href='https://speeches.byu.edu/talks/harold-b-lee/life-control/' target ='_blank
+          <a href='https://speeches.byu.edu/talks/harold-b-lee/life-control/' target ='_blank'
           >Life under Control(1951)(test)</a><br />
-          <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/todays-young-people?lang=eng' target ='_blank
+          <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/todays-young-people?lang=eng' target ='_blank'
           >Today's Young People (1971)</a><br />
-          <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/the-iron-rod?lang=eng' target ='_blank
+          <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/the-iron-rod?lang=eng' target ='_blank'
           >Iron Rod (1971)</a><br />
-          <a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood%3Flang%3Deng+&cd=1&hl=en&ct=clnk&gl=us' target ='_blank
+          <a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood%3Flang%3Deng+&cd=1&hl=en&ct=clnk&gl=us' target ='_blank'
           >Responsibilities of the Priesthood (1971)</a><br />
-          <a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood?lang=eng#stickyAudio' target ='_blank
+          <a href='https://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood?lang=eng#stickyAudio' target ='_blank'
           >May the Kingdom of God go Forth (first as presisdent)(1972)</a><br />
           <a href="https://www.youtube.com/watch?v=40LPC_pUgVA" target ='_blank'
           >Closing Remarks- Harold B. Lee</a><br />
@@ -137,7 +137,7 @@ class Presidents extends React.Component {
           <a href='https://speeches.byu.edu/talks/thomas-s-monson/principles-prophets-2/'target ='_blank'
           >Principles from Prophets(2009)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/ensign/2007/06/examples-of-great-teachers?lang=eng'target ='_blank'
-          >Examples of Great Teachers(2007)</a><br />  
+          >Examples of Great Teachers(2007)</a><br />
           <a href=''target ='_blank'
           ></a><br />
           <hr />
