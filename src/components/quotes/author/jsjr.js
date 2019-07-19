@@ -107,7 +107,16 @@ class JSJR extends React.Component {
           sacrifice of all things, never has power sufficient to produce the
           faith necessary unto life and salvation.”
         </p>
-  
+        <p>
+          A fanciful and flowery and heated imagination beware of; because the
+          things of God are of deep import; and time, and experience, and careful
+          and ponderous and solemn thoughts can only find them out. Thy mind, O
+          man! if thou wilt lead a soul unto salvation, must stretch as high as
+          the utmost heavens, and search into and contemplate the darkest abyss,
+          and the broad expanse of eternity—thou must commune with God.
+          -Teachings of the Prophet Joseph Smith, 137 (25 March 1839)
+          </p>
+
       </div>
     );
   }

@@ -2,6 +2,7 @@ import React from 'react'
 import Sirius from './astronomy/sirius.js'
 import Polaris from './astronomy/polaris.js'
 import Eclipses from './astronomy/eclipses.js'
+import Electric from './astronomy/electric.js'
 import Lectures from './astronomy/lectures.js'
 import Seasons from './astronomy/seasons.js'
 import Constallations from './astronomy/constallations.js'
@@ -23,7 +24,7 @@ class Astronomy extends React.Component {
       {name: 'Seasons', slug: 'seasons', component:<Seasons /> },
       {name: 'Polaris', slug: 'polaris', component:<Polaris />},
       {name: 'Eclipses', slug: 'eclipses', component:<Eclipses />},
-      {name: 'Electric Universe', slug: 'electric' },
+      {name: 'Electric Universe', slug: 'electric', component:<Electric /> },
       {name: 'Astronomy Lectures', slug: 'lectures', component: <Lectures />},
     ]
     const renderItems = Items.map(item => {

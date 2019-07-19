@@ -20,8 +20,6 @@ class Nouns extends React.Component {
       {name: 'Places', slug: 'places'},
       {name: 'Machines', slug: 'machines'},
       {name: 'Time', slug: 'time'},
-      {name: '', slug: ''},
-
     ]
     const renderItems = Items.map(item => {
       return (

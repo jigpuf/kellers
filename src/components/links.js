@@ -4,7 +4,7 @@ class Links extends React.Component {
   render () {
     return (
       <div>
-  
+
         <h4>Programming</h4>
           <a href='https://www.w3schools.com/' target='_blank'
           >W3 Schools</a>
@@ -79,6 +79,9 @@ class Links extends React.Component {
           <h4>Podcast Hosting</h4>
           <a href='https://www.podbean.com/' target='_blank'
           >Pod Bean</a><br/>
+        <h4>Drives</h4>
+          <a href='https://drive.google.com/drive/folders/1BmTol-ZButhXJ3yykAePRez7Il8x0C6Z' target='_blank'
+          >Kman Drive</a><br />
       </div>
     );
   }

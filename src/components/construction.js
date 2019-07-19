@@ -1,8 +1,13 @@
 import React from 'react'
+import Ac from './construction/ac.js'
 import Carpentry from './construction/carpentry.js'
+import Electrical from './construction/electrical.js'
 import Flooring from './construction/flooring.js'
+import Insulation from './construction/insulation.js'
+import Pest from './construction/pest.js'
+import Plumbing from './construction/plumbing.js'
 
-class Woodworking extends React.Component {
+class Construction extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -13,14 +18,13 @@ class Woodworking extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Plumbing', slug: 'plumbing' },
+      {name: 'Heat/Ac', slug: 'ac', component:<Ac /> },
       {name: 'Carpentry', slug: 'carpentry', component:<Carpentry /> },
-      {name: 'Electrical', slug: 'electrical' },
+      {name: 'Electrical', slug: 'electrical', component:<Electrical /> },
       {name: 'Flooring', slug: 'flooring', component:<Flooring /> },
-      {name: 'Insulation', slug: 'insulation' },
-      {name: 'Networking', slug: 'networking' },
-      {name: 'Pest Control', slug: 'pest' },
-      {name: 'Heat/Ac', slug: 'ac' },
+      {name: 'Insulation', slug: 'insulation', component:<Insulation /> },
+      {name: 'Pest Control', slug: 'pest', component:<Pest /> },
+      {name: 'Plumbing', slug: 'plumbing', component:<Plumbing /> },
     ]
     const renderItems = Items.map(item => {
       return (
@@ -46,4 +50,4 @@ class Woodworking extends React.Component {
     )
     }
   }
-export default Woodworking;
+export default Construction;

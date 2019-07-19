@@ -4,7 +4,6 @@ import Resources from './efficiency/resources.js';
 import Space from './efficiency/space.js';
 import Simplicity from './efficiency/simplicity.js';
 import Health from './efficiency/health.js';
-import Manpower from './efficiency/manpower.js';
 import Exchange from './efficiency/exchange.js';
 
 class Efficiency extends React.Component {
@@ -24,7 +23,6 @@ class Efficiency extends React.Component {
       {name: 'Space', slug: 'space', component:<Space />},
       {name: 'Simplicity', slug: 'simplicity', component:<Simplicity />},
       {name: 'Health', slug: 'health', component:<Health />},
-      {name: 'Manpower', slug: 'manpower',component:<Manpower /> },
 
 
     ]

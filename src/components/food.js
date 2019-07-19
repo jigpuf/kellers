@@ -13,8 +13,6 @@ class Food extends React.Component {
     return() => {this.setState({tier1:item})
   }
   }
-//This is function to change tier1 state
-//There needs to be state changes to bring up new buttons
 
   render () {
 

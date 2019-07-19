@@ -1,5 +1,8 @@
-import React from 'react';
-import Songs from './guitar/songs.js';
+import React from 'react'
+import Chords from './guitar/chords.js'
+import Songs from './guitar/songs.js'
+import Tutorials from './guitar/tutorials.js'
+
 
 class Guitar extends React.Component {
   state = {
@@ -12,9 +15,9 @@ class Guitar extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Chords', slug: 'chords' },
+      {name: 'Chords', slug: 'chords', component:<Chords /> },
       {name: 'Songs', slug: 'songs', component:<Songs /> },
-      {name: 'Tutorials', slug: 'tutorials' },
+      {name: 'Tutorials', slug: 'tutorials', component:<Tutorials /> },
     ]
     const renderItems = Items.map(item => {
       return (
