@@ -5,11 +5,8 @@ class Links extends React.Component {
     return (
       <div>
         <h4>Current stuff</h4>
-          <a href='revolving/01 One Eternal Round (Lesson 01, 06.27.1990).mp3' target='_blank'
-          >01OER</a><br />
-          <a href='revolving/02 One Eternal Round (Lesson 02, 07.11.1990).mp3' target='_blank'
-          >02OER</a><br />
-          <a href='revolving/03 One Eternal Round (Lesson 03, 07.18.1990).mp3' target='_blank'
+
+        /*  <a href='revolving/03 One Eternal Round (Lesson 03, 07.18.1990).mp3' target='_blank'
           >03OER</a><br />
           <a href='revolving/04 One Eternal Round (Lesson 04, 07.25.1990).mp3' target='_blank'
           >04OER</a><br />
@@ -29,7 +26,7 @@ class Links extends React.Component {
           >11OER</a><br />
           <a href='revolving/12 One Eternal Round (Lesson 12, 09.26.1990).mp3' target='_blank'
           >12OER</a><br />
-          <hr />
+          <hr />*/
         <h4>Programming</h4>
           <a href='https://www.w3schools.com/' target='_blank'
           >W3 Schools</a>
