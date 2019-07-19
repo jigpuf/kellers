@@ -10,6 +10,7 @@ import Are from './subjects/are.js'
 import Covenant from './subjects/covenant.js'
 import Money from './subjects/money.js'
 import Promised from './subjects/promised.js'
+import Power from './subjects/power.js'
 
 class Subject extends React.Component {
   state= {
@@ -54,6 +55,7 @@ pickTier2 = (item) => {
       {name: 'Money', slug: 'money', component: <Money />},
       {name: 'Promised Land covenant', slug: 'promised', component:<Promised />},
       {name: 'Mormons Christian?', slug: 'mormonChristian'},
+      {name: 'Power', slug: 'power', component:<Power />},
     ]
       const renderItems = Items.map(item => {
         return (

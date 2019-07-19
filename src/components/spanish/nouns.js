@@ -1,5 +1,6 @@
 import React from 'react';
 import Body from './nouns/body.js';
+import Color from './nouns/color.js'
 
 class Nouns extends React.Component {
   state = {
@@ -13,7 +14,7 @@ class Nouns extends React.Component {
   render () {
     const Items = [
       {name: 'Body', slug: 'body', component:<Body />},
-      {name: 'Color', slug: 'color'},
+      {name: 'Color', slug: 'color', color:<Color />},
       {name: 'Nature', slug: 'nature'},
       {name: 'People', slug: 'people'},
       {name: 'Places', slug: 'places'},
