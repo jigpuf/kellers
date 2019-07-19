@@ -4,29 +4,7 @@ class Links extends React.Component {
   render () {
     return (
       <div>
-        <h4>Current stuff</h4>
-
-        /*  <a href='revolving/03 One Eternal Round (Lesson 03, 07.18.1990).mp3' target='_blank'
-          >03OER</a><br />
-          <a href='revolving/04 One Eternal Round (Lesson 04, 07.25.1990).mp3' target='_blank'
-          >04OER</a><br />
-          <a href='revolving/05 One Eternal Round (Lesson 05, 08.01.1990).mp3' target='_blank'
-          >05OER</a><br />
-          <a href='revolving/06 One Eternal Round (Lesson 06, 08.15.1990).mp3' target='_blank'
-          >06OER</a><br />
-          <a href='revolving/07 One Eternal Round (Lesson 07, 08.22.1990).mp3' target='_blank'
-          >07OER</a><br />
-          <a href='revolving/08 One Eternal Round (Lesson 08, 08.29.1990).mp3' target='_blank'
-          >08OER</a><br />
-          <a href='revolving/09 One Eternal Round (Lesson 09, 09.05.1990).mp3' target='_blank'
-          >09OER</a><br />
-          <a href='revolving/10 One Eternal Round (Lesson 10, 09.09.1990).mp3' target='_blank'
-          >10OER</a><br />
-          <a href='revolving/11 One Eternal Round (Lesson 11, 09.19.1990).mp3' target='_blank'
-          >11OER</a><br />
-          <a href='revolving/12 One Eternal Round (Lesson 12, 09.26.1990).mp3' target='_blank'
-          >12OER</a><br />
-          <hr />*/
+  
         <h4>Programming</h4>
           <a href='https://www.w3schools.com/' target='_blank'
           >W3 Schools</a>
