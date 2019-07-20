@@ -8,6 +8,7 @@ class Drinks extends React.Component {
       <li>Horchata</li>
       <li>Yerba Mate</li>
       <li>Poor man's milk shake</li>
+      Milk,Vanilla, Sugar
       <li>Salty lemon Drink</li>
       <li>Fruity Orange Juice</li>
       </div>

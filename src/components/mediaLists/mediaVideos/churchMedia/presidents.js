@@ -32,8 +32,20 @@ class Presidents extends React.Component {
         <li>David O. Mckay</li>
           <a href='https://speeches.byu.edu/talks/david-o-mckay_baccalaureate-service/?M=A' target ='_blank'
           >Baccalaureata Service (Truth) (1951)</a><br />
-          <a href='https://speeches.byu.edu/talks/david-o-mckay/message-lds-college-youth/' target ='_blank'
-          >Message for LDS College Youth(1952)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/david-o-mckay/five-ideals-contributing-happy-enduring-marriage/' target ='_blank'
+          >Five Ideals Contributing to a Happy and Enduring Marriage(1955)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/david-o-mckay/gospel-ideals-lifes-surest-anchor/' target ='_blank'
+          >Gospel Ideals: Life’s Surest Anchor(1956)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/david-o-mckay/god-father-gospel-plan/' target ='_blank'
+          >God Our Father: His Gospel Plan(1957)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/david-o-mckay/age-carries-responsibility/' target ='_blank'
+          >Each Age Carries Own Responsibility(1959)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/david-o-mckay/two-contending-forces/' target ='_blank'
+          >Two Contending Forces(1960)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/david-o-mckay/whither-shall-go/' target ='_blank'
+          >Whither Shall We Go?(1961)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/david-o-mckay/something-higher-self/' target ='_blank'
+          >Something Higher Than Self(1965)(test)</a><br />
           <hr />
         <li>Joseph Fielding Smith</li>
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/law-divine-witnesses/' target ='_blank'
@@ -41,9 +53,19 @@ class Presidents extends React.Component {
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/leadership-week-fulfilment-prophecy/' target ='_blank'
           >Leadership Week: Fulfillment of Prophecy(1952)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/origin-man/' target ='_blank'
-          >The Origin of Man(1953)(test)</a><br />
-          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/immutable-laws-god/' target ='_blank'
-          >The Immutable Laws of God(1953)(test)</a><br />
+          >The Origin of Man(1953)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-saves/' target ='_blank'
+          >The Knowledge That Saves(1954)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/atonement-jesus-christ/' target ='_blank'
+          >The Atonement of Jesus Christ(1955)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/purpose-of-mortal-life/' target ='_blank'
+          >The Purpose of Mortal Life(1956)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/teach-reverence/' target ='_blank'
+          >How Do We Teach Reverence?(1956)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-countries-kingdoms/' target ='_blank'
+          >A Knowledge of Countries and of Kingdoms(1956)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/ye-are-bought-with-a-price/' target ='_blank'
+          >For Ye Are Bought with a Price(1957)(test)</a><br />
           <a href='https://www.youtube.com/watch?v=VYOzKaRA5p8' target ='_blank'
           >Predicted Judgements (1967)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/eternal-keys-and-the-right-to-preside?lang=eng' target ='_blank'
@@ -52,8 +74,10 @@ class Presidents extends React.Component {
           >A Prophet's Blessing (last talk) (1972)</a><br />
           <hr />
         <li>Harold B. Lee</li>
-          <a href='https://speeches.byu.edu/talks/harold-b-lee/life-control/' target ='_blank'
-          >Life under Control(1951)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/harold-b-lee/men-women-tomorrow-depends-upon/' target ='_blank'
+          >What Men and Women Are Tomorrow Depends upon What You Do Today(1952)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/harold-b-lee/divine-revelation/' target ='_blank'
+          >Divine Revelation(1952)(test)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/todays-young-people?lang=eng' target ='_blank'
           >Today's Young People (1971)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/the-iron-rod?lang=eng' target ='_blank'
@@ -66,8 +90,8 @@ class Presidents extends React.Component {
           >Closing Remarks- Harold B. Lee</a><br />
           <hr />
         <li>Spencer W. Kimball</li>
-          <a href='https://speeches.byu.edu/talks/spencer-w-kimball/style/' target ='_blank'
-          >A Style of Our Own(1951)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/spencer-w-kimball/shall-marry/' target ='_blank'
+          >Whom Shall I Marry?(1952)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/spencer-w-kimball/may-deceived/' target ='_blank'
           >That You May Not Be Deceived(1959)</a><br />
           <a href='https://speeches.byu.edu/talks/spencer-w-kimball/peter-brother/' target ='_blank'
@@ -78,8 +102,6 @@ class Presidents extends React.Component {
           >Absolute Truth(1977)</a><br />
           <a href='https://speeches.byu.edu/talks/spencer-w-kimball/marriage-divorce/' target ='_blank'
           >Marriage and Divorce(1976)</a><br />
-          <a href='' target ='_blank'
-          ></a><br />
           <hr />
         <li>Ezra Taft Benson</li>
           <a href="https://www.churchofjesuschrist.org/media-library/audio?lang=eng" target ='_blank'
