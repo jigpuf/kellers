@@ -1,7 +1,8 @@
-import React from 'react';
-import V200 from './valves/v200.js';
-import ND9 from './valves/nd9.js';
-import Er5k from './valves/er5k.js';
+import React from 'react'
+import V200 from './valves/v200.js'
+import ND9 from './valves/nd9.js'
+import Er5k from './valves/er5k.js'
+import Drawer from './valves/drawer.js'
 
 class Valves extends React.Component {
   state = {
@@ -20,6 +21,7 @@ class Valves extends React.Component {
       {name: 'Single Acting', slug: 'single', },
       {name: 'Double Acting', slug: 'double', },
       {name: 'ER5k', slug: 'er5k', component:<Er5k /> },
+      {name: 'Valve Drawer', slug: 'drawer', component:<Drawer />},
     ]
     const renderItems = Items.map(item => {
       return (
