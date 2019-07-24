@@ -24,6 +24,7 @@ class Lectures extends React.Component {
         <a href='https://www.youtube.com/watch?v=bUTsVY6VUQA&list=PL7pEw9n3GkoVAqCMVTz2mKthyWr-svpQJ' target='_blank'
         >React JS Introduction and Setup for Absolute Beginners</a><br />
         <hr />
+      <li>Keller Rocks</li>
       </div>
     );
   }
