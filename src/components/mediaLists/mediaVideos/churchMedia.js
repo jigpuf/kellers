@@ -3,6 +3,7 @@ import Presidents from './churchMedia/presidents.js'
 import Apostles from './churchMedia/apostles.js'
 import Byu from './churchMedia/byu.js'
 import HughNibley from './churchMedia/hughNibley.js'
+import Interpreter from './churchMedia/interpreter.js'
 
 class Church extends React.Component {
   state = {
@@ -21,7 +22,7 @@ class Church extends React.Component {
       {name: 'Hyrum Andrus', slug: 'hyrumAndrus' },
       {name: 'Hugh Nibley', slug: 'hughNibley', component:<HughNibley /> },
       {name: 'Fair Mormon', slug: 'fairMormon' },
-      {name: 'Interpreter', slug: 'Interpreter' },
+      {name: 'Interpreter', slug: 'Interpreter', component:<Interpreter /> },
       {name: 'Heartland', slug: 'heartland' },
     ]
     const renderItems = Items.map(item => {

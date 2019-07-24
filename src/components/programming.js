@@ -1,7 +1,12 @@
 import React from 'react'
 import Typing from './programming/typing.js'
+import Methodology from './programming/methodology.js'
+import Cpp from './programming/cpp.js'
 import Html from './programming/html.js'
 import Css from './programming/css.js'
+import Js from './programming/js.js'
+import Jsx from './programming/jsx.js'
+import Mongo from './programming/mongo.js'
 
 class Programming extends React.Component {
   state = {
@@ -15,13 +20,13 @@ class Programming extends React.Component {
   render () {
     const Items = [
       {name: 'Typing', slug: 'typing', component:<Typing /> },
-      {name: 'Methodology', slug: 'method' },
-      {name: 'c++', slug: 'c' },
+      {name: 'Methodology', slug: 'method', component:<Methodology /> },
+      {name: 'c++', slug: 'c', component:<Cpp /> },
       {name: 'HTML', slug: 'html', component:<Html /> },
       {name: 'CSS', slug: 'css', component:<Css /> },
-      {name: 'Javascript', slug: 'js' },
-      {name: 'JSX', slug: 'jsx' },
-      {name: 'MongoDB', slug: 'mongo' },
+      {name: 'Javascript', slug: 'js', component:<Js /> },
+      {name: 'JSX', slug: 'jsx', component:<Jsx /> },
+      {name: 'MongoDB', slug: 'mongo', component:<Mongo /> },
     ]
     const renderItems = Items.map(item => {
       return (
