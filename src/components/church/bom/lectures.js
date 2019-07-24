@@ -64,10 +64,6 @@ class Lectures extends React.Component {
             >28-Mosiah 1--2 King Benjamin's Speech</a><br />
             <a href="https://www.youtube.com/watch?v=5ZN_QBNx6ps" target ='_blank'
             >29-Mosiah 3--5 King Benjamin's Speech</a><br />
-            <a href="https://drive.google.com/drive/folders/0B4o7q1habMugMDlJMTNycFFNVms" target ='_blank'
-            >Hugh Nibley Lecture Streaming</a><br />
-            <a href="" target ='_blank'
-            ></a><br />
           </div><hr/>
         <h3>Hyrum Andrus</h3>
           <div class='twoColumn'>

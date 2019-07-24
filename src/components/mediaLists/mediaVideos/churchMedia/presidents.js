@@ -30,7 +30,7 @@ class Presidents extends React.Component {
           >Missionary Experience(1950)</a><br />
           <hr />
         <li>David O. Mckay</li>
-          <a href='https://speeches.byu.edu/talks/david-o-mckay_baccalaureate-service/?M=A' target ='_blank'
+          <a href='https://speeches.byu.edu/wp-content/uploads/mp3/McKay_David_071951.mp3' target ='_blank'
           >Baccalaureata Service (Truth) (1951)</a><br />
           <a href='https://speeches.byu.edu/talks/david-o-mckay/five-ideals-contributing-happy-enduring-marriage/' target ='_blank'
           >Five Ideals Contributing to a Happy and Enduring Marriage(1955)(test)</a><br />

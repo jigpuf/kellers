@@ -24,7 +24,7 @@ class Drawer extends React.Component {
           <li>(8X) DB-37 Pin connectors</li>
           GSE-1757819-9,Pin Type=205089-1 (20-24AWG), -08 Crimper
           <li>(128X) automotive fuses</li>
-          0287002.PXCN
+          0287002
           <hr />
         <h4>I/O Data</h4>
           <table>
@@ -355,9 +355,9 @@ class Drawer extends React.Component {
               <td>Power Connector</td>
               <td>MS3470W18-8S</td>
             </tr>
-
           </table>
           <hr />
+          https://txgse-trac/svn/Electrical/DataAndControl/InHouseDAQ/RackMountBoxes/ValveControlFeedback_REV3.1
       </div>
     );
   }

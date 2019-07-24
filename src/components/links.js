@@ -30,8 +30,10 @@ class Links extends React.Component {
           >Fair</a><br/>
           <a href='https://askgramps.org/' target='_blank'
           >Ask Gramps</a><br/>
-          <a href='https://www.lds-general-conference.org/'target='_blank'
+          <a href='https://www.lds-general-conference.org/' target='_blank'
           >LDS COnference corpus</a><br />
+          <a href='https://speeches.byu.edu/' target='_blank'
+          >BYU Speeches</a><br />
           <hr />
         <h4>Cooking</h4>
           <a href='https://www.epicurious.com/' target='_blank'
@@ -82,6 +84,8 @@ class Links extends React.Component {
         <h4>Drives</h4>
           <a href='https://drive.google.com/drive/folders/1BmTol-ZButhXJ3yykAePRez7Il8x0C6Z' target='_blank'
           >Kman Drive</a><br />
+          <a href="https://drive.google.com/drive/folders/0B4o7q1habMugMDlJMTNycFFNVms" target ='_blank'
+          >Hugh Nibley Lecture Streaming</a><br />
       </div>
     );
   }

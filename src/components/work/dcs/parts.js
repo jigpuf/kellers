@@ -1,4 +1,5 @@
 import React from 'react';
+import Numbers from './parts/numbers.js'
 
 class Parts extends React.Component {
   state = {
@@ -13,7 +14,7 @@ class Parts extends React.Component {
     const Items = [
       {name: 'Lookups', slug: 'lookups',},
       {name: 'Process', slug: 'process',},
-      {name: 'Part Numbers', slug: 'numbers',},
+      {name: 'Part Numbers', slug: 'numbers', component: <Numbers />},
     ]
     const renderItems = Items.map(item => {
       return (

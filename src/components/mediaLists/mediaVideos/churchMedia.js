@@ -1,6 +1,7 @@
 import React from 'react';
 import Presidents from './churchMedia/presidents.js'
 import Apostles from './churchMedia/apostles.js'
+import Byu from './churchMedia/byu.js'
 import HughNibley from './churchMedia/hughNibley.js'
 
 class Church extends React.Component {
@@ -16,7 +17,7 @@ class Church extends React.Component {
     const Items = [
       {name: 'Presidents', slug: 'presidents', component:<Presidents />},
       {name: 'Apostles', slug: 'apostles', component:<Apostles />},
-      {name: 'BYU', slug: 'byu' },
+      {name: 'BYU', slug: 'byu', component:<Byu /> },
       {name: 'Hyrum Andrus', slug: 'hyrumAndrus' },
       {name: 'Hugh Nibley', slug: 'hughNibley', component:<HughNibley /> },
       {name: 'Fair Mormon', slug: 'fairMormon' },
