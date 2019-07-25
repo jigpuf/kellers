@@ -1,8 +1,7 @@
 import React from 'react';
-import Lectures from './js/lectures.js'
-import Notes from './js/notes.js'
-
-class Js extends React.Component {
+import Lectures from './plc/lectures.js'
+import Notes from './plc/notes.js'
+class PLC extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -44,4 +43,4 @@ class Js extends React.Component {
   }
 }
 
-export default Js;
+export default PLC;

@@ -1,8 +1,8 @@
 import React from 'react';
-import Lectures from './js/lectures.js'
-import Notes from './js/notes.js'
+import Lectures from './labview/lectures.js'
+import Notes from './labview/notes.js'
 
-class Js extends React.Component {
+class Labview extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -44,4 +44,4 @@ class Js extends React.Component {
   }
 }
 
-export default Js;
+export default Labview;

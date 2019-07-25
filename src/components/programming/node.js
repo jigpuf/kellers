@@ -1,8 +1,8 @@
 import React from 'react';
-import Lectures from './js/lectures.js'
-import Notes from './js/notes.js'
+import Lectures from './node/lectures.js'
+import Notes from './node/notes.js'
 
-class Js extends React.Component {
+class Node extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -44,4 +44,4 @@ class Js extends React.Component {
   }
 }
 
-export default Js;
+export default Node;

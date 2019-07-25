@@ -7,6 +7,9 @@ import Css from './programming/css.js'
 import Js from './programming/js.js'
 import Jsx from './programming/jsx.js'
 import Mongo from './programming/mongo.js'
+import PLC from './programming/plc.js'
+import Node from './programming/node.js'
+import Labview from './programming/labview.js'
 
 class Programming extends React.Component {
   state = {
@@ -27,6 +30,9 @@ class Programming extends React.Component {
       {name: 'Javascript', slug: 'js', component:<Js /> },
       {name: 'JSX', slug: 'jsx', component:<Jsx /> },
       {name: 'MongoDB', slug: 'mongo', component:<Mongo /> },
+      {name: 'PLC', slug: 'plc', component:<PLC /> },
+      {name: 'Node.JS', slug: 'node', component:<Node /> },
+      {name: 'Labview', slug: 'labview', component:<Labview /> },
     ]
     const renderItems = Items.map(item => {
       return (
