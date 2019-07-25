@@ -8,6 +8,8 @@ class Links extends React.Component {
         <h4>Programming</h4>
           <a href='https://www.w3schools.com/' target='_blank'
           >W3 Schools</a>
+          <a href='https://www.udemy.com/' target='_blank'
+          >Udemy</a>
           <hr/>
         <h4>Travel</h4>
           <a href='https://www.atlasobscura.com/' target='_blank'

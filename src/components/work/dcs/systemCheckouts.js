@@ -101,7 +101,7 @@ class Checkouts extends React.Component {
           MAX Settings:<br /><br />
           <li>Counter(C)</li>
           Module Types: PXI-6624/SCB-100<br />
-          Instrument Types: Flow Meter<br />
+          Instrument Types: Flow Meter, ZTS<br />
           Meter Setup:<br />
           MAX Settings:<br /><br />
         </div>
