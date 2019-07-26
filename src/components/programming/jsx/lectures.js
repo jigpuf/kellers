@@ -4,6 +4,8 @@ class Lectures extends React.Component {
   render () {
     return (
       <div>
+      <a href='https://www.w3schools.com/react/react_intro.asp' target='_blank'
+      >W3 Schools React page</a><br />
       <h4>New Boston:</h4>
         <a href='https://www.youtube.com/watch?v=-AbaV3nrw6E&list=PL6gx4Cwl9DGBuKtLgPR_zWYnrwv-JllpA' target='_blank'
         >React JS Tutorials for Beginners - 1 - Getting Started</a><br />

@@ -15,9 +15,9 @@ class Notes extends React.Component {
         <hr />
         <h3>Section 2</h3>
         <li>Video4:</li>
-        <p></p>
-        <li>Video5:</li>
-        <p></p>
+        <p>Section Overview</p>
+        <li>Video5:PLC Automation</li>
+        <p>Talks about why we use PLC's</p>
         <li>Video6:</li>
         <p></p>
         <li>Video7:</li>

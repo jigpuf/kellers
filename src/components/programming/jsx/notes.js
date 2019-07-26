@@ -19,6 +19,8 @@ class Notes extends React.Component {
           <a href='https://www.youtube.com/watch?v=bUTsVY6VUQA&list=PL7pEw9n3GkoVAqCMVTz2mKthyWr-svpQJ' target='_blank'
           >***TechSith:React JS Introduction and Setup for Absolute Beginners***</a><br />
           Installation, Setup, Render test<br />
+          <a href='https://www.w3schools.com/react/react_getstarted.asp' target='_blank'
+          >W3 Schools Setup</a><br />
       </div>
     );
   }
