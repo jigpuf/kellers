@@ -24,6 +24,7 @@ class Dice extends React.Component {
       <div>
         Sides to Dice:
         <input id='sides' type="number" value={this.state.number} onChange={this.changeNumber}/><br />
+        Number of dice:<br />
         Adjuster:
         <input id='adjuster' type='number' value={this.state.adjustment} onChange={this.changeAdjuster}/><br />
         <button id='btn' onClick={this.roller}>Roll em'</button>

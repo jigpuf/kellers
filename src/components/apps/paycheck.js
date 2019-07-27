@@ -48,22 +48,40 @@ class Paycheck extends React.Component {
         <input type='number' value={this.state.insurance} onChange={this.changeinsurance}/><br />
         Amount to set aside:
         <input type='number' value={this.state.setAside} onChange={this.changeSetAside}/><br />
-        ESPP percentage:
-        <div id='espp'>{this.state.espp}</div>
+        ESPP percentage:<br />
+
+
         <table>
           <tr>
-            <td><strong>Wage:</strong>{this.state.hourlyWage}</td>
-            <td><strong>Shift Wage:</strong>{this.state.hourlyWage}</td>
-            <td><strong>Hours:</strong>{this.state.hoursWorked}</td>
-            <td><strong>Effective Hours:</strong>{this.state.effectiveHours}</td>
+            <td><strong>Wage:</strong></td>
+            <td>{this.state.hourlyWage}</td>
+            <td><strong>Shift Wage:</strong></td>
+            <td>{this.state.hourlyWage * 1.085}</td>
           </tr>
           <tr>
-            <td><strong>Insurance:</strong>{this.state.insurance}</td>
-            <td><strong>ESPP:</strong>{(this.state.hourlyWage * this.state.effectiveHours) * this.state.espp}</td>
-            <td><strong>Gross Income:</strong>{this.state.hourlyWage * this.state.effectiveHours}</td>
-            <td><strong>Net Income:</strong>{((this.state.hourlyWage * this.state.effectiveHours) - this.state.insurance)*(1-this.state.taxes)}</td>
+            <td><strong>Hours:</strong></td>
+            <td>{this.state.hoursWorked}</td>
+            <td><strong>Effective Hours:</strong></td>
+            <td>{this.state.effectiveHours}</td>
+          </tr>
+          <tr>
+            <td><strong>Insurance:</strong></td>
+            <td>{this.state.insurance}</td>
+            <td><strong>ESPP:</strong></td>
+            <td>{(this.state.hourlyWage * this.state.effectiveHours) * this.state.espp}</td>
+          </tr>
+          <tr>
+            <td><strong>Gross Income:</strong></td>
+            <td>{this.state.hourlyWage * this.state.effectiveHours}</td>
+            <td><strong>Net Income:</strong></td>
+            <td>{((this.state.hourlyWage * this.state.effectiveHours) - this.state.insurance)*(1-this.state.taxes)}</td>
           </tr>
         </table>
+        Bills:<br />
+        After Bills:<br />
+        Amount paid to interest:<br />
+        Amount paid to principle:<br />
+        annual stuff:
       </div>
       //Need to get the tax set up and insurance corrected
       //Radio button needs to adjust Shift Wage
