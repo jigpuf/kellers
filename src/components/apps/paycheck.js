@@ -8,10 +8,10 @@ class Paycheck extends React.Component {
     setAside: 1500,
     effectiveHours:125,
     espp:.15,
-    taxes: .2,
+    taxes: 0,
   }
   changeHourlyWage = (event) => {
-    const wage = parseInt(event.target.value,10);
+    const wage = parseFloat(event.target.value,10);
     return this.setState({hourlyWage:wage});
   }
   changeHoursWorked = (event) => {
@@ -30,7 +30,12 @@ class Paycheck extends React.Component {
     const setAsideMoney = parseInt(event.target.value,10);
     return this.setState({setAside:setAsideMoney});
   }
-  calculate = () => {
+  changeEspp = (event) => {
+    const esppChange = parseFloat(event.target.value,10);
+    return this.setState({espp:esppChange});
+  }
+  calculateTaxes = () => {
+    const grossTaxable =(this.state.hourlyWage * this.state.effectiveHours * 26) - 24400;
 
   }
   render () {
@@ -48,7 +53,8 @@ class Paycheck extends React.Component {
         <input type='number' value={this.state.insurance} onChange={this.changeinsurance}/><br />
         Amount to set aside:
         <input type='number' value={this.state.setAside} onChange={this.changeSetAside}/><br />
-        ESPP percentage:<br />
+        ESPP percentage:
+        <input type='number' value={this.state.espp} onChange={this.changeEspp}/><br />
 
 
         <table>
@@ -74,7 +80,19 @@ class Paycheck extends React.Component {
             <td><strong>Gross Income:</strong></td>
             <td>{this.state.hourlyWage * this.state.effectiveHours}</td>
             <td><strong>Net Income:</strong></td>
-            <td>{((this.state.hourlyWage * this.state.effectiveHours) - this.state.insurance)*(1-this.state.taxes)}</td>
+            <td>{(((this.state.hourlyWage * this.state.effectiveHours) - this.state.insurance) * (1-this.state.taxes)) - (this.state.hourlyWage * this.state.effectiveHours) * this.state.espp}</td>
+          </tr>
+          <tr>
+            <td><strong>Projected annual Gross:</strong></td>
+            <td>{this.state.hourlyWage * this.state.effectiveHours * 26}</td>
+            <td><strong>Projected taxable:</strong></td>
+            <td>{(this.state.hourlyWage * this.state.effectiveHours * 26) - 24400}</td>
+          </tr>
+          <tr>
+            <td><strong>Taxes paid:</strong></td>
+            <td>{this.calculateTaxes}</td>
+            <td><strong>Tax Rate:</strong></td>
+            <td>{}</td>
           </tr>
         </table>
         Bills:<br />
