@@ -1,4 +1,5 @@
 import React from 'react';
+import Paycheck from './apps/paycheck.js'
 import Dice from './apps/dice.js';
 
 class Apps extends React.Component {
@@ -12,7 +13,7 @@ class Apps extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Paycheck', slug: 'paycheck' },
+      {name: 'Paycheck', slug: 'paycheck', component:<Paycheck /> },
       {name: 'Dice Rolling Tool', slug: 'dice', component: <Dice /> },
       {name: 'Battleship', slug: 'battleship' },
       {name: 'Tic-Tac-Toe', slug: 'ttt' },

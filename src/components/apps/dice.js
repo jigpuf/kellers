@@ -7,12 +7,12 @@ class Dice extends React.Component {
     output: undefined,
   }
   roller = () => {
-    const whatever = Math.floor(Math.random() * Math.floor(this.state.number))+1 + this.state.adjustment;
-    return this.setState({output:whatever});
+    const finalNumber = Math.floor(Math.random() * Math.floor(this.state.number))+1 + this.state.adjustment;
+    return this.setState({output:finalNumber});
   }
   changeNumber = (event) => {
-    const rooster = parseInt(event.target.value,10);
-    return this.setState({number:rooster});
+    const numberOfSides = parseInt(event.target.value,10);
+    return this.setState({number:numberOfSides});
   }
   changeAdjuster = (event) => {
     const adjust = parseInt(event.target.value,10);
@@ -25,14 +25,14 @@ class Dice extends React.Component {
         Sides to Dice:
         <input id='sides' type="number" value={this.state.number} onChange={this.changeNumber}/><br />
         Adjuster:
-        <input id='adjuster' type='number' value={this.state.adjust} onChange={this.changeAdjuster}/><br />
+        <input id='adjuster' type='number' value={this.state.adjustment} onChange={this.changeAdjuster}/><br />
         <button id='btn' onClick={this.roller}>Roll em'</button>
         <div id='output'>{this.state.output}</div>
       </div>
     );
   }
 }
-
+//Need to add number of dice
 export default Dice;
 /*
 This component is a class extension of the react app.  The states are things
@@ -46,6 +46,7 @@ borders of the function.  That allows access to the states.  A const is created
 which takes on the new number in the input.  It is the event where it happened
 and it uses the value with a base of 10.  It returns a change to the number state
 to match the new value in the number state.
+The adjuster input acts the same way and uses the adjustment state.
 Once the button is clicked, the roller function is called.  a const is created
 which takes what is currently in the number state and adds to it.  It then sets
 the state of whatever to the new number.
