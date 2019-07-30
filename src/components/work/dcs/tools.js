@@ -12,15 +12,8 @@ class Tools extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Sockets', slug: 'sockets',},
       {name: 'Hole Punch', slug: 'hole',},
-      {name: 'Grinder', slug: 'grinder',},
-      {name: 'Band Saw', slug: 'band',},
-      {name: 'Drill', slug: 'drill',},
-      {name: 'Tape Measure', slug: 'measure',},
-      {name: 'cutters/strippers', slug: 'cutters',},
       {name: 'Label Maker', slug: 'label',},
-      {name: 'Heat Gun', slug: 'heat',},
       {name: 'Crimpers', slug: 'crimpers', component:<Crimpers />},
       {name: 'Swagelock', slug: 'swage',},
     ]
