@@ -98,7 +98,7 @@ class Paycheck extends React.Component {
             <td><strong>Gross Income:</strong></td>
             <td>{parseInt(this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage)}</td>
             <td><strong>Net Income:</strong></td>
-            <td>{parseInt((((this.state.hourlyWage * this.state.effectiveHours) - this.state.insurance) * (1-this.state.taxes)) - (this.state.hourlyWage * this.state.effectiveHours) * this.state.espp)}</td>
+            <td>{parseInt((((this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage) - this.state.insurance) * (1-this.state.taxes)) - (this.state.hourlyWage * this.state.effectiveHours) * this.state.espp)}</td>
           </tr>
           <tr>
             <td><strong>Projected annual Gross:</strong></td>
