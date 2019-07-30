@@ -3,6 +3,7 @@ import React from 'react';
 class Dice extends React.Component {
   state ={
     number: 0,
+    amount:1,
     adjustment: 0,
     output: undefined,
   }
@@ -11,6 +12,10 @@ class Dice extends React.Component {
     return this.setState({output:finalNumber});
   }
   changeNumber = (event) => {
+    const numberOfSides = parseInt(event.target.value,10);
+    return this.setState({number:numberOfSides});
+  }
+  changeAmount = (event) => {
     const numberOfSides = parseInt(event.target.value,10);
     return this.setState({number:numberOfSides});
   }
@@ -24,11 +29,55 @@ class Dice extends React.Component {
       <div>
         Sides to Dice:
         <input id='sides' type="number" value={this.state.number} onChange={this.changeNumber}/><br />
-        Number of dice:<br />
+        Number of dice:
+        <input id='amount' type="number" value={this.state.amount} onChange={this.changeAmount}/><br />
         Adjuster:
         <input id='adjuster' type='number' value={this.state.adjustment} onChange={this.changeAdjuster}/><br />
         <button id='btn' onClick={this.roller}>Roll em'</button>
-        <div id='output'>{this.state.output}</div>
+        <h4>{this.state.output}</h4>
+        <table>
+          <tr>
+          </tr>
+            <th>Die</th>
+            <th>Roll</th>
+          <tr>
+            <td>Die 1</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Die 2</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Die 3</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Die 4</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Die 5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Die 6</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Adjustment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Total + Adj</td>
+            <td></td>
+          </tr>
+
+        </table>
       </div>
     );
   }
