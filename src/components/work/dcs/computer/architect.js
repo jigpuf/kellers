@@ -8,7 +8,7 @@ class Architect extends React.Component {
         <li>First get Work order cable is attached to</li>
         <li>Work order will also give some of the non-standard parts</li>
         <li>Work order will show architect document as well as codes</li>
-        <li>Under Architect Summary: gives important guidlines</li>
+        <li>Under Architect Summary: gives important guidlines, Major Parts</li>
         <li>Cables: gives lengths, labels, connectors</li>
         <li>Connectors: give more in depth pinout and compatablity stuff</li>
         <li>Bulkheads: shows names for locations where bulhead Connectors are found</li>
@@ -17,7 +17,7 @@ class Architect extends React.Component {
         <h4>Accessing Info</h4>
         <li>Architect: https://architect.spacex.corp/parts</li>
         <li>Pick project, avionics, hopper, etc.</li>
-        
+        <li>Pick Tab</li>
         <h3>Questions</h3>
       </div>
     );

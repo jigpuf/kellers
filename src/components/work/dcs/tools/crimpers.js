@@ -13,8 +13,8 @@ class Crimpers extends React.Component {
             <th>Gauge</th>
             <th>Crimper</th>
             <th>Turret</th>
-            <th>Positioner</th>
-            <th>Crimper setting</th>
+            <th>Position</th>
+            <th>Setting</th>
           </tr>
           <tr>
             <td>D38</td>
@@ -87,7 +87,7 @@ class Crimpers extends React.Component {
             <td>Socket</td>
             <td>E-Red(Constantan)</td>
             <td>M39029/32-246</td>
-            <td>20AWG</td>
+            <td>20</td>
             <td></td>
             <td></td>
             <td></td>
@@ -98,7 +98,7 @@ class Crimpers extends React.Component {
             <td>Socket</td>
             <td>K-Red(Alumel)</td>
             <td>M39029/32-245</td>
-            <td>20AWG</td>
+            <td>20</td>
             <td></td>
             <td></td>
             <td></td>
@@ -109,7 +109,7 @@ class Crimpers extends React.Component {
             <td>Socket</td>
             <td>K+Yellow,E+Purple(Chromel)</td>
             <td>M39029/32-244</td>
-            <td>20AWG</td>
+            <td>20</td>
             <td></td>
             <td></td>
             <td></td>
@@ -120,7 +120,7 @@ class Crimpers extends React.Component {
             <td>Pin</td>
             <td>E-Red(Constantan)</td>
             <td>M39029/31-227</td>
-            <td>20AWG</td>
+            <td>20</td>
             <td></td>
             <td></td>
             <td></td>
@@ -131,7 +131,7 @@ class Crimpers extends React.Component {
             <td>Pin</td>
             <td>K-Red(Alumel)</td>
             <td>M39029/32-245</td>
-            <td>20AWG</td>
+            <td>20</td>
             <td></td>
             <td></td>
             <td></td>
@@ -142,7 +142,7 @@ class Crimpers extends React.Component {
             <td>Pin</td>
             <td>K+Yellow,E+Purple(Chromel)</td>
             <td>M39029/31-225</td>
-            <td>20AWG</td>
+            <td>20</td>
             <td></td>
             <td></td>
             <td></td>
