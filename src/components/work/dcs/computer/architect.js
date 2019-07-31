@@ -11,9 +11,14 @@ class Architect extends React.Component {
         <li>Under Architect Summary: gives important guidlines</li>
         <li>Cables: gives lengths, labels, connectors</li>
         <li>Connectors: give more in depth pinout and compatablity stuff</li>
+        <li>Bulkheads: shows names for locations where bulhead Connectors are found</li>
+        <li>Bulkhead Connectors:Shows connectors used on internal and external bulkhead locations</li>
         <li>Channel: is good for troubleshooting showing channel beginning to end</li>
+        <h4>Accessing Info</h4>
+        <li>Architect: https://architect.spacex.corp/parts</li>
+        <li>Pick project, avionics, hopper, etc.</li>
+        
         <h3>Questions</h3>
-        <li>How do you access Architect?</li>
       </div>
     );
   }
