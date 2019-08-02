@@ -32,16 +32,6 @@ class Presidents extends React.Component {
         <li>David O. Mckay</li>
           <a href='https://speeches.byu.edu/wp-content/uploads/mp3/McKay_David_071951.mp3' target ='_blank'
           >Baccalaureata Service (Truth) (1951)</a><br />
-          <a href='https://speeches.byu.edu/talks/david-o-mckay/five-ideals-contributing-happy-enduring-marriage/' target ='_blank'
-          >Five Ideals Contributing to a Happy and Enduring Marriage(1955)(test)</a><br />
-          <a href='https://speeches.byu.edu/talks/david-o-mckay/gospel-ideals-lifes-surest-anchor/' target ='_blank'
-          >Gospel Ideals: Life’s Surest Anchor(1956)(test)</a><br />
-          <a href='https://speeches.byu.edu/talks/david-o-mckay/god-father-gospel-plan/' target ='_blank'
-          >God Our Father: His Gospel Plan(1957)(test)</a><br />
-          <a href='https://speeches.byu.edu/talks/david-o-mckay/age-carries-responsibility/' target ='_blank'
-          >Each Age Carries Own Responsibility(1959)(test)</a><br />
-          <a href='https://speeches.byu.edu/talks/david-o-mckay/two-contending-forces/' target ='_blank'
-          >Two Contending Forces(1960)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/david-o-mckay/whither-shall-go/' target ='_blank'
           >Whither Shall We Go?(1961)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/david-o-mckay/something-higher-self/' target ='_blank'

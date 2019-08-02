@@ -11,6 +11,8 @@ class Links extends React.Component {
           <a href='https://www.udemy.com/' target='_blank'
           >Udemy</a><br />
           <hr/>
+          <a href='https://www.drawsvg.org/drawsvg.html' target='_blank'
+          >Draw SVG</a><br />
         <h4>Travel</h4>
           <a href='https://www.atlasobscura.com/' target='_blank'
           >Atlas Obscura</a><br/>

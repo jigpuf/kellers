@@ -1,6 +1,7 @@
-import React from 'react';
-import Valves from './instruments/valves.js';
-import Heaters from './instruments/heaters.js';
+import React from 'react'
+import Valves from './instruments/valves.js'
+import Heaters from './instruments/heaters.js'
+import Avionics from './instruments/avionics.js'
 
 class Instruments extends React.Component {
   state = {
@@ -28,6 +29,7 @@ class Instruments extends React.Component {
       {name: 'Pressure', slug: 'pressure' },
       {name: 'Temperature', slug: 'tempFeedback' },
       {name: 'PID Theory', slug:'pid',},
+      {name: 'Avionics Box', slug:'avionics', component:<Avionics />},
 
     ]
     const renderItems = Items.map(item => {
