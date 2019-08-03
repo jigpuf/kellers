@@ -1,5 +1,5 @@
 import React from 'react';
-import Duties from './it/duties.js'
+import Osi from './telecom/osi.js'
 
 class Networking extends React.Component {
   state = {
@@ -12,7 +12,7 @@ class Networking extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Duties', slug: 'duties', component:<Duties />},
+      {name: 'OSI Model', slug: 'osi', component:<Osi />},
 
 
     ]

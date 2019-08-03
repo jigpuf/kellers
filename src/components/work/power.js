@@ -1,5 +1,4 @@
 import React from 'react';
-import Duties from './power/duties.js'
 import Concepts from './power/concepts.js'
 import Transformers from './power/transformers.js'
 
@@ -21,6 +20,10 @@ class Power extends React.Component {
       {name: 'Panels', slug: 'panels' },
       {name: 'Codes', slug: 'codes' },
       {name: 'Tools', slug: 'tools'},
+      {name: 'ATS Function', slug: 'ats',},
+      {name: 'DC Distribution', slug: 'dc',},
+      {name: 'Grounding Systems', slug: 'grounding',},
+      {name: 'Shielding', slug: 'shielding',},
 
     ]
     const renderItems = Items.map(item => {

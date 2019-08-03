@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Duties extends React.Component {
+class Osi extends React.Component {
   render () {
     return (
       <div>
@@ -68,13 +68,8 @@ class Duties extends React.Component {
       >OSI Model Wikipedia</a><br />
       <a href="https://www.youtube.com/watch?v=HEEnLZV2wGI"
       >OSI model Demystified</a><br />
-
-      <h4>Pinging device using IP</h4>
-      <p>Open Comand Line Tool.  Type: "ping XXX.XXX.X.X"</p>
-      <a href="https://www.youtube.com/watch?v=nh8LQBMoC7I"
-      >How to Ping IP Address</a><br />
       </div>
     );
   }
   }
-export default Duties;
+export default Osi;

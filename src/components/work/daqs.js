@@ -1,6 +1,9 @@
 import React from 'react';
+import Ni from './daqs/ni.js';
+import Plc from './daqs/plc.js';
+import Checkouts from './daqs/systemCheckouts.js'
 
-class Matrix extends React.Component {
+class Daqs extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -11,9 +14,12 @@ class Matrix extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'DCS', slug: 'dcs',},
-      {name: 'DCS Specialist', slug: 'specialist',},
-      {name: 'DCS Lead', slug: 'lead',},
+      {name: 'National Instruments', slug: 'ni', component:<Ni />},
+      {name: 'Allen Bradley', slug: 'plc', component:<Plc />},
+      {name: 'Watlow Controller', slug: 'watlow',},
+      {name: 'Siemens', slug: 'siemens',},
+      {name: 'System Checkouts', slug:'system', component:<Checkouts />}
+
     ]
     const renderItems = Items.map(item => {
       return (
@@ -40,5 +46,4 @@ class Matrix extends React.Component {
     }
   }
 
-
-export default Matrix;
+export default Daqs;

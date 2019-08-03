@@ -2,6 +2,7 @@ import React from 'react'
 import Valves from './instruments/valves.js'
 import Heaters from './instruments/heaters.js'
 import Avionics from './instruments/avionics.js'
+import Coms from './instruments/coms.js'
 
 class Instruments extends React.Component {
   state = {
@@ -30,6 +31,7 @@ class Instruments extends React.Component {
       {name: 'Temperature', slug: 'tempFeedback' },
       {name: 'PID Theory', slug:'pid',},
       {name: 'Avionics Box', slug:'avionics', component:<Avionics />},
+      {name: 'Coms', slug:'coms', component:<Coms />}
 
     ]
     const renderItems = Items.map(item => {
