@@ -10,9 +10,9 @@ class Links extends React.Component {
           >W3 Schools</a><br />
           <a href='https://www.udemy.com/' target='_blank'
           >Udemy</a><br />
-          <hr/>
           <a href='https://www.drawsvg.org/drawsvg.html' target='_blank'
           >Draw SVG</a><br />
+          <hr/>
         <h4>Travel</h4>
           <a href='https://www.atlasobscura.com/' target='_blank'
           >Atlas Obscura</a><br/>
@@ -82,14 +82,17 @@ class Links extends React.Component {
           >Drop Box</a><br/>
           <a href='https://www2.sugarsync.com/' target='_blank'
           >SugarSync</a><br/>
-          <h4>Podcast Hosting</h4>
+          <hr/>
+        <h4>Podcast Hosting</h4>
           <a href='https://www.podbean.com/' target='_blank'
           >Pod Bean</a><br/>
+          <hr/>
         <h4>Drives</h4>
           <a href='https://drive.google.com/drive/folders/1BmTol-ZButhXJ3yykAePRez7Il8x0C6Z' target='_blank'
           >Kman Drive</a><br />
           <a href="https://drive.google.com/drive/folders/0B4o7q1habMugMDlJMTNycFFNVms" target ='_blank'
           >Hugh Nibley Lecture Streaming</a><br />
+          <hr/>
       </div>
     );
   }

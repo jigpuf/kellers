@@ -56,8 +56,32 @@ class Presidents extends React.Component {
           >A Knowledge of Countries and of Kingdoms(1956)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/ye-are-bought-with-a-price/' target ='_blank'
           >For Ye Are Bought with a Price(1957)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/summerhays-planetarium-dedication/' target ='_blank'
+          >Summerhays Planetarium Dedication(1958)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/ye-temple-of-god/' target ='_blank'
+          >Ye Are the Temple of God(1958)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/quorum-twelve-apostles/' target ='_blank'
+          >The Quorum of the Twelve Apostles(1958)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/live-true-covenants-obligations/' target ='_blank'
+          >Live True to Our Covenants and Obligations(1959)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/seeking-salvation-kingdom-god/' target ='_blank'
+          >Seeking Salvation in the Kingdom of God(1961)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/tried-tested-proved/' target ='_blank'
+          >We Are Here to Be Tried, Tested, Proved(1961)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/gospel-asia/' target ='_blank'
+          >The Gospel in Asia(1962)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/essentials-of-faith/' target ='_blank'
+          >Essentials of Faith(1964)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/missionary-experiences-2/' target ='_blank'
+          >My Missionary Experiences(1966)(test)</a><br />
           <a href='https://www.youtube.com/watch?v=VYOzKaRA5p8' target ='_blank'
           >Predicted Judgements (1967)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/blessings-eternal-glory/' target ='_blank'
+          >The Blessings of Eternal Glory(1968)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/sealing-power-salvation/' target ='_blank'
+          >Sealing Power and Salvation(1971)(test)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/exemplary-manhood-award/' target ='_blank'
+          >Exemplary Manhood Award(1972)(test)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/eternal-keys-and-the-right-to-preside?lang=eng' target ='_blank'
           >Eternal Keys and the Right to preside (1972)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/a-prophets-blessing?lang=eng' target ='_blank'

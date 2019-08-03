@@ -4,6 +4,12 @@ class Presidents extends React.Component {
   render () {
     return (
       <div>
+        <li>Joseph Smith Jr.</li>
+          <a href='https://www.youtube.com/watch?v=yXZRxfwbwZc' target ='_blank'
+          >Joseph Smith - The King Follett Discourse</a><br />
+          <a href="https://www.youtube.com/watch?v=_MHCvXh8twA&t=190s" target ='_blank'
+          >White Horse</a><br />
+          <hr />
         <li>Wilford Woodruff</li>
           <a href='https://www.youtube.com/watch?v=5NjANSFISFY'
           >1897 Recording</a><br/>
@@ -27,6 +33,10 @@ class Presidents extends React.Component {
           >Baccalaureata Service (Truth) (1951)</a><br />
           <hr />
         <li>Joseph Fielding Smith</li>
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/leadership-week-fulfilment-prophecy/' target ='_blank'
+          >Leadership Week: Fulfillment of Prophecy(1952)</a><br />
+          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/origin-man/' target ='_blank'
+          >The Origin of Man(1953)</a><br />
           <a href='https://www.youtube.com/watch?v=YLr7hJY4ZVs' target ='_blank'
           >The divine law of witnesses (1953)</a><br />
           <a href='https://www.youtube.com/watch?v=VYOzKaRA5p8' target ='_blank'
