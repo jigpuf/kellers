@@ -6,6 +6,10 @@ class Pseudo extends React.Component {
       <div>
       <h4>Ones I Like</h4>
       <li>Apocalype of Abraham</li>
+      <a href='https://www.youtube.com/watch?v=L2ha3tbfB-M&t=624s' target='_blank'
+      >The Apocalypse of Abraham Audio Book (End Days Warning)</a><br />
+      <a href='https://www.youtube.com/watch?v=3tw-lTqFTmg&t=229s' target='_blank'
+      >The Apocalypse of Abraham: An Ancient Witness for the Book of Moses by Jeffrey Bradshaw</a><br />
       <li>Gospel of Nicodemus</li>
       <li>Hermes the Shepard</li>
       <li>Genesis Apocrypha</li>

@@ -42,7 +42,10 @@ class Relation extends React.Component {
           {renderItems}
         </ul>
         <hr />
-
+        <a href='https://www.youtube.com/watch?v=XWVwFVgA4b4' target='_blank'
+        >Jordan Peterson’s guide to leadership</a><br />
+        <a href='https://www.youtube.com/watch?v=_v-NfZ1j918' target='_blank'
+        >Leaders: Myth & Reality: General Stanley McChrystal</a><br />
         {renderTier2Component}
       </div>
     )
