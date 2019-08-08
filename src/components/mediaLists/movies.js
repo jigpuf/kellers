@@ -21,7 +21,7 @@ class Movies extends React.Component {
         <li><a href="https://www.youtube.com/watch?v=XKSQmYUaIyE"
         >Alien 2</a></li>
         <li><a href="https://www.youtube.com/watch?v=3ycmmJ6rxA8"
-        >American Beauty</a></li>
+        >***American Beauty</a></li>
         <li><a href="https://www.youtube.com/watch?v=HUECWi5pX7o"
         >Amile</a></li>
         <li><a href="https://www.youtube.com/watch?v=-T3wnP91OnI"
@@ -31,7 +31,7 @@ class Movies extends React.Component {
         <li><a href="https://www.youtube.com/watch?v=sZIimDPZQwg"
         >Atlantis</a></li>
         <li><a href="https://www.youtube.com/watch?v=k5WQZzDRVtw"
-        >Babadook</a></li>
+        >***Babadook</a></li>
         <li><a href="https://www.youtube.com/watch?v=qvsgGtivCgs"
         >Back to the Future</a></li>
         <li><a href="https://www.youtube.com/watch?v=MdENmefJRpw"
@@ -41,7 +41,7 @@ class Movies extends React.Component {
         <li><a href="https://www.youtube.com/watch?v=h25ZL7fxZ8o"
         >Batteries not Included</a></li>
         <li><a href="https://www.youtube.com/watch?v=RweHayPG3wA"
-        >Beach</a></li>
+        >***Beach</a></li>
         <li><a href="https://www.youtube.com/watch?v=PUeWBp_kmuo"
         >Behind Enemy Lines</a></li>
         <li><a href="https://www.youtube.com/watch?v=DaShOr5AeKA"
@@ -49,7 +49,7 @@ class Movies extends React.Component {
         <li><a href="https://www.youtube.com/watch?v=ickbVzajrk0"
         >beatlejuice</a></li>
         <li><a href="https://www.youtube.com/watch?v=dF-Iy7vIOJA"
-        >Big Fish</a></li>
+        >***Big Fish</a></li>
         <li><a href="https://www.youtube.com/watch?v=cd-go0oBF4Y"
         >Big Lebowski</a></li>
         <li><a href="https://www.youtube.com/watch?v=2GfBkC3qs78"
@@ -61,7 +61,7 @@ class Movies extends React.Component {
         <li><a href="https://www.youtube.com/watch?v=ydXojYfCF3I"
         >Boondock Saints</a></li>
         <li><a href="https://www.youtube.com/watch?v=PlDbxogHPao"
-        >Bram Stokers Dracula</a></li>
+        >***Bram Stokers Dracula</a></li>
         <li><a href="https://www.youtube.com/watch?v=pa9331xmvhg"
         >Bubba Hotep</a></li>
         <li><a href="https://www.youtube.com/watch?v=pyRUijyrXr4"
@@ -69,7 +69,7 @@ class Movies extends React.Component {
         <li><a href='https://www.youtube.com/watch?v=NsIilFNNmkY'
         >Cabin in the Woods</a></li>
         <li><a href='https://www.youtube.com/watch?v=2TWYDogv4WQ'
-        >Castaway</a></li>
+        >***Castaway</a></li>
         <li><a href='https://www.youtube.com/watch?v=RQUdbvUVfgE'
         >Cell</a></li>
         <li><a href='https://www.youtube.com/watch?v=HHamE8gmA8Q'
@@ -81,7 +81,7 @@ class Movies extends React.Component {
         <li><a href='https://www.youtube.com/watch?v=cfjEZ88NHBw'
         >Christmas Story</a></li>
         <li><a href='https://www.youtube.com/watch?v=Pa7oVPru4J8'
-        >City of Lost Children</a></li>
+        >***City of Lost Children</a></li>
         <li><a href='https://www.youtube.com/watch?v=Mlfn5n-E2WE'
         >Clerks</a></li>
         <li><a href='https://www.youtube.com/watch?v=wxqSIsxMlYQ'
@@ -89,7 +89,7 @@ class Movies extends React.Component {
         <li><a href='https://www.youtube.com/watch?v=cDDdeHtrxfA'
         >Clue</a></li>
         <li><a href='https://www.youtube.com/watch?v=XyUwEO7xelY'
-        >Coraline</a></li>
+        >***Coraline</a></li>
         <li><a href='https://www.youtube.com/watch?v=zH7KZD5vGBY'
         >Cowboys and Aliens</a></li>
         <li><a href='https://www.youtube.com/watch?v=rijQ5oBFlO0'
@@ -97,13 +97,13 @@ class Movies extends React.Component {
         <li><a href='https://www.youtube.com/watch?v=oYaOhlHnuZw'
         >Crocodile Dundee 2</a></li>
         <li><a href='https://www.youtube.com/watch?v=gLpZ_5bHmo8'
-        >Crouching Tiger Hidden Dragon</a></li>
+        >***Crouching Tiger Hidden Dragon</a></li>
         <li><a href='https://www.youtube.com/watch?v=l1t8OZn_uhE'
         >Dale and Tucker Vs Evil</a></li>
         <li><a href='https://www.youtube.com/watch?v=20CRw3XdETA'
-        >Dogma</a></li>
+        >***Dogma</a></li>
         <li><a href='https://www.youtube.com/watch?v=bzLn8sYeM9o'
-        >Donnie Darko</a></li>
+        >***Donnie Darko</a></li>
         <li><a href='https://www.youtube.com/watch?v=PPOaxHqoYxo'
         >Drag me to Hell</a></li>
         <li><a href='https://www.youtube.com/watch?v=M94yyfWy-KI'
@@ -128,15 +128,15 @@ class Movies extends React.Component {
         >Fall</a></li>
         <li><a href='https://www.youtube.com/watch?v=HIjhgXteLlY'
         >Fantastic fear of Everything</a></li>
-        <li><a href=''
-        >Fantastic Mr. Fox</a></li>
-        <li><a href=''
-        >Fifth Element</a></li>
-        <li><a href=''
-        >Fight Club</a></li>
-        <li><a href=''
-        >Finding a friend for the End of the World</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=n2igjYFojUo'
+        >***Fantastic Mr. Fox</a></li>
+        <li><a href='https://www.youtube.com/watch?v=fQ9RqgcR24g'
+        >***Fifth Element</a></li>
+        <li><a href='https://www.youtube.com/watch?v=Y6cwmHL2tFI'
+        >***Fight Club</a></li>
+        <li><a href='https://www.youtube.com/watch?v=EmXWcXKXWBk'
+        >***Finding a friend for the End of the World</a></li>
+        <li><a href='https://www.youtube.com/watch?v=gVebPEYiq2o'
         >Flight of the Navigator</a></li>
         <li><a href=''
         >Forrest Gump</a></li>
@@ -147,15 +147,15 @@ class Movies extends React.Component {
         <li><a href=''
         >Ghostbusters 2</a></li>
         <li><a href=''
-        >Ghost Dog</a></li>
+        >***Ghost Dog</a></li>
         <li><a href=''
         >Gods must be Crazy</a></li>
         <li><a href=''
         >Golden Child</a></li>
         <li><a href=''
-        >Goonies</a></li>
+        >***Goonies</a></li>
         <li><a href=''
-        >Gladiator</a></li>
+        >***Gladiator</a></li>
         <li><a href=''
         >Grand Budapest Hotel</a></li>
         <li><a href=''
@@ -166,10 +166,10 @@ class Movies extends React.Component {
         >Guardians of the Galaxy</a></li>
         <li><a href=''
         >Guardians of the Galaxy 2</a></li>
-        <li>Hector's Search for Happiness</li>
+        <li>***Hector's Search for Happiness</li>
         <li>Hidden</li>
         <li>Hotel Budapest</li>
-        <li>House of Flying Daggers</li>
+        <li>***House of Flying Daggers</li>
         <li>Howard the Duck</li>
         <li>Hugo</li>
         <li>Hunger Games</li>
@@ -177,77 +177,77 @@ class Movies extends React.Component {
         <li>Hunger Games 3</li>
         <li>Idle Hands</li>
         <li>In the Mouth of Madness</li>
-        <li>Indiana Jones</li>
-        <li>Indiana Jones 2</li>
-        <li>Indiana Jones 3</li>
+        <li>***Indiana Jones</li>
+        <li>***Indiana Jones 2</li>
+        <li>***Indiana Jones 3</li>
         <li>Inglorious Bastards</li>
         <li>Inception</li>
         <li>Interstellar</li>
         <li>Interview with a Vampire</li>
         <li>Island</li>
         <li>Isle of Dogs</li>
-        <li>It's a Wonderful Life</li>
+        <li>***It's a Wonderful Life</li>
         <li>Joe Dirt</li>
-        <li>Jurassic Park</li>
+        <li>***Jurassic Park</li>
         <li>Jurasic World Fallen Kingdom</li>
         <li>Kick Ass</li>
-        <li>Kill Bill</li>
-        <li>Kill Bill 2</li>
-        <li>King Arthur</li>
+        <li>***Kill Bill</li>
+        <li>***Kill Bill 2</li>
+        <li>***King Arthur</li>
         <li>kingsman</li>
-        <li>Kung Fu Hustle</li>
-        <li>Laberinth</li>
+        <li>***Kung Fu Hustle</li>
+        <li>***Laberinth</li>
         <li>Legend of the Drunken Master</li>
         <li>Legend of Sleepy Hollow</li>
-        <li>Let the Right One In</li>
-        <li>Life of Pi</li>
+        <li>***Let the Right One In</li>
+        <li>***Life of Pi</li>
         <li>Little Evil</li>
         <li>Little Prince</li>
-        <li>Lord of the Rings</li>
-        <li>Lord of the Rings 2</li>
-        <li>Lord of the Rings 3</li>
+        <li>***Lord of the Rings</li>
+        <li>***Lord of the Rings 2</li>
+        <li>***Lord of the Rings 3</li>
         <li>Lucy</li>
         <li>Maze Runner</li>
         <li>Mexican</li>
         <li>Momento</li>
         <li>Moon</li>
-        <li>Moonrise Kingdom</li>
+        <li>***Moonrise Kingdom</li>
         <li>Mystery Men</li>
-        <li>Nacho Libre</li>
+        <li>***Nacho Libre</li>
         <li>Napoleon Dynomite</li>
         <li>National Treasure</li>
-        <li>Neverending Story</li>
-        <li>O Brother Where Art Thou</li>
+        <li>***Neverending Story</li>
+        <li>***O Brother Where Art Thou</li>
         <li>Odd Thomas</li>
         <li>Office Space</li>
-        <li>Once Upon a Time in Mexico</li>
+        <li>***Once Upon a Time in Mexico</li>
         <li>Orphanage</li>
         <li>Others</li>
         <li>Pan's Labrynth</li>
         <li>Pee Wee Herman's big Adventure</li>
         <li>Postman</li>
-        <li>Princess Bride</li>
+        <li>***Princess Bride</li>
         <li>Princess Mononoke</li>
-        <li>Pulp Fiction</li>
+        <li>***Pulp Fiction</li>
         <li>Quiet Place</li>
         <li>Red</li>
         <li>Ring</li>
         <li>Romancing the Stone</li>
         <li>Romeo and Juliet</li>
         <li>Saving Private Ryan</li>
-        <li>Scott Pilgrim Vs. teh World</li>
+        <li>Scott Pilgrim Vs. the World</li>
         <li>Scrooged</li>
-        <li>Second Hand Lions</li>
-        <li>Secret Life of Walter Mitty</li>
+        <li>***Second Hand Lions</li>
+        <li>***Secret Life of Walter Mitty</li>
         <li>Secret Window</li>
-        <li>Series of unfortunate Events</li>
+        <li>***Series of unfortunate Events</li>
         <li>Sherlock Holmes</li>
         <li>Shoot em Up</li>
         <li>Shutter Island</li>
         <li>Sicarrio</li>
         <li>Simple Plan</li>
-        <li>Sin City</li>
-        <li>Snatch</li>
+        <li>***Sin City</li>
+        <li>***Snatch</li>
         <li>Space Balls</li>
         <li>Star Wars 4</li>
         <li>Star Wars 5</li>
@@ -258,16 +258,16 @@ class Movies extends React.Component {
         <li>Swiss Family Robinson</li>
         <li>Terminator</li>
         <li>Terminator 2</li>
-        <li>They Look Like People</li>
+        <li>***They Look Like People</li>
         <li>Thin Red Line</li>
-        <li>Troy</li>
+        <li>***Troy</li>
         <li>Truman Show</li>
-        <li>Unbreakable</li>
-        <li>Underworld</li>
+        <li>***Unbreakable</li>
+        <li>***Underworld</li>
         <li>Very Bad Things</li>
         <li>Village</li>
         <li>Waterboy</li>
-        <li>Way of the Gun</li>
+        <li>***Way of the Gun</li>
         <li>What Dreams May Come</li>
         <li>What Lies Beneath</li>
         <li>Wheels on Meals</li>
@@ -278,10 +278,10 @@ class Movies extends React.Component {
         <li>Zombieland</li>
         <li>10 Cloverfield Lane</li>
         <li>13th Warrior</li>
-        <li>28 Days Later</li>
+        <li>***28 Days Later</li>
         <li>28 Weeks Later</li>
-        <li><a href="https://www.youtube.com/watch?v=UrIbxk7idYA">300</a></li>
-        <li><a href="https://www.youtube.com/watch?v=_qApXdc1WPY">9</a></li>
+        <li><a href="https://www.youtube.com/watch?v=UrIbxk7idYA">***300</a></li>
+        <li><a href="https://www.youtube.com/watch?v=_qApXdc1WPY">***9</a></li>
       </ol>
       <h3>Other Peoples Favorites</h3>
         </div>

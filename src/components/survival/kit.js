@@ -42,7 +42,7 @@ class Kit extends React.Component {
       Hats, Pants, Swimsuit, Socks, Underwear, Sunglasses, Coats, Rain Gear,
       Hiking Boots, Camo, Ski Mask, Gloves<hr/>
       <li>Tools:</li>
-      Leatherman, Shovel, <hr/>
+      Leatherman, Shovel, machete <hr/>
       </div>
     );
   }

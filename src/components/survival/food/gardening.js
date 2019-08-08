@@ -1,4 +1,5 @@
 import React from 'react';
+import MicroGreens from './gardening/microGreens.js'
 
 class Gardening extends React.Component {
   state = {
@@ -17,6 +18,8 @@ class Gardening extends React.Component {
       {name: 'Seasons', slug: 'seasons' },
       {name: 'Plant Cures', slug: 'cures' },
       {name: 'Aquaponics', slug: 'aquaponics' },
+      {name: 'Micro greens', slug: 'micro', component:<MicroGreens />},
+      {name: 'Sprouts', slug: 'sprouts',},
     ]
     const renderItems = Items.map(item => {
       return (

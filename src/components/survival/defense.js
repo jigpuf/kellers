@@ -1,4 +1,5 @@
 import React from 'react';
+import Hardened from './defense/hardened.js'
 
 class Defense extends React.Component {
   state = {
@@ -14,7 +15,7 @@ class Defense extends React.Component {
       {name:'Hand Combat', slug:'hand',},
       {name:'Firearms', slug:'firearms',},
       {name:'Traps', slug:'traps',},
-      {name:'Hardened Home', slug:'hardened',},
+      {name:'Hardened Home', slug:'hardened', component:<Hardened />},
       {name:'Tactics', slug:'tactics',},
       {name:'Camo', slug:'camo',},
       {name:'Perimeters', slug:'perimeters',},

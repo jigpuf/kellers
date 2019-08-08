@@ -17,6 +17,7 @@ class Businesses extends React.Component {
       <li>Air BNB Management</li>
       Active Income:
       <li>Instrumentation</li>
+      <li>Home hardening business</li>
       <li>Software</li>
       <li>Paintball</li>
       <li>Escape Rooms</li>

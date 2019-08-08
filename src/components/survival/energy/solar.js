@@ -4,10 +4,12 @@ class Solar extends React.Component {
   render () {
     return (
       <div>
-      <li><a href='https://www.youtube.com/watch?v=w4qcoEXYqK0'
-      >The Ultimate Guide To DIY Off Grid Solar Power</a></li>
-      <li><a href='https://www.youtube.com/watch?v=wL9PcGu_xrA'
-      >DIY Solar Tracking System Inspired by NASA (Parker Solar Probe)</a></li>
+      <a href='https://www.youtube.com/watch?v=w4qcoEXYqK0' target='_blank'
+      >The Ultimate Guide To DIY Off Grid Solar Power</a><br />
+      <a href='https://www.youtube.com/watch?v=wL9PcGu_xrA' target='_blank'
+      >DIY Solar Tracking System Inspired by NASA (Parker Solar Probe)</a><br />
+      <a href='https://www.youtube.com/watch?v=QZYAAatdlmc' target='_blank'
+      >High-Capacity Off-Grid Solar Generator (rev 4) -- Wiring Diagram, Parts List, Design Worksheet</a><br />
       </div>
     );
   }
