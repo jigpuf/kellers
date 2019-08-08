@@ -13,6 +13,7 @@ import Codes from './work/codes.js'
 import Avionics from './work/avionics.js'
 import Telecom from './work/telecom.js'
 import Training from './work/training.js'
+import TimeOff from './work/timeOff.js'
 
 class Work extends React.Component {
   state = {
@@ -39,6 +40,7 @@ class Work extends React.Component {
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},
       {name: 'Telecom', slug: 'telecom', component:<Telecom /> },
       {name: 'Training', slug: 'training', component:<Training />},
+      {name: 'TimeOff', slug: 'time', component:<TimeOff />},
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

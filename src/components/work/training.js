@@ -4,6 +4,9 @@ class Training extends React.Component {
   render () {
     return (
       <div>
+      Quality Policy:<br />
+      <strong>Space Exploration Technologies is commited to providing the safest, most
+      reliable and economical access to space.</strong><br />
           <li>Normal hire-on training</li>
           <li>Man lift, Fork lift, Scissor lift, JLG</li>
           <li>Confined Space, LOTO</li>

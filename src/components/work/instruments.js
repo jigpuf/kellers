@@ -1,6 +1,7 @@
 import React from 'react'
 import Valves from './instruments/valves.js'
 import Heaters from './instruments/heaters.js'
+import Strain from './instruments/strain.js'
 import Avionics from './instruments/avionics.js'
 import Coms from './instruments/coms.js'
 
@@ -19,7 +20,7 @@ class Instruments extends React.Component {
       {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
       {name: 'Position Feedback', slug: 'limits' },
       {name: 'Motion', slug: 'motion' },
-      {name: 'Strain', slug: 'strain' },
+      {name: 'Strain', slug: 'strain', component:<Strain /> },
       {name: 'Igniters', slug: 'igniter' },
       {name: 'Gas Sensors', slug: 'gas' },
       {name: 'Flame Detectors', slug: 'flame' },

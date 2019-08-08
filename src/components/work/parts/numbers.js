@@ -210,6 +210,13 @@ class Numbers extends React.Component {
             <tr>
               <th>Labels</th><th>Part Number</th><th>Description</th>
             </tr>
+            <tr>
+              <th>Seal Tite</th><th>Part Number</th><th>Description</th>
+            </tr>
+            <tr><td>Straight Connector</td><td>88073463</td><td></td></tr>
+            <tr><td>45 degree Connector</td><td>88073427</td><td></td></tr>
+            <tr><td>90 degree connector</td><td>88073428</td><td></td></tr>
+
           </table>
 
       </div>
