@@ -115,9 +115,10 @@ class Music extends React.Component {
         </ul>
         <hr/>
       <li>Bobby McFerrin</li>
-        <ul>
-          <li>Don't Worry, be Happy</li>
-        </ul>
+        <div className='twoColumn'>
+          <a href='https://www.youtube.com/watch?v=d-diB65scQU' target ='_blank'
+          > Don't Worry Be Happy </a><br/>
+        </div>
         <hr/>
       <li>Bola Ocho</li>
         <ul>
@@ -189,9 +190,9 @@ class Music extends React.Component {
       <li>Enigma</li>
         <div className='twoColumn'>
           <a href='https://www.youtube.com/watch?v=Rk_sAHh9s08' target ='_blank'
-          >Return to Innocense</a><br/>
+          >Return to Innocense</a><br />
           <a href='https://www.youtube.com/watch?v=f8mMWh62XpU' target ='_blank'
-          >Beyond the invisible</a><br/>
+          >Beyond the invisible</a><br />
         </div>
       <hr/>
       <li>Eminem</li>
@@ -200,10 +201,10 @@ class Music extends React.Component {
       <li>Everything but the Girl</li>
       <li>The Faint</li>
       <li>Faithless</li>
-        <ul>
-          <li>Woozy</li>
-        </ul>
-        <ul>
+        <div className='twoColumn'>
+          <a href='https://www.youtube.com/watch?v=j8m68wL9hYw' target ='_blank'
+          >Woozy</a><br />
+        </div>
         <hr/>
       <li>Far East Movement</li>
       <li>FC Kahuna</li>
@@ -222,12 +223,17 @@ class Music extends React.Component {
       <li>Gary Jules</li>
         <div className='twoColumn'>
         <a href='https://www.youtube.com/watch?v=4N3N1MlvVc4' target ='_blank'
-        >Mad World</a><br/>
+        >Mad World</a><br />
         </div>
         <hr/>
       <li>Gnarles Barkley</li>
       <li>Gorillaz</li>
       <li>Gotye</li>
+        <div className='twoColumn'>
+        <a href='https://www.youtube.com/watch?v=8UVNT4wvIGY' target ='_blank'
+        >Somebody That I Used To Know</a><br/>
+        </div>
+        <hr />
       <li>Grandaddy</li>
       <li>Green Day</li>
       <li>Guns and Roses</li>
@@ -240,6 +246,15 @@ class Music extends React.Component {
       <li>Juanes</li>
       <li>Kansas</li>
       <li>Kito & Reija Lee</li>
+        <div className='twoColumn'>
+          <a href='https://www.youtube.com/watch?v=2zgcKDg4w94' target ='_blank'
+          >Run For Cover</a><br />
+          <a href='https://www.youtube.com/watch?v=4eUNXqblOak' target ='_blank'
+          >Sweet Talk</a><br />
+          <a href='https://www.youtube.com/watch?v=ytyWFj2sFbs' target ='_blank'
+          >Starting Line</a><br />
+        </div>
+        <hr />
       <li>Korn</li>
       <li>Kylie Minogue</li>
       <li>La Roux</li>
@@ -250,6 +265,22 @@ class Music extends React.Component {
       <li>Lindsey Sterling</li>
       <li>Live</li>
       <li>Loreena Mckennitt</li>
+        <div className='twoColumn'>
+          <a href='https://www.youtube.com/watch?v=LzE32ChEp24&list=RDLzE32ChEp24&start_radio=1' target ='_blank'
+          >mummers dance</a><br />
+          <a href='https://www.youtube.com/watch?v=RooTTuLCfNM' target ='_blank'
+          >All Souls Night</a><br />
+          <a href='https://www.youtube.com/watch?v=6i1AwS-bVnk' target ='_blank'
+          >Prologue</a><br />
+          <a href='https://www.youtube.com/watch?v=SrGuV3QHYME' target ='_blank'
+          >Skellig</a><br />
+          <a href='https://www.youtube.com/watch?v=eUTci9UbxNU' target ='_blank'
+          >Night Ride Across The Caucasus</a><br />
+          <a href='https://www.youtube.com/watch?v=lQh0MTmBUQ4' target ='_blank'
+          >The Old Ways</a><br />
+
+          </div>
+          <hr/>
       <li>Lumineers</li>
       <li>M.I.A.</li>
       <li>Mandalay</li>
@@ -263,7 +294,7 @@ class Music extends React.Component {
           <a href='https://www.youtube.com/watch?v=ImKY6TZEyrI' target ='_blank'
           >Fade into you</a><br/>
         </div>
-        <hr/>
+        <hr />
       <li>Metallica</li>
       <li>Missy Elliot</li>
       <li>Modest Mouse</li>
@@ -279,7 +310,14 @@ class Music extends React.Component {
       <li>Outkast</li>
       <li>Pearl Jam</li>
       <li>Pentatonix</li>
+      <li>Phil Collins</li>
+        <a href='https://www.youtube.com/watch?v=MN3x-kAbgFU' target ='_blank'
+        >In the Air Tonight</a><br/>
+        <hr />
       <li>Poe</li>
+        <a href='https://www.youtube.com/watch?v=1cujypawzVQ' target ='_blank'
+        >Hello</a><br/>
+        <hr />
       <li>Portishead</li>
         <div className='twoColumn'>
           <a href='https://www.youtube.com/watch?v=gEQNAZGoZrw' target ='_blank'
@@ -306,6 +344,10 @@ class Music extends React.Component {
       <hr/>
       <li>Postal Service</li>
       <li>Prodigy</li>
+      <li>Purity Ring</li>
+        <a href='https://www.youtube.com/watch?v=0ZyZxxf5fVE' target ='_blank'
+        >Flood on the Floor</a><br/>
+        <hr />
       <li>Ra</li>
       <li>Rage Against the Machine</li>
       <li>Red Hot Chili Peppers</li>
@@ -323,6 +365,11 @@ class Music extends React.Component {
         <hr/>
       <li>Roots</li>
       <li>Sade</li>
+        <div className='twoColumn'>
+          <a href='https://www.youtube.com/watch?v=_WcWHZc8s2I' target ='_blank'
+          >No Ordinary Love </a><br/>
+        </div>
+        <hr/>
       <li>Santana</li>
       <li>Seether</li>
       <li>Shakira</li>
@@ -354,7 +401,7 @@ class Music extends React.Component {
           <a href='https://www.youtube.com/watch?v=-26hsZqwveA' target ='_blank'
           >Tom's Diner</a><br/>
         </div>
-      <hr/>
+        <hr/>
       <li>Switchfoot</li>
       <li>Sysem of a Down</li>
       <li>Temptations</li>
@@ -372,7 +419,7 @@ class Music extends React.Component {
       <li>Willie Nelson</li>
       <li>Zack Brown Band</li>
       <li>ZHU</li>
-    </ul>
+    
       </div>
     );
   }

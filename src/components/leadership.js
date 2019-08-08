@@ -33,6 +33,7 @@ class Leadership extends React.Component {
       <div>
         <ul>
           {renderItems}
+          <br />
           <a href='https://www.youtube.com/watch?v=WyIS8vhnPPE' target='_blank'
           >The Myth and Reality of Leaders and How to become and Recognize an effective leader Jordan Peterso</a><br />
           <a href='https://www.youtube.com/watch?v=t9PoN72kO7s' target='_blank'

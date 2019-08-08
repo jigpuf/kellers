@@ -40,6 +40,9 @@ class Plc extends React.Component {
           </ol>
         <li>Communications</li>
       </ul>
+
+      <a href='https://www.youtube.com/watch?v=PbAGl_mv5XI&t=17s' target='_blank'
+      >PLC Basics</a><br />
       </div>
     );
   }

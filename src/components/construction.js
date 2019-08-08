@@ -6,6 +6,7 @@ import Flooring from './construction/flooring.js'
 import Insulation from './construction/insulation.js'
 import Pest from './construction/pest.js'
 import Plumbing from './construction/plumbing.js'
+import Masonry from './construction/masonry.js'
 
 class Construction extends React.Component {
   state = {
@@ -25,6 +26,8 @@ class Construction extends React.Component {
       {name: 'Insulation', slug: 'insulation', component:<Insulation /> },
       {name: 'Pest Control', slug: 'pest', component:<Pest /> },
       {name: 'Plumbing', slug: 'plumbing', component:<Plumbing /> },
+      {name: 'Masonry', slug: 'masonry', component:<Masonry />},
+      {name: 'Painting', slug: 'paint'},
     ]
     const renderItems = Items.map(item => {
       return (
