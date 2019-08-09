@@ -2,6 +2,7 @@ import React from 'react'
 import ChurchMedia from './mediaVideos/churchMedia.js'
 import Astronomy from './mediaVideos/astronomyMedia.js'
 import StocksMedia from './mediaVideos/stocksMedia.js'
+import SurvivalVideos from './mediaVideos/survivalVideos.js'
 
 class Videos extends React.Component {
   state = {
@@ -17,7 +18,7 @@ class Videos extends React.Component {
       {name: 'Church', slug: 'church', component:<ChurchMedia />},
       {name: 'Stocks', slug: 'stocks', component:<StocksMedia />},
       {name: 'Programming', slug: 'programming',},
-      {name: 'Survival', slug: 'survival',},
+      {name: 'Survival', slug: 'survival', component:<SurvivalVideos />},
       {name: 'Work', slug: 'work',},
       {name: 'Construction', slug: 'construction',},
       {name: 'Math', slug: 'math',},
