@@ -5,16 +5,16 @@ class Stocks extends React.Component {
     return (
       <div>
       <h4>Tech bud solutions</h4>
-      <a href='https://www.youtube.com/watch?v=IMOqLobUEJU&t=502s'
-      >How to scan for swing stocks</a><br />
-      <a href='https://www.youtube.com/watch?v=zo1qWEaS9cQ'
-      >EMA vs. SMA</a><br />
-      <a href='https://www.youtube.com/watch?v=vPbF7PyDl2w'
-      >How to trade stocks 101</a><br />
-      <a href='https://www.youtube.com/watch?v=sTxpqzQSNK8&t=32s'
-      >How to read stock charts</a><br />
-      <a href='https://www.youtube.com/watch?v=DF23jO8Y0n0&t=8s'
-      >How to buy stocks</a><br />
+        <a href='https://www.youtube.com/watch?v=IMOqLobUEJU&t=502s'
+        >How to scan for swing stocks</a><br />
+        <a href='https://www.youtube.com/watch?v=zo1qWEaS9cQ'
+        >EMA vs. SMA</a><br />
+        <a href='https://www.youtube.com/watch?v=vPbF7PyDl2w'
+        >How to trade stocks 101</a><br />
+        <a href='https://www.youtube.com/watch?v=sTxpqzQSNK8&t=32s'
+        >How to read stock charts</a><br />
+        <a href='https://www.youtube.com/watch?v=DF23jO8Y0n0&t=8s'
+        >How to buy stocks</a><br />
       <h4>Invester Underground Beginner</h4>
         <a href='https://www.youtube.com/watch?v=wNYdfbRZL_w&list=PLHwh3-YF4uak1x9ghKkKhAHHDwdAK-by3' target='_blank'
         >Learn to Day Trade - Beginners Lesson 1 of 8</a><br />
@@ -36,20 +36,6 @@ class Stocks extends React.Component {
       <h4>Invester Underground Intermediate</h4>
         <a href='https://www.youtube.com/watch?v=756XhjcLK44' target='_blank'
         >Stock Trading Course - Intermediate Series Lesson 1 of 8</a><br />
-        <a href='' target='_blank'
-        ></a><br />
-        <a href='' target='_blank'
-        ></a><br />
-        <a href='' target='_blank'
-        ></a><br />
-        <a href='' target='_blank'
-        ></a><br />
-        <a href='' target='_blank'
-        ></a><br />
-        <a href='' target='_blank'
-        ></a><br />
-        <a href='' target='_blank'
-        ></a><br />
       </div>
     );
   }

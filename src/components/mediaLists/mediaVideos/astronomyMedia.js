@@ -14,6 +14,12 @@ class Astronomy extends React.Component {
         >Reasons for the seasons - Rebecca Kaplan</a><br />
         <a href='https://www.youtube.com/watch?v=8izJDenkdgU&t=451s'
         >Sirius the Black Sun</a><br />
+        <a href='https://www.youtube.com/watch?v=IJhgZBn-LHg'
+        >Earth's movement</a><br />
+        <a href='https://www.youtube.com/watch?v=mxhxL1LzKww&t=1135s'
+        >How much of the earth can you see at Once?</a><br />
+        <a href='https://www.youtube.com/watch?v=L1bT2NJN-O8' target ='_blank'
+        >Polaris: The North Star</a><br />
       </div>
     );
   }
