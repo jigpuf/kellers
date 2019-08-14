@@ -2,9 +2,7 @@ import React from 'react';
 import Presidents from './churchMedia/presidents.js'
 import Apostles from './churchMedia/apostles.js'
 import Byu from './churchMedia/byu.js'
-import HyrumAndrus from './churchMedia/hyrumAndrus.js'
-import HughNibley from './churchMedia/hughNibley.js'
-import Interpreter from './churchMedia/interpreter.js'
+import Educators from './churchMedia/educators.js'
 
 class Church extends React.Component {
   state = {
@@ -20,11 +18,7 @@ class Church extends React.Component {
       {name: 'Presidents', slug: 'presidents', component:<Presidents />},
       {name: 'Apostles', slug: 'apostles', component:<Apostles />},
       {name: 'BYU', slug: 'byu', component:<Byu /> },
-      {name: 'Hyrum Andrus', slug: 'hyrumAndrus', component:<HyrumAndrus /> },
-      {name: 'Hugh Nibley', slug: 'hughNibley', component:<HughNibley /> },
-      {name: 'Fair Mormon', slug: 'fairMormon' },
-      {name: 'Interpreter', slug: 'Interpreter', component:<Interpreter /> },
-      {name: 'Heartland', slug: 'heartland' },
+      {name: 'Educators', slug: 'educators', component:<Educators />},
     ]
     const renderItems = Items.map(item => {
       return (

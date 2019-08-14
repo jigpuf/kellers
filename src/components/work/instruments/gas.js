@@ -74,15 +74,16 @@ class Gas extends React.Component {
           </tr>
           <tr>
             <td>L</td>
-            <td>Power RTN</td>
-            <td>Black</td>
-            <td>RTN</td>
-          </tr>
-          <tr>
-            <td>M</td>
             <td>Power +</td>
             <td>White</td>
             <td>V +</td>
+
+          </tr>
+          <tr>
+            <td>M</td>
+            <td>Power RTN</td>
+            <td>Black</td>
+            <td>RTN</td>
           </tr>
         </table>
         Notes: 4-20 and power share the same return.  Relay 1 is on the same
