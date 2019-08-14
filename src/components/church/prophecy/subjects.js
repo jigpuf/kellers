@@ -45,6 +45,13 @@ class Subjects extends React.Component {
             <td>yes</td>
           </tr>
         </table>
+        Hyrum Andrus Timeline:<br />
+        Cleon Skousen Timeline:<br />
+        Bruce R Mckonkie Timeline:<br />
+        Joseph Fielding Smith Timeline:<br />
+        Gerald N. Lund Timeline:<br />
+        Talmage Timeline:<br />
+
       </div>
     );
   }
