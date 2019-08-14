@@ -13,10 +13,6 @@ class CleonSkousen extends React.Component {
       >Secret Combinations and Freedom</a><br />
       <a href='/revolving/03 Ancient Scriptures.mp3' target='_blank'
       >Ancient scriptures(revolving)</a><br />
-      <a href='/Users/Owner/code/kellers/public/revolving/04 Gospel Principles for Youth.mp3' target='_blank'
-      >Gospel Principals for youth(revolving)</a><br />
-      <a href='/revolving/05 Sermon on the Mount.mp3' target='_blank'
-      >Sermon on the mount(revolving)</a><br />
       <a href='/revolving/06 Old Testament Predicts Our Day.mp3' target='_blank'
       >Old tesament predicts(revolving)</a><br />
       </div>
