@@ -10,6 +10,22 @@ class Presidents extends React.Component {
           >Joseph Smith - The King Follett Discourse</a><br />
           <a href="https://www.youtube.com/watch?v=_MHCvXh8twA&t=190s" target ='_blank'
           >White Horse</a><br />
+          <a href="https://www.churchofjesuschrist.org/study/ensign/1971/04/the-king-follett-sermon?lang=eng" target ='_blank'
+          >The King Follett Sermon(text)</a><br />
+          <a href="https://latterdaysaintmag.com/the-lost-sermon-of-joseph-smith/" target ='_blank'
+          >Lost sermon on Stone of Daniel(text)</a><br />
+          <a href="https://scriptures.byu.edu/stpjs.html" target ='_blank'
+          >Scriptural Teachings of the Prophet Joseph Smith(text)</a><br />
+          <a href="http://www.utlm.org/onlineresources/sermons_talks_interviews/smithpluralityofgodssermon.htm" target ='_blank'
+          >Joseph Smith's Sermon on Plurality of Gods(text)</a><br />
+          <a href="https://pool.fairmormon.org/images/a/a5/Facsimile1.jpg" target ='_blank'
+          >Fascimile 1</a><br />
+          <a href="https://www.deviantart.com/jtobler/art/Book-of-Abraham-Facsimile-2-285326747" target ='_blank'
+          >Fascimile 2 rendering</a><br />
+          <a href="" target ='_blank'
+          ></a><br />
+          <a href="" target ='_blank'
+          ></a><br />
           <hr />
         <li>Wilford Woodruff</li>
           <a href='https://www.youtube.com/watch?v=5NjANSFISFY' target ='_blank'
@@ -32,10 +48,8 @@ class Presidents extends React.Component {
         <li>David O. Mckay</li>
           <a href='https://speeches.byu.edu/wp-content/uploads/mp3/McKay_David_071951.mp3' target ='_blank'
           >Baccalaureata Service (Truth) (1951)</a><br />
-          <a href='https://speeches.byu.edu/talks/david-o-mckay/whither-shall-go/' target ='_blank'
-          >Whither Shall We Go?(1961)(test)</a><br />
-          <a href='https://speeches.byu.edu/talks/david-o-mckay/something-higher-self/' target ='_blank'
-          >Something Higher Than Self(1965)(test)</a><br />
+          <a href='http://emp.byui.edu/ANDERSONR/itc/Book%20_of_Mormon/04_jacob/jacob01/jacob01_02pinterviewsavior_dom.htm' target ='_blank'
+          >Personal Interview with Christ(text)</a><br />
           <hr />
         <li>Joseph Fielding Smith</li>
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/law-divine-witnesses/' target ='_blank'
@@ -45,7 +59,7 @@ class Presidents extends React.Component {
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/origin-man/' target ='_blank'
           >The Origin of Man(1953)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-saves/' target ='_blank'
-          >The Knowledge That Saves(1954)(test)</a><br />
+          >The Knowledge That Saves(1954)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/atonement-jesus-christ/' target ='_blank'
           >The Atonement of Jesus Christ(1955)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/purpose-of-mortal-life/' target ='_blank'

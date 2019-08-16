@@ -161,6 +161,63 @@ class Nephi1 extends React.Component {
         <h3>William Hamblin</h3>
         <div class='twoColumn'>
         </div><hr/>
+        <h3>Characters:</h3>
+          <li>Lehi</li>
+          <li>Sariah</li>
+          <li>Laman</li>
+          <li>Lemuel</li>
+          <li>Sam</li>
+          <li>Nephi</li>
+          <li>Laban</li>
+          <li>Zorem</li>
+          <li>Ishmael</li>
+          <li>Daughters of Ishmael</li>
+          <li>Daughters of Lehi</li>
+          <li>Sons of Ishmael</li>
+          <li>Jeremiah</li>
+          <li>Savior</li>
+          <li>12 Apostles</li>
+        <h3>Groups:</h3>
+          <li>Jews</li>
+          <li>Gentiles</li>
+        <h3>Locations:</h3>
+          <li>Jerusalem</li>
+          <li>Land of Lehi's Inheritance</li>
+          <li>Border of the Red Sea</li>
+          <li>Promised Land</li>
+          <li>Shazer</li>
+          <li>Nahom</li>
+          <li>Bountiful</li>
+          <li>Irreantum</li>
+        <h3>Symbols:</h3>
+        <h3>Sermons:</h3>
+          <li>Valley and River</li>
+          <li></li>
+          <li></li>
+          <li></li>
+        <h3>Visions:</h3>
+          <li>Lehi's First Vision</li>
+          <li>Lehi's vision of the Tree of Life</li>
+          <li>Nephi's Vision</li>
+        <h3>Themes:</h3>
+          <li>Parenting</li>
+          <li>Preservation</li>
+          <li>Prayer</li>
+          <li>Zion</li>
+          <li>War with Zion</li>
+          <li>Apostacy</li>
+          <li>Restoration</li>
+          <li>One Mighty and Strong</li>
+          <li>Scattering/Gathering of Israel</li>
+          <li>Atonement</li>
+          <li>Necesity of Evil</li>
+          <li>Temple Themes</li>
+          <li>Conversion</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+
 
       </div>
     );
