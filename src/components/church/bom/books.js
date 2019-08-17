@@ -1,7 +1,9 @@
 import React from 'react';
+import Intro from './books/intro.js'
 import Nephi1 from './books/nephi1.js';
 import Nephi2 from './books/nephi2.js';
 import Jacob from './books/jacob.js';
+
 
 class Books extends React.Component {
   state= {
@@ -14,6 +16,7 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
+          {name: 'Intro/Prologue', slug: 'intro', component: <Intro />},
           {name: '1 Nephi', slug: 'nephi1', component: <Nephi1 />},
           {name: '2 Nephi', slug: 'nephi2', component: <Nephi2 />},
           {name: 'Jacob', slug: 'jacob', component: <Jacob />},
