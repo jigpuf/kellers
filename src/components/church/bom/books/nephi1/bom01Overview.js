@@ -247,6 +247,36 @@ class Bom01Overview extends React.Component {
         </div><hr/>
         <h3>William Hamblin</h3>
         <div class='twoColumn'>
+        <a href="https://www.youtube.com/watch?v=3f7dfAFCNuA&list=PLB4A75B0896377A97" target ='_blank'
+        >BOM 0a title page</a><br />
+        <a href="https://www.youtube.com/watch?v=cyjFfuvQwvA&list=PLB4A75B0896377A97&index=2" target ='_blank'
+        >The Witnesses of the Book of Mormon</a><br />
+        <a href="https://www.youtube.com/watch?v=--UTVPNCPnk&list=PLB4A75B0896377A97&index=3" target ='_blank'
+        >The Translation of the Book of Mormon</a><br />
+        <a href="https://www.youtube.com/watch?v=jajIsedGw7Q&list=PLB4A75B0896377A97&index=4" target ='_blank'
+        >1 Nephi 1 (part 1)</a><br />
+        <a href="https://www.youtube.com/watch?v=wh5IekXu1XY&list=PLB4A75B0896377A97&index=5" target ='_blank'
+        >1 Nephi 1 (Part 2) 1:5-20</a><br />
+        <a href="https://www.youtube.com/watch?v=oWMtz6picCw&list=PLB4A75B0896377A97&index=6" target ='_blank'
+        >1 Nephi 2</a><br />
+        <a href="https://www.youtube.com/watch?v=3GiaGeG3kJU&list=PLB4A75B0896377A97&index=7" target ='_blank'
+        >1 Nephi 3</a><br />
+        <a href="" target ='_blank'
+        ></a><br />
+        <a href="" target ='_blank'
+        ></a><br />
+        <a href="" target ='_blank'
+        ></a><br />
+        <a href="" target ='_blank'
+        ></a><br />
+        <a href="" target ='_blank'
+        ></a><br />
+        <a href="" target ='_blank'
+        ></a><br />
+        <a href="" target ='_blank'
+        ></a><br />
+        <a href="" target ='_blank'
+        ></a><br />
         </div><hr/>
         <h3>Characters:</h3>
           <li>Zedekiah 1</li>
