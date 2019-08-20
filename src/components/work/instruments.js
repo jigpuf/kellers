@@ -1,8 +1,10 @@
 import React from 'react'
 import Valves from './instruments/valves.js'
 import Heaters from './instruments/heaters.js'
+import PositionFeedback from './instruments/positionFeedback.js'
 import Strain from './instruments/strain.js'
 import Gas from './instruments/gas.js'
+import Pressure from './instruments/pressure.js'
 import Avionics from './instruments/avionics.js'
 import Coms from './instruments/coms.js'
 
@@ -19,7 +21,7 @@ class Instruments extends React.Component {
     const Items = [
       {name: 'Positioners', slug: 'position', component:<Valves />},
       {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
-      {name: 'Position Feedback', slug: 'limits' },
+      {name: 'Position Feedback', slug: 'positionFeedback', component:<PositionFeedback /> },
       {name: 'Motion', slug: 'motion' },
       {name: 'Strain', slug: 'strain', component:<Strain /> },
       {name: 'Igniters', slug: 'igniter' },
@@ -29,7 +31,7 @@ class Instruments extends React.Component {
       {name: 'Proximity', slug: 'prox' },
       {name: 'Flow', slug: 'flow' },
       {name: 'Microphones', slug: 'microphones' },
-      {name: 'Pressure', slug: 'pressure' },
+      {name: 'Pressure', slug: 'pressure', component:<Pressure /> },
       {name: 'Temperature', slug: 'tempFeedback' },
       {name: 'PID Theory', slug:'pid',},
       {name: 'Avionics Box', slug:'avionics', component:<Avionics />},

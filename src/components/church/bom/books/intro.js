@@ -101,7 +101,7 @@ class Intro extends React.Component {
           Truth</li>
           <li>2) Truth is either the same or a sub-category of light</li>
           <li>3) Light is either the same or a sub-category of spirit(the spirit
-            of Jesus Christ)</li>
+          of Jesus Christ)</li>
           <li>4) Light and truth make up inetelligence or are equivalent to it.</li>
           <li>5) Truth is the knowledge of things as they are, were, and will be</li>
           <li>6) The glory of God is intelligence and therefore light and truth.</li>

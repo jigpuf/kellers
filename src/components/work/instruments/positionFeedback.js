@@ -1,11 +1,8 @@
-import React from 'react'
-import V200 from './valves/v200.js'
-import ND9 from './valves/nd9.js'
-import Er5k from './valves/er5k.js'
-import Drawer from './valves/drawer.js'
-import Hyv from './valves/hyv.js'
+import React from 'react';
+import Limit from './positionFeedback/limit.js';
+import Hvp from './positionFeedback/hvp.js';
 
-class Valves extends React.Component {
+class PositionFeedback extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -16,14 +13,8 @@ class Valves extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'V200', slug: 'v200', component:<V200 /> },
-      {name: 'Metso ND9', slug: 'metso', component:<ND9 />},
-      {name: 'Versa', slug: 'versa', },
-      {name: 'Single Acting', slug: 'single', },
-      {name: 'Double Acting', slug: 'double', },
-      {name: 'ER5k', slug: 'er5k', component:<Er5k /> },
-      {name: 'Valve Drawer', slug: 'drawer', component:<Drawer />},
-      {name: 'Hydraulic Valve', slug: 'hyv', component:<Hyv />},
+      {name: 'Limits', slug: 'limits', component:<Limit />},
+      {name: 'Hydraulic Valve Position', slug: 'hvp', component:<Hvp />},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -51,4 +42,4 @@ class Valves extends React.Component {
   }
 
 
-export default Valves;
+export default PositionFeedback;
