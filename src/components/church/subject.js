@@ -1,16 +1,16 @@
 import React from 'react'
-import Justify from './subjects/justify.js'
+import Plan from './subjects/plan.js'
+import Prophecy from './subjects/prophecy.js'
 import Evolution from './subjects/evolution.js'
-import Theosis from './subjects/theosis.js'
-import Redux from './subjects/redux.js'
 import Temple from './subjects/temple.js'
 import Relationship from './subjects/relationship.js'
-import Ordinances from './subjects/ordinances.js'
 import Are from './subjects/are.js'
 import Covenant from './subjects/covenant.js'
 import Money from './subjects/money.js'
 import Promised from './subjects/promised.js'
 import Power from './subjects/power.js'
+import Symbolism from './subjects/symbolism.js'
+import Comandments from './subjects/comandments.js'
 
 class Subject extends React.Component {
   state= {
@@ -23,39 +23,29 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
+      {name: 'Plan of Salvation', slug: 'plan', component:<Plan />},
+      {name: 'Prophecy', slug: 'prophecy', component:<Prophecy />},
       {name: 'Priesthood', slug: 'priesthood'},
-      {name: 'Comandments', slug: 'comandments'},
       {name: 'Faith', slug: 'faith'},
       {name: 'Repentance', slug: 'repentance'},
-      {name: 'Ordinances', slug: 'ordinances', component:<Ordinances />},
       {name: 'Temple', slug: 'temple', component:<Temple />},
       {name: 'Sermons', slug: 'sermons'},
-      {name: 'Pre-mortal Existance', slug: 'pre-mortal'},
-      {name: 'Escotology', slug: 'escotology'},
-      {name: 'Christology', slug: 'christology'},
-      {name: 'Creation and Fall', slug: 'creation'},
       {name: 'Gathering of Israel', slug: 'gathering'},
       {name: 'Zion', slug: 'zion'},
       {name: 'Visions', slug: 'visions'},
       {name: 'Cosmology', slug: 'cosmology'},
-      {name: 'Soteriology', slug: 'soteriology'},
-      {name: 'Agency', slug: 'agency'},
-      {name: 'Ecclesiology', slug: 'ecclesiology'},
-      {name: 'Pneumatology', slug: 'pneumatology'},
       {name: 'Angels', slug: 'angels'},
       {name: 'Theological Development', slug: 'development'},
-      {name: 'Conversion', slug: 'conversion'},
       {name: 'Covenant Path', slug: 'covenant', component:<Covenant />},
       {name: 'Relationships', slug: 'relationships', component:<Relationship />},
-      {name: 'Justification/Sanctification', slug: 'justify', component:<Justify />},
       {name: 'Evolution', slug: 'evolution', component:<Evolution />},
-      {name: 'Theosis', slug: 'theosis', component:<Theosis />},
-      {name: 'Redux Scripture', slug: 'bible', component:<Redux />},
       {name: 'What things are', slug: 'are', component:<Are />},
       {name: 'Money', slug: 'money', component: <Money />},
       {name: 'Promised Land covenant', slug: 'promised', component:<Promised />},
       {name: 'Mormons Christian?', slug: 'mormonChristian'},
       {name: 'Power', slug: 'power', component:<Power />},
+      {name: 'Symbolism', slug: 'symbolism', component:<Symbolism />},
+      {name: 'Comandments', slug: 'comandments', component:<Comandments />},
     ]
       const renderItems = Items.map(item => {
         return (

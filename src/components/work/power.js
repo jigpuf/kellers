@@ -13,7 +13,6 @@ class Power extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Duties', slug: 'duties'},
       {name: 'Power concepts', slug: 'concepts', component:<Concepts />},
       {name: 'Transformers', slug: 'transformers', component:<Transformers /> },
       {name: 'Switches', slug: 'switches' },

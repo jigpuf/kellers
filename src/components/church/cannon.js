@@ -1,8 +1,13 @@
 import React from 'react';
-import Element from './plan/element.js'
-import Atonement from './plan/atonement.js'
+import Bom from './cannon/bom.js'
+import Dc from './cannon/dc.js'
+import Pogp from './cannon/pogp.js'
+import Ot from './cannon/ot.js'
+import Nt from './cannon/nt.js'
+import Scriptures from './cannon/scriptures.js'
+import Redux from './cannon/redux.js'
 
-class Plan extends React.Component {
+class Cannon extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -13,16 +18,13 @@ class Plan extends React.Component {
   }
   render () {
     const tier1Items = [
-      {name: 'Elemental Nature', slug: 'element', component:<Element />},
-      {name: 'Intelligence', slug: 'intelligence',},
-      {name: 'Pre-mortal', slug: 'premortal',},
-      {name: 'Creation', slug: 'creation',},
-      {name: 'Fall', slug: 'fall',},
-      {name: 'Atonement', slug: 'atonement', component:<Atonement />},
-      {name: 'Resurrection', slug: 'resurrection',},
-      {name: 'Judgement', slug: 'judgement',},
-      {name: 'Kingdoms', slug: 'kingdoms',},
-      {name: 'Theosis', slug: 'theosis',},
+      {name: 'BOM', slug: 'bom', component:<Bom />},
+      {name: 'D&C', slug: 'dc', component:<Dc />},
+      {name: 'POGP', slug: 'pogp', component:<Pogp />},
+      {name: 'OT', slug: 'ot', component:<Ot />},
+      {name: 'NT', slug: 'nt', component:<Nt />},
+      {name: 'Favorite Scriptures', slug: 'scriptures', component:<Scriptures />},
+      {name: 'Redux Scripture', slug: 'bible', component:<Redux />},
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (
@@ -48,4 +50,5 @@ class Plan extends React.Component {
     )
     }
   }
-export default Plan;
+
+export default Cannon;

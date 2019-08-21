@@ -13,7 +13,6 @@ pickTier2 = (item) => {
   render () {
     const Items = [
       {name: 'Pseudopigraphy', slug: 'pseudo', component: <Pseudo />},
-      {name: 'Church History', slug: 'churchHistory'},
       {name: 'Journals', slug: 'journals'},
       {name: 'Doctrinal Writings', slug: 'docWrite'},
       {name: 'Church Fathers', slug: 'churchFathers'},

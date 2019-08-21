@@ -4,7 +4,7 @@ class Covenant extends React.Component {
   render () {
     return (
       <div>
-      This stury should shold how a person is brought into the church, lead to
+      This study should shold how a person is brought into the church, lead to
       the temple, enter the promises of living the celestial law, establish
       zion as a covenant people, covenant on the land of Zion, Terrestrial
       existance and celestial existance<br/>
