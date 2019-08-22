@@ -6,6 +6,7 @@ import Motion from './instruments/motion.js'
 import Strain from './instruments/strain.js'
 import Gas from './instruments/gas.js'
 import Pressure from './instruments/pressure.js'
+import Temperature from './instruments/temperature.js'
 import Avionics from './instruments/avionics.js'
 import Coms from './instruments/coms.js'
 
@@ -33,7 +34,7 @@ class Instruments extends React.Component {
       {name: 'Flow', slug: 'flow' },
       {name: 'Microphones', slug: 'microphones' },
       {name: 'Pressure', slug: 'pressure', component:<Pressure /> },
-      {name: 'Temperature', slug: 'tempFeedback' },
+      {name: 'Temperature', slug: 'tempFeedback', component:<Temperature /> },
       {name: 'PID Theory', slug:'pid',},
       {name: 'Avionics Box', slug:'avionics', component:<Avionics />},
       {name: 'Coms', slug:'coms', component:<Coms />}
