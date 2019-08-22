@@ -21,6 +21,8 @@ class Prophecy extends React.Component {
           {name: 'Second Hand', slug: 'second', component: <Second />},
           {name: 'Non-Member', slug: 'nonMember'},
           {name: 'Prophecy Subjects', slug: 'profSub', component:<Subjects />},
+          {name: 'Gathering of Israel', slug: 'gathering'},
+          {name: 'Zion', slug: 'zion'},
         ]
         const renderItems = Items.map(item => {
           return (

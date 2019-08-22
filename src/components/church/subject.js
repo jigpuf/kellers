@@ -5,7 +5,6 @@ import Evolution from './subjects/evolution.js'
 import Temple from './subjects/temple.js'
 import Relationship from './subjects/relationship.js'
 import Are from './subjects/are.js'
-import Covenant from './subjects/covenant.js'
 import Money from './subjects/money.js'
 import Promised from './subjects/promised.js'
 import Power from './subjects/power.js'
@@ -26,17 +25,11 @@ pickTier2 = (item) => {
       {name: 'Plan of Salvation', slug: 'plan', component:<Plan />},
       {name: 'Prophecy', slug: 'prophecy', component:<Prophecy />},
       {name: 'Priesthood', slug: 'priesthood'},
-      {name: 'Faith', slug: 'faith'},
-      {name: 'Repentance', slug: 'repentance'},
       {name: 'Temple', slug: 'temple', component:<Temple />},
       {name: 'Sermons', slug: 'sermons'},
-      {name: 'Gathering of Israel', slug: 'gathering'},
-      {name: 'Zion', slug: 'zion'},
       {name: 'Visions', slug: 'visions'},
       {name: 'Cosmology', slug: 'cosmology'},
       {name: 'Angels', slug: 'angels'},
-      {name: 'Theological Development', slug: 'development'},
-      {name: 'Covenant Path', slug: 'covenant', component:<Covenant />},
       {name: 'Relationships', slug: 'relationships', component:<Relationship />},
       {name: 'Evolution', slug: 'evolution', component:<Evolution />},
       {name: 'What things are', slug: 'are', component:<Are />},

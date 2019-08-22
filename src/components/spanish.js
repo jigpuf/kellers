@@ -2,6 +2,7 @@ import React from 'react'
 import Pronunciation from './spanish/pronunciation.js'
 import Nouns from './spanish/nouns.js'
 import Verbs from './spanish/verbs.js'
+import Adjective from './spanish/adjectives.js'
 
 class Spanish extends React.Component {
   state = {
@@ -17,7 +18,7 @@ class Spanish extends React.Component {
       {name: 'Pronunciation', slug: 'pronunciation', component:<Pronunciation />},
       {name: 'Nouns', slug: 'nouns',component:<Nouns />},
       {name: 'Verbs', slug: 'verbs', component:<Verbs /> },
-      {name: 'Adjectives', slug: 'adjectives' },
+      {name: 'Adjectives', slug: 'adjectives', component:<Adjective /> },
       {name: 'Adverbs', slug: 'adverbs' },
       {name: 'Prepositions', slug: 'prepositions' },
       {name: 'Pronouns', slug: 'pronouns' },

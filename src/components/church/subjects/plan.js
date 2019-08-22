@@ -23,6 +23,8 @@ class Plan extends React.Component {
       {name: 'Atonement', slug: 'atonement', component:<Atonement />},
       {name: 'Resurrection', slug: 'resurrection',},
       {name: 'Agency', slug: 'agency'},
+      {name: 'Faith', slug: 'faith'},
+      {name: 'Repentance', slug: 'repentance'},
       {name: 'Ordinances', slug: 'ordinances', component:<Ordinances />},
       {name: 'Justification/Sanctification', slug: 'justify', component:<Justify />},
       {name: 'Judgement', slug: 'judgement',},

@@ -12,6 +12,7 @@ class Kwai extends React.Component {
   render (){
     const Items = [
       {name: 'Chapter1: The meeting', slug: 'meeting' },
+      {name: 'Chapter2: Dragon is Gone', slug: 'Gone'},
     ]
     const renderItems = Items.map(item => {
       return (

@@ -1,7 +1,9 @@
 import React from 'react';
 import Drinks from './food/drinks.js';
+import Appetizer from './food/appetizer.js'
 import Desert from './food/desert.js'
 import Restaurants from './food/restaurants.js';
+import Diet from './food/diet.js'
 import Spice from './food/spice.js'
 
 class Food extends React.Component {
@@ -18,7 +20,7 @@ class Food extends React.Component {
 
     const Items = [
       {name: 'Drinks', slug: 'drinks', component:<Drinks />},
-      {name: 'Appetizers', slug: 'appetizers' },
+      {name: 'Appetizers', slug: 'appetizers', component:<Appetizer />},
       {name: 'Breakfast', slug: 'breakfast' },
       {name: 'Entree', slug: 'entree' },
       {name: 'Desert', slug: 'desert', component:<Desert /> },
@@ -26,7 +28,7 @@ class Food extends React.Component {
       {name: 'Sauces', slug: 'sauces' },
       {name: 'Ingredients', slug: 'ingredients' },
       {name: 'Nationality', slug: 'nationality' },
-      {name: 'Diet', slug: 'diet' },
+      {name: 'Diet', slug: 'diet', component:<Diet /> },
       {name: 'Spice', slug: 'Spice', component:<Spice />},
       {name: 'Restaurants', slug: 'restaurants', component:<Restaurants /> },
     ];

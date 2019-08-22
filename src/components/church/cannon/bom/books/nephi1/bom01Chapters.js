@@ -5,7 +5,7 @@ class Bom0101 extends React.Component {
     render () {
       return (
         <div>
-          1
+          2
         </div>
       );
     }

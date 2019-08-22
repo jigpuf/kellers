@@ -60,12 +60,6 @@ class Presidents extends React.Component {
           >The Origin of Man(1953)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-saves/' target ='_blank'
           >The Knowledge That Saves(1954)</a><br />
-          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/atonement-jesus-christ/' target ='_blank'
-          >The Atonement of Jesus Christ(1955)(test)</a><br />
-          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/purpose-of-mortal-life/' target ='_blank'
-          >The Purpose of Mortal Life(1956)(test)</a><br />
-          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/teach-reverence/' target ='_blank'
-          >How Do We Teach Reverence?(1956)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-countries-kingdoms/' target ='_blank'
           >A Knowledge of Countries and of Kingdoms(1956)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/ye-are-bought-with-a-price/' target ='_blank'

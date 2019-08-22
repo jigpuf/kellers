@@ -1,5 +1,6 @@
 import React from 'react';
 import Paintball from './sports/paintball.js'
+import Hiking from './sports/hiking.js'
 
 class Sports extends React.Component {
   state = {
@@ -14,7 +15,7 @@ class Sports extends React.Component {
   render () {
     const Items = [
       {name: 'Paintball', slug: 'paintball', component:<Paintball />},
-      {name: 'Hiking', slug: 'hiking',},
+      {name: 'Hiking', slug: 'hiking', component:<Hiking />},
       {name: 'Biking', slug: 'biking',},
       {name: 'Camping', slug: 'camping',},
       {name: 'Swimming', slug: 'swimming',},

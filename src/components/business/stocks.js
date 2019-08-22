@@ -4,6 +4,7 @@ class Stocks extends React.Component {
   render () {
     return (
       <div>
+      <h3>Videos:</h3>
       <h4>Tech bud solutions</h4>
         <a href='https://www.youtube.com/watch?v=IMOqLobUEJU&t=502s'
         >How to scan for swing stocks</a><br />
@@ -36,6 +37,16 @@ class Stocks extends React.Component {
       <h4>Invester Underground Intermediate</h4>
         <a href='https://www.youtube.com/watch?v=756XhjcLK44' target='_blank'
         >Stock Trading Course - Intermediate Series Lesson 1 of 8</a><br />
+
+      <h3>Concepts</h3>
+        <li>EMA</li>
+        <li>SMA</li>
+        <li>Limits</li>
+        <li>Stop Loss</li>
+        <li>Stop Limit</li>
+        <li>Market Buy</li>
+        <li>EMCA? Line</li>
+
       </div>
     );
   }

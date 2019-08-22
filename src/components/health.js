@@ -1,4 +1,5 @@
 import React from 'react';
+import Diet from '././food/diet.js'
 import Stretch from './health/stretch.js'
 import Systems from './health/systems.js'
 import Nutrition from './health/nutrition.js'
@@ -16,9 +17,9 @@ class Health extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Diet', slug: 'diet' },
+      {name: 'Diet', slug: 'diet', component:<Diet /> },
       {name: 'Flexibility', slug: 'flexibility', component:<Stretch />},
-      {name: 'Muscular Strength/endurance', slug: 'strength' },
+      {name: 'Strength/Endurance', slug: 'strength' },
       {name: 'Cardio', slug: 'cardio' },
       {name: 'Balance', slug: 'balance' },
       {name: 'Speed', slug: 'speed' },

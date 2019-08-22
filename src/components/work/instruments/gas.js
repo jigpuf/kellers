@@ -4,7 +4,13 @@ class Gas extends React.Component {
   render () {
     return (
       <div>
-        Gas Detector:<br />
+        <h3>Gas Detector:</h3>
+          <h4>Inputs:</h4>
+            <li>24V excitation</li>
+          <h4>Outputs:</h4>
+            <li>3 Relays</li>
+            <li>0-20mA</li>
+        <h4>AWS to detector Pinout</h4>
         <table>
           <tr>
             <th>Bulkhead Pin</th>
@@ -26,7 +32,7 @@ class Gas extends React.Component {
           </tr>
           <tr>
             <td>C</td>
-            <td>N/C</td>
+            <td>Not Connected</td>
             <td></td>
             <td></td>
           </tr>
@@ -34,7 +40,7 @@ class Gas extends React.Component {
             <td>D</td>
             <td>Red Alarm +</td>
             <td>Red</td>
-            <td>A on relay 3</td>
+            <td>A on relay 3 N.C.</td>
           </tr>
           <tr>
             <td>E</td>
@@ -46,11 +52,11 @@ class Gas extends React.Component {
             <td>F</td>
             <td>Fault +</td>
             <td>Yellow</td>
-            <td>A on relay 1</td>
+            <td>A on relay 1 N.C.</td>
           </tr>
           <tr>
             <td>G</td>
-            <td>N/C</td>
+            <td>Not Connected</td>
             <td></td>
             <td></td>
           </tr>
@@ -64,7 +70,7 @@ class Gas extends React.Component {
             <td>J</td>
             <td>Yellow Alarm +</td>
             <td>Blue</td>
-            <td>A on relay 2</td>
+            <td>A on relay 2 N.C.</td>
           </tr>
           <tr>
             <td>K</td>
@@ -90,8 +96,15 @@ class Gas extends React.Component {
         board as the 4-20/v+ terminals.  Relay 2 is the top relay on the other
         board and relay 3 is in the middle.  A is at the tops and B at the
         bottoms of each relay.<br />
-        Avionics Internal Bulkhead connector:<br />
-        Avionics External Barrel Connector:<br />
+
+        <h4>Connectors:</h4>
+        <li>AWS Internal Bulkhead connector: D38999/2_WD97PC</li>
+        <li>AWS External Barrel Connector: D38999/26_WD97SC</li>
+
+        <h4>Alarms:</h4>
+          <li>Blue-Fault</li>
+          <li>Yellow-Warning</li>
+          <li>Red-Alarm</li>
       </div>
     );
   }

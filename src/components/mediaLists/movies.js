@@ -149,10 +149,6 @@ class Movies extends React.Component {
         <li><a href=''
         >***Ghost Dog</a></li>
         <li><a href=''
-        >Gods must be Crazy</a></li>
-        <li><a href=''
-        >Golden Child</a></li>
-        <li><a href=''
         >***Goonies</a></li>
         <li><a href=''
         >***Gladiator</a></li>
@@ -167,14 +163,10 @@ class Movies extends React.Component {
         <li><a href=''
         >Guardians of the Galaxy 2</a></li>
         <li>***Hector's Search for Happiness</li>
-        <li>Hidden</li>
+        <li>***Hidden</li>
         <li>Hotel Budapest</li>
         <li>***House of Flying Daggers</li>
-        <li>Howard the Duck</li>
         <li>Hugo</li>
-        <li>Hunger Games</li>
-        <li>Hunger Games 2</li>
-        <li>Hunger Games 3</li>
         <li>Idle Hands</li>
         <li>In the Mouth of Madness</li>
         <li>***Indiana Jones</li>
