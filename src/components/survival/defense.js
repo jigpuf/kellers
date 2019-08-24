@@ -1,4 +1,5 @@
 import React from 'react';
+import Hand from './defense/hand.js'
 import Hardened from './defense/hardened.js'
 
 class Defense extends React.Component {
@@ -12,7 +13,7 @@ class Defense extends React.Component {
   }
   render () {
     const Items = [
-      {name:'Hand Combat', slug:'hand',},
+      {name:'Hand Combat', slug:'hand', component:<Hand />},
       {name:'Firearms', slug:'firearms',},
       {name:'Traps', slug:'traps',},
       {name:'Hardened Home', slug:'hardened', component:<Hardened />},
