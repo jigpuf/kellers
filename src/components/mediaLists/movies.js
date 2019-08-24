@@ -8,164 +8,170 @@ class Movies extends React.Component {
       <h3>Keller's Favorite Movies</h3>
       <div className="twoColumn">
       <ol>
-        <li><a href="https://www.youtube.com/watch?v=wZJ0TP4nTaE"
+        <li><a href="https://www.youtube.com/watch?v=wZJ0TP4nTaE" target='_blank'
         >Adjustment Bureau</a></li>
-        <li><a href="https://www.youtube.com/watch?v=d11loPMnC2w"
+        <li><a href="https://www.youtube.com/watch?v=d11loPMnC2w" target='_blank'
         >Aeon Flux</a></li>
-        <li><a href="https://www.youtube.com/watch?v=i_MONOV1_sc"
+        <li><a href="https://www.youtube.com/watch?v=i_MONOV1_sc" target='_blank'
         >Akira</a></li>
-        <li><a href="https://www.youtube.com/watch?v=HlULSKurtzg"
+        <li><a href="https://www.youtube.com/watch?v=HlULSKurtzg" target='_blank'
         >Aladdin</a></li>
-        <li><a href="https://www.youtube.com/watch?v=LjLamj-b0I8"
+        <li><a href="https://www.youtube.com/watch?v=LjLamj-b0I8" target='_blank'
         >Alien</a></li>
-        <li><a href="https://www.youtube.com/watch?v=XKSQmYUaIyE"
+        <li><a href="https://www.youtube.com/watch?v=XKSQmYUaIyE" target='_blank'
         >Alien 2</a></li>
-        <li><a href="https://www.youtube.com/watch?v=3ycmmJ6rxA8"
+        <li><a href="https://www.youtube.com/watch?v=3ycmmJ6rxA8" target='_blank'
         >***American Beauty</a></li>
-        <li><a href="https://www.youtube.com/watch?v=HUECWi5pX7o"
+        <li><a href="https://www.youtube.com/watch?v=HUECWi5pX7o" target='_blank'
         >Amile</a></li>
-        <li><a href="https://www.youtube.com/watch?v=-T3wnP91OnI"
+        <li><a href="https://www.youtube.com/watch?v=-T3wnP91OnI" target='_blank'
         >Anchorman</a></li>
-        <li><a href="https://www.youtube.com/watch?v=pXuwjdQx924"
+        <li><a href="https://www.youtube.com/watch?v=pXuwjdQx924" target='_blank'
         >Apocalypto</a></li>
-        <li><a href="https://www.youtube.com/watch?v=sZIimDPZQwg"
+        <li><a href="https://www.youtube.com/watch?v=sZIimDPZQwg" target='_blank'
         >Atlantis</a></li>
-        <li><a href="https://www.youtube.com/watch?v=k5WQZzDRVtw"
+        <li><a href="https://www.youtube.com/watch?v=k5WQZzDRVtw" target='_blank'
         >***Babadook</a></li>
-        <li><a href="https://www.youtube.com/watch?v=qvsgGtivCgs"
+        <li><a href="https://www.youtube.com/watch?v=qvsgGtivCgs" target='_blank'
         >Back to the Future</a></li>
-        <li><a href="https://www.youtube.com/watch?v=MdENmefJRpw"
+        <li><a href="https://www.youtube.com/watch?v=MdENmefJRpw" target='_blank'
         >Back to the Future 2</a></li>
-        <li><a href="https://www.youtube.com/watch?v=EYkguxpqsrg"
+        <li><a href="https://www.youtube.com/watch?v=EYkguxpqsrg" target='_blank'
         >Back to the Future 3</a></li>
-        <li><a href="https://www.youtube.com/watch?v=h25ZL7fxZ8o"
+        <li><a href="https://www.youtube.com/watch?v=h25ZL7fxZ8o" target='_blank'
         >Batteries not Included</a></li>
-        <li><a href="https://www.youtube.com/watch?v=RweHayPG3wA"
+        <li><a href="https://www.youtube.com/watch?v=RweHayPG3wA" target='_blank'
         >***Beach</a></li>
-        <li><a href="https://www.youtube.com/watch?v=PUeWBp_kmuo"
+        <li><a href="https://www.youtube.com/watch?v=PUeWBp_kmuo" target='_blank'
         >Behind Enemy Lines</a></li>
-        <li><a href="https://www.youtube.com/watch?v=DaShOr5AeKA"
+        <li><a href="https://www.youtube.com/watch?v=DaShOr5AeKA" target='_blank'
         >Beowolf</a></li>
-        <li><a href="https://www.youtube.com/watch?v=ickbVzajrk0"
+        <li><a href="https://www.youtube.com/watch?v=ickbVzajrk0" target='_blank'
         >beatlejuice</a></li>
-        <li><a href="https://www.youtube.com/watch?v=dF-Iy7vIOJA"
+        <li><a href="https://www.youtube.com/watch?v=dF-Iy7vIOJA" target='_blank'
         >***Big Fish</a></li>
-        <li><a href="https://www.youtube.com/watch?v=cd-go0oBF4Y"
+        <li><a href="https://www.youtube.com/watch?v=cd-go0oBF4Y" target='_blank'
         >Big Lebowski</a></li>
-        <li><a href="https://www.youtube.com/watch?v=2GfBkC3qs78"
+        <li><a href="https://www.youtube.com/watch?v=2GfBkC3qs78" target='_blank'
         >Black Hawk Down</a></li>
-        <li><a href="https://www.youtube.com/watch?v=kaU2A7KyOu4"
+        <li><a href="https://www.youtube.com/watch?v=kaU2A7KyOu4" target='_blank'
         >Blade</a></li>
-        <li><a href="https://www.youtube.com/watch?v=a_Hw4bAUj8A"
+        <li><a href="https://www.youtube.com/watch?v=a_Hw4bAUj8A" target='_blank'
         >Blair Witch Project</a></li>
-        <li><a href="https://www.youtube.com/watch?v=ydXojYfCF3I"
+        <li><a href="https://www.youtube.com/watch?v=ydXojYfCF3I" target='_blank'
         >Boondock Saints</a></li>
-        <li><a href="https://www.youtube.com/watch?v=PlDbxogHPao"
+        <li><a href="https://www.youtube.com/watch?v=PlDbxogHPao" target='_blank'
         >***Bram Stokers Dracula</a></li>
-        <li><a href="https://www.youtube.com/watch?v=pa9331xmvhg"
+        <li><a href="https://www.youtube.com/watch?v=pa9331xmvhg" target='_blank'
         >Bubba Hotep</a></li>
-        <li><a href="https://www.youtube.com/watch?v=pyRUijyrXr4"
+        <li><a href="https://www.youtube.com/watch?v=pyRUijyrXr4" target='_blank'
         >Burbs</a></li>
-        <li><a href='https://www.youtube.com/watch?v=NsIilFNNmkY'
+        <li><a href='https://www.youtube.com/watch?v=NsIilFNNmkY' target='_blank'
         >Cabin in the Woods</a></li>
-        <li><a href='https://www.youtube.com/watch?v=2TWYDogv4WQ'
+        <li><a href='https://www.youtube.com/watch?v=2TWYDogv4WQ' target='_blank'
         >***Castaway</a></li>
-        <li><a href='https://www.youtube.com/watch?v=RQUdbvUVfgE'
+        <li><a href='https://www.youtube.com/watch?v=RQUdbvUVfgE' target='_blank'
         >Cell</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HHamE8gmA8Q'
+        <li><a href='https://www.youtube.com/watch?v=HHamE8gmA8Q' target='_blank'
         >Cocoon</a></li>
-        <li><a href='https://www.youtube.com/watch?v=OFVGCUIXJls'
+        <li><a href='https://www.youtube.com/watch?v=OFVGCUIXJls' target='_blank'
         >Charlie and the Chocolate F</a></li>
-        <li><a href='https://www.youtube.com/watch?v=AEOfT7hUcDs'
+        <li><a href='https://www.youtube.com/watch?v=AEOfT7hUcDs' target='_blank'
         >Chicken Run</a></li>
-        <li><a href='https://www.youtube.com/watch?v=cfjEZ88NHBw'
+        <li><a href='https://www.youtube.com/watch?v=cfjEZ88NHBw' target='_blank'
         >Christmas Story</a></li>
-        <li><a href='https://www.youtube.com/watch?v=Pa7oVPru4J8'
+        <li><a href='https://www.youtube.com/watch?v=Pa7oVPru4J8' target='_blank'
         >***City of Lost Children</a></li>
-        <li><a href='https://www.youtube.com/watch?v=Mlfn5n-E2WE'
+        <li><a href='https://www.youtube.com/watch?v=Mlfn5n-E2WE' target='_blank'
         >Clerks</a></li>
-        <li><a href='https://www.youtube.com/watch?v=wxqSIsxMlYQ'
+        <li><a href='https://www.youtube.com/watch?v=wxqSIsxMlYQ' target='_blank'
         >Cloverfield</a></li>
-        <li><a href='https://www.youtube.com/watch?v=cDDdeHtrxfA'
+        <li><a href='https://www.youtube.com/watch?v=cDDdeHtrxfA' target='_blank'
         >Clue</a></li>
-        <li><a href='https://www.youtube.com/watch?v=XyUwEO7xelY'
+        <li><a href='https://www.youtube.com/watch?v=f-3YshvxA1M' target='_blank'
+        >***Color of Magic</a></li>
+        <li><a href='https://www.youtube.com/watch?v=XyUwEO7xelY' target='_blank'
         >***Coraline</a></li>
-        <li><a href='https://www.youtube.com/watch?v=zH7KZD5vGBY'
+        <li><a href='https://www.youtube.com/watch?v=zH7KZD5vGBY' target='_blank'
         >Cowboys and Aliens</a></li>
-        <li><a href='https://www.youtube.com/watch?v=rijQ5oBFlO0'
+        <li><a href='https://www.youtube.com/watch?v=rijQ5oBFlO0' target='_blank'
         >Crocodile Dundee</a></li>
-        <li><a href='https://www.youtube.com/watch?v=oYaOhlHnuZw'
+        <li><a href='https://www.youtube.com/watch?v=oYaOhlHnuZw' target='_blank'
         >Crocodile Dundee 2</a></li>
-        <li><a href='https://www.youtube.com/watch?v=gLpZ_5bHmo8'
+        <li><a href='https://www.youtube.com/watch?v=gLpZ_5bHmo8' target='_blank'
         >***Crouching Tiger Hidden Dragon</a></li>
-        <li><a href='https://www.youtube.com/watch?v=l1t8OZn_uhE'
+        <li><a href='https://www.youtube.com/watch?v=l1t8OZn_uhE' target='_blank'
         >Dale and Tucker Vs Evil</a></li>
-        <li><a href='https://www.youtube.com/watch?v=20CRw3XdETA'
+        <li><a href='https://www.youtube.com/watch?v=20CRw3XdETA' target='_blank'
         >***Dogma</a></li>
-        <li><a href='https://www.youtube.com/watch?v=bzLn8sYeM9o'
+        <li><a href='https://www.youtube.com/watch?v=bzLn8sYeM9o' target='_blank'
         >***Donnie Darko</a></li>
-        <li><a href='https://www.youtube.com/watch?v=PPOaxHqoYxo'
+        <li><a href='https://www.youtube.com/watch?v=PPOaxHqoYxo' target='_blank'
         >Drag me to Hell</a></li>
-        <li><a href='https://www.youtube.com/watch?v=M94yyfWy-KI'
+        <li><a href='https://www.youtube.com/watch?v=M94yyfWy-KI' target='_blank'
         >Edward Scissorhands</a></li>
-        <li><a href='https://www.youtube.com/watch?v=4O-sMh_DO6I'
+        <li><a href='https://www.youtube.com/watch?v=4O-sMh_DO6I' target='_blank'
         >Enemy at the Gates</a></li>
-        <li><a href='https://www.youtube.com/watch?v=qYAETtIIClk'
+        <li><a href='https://www.youtube.com/watch?v=qYAETtIIClk' target='_blank'
         >ET</a></li>
-        <li><a href='https://www.youtube.com/results?search_query=eternal+sunshine+of+the+spotless+mind+official+trailer'
+        <li><a href='https://www.youtube.com/results?search_query=eternal+sunshine+of+the+spotless+mind+official+trailer' target='_blank'
         >Eternal Sunshine of the Spotless Mind</a></li>
-        <li><a href='https://www.youtube.com/watch?v=coGH4OaR9hc'
+        <li><a href='https://www.youtube.com/watch?v=coGH4OaR9hc' target='_blank'
         >Evil Dead</a></li>
-        <li><a href='https://www.youtube.com/watch?v=6lM3NPeEG24'
+        <li><a href='https://www.youtube.com/watch?v=6lM3NPeEG24' target='_blank'
         >Evil Dead 2</a></li>
-        <li><a href='https://www.youtube.com/watch?v=UHZQEtG8xYo'
+        <li><a href='https://www.youtube.com/watch?v=UHZQEtG8xYo' target='_blank'
         >Evil Dead 3</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HAdbdUt_h9M'
+        <li><a href='https://www.youtube.com/watch?v=HAdbdUt_h9M' target='_blank'
         >eXistenz</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HAdbdUt_h9M'
+        <li><a href='https://www.youtube.com/watch?v=HAdbdUt_h9M' target='_blank'
         >Explorers</a></li>
-        <li><a href='https://www.youtube.com/watch?v=IwsYyRc9j4g'
+        <li><a href='https://www.youtube.com/watch?v=IwsYyRc9j4g' target='_blank'
         >Fall</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HIjhgXteLlY'
+        <li><a href='https://www.youtube.com/watch?v=HIjhgXteLlY' target='_blank'
         >Fantastic fear of Everything</a></li>
-        <li><a href='https://www.youtube.com/watch?v=n2igjYFojUo'
+        <li><a href='https://www.youtube.com/watch?v=n2igjYFojUo' target='_blank'
         >***Fantastic Mr. Fox</a></li>
-        <li><a href='https://www.youtube.com/watch?v=fQ9RqgcR24g'
+        <li><a href='https://www.youtube.com/watch?v=fQ9RqgcR24g' target='_blank'
         >***Fifth Element</a></li>
-        <li><a href='https://www.youtube.com/watch?v=Y6cwmHL2tFI'
+        <li><a href='https://www.youtube.com/watch?v=Y6cwmHL2tFI' target='_blank'
         >***Fight Club</a></li>
-        <li><a href='https://www.youtube.com/watch?v=EmXWcXKXWBk'
+        <li><a href='https://www.youtube.com/watch?v=EmXWcXKXWBk' target='_blank'
         >***Finding a friend for the End of the World</a></li>
-        <li><a href='https://www.youtube.com/watch?v=gVebPEYiq2o'
+        <li><a href='https://www.youtube.com/watch?v=gVebPEYiq2o' target='_blank'
         >Flight of the Navigator</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=XHhAG-YLdk8' target='_blank'
         >Forrest Gump</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=hEJnMQG9ev8' target='_blank'
         >Fury Road</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=6hDkhw5Wkas' target='_blank'
         >Ghostbusters</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=UnzH75FlwvU' target='_blank'
         >Ghostbusters 2</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=Rml5ehAl7SM' target='_blank'
         >***Ghost Dog</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=hJ2j4oWdQtU' target='_blank'
         >***Goonies</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=owK1qxDselE' target='_blank'
         >***Gladiator</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=zru-1DbbcsA' target='_blank'
         >Grand Budapest Hotel</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=EAe-1Lv1KYU' target='_blank'
         >Green Street Hooligans</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=YC3bzK_i9_s' target='_blank'
         >Grudge</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=yM7VVKxjeag' target='_blank'
         >Guardians of the Galaxy</a></li>
-        <li><a href=''
+        <li><a href='https://www.youtube.com/watch?v=2LIQ2-PZBC8' target='_blank'
         >Guardians of the Galaxy 2</a></li>
-        <li>***Hector's Search for Happiness</li>
-        <li>***Hidden</li>
+        <li><a href='https://www.youtube.com/watch?v=iWFVAIbIkS4' target='_blank'
+        >***Hector's Search for Happiness</a></li>
+        <li><a href='https://www.youtube.com/watch?v=iWFVAIbIkS4' target='_blank'
+        >***Hidden</a></li>
+        <li>Hogfather</li>
         <li>Hotel Budapest</li>
-        <li>***House of Flying Daggers</li>
+        <li><a href='' target='_blank'
+        >***House of Flying Daggers</a></li>
         <li>Hugo</li>
         <li>Idle Hands</li>
         <li>In the Mouth of Madness</li>
@@ -275,7 +281,12 @@ class Movies extends React.Component {
         <li><a href="https://www.youtube.com/watch?v=UrIbxk7idYA">***300</a></li>
         <li><a href="https://www.youtube.com/watch?v=_qApXdc1WPY">***9</a></li>
       </ol>
-      <h3>Other Peoples Favorites</h3>
+      <h3>To Watch</h3>
+        <li>Night Crawler</li>
+        <li>The Foreigner(Jackie Chan)</li>
+        <li>The edge</li>
+        <li></li>
+        <li></li>
         </div>
       </div>
     );

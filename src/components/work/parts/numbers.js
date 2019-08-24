@@ -13,8 +13,6 @@ class Numbers extends React.Component {
             <tr><td>Gray Ferrules</td><td>FSD81-12-C</td><td>12AWG Wires</td></tr>
             <tr><td>Yellow Ferrules</td><td></td><td>10AWG Wires</td></tr>
           <tr><th>DSub Connectors</th><th>Part Number</th><th>Description</th></tr>
-            <tr><td>DB9 Pin</td><td></td><td></td></tr>
-            <tr><td>DB9 Socket</td><td></td><td></td></tr>
             <tr><td>DB9 Backshell</td><td></td><td></td></tr>
             <tr><td>DB25 Pin</td><td>1757819-8</td><td></td></tr>
             <tr><td>DB25 Socket</td><td>1757820-8</td><td></td></tr>
