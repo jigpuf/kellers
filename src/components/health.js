@@ -1,6 +1,11 @@
 import React from 'react';
 import Diet from '././food/diet.js'
 import Stretch from './health/stretch.js'
+import Strength from './health/strength.js'
+import Cardio from './health/cardio.js'
+import Balance from './health/balance.js'
+import Speed from './health/speed.js'
+import Hormones from './health/hormones.js'
 import Systems from './health/systems.js'
 import Nutrition from './health/nutrition.js'
 
@@ -19,11 +24,11 @@ class Health extends React.Component {
     const Items = [
       {name: 'Diet', slug: 'diet', component:<Diet /> },
       {name: 'Flexibility', slug: 'flexibility', component:<Stretch />},
-      {name: 'Strength/Endurance', slug: 'strength' },
-      {name: 'Cardio', slug: 'cardio' },
-      {name: 'Balance', slug: 'balance' },
-      {name: 'Speed', slug: 'speed' },
-      {name: 'Hormones', slug: 'hormones' },
+      {name: 'Strength/Endurance', slug: 'strength', component:<Strength /> },
+      {name: 'Cardio', slug: 'cardio', component:<Cardio /> },
+      {name: 'Balance', slug: 'balance', component:<Balance /> },
+      {name: 'Speed', slug: 'speed', component:<Speed /> },
+      {name: 'Hormones', slug: 'hormones', component:<Hormones /> },
       {name: 'Body Systems', slug: 'systems', component:<Systems />},
       {name: 'Nutrition', slug: 'nutrition', component:<Nutrition />},
     ]

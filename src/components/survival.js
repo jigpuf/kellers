@@ -1,12 +1,20 @@
 import React from 'react'
 import Coms from './survival/coms.js'
+import Defense from './survival/defense.js'
+import Disasters from './survival/disasters.js'
+import Energy from './survival/energy.js'
+import Fire from './survival/fire.js'
+import Aid from './survival/aid.js'
 import Food from './survival/food.js'
 import Intelligence from './survival/intelligence.js'
-import Defense from './survival/defense.js'
-import Energy from './survival/energy.js'
-import Hygene from './survival/hygene.js'
-import Kit from './survival/kit.js'
+import Navigation from './survival/navigation.js'
+import Recreation from './survival/recreation.js'
+import Shelter from './survival/shelter.js'
 import Water from './survival/water.js'
+import Hygene from './survival/hygene.js'
+import Clothing from './survival/clothing.js'
+import Kit from './survival/kit.js'
+
 
 class Survival extends React.Component {
   state = {
@@ -21,18 +29,18 @@ class Survival extends React.Component {
     const Items = [
       {name: 'Communications', slug: 'coms', component:<Coms /> },
       {name: 'Defense', slug: 'defense', component:<Defense /> },
-      {name: 'Disasters', slug: 'disaster' },
+      {name: 'Disasters', slug: 'disaster', component:<Disasters /> },
       {name: 'Energy', slug: 'energy', component:<Energy /> },
-      {name: 'Fire', slug: 'fire' },
-      {name: 'First Aid', slug: 'aid' },
+      {name: 'Fire', slug: 'fire', component:<Fire /> },
+      {name: 'First Aid', slug: 'aid', component:<Aid /> },
       {name: 'Food', slug: 'food', component:<Food />},
       {name: 'Intelligence', slug: 'intelligence', component:<Intelligence />},
-      {name: 'Navigation', slug: 'navigation' },
-      {name: 'Recreation', slug: 'recreation' },
-      {name: 'Shelter', slug: 'shelter' },
+      {name: 'Navigation', slug: 'navigation', component:<Navigation /> },
+      {name: 'Recreation', slug: 'recreation', component:<Recreation /> },
+      {name: 'Shelter', slug: 'shelter', component:<Shelter /> },
       {name: 'Water', slug: 'water', component:<Water />},
       {name: 'hygene', slug: 'hygene', component:<Hygene />},
-      {name: 'clothing', slug: 'clothing'},
+      {name: 'clothing', slug: 'clothing', component:<Clothing />},
       {name: '72-hour kit', slug: 'kit', component:<Kit />},
     ]
     const renderItems = Items.map(item => {

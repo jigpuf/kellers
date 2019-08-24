@@ -7,6 +7,7 @@ import Shopping from './fun/shopping.js'
 import Food from './food.js'
 import Education from './fun/education.js'
 import Travel from './fun/travel.js'
+import Bucket from './fun/bucket.js'
 
 class Paintball extends React.Component {
   state = {
@@ -27,7 +28,7 @@ class Paintball extends React.Component {
       {name: 'Food', slug: 'food', component:<Food /> },
       {name: 'Education', slug: 'education', component:<Education /> },
       {name: 'Travel', slug: 'travel', component:<Travel />},
-      {name: 'Bucket List', slug: 'bucket' },
+      {name: 'Bucket List', slug: 'bucket', component:<Bucket /> },
     ]
     const renderItems = Items.map(item => {
       return (

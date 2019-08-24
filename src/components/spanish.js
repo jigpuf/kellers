@@ -3,6 +3,12 @@ import Pronunciation from './spanish/pronunciation.js'
 import Nouns from './spanish/nouns.js'
 import Verbs from './spanish/verbs.js'
 import Adjective from './spanish/adjectives.js'
+import Adverbs from './spanish/adverbs.js'
+import Prepositions from './spanish/prepositions.js'
+import Pronouns from './spanish/pronouns.js'
+import Numbers from './spanish/numbers.js'
+import Vocabulary from './spanish/vocabulary.js'
+import Finer from './spanish/finer.js'
 
 class Spanish extends React.Component {
   state = {
@@ -19,12 +25,12 @@ class Spanish extends React.Component {
       {name: 'Nouns', slug: 'nouns',component:<Nouns />},
       {name: 'Verbs', slug: 'verbs', component:<Verbs /> },
       {name: 'Adjectives', slug: 'adjectives', component:<Adjective /> },
-      {name: 'Adverbs', slug: 'adverbs' },
-      {name: 'Prepositions', slug: 'prepositions' },
-      {name: 'Pronouns', slug: 'pronouns' },
-      {name: 'Numbers', slug: 'numbers' },
-      {name: 'Vocabulary', slug: 'vocabulary' },
-      {name: 'Finer Points', slug: 'finer' },
+      {name: 'Adverbs', slug: 'adverbs', component:<Adverbs /> },
+      {name: 'Prepositions', slug: 'prepositions', component:<Prepositions /> },
+      {name: 'Pronouns', slug: 'pronouns', component:<Pronouns /> },
+      {name: 'Numbers', slug: 'numbers', component:<Numbers /> },
+      {name: 'Vocabulary', slug: 'vocabulary', component:<Vocabulary /> },
+      {name: 'Finer Points', slug: 'finer', component:<Finer /> },
     ]
     const renderItems = Items.map(item => {
       return (

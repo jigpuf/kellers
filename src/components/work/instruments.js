@@ -4,10 +4,18 @@ import Heaters from './instruments/heaters.js'
 import PositionFeedback from './instruments/positionFeedback.js'
 import Motion from './instruments/motion.js'
 import Strain from './instruments/strain.js'
+import Igniter from './instruments/igniter.js'
 import Gas from './instruments/gas.js'
+import Flame from './instruments/flame.js'
+import ClearPath from './instruments/clearPath.js'
+import Prox from './instruments/prox.js'
+import Flows from './instruments/flows.js'
+import Mics from './instruments/mics.js'
 import Pressure from './instruments/pressure.js'
 import Temperature from './instruments/temperature.js'
+import Pid from './instruments/pid.js'
 import Avionics from './instruments/avionics.js'
+import Aws from './instruments/aws.js'
 import Coms from './instruments/coms.js'
 
 class Instruments extends React.Component {
@@ -26,18 +34,19 @@ class Instruments extends React.Component {
       {name: 'Position Feedback', slug: 'positionFeedback', component:<PositionFeedback /> },
       {name: 'Motion', slug: 'motion', component:<Motion /> },
       {name: 'Strain', slug: 'strain', component:<Strain /> },
-      {name: 'Igniters', slug: 'igniter' },
+      {name: 'Igniters', slug: 'igniter', component:<Igniter /> },
       {name: 'Gas Sensors', slug: 'gas', component:<Gas />},
-      {name: 'Flame Detectors', slug: 'flame' },
-      {name: 'Clear Path', slug: 'clearPath' },
-      {name: 'Proximity', slug: 'prox' },
-      {name: 'Flow', slug: 'flow' },
-      {name: 'Microphones', slug: 'microphones' },
+      {name: 'Flame Detectors', slug: 'flame', component:<Flame /> },
+      {name: 'Clear Path', slug: 'clearPath', component:<ClearPath /> },
+      {name: 'Proximity', slug: 'prox', component:<Prox /> },
+      {name: 'Flow', slug: 'flow', component:<Flows /> },
+      {name: 'Microphones', slug: 'microphones', component:<Mics /> },
       {name: 'Pressure', slug: 'pressure', component:<Pressure /> },
       {name: 'Temperature', slug: 'tempFeedback', component:<Temperature /> },
-      {name: 'PID Theory', slug:'pid',},
+      {name: 'PID Theory', slug:'pid', component:<Pid />},
       {name: 'Avionics Box', slug:'avionics', component:<Avionics />},
-      {name: 'Coms', slug:'coms', component:<Coms />}
+      {name: 'AWS Box', slug:'aws', component:<Aws />},
+      {name: 'Coms', slug:'coms', component:<Coms />},
 
     ]
     const renderItems = Items.map(item => {

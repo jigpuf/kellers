@@ -1,10 +1,17 @@
 import React from 'react';
 import Drinks from './food/drinks.js';
 import Appetizer from './food/appetizer.js'
+import Breakfast from './food/breakfast.js'
+import Ent from './food/ent.js'
 import Desert from './food/desert.js'
-import Restaurants from './food/restaurants.js';
+import Soup from './food/soup.js'
+import Sauce from './food/sauce.js'
+import Ingredients from './food/ingredients.js'
+import Nationality from './food/nationality.js'
 import Diet from './food/diet.js'
 import Spice from './food/spice.js'
+import Restaurants from './food/restaurants.js';
+
 
 class Food extends React.Component {
   state = {
@@ -21,13 +28,13 @@ class Food extends React.Component {
     const Items = [
       {name: 'Drinks', slug: 'drinks', component:<Drinks />},
       {name: 'Appetizers', slug: 'appetizers', component:<Appetizer />},
-      {name: 'Breakfast', slug: 'breakfast' },
-      {name: 'Entree', slug: 'entree' },
+      {name: 'Breakfast', slug: 'breakfast', component:<Breakfast /> },
+      {name: 'Entree', slug: 'entree', component:<Ent /> },
       {name: 'Desert', slug: 'desert', component:<Desert /> },
-      {name: 'Soup', slug: 'soup' },
-      {name: 'Sauces', slug: 'sauces' },
-      {name: 'Ingredients', slug: 'ingredients' },
-      {name: 'Nationality', slug: 'nationality' },
+      {name: 'Soup', slug: 'soup', component:<Soup /> },
+      {name: 'Sauces', slug: 'sauces', component:<Sauce /> },
+      {name: 'Ingredients', slug: 'ingredients', component:<Ingredients /> },
+      {name: 'Nationality', slug: 'nationality', component:<Nationality /> },
       {name: 'Diet', slug: 'diet', component:<Diet /> },
       {name: 'Spice', slug: 'Spice', component:<Spice />},
       {name: 'Restaurants', slug: 'restaurants', component:<Restaurants /> },

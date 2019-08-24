@@ -44,7 +44,7 @@ class Rlc extends React.Component {
       </table>
       Super Equation:<br />
       Consumption = Time * Power<br />
-      Consumption = Time * Voltage * Amps <br />
+      Consumption = Time * Voltage * Current <br />
       Consumption = Time * Voltage * (Voltage / Impedence)<br />
       Simplify:<br />
       Consumption = Time * Voltage<sup>2</sup> / Impedence<br />
@@ -54,11 +54,16 @@ class Rlc extends React.Component {
       Consumption = (t * E<sup>2</sup>) / √(R<sup>2</sup> + ((2πfL) - (2πfC))<sup>2</sup>)<br />
       Simplify:<br />
       Consumption = (t * E<sup>2</sup>) / √(R<sup>2</sup> + (2πf(L - C))<sup>2</sup>)<br /><br /><br /><br />
+
+      Consumption =<br />
       t * E<sup>2</sup><br />
       -----------------------------<br />
       √(R<sup>2</sup> + (2πf(L - C))<sup>2</sup>)<br /><br /><br /><br />
 
-
+      Power =<br />
+      E<sup>2</sup><br />
+      -----------------------------<br />
+      √(R<sup>2</sup> + (2πf(L - C))<sup>2</sup>)<br /><br /><br /><br />
       </div>
     );
   }
