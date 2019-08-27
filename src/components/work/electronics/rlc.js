@@ -27,13 +27,13 @@ class Rlc extends React.Component {
         <tr><td>Power(P)</td><td>I * E</td></tr>
         <tr><td>Current(I)</td><td>E / Z</td></tr>
         <tr><td>Impedence(Z)</td><td> √(R<sup>2</sup> + ((XL - XC))<sup>2</sup>)</td></tr>
-        <tr><td>Capacitive Reactance(XC)</td><td>2πfC</td></tr>
+        <tr><td>Capacitive Reactance(XC)</td><td>2πfC<sup>-1</sup></td></tr>
         <tr><td>Inductive Reactance(XL)</td><td>2πfL</td></tr>
-        <tr><td>Parrallel Resistance R||R</td><td>(R1<sup>-1</sup> + R1<sup>-1</sup>... )<sup>-1</sup></td></tr>
+        <tr><td>Parrallel Resistance R||R</td><td>(R1<sup>-1</sup> + R2<sup>-1</sup>... )<sup>-1</sup></td></tr>
         <tr><td>Parrallel Capacitance C||C</td><td>C1 + C2...</td></tr>
-        <tr><td>Parrallel Inductance L||L</td><td>(L1<sup>-1</sup> + L1<sup>-1</sup>... )<sup>-1</sup></td></tr>
+        <tr><td>Parrallel Inductance L||L</td><td>(L1<sup>-1</sup> + L2<sup>-1</sup>... )<sup>-1</sup></td></tr>
         <tr><td>Series Resistance R~R</td><td>R1 + R2...</td></tr>
-        <tr><td>Series Capacitance C~C</td><td>(C1<sup>-1</sup> + C1<sup>-1</sup>... )<sup>-1</sup></td></tr>
+        <tr><td>Series Capacitance C~C</td><td>(C1<sup>-1</sup> + C2<sup>-1</sup>... )<sup>-1</sup></td></tr>
         <tr><td>Series Inductance L~L</td><td>L1 + L2...</td></tr>
         <tr><td>Series Voltage</td><td>V1 + V2...</td></tr>
         <tr><td>Series Current</td><td>Same through Leg</td></tr>
@@ -49,21 +49,19 @@ class Rlc extends React.Component {
       Simplify:<br />
       Consumption = Time * Voltage<sup>2</sup> / Impedence<br />
       Consumption = Time * Voltage<sup>2</sup> / √(Resistance<sup>2</sup> + (XL - XC)<sup>2</sup>)<br />
-      Consumption = (Time * Voltage<sup>2</sup>) / √(Resistance<sup>2</sup> + ((2π * Frequency * Inductance) - (2π*Frequency*Capacitance))<sup>2</sup>)<br />
-      With Abreviatins:<br />
-      Consumption = (t * E<sup>2</sup>) / √(R<sup>2</sup> + ((2πfL) - (2πfC))<sup>2</sup>)<br />
-      Simplify:<br />
-      Consumption = (t * E<sup>2</sup>) / √(R<sup>2</sup> + (2πf(L - C))<sup>2</sup>)<br /><br /><br /><br />
+      Consumption = (Time * Voltage<sup>2</sup>) / √(Resistance<sup>2</sup> + ((2π * Frequency * Inductance) - (2π*Frequency*Capacitance)<sup>-1</sup>)<sup>2</sup>)<br />
+      With Abreviations:<br />
+      Consumption = (t * E<sup>2</sup>) / √(R<sup>2</sup> + ((2πfL) - (2πfC)<sup>-1</sup>)<sup>2</sup>)<br /><br /><br /><br />
 
       Consumption =<br />
       t * E<sup>2</sup><br />
       -----------------------------<br />
-      √(R<sup>2</sup> + (2πf(L - C))<sup>2</sup>)<br /><br /><br /><br />
+      √(R<sup>2</sup> + ((2πfL) - (2πfC)<sup>-1</sup>)<sup>2</sup>)<br /><br /><br /><br />
 
       Power =<br />
       E<sup>2</sup><br />
       -----------------------------<br />
-      √(R<sup>2</sup> + (2πf(L - C))<sup>2</sup>)<br /><br /><br /><br />
+      √(R<sup>2</sup> + ((2πfL) - (2πfC)<sup>-1</sup>)<sup>2</sup>)<br /><br /><br /><br /><br /><br /><br /><br />
       </div>
     );
   }
