@@ -25,7 +25,7 @@ class Electronics extends React.Component {
       {name: 'Circuit Protection', slug: 'protection', component:<Protection /> },
       {name: 'Test Equipment', slug: 'test', component:<Test />},
       {name: 'Digital/logic gates', slug: 'digital', component:<Logic /> },
-      {name: 'Grounding/shielding/isolation/transient', slug: 'isolation', component:<Ground /> },
+      {name: 'Grounding', slug: 'isolation', component:<Ground /> },
       {name: 'PCBs', slug: 'pcb', component:<Pcb /> },
     ]
     const renderItems = Items.map(item => {

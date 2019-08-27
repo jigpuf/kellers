@@ -47,8 +47,13 @@ class Temple extends React.Component {
           23, 26, 34; Helaman 3, 4, 10; 3 Ne 11, 24; D&C 36, 42, 45, 57-60, 84,
           88, 93, 97, 101, 109, 110, 124, 127, 128, 133, 137, 138; Fascimile 2
           <li>Holy Order</li>
+          2 Ne 6, Alma 4-8, 13, 43, 49; Ether 12; D&C 77, 107, 127
           <li>New and Everlasting Covenant</li>
+          D&C 22, 131, 132
           <li>Tokens</li>
+          Gen 9, 17; Exodous 3, 12, 13; Leviticus 13; Numbers 17; Deut 22;
+          Joshua 2; Job 21; Isaiah 44; Mark 14; Philipians 1; 2 Thes 1, 3;
+          Alma 46, 47; Moroni 9; D&C 88, 104
           <li>Signs</li>
           <li>Yoke and Name of Christ</li>
           <li>Unction</li>
@@ -69,7 +74,13 @@ class Temple extends React.Component {
           <li>Hand</li>
           <li>Palm</li>
           <li>finger</li>
+          Exodous 8, 29, 31; Leviticus 4, 8, 9, 14, 16; Numbers 19; Deut 9;
+          2 Sam 21; 1 Kings 12; 1 Chron 20; 2 Chron 10; Psalms 8; Isaiah 17, 58,
+          59; Jeremiah 52; Dan 5; Math 23; Mark 7; Luke 11, 16; John 8, 20;
+          1 Ne 8, 17; 2 Ne 3, 12; Alma 10; 3 Ne 28; Ether 3; Ether 12; D&C 84;
+          Moses 6; JSH 1
           <li>knuckle</li>
+          None
           <li>Sure Sign</li>
           <li>Nail</li>
           <li>Wrist</li>
@@ -84,8 +95,12 @@ class Temple extends React.Component {
           <li>King</li>
           <li>Priestess</li>
           <li>Queen</li>
-          <li></li>
-          <li></li>
+          <li>Degrees</li>
+          <li>Order</li>
+          <li>Initiate, initiation</li>
+          <li>Oath</li>
+          <li>Covenant</li>
+          <li>Wash</li>
       </div>
     );
   }
