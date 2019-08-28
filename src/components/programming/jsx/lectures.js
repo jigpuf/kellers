@@ -4,8 +4,14 @@ class Lectures extends React.Component {
   render () {
     return (
       <div>
+      <a href='https://www.udemy.com/react-redux/learn/lecture/12531044?start=0#overview' target='_blank'
+      >Udemy:React beginner coarse</a><br />
+      <a href='https://www.udemy.com/react-redux-tutorial/learn/lecture/4669608?start=0#overview' target='_blank'
+      >Advanced react and redux</a><br />
+      <hr />
       <a href='https://www.w3schools.com/react/react_intro.asp' target='_blank'
       >W3 Schools React page</a><br />
+      <hr />
       <h4>New Boston:</h4>
         <a href='https://www.youtube.com/watch?v=-AbaV3nrw6E&list=PL6gx4Cwl9DGBuKtLgPR_zWYnrwv-JllpA' target='_blank'
         >React JS Tutorials for Beginners - 1 - Getting Started</a><br />
@@ -37,10 +43,7 @@ class Lectures extends React.Component {
         >JSX intro | React tutorial series</a><br />
         <hr />
 
-      <a href='https://www.udemy.com/react-redux/learn/lecture/12531044?start=0#overview' target='_blank'
-      >Udemy:React beginner coarse</a><br />
-      <a href='https://www.udemy.com/react-redux-tutorial/learn/lecture/4669608?start=0#overview' target='_blank'
-      >Advanced react and redux</a><br />
+
       </div>
     );
   }

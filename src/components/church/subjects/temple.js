@@ -101,6 +101,10 @@ class Temple extends React.Component {
           <li>Oath</li>
           <li>Covenant</li>
           <li>Wash</li>
+          <li>Holiness</li>
+          <li></li>
+          <li></li>
+          <li></li>
       </div>
     );
   }
