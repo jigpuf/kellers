@@ -278,14 +278,14 @@ class Movies extends React.Component {
         <li>13th Warrior</li>
         <li>***28 Days Later</li>
         <li>28 Weeks Later</li>
-        <li><a href="https://www.youtube.com/watch?v=UrIbxk7idYA">***300</a></li>
-        <li><a href="https://www.youtube.com/watch?v=_qApXdc1WPY">***9</a></li>
+        <li><a href="https://www.youtube.com/watch?v=UrIbxk7idYA" target='_blank'>***300</a></li>
+        <li><a href="https://www.youtube.com/watch?v=_qApXdc1WPY" target='_blank'>***9</a></li>
       </ol>
       <h3>To Watch</h3>
-        <li>Night Crawler</li>
-        <li>The Foreigner(Jackie Chan)</li>
-        <li>The edge</li>
-        <li></li>
+        <li><a href="https://www.youtube.com/watch?v=u1uP_8VJkDQ" target='_blank'>Night Crawler</a></li>
+        <li><a href="https://www.youtube.com/watch?v=om9YCk7ufHs" target='_blank'>The Foreigner(Jackie Chan)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=iqkcX_I5MMU" target='_blank'>The edge</a></li>
+        <li><a href="https://www.youtube.com/watch?v=kKsceLZu_wg" target='_blank'>From The Dark</a></li>
         <li></li>
         </div>
       </div>

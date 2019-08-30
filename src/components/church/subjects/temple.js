@@ -35,7 +35,7 @@ class Temple extends React.Component {
             Fig, Acasia, Almond
         <h4>Words</h4>
           <li>Temple</li>
-          1 Sam 1, 3, 22; 1 Kings 6-8, 14; 2 Kings 11, 12, 16, 18, 22-25;
+          1 Kings 6-8, 14; 2 Kings 11, 12, 16, 18, 22-25;
           1 Chron 6, 10, 17, 22, 28, 29; 2 Chron 2-6, 23, 26, 27, 29, 35, 36;
           Ezra 1-7; Nehemiah 12, 13; Isaiah 2, 6, 44, 66; Jeremiah 24, 50, 51;
           Ezekiel 8, 40-44; Daniel 5; Hosea 8; Joel 3; Amos 8; Jonah 2; Micah 1,
@@ -55,7 +55,9 @@ class Temple extends React.Component {
           Joshua 2; Job 21; Isaiah 44; Mark 14; Philipians 1; 2 Thes 1, 3;
           Alma 46, 47; Moroni 9; D&C 88, 104
           <li>Signs</li>
+          Gen 1;Exo 13, 31; Deut 6, 11; Isaiah 66,keep looking
           <li>Yoke and Name of Christ</li>
+          Matt 11
           <li>Unction</li>
           <li>anoint</li>
           <li>Tree</li>

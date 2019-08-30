@@ -67,6 +67,7 @@ class Instruments extends React.Component {
         <ul>
           {renderItems}
         </ul>
+        Include:Types, Circuit Diagram,Instalation, Pinout, Calibration, Software Assets, Calculation, Troubleshooting<br />
         <hr />
         {renderTier2Component}
       </div>
