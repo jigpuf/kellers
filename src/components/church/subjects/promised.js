@@ -4,6 +4,8 @@ class Promised extends React.Component {
   render () {
     return (
       <div>
+      <h3>Scripture:</h3>
+      1 Nephi 2, Leviticus 26<br />
       <a href="https://www.youtube.com/watch?v=Cug9KLkcdKU&t=1s" target ='_blank'
       >Was 9/11 a Warning from God and Prophesied by Isaiah? The American Promised Land Covenant</a><br />
       <a href="https://www.youtube.com/watch?v=a_edcw-HTMU&t=11s" target ='_blank'

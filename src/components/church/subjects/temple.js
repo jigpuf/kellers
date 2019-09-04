@@ -107,6 +107,48 @@ class Temple extends React.Component {
           <li></li>
           <li></li>
           <li></li>
+        <h4>Cosmic Time Periods</h4>
+          <li>Creation</li>
+          Day 1-7, Celestial, Holy of Holies
+          <li>Eden</li>
+          Opposition,Pre-Transgressional Terrestrial, Knowledge, Life, Holy Place
+          <li>Telestial</li>
+          Sacrifice,
+          <li>Terrestrial</li>
+
+          <li>Celestial</li>
+        <h4>Tribe symbolism</h4>
+        Gen 30,34,49; Deut 33<br />
+        <a href="https://www.quora.com/What-are-the-symbols-of-the-twelve-tribes-of-Israel" target='_blank'
+        >Tribe symbols</a><br />
+        <li>Reuben</li>
+        FirstBorn,Unstable Water,rising Sun<br />
+        <li>Simeon</li>
+        Walled City<br />
+        <li>Levi</li>
+        *Urim/Thumim/Breastplate<br />
+        <li>Judah</li>
+        *Lion,Scepter, Law, Gathered to him, Wine<br />
+        <li>Zebulon</li>
+        Ship<br />
+        <li>Issachar</li>
+        Donkey, sun and stars<br />
+        <li>Dan</li>
+        Judgement, scales, Serpent<br />
+        <li>Gad</li>
+        Tents<br />
+        <li>Asher</li>
+        Olive Tree<br />
+        <li>Naphtali</li>
+        Doe<br />
+        <li>Ephraim</li>
+        Ox<br />
+        <li>Joseph</li>
+        sheep, wheat,pyramid,vine, palm tree<br />
+        <li>Manasseh</li>
+        Unicorn<br />
+        <li>Benjamin</li>
+        Wolf, Temple/courtyard<br />
       </div>
     );
   }
