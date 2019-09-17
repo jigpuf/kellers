@@ -7,6 +7,7 @@ import Relationship from './subjects/relationship.js'
 import Are from './subjects/are.js'
 import Money from './subjects/money.js'
 import Promised from './subjects/promised.js'
+import MormonChristian from './subjects/mormonChristian.js'
 import Power from './subjects/power.js'
 import Symbolism from './subjects/symbolism.js'
 import Comandments from './subjects/comandments.js'
@@ -35,7 +36,7 @@ pickTier2 = (item) => {
       {name: 'What things are', slug: 'are', component:<Are />},
       {name: 'Money', slug: 'money', component: <Money />},
       {name: 'Promised Land covenant', slug: 'promised', component:<Promised />},
-      {name: 'Mormons Christian?', slug: 'mormonChristian'},
+      {name: 'Mormons Christian?', slug: 'mormonChristian', component:<MormonChristian />},
       {name: 'Power', slug: 'power', component:<Power />},
       {name: 'Symbolism', slug: 'symbolism', component:<Symbolism />},
       {name: 'Comandments', slug: 'comandments', component:<Comandments />},

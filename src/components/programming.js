@@ -28,7 +28,7 @@ class Programming extends React.Component {
       {name: 'HTML', slug: 'html', component:<Html /> },
       {name: 'CSS', slug: 'css', component:<Css /> },
       {name: 'Javascript', slug: 'js', component:<Js /> },
-      {name: 'JSX', slug: 'jsx', component:<Jsx /> },
+      {name: 'React', slug: 'react', component:<Jsx /> },
       {name: 'MongoDB', slug: 'mongo', component:<Mongo /> },
       {name: 'PLC', slug: 'plc', component:<PLC /> },
       {name: 'Node.JS', slug: 'node', component:<Node /> },

@@ -286,6 +286,9 @@ class Movies extends React.Component {
         <li><a href="https://www.youtube.com/watch?v=om9YCk7ufHs" target='_blank'>The Foreigner(Jackie Chan)</a></li>
         <li><a href="https://www.youtube.com/watch?v=iqkcX_I5MMU" target='_blank'>The edge</a></li>
         <li><a href="https://www.youtube.com/watch?v=kKsceLZu_wg" target='_blank'>From The Dark</a></li>
+        <li>Bricks(detective movie)</li>
+        <li></li>
+        <li></li>
         <li></li>
         </div>
       </div>

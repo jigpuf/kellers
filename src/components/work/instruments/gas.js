@@ -85,12 +85,7 @@ class Gas extends React.Component {
             <td>V +</td>
 
           </tr>
-          <tr>
-            <td>M</td>
-            <td>Power RTN</td>
-            <td>Black</td>
-            <td>RTN</td>
-          </tr>
+          <tr><td>M</td><td>Power RTN</td><td>Black</td><td>RTN</td></tr>
         </table>
         Notes: 4-20 and power share the same return.  Relay 1 is on the same
         board as the 4-20/v+ terminals.  Relay 2 is the top relay on the other
@@ -105,6 +100,12 @@ class Gas extends React.Component {
           <li>Blue-Fault</li>
           <li>Yellow-Warning</li>
           <li>Red-Alarm</li>
+        <h4>Gas Detector Pinout</h4>
+          <li>Bottom board</li>
+          Power, AI, Relay/Fault
+          <li>Top Board:</li>
+          Relay 2 Lower Alarm, Relay 3 High Alarm
+    
       </div>
     );
   }

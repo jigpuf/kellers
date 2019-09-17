@@ -24,7 +24,7 @@ class Notes extends React.Component {
             <p>Section Overview</p>
           <h5>Video5:PLC Automation</h5>
             <p>Talks about why we use PLC's</p>
-          <h5>Video6:RSLogix 500 Environment</h5>
+          <h5><mark>Video6:RSLogix 500 Environment</mark></h5>
             <p>
             1)Menu Bar-Go online, download/upload programs, coms, Verify Project<br />
             2)Project navigation Pane- File Structure<br />
@@ -32,9 +32,9 @@ class Notes extends React.Component {
             4)Instructions pane- where you get the drop in tools for program<br />
             5)Search Bar- to find tags in program<br />
             </p>
-          <h5>Video7:Basic Functionality:</h5>
+          <h5>***Video7:Basic Functionality:</h5>
             <p>
-            1) Under Program files we see the ladders.  Ladder 2 is the first
+            1)Under Program files we see the ladders.  Ladder 2 is the first
             ladder and it can't be erased<br />
             2)Ladder rungs start at 0 and go to end.<br />
             3)Jump to subroutine will jump to the different ladders in program
@@ -63,7 +63,7 @@ class Notes extends React.Component {
           <h5>Video12:Analog IO</h5>
             <p>
             1)Analog devices have many states.<br />
-            2)Typical ranges 4-20mA, 0-5VDC, (-10) to 10V<br />
+            2)Typical ranges 4-20mA, 0-5VDC, -10 to 10V<br />
             </p>
           <h5>Video13:IO Modules</h5>
             <p>
@@ -76,6 +76,45 @@ class Notes extends React.Component {
             </p>
         <hr />
         <h4>Section 4:Programming Fundamentals</h4>
+          <h5>Video15:Section Objectives</h5>
+          <p>Just a list of objectives.</p>
+          <h5>Video16:Data Management</h5>
+          <p>
+          Addressing:<br />
+          B=Boolean, digital and discreet all mean the same thing. 1 or 0<br />
+          N=Integers. No decimals<br />
+          F=Floats. Numbers with decimals<br />
+          I=Input
+          Addressing structure:<br />
+          [TYPE][FILE (if applicable)]:[ROW or WORD or SLOT][/ or .][BIT or WORD or CHANNEL]<br />
+          </p>
+          <h5>***17:Breakdown of addressing</h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+          <h5></h5>
+          <p></p>
+
         <hr />
       </div>
     );
