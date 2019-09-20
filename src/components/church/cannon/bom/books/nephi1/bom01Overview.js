@@ -8,7 +8,7 @@ class Bom01Overview extends React.Component {
         <div className='twoColumn'>
           <a href="https://www.youtube.com/watch?v=UQFyCmCzhYw" target='_blank'
           >1-Leaving Jerusalem</a><br />
-          <a href="https://www.youtube.com/watch?v=UQFyCmCzhYw" target='_blank'
+          <a href="https://www.youtube.com/watch?v=YqVXt-GHFIM" target='_blank'
           >2-Valley of Laman and Lemuel</a><br />
           <a href="https://www.youtube.com/watch?v=tGBpiuDxbZ4" target='_blank'
           >3-Plates of Brass</a><br />

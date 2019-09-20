@@ -89,8 +89,77 @@ class OldWorld extends React.Component {
         Jews return from Persia, they will re-establish Jerusalem, rebuild the
         temple, and crucify Jesus.
         </p>
-        <h4>Borders, Valleys, Wilderness, Rivers</h4>
+        <h4>Borders, Valley, Wilderness, River</h4>
         1 Ne 2-5, 7-17<br />
+        <p>
+        Lehi leaves his home in Chapter 2 after recieving instructions and
+        finding out that people want to kill him.  With all the necessary
+        provisions, Lehi takes his family.  These are Lehi, Sariah, Laman,
+        Lemuel, Sam, Nephi, and possibly sisters.(1 Ne 2:1-5)  He first traveled
+        to a place called the borders near the Red Sea.  He traveled down, so
+        he seems to be decending from his home and land down to the Red Sea.
+        In the modern book, it says in the wilderness in the borders which are
+        nearer the Red Sea; which it sounds like it is describing the borders,
+        but in the 1830 version, it says " and he travelled in the wilderness,
+        in the borders, which was nearer the Red Sea."  This could be Bad
+        English or, the different borders and are being differentiated, and they
+        are in the specific Borders that was nearer the sea. They travelled
+        three days to get to a valley next to a river that was actively flowing
+        water.  This means they will have traveled maybe 100 miles on foot or up
+        to 300 if they traveled on a pack animal depending on load.(1 Ne 2:6)
+        Lehi, Sariah, and their daughters possibly, would spend a long time in
+        this valley pver the next 15 chapters.  Lehi made this his base camp.
+        He would make several sacrifices on his alter showing he brought a lot
+        of things with him.  He offered a sacrifice on their first arival.  One
+        when his sons returned from the house of Laban. Finally he would offer
+        sacrifices after the return with Ishmael's family(1 Ne 2:7, 5:9, 7:22)
+        He gave the river the name of Laman and Named the Valley after Lemuel.
+        From these, he gave them the sermon on the river and valley.  He gave
+        them the symbols of strength and consistency in good things.(1 Ne 2:8-11)
+        When they rebeled, he confounded them with speech and made them shake
+        with the spirit.  This is something Nephi would do later as the mantel
+        passed to them when he would have to build a boat.(1 Ne 2:11-14, 17:1-52)
+        This valley is where nephi was converted before the trip to Laban's house.
+        This is the place where Sam believed on the words of Nephi.(1 Ne 2:16-17)
+        Lehi recieved his Fourth Communication from the Lord and sent out his 4
+        sons to to get the brass plates.(1 Ne 3:1-6) He and Sariah would argue
+        about whether their sons were going to die or not.(1Ne 5:1-7)  This is
+        where he lets on that he may have known how dangerous it really was,
+        when he tells Sariah that they would be delivered from Laban.(1 Ne 5:5)
+        It is in the valley of Lemuel when Sariah gained a testimony of Lehi's
+        mission(1 Ne 5:8)  Now there was another man in the group.  Zoram had
+        come back from Laban's house with the group.  The group is growing.
+        Lehi recieved the brass plates from his sons.  He learned his geneology
+        and had a scripture source.  here he was exposed to the prophecies about
+        the savior that would compliment his visions.(1 Ne 5:10-22)  Lehi has
+        his Fifth communication from the Lord instructing him to send his sons
+        again to the land of Jerusalem to get Ishmael and his family.(1Ne 7:1-3)
+        On the way back down to the base camp with Ishmael's family, there is an
+        uprising.  While Ishmael, and his wife and 3 daughters were faithful,
+        Two other daughters and two sons with their families rebeled.  This
+        tells us something about the size of the group.  There are the 4 sons of
+        Lehi, Ishmael and his wife, 5 daughters, and two sons with their families.
+        So there are at least 15 people, but as many as a couple hundred depending
+        on the extent of the families of the two married sons.  Ishmael is the
+        first to die, so his sons may be older themselves and have grand children
+        already.(1 Ne 7:6)  This is one of the few momonts where we see that
+        Laman and Lemuel do in fact have conciences.(1 Ne 7:19-20)  While in the
+        Valley Lehi and Nephi both had the vision showing the tree of life, the
+        scattering and gathering, the time of Christ, apostacy, formation of
+        America, the restoration, and downfall of their people.  They were even
+        shown the end of the world and probably the crowning and glorification
+        of the saints.  A very large portion of Nephite theology was formed in
+        the Valley of Laman.(1 Ne 8,10-15).  It seems like Laman and Lemuel are
+        beginning to make a turn in the right direction.  They were asking about
+        the vision as if they believed it.  They want answers and begin listening
+        to Nephi.  Nephi started having hopes for his brothers.(1 Ne 16:5)
+        Things almost look like they will go well when the 4 sons and Zoram all
+        get married and Nephi considers himself highly blessed.(1 Ne 16:7-8)
+        The next part of the story of the Valley of Lemuel is when Lehi recieves
+        instructions to travel and recieved the Liahona.  They would cross over
+        the River Laman heading South-South-East(1 Ne 16:9-13)
+        </p>
+
         <h4>Nahom, Shazer, Bountiful, Irreantum</h4>
         1 Ne 16-18<br />
         <h4>Tower of Babel/Great Tower</h4>
