@@ -1,12 +1,7 @@
 import React from 'react';
 import Bom01Overview from './nephi1/bom01Overview.js'
-import Bom0101 from './nephi1/bom01Chapters.js'
-import Bom0102 from './nephi1/bom01Chapters.js'
-import Bom0103 from './nephi1/bom01Chapters.js'
-import Bom0104 from './nephi1/bom01Chapters.js'
-import Bom0105 from './nephi1/bom01Chapters.js'
-import Bom0106 from './nephi1/bom01Chapters.js'
-import Bom0107 from './nephi1/bom01Chapters.js'
+import Bom0101 from './nephi1/bom0101.js'
+
 
 class Nephi1 extends React.Component {
   state= {
@@ -20,13 +15,28 @@ class Nephi1 extends React.Component {
   render () {
     const Items = [
         {name: 'Overview', slug: 'overview', component:<Bom01Overview />},
-        {name: '1', slug:'a', component:<Bom0101 />},
-        {name: '2', slug:'b', component:<Bom0102 />},
-        {name: '3', slug:'c', component:<Bom0103 />},
-        {name: '4', slug:'d', component:<Bom0104 />},
-        {name: '5', slug:'e', component:<Bom0105 />},
-        {name: '6', slug:'f', component:<Bom0106 />},
-        {name: '7', slug:'g', component:<Bom0107 />},
+        {name: '1', slug:'1', component:<Bom0101 />},
+        {name: '2', slug:'2',},
+        {name: '3', slug:'3',},
+        {name: '4', slug:'4',},
+        {name: '5', slug:'5',},
+        {name: '6', slug:'6',},
+        {name: '7', slug:'7',},
+        {name: '8', slug:'8',},
+        {name: '9', slug:'9',},
+        {name: '10', slug:'10',},
+        {name: '11', slug:'11',},
+        {name: '12', slug:'12',},
+        {name: '13', slug:'13',},
+        {name: '14', slug:'14',},
+        {name: '15', slug:'15',},
+        {name: '16', slug:'16',},
+        {name: '17', slug:'17',},
+        {name: '18', slug:'18',},
+        {name: '19', slug:'19',},
+        {name: '20', slug:'20',},
+        {name: '21', slug:'21',},
+        {name: '22', slug:'22',},
       ]
       const renderItems = Items.map(item => {
         return (

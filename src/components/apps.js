@@ -27,6 +27,7 @@ class Apps extends React.Component {
       {name: 'Companion Planting', slug: 'companion'},
       {name: 'Quotes', slug: 'quotes'},
       {name: 'Fitness Tracker', slug: 'fitness'},
+      {name: 'Stocks', slug: 'stocks'},
     ]
     const renderItems = Items.map(item => {
       return (
