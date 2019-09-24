@@ -89,7 +89,7 @@ class OldWorld extends React.Component {
         Jews return from Persia, they will re-establish Jerusalem, rebuild the
         temple, and crucify Jesus.
         </p>
-        <h4>Borders, Valley, Wilderness, River</h4>
+        <h4>Borders, Valley of Lemuel, Wilderness, River of Laman </h4>
         1 Ne 2-5, 7-17<br />
         <p>
         Lehi leaves his home in Chapter 2 after recieving instructions and
@@ -158,6 +158,17 @@ class OldWorld extends React.Component {
         The next part of the story of the Valley of Lemuel is when Lehi recieves
         instructions to travel and recieved the Liahona.  They would cross over
         the River Laman heading South-South-East(1 Ne 16:9-13)
+        </p>
+        <p>
+        The word JACHIN, in Hebrew, probably pronounced Ya-kayan, and meant, as
+        a verbal noun, He that strengthens; and thence, firm, stable, upright.
+        The word Boaz is Baaz which means Strong, Strength, Power, Might,
+        Refuge, Source of Strength, a Fort. The prefix means “with” or “in,” and
+        gives the word the force of the Latin gerund, roborando–Strengthening The
+        former word also means he will establish, or plant in an erect
+        position–from the verb Kun, he stood erect. It probably meant Active and
+        Vivifying Energy and Force; and Boaz, Stability, Permanence, in the
+        passive sense.” -Morals and Doogma
         </p>
 
         <h4>Nahom, Shazer, Bountiful, Irreantum</h4>
