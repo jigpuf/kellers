@@ -300,7 +300,10 @@ class Bom01Overview extends React.Component {
           <li>Gentiles</li>
         <h3>Locations:</h3>
           <li>Jerusalem 1</li>
-          <li>Land of Lehi's Inheritance</li>
+          <li>Babylon</li>
+          <li>Land of Lehi's Inheritance and home</li>
+          <li>Laban's Home</li>
+          <li>Ishmael's home</li>
           <li>Border of the Red Sea</li>
           <li>Promised Land</li>
           <li>Shazer</li>
