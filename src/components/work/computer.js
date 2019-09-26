@@ -13,7 +13,8 @@ import Confluence from './computer/confluence.js'
 import Jira from './computer/jira.js'
 import Sharex from './computer/sharex.js'
 import Borg from './computer/borg.js'
-import Bridge from'./computer/bridge.js'
+import Bridge from './computer/bridge.js'
+import Remote from './computer/remote.js'
 
 
 class Software extends React.Component {
@@ -42,6 +43,7 @@ class Software extends React.Component {
       {name: 'Sharex', slug:'sharex', component:<Sharex />},
       {name: 'Borg', slug:'borg', component:<Borg />},
       {name:'Bridge', slug:'bridge', component:<Bridge />},
+      {name:'Remote In', slug:'remote', component:<Remote />},
 
     ]
     const renderItems = Items.map(item => {
