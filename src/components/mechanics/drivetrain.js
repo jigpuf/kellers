@@ -14,6 +14,19 @@ class Drivetrain extends React.Component {
         <h3>Tacoma</h3>
           <li><a href='https://www.youtube.com/watch?v=UIJRulLkPOQ' target ='_blank'
           >Oil Change</a><br /></li>
+          <li><a href='https://www.youtube.com/watch?v=FglBsUEOSEk' target ='_blank'
+          >Transmission Service Toyota Tacoma 1995-2004</a><br /></li>
+          <li><a href='https://www.youtube.com/watch?v=aJIHhJRgl1g' target ='_blank'
+          >2004 Toyota Tacoma Tune Up</a><br /></li>
+          <li><a href='' target ='_blank'
+          ></a></li><br />
+          <li><a href='' target ='_blank'
+          ></a></li><br />
+          <li><a href='' target ='_blank'
+          ></a></li><br />
+
+
+
       </div>
     );
   }

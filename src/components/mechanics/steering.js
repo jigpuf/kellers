@@ -14,6 +14,16 @@ class Steering extends React.Component {
             >How to Replace a Front Wheel Bearing</a></li>
           <h3>Titan</h3>
           <h3>Tacoma</h3>
+            <li><a href='https://www.youtube.com/watch?v=p6smTU_SnPg' target ='_blank'
+            >Front Brake Pads & Rotor Replacement Toyota Tacoma 1995-2004</a></li>
+            <li><a href='https://www.youtube.com/watch?v=7SYZcjGAieA' target ='_blank'
+            >1995-2004 Toyota Tacoma front brakes remove & install rotors and pads</a></li>
+            <li><a href='' target ='_blank'
+            ></a></li><br />
+            <li><a href='' target ='_blank'
+            ></a></li><br />
+            <li><a href='' target ='_blank'
+            ></a></li><br />
       </div>
     );
   }
