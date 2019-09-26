@@ -1,7 +1,8 @@
 import React from 'react';
-import Tacoma from './mechanics/tacoma.js'
-import Titan from './mechanics/titan.js'
-import Generic from './mechanics/generic.js'
+import Drivetrain from './mechanics/drivetrain.js'
+import Steering from './mechanics/steering.js'
+import Electrical from './mechanics/electrical.js'
+import Stats from './mechanics/electrical.js'
 
 class Mechanics extends React.Component {
   state = {
@@ -14,9 +15,17 @@ class Mechanics extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Titan', slug: 'titan', component:<Titan /> },
-      {name: 'Tacoma', slug: 'tacoma', component:<Tacoma />},
-      {name: 'Generic', slug: 'generic', component:<Generic />},
+      {name: 'Drivetrain', slug: 'drivetrain', component: <Drivetrain />},
+      {name: 'Steering/Suspension', slug: 'steering', component: <Steering /> },
+      {name: 'AC/Heat', slug: 'ac' },
+      {name: 'Body/Chasis', slug: 'body' },
+      {name: 'Electrical', slug: 'electrical', component: <Electrical /> },
+      {name: 'Interior', slug: 'interior' },
+      {name: 'Fuel', slug: 'fuel' },
+      {name: 'Cooling', slug: 'cooling' },
+      {name: 'Lubrication', slug: 'lubrication' },
+      {name: 'Fluids', slug: 'fluids' },
+      {name: 'Stats', slug: 'Stats', component: <Stats /> },
     ]
     const renderItems = Items.map(item => {
       return (

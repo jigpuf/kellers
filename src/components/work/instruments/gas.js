@@ -144,9 +144,9 @@ class Gas extends React.Component {
             2,4,6.
             </p>
             main menu>system configuration>alarm settings>alarm functions>alarm1<br />
-            <strong>relay 2, enabled,Setpoint = 13%LEL, Release = 8%LEL</strong><br />
+            <strong>relay 2, enabled,Setpoint = 12%LEL, Release = 7%LEL</strong><br />
             main menu>system configuration>alarm settings>alarm functions>alarm2<br />
-            <strong>relay 3, enabled,Setpoint = 13%LEL, Release = 8%LEL</strong><br />
+            <strong>relay 3, enabled,Setpoint = 25%LEL, Release = 13%LEL</strong><br />
             main menu>system configuration>alarm settings>alarm functions>alarm3<br />
             <strong>disabled</strong><br />
             main menu>system configuration>alarm settings>alarm functions>twa alarm<br />
@@ -170,7 +170,7 @@ class Gas extends React.Component {
             Set this to the concentration of the cal gas that will be used<br />
             main>calibration mode> calibrate><br />
             Flow cal gas into sensor while doing this<br />
-            
+
       </div>
     );
   }
