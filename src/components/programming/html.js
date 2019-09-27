@@ -1,5 +1,6 @@
 import React from 'react';
 import Lectures from './html/lectures.js'
+import Table from './html/table.js'
 import Text from './html/text.js';
 
 class Html extends React.Component {
@@ -16,13 +17,13 @@ class Html extends React.Component {
 
       const Items = [
         {name: 'Lectures', slug: 'lectures', component:<Lectures />},
+        {name: 'Tables', slug: 'tables', component: <Table />},
         {name: 'Text', slug: 'text', component:<Text />},
         {name: 'Links', slug: 'links'},
         {name: 'Images', slug: 'images'},
         {name: 'Video', slug: 'video'},
         {name: 'Audio', slug: 'audio'},
         {name: 'Components', slug: 'components'},
-        {name: 'Tables', slug: 'tables'},
         {name: 'Blocks', slug: 'blocks'},
         {name: 'Class', slug: 'class'},
         {name: 'Id', slug: 'id'},

@@ -1,4 +1,5 @@
 import React from 'react';
+import Heading from './text/heading.js'
 
 class Text extends React.Component {
   state = {
@@ -13,10 +14,9 @@ class Text extends React.Component {
   render () {
 
     const Items = [
-      {name: 'Heading', slug: 'heading'},
+      {name: 'Heading', slug: 'heading', component: <Heading />},
       {name: 'Paragraph', slug: 'paragraph'},
       {name: 'List', slug: 'list'},
-      {name: 'Table', slug: 'table'},
       {name: 'Break', slug: 'break'},
       {name: 'Italic', slug: 'italic'},
       {name: 'Bold', slug: 'bold'},

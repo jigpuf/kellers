@@ -2,6 +2,7 @@ import React from 'react';
 import Bom01Overview from './nephi1/bom01Overview.js'
 import Bom0101 from './nephi1/bom0101.js'
 import Bom0102 from './nephi1/bom0102.js'
+import Bom0103 from './nephi1/bom0103.js'
 
 
 class Nephi1 extends React.Component {
@@ -18,7 +19,7 @@ class Nephi1 extends React.Component {
         {name: 'Overview', slug: 'overview', component:<Bom01Overview />},
         {name: '1', slug:'1', component:<Bom0101 />},
         {name: '2', slug:'2', component:<Bom0102 />},
-        {name: '3', slug:'3',},
+        {name: '3', slug:'3', component:<Bom0103 />},
         {name: '4', slug:'4',},
         {name: '5', slug:'5',},
         {name: '6', slug:'6',},

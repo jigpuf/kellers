@@ -12,8 +12,6 @@ class JGKimball extends React.Component {
         rent out the one in St. George and live in hell. I really would.” </li><br />
         <li>“Well, I've almost got the problem licked. I'm eighty now, and in a
         few more years, I think I'll have it completely under control. (referring to his love of coffee)” </li><br />
-        <li>“I may not always walk the straight and narrow, but I cross it as
-        often as I can.”</li><br />
         <li>“Cut me off from the Church? They can't do that! I repent do damn
         fast!”</li><br />
         <li></li><br />
