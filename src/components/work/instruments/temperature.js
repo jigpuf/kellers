@@ -11,6 +11,13 @@ class Temperature extends React.Component {
           <tr><td>K</td><td>Yellow</td><td>Red</td><td>Nickel-Chromium/Nickel-Alumel</td></tr>
           <tr><td>E</td><td>Purple</td><td>Red</td><td>Nickel-Chromium/Constantan</td></tr>
           </table>
+          <br /><br />
+          
+          TC Temp Tables:
+          <a href='https://www.thermocoupleinfo.com/type-e-thermocouple.htm' target='_blank'
+          >(E-Type)</a>
+          <a href='https://www.thermocoupleinfo.com/type-k-thermocouple.htm' target='_blank'
+          >(K-Type)</a>
         <h3>TC Checkout</h3>
           <img src='/instrumentation/tcMeasure.jpeg' />
         <h3>TC Simulate</h3>
@@ -24,7 +31,11 @@ class Temperature extends React.Component {
           <tr><td>3</td><td>Green/Feedback -</td></tr>
           <tr><td>4</td><td>Black/Excite -</td></tr>
           <h4>Connectors:</h4>
-
+            <tr><th>Side</th><th>Connector Type</th><th>Connector Part#</th></tr>
+            <tr><td>Instrument</td><td>MS Pin</td><td>?</td></tr>
+            <tr><td>Channel</td><td>MS Socket</td><td>?</td></tr>
+            <tr><td>Instrument</td><td>M8 Pin</td><td>?</td></tr>
+            <tr><td>Channel</td><td>M8 Socket</td><td>?</td></tr>
           <h3>RTD Checkout</h3>
           Meter Setting: measure RTD PT100 4 Wire<br />
           <table>
