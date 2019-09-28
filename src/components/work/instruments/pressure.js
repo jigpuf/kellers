@@ -36,6 +36,31 @@ class Pressure extends React.Component {
         NPD-5604; [NPD-5604],937500,-3400,.068947,0 ; -.4 ; #23453; 1033<br />
         For 10mA: (((.01 A*(937500 PSI/AMP))-3400 PSI)*(.068947 Bar/PSI)-.4 Bar<br />
         Answer = 411 bar<br />
+
+
+
+
+
+
+        <h3>Information</h3>
+          Model:<br />
+          Part Number:<br />
+          Manufacturer website<br />
+          Videos:<br />
+          Manual:<br />
+        <h3>Physical Setup</h3>
+          Circuit Diagram:<br />
+          Mounting:<br />
+          Pinouts:<br />
+          Connectors<br />
+        <h3>Setup</h3>
+          Software<br />
+          Paramaters<br />
+        <h3>Calibration</h3>
+        <h3>Troubleshooting</h3>
+          Simulate Instrument:<br />
+          Instrument Checkout:<br />
+        <h3>Adding to software</h3>
       </div>
     );
   }

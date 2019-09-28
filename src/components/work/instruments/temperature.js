@@ -12,7 +12,7 @@ class Temperature extends React.Component {
           <tr><td>E</td><td>Purple</td><td>Red</td><td>Nickel-Chromium/Constantan</td></tr>
           </table>
           <br /><br />
-          
+
           TC Temp Tables:
           <a href='https://www.thermocoupleinfo.com/type-e-thermocouple.htm' target='_blank'
           >(E-Type)</a>
@@ -54,6 +54,31 @@ class Temperature extends React.Component {
           </table>
           <img src='/instrumentation/fluke725RTD.svg' />
           <h3>Simulate</h3>
+
+
+
+
+
+
+          <h3>Information</h3>
+            Model:<br />
+            Part Number:<br />
+            Manufacturer website<br />
+            Videos:<br />
+            Manual:<br />
+          <h3>Physical Setup</h3>
+            Circuit Diagram:<br />
+            Mounting:<br />
+            Pinouts:<br />
+            Connectors<br />
+          <h3>Setup</h3>
+            Software<br />
+            Paramaters<br />
+          <h3>Calibration</h3>
+          <h3>Troubleshooting</h3>
+            Simulate Instrument:<br />
+            Instrument Checkout:<br />
+          <h3>Adding to software</h3>
       </div>
     );
   }

@@ -1,40 +1,32 @@
 import React from 'react';
 
 class Books extends React.Component {
-  state = {
-    tier1: undefined,
-  }
-  pickTier1  = (item) => {
-    return () => {
-      this.setState({tier1:item})
-    }
-  }
   render () {
-    const Items = [
-      {name: 'Author', slug: 'author' },
-      {name: 'Genre', slug: 'genre' },
-      {name: 'Title', slug: 'title' },
-    ]
-    const renderItems = Items.map(item => {
-      return (
-        <button
-          key={item.slug}
-          onClick={this.pickTier1(item.slug)}
-          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
-        >{item.name}</button>
-      )
-    })
-    const tier1 = Items.filter(item => {
-      return this.state.tier1 === item.slug;
-    });
-    const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
-        <ul>
-          {renderItems}
-        </ul>
-        <hr />
-        {renderTier2Component}
+        <h2>Books</h2>
+          <h3>Favorite Books</h3>
+          <table>
+            <tr><th>Author</th><th>Book</th><th>Genre></th></tr>
+            <tr><td>CS Lewis</td><td>Mere Christianity</td><td>Religious</td></tr>
+            <tr><td>CS Lewis</td><td>Screwtape Letters</td><td>Religious</td></tr>
+            <tr><td>CS Lewis</td><td>All chronicles of Narnia</td><td>Fantasy</td></tr>
+            <tr><td>CS Lewis</td><td>On the weight of Glory</td><td>Religious</td></tr>
+            <tr><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td></tr>
+          </table>
+          <h3>Books to Read</h3>
+          <table>
+            <tr><th>Author</th><th>Book</th><th>Genre</th></tr>
+            <tr><td></td><td>The Monk</td><td>Horror</td></tr>
+            <tr><td></td><td>Flatland</td><td></td></tr>
+            <tr><td></td><td>Island of Dr. Moreau</td><td></td></tr>
+            <tr><td></td><td>McTeague</td><td></td></tr>
+            <tr><td></td><td>Moby Dick</td><td></td></tr>
+            <tr><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td></tr>
+          </table>
       </div>
     )
     }

@@ -168,13 +168,18 @@ class Movies extends React.Component {
         >***Hector's Search for Happiness</a></li>
         <li><a href='https://www.youtube.com/watch?v=iWFVAIbIkS4' target='_blank'
         >***Hidden</a></li>
-        <li>Hogfather</li>
-        <li>Hotel Budapest</li>
-        <li><a href='' target='_blank'
+        <li><a href='https://www.youtube.com/watch?v=cSOUIuGcY74' target='_blank'
+        >Hogfather</a></li>
+        <li><a href='https://www.youtube.com/watch?v=1Fg5iWmQjwk' target='_blank'
+        >Hotel Budapest</a></li>
+        <li><a href='https://www.youtube.com/watch?v=-GLVaSYzAvg' target='_blank'
         >***House of Flying Daggers</a></li>
-        <li>Hugo</li>
-        <li>Idle Hands</li>
-        <li>In the Mouth of Madness</li>
+        <li><a href='https://www.youtube.com/watch?v=Hv3obL9HqyY' target='_blank'
+        >Hugo</a></li>
+        <li><a href='https://www.youtube.com/watch?v=HcVrp--9UUc' target='_blank'
+        >Idle Hands</a></li>
+        <li><a href='https://www.youtube.com/watch?v=AlugldzO9zY' target='_blank'
+        >In the Mouth of Madness</a></li>
         <li>***Indiana Jones</li>
         <li>***Indiana Jones 2</li>
         <li>***Indiana Jones 3</li>
@@ -282,14 +287,28 @@ class Movies extends React.Component {
         <li><a href="https://www.youtube.com/watch?v=_qApXdc1WPY" target='_blank'>***9</a></li>
       </ol>
       <h3>To Watch</h3>
-        <li><a href="https://www.youtube.com/watch?v=u1uP_8VJkDQ" target='_blank'>Night Crawler</a></li>
-        <li><a href="https://www.youtube.com/watch?v=om9YCk7ufHs" target='_blank'>The Foreigner(Jackie Chan)</a></li>
-        <li><a href="https://www.youtube.com/watch?v=iqkcX_I5MMU" target='_blank'>The edge</a></li>
-        <li><a href="https://www.youtube.com/watch?v=kKsceLZu_wg" target='_blank'>From The Dark</a></li>
-        <li>Bricks(detective movie)</li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><a href="https://www.youtube.com/watch?v=u1uP_8VJkDQ" target='_blank'
+        >Night Crawler</a></li>
+        <li><a href="https://www.youtube.com/watch?v=om9YCk7ufHs" target='_blank'
+        >The Foreigner(Jackie Chan)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=iqkcX_I5MMU" target='_blank'
+        >The edge</a></li>
+        <li><a href="https://www.youtube.com/watch?v=kKsceLZu_wg" target='_blank'
+        >From The Dark</a></li>
+        <li><a href="https://www.youtube.com/watch?v=4Zfw8__A7ps" target='_blank'
+        >Bricks(detective movie)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=HkZYbOH0ujw" target='_blank'
+        >It follows</a></li>
+        <li><a href="https://www.youtube.com/watch?v=5F-YEbm65a8" target='_blank'
+        >What happened to Monday</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Nfoa6QKe4e0" target='_blank'
+        >Taking Lives</a></li>
+        <li><a href="https://www.youtube.com/watch?v=yg9GW3Krsi8" target='_blank'
+        >Horns</a></li>
+        <li><a href="https://www.youtube.com/watch?v=VucLIxy23TA" target='_blank'
+        >Snake Eyes</a></li>
+        <li><a href="https://www.youtube.com/watch?v=eUdM9vrCbow" target='_blank'
+        >Django Unchained</a></li>
         </div>
       </div>
     );
