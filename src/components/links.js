@@ -38,6 +38,8 @@ class Links extends React.Component {
           >LDS COnference corpus</a><br />
           <a href='https://speeches.byu.edu/' target='_blank'
           >BYU Speeches</a><br />
+          <a href='https://bookofmormoncentral.org/' target='_blank'
+          >Book of Mormon Central</a><br />
           <hr />
         <h4>Cooking</h4>
           <a href='https://www.epicurious.com/' target='_blank'

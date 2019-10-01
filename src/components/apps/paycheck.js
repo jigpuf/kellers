@@ -2,13 +2,13 @@ import React from 'react';
 
 class Paycheck extends React.Component {
   state ={
-    hourlyWage: 20,
+    hourlyWage: 34,
     hoursWorked: 110,
-    insurance: 140,
+    insurance: 203.51,
     setAside: 1500,
     effectiveHours:125,
     espp:.15,
-    taxes: 0,
+    taxes: .136,
     selectedOption: 'night',
     shiftWage: 1.085,
   }
@@ -109,20 +109,29 @@ class Paycheck extends React.Component {
           <tr>
             <td><strong>Annual ESPP</strong></td>
             <td>{parseInt(this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage * 26 * this.state.espp * 1.176)}</td>
-            <td><strong>Tax Rate:</strong></td>
-            <td>{}</td>
+            <td><strong>Taxes:</strong></td>
+            <td>{parseInt(this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage * 26 * this.state.taxes)}</td>
           </tr>
         </table>
-        Bills:mortgage, car insurance, electric, water, gas,<br />
+        <br />< br />
+        <table>
+          <tr><th>Bill</th><th>Amount</th></tr>
+          <tr><td>Mortgage</td><td></td></tr>
+          <tr><td>Car Insurance</td><td></td></tr>
+          <tr><td>Electricity</td><td></td></tr>
+          <tr><td>Water</td><td></td></tr>
+          <tr><td>Gas</td><td></td></tr>
+          <tr><td>Internet</td><td></td></tr>
+          <tr><td>Fuel</td><td></td></tr>
+          <tr><td>Cell Phones</td><td></td></tr>
+          <tr><td>Car Payment</td><td></td></tr>
+          <tr><td>Total</td><td></td></tr>
+        </table>
         After Bills:<br />
         Amount paid to interest:<br />
         Amount paid to principle:<br />
         annual stuff:
       </div>
-      //Need to get the tax set up and insurance corrected
-      //Radio button needs to adjust Shift Wage
-      //Need to add bills afterwards
-      //Start building money spent on interest etc.
     );
   }
 }

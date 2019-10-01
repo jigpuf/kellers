@@ -14,6 +14,7 @@ class Apps extends React.Component {
   render () {
     const Items = [
       {name: 'Paycheck', slug: 'paycheck', component:<Paycheck /> },
+      {name: 'Clockout', slug: 'clockout'},
       {name: 'Dice Rolling Tool', slug: 'dice', component: <Dice /> },
       {name: 'Battleship', slug: 'battleship' },
       {name: 'Tic-Tac-Toe', slug: 'ttt' },

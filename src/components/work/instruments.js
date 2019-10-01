@@ -17,6 +17,7 @@ import Pid from './instruments/pid.js'
 import Avionics from './instruments/avionics.js'
 import Aws from './instruments/aws.js'
 import Coms from './instruments/coms.js'
+import FileSync from './instruments/sync.js'
 
 class Instruments extends React.Component {
   state = {
@@ -47,6 +48,7 @@ class Instruments extends React.Component {
       {name: 'Avionics Box', slug:'avionics', component:<Avionics />},
       {name: 'AWS Box', slug:'aws', component:<Aws />},
       {name: 'Coms', slug:'coms', component:<Coms />},
+      {name: 'File_Sync', slug:'sync', component:<FileSync />},
 
     ]
     const renderItems = Items.map(item => {
