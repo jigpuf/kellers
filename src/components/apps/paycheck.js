@@ -4,13 +4,22 @@ class Paycheck extends React.Component {
   state ={
     hourlyWage: 34,
     hoursWorked: 110,
-    insurance: 203.51,
+    insurance: 203,
     setAside: 1500,
     effectiveHours:125,
     espp:.15,
     taxes: .136,
     selectedOption: 'night',
     shiftWage: 1.085,
+    mortgage:1400,
+    carInsurance:60,
+    electricity:100,
+    water:30,
+    gas:25,
+    internet:150,
+    fuel:250,
+    cellPhones:75,
+    carPayment:200,
   }
   changeHourlyWage = (event) => {
     const wage = parseFloat(event.target.value,10);
@@ -63,17 +72,18 @@ class Paycheck extends React.Component {
           <input type="radio" name="shift" value="graveyard" onChange={this.handleOptionChange}
           checked={this.state.selectedOption === 'graveyard'}/> Graveyard
         </form>
-        Hourly Pay:
-        <input type='number' value={this.state.hourlyWage} onChange={this.changeHourlyWage}/><br />
-        Hours Worked:
-        <input type='number' value={this.state.hoursWorked} onChange={this.changeHoursWorked}/><br />
-        Cost of Insurance:
-        <input type='number' value={this.state.insurance} onChange={this.changeinsurance}/><br />
-        Amount to set aside:
-        <input type='number' value={this.state.setAside} onChange={this.changeSetAside}/><br />
-        ESPP percentage:
-        <input type='number' value={this.state.espp} onChange={this.changeEspp}/><br />
-
+        <table>
+          <tr><td>Hourly Pay</td><td><input type='number'
+          value={this.state.hourlyWage} onChange={this.changeHourlyWage}/></td></tr>
+          <tr><td>Hours Worked</td><td><input type='number'
+          value={this.state.hoursWorked} onChange={this.changeHoursWorked}/></td></tr>
+          <tr><td>Cost of Insurance</td><td><input type='number'
+          value={this.state.insurance} onChange={this.changeinsurance}/></td></tr>
+          <tr><td>Amount to set aside</td><td><input type='number'
+          value={this.state.setAside} onChange={this.changeSetAside}/></td></tr>
+          <tr><td>ESPP percentage</td><td><input type='number'
+          value={this.state.espp} onChange={this.changeEspp}/></td></tr>
+        </table><br />
 
         <table>
           <tr>
@@ -98,7 +108,10 @@ class Paycheck extends React.Component {
             <td><strong>Gross Income:</strong></td>
             <td>{parseInt(this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage)}</td>
             <td><strong>Net Income:</strong></td>
-            <td>{parseInt((((this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage) - this.state.insurance) * (1-this.state.taxes)) - (this.state.hourlyWage * this.state.effectiveHours) * this.state.espp)}</td>
+            <td>{parseInt((((this.state.hourlyWage * this.state.effectiveHours
+              * this.state.shiftWage) - this.state.insurance)
+              * (1-this.state.taxes)) - (this.state.hourlyWage
+              * this.state.effectiveHours) * this.state.espp)}</td>
           </tr>
           <tr>
             <td><strong>Projected annual Gross:</strong></td>
@@ -116,21 +129,27 @@ class Paycheck extends React.Component {
         <br />< br />
         <table>
           <tr><th>Bill</th><th>Amount</th></tr>
-          <tr><td>Mortgage</td><td></td></tr>
-          <tr><td>Car Insurance</td><td></td></tr>
-          <tr><td>Electricity</td><td></td></tr>
-          <tr><td>Water</td><td></td></tr>
-          <tr><td>Gas</td><td></td></tr>
-          <tr><td>Internet</td><td></td></tr>
-          <tr><td>Fuel</td><td></td></tr>
-          <tr><td>Cell Phones</td><td></td></tr>
-          <tr><td>Car Payment</td><td></td></tr>
-          <tr><td>Total</td><td></td></tr>
+          <tr><td>Mortgage</td><td>{this.state.mortgage}</td></tr>
+          <tr><td>Car Insurance</td><td>{this.state.carInsurance}</td></tr>
+          <tr><td>Electricity</td><td>{this.state.electricity}</td></tr>
+          <tr><td>Water</td><td>{this.state.water}</td></tr>
+          <tr><td>Gas</td><td>{this.state.gas}</td></tr>
+          <tr><td>Internet</td><td>{this.state.internet}</td></tr>
+          <tr><td>Fuel</td><td>{this.state.fuel}</td></tr>
+          <tr><td>Cell Phones</td><td>{this.state.cellPhones}</td></tr>
+          <tr><td>Car Payment</td><td>{this.state.carPayment}</td></tr>
+          <tr><td>Total</td><td>{this.state.mortgage + this.state.carInsurance
+            + this.state.electricity + this.state.water + this.state.gas
+            + this.state.internet + this.state.fuel + this.state.cellPhones
+            + this.state.carPayment}</td></tr>
+          <tr><td>After Bills</td><td>{parseInt(((((this.state.hourlyWage * this.state.effectiveHours
+            * this.state.shiftWage) - this.state.insurance)
+            * (1-this.state.taxes)) - (this.state.hourlyWage
+            * this.state.effectiveHours) * this.state.espp))-(this.state.mortgage + this.state.carInsurance
+              + this.state.electricity + this.state.water + this.state.gas
+              + this.state.internet + this.state.fuel + this.state.cellPhones
+              + this.state.carPayment)}</td></tr>
         </table>
-        After Bills:<br />
-        Amount paid to interest:<br />
-        Amount paid to principle:<br />
-        annual stuff:
       </div>
     );
   }

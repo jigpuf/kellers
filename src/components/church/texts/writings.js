@@ -7,6 +7,19 @@ class Writings extends React.Component {
       <h3>Books</h3>
       <li>Science of Theology - Parley P. Pratt</li>
       <li>Teachings of the Prophet Joseph Smith</li>
+      <li>Articles of Faith- James Talmage</li>
+      <li>Jesus the Christ - James Talmage</li>
+      <li>Discourse of Brigham Young</li>
+      <li>Journal of Discourses</li>
+      <li>History of the Church - Joseph Smith Jr.</li>
+      <li>Answers to Gospel Questions</li>
+      <li>Mormon Doctrine</li>
+      <li>Encycplopedia of Mormonism</li>
+      <li>Miracle of Forgiveness</li>
+      <li>Lehi in the Desert</li>
+      <li>One eternal Round</li>
+      <li></li>
+      <li></li>
       <h3>Articles</h3>
       <li>Wentworth Letter</li>
       <li>Oliver Cowdery's letters about Moroni in messenger and advocate</li>
