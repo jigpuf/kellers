@@ -1,7 +1,10 @@
 import React from 'react';
 import Lectures from './html/lectures.js'
-import Table from './html/table.js'
+import Display from './html/display.js'
 import Text from './html/text.js';
+import Media from './html/media.js'
+import Layouts from './html/layouts.js'
+import Identifiers from './html/identifiers'
 
 class Html extends React.Component {
     state = {
@@ -17,23 +20,13 @@ class Html extends React.Component {
 
       const Items = [
         {name: 'Lectures', slug: 'lectures', component:<Lectures />},
-        {name: 'Tables', slug: 'tables', component: <Table />},
         {name: 'Text', slug: 'text', component:<Text />},
-        {name: 'Links', slug: 'links'},
-        {name: 'Images', slug: 'images'},
-        {name: 'Video', slug: 'video'},
-        {name: 'Audio', slug: 'audio'},
-        {name: 'Components', slug: 'components'},
-        {name: 'Blocks', slug: 'blocks'},
-        {name: 'Class', slug: 'class'},
-        {name: 'Id', slug: 'id'},
-        {name: 'File Paths', slug: 'files'},
-        {name: 'Head', slug: 'head'},
-        {name: 'Layouts', slug: 'layouts'},
-        {name: 'Responsive', slug: 'responsive'},
-        {name: 'Charset', slug: 'charset'},
+        {name: 'Display', slug: 'display', component: <Display />},
+        {name: 'Media', slug: 'media', component:<Media />},
+        {name: 'Layouts', slug: 'layouts', component:<Layouts />},
+        {name: 'Atributes', slug: 'atributes'},
+        {name: 'Identifiers', slug: 'identifiers', component:<Identifiers />},
         {name: 'Forms', slug: 'forms'},
-        {name: 'Symantics', slug: 'symantics'},
         {name: 'Plugins', slug: 'plugins'},
         {name: 'Drag/Drop', slug: 'drag'},
         {name: 'Web Storage', slug: 'storage'},
