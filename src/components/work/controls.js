@@ -1,7 +1,11 @@
 import React from 'react';
-import Numbers from './parts/numbers.js'
+import Ni from './controls/ni.js'
+import Plc from './controls/plc.js'
+import Pid from './controls/pid.js'
+import Channels from './controls/channels.js'
+import FileSync from './controls/sync.js'
 
-class Parts extends React.Component {
+class Controls extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -12,9 +16,16 @@ class Parts extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Lookups', slug: 'lookups',},
-      {name: 'Process', slug: 'process',},
-      {name: 'Part Numbers', slug: 'numbers', component: <Numbers />},
+      {name: 'National Instruments', slug: 'ni', component:<Ni />},
+      {name: 'Allen Bradley', slug: 'plc', component:<Plc />},
+      {name: 'Watlow Controller', slug: 'watlow',},
+      {name: 'Siemens', slug: 'siemens',},
+      {name: 'PID Theory', slug:'pid', component:<Pid />},
+      {name: 'Channel Types', slug:'channels', component:<Channels />},
+      {name: 'File_Sync', slug:'sync', component:<FileSync />},
+      {name: 'Stat Lines', slug: 'stat'},
+      {name: 'AWS', slug: 'aws'},
+
     ]
     const renderItems = Items.map(item => {
       return (
@@ -41,5 +52,4 @@ class Parts extends React.Component {
     }
   }
 
-
-export default Parts;
+export default Controls;

@@ -1,17 +1,17 @@
 import React from 'react';
 import Electronics from './work/electronics.js'
 import Instruments from './work/instruments.js'
-import Daqs from './work/daqs.js'
+import Controls from './work/controls.js'
 import Panels from './work/panels.js'
 import Cables from './work/cables.js'
 import Raceways from './work/raceways.js'
 import Computer from './work/computer.js'
 import Power from './work/power.js'
 import Tools from './work/tools.js'
-import Parts from './work/parts.js'
+import Inventory from './work/inventory.js'
 import Codes from './work/codes.js'
 import Avionics from './work/avionics.js'
-import Telecom from './work/telecom.js'
+import Network from './work/network.js'
 import Training from './work/training.js'
 import TimeOff from './work/timeOff.js'
 
@@ -27,18 +27,18 @@ class Work extends React.Component {
   render () {
     const tier1Items = [
       {name: 'Electronics', slug: 'electronics', component:<Electronics />},
-      {name: 'Instrumentation', slug: 'instruments', component:<Instruments /> },
-      {name: 'DAQS', slug: 'daqs', component:<Daqs />},
+      {name: 'Instruments', slug: 'instruments', component:<Instruments /> },
+      {name: 'Controls', slug: 'controls', component:<Controls />},
       {name: 'Panels', slug: 'panels', component:<Panels />},
       {name: 'Cables', slug: 'cables', component:<Cables /> },
       {name: 'Raceways', slug: 'raceways', component:<Raceways />},
       {name: 'Computer Skills', slug: 'computer', component:<Computer />},
       {name: 'Power Distribution', slug: 'power', component:<Power />},
       {name: 'Tools', slug: 'tools', component:<Tools />},
-      {name: 'Parts', slug: 'parts', component:<Parts />},
+      {name: 'Inventory', slug: 'inventory', component:<Inventory />},
       {name: 'Codes', slug: 'codes', component:<Codes />},
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},
-      {name: 'Telecom', slug: 'telecom', component:<Telecom /> },
+      {name: 'Networking', slug: 'network', component:<Network /> },
       {name: 'Training', slug: 'training', component:<Training />},
       {name: 'TimeOff', slug: 'time', component:<TimeOff />},
     ]

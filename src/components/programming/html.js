@@ -4,7 +4,10 @@ import Display from './html/display.js'
 import Text from './html/text.js';
 import Media from './html/media.js'
 import Layouts from './html/layouts.js'
+import Atributes from './html/attributes.js'
 import Identifiers from './html/identifiers'
+import Forms from './html/forms.js'
+import Storage from './html/storage.js'
 
 class Html extends React.Component {
     state = {
@@ -24,12 +27,10 @@ class Html extends React.Component {
         {name: 'Display', slug: 'display', component: <Display />},
         {name: 'Media', slug: 'media', component:<Media />},
         {name: 'Layouts', slug: 'layouts', component:<Layouts />},
-        {name: 'Atributes', slug: 'atributes'},
+        {name: 'Atributes', slug: 'atributes', component:<Atributes />},
         {name: 'Identifiers', slug: 'identifiers', component:<Identifiers />},
-        {name: 'Forms', slug: 'forms'},
-        {name: 'Plugins', slug: 'plugins'},
-        {name: 'Drag/Drop', slug: 'drag'},
-        {name: 'Web Storage', slug: 'storage'},
+        {name: 'Forms', slug: 'forms', component:<Forms />},
+        {name: 'Web Storage', slug: 'storage', component:<Storage />},
       ]
       const renderItems = Items.map(item => {
         return (

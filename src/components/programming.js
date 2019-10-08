@@ -1,15 +1,16 @@
 import React from 'react'
 import Typing from './programming/typing.js'
-import Methodology from './programming/methodology.js'
-import Cpp from './programming/cpp.js'
 import Html from './programming/html.js'
 import Css from './programming/css.js'
 import Js from './programming/js.js'
 import Jsx from './programming/jsx.js'
+import Methodology from './programming/methodology.js'
+import Cpp from './programming/cpp.js'
 import Mongo from './programming/mongo.js'
 import PLC from './programming/plc.js'
 import Node from './programming/node.js'
 import Labview from './programming/labview.js'
+import Command from '././work/computer/command.js'
 
 class Programming extends React.Component {
   state = {
@@ -23,16 +24,17 @@ class Programming extends React.Component {
   render () {
     const Items = [
       {name: 'Typing', slug: 'typing', component:<Typing /> },
-      {name: 'Methodology', slug: 'method', component:<Methodology /> },
-      {name: 'c++', slug: 'c', component:<Cpp /> },
       {name: 'HTML', slug: 'html', component:<Html /> },
       {name: 'CSS', slug: 'css', component:<Css /> },
       {name: 'Javascript', slug: 'js', component:<Js /> },
       {name: 'React', slug: 'react', component:<Jsx /> },
+      {name: 'Methodology', slug: 'method', component:<Methodology /> },
+      {name: 'c++', slug: 'c', component:<Cpp /> },
       {name: 'MongoDB', slug: 'mongo', component:<Mongo /> },
       {name: 'PLC', slug: 'plc', component:<PLC /> },
       {name: 'Node.JS', slug: 'node', component:<Node /> },
       {name: 'Labview', slug: 'labview', component:<Labview /> },
+      {name: 'Command Line', slug: 'command', component:<Command />}
     ]
     const renderItems = Items.map(item => {
       return (

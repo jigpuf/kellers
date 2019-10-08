@@ -1,7 +1,7 @@
 import React from 'react';
-import Osi from './telecom/osi.js'
+import Numbers from './inventory/numbers.js'
 
-class Networking extends React.Component {
+class Inventory extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -12,9 +12,9 @@ class Networking extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'OSI Model', slug: 'osi', component:<Osi />},
-
-
+      {name: 'Lookups', slug: 'lookups',},
+      {name: 'Process', slug: 'process',},
+      {name: 'Part Numbers', slug: 'numbers', component: <Numbers />},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -41,4 +41,5 @@ class Networking extends React.Component {
     }
   }
 
-export default Networking;
+
+export default Inventory;

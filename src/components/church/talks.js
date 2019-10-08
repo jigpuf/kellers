@@ -1,8 +1,7 @@
 import React from 'react';
 import Presidents from './talks/presidents.js';
-import Apostles from './talks/apostles.js';
 import General from './talks/general.js';
-import Other from './talks/other.js';
+import Educators from './talks/educators.js';
 
 class Talks extends React.Component {
   state = {
@@ -16,9 +15,8 @@ class Talks extends React.Component {
   render () {
     const Items = [
       {name:'Presidents', slug:'presidents', component:<Presidents />},
-      {name:'Apostles', slug:'apostles', component:<Apostles />},
       {name:'General Authorities', slug:'general', component:<General />},
-      {name:'Other People', slug:'other', component:<Other />},
+      {name:'Educators', slug:'educators', component:<Educators />},
     ]
     const renderItems = Items.map(item => {
       return (

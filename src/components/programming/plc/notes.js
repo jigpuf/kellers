@@ -89,11 +89,31 @@ class Notes extends React.Component {
           [TYPE][FILE (if applicable)]:[ROW or WORD or SLOT][/ or .][BIT or WORD or CHANNEL]<br />
           </p>
           <h5>***17:Breakdown of addressing</h5>
+          <p>
+          In other words, if the adress has a letter and a number at the
+          beginning, it is the type of file and which of those types of files
+          it is. For example, In B3:12/15, it is file 3 of the bit tables.
+          </p>
+          <ul>
+            <li>I= Input</li>
+            <li>O= Output</li>
+            <li>T= Timer</li>
+            <li>B= Boolean</li>
+          </ul>
+
+
           <p></p>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
+          <h5>***18:Rungs and Branches</h5>
+          <p>Rungs have numbers, branches come off of rungs.  Program works from
+          top to bottom. You can have more than one condition on a rung but no
+          more than 1 output per branch. Conditions on the left, actions on the
+          right.  All conditions must be true for the action to be taken.  Maybe
+          rungs act like ands on the same branch for conditions and acts like
+          ors when there are branches for conditions.</p>
+          <h5>19:</h5>
+          <li>XIC=Examine if closed.  if closed, its true</li>
+          <li></li>
+          <li></li>
           <h5></h5>
           <p></p>
           <h5></h5>

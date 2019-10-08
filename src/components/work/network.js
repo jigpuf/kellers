@@ -1,9 +1,7 @@
 import React from 'react';
-import Ni from './daqs/ni.js';
-import Plc from './daqs/plc.js';
-import Checkouts from './daqs/systemCheckouts.js'
+import Osi from './network/osi.js'
 
-class Daqs extends React.Component {
+class Networking extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -14,11 +12,8 @@ class Daqs extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'National Instruments', slug: 'ni', component:<Ni />},
-      {name: 'Allen Bradley', slug: 'plc', component:<Plc />},
-      {name: 'Watlow Controller', slug: 'watlow',},
-      {name: 'Siemens', slug: 'siemens',},
-      {name: 'System Checkouts', slug:'system', component:<Checkouts />}
+      {name: 'OSI Model', slug: 'osi', component:<Osi />},
+
 
     ]
     const renderItems = Items.map(item => {
@@ -46,4 +41,4 @@ class Daqs extends React.Component {
     }
   }
 
-export default Daqs;
+export default Networking;

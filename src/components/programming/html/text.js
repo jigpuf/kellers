@@ -31,6 +31,13 @@ class Text extends React.Component {
           <tr><td>Preformatted</td><td>&lt;pre&gt;<pre>Pre    Formatted Text</pre>&lt;/pre&gt;</td><td><pre>Pre    Formatted Text</pre></td><td>In-Line</td></tr>
         </table>
         <h3>Symbols</h3>
+        <table>
+          <tr><th>Name</th><th>Entity</th><th>Decimal</th></tr>
+          <tr><td>&lt;</td><td>&amp;lt;</td><td></td></tr>
+          <tr><td>&gt;</td><td>&amp;gt;</td><td></td></tr>
+          <tr><td>&Omega;</td><td>&amp;Omega;</td><td>&amp;#937;</td></tr>
+
+        </table>
 
       </div>
     );

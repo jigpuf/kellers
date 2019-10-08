@@ -22,7 +22,6 @@ class Controls extends React.Component {
       {name: 'HOA Switches', slug: 'hoa' },
       {name: 'Terminals', slug: 'terminals' },
       {name: 'Current Transducers', slug: 'ct' },
-      {name: 'Relays', slug: 'relays' },
       {name: 'Panel Examples', slug: 'examples', component:<Examples />},
       {name: 'Resisters', slug: 'resisters',},
 
