@@ -1,4 +1,6 @@
 import React from 'react'
+import Reading from './bom/reading.js'
+import BomOverview from './bom/bomOverview.js'
 import Geography from './bom/geography.js'
 import Lectures from './bom/lectures.js'
 import Complexity from './bom/complexity.js'
@@ -15,10 +17,12 @@ pickTier2 = (item) => {
 }
   render () {
     const Items = [
-          {name: 'Books', slug: 'books', component:<Books />},
+          {name: 'Reading', slug: 'reading', component:<Reading />},
+          {name: 'Overview', slug: 'overview', component:<BomOverview />},
+          {name: 'Books', slug: 'books', component: <Books />},
           {name: 'Geography', slug: 'geography', component: <Geography />},
           {name: 'Lectures', slug: 'lectures', component: <Lectures />},
-          {name: 'Complexity', slug: 'complexity', component: <Complexity />}
+          {name: 'Complexity', slug: 'complexity', component: <Complexity />},
         ]
         const renderItems = Items.map(item => {
           return (

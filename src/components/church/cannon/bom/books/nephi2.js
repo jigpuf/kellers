@@ -1,81 +1,74 @@
 import React from 'react';
 
 class Nephi2 extends React.Component {
-  render () {
-    return (
-      <div>
-      <h3>2 Nephi:</h3>
-      <div className='twoColumn'>
-      <a href="https://www.youtube.com/watch?v=xm4nT8EL7Ts"
-      >1-Promised Land Covenant, Be Men</a><br />
-      <a href="https://www.youtube.com/watch?v=rYkLRaG4mlA"
-      >2-Fall, Free Will, Law,Opposition, act and acted upon</a><br />
-      <a href="https://www.youtube.com/watch?v=nhxILT4MQOQ"
-      >3-Joseph,Joseph,&Joseph,BOM</a><br />
-      <a href="https://www.youtube.com/watch?v=-De2H2rp4hs"
-      >4-Nephi's Psalm</a><br />
-      <a href="https://www.youtube.com/watch?v=XvivtOkisXY&t=41s"
-      >5-</a><br />
-      <a href="https://www.youtube.com/watch?v=8ToGShXS1OM"
-      >6-</a><br />
-      <a href="https://www.youtube.com/watch?v=NQjZbupGcg0&t=81s"
-      >7-</a><br />
-      <a href="https://www.youtube.com/watch?v=xQ34jA7VqnE&t=1s"
-      >8-</a><br />
-      <a href="https://www.youtube.com/watch?v=p3mXdkKohZc"
-      >9-</a><br />
-      <a href="https://www.youtube.com/watch?v=FQL7S6tofnk"
-      >10-</a><br />
-      <a href="https://www.youtube.com/watch?v=nOOuLB3wlpY"
-      >11-</a><br />
-      <a href="https://www.youtube.com/watch?v=5m_WMTe49DE"
-      >12-</a><br />
-      <a href="https://www.youtube.com/watch?v=F9ZcTMuiMF0"
-      >13-</a><br />
-      <a href="https://www.youtube.com/watch?v=jUBmNhTrUCA"
-      >14-</a><br />
-      <a href="https://www.youtube.com/watch?v=VUsHWLT4GNc"
-      >15-</a><br />
-      <a href="https://www.youtube.com/watch?v=ah2We4V-AbA"
-      >16-</a><br />
-      <a href="https://www.youtube.com/watch?v=dTXRE_DHVR4"
-      >17-</a><br />
-      <a href="https://www.youtube.com/watch?v=3_Kxd308RGE&t=11s"
-      >18-</a><br />
-      <a href="https://www.youtube.com/watch?v=qlDJqpwhpsE"
-      >19-</a><br />
-      <a href="https://www.youtube.com/watch?v=YCcXCo8QCv8"
-      >20-</a><br />
-      <a href="https://www.youtube.com/watch?v=BgFevn7MCsc"
-      >21-</a><br />
-      <a href="https://www.youtube.com/watch?v=tcMyd2GSCFQ"
-      >22-</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/23?lang=eng"
-      >23-Text and Audio</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/24?lang=eng"
-      >24-Isaiah 13 Text and Audio</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/25.12"
-      >25-Text and Audio</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/26?lang=eng"
-      >26-</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/27?lang=eng"
-      >27-</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/28?lang=eng"
-      >28-</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/29?lang=eng"
-      >29-</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/30?lang=eng"
-      >30-</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/31?lang=eng"
-      >31-</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/32?lang=eng"
-      >32-</a><br />
-      <a href="https://www.lds.org/scriptures/bofm/2-ne/33?lang=eng"
-      >33-</a><br />
-      </div>
-      </div>
-    );
+  state= {
+  tier2: undefined,
   }
-}
+  pickTier2 = (item) => {
+  return () => {
+    this.setState({tier2:item})
+  }
+  }
+  render () {
+    const Items = [
+        {name: 'Overview', slug: 'overview',},
+        {name: '1', slug:'1',},
+        {name: '2', slug:'2',},
+        {name: '3', slug:'3',},
+        {name: '4', slug:'4',},
+        {name: '5', slug:'5',},
+        {name: '6', slug:'6',},
+        {name: '7', slug:'7',},
+        {name: '8', slug:'8',},
+        {name: '9', slug:'9',},
+        {name: '10', slug:'10',},
+        {name: '11', slug:'11',},
+        {name: '12', slug:'12',},
+        {name: '13', slug:'13',},
+        {name: '14', slug:'14',},
+        {name: '15', slug:'15',},
+        {name: '16', slug:'16',},
+        {name: '17', slug:'17',},
+        {name: '18', slug:'18',},
+        {name: '19', slug:'19',},
+        {name: '20', slug:'20',},
+        {name: '21', slug:'21',},
+        {name: '22', slug:'22',},
+        {name: '23', slug:'23',},
+        {name: '24', slug:'24',},
+        {name: '25', slug:'25',},
+        {name: '26', slug:'26',},
+        {name: '27', slug:'27',},
+        {name: '28', slug:'28',},
+        {name: '29', slug:'29',},
+        {name: '30', slug:'30',},
+        {name: '31', slug:'31',},
+        {name: '32', slug:'32',},
+        {name: '33', slug:'33',},
+      ]
+      const renderItems = Items.map(item => {
+        return (
+          <button
+            key={item.slug}
+            onClick={this.pickTier2(item.slug)}
+            className={this.state.tier2 === item.slug ? "tier2 active" : "tier2"}
+            >{item.name}</button>
+        )
+      })
+      const tier2 = Items.filter(item => {
+        return this.state.tier2 === item.slug;
+      });
+      const renderTier3Component = tier2[0] && tier2[0].component;
+      return (
+        <div>
+          <ul>
+          {renderItems}
+          <hr />
+          {renderTier3Component}
+          </ul>
+        </div>
+      );
+    }
+  }
 
 export default Nephi2;

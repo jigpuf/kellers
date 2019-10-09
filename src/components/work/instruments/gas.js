@@ -4,8 +4,8 @@ class Gas extends React.Component {
   render () {
     return (
       <div>
-        <h3>Gas Detector:</h3>
-        <h4>Model and References</h4>
+        <h2>Gas Detector:</h2>
+        <h3>Model and References</h3>
           Model Name=SENSALERT ASI RELAY<br />
           Part#=S2X-3RTH-AA<br />
           <img src='https://www.sensidynegasdetection.com/assets/images/sensalert-asi-fixed-point-gas-detector.jpg' /><br />
@@ -21,7 +21,7 @@ class Gas extends React.Component {
           Pages 36-96 Menu maps<br />
           Pages 106-107 Troubleshooting guide<br />
           Page 114-115 Mounting Measurements<br />
-        <h4>Device setup</h4>
+        <h3>Device setup</h3>
             The setup of the device can be devided into 3 major sections<br />
           <li>Physical Build</li>
             Wires to sensor, Sensor Element installation, Mounting<br />
@@ -29,8 +29,8 @@ class Gas extends React.Component {
             Set up for Gas Type, Set up alarms, Set up relays<br />
           <li>Calibration</li>
             Zero, Span
-        <h4>Physical Build</h4>
-          <h5>Device Pinout</h5>
+        <h3>Physical Build</h3>
+          <h4>Device Pinout</h4>
             4-20 and power share the same return.  Relay 1 is on the same
             board as the 4-20/v+ terminals.  Relay 2 is the top relay on the other
             board and relay 3 is in the middle.  A(NC) is at the tops and B(NO) at the
@@ -44,97 +44,99 @@ class Gas extends React.Component {
             <li>Relay 1: (NC) (L?)</li>
             <li>Relay 2: (NC) (L?)</li>
             <li>Relay 3: (NC) (L?)</li>
-          <h5>AWS Box Pinout</h5>
-          Connectors:<br />
-          <li>AWS Internal Bulkhead connector: D38999/2_WD97PC</li>
-          <li>AWS External Barrel Connector: D38999/26_WD97SC</li>
-          <table>
-            <tr>
-              <th>Bulkhead Pin</th>
-              <th>Signal Type</th>
-              <th>Avionics cable color</th>
-              <th>Detector Terminal</th>
-            </tr>
-            <tr>
-              <td>A</td>
-              <td>4-20+</td>
-              <td>Violet</td>
-              <td>4-20</td>
-            </tr>
-            <tr>
-              <td>B</td>
-              <td>4-20-</td>
-              <td>Gray</td>
-              <td>RTN</td>
-            </tr>
-            <tr>
-              <td>C</td>
-              <td>Not Connected</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>D</td>
-              <td>Red Alarm +</td>
-              <td>Red</td>
-              <td>A on relay 3 N.C.</td>
-            </tr>
-            <tr>
-              <td>E</td>
-              <td>Red Alarm -</td>
-              <td>Brown</td>
-              <td>Com on relay 3</td>
-            </tr>
-            <tr>
-              <td>F</td>
-              <td>Fault +</td>
-              <td>Yellow</td>
-              <td>A on relay 1 N.C.</td>
-            </tr>
-            <tr>
-              <td>G</td>
-              <td>Not Connected</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>H</td>
-              <td>Fault -</td>
-              <td>Orange</td>
-              <td>Com on relay 1</td>
-            </tr>
-            <tr>
-              <td>J</td>
-              <td>Yellow Alarm +</td>
-              <td>Blue</td>
-              <td>A on relay 2 N.C.</td>
-            </tr>
-            <tr>
-              <td>K</td>
-              <td>Wellow Alarm -</td>
-              <td>Green</td>
-              <td>Com on relay 2</td>
-            </tr>
-            <tr>
-              <td>L</td>
-              <td>Power +</td>
-              <td>White</td>
-              <td>V +</td>
+          <h4>AWS Box Pinout</h4>
+            <table>
+              <tr><th>Connector Location</th><th>Connector</th><th>Contacts</th><th>Crimper</th></tr>
+              <tr><td>AWS Intenal Bulkhead Connector</td><td>D38999/2_WD97PC</td><td>4X#16Pin(),8X#20Pin()</td><td></td></tr>
+              <tr><td>AWS External Barrel Connector</td><td>D38999/26_WD97SC</td><td>4X#16Socket(),8X#20Socket()</td><td></td></tr>
+            </table>
+            <table>
+              <tr>
+                <th>Bulkhead Pin</th>
+                <th>Signal Type</th>
+                <th>Avionics cable color</th>
+                <th>Detector Terminal</th>
+              </tr>
+              <tr>
+                <td>A</td>
+                <td>4-20+</td>
+                <td>Violet</td>
+                <td>4-20</td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>4-20-</td>
+                <td>Gray</td>
+                <td>RTN</td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td>Not Connected</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>D</td>
+                <td>Red Alarm +</td>
+                <td>Red</td>
+                <td>A on relay 3 N.C.</td>
+              </tr>
+              <tr>
+                <td>E</td>
+                <td>Red Alarm -</td>
+                <td>Brown</td>
+                <td>Com on relay 3</td>
+              </tr>
+              <tr>
+                <td>F</td>
+                <td>Fault +</td>
+                <td>Yellow</td>
+                <td>A on relay 1 N.C.</td>
+              </tr>
+              <tr>
+                <td>G</td>
+                <td>Not Connected</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>H</td>
+                <td>Fault -</td>
+                <td>Orange</td>
+                <td>Com on relay 1</td>
+              </tr>
+              <tr>
+                <td>J</td>
+                <td>Yellow Alarm +</td>
+                <td>Blue</td>
+                <td>A on relay 2 N.C.</td>
+              </tr>
+              <tr>
+                <td>K</td>
+                <td>Wellow Alarm -</td>
+                <td>Green</td>
+                <td>Com on relay 2</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>Power +</td>
+                <td>White</td>
+                <td>V +</td>
 
-            </tr>
-            <tr><td>M</td><td>Power RTN</td><td>Black</td><td>RTN</td></tr>
-          </table>
+              </tr>
+              <tr><td>M</td><td>Power RTN</td><td>Black</td><td>RTN</td></tr>
+            </table>
 
           <h5>DAQ Pinout</h5>
           <h5>Sensor Element Installation</h5>
           <h5>Sensor mounting</h5>
-        <h4>System Configuration</h4>
-          <h5>Sensor Adjustment</h5>
+        <h3>System Configuration</h3>
+          <h4>Sensor Adjustment</h4>
             main menu>system configuration>sensor adjustment>select cal gas<br />
             <strong>Methane</strong><br />
             main menu>system configuration>sensor adjustment>select k factor<br />
             <strong>None</strong><br />
-          <h5>Alarm Settings</h5>
+          <h4>Alarm Settings</h4>
             <p>
             This is setting the function of the alarms used by the sensor. When
             it shows relays asigned, just make sure the number relay is showing
@@ -154,7 +156,7 @@ class Gas extends React.Component {
             alarms:<br />
             <li>Alarm 1 = Yellow(25%LEL)-Warning</li>
             <li>Alarm 2 = Red(50%LEL)-Alarm</li>
-          <h5>Relay Settings</h5>
+          <h4>Relay Settings</h4>
             <p>This sets up the actual function of the relays</p>
             main>system configuration>alarm settings>relay one-fail<br />
             <strong>Non Latching, Norm Energized, Time Delay = 5s</strong><br />
@@ -162,7 +164,7 @@ class Gas extends React.Component {
             <strong>Non Latching, Norm Energized, Time Delay = 1s</strong><br />
             main>system configuration>alarm settings>relay three<br />
             <strong>Non Latching, Norm Energized, Time Delay = 1s</strong><br />
-        <h4>Calibration</h4>
+        <h3>Calibration</h3>
           <p>The calibration side deals with the actual gasses</p>
             main>calibration mode>zero transmitter><br />
             Once aknowledged it will be expecting zero gas to be flowing into it<br />

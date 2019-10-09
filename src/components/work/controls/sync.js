@@ -18,8 +18,8 @@ class FileSync extends React.Component {
           <h3>Types of channels</h3>
             <table>
               <tr><th>Channel type</th><th>GSE</th><th>NB</th><th>EB</th><th>WB</th></tr>
-              <tr><td>HSY</td><td></td><td>YES</td><td>YES</td><td></td></tr>
               <tr><td>V</td><td>YES</td><td>YES</td><td>YES</td><td>YES</td></tr>
+              <tr><td>HSY</td><td></td><td>YES</td><td>YES</td><td></td></tr>
               <tr><td>HS</td><td></td><td>YES</td><td>YES</td><td></td></tr>
               <tr><td>HSV</td><td></td><td>YES</td><td>YES</td><td></td></tr>
             </table>
@@ -34,7 +34,6 @@ class FileSync extends React.Component {
               <tr><td>NBHS</td><td>P1/M5</td><td>31</td><td>HSY255</td></tr>
               <tr><td>NBHS</td><td>P1/M11</td><td>6</td><td>HSV014</td></tr>
               <tr><td>NBHS</td><td>P2/M3</td><td>15</td><td>HS031</td></tr>
-              <tr><td>NBHS</td><td>P2/M5</td><td>15</td><td>HS063</td></tr>
               <tr><td>NBLS</td><td>P2/M12</td><td>31</td><td>V063</td></tr>
               <tr><td>WBLS</td><td>P1/M11</td><td>1</td><td>V001</td></tr>
             </table>
