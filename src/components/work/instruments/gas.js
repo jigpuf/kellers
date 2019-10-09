@@ -15,12 +15,15 @@ class Gas extends React.Component {
           >Intro Video</a><br />
           <a href='https://www.sensidynegasdetection.com/Support%20Library/gas-detection/SensAlert%20ASI/SensAlert%20ASI%20transmitter%20manual.pdf' target='_blank'
           >Manual</a><br />
-          Page 10- Part Number info<br />
-          Page 17- Parts of LCD Screen<br />
-          Pages 29-33 Wiring instrument<br />
-          Pages 36-96 Menu maps<br />
-          Pages 106-107 Troubleshooting guide<br />
-          Page 114-115 Mounting Measurements<br />
+          <table>
+            <tr><th>Pages</th><th>Subject</th></tr>
+            <tr><td>10-</td><td>Part Number info</td></tr>
+            <tr><td>17-</td><td>Parts of LCD Screen</td></tr>
+            <tr><td>29-33</td><td>Wiring instrument</td></tr>
+            <tr><td>36-96</td><td>Menu maps</td></tr>
+            <tr><td>106-107</td><td>Troubleshooting guide</td></tr>
+            <tr><td>114-115</td><td>Mounting Measurements</td></tr>
+          </table>
         <h3>Device setup</h3>
           <table>
             <tr><th>Device Setup</th><th>Parts</th></tr>
@@ -79,32 +82,32 @@ class Gas extends React.Component {
             relay 2.  Don't worry about the high numbers.  The result would be
             2,4,6.
             </p>
-            main menu>system configuration>alarm settings>alarm functions>alarm1<br />
+            main menu> system configuration> alarm settings> alarm functions> alarm1<br />
             <strong>relay 2, enabled,Setpoint = 12%LEL, Release = 7%LEL</strong><br />
-            main menu>system configuration>alarm settings>alarm functions>alarm2<br />
+            main menu> system configuration> alarm settings> alarm functions>alarm2<br />
             <strong>relay 3, enabled,Setpoint = 25%LEL, Release = 13%LEL</strong><br />
-            main menu>system configuration>alarm settings>alarm functions>alarm3<br />
+            main menu> system configuration> alarm settings> alarm functions>alarm3<br />
             <strong>disabled</strong><br />
-            main menu>system configuration>alarm settings>alarm functions>twa alarm<br />
+            main menu> system configuration> alarm settings> alarm functions> twa alarm<br />
             <strong>disabled</strong><br />
             alarms:<br />
             <li>Alarm 1 = Yellow(25%LEL)-Warning</li>
             <li>Alarm 2 = Red(50%LEL)-Alarm</li>
           <h4>Relay Settings</h4>
             <p>This sets up the actual function of the relays</p>
-            main>system configuration>alarm settings>relay one-fail<br />
+            main> system configuration> alarm settings> relay one-fail<br />
             <strong>Non Latching, Norm Energized, Time Delay = 5s</strong><br />
-            main>system configuration>alarm settings>relay two<br />
+            main> system configuration> alarm settings> relay two<br />
             <strong>Non Latching, Norm Energized, Time Delay = 1s</strong><br />
-            main>system configuration>alarm settings>relay three<br />
+            main> system configuration> alarm settings> relay three<br />
             <strong>Non Latching, Norm Energized, Time Delay = 1s</strong><br />
         <h3>Calibration</h3>
           <p>The calibration side deals with the actual gasses</p>
-            main>calibration mode>zero transmitter><br />
+            main> calibration mode> zero transmitter><br />
             Once aknowledged it will be expecting zero gas to be flowing into it<br />
-            main>calibration mode> cal gas conc><br />
+            main> calibration mode> cal gas conc><br />
             Set this to the concentration of the cal gas that will be used<br />
-            main>calibration mode> calibrate><br />
+            main> calibration mode> calibrate><br />
             Flow cal gas into sensor while doing this<br />
 
         <h3>Troubleshooting</h3>
