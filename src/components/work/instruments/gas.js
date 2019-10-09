@@ -5,7 +5,7 @@ class Gas extends React.Component {
     return (
       <div>
         <h2>Gas Detector:</h2>
-        <h3>Model and References</h3>
+        <h3>Information</h3>
           Model Name=SENSALERT ASI RELAY<br />
           Part#=S2X-3RTH-AA<br />
           <img src='https://www.sensidynegasdetection.com/assets/images/sensalert-asi-fixed-point-gas-detector.jpg' /><br />
@@ -22,111 +22,45 @@ class Gas extends React.Component {
           Pages 106-107 Troubleshooting guide<br />
           Page 114-115 Mounting Measurements<br />
         <h3>Device setup</h3>
-            The setup of the device can be devided into 3 major sections<br />
-          <li>Physical Build</li>
-            Wires to sensor, Sensor Element installation, Mounting<br />
-          <li>System Configuration</li>
-            Set up for Gas Type, Set up alarms, Set up relays<br />
-          <li>Calibration</li>
-            Zero, Span
+          <table>
+            <tr><th>Device Setup</th><th>Parts</th></tr>
+            <tr><td>Physical Build</td><td>Wires to sensor, element Installation, Mounting</td></tr>
+            <tr><td>System Configuration</td><td>Gas Type, Set up Alarms, Set up Relays</td></tr>
+            <tr><td>Calibration</td><td>Set Zero and Span</td></tr>
+            <tr><td>Adding to software</td><td>MWL,,,,</td></tr>
+          </table>
         <h3>Physical Build</h3>
           <h4>Device Pinout</h4>
-            4-20 and power share the same return.  Relay 1 is on the same
-            board as the 4-20/v+ terminals.  Relay 2 is the top relay on the other
-            board and relay 3 is in the middle.  A(NC) is at the tops and B(NO) at the
-            bottoms of each relay.<br />
-            <li>Bottom board</li>
-            Power, 4-20mA out, Relay1/Fault(blue alarm)
-            <li>Top Board:</li>
-            Relay 2 Lower (yellow) Alarm, Relay 3 High(red) Alarm, Relay 4 not used<br />
-            <li>V+/RTN:  28 Volts</li>
-            <li>4-20/RTN: Current Channel (I)</li>
-            <li>Relay 1: (NC) (L?)</li>
-            <li>Relay 2: (NC) (L?)</li>
-            <li>Relay 3: (NC) (L?)</li>
-          <h4>AWS Box Pinout</h4>
+            <table>
+              <tr><th>Board</th><th>Terminal</th><th>Signal</th><th>Note</th></tr>
+              <tr><td>Bottom</td><td>4-20</td><td>4-20 Signal</td><td>Shares Same ground as Power</td></tr>
+              <tr><td>Bottom</td><td>Power</td><td>Power</td><td>Shares Same ground as 4-20</td></tr>
+              <tr><td>Bottom</td><td>Relay 1</td><td>Fault(Blue Alarm)</td><td>Use A(N/C) terminal</td></tr>
+              <tr><td>Top</td><td>Relay 2</td><td>Low Alarm(Yellow)</td><td>Top Relay-Use A(N/C) terminal</td></tr>
+              <tr><td>Top</td><td>Relay 3</td><td>High Alarm(Red)</td><td>Middle Relay-Use A(N/C) terminal</td></tr>
+            </table>
+          <h4>AWS Box Connectors Pinout</h4>
             <table>
               <tr><th>Connector Location</th><th>Connector</th><th>Contacts</th><th>Crimper</th></tr>
               <tr><td>AWS Intenal Bulkhead Connector</td><td>D38999/2_WD97PC</td><td>4X#16Pin(),8X#20Pin()</td><td></td></tr>
               <tr><td>AWS External Barrel Connector</td><td>D38999/26_WD97SC</td><td>4X#16Socket(),8X#20Socket()</td><td></td></tr>
             </table>
+            <br /><br /><br />
             <table>
-              <tr>
-                <th>Bulkhead Pin</th>
-                <th>Signal Type</th>
-                <th>Avionics cable color</th>
-                <th>Detector Terminal</th>
-              </tr>
-              <tr>
-                <td>A</td>
-                <td>4-20+</td>
-                <td>Violet</td>
-                <td>4-20</td>
-              </tr>
-              <tr>
-                <td>B</td>
-                <td>4-20-</td>
-                <td>Gray</td>
-                <td>RTN</td>
-              </tr>
-              <tr>
-                <td>C</td>
-                <td>Not Connected</td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>D</td>
-                <td>Red Alarm +</td>
-                <td>Red</td>
-                <td>A on relay 3 N.C.</td>
-              </tr>
-              <tr>
-                <td>E</td>
-                <td>Red Alarm -</td>
-                <td>Brown</td>
-                <td>Com on relay 3</td>
-              </tr>
-              <tr>
-                <td>F</td>
-                <td>Fault +</td>
-                <td>Yellow</td>
-                <td>A on relay 1 N.C.</td>
-              </tr>
-              <tr>
-                <td>G</td>
-                <td>Not Connected</td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>H</td>
-                <td>Fault -</td>
-                <td>Orange</td>
-                <td>Com on relay 1</td>
-              </tr>
-              <tr>
-                <td>J</td>
-                <td>Yellow Alarm +</td>
-                <td>Blue</td>
-                <td>A on relay 2 N.C.</td>
-              </tr>
-              <tr>
-                <td>K</td>
-                <td>Wellow Alarm -</td>
-                <td>Green</td>
-                <td>Com on relay 2</td>
-              </tr>
-              <tr>
-                <td>L</td>
-                <td>Power +</td>
-                <td>White</td>
-                <td>V +</td>
-
-              </tr>
+              <tr><th>Bulkhead Pin</th><th>Signal Type</th><th>Avionics cable color</th><th>Detector Terminal</th></tr>
+              <tr><td>A</td><td>4-20+</td><td>Violet</td><td>4-20</td></tr>
+              <tr><td>B</td><td>4-20-</td><td>Gray</td><td>RTN</td></tr>
+              <tr><td>C</td><td>Not Connected</td><td></td><td></td></tr>
+              <tr><td>D</td><td>Red Alarm +</td><td>Red</td><td>A on relay 3 N.C.</td></tr>
+              <tr><td>E</td><td>Red Alarm -</td><td>Brown</td><td>Com on relay 3</td></tr>
+              <tr><td>F</td><td>Fault +</td><td>Yellow</td><td>A on relay 1 N.C.</td></tr>
+              <tr><td>G</td><td>Not Connected</td><td></td><td></td></tr>
+              <tr><td>H</td><td>Fault -</td><td>Orange</td><td>Com on relay 1</td></tr>
+              <tr><td>J</td><td>Yellow Alarm +</td><td>Blue</td><td>A on relay 2 N.C.</td></tr>
+              <tr><td>K</td><td>Wellow Alarm -</td><td>Green</td><td>Com on relay 2</td></tr>
+              <tr><td>L</td><td>Power +</td><td>White</td><td>V +</td></tr>
               <tr><td>M</td><td>Power RTN</td><td>Black</td><td>RTN</td></tr>
             </table>
-
           <h5>DAQ Pinout</h5>
           <h5>Sensor Element Installation</h5>
           <h5>Sensor mounting</h5>
@@ -173,27 +107,10 @@ class Gas extends React.Component {
             main>calibration mode> calibrate><br />
             Flow cal gas into sensor while doing this<br />
 
-
-
-            <h3>Information</h3>
-              Model:<br />
-              Part Number:<br />
-              Manufacturer website<br />
-              Videos:<br />
-              Manual:<br />
-            <h3>Physical Setup</h3>
-              Circuit Diagram:<br />
-              Mounting:<br />
-              Pinouts:<br />
-              Connectors<br />
-            <h3>Setup</h3>
-              Software<br />
-              Paramaters<br />
-            <h3>Calibration</h3>
-            <h3>Troubleshooting</h3>
-              Simulate Instrument:<br />
-              Instrument Checkout:<br />
-            <h3>Adding to software</h3>
+        <h3>Troubleshooting</h3>
+          Simulate Instrument:<br />
+          Instrument Checkout:<br />
+        <h3>Adding to software</h3>
       </div>
     );
   }
