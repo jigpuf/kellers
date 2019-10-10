@@ -31,10 +31,10 @@ class Reading extends React.Component {
               <tr><td>11</td><td>Jacob 5-7</td><td>Allegory of the Olive Tree, Sherem</td><td></td></tr>
               <tr><td>12</td><td>Enos, Jarom,Omni, WOM</td><td>Descent to wikidness, Loss of Land</td><td></td></tr>
               <tr><td>13</td><td>Mosiah 1-6</td><td>King Benjamin's Sermon</td><td>146-159</td></tr>
-              <tr><td>14</td><td>Mosiah7-</td><td></td><td></td></tr>
-              <tr><td>15</td><td></td><td></td><td></td></tr>
-              <tr><td>16</td><td></td><td></td><td></td></tr>
-              <tr><td>17</td><td></td><td></td><td></td></tr>
+              <tr><td>14</td><td>Mosiah 7-10</td><td>Ammon learns about Zenniff</td><td></td></tr>
+              <tr><td>15</td><td>Mosiah 11-17</td><td>Noah and Abinadai</td><td></td></tr>
+              <tr><td>16</td><td>Mosiah 18-22</td><td>Alma, Limhi, Ammon</td><td></td></tr>
+              <tr><td>17</td><td>Mosiah 23</td><td></td><td></td></tr>
               <tr><td>18</td><td></td><td></td><td></td></tr>
               <tr><td>19</td><td></td><td></td><td></td></tr>
               <tr><td>20</td><td></td><td></td><td></td></tr>
