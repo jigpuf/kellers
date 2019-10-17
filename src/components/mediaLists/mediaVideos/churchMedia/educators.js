@@ -3,6 +3,7 @@ import HyrumAndrus from './educators/hyrumAndrus.js'
 import HughNibley from './educators/hughNibley.js'
 import Interpreter from './educators/interpreter.js'
 import CleonSkousen from './educators/cleonSkousen.js'
+import Individual from './educators/individual.js'
 
 class Educators extends React.Component {
   state = {
@@ -21,6 +22,7 @@ class Educators extends React.Component {
       {name: 'Interpreter', slug: 'Interpreter', component:<Interpreter /> },
       {name: 'Heartland', slug: 'heartland' },
       {name: 'Cleon Skousen', slug: 'cleon', component:<CleonSkousen />},
+      {name: 'Individuals', slug: 'individuals', component:<Individual />}
     ]
     const renderItems = Items.map(item => {
       return (

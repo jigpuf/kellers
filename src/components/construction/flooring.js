@@ -20,6 +20,8 @@ class Flooring extends React.Component {
         >WHAT is this, and WHY do you want it under your floors?</a></li>
         <li><a href='https://www.youtube.com/watch?v=y75e479ups0' target ='_blank'
         >How to tile a bathroom/shower floor</a></li>
+        <li><a href='https://www.youtube.com/watch?v=2llnUtCDERg' target ='_blank'
+        >Floor Building – 3-D Single-Story Conventional Home Framing Design</a></li>
       </div>
     );
   }
