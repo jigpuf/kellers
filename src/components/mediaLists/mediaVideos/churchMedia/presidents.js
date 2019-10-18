@@ -61,7 +61,7 @@ class Presidents extends React.Component {
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-saves/' target ='_blank'
           >The Knowledge That Saves(1954)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-countries-kingdoms/' target ='_blank'
-          >A Knowledge of Countries and of Kingdoms(1956)(test)</a><br />
+          >A Knowledge of Countries and of Kingdoms(1956)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/ye-are-bought-with-a-price/' target ='_blank'
           >For Ye Are Bought with a Price(1957)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/summerhays-planetarium-dedication/' target ='_blank'

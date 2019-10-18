@@ -5,6 +5,10 @@ class Individual extends React.Component {
     return (
       <div>
         <h2>Individuals Educators</h2>
+          <h3>Anthony Larson</h3>
+            <li><a href='https://www.youtube.com/watch?v=E-NWtSC4UBY&t=32s' target='_blank'
+            >SLC Conference Center</a></li>
+            <hr/>
           <h3>Bruce Porter</h3>
             <li><a href='https://www.youtube.com/watch?v=F19d5ClZMWo&t=1094s'target='_blank'
             >Bruce Porter on The Book of Abraham</a></li>
@@ -21,10 +25,7 @@ class Individual extends React.Component {
             <li><a href='https://www.youtube.com/watch?v=zIJhLOwam7I' target='_blank'
             >Reading Temples - Understanding LDS Symbology</a></li>
             <hr/>
-          <h3>Anthony Larson</h3>
-            <li><a href='https://www.youtube.com/watch?v=E-NWtSC4UBY&t=32s' target='_blank'
-            >SLC Conference Center</a></li>
-          <hr/>
+
           <h3>Brandon Ro</h3>
             <li><a href='https://www.youtube.com/watch?v=OeREsLe5LEU&t=1030s' target='_blank'
             >The Mormon Temple Ritual-Architectural Experience: Connections to Jewish
@@ -119,6 +120,8 @@ class Individual extends React.Component {
             >Book of Abraham, I Presume-John Gee</a><br />
             <a href="https://www.youtube.com/watch?v=c2rGi6gltqw" target="_blank"
             >Book of Abraham in historical Context-John Gee</a><br />
+            <a href="https://www.youtube.com/watch?v=XVAEC1wJFqY&t=584s" target="_blank"
+            >BYU Church History Symposium 2013 - John Gee</a><br />
           <hr/>
           <h3>Kerry Muelstein</h3>
             <a href="https://www.youtube.com/watch?v=ZL-wgUAeunk" target="_blank"
@@ -163,6 +166,14 @@ class Individual extends React.Component {
             >Eyewitnesses & ancient Parrallels-Dan Peterson</a><br />
             <a href="https://www.youtube.com/watch?v=V38jsyMnyIs&t=83s" target="_blank"
             >Tangible Restoration: Eye Witnesses-Dan Peterson</a><br />
+            <a href="https://www.youtube.com/watch?v=Y3j695n5a8A&t=132s" target="_blank"
+            >Daniel Peterson - The Book of Ether</a><br />
+            <a href="https://www.youtube.com/watch?v=kOuDw0XzBNs&t=9s" target="_blank"
+            >What Difference does it make? Daniel C. Peterson 2017 Fairmormon Conference</a><br />
+            <a href="" target="_blank"
+            ></a><br />
+            <a href="" target="_blank"
+            ></a><br />
           <hr/>
           <h3>Samuel Zinner</h3>
             <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/zinner-v12-2014-pp281-323-AUDIO.mp3" target="_blank"
@@ -292,13 +303,25 @@ class Individual extends React.Component {
             <a href='https://www.youtube.com/watch?v=QkXFXtyqD_A&t=104s' target ='_blank'
             >The Fallacy of Fundamentalist Assumptions 6, FAIR Conference</a><br />
             <hr/>
-          <h3></h3>
-            <a href='' target ='_blank'
-            ></a><br />
+          <h3>Romney Biddulph</h3>
+            <a href='https://www.youtube.com/watch?v=7rV6gUipBu0&t=29s' target ='_blank'
+            >Evidence of the LDS Church from Early Christian Teachings</a><br />
             <hr/>
-          <h3></h3>
-            <a href='' target ='_blank'
-            ></a><br />
+          <h3>Brent L. Top</h3>
+            <a href='https://www.youtube.com/watch?v=c5RCrmE6Y9s&t=29s' target ='_blank'
+            >Brent L. Top, 2010 ED Week - What Is This Thing Men Call Death? LDS Teachings about the Spirit World</a><br />
+            <hr/>
+          <h3>Scott Peterson</h3>
+            <a href='https://www.youtube.com/watch?v=NLxNqnP7j7M&t=29s' target ='_blank'
+            >Jesus Christ, the Same Yesterday, Today, and Forever: A Restoration of Primitive Christianity</a><br />
+            <hr/>
+          <h3>Terryl Givens</h3>
+            <a href='https://www.youtube.com/watch?v=NuL2W4wjDwE&t=58s' target ='_blank'
+            >What the Western Tradition teaches us about the Pre-Existence by Terryl Givens</a><br />
+            <a href='https://www.youtube.com/watch?v=JCc4u23JkBw&t=1025s' target ='_blank'
+            >Terryl L. Givens, "Joseph Smith's American Bible: Radicalizing the Familiar" (2009)</a><br />
+            <a href='https://www.youtube.com/watch?v=k1UiVFIkUFI&t=52s' target ='_blank'
+            >"Lightning Out of Heaven": Joseph Smith and the Forging of Community | Terryl L. Givens</a><br />
             <hr/>
           <h3></h3>
             <a href='' target ='_blank'

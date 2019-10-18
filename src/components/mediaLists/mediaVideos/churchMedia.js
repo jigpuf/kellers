@@ -16,9 +16,10 @@ class Church extends React.Component {
   render () {
     const Items = [
       {name: 'Presidents', slug: 'presidents', component:<Presidents />},
-      {name: 'Apostles', slug: 'apostles', component:<Apostles />},
+      {name: 'General Authorities', slug: 'general', component:<Apostles />},
       {name: 'BYU', slug: 'byu', component:<Byu /> },
       {name: 'Educators', slug: 'educators', component:<Educators />},
+      {name: 'Lecture series', slug: 'lecture'},
     ]
     const renderItems = Items.map(item => {
       return (
