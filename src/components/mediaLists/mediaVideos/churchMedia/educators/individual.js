@@ -28,7 +28,7 @@ class Individual extends React.Component {
 
           <h3>Brandon Ro</h3>
             <li><a href='https://www.youtube.com/watch?v=OeREsLe5LEU&t=1030s' target='_blank'
-            >The Mormon Temple Ritual-Architectural Experience: Connections to Jewish
+            >***The Mormon Temple Ritual-Architectural Experience: Connections to Jewish
             and Catholic Precedents</a></li>
             <li><a href='https://www.youtube.com/watch?v=dDf749kbEHU' target='_blank'
             >Sacred Time as One Eternal Round: Understanding the Chiastic Pattern of
@@ -77,7 +77,7 @@ class Individual extends React.Component {
           <hr/>
           <h3>Jeffrey Bradshaw</h3>
             <li><a href='https://www.youtube.com/watch?v=ym8XyBGUoEM' target='_blank'
-            >Jeffrey Bradshaw-By the blood ye are sanctified-video</a>
+            >***Jeffrey Bradshaw-By the blood ye are sanctified-video</a>
             <a href='https://s3.us-east-2.amazonaws.com/jnlartaudio/bradshaw-v24-2017-pp123-316-AUDIO.mp3' target='_blank'
             >,Audio</a></li>
             <a href='https://www.youtube.com/watch?v=3tw-lTqFTmg&t=229s' target='_blank'
@@ -147,7 +147,7 @@ class Individual extends React.Component {
           <hr/>
           <h3>Hollis Johnson</h3>
             <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/johnson-v3-2013-pg223-230-AUDIO.mp3" target="_blank"
-            >One Day to A Cubit-Hollis Johnson</a><br />
+            >***One Day to A Cubit-Hollis Johnson</a><br />
           <hr/>
           <h3>Backyard Proffesor</h3>
             <a href="https://www.youtube.com/watch?v=aMkntpsG55c&t=29s" target="_blank"
@@ -309,7 +309,7 @@ class Individual extends React.Component {
             <hr/>
           <h3>Brent L. Top</h3>
             <a href='https://www.youtube.com/watch?v=c5RCrmE6Y9s&t=29s' target ='_blank'
-            >Brent L. Top, 2010 ED Week - What Is This Thing Men Call Death? LDS Teachings about the Spirit World</a><br />
+            >***Brent L. Top, 2010 ED Week - What Is This Thing Men Call Death? LDS Teachings about the Spirit World</a><br />
             <hr/>
           <h3>Scott Peterson</h3>
             <a href='https://www.youtube.com/watch?v=NLxNqnP7j7M&t=29s' target ='_blank'
