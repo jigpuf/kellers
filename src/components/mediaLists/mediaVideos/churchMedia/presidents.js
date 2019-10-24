@@ -63,9 +63,9 @@ class Presidents extends React.Component {
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-countries-kingdoms/' target ='_blank'
           >A Knowledge of Countries and of Kingdoms(1956)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/ye-are-bought-with-a-price/' target ='_blank'
-          >For Ye Are Bought with a Price(1957)(test)</a><br />
+          >For Ye Are Bought with a Price(1957)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/summerhays-planetarium-dedication/' target ='_blank'
-          >Summerhays Planetarium Dedication(1958)(test)</a><br />
+          >Summerhays Planetarium Dedication(1958)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/ye-temple-of-god/' target ='_blank'
           >Ye Are the Temple of God(1958)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/quorum-twelve-apostles/' target ='_blank'
@@ -97,7 +97,7 @@ class Presidents extends React.Component {
           <hr />
         <li>Harold B. Lee</li>
           <a href='https://speeches.byu.edu/talks/harold-b-lee/men-women-tomorrow-depends-upon/' target ='_blank'
-          >What Men and Women Are Tomorrow Depends upon What You Do Today(1952)(test)</a><br />
+          >What Men and Women Are Tomorrow Depends upon What You Do Today(1952)</a><br />
           <a href='https://speeches.byu.edu/talks/harold-b-lee/divine-revelation/' target ='_blank'
           >Divine Revelation(1952)(test)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/todays-young-people?lang=eng' target ='_blank'
