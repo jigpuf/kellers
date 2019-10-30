@@ -31,6 +31,7 @@ class Instruments extends React.Component {
   }
   render () {
     const Items = [
+      {name: 'Pressure', slug: 'pressure', component:<Pressure /> },
       {name: 'Positioners', slug: 'position', component:<Valves />},
       {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
       {name: 'Position Feedback', slug: 'positionFeedback', component:<PositionFeedback /> },
@@ -44,7 +45,6 @@ class Instruments extends React.Component {
       {name: 'Proximity', slug: 'prox', component:<Prox /> },
       {name: 'Flow', slug: 'flow', component:<Flows /> },
       {name: 'Microphones', slug: 'microphones', component:<Mics /> },
-      {name: 'Pressure', slug: 'pressure', component:<Pressure /> },
       {name: 'Temperature', slug: 'tempFeedback', component:<Temperature /> },
       {name: 'Avionics Box', slug:'avionics', component:<Avionics />},
       {name: 'AWS Box', slug:'aws', component:<Aws />},
