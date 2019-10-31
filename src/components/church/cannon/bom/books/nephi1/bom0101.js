@@ -74,76 +74,24 @@ class Bom0101 extends React.Component {
               The record he is making is in the language of his father.  His
               father's language consist of the language of the Egyptians and the
               learning of the Jews. He proclaims it to be true and according to
-              his knowledge.(v.1-3)
+              his knowledge.(v)
               </p>
             <li>State of Jerusalem:</li>
-              <p>
-              Zedekiah has recently become king.  Jerusalem has many prophets
-              prophecying of its destruction(v.4)
-              </p>
             <li>Lehi's first vision:</li>
-              <p>
-              Lehi was on his way somewhere and decided to pray for his people.
-              A pillar of fire dwelt on a rock and Lehi saw and heard things
-              that made him tremble(v.5-6)
-              </p>
             <li>Lehi's second vision:</li>
-              <p>
-              Lehi went home which was located at Jerusalem.  He was then
-              carried away into a vision.  In the vision, he saw, in the heavens,
-              what he believed to be God on His throne. There were continuous
-              circles of angels around His throne praising Him. One angel
-              descended out of heaven.  He shined brighter than the sun at noon.
-              The angel was followed by 12 other angels that shined less, but
-              still like the stars.  The angels went onto the face of the Earth.
-              The first angel stood in front of Lehi and handed him a book and
-              told him to read it. The reading of the book caused Lehi to be
-              filled with the spirit.  He read about the evil of Jerusalem and
-              its comming destruction at the hands of Babylon.  He read and saw
-              many things.  He then began praising God and His mercy and
-              protection of those who come to Him.(v.7-15)
-              </p>
-            <li>Description of plates</li>
-              <p>
-              Nephi is not making a full account of Lehi's life and writings.
-              There are many other prophecies in the writings of Lehi. Nephi is
-              making a record of his own life and actions.  There is only an
-              abridgement of Lehi's record here.(v.16-17)
-              </p>
             <li>Lehi prophesies to people:</li>
-              <p>
-              Lehi went among the people prophecying about the things he saw in
-              his vision. The Jews made fun of Lehi because he testified of
-              their wickedness and a comming Messiah(v.18-19)
-              </p>
             <li>Promise of preservation:</li>
-              <p>
-              The Jews got angry with him. God will have mercy on those He has
-              chosen because of their faith. That mercy could even extend to
-              deliverence.(v.20)
-              </p>
             </ol>
             <hr />
           <h3>Setting</h3>
-            <li>Year: Aprox 600 BC.</li>
-            <li>Place: Around Jerusalem</li>
-            <li>Culture</li>
-              <p>
-               While they still have the first temple, they are post
-               Deuteronomist Reformation.  The tribes of the North hve been
-               scattered among the Southern tribes for about 100 years.
-               Jerusalem is a city of some prominance.  The old and new
-               theologies are competing and the Rabbi's are challenging the
-               priesthood for athority.  There are competing prophecies between
-               true and false prophets.
-              </p>
+            <li>Year:</li>
+            <li>Place:</li>
+            <li>Culture:</li>
             <li>Politics:</li>
             <li>Religion:</li>
           <h3>People</h3>
-            <li>Zedekiah: 1 Nephi 5, Omni 1, Helaman 8 </li>
-            <li>Lehi: 1 Nephi 1-5,7,8,10,11,15,18,19, 2 Ne 1-4,25, Jacob 1,2
-            Enos 1, Mosiah 1,2,6,28,29 Alma 9,10,18,28,36,56 Heleman 8, 3 Nephi
-            1-5,10 4 Nephi, Mormon 4, Ether 12,13</li>
+            <li>Zedekiah: </li>
+            <li>Lehi: </li>
             <li>Sariah:</li>
             <li>Nephi:</li>
             <li>Jews:</li>
@@ -154,9 +102,7 @@ class Bom0101 extends React.Component {
             <li>Lehi's home in the land of Jerusalem:</li>
             <hr />
           <h3>Symbolism</h3>
-            <li>Sun at noon(v.9)</li>
-            <li>Stars in the firmament(v.10)</li>
-            <hr />
+          <hr />
           <h3>Visions, Teachings</h3>
             Lehi's first vision, Lehi's second vision, Lehi's prophecy to the
             Jews, Nephi discusses deliverance
@@ -171,17 +117,10 @@ class Bom0101 extends React.Component {
           <h3>Religion</h3>
           <hr />
           <h3>Questions</h3>
-            <li>Is Egyptian Lehi's primary language?(v.1)</li>
-            <li>Were the 12 following angels the apostles? If so, was Judas
-            Escariot among them?(v.10)</li>
-            <li>Did the angels that went on the earth go to different places,
-            maybe other prophets?(v.11)</li>
-            <hr />
+          <hr />
           <h3>Related Scriptures</h3>
           <hr />
           <h3>Major Points to consider</h3>
-            <li>Nature of the text</li>
-            <li>Favor, mysteries, and tribulation</li>
           <hr />
 
 
