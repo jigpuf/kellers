@@ -4,21 +4,113 @@ class Intro extends React.Component {
   render () {
     return (
       <div>
-      <h3>Interpreter Round Table:</h3>
+      <h3>Text</h3>
+      <h4>Introduction</h4>
+      <div class='twoColumn'>
+      <p>
+        The Book of Mormon is a volume of holy scripture comparable to the
+        Bible. It is a record of God’s dealings with ancient inhabitants of the
+        Americas and contains the fulness of the everlasting gospel.<br />
+        The book was written by many ancient prophets by the spirit of prophecy
+        and revelation. Their words, written on gold plates, were quoted and
+        abridged by a prophet-historian named Mormon. The record gives an
+        account of two great civilizations. One came from Jerusalem in 600 B.C.
+        and afterward separated into two nations, known as the Nephites and the
+        Lamanites. The other came much earlier when the Lord confounded the
+        tongues at the Tower of Babel. This group is known as the Jaredites.
+        After thousands of years, all were destroyed except the Lamanites, and
+        they are among the ancestors of the American Indians.<br />
+        The crowning event recorded in the Book of Mormon is the personal
+        ministry of the Lord Jesus Christ among the Nephites soon after His
+        resurrection.<br />
+        <ol>
+          <li>It puts forth the doctrines of the gospel</li>
+          <li>outlines the plan of salvation</li>
+          <li>tells men what they must do to gain peace in this
+          life and eternal salvation in the life to come.</li>
+        </ol>
+        After Mormon completed his writings, he delivered the account to his son
+        Moroni, who added a few words of his own and hid up the plates in the
+        Hill Cumorah. On September 21, 1823, the same Moroni, then a glorified,
+        resurrected being, appeared to the Prophet Joseph Smith and instructed
+        him relative to the ancient record and its destined translation into the
+        English language.<br />
+        In due course the plates were delivered to Joseph Smith, who translated
+        them by the gift and power of God. The record is now published in many
+        languages as a new and additional witness that Jesus Christ is the Son
+        of the living God and that all who will come unto Him and obey the laws
+        and ordinances of His gospel may be saved.<br />
+        Concerning this record the Prophet Joseph Smith said: “I told the
+        brethren that the Book of Mormon was <mark>the most correct of any book on
+        earth, and the keystone of our religion, and a man would get nearer to
+        God by abiding by its precepts, than by any other book.”</mark><br />
+        In addition to Joseph Smith, the Lord provided for eleven others to see
+        the gold plates for themselves and to be special witnesses of the truth
+        and divinity of the Book of Mormon. Their written testimonies are
+        included herewith as “The Testimony of Three Witnesses” and “The
+        Testimony of Eight Witnesses.”<br />
+        We invite all men everywhere to:<br />
+        <ol>
+          <li>read the Book of Mormon</li>
+          <li>ponder in their hearts the message it contains</li>
+          <li>ask God, the Eternal Father, in the name of Christ if the book is
+          true.</li>
+          Those who pursue this course and ask in faith will:
+          <li>gain a testimony of its truth and divinity by the power of the Holy
+          Ghost. (See Moroni 10:3–5.)</li>
+        </ol>
+        Those who gain this divine witness from the Holy Spirit will also come
+        to know by the same power that:
+        <ol>
+          <li>Jesus Christ is the Savior of the world</li>
+          <li>Joseph Smith is His revelator and prophet in these last days</li>
+          <li>The Church of Jesus Christ of Latter-day Saints is the Lord’s
+          kingdom once again established on the earth, preparatory to the Second
+          Coming of the Messiah.</li>
+        </ol>
+      </p>
+      </div>
+      <h4>Title Page</h4>
+      <div class='twoColumn'>
+      <p>
+      THE BOOK OF MORMON AN ACCOUNT WRITTEN BY THE HAND OF MORMON UPON PLATES
+      TAKEN FROM THE PLATES OF NEPHI<br />
+      Wherefore, it is an abridgment of the record of the people of Nephi, and
+      also of the Lamanites—Written to the Lamanites, who are a remnant of the
+      house of Israel; and also to Jew and Gentile—Written by way of commandment,
+      and also by the spirit of prophecy and of revelation—Written and sealed up,
+      and hid up unto the Lord, that they might not be destroyed—To come forth
+      by the gift and power of God unto the interpretation thereof—Sealed by the
+      hand of Moroni, and hid up unto the Lord, to come forth in due time by way
+      of the Gentile—The interpretation thereof by the gift of God.<br />
+      An abridgment taken from the Book of Ether also, which is a record of the
+      people of Jared, who were scattered at the time the Lord confounded the
+      language of the people, when they were building a tower to get to
+      heaven—Which is to show unto the remnant of the house of Israel<br />
+      <ol>
+        <li>what great things the Lord hath done for their fathers</li>
+        <li>that they may know the covenants of the Lord</li>
+        <li>that they are not cast off forever</li>
+      </ol>
+      —And also to the convincing of the Jew and Gentile that:
+      <ol>
+        <li>Jesus is the Christ, the Eternal God, manifesting himself unto all
+        nations</li>
+      </ol>
+      —And now, if there are faults they are the mistakes of men; wherefore,
+      condemn not the things of God, that ye may be found spotless at the
+      judgment-seat of Christ.<br />
+      TRANSLATED BY JOSEPH SMITH, Jun.
+      </p>
+      </div>
+      <h3>Lectures</h3>
+      <h4>Interpreter Round Table:</h4>
         <a href="https://www.youtube.com/watch?v=NKb1SO4X-q0&list=PLRMn4gyXMWLujWOQeQnYwuONeAY0VzIXv" target='_blank'
         >1-Keystone of our religion</a><br />
         <hr/>
-      <h3>Hugh Nibley Lectures:</h3>
+      <h4>Hugh Nibley Lectures:</h4>
         <a href="https://www.youtube.com/watch?v=XraGjlIcjrs&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw" target='_blank'
         >1-Like No other Book</a><br />
-        <a href="https://www.youtube.com/watch?v=z6kQAB-fmPk&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=2" target='_blank'
-        >2-Nephi's Heritage</a><br />
-        <a href="https://www.youtube.com/watch?v=rSV4hKlo08I&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=3" target='_blank'
-        >3-Geopolitics</a><br />
-        <a href="https://www.youtube.com/watch?v=G2Ok7MsoJfA&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=4" target='_blank'
-        >4-600 BC</a><br />
-        <a href="https://www.youtube.com/watch?v=k6PSfvbDgMk&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=5" target='_blank'
-        >5-Lehi's Contemporaries</a><br />
         <hr/>
       <h3>BYU RoundTable:</h3>
         <a href="https://www.youtube.com/watch?v=JWm_0gRTfpE&list=PLc5yYrpPFm2vlWAA184iiy_uV36l5NGpF" target='_blank'
@@ -38,7 +130,28 @@ class Intro extends React.Component {
         <a href="https://www.youtube.com/watch?v=j9xsZ0OSc48" target='_blank'
         >What Was on the Lost 116 Pages? (Knowhy #452)</a><br />
         <hr/>
-        <h3>Keystone:</h3>
+      <h3>Purposes</h3>
+        <ol>
+        <li>Provide means of obtaining a testimony of Christ, The Church, and
+        Joseph Smith</li>
+        <li>Put forth the doctrines of the gospel</li>
+        <li>Explains the Plan of Salvation</li>
+        </ol>
+        To the remnant of Israel:
+        <ol>
+        <li>Show how God has helped them</li>
+        <li>teach them the covenants</li>
+        <li>Show they are not cast off forever</li>
+        </ol>
+      <h3>Purposes I see</h3>
+        <ol>
+        <li>The rise of the satanic Church and combinations</li>
+        1 Ne 13,14,22; 2Ne 9,10,26,28; Alma 37; Helaman 2,3, 6; 3 Ne 4-7, 9;
+        4 Ne 1; Mormon 8; Ether 8,9, 11, 13,  14
+        <li>The prophecy of America and Joseph</li>
+        <li>Prophecy of the end of the world</li>
+        </ol>
+      <h3>Keystone:</h3>
         <p>Joseph Smith Said,“I told the brethren that the Book of Mormon was
         the most correct of any book on earth, and the keystone of our
         religion, and a man would get nearer to God by abiding by its
@@ -122,3 +235,6 @@ class Intro extends React.Component {
 }
 
 export default Intro;
+/*
+
+*/
