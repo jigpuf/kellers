@@ -150,6 +150,7 @@ class Intro extends React.Component {
         4 Ne 1; Mormon 8; Ether 8,9, 11, 13,  14
         <li>The prophecy of America and Joseph</li>
         <li>Prophecy of the end of the world</li>
+        <li>Restores lost truth</li>
         </ol>
       <h3>Keystone:</h3>
         <p>Joseph Smith Said,“I told the brethren that the Book of Mormon was
@@ -161,6 +162,7 @@ class Intro extends React.Component {
         <li>2)What a keystone does in architecture?</li>
         <li>3)How that relationship of a keystone to the arch applies to the
         Book of Mormon in our religion?</li>
+
         <h4>Our Religion</h4>
           <p>Joseph Smith described our religion as follows:</p>
           <p>The fundamental principles of our religion are the testimony of the
@@ -220,6 +222,9 @@ class Intro extends React.Component {
           <li>6) The glory of God is intelligence and therefore light and truth.</li>
         <h4>The Keystone Purpose</h4>
           <p>The arch cannot support weight until the keystone is added.</p>
+          <p>The Keystone is longer and allows the differing arches to come to a
+          point that makes up the differences.  This allows the  incongruence to
+          find its commonality.</p>
         <h4>The Relationship</h4>
           <p> Other aspects of our religion can only hold weight if the Book of Mormon is
           a true document.  Keystone because if we can show the Book of Mormon
@@ -228,7 +233,10 @@ class Intro extends React.Component {
           The life the book causes a person to live is further power to the
           support of the arch of truth.  As a man gets nearer to God, he gets
           better.  People will see this and it gives power to the argument of
-          the religion's validity.</p>
+          the religion's validity.  It also allows the imperfections built into
+          the Bible and into the Christian tradition to play nice in a way that
+          squashes doubts.  We no longer need the creedal systems.  We instead
+          rely on revealed truth</p>
       </div>
     );
   }

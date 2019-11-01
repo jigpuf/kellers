@@ -11,6 +11,7 @@ import MormonChristian from './subjects/mormonChristian.js'
 import Power from './subjects/power.js'
 import Symbolism from './subjects/symbolism.js'
 import Comandments from './subjects/comandments.js'
+import Whore from './subjects/whore.js'
 
 class Subject extends React.Component {
   state= {
@@ -40,6 +41,7 @@ pickTier2 = (item) => {
       {name: 'Power', slug: 'power', component:<Power />},
       {name: 'Symbolism', slug: 'symbolism', component:<Symbolism />},
       {name: 'Comandments', slug: 'comandments', component:<Comandments />},
+      {name: 'Church of the Devil', slug:'whore', component:<Whore />},
     ]
       const renderItems = Items.map(item => {
         return (
