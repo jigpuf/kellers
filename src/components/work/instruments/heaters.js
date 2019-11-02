@@ -38,9 +38,6 @@ class Heaters extends React.Component {
 
 
 
-
-
-
       <h3>Information</h3>
         Model:<br />
         Part Number:<br />
@@ -49,9 +46,8 @@ class Heaters extends React.Component {
         Manual:<br />
       <h3>Physical Setup</h3>
         Circuit Diagram:<br />
-        Mounting:<br />
+        <img src='instrumentation/heaterCircuit.svg'></img><br />
         Pinouts:<br />
-        Connectors<br />
       <h3>Setup</h3>
         Software<br />
         Paramaters<br />
@@ -60,6 +56,7 @@ class Heaters extends React.Component {
         Simulate Instrument:<br />
         Instrument Checkout:<br />
       <h3>Adding to software</h3>
+
       </div>
     );
   }
