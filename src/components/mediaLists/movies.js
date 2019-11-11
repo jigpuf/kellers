@@ -219,8 +219,9 @@ class Movies extends React.Component {
         >Django Unchained</a></li>
         <li>Parasite</li>
         <li>Nightmare on Elm Street</li>
-        <li><a href="https://www.google.com/search?q=in+the+tall+grass&oq=in+the+tall+grass&aqs=chrome..69i57j35i39j0l4.5881j0j7&sourceid=chrome&ie=UTF-8" target='_blank'
-        >In the tall grass</a></li>
+        <li>The Resort</li>
+        <li>The Vault</li>
+        <li>Tusk</li>
         </div>
       </div>
     );

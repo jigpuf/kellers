@@ -280,6 +280,7 @@ class Bom01Overview extends React.Component {
         </div><hr/>
         <h3>Characters:</h3>
           <li>Zedekiah 1</li>
+          <li>Jews</li>
           <li>Lehi 1</li>
           <li>Sariah</li>
           <li>Laman</li>
@@ -298,6 +299,7 @@ class Bom01Overview extends React.Component {
         <h3>Groups:</h3>
           <li>Jews 1</li>
           <li>Gentiles</li>
+          <li>Egyptians</li>
         <h3>Locations:</h3>
           <li>Jerusalem 1</li>
           <li>Babylon</li>
@@ -313,9 +315,12 @@ class Bom01Overview extends React.Component {
         <h3>Symbols:</h3>
         <h3>Sermons:</h3>
           <li>Valley and River</li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Sermon on Lehi's Dream</li>
+          <li>Sermon on Nephi's Dream</li>
+          <li>15</li>
+          <li>17</li>
+          <li>19</li>
+          <li>22</li>
         <h3>Visions:</h3>
           <li>Lehi's First Vision 1</li>
           <li>Lehi's vision of the Tree of Life </li>

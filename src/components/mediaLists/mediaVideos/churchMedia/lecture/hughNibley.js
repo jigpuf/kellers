@@ -15,8 +15,6 @@ class HughNibley extends React.Component {
       {name: 'BOM Lectures', slug: 'BOM', component:<BOM /> },
       {name: 'POGP Lectures', slug: 'POGP' },
       {name: 'One Eternal Round Lectures', slug: 'OER' },
-      {name: 'Talks', slug: 'talks' },
-      {name: 'Books', slug: 'books' },
     ]
     const renderItems = Items.map(item => {
       return (

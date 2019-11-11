@@ -52,12 +52,12 @@ class Presidents extends React.Component {
           >Personal Interview with Christ(text)</a><br />
           <hr />
         <li>Joseph Fielding Smith</li>
-          <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/law-divine-witnesses/' target ='_blank'
-          >The divine law of witnesses (1949)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/leadership-week-fulfilment-prophecy/' target ='_blank'
           >Leadership Week: Fulfillment of Prophecy(1952)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/origin-man/' target ='_blank'
           >The Origin of Man(1953)</a><br />
+          <a href='https://www.youtube.com/watch?v=YLr7hJY4ZVs' target ='_blank'
+          >The divine law of witnesses (1953)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-saves/' target ='_blank'
           >The Knowledge That Saves(1954)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/knowledge-countries-kingdoms/' target ='_blank'
@@ -94,6 +94,7 @@ class Presidents extends React.Component {
           >Eternal Keys and the Right to preside (1972)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/general-conference/1972/04/a-prophets-blessing?lang=eng' target ='_blank'
           >A Prophet's Blessing (last talk) (1972)</a><br />
+          Fulfillment of Prophecy
           <hr />
         <li>Harold B. Lee</li>
           <a href='https://speeches.byu.edu/talks/harold-b-lee/men-women-tomorrow-depends-upon/' target ='_blank'
@@ -110,6 +111,7 @@ class Presidents extends React.Component {
           >May the Kingdom of God go Forth (first as presisdent)(1972)</a><br />
           <a href="https://www.youtube.com/watch?v=40LPC_pUgVA" target ='_blank'
           >Closing Remarks- Harold B. Lee</a><br />
+          Faith 45:49
           <hr />
         <li>Spencer W. Kimball</li>
           <a href='https://speeches.byu.edu/talks/spencer-w-kimball/shall-marry/' target ='_blank'

@@ -34,14 +34,29 @@ class Reading extends React.Component {
               <tr><td>14</td><td>Mosiah 7-10</td><td>Ammon learns about Zenniff</td><td></td></tr>
               <tr><td>15</td><td>Mosiah 11-17</td><td>Noah and Abinadai</td><td></td></tr>
               <tr><td>16</td><td>Mosiah 18-22</td><td>Alma, Limhi, Ammon</td><td></td></tr>
-              <tr><td>17</td><td>Mosiah 23</td><td></td><td></td></tr>
-              <tr><td>18</td><td></td><td></td><td></td></tr>
-              <tr><td>19</td><td></td><td></td><td></td></tr>
-              <tr><td>20</td><td></td><td></td><td></td></tr>
-              <tr><td>21</td><td></td><td></td><td></td></tr>
+              <tr><td>17</td><td>Mosiah 23-25</td><td>Alma and Amulon</td><td></td></tr>
+              <tr><td>18</td><td>Mosiah 26-29</td><td>Alma the Younger as Chief Judge</td><td></td></tr>
+              <tr><td>19</td><td>Alma 1-3</td><td>Nehor and Amlicite Battle</td><td></td></tr>
+              <tr><td>20</td><td>Alma 4-7</td><td>Alma's First Mission</td><td></td></tr>
+              <tr><td>21</td><td>Alma 8-16</td><td>Alma's Second Mission</td><td></td></tr>
               <tr><td>22</td><td></td><td></td><td></td></tr>
+              <tr><td>23</td><td></td><td></td><td></td></tr>
+              <tr><td>24</td><td></td><td></td><td></td></tr>
+              <tr><td>25</td><td></td><td></td><td></td></tr>
+              <tr><td>26</td><td></td><td></td><td></td></tr>
+              <tr><td>27</td><td></td><td></td><td></td></tr>
+              <tr><td>28</td><td></td><td></td><td></td></tr>
+              <tr><td>29</td><td></td><td></td><td></td></tr>
             </table>
-
+            Ways to Read the Book of Mormon:<br />
+            <li>Chronologically</li>
+            <li>Politically</li>
+            <li>Warfare</li>
+            <li>Geographic</li>
+            <li>Characters</li>
+            <li>Sermons</li>
+            <li>Theology</li>
+            <li>Synopsis</li>
 
       </div>
     );

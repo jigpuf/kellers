@@ -78,6 +78,116 @@ class Power extends React.Component {
         seems that taking on the name of Christ in the sacrament prayer may be
         speaking of entrance into the holy order or the Patriarchal priestood
         of Celestial marriage</p>
+        <h3>List of Powers</h3>
+          <div className='twoColumn'>
+          <li>Power of the Father</li>
+          <li>Power of God</li>
+          <li>Power of the Holy Ghost</li>
+          <li>Powers of Heaven</li>
+          <li>Power of Faith</li>
+          <li>Power of the Lam of God</li>
+          <li>Power of the Devil</li>
+          <li>Power of the Word of God</li>
+          <li>Power of the Spirit</li>
+          <li>Spirit of Power</li>
+          <li>Power of Resurection</li>
+          <li>Power of the Atonement</li>
+          <li>Power of Christ</li>
+          <li>Power of Mine Arm</li>
+          <li>Power of the Redemption</li>
+          <li>Power of Justice</li>
+          <li>Power of Speech</li>
+          <li>Power of arms</li>
+          <li>Power of His Holy Arm</li>
+          <li>Power of Deliverance</li>
+          <li>Power of Captivity</li>
+          <li>Power of Earth</li>
+          <li>Power of Hell</li>
+          <li>Power of the Redeamer</li>
+          <li>Power of the Aaronic Priesthood</li>
+          <li>Power of Darkness</li>
+          <li>Power of turning the Hearts to the Fathers</li>
+          <li>Power of the Enemy</li>
+          <li>Power of God's Spirit</li>
+          <li>Power of His Might</li>
+          <li>Power of the Ordination</li>
+          <li>Power of Godliness</li>
+          <li>Power of the Priesthood</li>
+          <li>Power of the Only Begotten</li>
+          <li>Power of Language</li>
+          <li>Power of Reason</li>
+          <li>Power of Sophestry</li>
+          <li>Power to Come Forth</li>
+          <li>Power to Bind and Seal on Earth</li>
+          <li>Power to Open the Doors of the Kingdom</li>
+          <li>Power to Gather</li>
+          <li>Power to Bring Evil</li>
+          <li>Power to Call</li>
+          <li>Power to Preside</li>
+          <li>Power to Appoint</li>
+          <li>Power to Tempt</li>
+          <li>Power to Expound Scripture</li>
+          <li>Power to be Mighty in Testimony</li>
+          <li>Power to Build Temples</li>
+          <li>Power to Declare Words</li>
+          <li>Power to Harm</li>
+          <li>Power to Prepare for the Comming</li>
+          <li>Power to make straight the way of the Lord</li>
+          <li>Power to Overthrow</li>
+          <li>Power to move and Act</li>
+          <li>Power to Reign</li>
+          <li>Power to seal to Eternal Life</li>
+          <li>Power to Command the Waters</li>
+          <li>Power to give the Holy Ghost</li>
+          <li>Power to Claim</li>
+          <li>Power to Overcome all Things</li>
+          <li>Power to Discern Gifts</li>
+          <li>Power to Obtain Eternal Life</li>
+          <li>Power to Organize</li>
+          <li>Power to Build up a Church</li>
+          <li>Power to Recieve Testimony</li>
+          <li>Power to Lay the foundation of the Church</li>
+          <li>Power to Translate</li>
+          <li>Power to give Life to an Image</li>
+          <li>Power to do Miracles</li>
+          <li>Power to Shut Heaven</li>
+          <li>Power to Establish</li>
+          <li>Power to Lay down Life and Take it up</li>
+          <li>Power to become Sons of God</li>
+          <li>Power to Cast into Hell</li>
+          <li>Power to Tread on Snakes and Scorpions</li>
+          <li>Power to Heal</li>
+          <li>Power to Shed Blood</li>
+          <li>Power to Deliver</li>
+          <li>Power over Death</li>
+          <li>Power to Avoid Death</li>
+          <li>Power to Redeam</li>
+          <li>Power to Cast Down</li>
+          <li>Power to Help</li>
+          <li>Power to Keep Still the Kingdom</li>
+          <li>Power in the Priesthood</li>
+          <li>Power of the Lord Keys of Power</li>
+          <li>The word of God's Power</li>
+          <li>Gift and power of God</li>
+          <li>Power to fulfill words</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          </div>
+          Is there a corelation? Is the power of based on a title and the power to a category of the position based powers?  A possible way to divide this would be to say Power of allows the power to based on this principle of righteosness etc.
         <p></p>
       </div>
     );

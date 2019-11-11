@@ -1,10 +1,10 @@
 import React from 'react';
-import Presidents from './churchMedia/presidents.js'
-import Apostles from './churchMedia/apostles.js'
-import Educators from './churchMedia/educators.js'
-import Lecture from './churchMedia/lecture.js'
+import Byu from './lecture/byu.js'
+import HughNibley from './lecture/hughNibley.js'
+import HyrumAndrus from './lecture/hyrumAndrus.js'
+import Interpreter from './lecture/interpreter.js'
 
-class Church extends React.Component {
+class Lecture extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -15,10 +15,10 @@ class Church extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Presidents', slug: 'presidents', component:<Presidents />},
-      {name: 'General Authorities', slug: 'general', component:<Apostles />},
-      {name: 'Educators', slug: 'educators', component:<Educators />},
-      {name: 'Lecture series', slug: 'lecture', component:<Lecture />},
+      {name: 'BYU', slug: 'byu', component:<Byu /> },
+      {name: 'Hugh Nibley', slug: 'hugh', component:<HughNibley />},
+      {name: 'Hyrum Andrus', slug: 'hyrum', component:<HyrumAndrus />},
+      {name: 'Interpreter', slug: 'interpreter', component:<Interpreter />},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -44,4 +44,5 @@ class Church extends React.Component {
     )
     }
   }
-export default Church;
+
+export default Lecture;
