@@ -69,7 +69,7 @@ class Presidents extends React.Component {
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/ye-temple-of-god/' target ='_blank'
           >Ye Are the Temple of God(1958)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/quorum-twelve-apostles/' target ='_blank'
-          >The Quorum of the Twelve Apostles(1958)(test)</a><br />
+          >The Quorum of the Twelve Apostles(1958)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/live-true-covenants-obligations/' target ='_blank'
           >Live True to Our Covenants and Obligations(1959)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/joseph-fielding-smith/seeking-salvation-kingdom-god/' target ='_blank'

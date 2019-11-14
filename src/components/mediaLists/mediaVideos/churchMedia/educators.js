@@ -6,20 +6,19 @@ class Educators extends React.Component {
       <div>
         <h2>Individuals Educators</h2>
           <h3>Anderson, Scott</h3>
-            ? 56:22
+            <a href='https://www.youtube.com/watch?v=cl9NVqhiSX8' target='_blank'
+            title='0:00-Professor Convert,4:44 3 Ne 11-14,37:00 missionary work,44:00 Redeaming the dead(mom)'
+            >That We May Be One</a><br />
             <hr />
           <h3>Backyard Proffesor</h3>
             <a href="https://www.youtube.com/watch?v=aMkntpsG55c&t=29s" target="_blank"
             >Proving the Book of Abraham 1</a><br />
             <a href="https://www.youtube.com/watch?v=gSvqtZyQonI&t=449s" target="_blank"
             >Proving the Book of Abraham 2</a><br />
-          <hr/>
-          <h3>Ballard, Tim</h3>
-            <a href="https://www.youtube.com/watch?v=qxVSvaOTiGQ&t=13s" target ='_blank'
-            >The American Covenant (One Nation Under God)</a><br />
             <hr/>
           <h3>Bickmore, Barry</h3>
             <a href='https://www.youtube.com/watch?v=-Qn61g3wCsA' target ='_blank'
+            title='8:40 Nature of Godhead,17:20 Early Christian Groups, 22:50 apostacy of early Christianity'
             >Joseph Smith Among the Early Christians</a><br />
             <hr/>
           <h3>Biddulph, Romney</h3>
@@ -27,7 +26,9 @@ class Educators extends React.Component {
             >Evidence of the LDS Church from Early Christian Teachings</a><br />
             <hr/>
           <h3>Bird, Randall C.</h3>
-            Cut Without Hands
+          <a href='https://www.youtube.com/results?search_query=randall+bird+cut+without+hands' target ='_blank'
+          title='0:00 Growth of Church,22:30 Second Comming, Daniel 2'
+          >A Stone Cut Without Hands</a><br />
           <h3>Bokovoy, David</h3>
             <a href='https://www.youtube.com/watch?v=g0UG8YBsdoI&t=11s' target='_blank'
             >Joseph Smith and the Biblical Council of Gods</a><br/>
@@ -176,9 +177,10 @@ class Educators extends React.Component {
           <h3>Robert Millet</h3>
             <li><a href='https://www.youtube.com/watch?v=Z8CAH2rh8o0' target='_blank'
             >Robert L. Millet, "The Atonement as Taught in The Book of Mormon"</a></li>
+            Beyond the Grave, Second Comming of Christ
           <hr/>
-
-
+          <h3>Nyman, Monte S.</h3>
+            When will Zion Be Redeemed?
           <h3>John Gee</h3>
             <a href="https://www.youtube.com/watch?v=XVAEC1wJFqY" target="_blank"
             >Joseph Smith and ancient Egypt-John Gee</a><br />

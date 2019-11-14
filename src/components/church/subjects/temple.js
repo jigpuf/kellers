@@ -115,40 +115,53 @@ class Temple extends React.Component {
           <li>Telestial</li>
           Sacrifice,
           <li>Terrestrial</li>
-
           <li>Celestial</li>
         <h4>Tribe symbolism</h4>
-        Gen 30,34,49; Deut 33<br />
-        <a href="https://www.quora.com/What-are-the-symbols-of-the-twelve-tribes-of-Israel" target='_blank'
-        >Tribe symbols</a><br />
-        <li>Reuben</li>
-        FirstBorn,Unstable Water,rising Sun<br />
-        <li>Simeon</li>
-        Walled City<br />
-        <li>Levi</li>
-        *Urim/Thumim/Breastplate<br />
-        <li>Judah</li>
-        *Lion,Scepter, Law, Gathered to him, Wine<br />
-        <li>Zebulon</li>
-        Ship<br />
-        <li>Issachar</li>
-        Donkey, sun and stars<br />
-        <li>Dan</li>
-        Judgement, scales, Serpent<br />
-        <li>Gad</li>
-        Tents<br />
-        <li>Asher</li>
-        Olive Tree<br />
-        <li>Naphtali</li>
-        Doe<br />
-        <li>Ephraim</li>
-        Ox<br />
-        <li>Joseph</li>
-        sheep, wheat,pyramid,vine, palm tree<br />
-        <li>Manasseh</li>
-        Unicorn<br />
-        <li>Benjamin</li>
-        Wolf, Temple/courtyard<br />
+          Gen 30,34,49; Deut 33<br />
+          <a href="https://www.quora.com/What-are-the-symbols-of-the-twelve-tribes-of-Israel" target='_blank'
+          >Tribe symbols</a><br />
+          <li>Reuben</li>
+          FirstBorn,Unstable Water,rising Sun<br />
+          <li>Simeon</li>
+          Walled City<br />
+          <li>Levi</li>
+          *Urim/Thumim/Breastplate<br />
+          <li>Judah</li>
+          *Lion,Scepter, Law, Gathered to him, Wine<br />
+          <li>Zebulon</li>
+          Ship<br />
+          <li>Issachar</li>
+          Donkey, sun and stars<br />
+          <li>Dan</li>
+          Judgement, scales, Serpent<br />
+          <li>Gad</li>
+          Tents<br />
+          <li>Asher</li>
+          Olive Tree<br />
+          <li>Naphtali</li>
+          Doe<br />
+          <li>Ephraim</li>
+          Ox<br />
+          <li>Joseph</li>
+          sheep, wheat,pyramid,vine, palm tree<br />
+          <li>Manasseh</li>
+          Unicorn<br />
+          <li>Benjamin</li>
+          Wolf, Temple/courtyard<br />
+        <h4>Priesthood</h4>
+          It seems the index finger is the pointer at the token locations<br />
+
+          <li>Aaronic</li>
+            How would the tokens relate to the lower priesthod?<br />
+            Rode exposes Square<br />
+            Sign 1<br />
+            Sign 2<br />
+
+          <li>Melchizedek</li>
+            Rode exposes Compass<br />
+            The tokens relate to Christ Directly in the higher Priesthood<br />
+            Sign 3<br />
+            Sign 4<br />
       </div>
     );
   }

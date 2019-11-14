@@ -1,6 +1,7 @@
 import React from 'react';
 import Lectures from './jsx/lectures.js'
 import Notes from './jsx/notes.js'
+import Mine from './jsx/mine.js'
 
 class Jsx extends React.Component {
   state = {
@@ -17,6 +18,7 @@ class Jsx extends React.Component {
     const Items = [
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
+      {name: 'MyBook of React', slug:'mine', component:<Mine />}
     ]
     const renderItems = Items.map(item => {
       return (

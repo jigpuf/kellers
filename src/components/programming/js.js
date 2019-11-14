@@ -2,6 +2,7 @@ import React from 'react';
 import Lectures from './js/lectures.js'
 import Notes from './js/notes.js'
 
+
 class Js extends React.Component {
   state = {
     tier1: undefined,
