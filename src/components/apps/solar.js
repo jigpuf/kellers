@@ -1,33 +1,18 @@
 import React from 'react';
 
-class Paycheck extends React.Component {
+class Solar extends React.Component {
   state ={
-    hourlyWage: 34,
-    hoursWorked: 110,
-    insurance: 195,
-    setAside: 1500,
-    effectiveHours:125,
-    espp:.15,
-    taxes: .136,
-    selectedOption: 'night',
-    shiftWage: 1.085,
-    mortgage:850,
-    carInsurance:50,
-    electricity:200,
-    water:45,
-    gas:50,
-    internet:95,
-    fuel:250,
-    cellPhones:185,
-    carPayment:200,
-    Hulu:13,
-    Netflix:15,
-    Amazon:15,
-    Zander:13,
-    Gym:45,
-    AtmInternet:155,
+    kwhPerDay: 2,
+    InstantPower: 3,
+    SunHours: 6,
+    CloudyDays: 3,
+    LentgthOfWire: 15,
+////Battery capacity = kwh * 2.5 * cloudy days(2-5)
+////Size inverter = max instant power *
+////Production Needed = (Battery Capacity /watts/sun per day) * 1.5
+////Charge Controller =
   }
-  changeHourlyWage = (event) => {
+/*  changeHourlyWage = (event) => {
     const wage = parseFloat(event.target.value,10);
     return this.setState({hourlyWage:wage});
   }
@@ -65,10 +50,20 @@ class Paycheck extends React.Component {
       this.setState({selectedOption:event.target.value},this.shiftWageChanger)
     );
 //it seems to grab the last value, not the current 1
-  }
+}*/
   render () {
     return (
       <div>
+
+      <table>
+        <tr><th>Appliance</th><th>Number</th><th>Watts</th><th>Hrs/DAy</th></tr>
+        <tr><td>Lights</td><td>3</td><td>20</td><td></td></tr>
+        <tr><td>pumps</td><td></td><td></td><td></td></tr>
+        <tr><td>Controller</td><td></td><td></td><td></td></tr>
+        <tr><td>Fans</td><td></td><td></td><td></td></tr>
+        <tr><td>Power</td><td></td><td></td><td></td></tr>
+        <tr><td>Power</td><td></td><td></td><td></td></tr>
+      </table>
         Shift:<br />
         <form>
           <input type="radio" name="shift" value="day" onChange={this.handleOptionChange}
@@ -161,4 +156,4 @@ class Paycheck extends React.Component {
   }
 }
 
-export default Paycheck;
+export default Solar;

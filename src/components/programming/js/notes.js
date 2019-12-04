@@ -1,23 +1,46 @@
 import React from 'react';
+import JsBasics from './jsNotes/jsBasics.js';
+import JsControlFlow from './jsNotes/jsControlFlow.js';
+import JsFunctionsAndMethods from './jsNotes/jsFunctionsAndMethods.js';
 
 class Notes extends React.Component {
+  state = {
+    tier1: undefined,
+  }
+  pickTier1  = (item) => {
+    return () => {
+      this.setState({tier1:item})
+    }
+  }
   render () {
+    const Items = [
+      {name: 'Basics', slug: 'basics', component: <JsBasics/> },
+      {name: 'Control Flow', slug: 'control', component: <JsControlFlow/> },
+      {name: 'Functions/Methods', slug: 'functionsM', component: <JsFunctionsAndMethods/> },
+
+    ]
+    const renderItems = Items.map(item => {
+      return (
+        <button
+          key={item.slug}
+          onClick={this.pickTier1(item.slug)}
+          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
+        >{item.name}</button>
+      )
+    })
+    const tier1 = Items.filter(item => {
+      return this.state.tier1 === item.slug;
+    });
+    const renderTier2Component = tier1[0] && tier1[0].component;
     return (
       <div>
-        <a href='https://www.youtube.com/watch?v=h33Srr5J9nY&t=184s' target='_blank'
-        >JavaScript ES6 Arrow Functions Tutorial</a><br/>
-        <a href='https://www.youtube.com/watch?v=NCwa_xi0Uuc&t=838s' target='_blank'
-        >JavaScript for React Developers | Mosh</a><br/>
-        <a href='https://www.youtube.com/watch?v=UweDK_imADU' target='_blank'
-        >10 Things to Know About Javascript ES6 Before Learning React JS | ES6 Tutorial | Javascript Basics</a><br/>
-        <a href='' target='_blank'
-        ></a><br/>
-        <a href='' target='_blank'
-        ></a><br/>
-
+        <ul>
+          {renderItems}
+        </ul>
+        <hr />
+        {renderTier2Component}
       </div>
     );
   }
 }
-
 export default Notes;

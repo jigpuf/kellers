@@ -146,7 +146,7 @@ class Intro extends React.Component {
       <h3>Purposes I see</h3>
         <ol>
         <li>The rise of the satanic Church and combinations</li>
-        1 Ne 13,14,22; 2Ne 9,10,26,28; Alma 37; Helaman 2,3, 6; 3 Ne 4-7, 9;
+        1 Ne 13,14,22; 2Ne 9,10,26,28; Alma 37; Helaman 2,3, 6, 12; 3 Ne 4-7, 9;
         4 Ne 1; Mormon 8; Ether 8,9, 11, 13,  14
         <li>The prophecy of America and Joseph</li>
         <li>Prophecy of the end of the world</li>

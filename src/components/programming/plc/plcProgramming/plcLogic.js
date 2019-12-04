@@ -1,9 +1,9 @@
 import React from 'react';
-import Lectures from './jsx/lectures.js'
-import Notes from './jsx/notes.js'
-import Mine from './jsx/mine.js'
+import DigitalIO from './plcLogic/digitalIO.js'
+import AnalogIO from './plcLogic/analogIO.js'
 
-class Jsx extends React.Component {
+
+class Logic extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -16,9 +16,8 @@ class Jsx extends React.Component {
   render () {
 
     const Items = [
-      {name: 'Lectures', slug: 'lectures', component:<Lectures />},
-      {name: 'Notes', slug: 'notes', component:<Notes />},
-      {name: 'MyBook of React', slug:'mine', component:<Mine />}
+      {name: 'Digital I/O', slug: 'digitalIO', component:<DigitalIO />},
+      {name: 'Analog I/O', slug: 'analogIO', component:<AnalogIO />},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -45,5 +44,4 @@ class Jsx extends React.Component {
     )
   }
 }
-
-export default Jsx;
+export default Logic;

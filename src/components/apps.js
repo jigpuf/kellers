@@ -1,5 +1,6 @@
 import React from 'react';
 import Paycheck from './apps/paycheck.js'
+import Solar from './apps/solar.js'
 import Dice from './apps/dice.js';
 
 class Apps extends React.Component {
@@ -14,6 +15,7 @@ class Apps extends React.Component {
   render () {
     const Items = [
       {name: 'Paycheck', slug: 'paycheck', component:<Paycheck /> },
+      {name: 'Solar Power Calc', slug: 'solar', component:<Solar />},
       {name: 'Clockout', slug: 'clockout'},
       {name: 'Dice Rolling Tool', slug: 'dice', component: <Dice /> },
       {name: 'Battleship', slug: 'battleship' },

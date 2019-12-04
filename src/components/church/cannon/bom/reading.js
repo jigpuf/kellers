@@ -45,11 +45,11 @@ class Reading extends React.Component {
               <tr><td>25</td><td>Alma 36-42</td><td>Alma councils Sons</td><td></td></tr>
               <tr><td>26</td><td>Alma 43-44</td><td>Moroni against Zarahemna</td><td></td></tr>
               <tr><td>27</td><td>Alma 45-51</td><td>Moroni against Amalekiah</td><td></td></tr>
-              <tr><td>28</td><td>Alma 52,53-</td><td>Moroni against Ammoron</td><td></td></tr>
-              <tr><td>29</td><td></td><td></td><td></td></tr>
-              <tr><td>30</td><td></td><td></td><td></td></tr>
-              <tr><td>31</td><td></td><td></td><td></td></tr>
-              <tr><td>32</td><td></td><td></td><td></td></tr>
+              <tr><td>28</td><td>Alma 52-63</td><td>Moroni against Ammoron, 2000 Warriors, Peace, Spreading of the people</td><td></td></tr>
+              <tr><td>29</td><td>Helaman 1-6</td><td>Rise of the Robbers, battles of Zarahemla, Mission of Nephi/Lehi</td><td></td></tr>
+              <tr><td>30</td><td>Helaman 7-12</td><td>Nephi and Chief Judge Murder, Mormon's chapter</td><td></td></tr>
+              <tr><td>31</td><td>Helaman 13-16</td><td>Samuel The Lamanite</td><td></td></tr>
+              <tr><td>32</td><td>3 Ne 1</td><td></td><td></td></tr>
               <tr><td>33</td><td></td><td></td><td></td></tr>
               <tr><td>34</td><td></td><td></td><td></td></tr>
               <tr><td>35</td><td></td><td></td><td></td></tr>
@@ -67,7 +67,39 @@ class Reading extends React.Component {
             <li>Sermons</li>
             <li>Theology</li>
             <li>Synopsis</li>
-
+              <h3>Travel to Promised Land</h3>
+                <h4>Jerusalem and the Valley 1 Ne 1-15</h4>
+                <h4>Travel 1 Ne 16-18</h4>
+              <h3>Land of First inheritance</h3>
+                <h4>Nephi's Sermon Land of First Inheritance 1 Ne 19-22</h4>
+                <h4>Split of the Lehites 2 Ne 1-10</h4>
+              <h3>Nephi final Teachings</h3>
+                <h4>Isaiah Fest 2 Ne 11-24</h4>
+                <h4>Nephi Prophecies and discusses Doctrine 2 Ne 25-33</h4>
+              <h3>Jacob</h3>
+                <h4>Jacob's Sermon 1-6</h4>
+                <h4>Sherem the Anti-Christ</h4>
+              <h3>Enos, Jarom, Omni, Words of Mormon</h3>
+                <h4>Enos' Struggle</h4>
+                <h4>Descent into evil, Jarom Omni, WOM</h4>
+              <h3>Mosiah and Benjamin</h3>
+                <h4>King Benjamin Sermon Mosiah 1-6</h4>
+              <h3>People of Land of Lehi-Nephi</h3>
+                <h4>Zeniffs People Mosiah 7-22</h4>
+                <h4>Alma's Senior's time in the Wilderness Mosiah 23-24</h4>
+              <h3>The Church and Zarahemla</h3>
+                <h4>People combine and church formed Mosiah 25-26</h4>
+                <h4>Alma the younger is converted and missions are decided Mosiah 27-29</h4>
+              <h3>Nehor and Amalicite Battle Alma 1-3</h3>
+              <h3>Missions of Alma Younger and Sons of Mosiah</h3>
+                <h4>Alma Younger's Missions Alma 4-16</h4>
+                <h4>Sons of Mosiah's Mission Alma 16-22</h4>
+                <h4>Anti-Nephi-Lehtes Alma 23-29</h4>
+                <h4>Alma to the Zoramites Alma 30-35</h4>
+              <h3>Alma Councils Sons Alma 36-42</h3>
+              <h3>Nephite Lamanite War Alma 43-63</h3>
+              <h3>Robbers and Neph and Lehi Helaman 1-12</h3>
+              <h3>Samuel the Lamanit until Birth of Christ Helaman 13- 3 Ne </h3>
       </div>
     );
   }

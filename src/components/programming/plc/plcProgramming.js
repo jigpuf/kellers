@@ -1,12 +1,8 @@
 import React from 'react';
-import Lectures from './plc/lectures.js'
-import PlcProgramming from './plc/plcProgramming.js'
-import Notes from './plc/notes.js'
-import Programs from './plc/programs.js'
-import PlcHardware from './plc/plcHardware.js'
-import PlcCommunications from './plc/plcCommunications.js'
+import PlcLogic from './plcProgramming/plcLogic.js'
+import PlcInstructions from './plcProgramming/plcInstructions.js'
 
-class PLC extends React.Component {
+class PlcProgramming extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -19,13 +15,8 @@ class PLC extends React.Component {
   render () {
 
     const Items = [
-      {name: 'Lectures', slug: 'lectures', component:<Lectures />},
-      {name: 'Notes', slug: 'notes', component:<Notes />},
-      {name: 'Programming', slug: 'programming', component:<PlcProgramming />},
-      {name: 'Software', slug: 'software', component:<Programs /> },
-      {name: 'Hardware', slug: 'hardware', component:<PlcHardware /> },
-      {name: 'Communications', slug: 'communications', component:<PlcCommunications />},
-
+      {name: 'Instructions', slug: 'commands', component:<PlcInstructions />},
+      {name: 'Logic Examples', slug: 'logic', component:<PlcLogic />},
     ]
     const renderItems = Items.map(item => {
       return (
@@ -51,6 +42,6 @@ class PLC extends React.Component {
 
     )
   }
-}
+  }
 
-export default PLC;
+export default PlcProgramming;

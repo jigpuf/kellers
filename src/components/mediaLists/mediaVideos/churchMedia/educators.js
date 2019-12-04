@@ -16,6 +16,10 @@ class Educators extends React.Component {
             <a href="https://www.youtube.com/watch?v=gSvqtZyQonI&t=449s" target="_blank"
             >Proving the Book of Abraham 2</a><br />
             <hr/>
+          <h3>Ballard, Tim</h3>
+            <a href='https://www.youtube.com/watch?v=9XQ67h7C9-4' target ='_blank'
+            >The American Covenant</a><br />
+            <hr/>
           <h3>Bickmore, Barry</h3>
             <a href='https://www.youtube.com/watch?v=-Qn61g3wCsA' target ='_blank'
             title='8:40 Nature of Godhead,17:20 Early Christian Groups, 22:50 apostacy of early Christianity'
@@ -27,7 +31,7 @@ class Educators extends React.Component {
             <hr/>
           <h3>Bird, Randall C.</h3>
           <a href='https://www.youtube.com/results?search_query=randall+bird+cut+without+hands' target ='_blank'
-          title='0:00 Growth of Church,22:30 Second Comming, Daniel 2'
+          title='0:00 Growth of Church,22:30 Second Comming, 27:50 Daniel 2 and restoration,41:20 Church Charity'
           >A Stone Cut Without Hands</a><br />
           <h3>Bokovoy, David</h3>
             <a href='https://www.youtube.com/watch?v=g0UG8YBsdoI&t=11s' target='_blank'
@@ -105,7 +109,48 @@ class Educators extends React.Component {
             The Miracle of Forgiveness
           <h3>Durrant, George D.</h3>
             Number One Christian
-<h2> Start Organizing E's Here</h2>
+          <h3>Gee, John</h3>
+            <a href="https://www.youtube.com/watch?v=XVAEC1wJFqY" target="_blank"
+            >Joseph Smith and ancient Egypt-John Gee</a><br />
+            <a href="https://www.youtube.com/watch?v=Xuiqna_SzY4" target="_blank"
+            >Puzzles from Joseph Smith Papyri-John Gee</a><br />
+            <a href="https://www.youtube.com/watch?v=4ye3SqOkWXo" target="_blank"
+            >Book of Abraham, I Presume-John Gee</a><br />
+            <a href="https://www.youtube.com/watch?v=c2rGi6gltqw" target="_blank"
+            >Book of Abraham in historical Context-John Gee</a><br />
+            <a href="https://www.youtube.com/watch?v=XVAEC1wJFqY&t=584s" target="_blank"
+            >BYU Church History Symposium 2013 - John Gee</a><br />
+            <hr/>
+          <h3>Givens, Terryl</h3>
+            <a href='https://www.youtube.com/watch?v=NuL2W4wjDwE&t=58s' target ='_blank'
+            >What the Western Tradition teaches us about the Pre-Existence by Terryl Givens</a><br />
+            <a href='https://www.youtube.com/watch?v=JCc4u23JkBw&t=1025s' target ='_blank'
+            >Terryl L. Givens, "Joseph Smith's American Bible: Radicalizing the Familiar" (2009)</a><br />
+            <a href='https://www.youtube.com/watch?v=k1UiVFIkUFI&t=52s' target ='_blank'
+            >"Lightning Out of Heaven": Joseph Smith and the Forging of Community | Terryl L. Givens</a><br />
+            <hr/>
+          <h3>Gordon, Scott</h3>
+            <a href='https://www.youtube.com/watch?v=xsbsG-kE2W0&t=55s' target ='_blank'
+            >Mormon Temples and Freemasonry - Scott Gordon</a><br />
+            <hr/>
+          <h3>Gregerson, Paul</h3>
+            <a href="https://www.youtube.com/watch?v=8OAlIW63T5g&t=23s" target="_blank"
+            >Book of Abraham Part1-Paul Gregerson</a><br />
+            <a href="https://www.youtube.com/watch?v=SG4I41xucM8&t=6s" target="_blank"
+            >Book of Abraham Part2-Paul Gregerson</a><br />
+            <hr/>
+          <h3>Grover, Jerry</h3>
+            <a href='https://www.youtube.com/watch?v=06UCwaeovtg' target ='_blank'
+            >Translation Of The 'Caractors' Document - Jerry Grover - Book of Mormon Conference 2017</a><br />
+            <hr />
+
+          <h2> Start Organizing H's Here</h2>
+
+
+
+
+
+
 
 
           <h3>Porter, Bruce</h3>
@@ -181,18 +226,7 @@ class Educators extends React.Component {
           <hr/>
           <h3>Nyman, Monte S.</h3>
             When will Zion Be Redeemed?
-          <h3>John Gee</h3>
-            <a href="https://www.youtube.com/watch?v=XVAEC1wJFqY" target="_blank"
-            >Joseph Smith and ancient Egypt-John Gee</a><br />
-            <a href="https://www.youtube.com/watch?v=Xuiqna_SzY4" target="_blank"
-            >Puzzles from Joseph Smith Papyri-John Gee</a><br />
-            <a href="https://www.youtube.com/watch?v=4ye3SqOkWXo" target="_blank"
-            >Book of Abraham, I Presume-John Gee</a><br />
-            <a href="https://www.youtube.com/watch?v=c2rGi6gltqw" target="_blank"
-            >Book of Abraham in historical Context-John Gee</a><br />
-            <a href="https://www.youtube.com/watch?v=XVAEC1wJFqY&t=584s" target="_blank"
-            >BYU Church History Symposium 2013 - John Gee</a><br />
-          <hr/>
+
           <h3>Kerry Muelstein</h3>
             <a href="https://www.youtube.com/watch?v=ZL-wgUAeunk" target="_blank"
             >The Book of Abraham and unnoticed Assumptions-Kerry Muelstien</a><br />
@@ -220,12 +254,7 @@ class Educators extends React.Component {
             >***One Day to A Cubit-Hollis Johnson</a><br />
           <hr/>
 
-          <h3>Paul Gregerson</h3>
-            <a href="https://www.youtube.com/watch?v=8OAlIW63T5g&t=23s" target="_blank"
-            >Book of Abraham Part1-Paul Gregerson</a><br />
-            <a href="https://www.youtube.com/watch?v=SG4I41xucM8&t=6s" target="_blank"
-            >Book of Abraham Part2-Paul Gregerson</a><br />
-          <hr/>
+
           <h3>Dan Peterson</h3>
             <a href="https://www.youtube.com/watch?v=RzSOdBmrIhY" target="_blank"
             >Eyewitnesses & ancient Parrallels-Dan Peterson</a><br />
@@ -302,10 +331,7 @@ class Educators extends React.Component {
             <a href='https://www.youtube.com/watch?v=WbNaUWvmfHQ'
             >Alma 22 Deciphered: Book of Mormon Map and Geography -high def</a><br />
           <hr/>
-          <h3>Jerry Grover</h3>
-            <a href='https://www.youtube.com/watch?v=06UCwaeovtg' target ='_blank'
-            >Translation Of The 'Caractors' Document - Jerry Grover - Book of Mormon Conference 2017</a><br />
-            <hr />
+
           <h3>Ron Hellings</h3>
             <a href='https://www.youtube.com/watch?v=gVeZLP_1-Rc' target ='_blank'
             >Ron Hellings on Joseph Smith and Modern Cosmology</a><br />
@@ -323,10 +349,7 @@ class Educators extends React.Component {
             <a href='https://www.youtube.com/watch?v=66leGpvGujM&t=60s' target ='_blank'
             >Book of Mormon "Hits" by John Tvedtnes in his 2003 BMAF lecture</a><br />
             <hr/>
-          <h3>Scott Gordon</h3>
-            <a href='https://www.youtube.com/watch?v=xsbsG-kE2W0&t=55s' target ='_blank'
-            >Mormon Temples and Freemasonry - Scott Gordon</a><br />
-            <hr/>
+
           <h3>Kevin Kraut</h3>
             <a href='https://www.youtube.com/watch?v=a-R47M3tTZQ' target ='_blank'
             >Seers & Seer Stones by Kevin Kraut, Son of Ogden Kraut - LDS / Mormon Truth</a><br />
@@ -365,23 +388,6 @@ class Educators extends React.Component {
             <a href='https://www.youtube.com/watch?v=NLxNqnP7j7M&t=29s' target ='_blank'
             >Jesus Christ, the Same Yesterday, Today, and Forever: A Restoration of Primitive Christianity</a><br />
             <hr/>
-          <h3>Terryl Givens</h3>
-            <a href='https://www.youtube.com/watch?v=NuL2W4wjDwE&t=58s' target ='_blank'
-            >What the Western Tradition teaches us about the Pre-Existence by Terryl Givens</a><br />
-            <a href='https://www.youtube.com/watch?v=JCc4u23JkBw&t=1025s' target ='_blank'
-            >Terryl L. Givens, "Joseph Smith's American Bible: Radicalizing the Familiar" (2009)</a><br />
-            <a href='https://www.youtube.com/watch?v=k1UiVFIkUFI&t=52s' target ='_blank'
-            >"Lightning Out of Heaven": Joseph Smith and the Forging of Community | Terryl L. Givens</a><br />
-            <hr/>
-          <h3></h3>
-            <a href='' target ='_blank'
-            ></a><br />
-            <hr/>
-          <h3></h3>
-            <a href='' target ='_blank'
-            ></a><br />
-            <hr/>
-
 
           <h3>Wayne May</h3>
             <a href='https://www.youtube.com/watch?v=yiwNm2kWOvI&t=2745s' target ='_blank'
@@ -445,22 +451,9 @@ class Educators extends React.Component {
             >What Happened to Dead Bodies After Big Battles Throughout History?</a><br />
             <a href='https://www.youtube.com/watch?v=bXmZzlFw_1A&t=100s' target ='_blank'
             >Artifacts</a><br />
-
             <a href='https://www.youtube.com/watch?v=b06JwSCx8Zo&t=8s' target ='_blank'
             >old testament sacrifices</a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-          <hr/>
+            <hr/>
           <h3>Not Sure</h3>
             <a href="https://www.youtube.com/watch?v=Cug9KLkcdKU&t=1s" target ='_blank'
             >Was 9/11 a Warning from God and Prophesied by Isaiah? The American Promised Land Covenant</a><br />
