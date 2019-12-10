@@ -5,25 +5,7 @@ class Notes extends React.Component {
     return (
       <div>
         <h3>PLC 1 Course</h3>
-        <h4>Section 1</h4>
-          <h5>Video1:Intro</h5>
-            <p>
-            Just an intro
-            </p>
-          <h5>Video2:Software and Course Notes</h5>
-            <p>
-            Deals with Download instructions and starting instructions
-            </p>
-          <h5>Video3:Contacting instructor</h5>
-            <p>
-            Contacting the instructor
-            </p>
-        <hr />
-        <h4>Section 2:Programming Overview</h4>
-          <h5>Video4:Section Objectives</h5>
-            <p>Section Overview</p>
-          <h5>Video5:PLC Automation</h5>
-            <p>Talks about why we use PLC's</p>
+        <h4>Section 2</h4>
           <h5><mark>Video6:RSLogix 500 Environment</mark></h5>
             <p>
             1)Menu Bar-Go online, download/upload programs, coms, Verify Project<br />
@@ -40,44 +22,8 @@ class Notes extends React.Component {
             3)Jump to subroutine will jump to the different ladders in program
             files.  Once it gets to end, it starts back at rung 0 on Ladder 2<br />
             </p>
-          <h5>Video8:Section Wrapup</h5>
-            <p>
-            1)Just a recap
-            </p>
-        <hr />
-        <h4>Section 3:Inputs/Outputs</h4>
-          <h5>Video9:Section Objectives</h5>
-            <p>
-            Just a list of objectives.
-            </p>
-          <h5>Video10:IO Overview</h5>
-            <p>
-            1)Input- signals comming into the PLC<br />
-            2)Outputs- what the PLC sends Outputs<br />
-            3)2 types of signals- descreet(Digital) and analog<br />
-            </p>
-          <h5>Video11:Digital IO</h5>
-            <p>
-            1)Discreet signals only have on or off signal(two states)<br />
-            </p>
-          <h5>Video12:Analog IO</h5>
-            <p>
-            1)Analog devices have many states.<br />
-            2)Typical ranges 4-20mA, 0-5VDC, -10 to 10V<br />
-            </p>
-          <h5>Video13:IO Modules</h5>
-            <p>
-            1)Expensive PLC require you to decide types of IO modules to put on chasis<br />
-            2)This allows scalability
-            </p>
-          <h5>Video14:Section Wrap-up</h5>
-            <p>
-            1)Just a recap
-            </p>
         <hr />
         <h4>Section 4:Programming Fundamentals</h4>
-          <h5>Video15:Section Objectives</h5>
-          <p>Just a list of objectives.</p>
           <h5>Video16:Data Management</h5>
           <p>
           Addressing:<br />
@@ -100,8 +46,6 @@ class Notes extends React.Component {
             <li>T= Timer</li>
             <li>B= Boolean</li>
           </ul>
-
-
           <p></p>
           <h5>***18:Rungs and Branches</h5>
           <p>Rungs have numbers, branches come off of rungs.  Program works from
@@ -110,31 +54,94 @@ class Notes extends React.Component {
           right.  All conditions must be true for the action to be taken.  Maybe
           rungs act like ands on the same branch for conditions and acts like
           ors when there are branches for conditions.</p>
-          <h5>19:</h5>
-          <li>XIC=Examine if closed.  if closed, its true</li>
+          <h4>Section 5:Programming Setup</h4>
+          <h5>33:</h5>
+          <h5>34:</h5>
+          <h5>35:</h5>
+          <h5>36:</h5>
+          <h5>37:</h5>
+          <h5>38:</h5>
+          <h5>39:</h5>
+          <h4>Section 6:IO Programming</h4>
+          <h5>40:</h5>
+          <h5>41:</h5>
+          <h5>42:</h5>
+          <h5>43:</h5>
+          <h5>44:</h5>
+          <h5>45:</h5>
+          <p></p>
+          <h4>Section 7:Process Logic</h4>
+          <h5>46:</h5>
+          <h5>47:</h5>
+          <h5>48:</h5>
+          <h5>49:</h5>
+          <h5>50:</h5>
+          <h5>51:</h5>
+          <h5>52:</h5>
+          <h5>53:</h5>
+          <p></p>
+          <h4>Section 8:Alarms and Notifications</h4>
+          <h5>54:</h5>
+          <h5>55:</h5>
+          <h5>56:</h5>
+          <h5>57:</h5>
+          <h5>58:</h5>
+          <h5>59:</h5>
+          <p></p>
+          <h4>Section 9:HMI</h4>
+          <h5>60:</h5>
+          <h5>61:</h5>
+          <h5>62:</h5>
+          <h5>63:</h5>
+          <h5>64:</h5>
+          <h5>65:</h5>
+          <h5>66:</h5>
+          <h5>67:</h5>
+          <p></p>
+          <h4>Section 10:Communications</h4>
+          <h5>68:</h5>
+          <h5>69:</h5>
+          <h5>70:</h5>
+          <p></p>
+          <h4>Section 11:Program Walkthrough</h4>
+          <h5>71:</h5>
+          <h5>72:</h5>
+          <h5>73:</h5>
+          <h5>74:</h5>
+          <h5>75:</h5>
+          <h5>76:</h5>
+          <h5>77:</h5>
+          <h5>78:</h5>
+          <h5>79:</h5>
+          <h5>80:</h5>
+          <h5>81:</h5>
+          <h5>82:</h5>
+          <p></p>
+          <h4>Section 12:Shakedown/Debugging</h4>
+          <h5>83:</h5>
+          <h5>84:</h5>
+          <h5>85:</h5>
+          <h5>86:</h5>
+          <h5>87:</h5>
+          <h5>88:</h5>
+          <h5>89:</h5>
+          <h5>90:</h5>
+          <h5>91:</h5>
+          <p></p>
+          <h4>Section 13:Conclusion</h4>
+          <h5>92:</h5>
+          <p></p>
+          <h4>Section 14:Supplemental Material</h4>
+          <h5>93:</h5>
+          <h5>94:</h5>
+          <h5>95:</h5>
+          <h5>96:</h5>
+          <h5>97:</h5>
+          <p></p>
+          <h4>Section 15:Bonus Content</h4>
+          <h5>98:</h5>
+          <p></p>
           <li></li>
-          <li></li>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
-          <h5></h5>
-          <p></p>
-
         <hr />
       </div>
     );

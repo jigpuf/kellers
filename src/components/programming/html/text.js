@@ -31,14 +31,42 @@ class Text extends React.Component {
           <tr><td>Preformatted</td><td>&lt;pre&gt;<pre>Pre    Formatted Text</pre>&lt;/pre&gt;</td><td><pre>Pre    Formatted Text</pre></td><td>In-Line</td></tr>
         </table>
         <h3>Symbols</h3>
+        <div className='twoColumn'>
         <table>
           <tr><th>Name</th><th>Entity</th><th>Decimal</th></tr>
-          <tr><td>&lt;</td><td>&amp;lt;</td><td></td></tr>
-          <tr><td>&gt;</td><td>&amp;gt;</td><td></td></tr>
+          <tr><td>&lt;</td><td>&amp;lt;</td><td>&amp;#60;</td></tr>
+          <tr><td>&gt;</td><td>&amp;gt;</td><td>&amp;#62;</td></tr>
           <tr><td>&Omega;</td><td>&amp;Omega;</td><td>&amp;#937;</td></tr>
+          <tr><td>backtic `</td><td></td><td>&amp;#768;</td></tr>
+          <tr><td>&#33;</td><td></td><td>&amp;#33;</td></tr>
+          <tr><td>&#36;</td><td></td><td>	&amp;#36;</td></tr>
+          <tr><td>&amp;</td><td>&amp;amp;</td><td>&amp;#38;</td></tr>
+          <tr><td>&#40;</td><td></td><td>&amp;#40;</td></tr>
+          <tr><td>&#41;</td><td></td><td>&amp;#41;</td></tr>
+          <tr><td>&#123;</td><td></td><td>&amp;#123;</td></tr>
+          <tr><td>&#124;</td><td></td><td>&amp;#124;</td></tr>
+          <tr><td>&#35;</td><td></td><td>&amp;#35;</td></tr>
+          <tr><td>&#37;</td><td></td><td>&amp;#37;</td></tr>
+          <tr><td>&#42;</td><td></td><td>&amp;#42;</td></tr>
+          <tr><td>&#43;</td><td></td><td>&amp;#43;</td></tr>
+          <tr><td>&#44;</td><td></td><td>&amp;#44;</td></tr>
+          <tr><td>&#47;</td><td></td><td>&amp;#47;</td></tr>
+          <tr><td>&#58;</td><td></td><td>&amp;#58;</td></tr>
+          <tr><td>&#59;</td><td></td><td>&amp;#59;</td></tr>
+          <tr><td>&#61;</td><td></td><td>&amp;#61;</td></tr>
+          <tr><td>&#225;</td><td>&amp;aacute;</td><td>&amp;#225;</td></tr>
+          <tr><td>&#233;</td><td>&amp;eacute;</td><td>&amp;#233;</td></tr>
+          <tr><td>&#237;</td><td>&amp;iacute;</td><td>&amp;#237;</td></tr>
+          <tr><td>&#243;</td><td>&amp;oacute;</td><td>&amp;#243;</td></tr>
+          <tr><td>&#250;</td><td>&amp;uacute;</td><td>&amp;#250;</td></tr>
+          <tr><td>&#241;</td><td>&amp;ntilde;</td><td>&amp;#241;</td></tr>
+          <tr><td>&#252;</td><td>&amp;uuml;</td><td>&amp;#252;</td></tr>
+          <tr><td>&#181;</td><td>&amp;micro;</td><td>&amp;#181;</td></tr>
+          <tr><td>&#8594;</td><td>&amp;rarr;</td><td>&amp;#8594;</td></tr>
+
 
         </table>
-
+        </div>
       </div>
     );
   }
