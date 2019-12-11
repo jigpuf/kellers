@@ -19,7 +19,7 @@ class Paycheck extends React.Component {
     internet:95,
     fuel:250,
     cellPhones:185,
-    carPayment:200,
+    carPayment:420,
     Hulu:13,
     Netflix:15,
     Amazon:15,

@@ -9,6 +9,7 @@ import Pronouns from './spanish/pronouns.js'
 import Numbers from './spanish/numbers.js'
 import Vocabulary from './spanish/vocabulary.js'
 import Finer from './spanish/finer.js'
+import Top100 from './spanish/top100.js'
 
 class Spanish extends React.Component {
   state = {
@@ -31,6 +32,7 @@ class Spanish extends React.Component {
       {name: 'Numbers', slug: 'numbers', component:<Numbers /> },
       {name: 'Vocabulary', slug: 'vocabulary', component:<Vocabulary /> },
       {name: 'Finer Points', slug: 'finer', component:<Finer /> },
+      {name: 'Top 100 Words', slug: '100', component:<Top100 />},
     ]
     const renderItems = Items.map(item => {
       return (
