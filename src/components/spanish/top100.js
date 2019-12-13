@@ -16,6 +16,7 @@ class Top100 extends React.Component {
           <tr><td>Part, portion</td><td>la parte</td></tr>
           <tr><td>Life</td><td>la vida</td></tr>
           <tr><td>Nothing</td><td>la nada</td></tr>
+          <tr><td>Now</td><td>ahora</td></tr>
         </table><br />
         Verbs:<br />
         <table>
@@ -53,7 +54,7 @@ class Top100 extends React.Component {
           <tr><th>Masculine</th><td>A/An/Some</td><td>un/alg&uacute;n</td><td>unos/algunos</td></tr>
           <tr><th>Feminine</th><td>A/An/Some</td><td>una/alguna</td><td>unas/algunas</td></tr>
           <tr><th>Neutered</th><td>The(abstract)</td><td>lo</td><td></td></tr>
-        </table>
+        </table><br />
         Prepositions:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -68,7 +69,12 @@ class Top100 extends React.Component {
           <tr><td>until, up to, even</td><td>hasta</td></tr>
           <tr><td>between</td><td>entre</td></tr>
           <tr><td>from, since</td><td>desde</td></tr>
-        </table>
+          <tr><td>also</td><td>tambien</td></tr>
+          <tr><td>like that</td><td>asi</td></tr>
+          <tr><td>Therefore</td><td>entonces</td></tr>
+          <tr><td>After</td><td>despues</td></tr>
+
+        </table><br />
         Conjunctions:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -82,7 +88,7 @@ class Top100 extends React.Component {
           <tr><td>when</td><td>cuando</td></tr>
           <tr><td>not even, niether, nor</td><td>ni</td></tr>
           <tr><td>where</td><td>donde</td></tr>
-        </table>
+        </table><br />
         Standard Adjectives:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -98,7 +104,7 @@ class Top100 extends React.Component {
           <tr><td>each</td><td>cada</td></tr>
           <tr><td>less</td><td>menos</td></tr>
           <tr><td>new</td><td>nuevo/a/os/as</td></tr>
-        </table>
+        </table><br />
         Possessive Adjectives:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -108,7 +114,7 @@ class Top100 extends React.Component {
           <tr><td>our</td><td>nuestro/a/os/as</td></tr>
           <tr><td>your</td><td>tu/s(informal) su/s(formal)</td></tr>
           <tr><td>their</td><td>su/s</td></tr>
-        </table>
+        </table><br />
         Demonstrative Adjectives:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -118,7 +124,7 @@ class Top100 extends React.Component {
           <tr><td>those</td><td>eses/as</td></tr>
           <tr><td>that(far)</td>aquel/la<td></td></tr>
           <tr><td>those(far)</td>aquellos/as<td></td></tr>
-        </table>
+        </table><br />
         Numbers:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -145,7 +151,7 @@ class Top100 extends React.Component {
           <tr><td>18</td><td></td></tr>
           <tr><td>19</td><td></td></tr>
           <tr><td>20</td><td></td></tr>
-        </table>
+        </table><br />
         Subject Pronouns:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -156,7 +162,7 @@ class Top100 extends React.Component {
           <tr><td>we</td><td>nosotros</td></tr>
           <tr><td>you(plural)</td><td>ustedes</td></tr>
           <tr><td>they</td><td>ellos/as</td></tr>
-        </table>
+        </table><br />
         Object Pronouns:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -168,7 +174,7 @@ class Top100 extends React.Component {
           <tr><td>us</td><td>nos</td></tr>
           <tr><td>them</td><td>les/las/los</td></tr>
           <tr><td>you(plural)</td><td>se</td></tr>
-        </table>
+        </table><br />
         Possesive Pronouns:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -177,7 +183,7 @@ class Top100 extends React.Component {
           <tr><td>ours</td><td>nuestro/a/os/as</td></tr>
           <tr><td>theirs</td><td>suyo/a/os/as</td></tr>
           <tr><td>yours(plural people)</td><td>suyo/a/os/as</td></tr>
-        </table>
+        </table><br />
         Demonstrative Pronouns:<br />
         <table>
           <tr><th>English</th><th>Spanish</th></tr>
@@ -187,32 +193,19 @@ class Top100 extends React.Component {
           <tr><td>those</td><td>esos/as</td></tr>
           <tr><td>that(far)</td><td>aquel/la</td></tr>
           <tr><td>those(far)</td><td>aquellos/as</td></tr>
-        </table>
-          <div className='twoColumn'>
-          <table>
-            <tr><th>English</th><th>Spanish</th></tr>
-            <tr><td>That, which</td><td>que</td></tr>
-            <tr><td>And</td><td>y</td></tr>
-            <tr><td>To, at</td><td>a</td></tr>
-            <tr><td>In, on</td><td>en</td></tr>
-            <tr><td>A, some</td><td>un/unas/unos,unas</td></tr>
-            <tr><td>Object Pronouns</td><td>Le/Lo/La/los/las/Me/Nos</td></tr>
-            <tr><td>All, Every</td><td>Todo</td></tr>
-            <tr><td>But, Yet</td><td>Pero</td></tr>
-            <tr><td>More</td><td>M&aacute;s</td></tr>
-            <tr><td>Or</td><td>o</td></tr>
-            <tr><td>Demonstrative Pronouns</td><td>este/esta/estes/estas/eso/ aquel/aquella/aquellos/aquellas</td></tr>
-            <tr><td>If, whether</td><td>Si</td></tr>
-            <tr><td>Subject Pronouns</td><td>Yo/Tu/El/Ella/Usted/ Nosotros/Ellos/Ellas/ Ustedes</td></tr>
-            <tr><td>Possesive Pronouns</td><td>Mio/Tuyo/Suyo/Nuestro/</td></tr>
-            <tr><td>Already</td><td>Ya</td></tr>
-            <tr><td>Because, why</td><td>Porque</td></tr>
-            <tr><td>When</td><td>Cuando</td></tr>
-            <tr><td>Very</td><td>Muy</td></tr>
-            <tr><td>Without</td><td>Sin</td></tr>
-            <tr><td>Much, many, a lot</td><td>Mucho</td></tr>
-          </table>
-          </div>
+        </table><br />
+        Question Words:<br />
+        <table>
+          <tr><th>English</th><th>Spanish</th></tr>
+          <tr><td>Who</td><td></td></tr>
+          <tr><td>What</td><td></td></tr>
+          <tr><td>When</td><td></td></tr>
+          <tr><td>Where</td><td></td></tr>
+          <tr><td>Why</td><td></td></tr>
+          <tr><td>How</td><td></td></tr>
+          <tr><td>How much/many</td><td></td></tr>
+          <tr><td>Which</td><td></td></tr>
+        </table><br />
       </div>
     );
   }

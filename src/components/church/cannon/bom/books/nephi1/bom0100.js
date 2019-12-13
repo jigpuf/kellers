@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Bom01Overview extends React.Component {
+class Bom0100 extends React.Component {
   render () {
     return (
       <div>
@@ -278,9 +278,8 @@ class Bom01Overview extends React.Component {
         <a href="" target ='_blank'
         ></a><br />
         </div><hr/>
-        <h3>Characters:</h3>
+        <h3>People:</h3>
           <li>Zedekiah 1</li>
-          <li>Jews</li>
           <li>Lehi 1</li>
           <li>Sariah</li>
           <li>Laman</li>
@@ -296,6 +295,7 @@ class Bom01Overview extends React.Component {
           <li>Jeremiah</li>
           <li>Savior 1</li>
           <li>12 Apostles 1</li>
+        <h3>People from quotes</h3>
         <h3>Groups:</h3>
           <li>Jews 1</li>
           <li>Gentiles</li>
@@ -312,6 +312,7 @@ class Bom01Overview extends React.Component {
           <li>Nahom</li>
           <li>Bountiful</li>
           <li>Irreantum</li>
+        <h3>Locations from quotes:</h3>
         <h3>Symbols:</h3>
         <h3>Sermons:</h3>
           <li>Valley and River</li>
@@ -326,21 +327,21 @@ class Bom01Overview extends React.Component {
           <li>Lehi's vision of the Tree of Life </li>
           <li>Nephi's Vision</li>
         <h3>Themes:</h3>
-          <li>Parenting 1</li>
-          <li>Preservation 1</li>
-          <li>Prayer </li>
-          <li>Zion</li>
-          <li>War with Zion</li>
           <li>Apostacy</li>
-          <li>Restoration</li>
-          <li>One Mighty and Strong</li>
-          <li>Scattering/Gathering of Israel 1</li>
           <li>Atonement</li>
-          <li>Necesity of Evil</li>
-          <li>Temple Themes</li>
           <li>Conversion</li>
+          <li>Necesity of Evil</li>
+          <li>One Mighty and Strong</li>
+          <li>Parenting 1</li>
+          <li>Prayer </li>
+          <li>Preservation 1</li>
+          <li>Restoration</li>
+          <li>Scattering/Gathering of Israel 1</li>
+          <li>Temple Themes</li>
+          <li>War with Zion</li>
+          <li>Zion</li>
       </div>
     );
   }
 }
-export default Bom01Overview;
+export default Bom0100;

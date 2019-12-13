@@ -60,6 +60,8 @@ class Links extends React.Component {
         <h4>Fun</h4>
           <a href='https://libraryofbabel.info/' target='_blank'
           >Library of Babel</a><br/>
+          <a href='https://xkcd.com/' target='_blank'
+          >XKCD</a><br/>
           <hr/>
         <h4>Guitar</h4>
           <a href='https://chordify.net/search/' target='_blank'

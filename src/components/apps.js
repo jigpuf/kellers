@@ -2,6 +2,9 @@ import React from 'react';
 import Paycheck from './apps/paycheck.js'
 import Solar from './apps/solar.js'
 import Dice from './apps/dice.js';
+import SolarCopy from './apps/solar-copy.js';
+
+
 
 class Apps extends React.Component {
   state = {
@@ -31,6 +34,7 @@ class Apps extends React.Component {
       {name: 'Quotes', slug: 'quotes'},
       {name: 'Fitness Tracker', slug: 'fitness'},
       {name: 'Stocks', slug: 'stocks'},
+      {name: 'Solar-Copy', slug: 'copy', component: <SolarCopy />},
     ]
     const renderItems = Items.map(item => {
       return (

@@ -6,6 +6,7 @@ import Electric from './astronomy/electric.js'
 import Lectures from './astronomy/lectures.js'
 import Seasons from './astronomy/seasons.js'
 import Constallations from './astronomy/constallations.js'
+import Calendar from './astronomy/calendar.js'
 
 
 class Astronomy extends React.Component {
@@ -26,6 +27,7 @@ class Astronomy extends React.Component {
       {name: 'Eclipses', slug: 'eclipses', component:<Eclipses />},
       {name: 'Electric Universe', slug: 'electric', component:<Electric /> },
       {name: 'Astronomy Lectures', slug: 'lectures', component: <Lectures />},
+      {name: 'Calendar', slug: 'calendar', component: <Calendar />},
     ]
     const renderItems = Items.map(item => {
       return (
