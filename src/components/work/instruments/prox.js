@@ -5,6 +5,7 @@ class Prox extends React.Component {
     return (
       <div>
         <h2>Proximity</h2>
+          ZTS
           <h3>Information</h3>
             Model:<br />
             Part Number:<br />

@@ -23,6 +23,7 @@ class Power extends React.Component {
       {name: 'DC Distribution', slug: 'dc',},
       {name: 'Grounding Systems', slug: 'grounding',},
       {name: 'Shielding', slug: 'shielding',},
+      {name: 'VFD', slug: 'vfd',},
 
     ]
     const renderItems = Items.map(item => {

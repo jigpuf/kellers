@@ -32,7 +32,7 @@ class Instruments extends React.Component {
   render () {
     const Items = [
       {name: 'Pressure', slug: 'pressure', component:<Pressure /> },
-      {name: 'Positioners', slug: 'position', component:<Valves />},
+      {name: 'Positioners/feedback', slug: 'position', component:<Valves />},
       {name: 'Heaters', slug: 'heaters', component:<Heaters /> },
       {name: 'Position Feedback', slug: 'positionFeedback', component:<PositionFeedback /> },
       {name: 'Motion', slug: 'motion', component:<Motion /> },
@@ -50,8 +50,6 @@ class Instruments extends React.Component {
       {name: 'AWS Box', slug:'aws', component:<Aws />},
       {name: 'Coms', slug:'coms', component:<Coms />},
       {name: 'Video', slug:'video', component:<Video />},
-
-
     ]
     const renderItems = Items.map(item => {
       return (
@@ -71,9 +69,12 @@ class Instruments extends React.Component {
         <ul>
           {renderItems}
         </ul>
-        Include:Model, Part Number, Manufacturer Website, How to Videos, Manuals,
-        Circuit Diagram,Installation, Pinout, Calibration, Software Assets,
-        System Setup, Calculation, Troubleshooting, Tools<br />
+        Information:Model, Part Number, Manufacturer Website, Videos, Manuals<br />
+        Physical Setup:Control Hardware, Circuit Diagram, Installation, Pinout, Connectors<br />
+        Setup:Software, Parameters, Calibration, Software Assets<br />
+        System Setup:Calculation, adding to software<br />
+        Troubleshooting:Simulate Instrument, Simulate Channel<br />
+        Tools: For instalation, troubleshooting<br />
         <hr />
         {renderTier2Component}
       </div>

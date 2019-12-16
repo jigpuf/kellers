@@ -3,7 +3,7 @@ import React from 'react';
 class Disasters extends React.Component {
   render () {
     return (
-      <div>Disasters</div>
+      <div>Fire, Nuclear, Collapse of Government, Economic Collapse, Tornado, invasion</div>
     );
   }
 }

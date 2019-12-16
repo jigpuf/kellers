@@ -1,5 +1,6 @@
 import React from 'react';
 import Solar from './energy/solar.js';
+import Fuel from './energy/fuel.js';
 
 class Energy extends React.Component {
   state = {
@@ -13,8 +14,7 @@ class Energy extends React.Component {
   render () {
     const tier1Items = [
       {name: 'Solar', slug: 'solar', component:<Solar /> },
-      {name: 'Fuel', slug: 'fuel' },
-      {name: 'Heat', slug: 'heat' },
+      {name: 'Fuel', slug: 'fuel', component:<Fuel /> },
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

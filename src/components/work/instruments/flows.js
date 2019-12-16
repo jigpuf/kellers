@@ -4,7 +4,9 @@ class Flows extends React.Component {
   render () {
     return (
       <div>Flows
-
+      Rotary flow Meter
+      Coriolis
+      Anonometer
 
 
       <h3>Information</h3>

@@ -15,6 +15,9 @@ class PositionFeedback extends React.Component {
     const Items = [
       {name: 'Limits', slug: 'limits', component:<Limit />},
       {name: 'Hydraulic Valve Position', slug: 'hvp', component:<Hvp />},
+      {name: 'LVDT', slug: 'lvdt'},
+      {name: 'Level Transmitters', slug: 'level'},
+      {name: 'Potentiometer', slug: 'pot'},
     ]
     const renderItems = Items.map(item => {
       return (
