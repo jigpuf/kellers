@@ -15,6 +15,7 @@ import Sharex from './computer/sharex.js'
 import Borg from './computer/borg.js'
 import Bridge from './computer/bridge.js'
 import Remote from './computer/remote.js'
+import Labview from './computer/labview.js'
 
 
 class Software extends React.Component {
@@ -44,6 +45,7 @@ class Software extends React.Component {
       {name: 'Borg', slug:'borg', component:<Borg />},
       {name:'Bridge', slug:'bridge', component:<Bridge />},
       {name:'Remote In', slug:'remote', component:<Remote />},
+      {name:'Labview', slug:'labview', component:<Labview />},
 
     ]
     const renderItems = Items.map(item => {

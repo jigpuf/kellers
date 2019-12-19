@@ -3,6 +3,7 @@ import Scriptural from './prophecy/scriptural.js'
 import Talks from './prophecy/conference.js'
 import Second from './prophecy/second.js'
 import Subjects from './prophecy/subjects.js'
+import American from './prophecy/american.js'
 
 class Prophecy extends React.Component {
     state = {
@@ -23,6 +24,7 @@ class Prophecy extends React.Component {
           {name: 'Prophecy Subjects', slug: 'profSub', component:<Subjects />},
           {name: 'Gathering of Israel', slug: 'gathering'},
           {name: 'Zion', slug: 'zion'},
+          {name: 'American Covenant', slug: 'american', component:<American />},
         ]
         const renderItems = Items.map(item => {
           return (

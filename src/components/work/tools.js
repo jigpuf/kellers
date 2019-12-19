@@ -18,6 +18,7 @@ class Tools extends React.Component {
       {name: 'Crimpers', slug: 'crimpers', component:<Crimpers />},
       {name: 'Troubleshooting', slug: 'troubleshooting', component:<TroubleshootingToolbox />},
       {name: 'Swagelock', slug: 'swage',},
+      {name: 'Label Maker', slug: 'labelMaker',},
     ]
     const renderItems = Items.map(item => {
       return (

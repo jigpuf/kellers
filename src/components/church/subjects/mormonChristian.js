@@ -4,6 +4,7 @@ class MormonChristian extends React.Component {
   render () {
     return (
       <div>Mormon Christian?:
+        1 Ne 10:6
         <p>
         And men are instructed sufficiently that they know good from evil. And
         the law is given unto men. And by the law no flesh is justified; or, by

@@ -4,6 +4,7 @@ import Plc from './controls/plc.js'
 import Pid from './controls/pid.js'
 import Channels from './controls/channels.js'
 import FileSync from './controls/sync.js'
+import Deploy from './controls/deploy.js'
 
 class Controls extends React.Component {
   state = {
@@ -25,6 +26,10 @@ class Controls extends React.Component {
       {name: 'File_Sync', slug:'sync', component:<FileSync />},
       {name: 'Stat Lines', slug: 'stat'},
       {name: 'AWS', slug: 'aws'},
+      {name: 'Sneider', slug: 'sneider'},
+      {name: 'Sea Level', slug: 'seaLevel'},
+      {name: 'Beckoff', slug: 'beckoff'},
+      {name: 'Deploying System', slug: 'deploy', component:<Deploy />},
 
     ]
     const renderItems = Items.map(item => {
