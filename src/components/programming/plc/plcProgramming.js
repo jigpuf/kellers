@@ -1,6 +1,7 @@
 import React from 'react';
 import PlcLogic from './plcProgramming/plcLogic.js'
 import PlcInstructions from './plcProgramming/plcInstructions.js'
+import Firmware from './plcProgramming/firmware.js'
 
 class PlcProgramming extends React.Component {
   state = {
@@ -17,6 +18,7 @@ class PlcProgramming extends React.Component {
     const Items = [
       {name: 'Instructions', slug: 'commands', component:<PlcInstructions />},
       {name: 'Logic Examples', slug: 'logic', component:<PlcLogic />},
+      {name: 'Firmware', slug: 'firmware', component:<Firmware />},
     ]
     const renderItems = Items.map(item => {
       return (

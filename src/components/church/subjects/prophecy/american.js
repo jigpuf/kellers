@@ -25,6 +25,8 @@ class American extends React.Component {
         >Tim Ballard-American Covenant</a><br />
         <a href='https://www.youtube.com/watch?v=1LGx9tWI7AQ' target='_blank'
         >Bruce Porter- Book of Mormon Prophecies</a><br />
+        1 Ne 13:35;2 Ne 1:5-9; Ether13:2-8; 3 Ne 21:23; Mormon 5:9-15; D&C:19-20, 20:9;
+        mosiah 12:8 and 28:15
       </div>
     );
   }

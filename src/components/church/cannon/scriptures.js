@@ -10,8 +10,8 @@ class Scriptures extends React.Component {
           in the course of my days, nevertheless, having been highly favored of the
           Lord in all my days; yea, having had a great knowledge of the goodness and
           mysteries of God, therefore I make a record of my proceedings in my days.
-          <br/>
           </p>
+          <br/>
         <h4>1 Ne 2:16-17</h4>
           <p>16-And it came to pass that I, Nephi, being exceedingly young,
           nevertheless being large in stature, and also having great desires to know
@@ -21,29 +21,28 @@ class Scriptures extends React.Component {
           like unto my brothers.  17- And I spake unto Sam, making known unto him
           the things which the Lord had manifested unto me by his Holy Spirit. And
           it came to pass that he believed in my words.
-          <br/>
           </p>
+          <br/>
         <h4>1 Ne 3:7</h4>
           <p>
-          <br/>
           </p>
+          <br/>
         <h4>1 Ne 6:4-5</h4>
           <p>
-          <br/>
           </p>
+          <br/>
         <h4>1 Ne 9:6</h4>
           <p>
-          <br/>
           </p>
+          <br/>
         <h4>1 Ne 10:17-21</h4>
           <p>
-          <br/>
           </p>
+          <br/>
         <h4>1 Ne 13:35-42</h4>
           <p>
-          <br/>
           </p>
-
+          <br/>
         <h4>1 Ne 14:1-7</h4>
           <p>1-And it shall come to pass, that if the Gentiles shall hearken
           unto the Lamb of God in that day that he shall manifest himself
@@ -68,6 +67,19 @@ class Scriptures extends React.Component {
           of their minds unto their being brought down into captivity, and also
           into destruction, both temporally and spiritually, according to the
           captivity of the devil, of which I have spoken.</p>
+          <br />
+        <h4>1 Ne 17:3</h4>
+          <p>
+          </p>
+          <br/>
+        <h4>1 Ne 17:13</h4>
+          <p>
+          </p>
+          <br/>
+        <h4>1 Ne 17:36-39</h4>
+          <p>
+          </p>
+          <br/>
       </div>
     );
   }
