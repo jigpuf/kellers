@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Programs extends React.Component {
+class PlcSoftware extends React.Component {
   render () {
     return (
       <div>
@@ -16,4 +16,4 @@ class Programs extends React.Component {
   }
 }
 
-export default Programs;
+export default PlcSoftware;

@@ -4,9 +4,35 @@ class Temple extends React.Component {
   render () {
     return (
       <div>
-        <h3>Temple Subjects</h3>
+        <h2>Temple Subjects</h2>
+        Show Historicity, Symbolic Meaning, References,
+        <h3>Tribes, Astronomy, Cosmic Time, Architecture</h3>
+        References:<br />
+        <a href='https://en.wikipedia.org/wiki/Hebrew_astronomy' target='_blank'
+        >Wikipedia-Hebrew Astronomy</a><br />
+        <a href='https://en.wikipedia.org/wiki/Sopdet' target='_blank'
+        >Wikipedia-Sopdet</a><br />
+        <a href='https://en.wikipedia.org/wiki/Sirius' target='_blank'
+        >Wikipedia-Sirius</a><br />
+        <a href='https://www.youtube.com/watch?v=OeREsLe5LEU&t=1030s' target='_blank'
+        >***The Mormon Temple Ritual-Architectural Experience: Connections to Jewish
+        and Catholic Precedents</a><br />
+        <a href='https://www.youtube.com/watch?v=dDf749kbEHU' target='_blank'
+        >Sacred Time as One Eternal Round: Understanding the Chiastic Pattern of
+        Temple, Cosmos, History</a><br />
+        <a href='https://www.youtube.com/watch?v=4wFF9BHihf4&t=4s' target='_blank'
+        >Templum Dei: Exploring the Language of Sacred Architecture</a><br />
+
+        <h3>Temple and Eschatology</h3>
+        <h3>Temple as Throne Theophany</h3>
+        <h3>Temple as Coronation</h3>
+        <h3>Purity Requirements</h3>
+        <h3>Oaths, Covenants, Signs, Tokens, Punishments</h3>
+        <h3>Zion, Enoch, Celestial Law</h3>
+        <h3>Gnosis</h3>
+        <h3>Symbolism</h3>
+        <h3>References</h3>
         <h4>Scriptures</h4>
-          <li></li>
           <li>1 Ne</li>
           <li>2 Ne</li>
           <li>Alma 13</li>
@@ -17,7 +43,9 @@ class Temple extends React.Component {
           <li>Abraham</li>
           <li>Moses</li>
           <li>Genesis</li>
+          <li>Exodus</li>
           <li>Leviticus</li>
+          <li>Ezekiel</li>
           <li>Hebrews</li>
         <h4>Talks</h4>
         <h4>Apocryphal</h4>
@@ -30,9 +58,9 @@ class Temple extends React.Component {
           <li>Numbers</li>
             1,2,3,4,7,8,12,
           <li>Shapes</li>
-            Circle, Square, Vesica pesces,
+            Circle, Square, Vesica pesces, Octogon
           <li>Plants</li>
-            Fig, Acasia, Almond
+            Fig, Acasia, Almond, Olive
         <h4>Words</h4>
           <li>Temple</li>
           1 Kings 6-8, 14; 2 Kings 11, 12, 16, 18, 22-25;

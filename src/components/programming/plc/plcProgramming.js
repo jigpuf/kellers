@@ -19,6 +19,11 @@ class PlcProgramming extends React.Component {
       {name: 'Instructions', slug: 'commands', component:<PlcInstructions />},
       {name: 'Logic Examples', slug: 'logic', component:<PlcLogic />},
       {name: 'Firmware', slug: 'firmware', component:<Firmware />},
+      {name: 'File Structure', slug: 'structure'},
+      {name: 'Sequential Function', slug: 'sequential'},
+      {name: 'Structured Text', slug: 'structured'},
+      {name: 'Ladder Logic', slug: 'ladder'},
+      {name: 'Function Block', slug: 'function'},
     ]
     const renderItems = Items.map(item => {
       return (

@@ -2,9 +2,10 @@ import React from 'react';
 import Lectures from './plc/lectures.js'
 import PlcProgramming from './plc/plcProgramming.js'
 import Notes from './plc/notes.js'
-import Programs from './plc/programs.js'
+import PlcSoftware from './plc/plcSoftware.js'
 import PlcHardware from './plc/plcHardware.js'
 import PlcCommunications from './plc/plcCommunications.js'
+import PlcConfigure from './plc/plcConfigure.js'
 
 class PLC extends React.Component {
   state = {
@@ -21,11 +22,11 @@ class PLC extends React.Component {
     const Items = [
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
-      {name: 'Programming', slug: 'programming', component:<PlcProgramming />},
-      {name: 'Software', slug: 'software', component:<Programs /> },
       {name: 'Hardware', slug: 'hardware', component:<PlcHardware /> },
+      {name: 'Software', slug: 'software', component:<PlcSoftware /> },
+      {name: 'Configure', slug: 'configure', component:<PlcConfigure /> },
+      {name: 'Programming', slug: 'programming', component:<PlcProgramming />},
       {name: 'Communications', slug: 'communications', component:<PlcCommunications />},
-
     ]
     const renderItems = Items.map(item => {
       return (
