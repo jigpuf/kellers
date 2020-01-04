@@ -70,7 +70,9 @@ class Educators extends React.Component {
             >Apocalypse of Abraham as evidence of Moses</a><br />
             <a href="https://www.youtube.com/watch?v=ruSTv7-8w7U&t=19s" target="_blank"
             >Why Does “Holiness To the Lord” Appear on LDS Temples? (History, Meaning, and Purpose)</a><br />
-          <hr/>
+            <a href="https://www.youtube.com/watch?v=6FNw4IVPvPc" target="_blank"
+            >The Message of the Joseph Smith Translation: A Walk in the Garden</a><br />
+            <hr/>
           <h3>Butler, Eliot</h3>
             Everybody Is Ignorant Only on Different Subjects
           <h3>Butterfield, Rex</h3>
@@ -139,257 +141,65 @@ class Educators extends React.Component {
             <a href="https://www.youtube.com/watch?v=SG4I41xucM8&t=6s" target="_blank"
             >Book of Abraham Part2-Paul Gregerson</a><br />
             <hr/>
+          <h3>Griffen, Tyler</h3>
+            <a href="https://www.youtube.com/watch?v=0eg71RR2zP8" target="_blank"
+            >Book of Mormon Geographical References: Internal Consistency Taken to a New Level - Tyler Griffin</a><br />
+            <hr/>
           <h3>Grover, Jerry</h3>
             <a href='https://www.youtube.com/watch?v=06UCwaeovtg' target ='_blank'
             >Translation Of The 'Caractors' Document - Jerry Grover - Book of Mormon Conference 2017</a><br />
             <hr />
-
-          <h2> Start Organizing H's Here</h2>
-
-
-
-
-
-
-
-
-          <h3>Porter, Bruce</h3>
-            <li><a href='https://www.youtube.com/watch?v=F19d5ClZMWo&t=1094s'target='_blank'
-            >The Book of Abraham</a></li>
-            <a href="https://www.youtube.com/watch?v=a_edcw-HTMU&t=11s" target ='_blank'
-            >Book of Mormon Evidence for AMERICA</a><br />
-            <a href="https://www.youtube.com/watch?v=Y0ZewQZo7js&t=38s" target ='_blank'
-            >A Title of Liberty and Responsibility for Freedom</a><br />
-            <a href="https://www.youtube.com/watch?v=1LGx9tWI7AQ&t=10s" target ='_blank'
-            >Prophecies of the Book of Mormon</a><br />
-            <a href="https://www.youtube.com/watch?v=F19d5ClZMWo" target="_blank"
-            >Book of Abraham</a><br />
-            <hr/>
-          <h3>Reed, Steve</h3>
-            <li><a href='https://www.youtube.com/watch?v=zIJhLOwam7I' target='_blank'
-            >Reading Temples - Understanding LDS Symbology</a></li>
-            <hr/>
-          <h3>Skousen, Cleon</h3>
-            <a href='https://josephsmithfoundation.org/audio/the-meaning-of-the-atonement/' target='_blank'
-            >Meaning of the Atonement</a><br />
-            <a href='https://www.latterdayconservative.com/files/w-cleon-skousen/W_Cleon_Skousen_Prophecy_and_the_Constitution.mp4' target='_blank'
-            >Prophecy and Constitution</a><br />
-            <a href='https://www.latterdayconservative.com/files/w-cleon-skousen/W_Cleon_Skousen_on_Secret_Combinations_and_Freedom.mp3' target='_blank'
-            >Secret Combinations and Freedom</a><br />
-            Prophecy and Modern Times, Ancient Scriptures, Gospel Principles for
-            Youth, Sermon on the Mount, Old testament Predicts Our Day
-          <h3>Ro, Brandon</h3>
-            <li><a href='https://www.youtube.com/watch?v=OeREsLe5LEU&t=1030s' target='_blank'
-            >***The Mormon Temple Ritual-Architectural Experience: Connections to Jewish
-            and Catholic Precedents</a></li>
-            <li><a href='https://www.youtube.com/watch?v=dDf749kbEHU' target='_blank'
-            >Sacred Time as One Eternal Round: Understanding the Chiastic Pattern of
-            Temple, Cosmos, History</a></li>
-            <li><a href='https://www.youtube.com/watch?v=4wFF9BHihf4&t=4s' target='_blank'
-            >Templum Dei: Exploring the Language of Sacred Architecture</a></li>
-          <hr/>
-          <h3>Larson, Anthony</h3>
-            <li><a href='https://www.youtube.com/watch?v=E-NWtSC4UBY&t=32s' target='_blank'
-            >SLC Conference Center</a></li>
-            <hr/>
-          <h3>Jack Monet</h3>
-            <a href="https://www.youtube.com/watch?v=t5hvDfFE7jY" target ='_blank'
-            >Jack Monnett and Joel Skousen - Awakening to Our Awful Situation</a><br />
-            <a href="https://www.youtube.com/watch?v=N_iEH0eMsZ4&t=1035s" target ='_blank'
-            >Jack Monnett History of Secret Combinations - BYU Freedom Society</a><br />
-          <hr/>
-
-          <h3>Steven L. Peck</h3>
-            <li><a href='https://www.youtube.com/watch?v=CsDA4pSC9l4&t=37s' target ='_blank'
-            >Steven L Peck on Why Evolution and LDS Thought are Fully Compatible</a></li>
-          <hr/>
-
-            <a href=''
-            ></a><br />
-            <a href=''
-            ></a><br />
-          <hr/>
-          <h3>Scott Woodword</h3>
-            <li><a href='https://www.youtube.com/watch?v=yF3yrzoPbmM' target='_blank'
-            >D&C 88 in Context</a></li>
-            <li><a href='https://www.youtube.com/watch?v=B0oZLFDQ16o' target='_blank'
-            >D&C 91-93 in Context</a></li>
-          <hr/>
-          <h3>Brian Timothy Write</h3>
-            <li><a href='https://speeches.byu.edu/talks/brian-timothy-wright_brighter-perfect-day/' target='_blank'
-            >“Brighter Until the Perfect Day” - BRIAN TIMOTHY WRIGHT</a></li>
-          <hr/>
-          <h3>Robert Millet</h3>
-            <li><a href='https://www.youtube.com/watch?v=Z8CAH2rh8o0' target='_blank'
-            >Robert L. Millet, "The Atonement as Taught in The Book of Mormon"</a></li>
-            Beyond the Grave, Second Comming of Christ
-          <hr/>
-          <h3>Nyman, Monte S.</h3>
-            When will Zion Be Redeemed?
-
-          <h3>Kerry Muelstein</h3>
-            <a href="https://www.youtube.com/watch?v=ZL-wgUAeunk" target="_blank"
-            >The Book of Abraham and unnoticed Assumptions-Kerry Muelstien</a><br />
-            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/muhlestein-v22-2016-pp17-40-AUDIO.mp3" target="_blank"
-            >Assessing the Papyri-Kerry Muelstein</a><br />
-            <a href="https://www.youtube.com/watch?v=-zW1LdDx8ks" target="_blank"
-            >37 Sperry Symposium-Kerry Muelestein</a><br />
-          <hr/>
-          <h3>Taylor Halverson</h3>
+          <h3>Halverson, Taylor</h3>
             <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/halverson-v29-2018-pp227-246-AUDIO.mp3" target="_blank"
             >Isaiah 56, Abraham and the Temple-Taylor Halverson</a><br />
             <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/halverson-v31-2019-pp245-258-AUDIO.mp3" target="_blank"
             >Was Adam a MonoTheist?-Taylor Halvarson</a><br />
-          <hr/>
-          <h3>Steen o Smoot</h3>
-            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/smoot-v28-2018-pp299-308-AUDIO.mp3" target="_blank"
-            >Pressing Forward with the Book of Abraham-Stephen O. Smoot</a><br />
-          <hr/>
-          <h3>Mark J. Johnson</h3>
-            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/johnson-v25-2017-pp1-59-AUDIO.mp3" target="_blank"
-            >Book of Abraham-Mark J. Johnson</a><br />
-          <hr/>
-          <h3>Hollis Johnson</h3>
-            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/johnson-v3-2013-pg223-230-AUDIO.mp3" target="_blank"
-            >***One Day to A Cubit-Hollis Johnson</a><br />
-          <hr/>
-
-
-          <h3>Dan Peterson</h3>
-            <a href="https://www.youtube.com/watch?v=RzSOdBmrIhY" target="_blank"
-            >Eyewitnesses & ancient Parrallels-Dan Peterson</a><br />
-            <a href="https://www.youtube.com/watch?v=V38jsyMnyIs&t=83s" target="_blank"
-            >Tangible Restoration: Eye Witnesses-Dan Peterson</a><br />
-            <a href="https://www.youtube.com/watch?v=Y3j695n5a8A&t=132s" target="_blank"
-            >Daniel Peterson - The Book of Ether</a><br />
-            <a href="https://www.youtube.com/watch?v=kOuDw0XzBNs&t=9s" target="_blank"
-            >What Difference does it make? Daniel C. Peterson 2017 Fairmormon Conference</a><br />
-            <a href="" target="_blank"
-            ></a><br />
-            <a href="" target="_blank"
-            ></a><br />
-          <hr/>
-          <h3>Samuel Zinner</h3>
-            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/zinner-v12-2014-pp281-323-AUDIO.mp3" target="_blank"
-            >Zion and Jerusalem:Lady Wisdom and Tree of Life</a><br />
-          <hr/>
-
-          <h3>Jake Hilton</h3>
+            <hr/>
+          <h3>Hellings, Ron</h3>
+            <a href='https://www.youtube.com/watch?v=gVeZLP_1-Rc' target ='_blank'
+            >Ron Hellings on Joseph Smith and Modern Cosmology</a><br />
+            <hr/>
+            <h3>Hidden in the heartland</h3>
+            <a href='https://www.youtube.com/watch?v=y-QqIyf0974&t=23s' target ='_blank'
+            >HIDDEN IN THE HEARTLAND - Dickson Mounds</a><br />
+            <hr/>
+          <h3>Hilton, Jake</h3>
             <a href='https://www.youtube.com/watch?v=VuwUm6gkTXM&t=52s' target ='_blank'
             >What Joseph Smith Knew</a><br />
             <a href='https://www.youtube.com/watch?v=Xo28vmPOGp4&t=25s' target ='_blank'
             >3 articles Joseph smith did not write</a><br />
             <a href='https://www.youtube.com/watch?v=IGOdp5zVxxY&t=1833s' target ='_blank'
             >Jake Hilton — Native Americans are Descendants of the Jews</a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-          <hr/>
-          <h3>Michael P</h3>
-            <a href='https://www.youtube.com/watch?v=t19VnornoF8' target ='_blank'
-            >10 Comandments in ancient America</a><br />
-            <a href='https://www.youtube.com/watch?v=Oef_MBInu2E' target ='_blank'
-            >Book of Mormon Part 1: Hopewell Moundbuilders</a><br />
-            <a href='https://www.youtube.com/watch?v=bcscJXWJoeI' target ='_blank'
-            >Book of Mormon Part 2: Forts and Cities</a><br />
-            <a href='https://www.youtube.com/watch?v=H2bk-UtYGbc' target ='_blank'
-            >Book of Mormon Part 3: Mounds with human Bones</a><br />
-            <a href='https://www.youtube.com/watch?v=chjf9C5nieY&list=PLo3HJBcdzHXCKm5Gm3vbaBO7qUYB5Gzns&index=5' target ='_blank'
-            >Book of Mormon Part 4:Metal armor and Weopons</a><br />
-            <a href='https://www.youtube.com/watch?v=5pgZbsNqurc&list=PLo3HJBcdzHXCKm5Gm3vbaBO7qUYB5Gzns&index=6' target ='_blank'
-            >Book of Mormon Part 5: Haplogroup X2a</a><br />
-            <a href='https://www.youtube.com/watch?v=s_rN3gJWJw0&list=PLo3HJBcdzHXCKm5Gm3vbaBO7qUYB5Gzns&index=7' target ='_blank'
-            >Book of Mormon Part 6: Ancient Light Skinned Native Americans</a><br />
-            <a href='https://www.youtube.com/watch?v=2L3FvGc3XKY' target ='_blank'
-            >Cheyanne prophecy of Joseph Smith</a><br />
-            <a href='https://www.youtube.com/watch?v=XIR0SFgxS7g' target ='_blank'
-            >Hebrews were in America</a><br />
-            <a href='https://www.youtube.com/watch?v=s_CxzQKb1ZA' target ='_blank'
-            >Beit Lehi, Israel (Translation: The House of Lehi)</a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-            <a href='' target ='_blank'
-            ></a><br />
-          <hr/>
-          <h3>Daniel Johnson</h3>
-            <a href='https://www.youtube.com/watch?v=gqylPXJF2Fs&t=9s' target ='_blank'
-            >Hard evidence of Horses in America</a><br />
-          <hr/>
-          <h3>Ambeli Nelson</h3>
-            <a href='https://www.youtube.com/watch?v=e9UR2gbDh1c&t=2868s' target ='_blank'
-            >Amberli Nelson — Jehovah's Holy Days In the Heartland</a><br />
-          <hr/>
-          <h3>Nephite Explorer</h3>
-            <a href='https://www.youtube.com/watch?v=tBcWZrJLpl4&t=10s' target ='_blank'
-            >Search for Nephite Lands Part 1</a><br />
-            <a href='https://www.youtube.com/watch?v=QBGc4QtRXXI&t=11s' target ='_blank'
-            >Search for Nephite Lands Part 2</a><br />
-          <hr/>
-
-          <h3>Ryan Ingram</h3>
+            <hr/>
+          <h3>Ingram, Ryan</h3>
             <a href='https://www.youtube.com/watch?v=WbNaUWvmfHQ'
             >Alma 22 Deciphered: Book of Mormon Map and Geography -high def</a><br />
-          <hr/>
-
-          <h3>Ron Hellings</h3>
-            <a href='https://www.youtube.com/watch?v=gVeZLP_1-Rc' target ='_blank'
-            >Ron Hellings on Joseph Smith and Modern Cosmology</a><br />
             <hr/>
-
-          <h3>Hidden in the heartland</h3>
-            <a href='https://www.youtube.com/watch?v=y-QqIyf0974&t=23s' target ='_blank'
-            >HIDDEN IN THE HEARTLAND - Dickson Mounds</a><br />
+          <h3>Johnson, Daniel</h3>
+            <a href='https://www.youtube.com/watch?v=gqylPXJF2Fs&t=9s' target ='_blank'
+            >Hard evidence of Horses in America</a><br />
             <hr/>
-          <h3>John Lund</h3>
-            <a href='https://www.youtube.com/watch?v=t_FGujzV8rU' target ='_blank'
-            >The Law of Moses Within The Book of Mormon -- Book of Mormon Lands Conference 2014 -- Dr. John Lund</a><br />
+          <h3>Johnson, Hollis</h3>
+            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/johnson-v3-2013-pg223-230-AUDIO.mp3" target="_blank"
+            >***One Day to A Cubit-Hollis Johnson</a><br />
             <hr/>
-          <h3>John Tvedness</h3>
-            <a href='https://www.youtube.com/watch?v=66leGpvGujM&t=60s' target ='_blank'
-            >Book of Mormon "Hits" by John Tvedtnes in his 2003 BMAF lecture</a><br />
+          <h3>Johnson, Mark J.</h3>
+            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/johnson-v25-2017-pp1-59-AUDIO.mp3" target="_blank"
+            >Book of Abraham-Mark J. Johnson</a><br />
             <hr/>
-
-          <h3>Kevin Kraut</h3>
+          <h3>Kraut, Kevin</h3>
             <a href='https://www.youtube.com/watch?v=a-R47M3tTZQ' target ='_blank'
             >Seers & Seer Stones by Kevin Kraut, Son of Ogden Kraut - LDS / Mormon Truth</a><br />
             <hr/>
-          <h3>Matt Roper</h3>
-            <a href='https://www.youtube.com/watch?v=sx8v6R7Gb9s&t=2220s' target ='_blank'
-            >Howlers In The Book Of Mormon - Matthew Roper - Book of Mormon Conference 2017</a><br />
+          <h3>Larson, Anthony</h3>
+            <li><a href='https://www.youtube.com/watch?v=E-NWtSC4UBY&t=32s' target='_blank'
+            >SLC Conference Center</a></li>
             <hr/>
-            <a href='https://www.youtube.com/watch?v=u9eubJLYIRk' target ='_blank'
-            >Adam in Ancient Texts and the Restoration</a><br />
-          <h3>John Welch</h3>
-            <a href='https://www.youtube.com/watch?v=IvcytgdwuBM&t=28s' target ='_blank'
-            >Commencement of the Translation - John W Welch - Book of Mormon Central Conference 2018</a><br />
+          <h3>Lund, John</h3>
+            <a href='https://www.youtube.com/watch?v=t_FGujzV8rU' target ='_blank'
+            >The Law of Moses Within The Book of Mormon -- Book of Mormon Lands Conference 2014 -- Dr. John Lund</a><br />
             <hr/>
-
-          <h3>Blake Oster</h3>
-            <a href='https://www.youtube.com/watch?v=zVAqXOvN9ag&t=61s' target ='_blank'
-            >The Fallacy of Fundamentalist Assumptions 1, FAIR Conference</a><br />
-            <a href='https://www.youtube.com/watch?v=gCZXooasVkk&t=15s' target ='_blank'
-            >The Fallacy of Fundamentalist Assumptions 2, FAIR Conference</a><br />
-            <a href='https://www.youtube.com/watch?v=lHF6AIgfv2s&t=2s' target ='_blank'
-            >The Fallacy of Fundamentalist Assumptions 3, FAIR Conference</a><br />
-            <a href='https://www.youtube.com/watch?v=htfKW7s70nQ&t=13s' target ='_blank'
-            >The Fallacy of Fundamentalist Assumptions 4, FAIR Conference</a><br />
-            <a href='https://www.youtube.com/watch?v=lU4ZqoDsrCc&t=43s' target ='_blank'
-            >The Fallacy of Fundamentalist Assumptions 5, FAIR Conference</a><br />
-            <a href='https://www.youtube.com/watch?v=QkXFXtyqD_A&t=104s' target ='_blank'
-            >The Fallacy of Fundamentalist Assumptions 6, FAIR Conference</a><br />
-            <hr/>
-
-          <h3>Brent L. Top</h3>
-            <a href='https://www.youtube.com/watch?v=c5RCrmE6Y9s&t=29s' target ='_blank'
-            >***Brent L. Top, 2010 ED Week - What Is This Thing Men Call Death? LDS Teachings about the Spirit World</a><br />
-            <hr/>
-          <h3>Scott Peterson</h3>
-            <a href='https://www.youtube.com/watch?v=NLxNqnP7j7M&t=29s' target ='_blank'
-            >Jesus Christ, the Same Yesterday, Today, and Forever: A Restoration of Primitive Christianity</a><br />
-            <hr/>
-
-          <h3>Wayne May</h3>
+          <h3>May, Wayne</h3>
             <a href='https://www.youtube.com/watch?v=yiwNm2kWOvI&t=2745s' target ='_blank'
             >Elephants in North America</a><br />
             <a href='https://www.youtube.com/watch?v=JiAlc3femjA&t=67s' target ='_blank'
@@ -413,6 +223,167 @@ class Educators extends React.Component {
             <a href='https://www.youtube.com/watch?v=cOS6vMHb3UE&pbjreload=10' target ='_blank'
             >America Since days of Adam</a><br />
           <hr/>
+          <h3>Michael P</h3>
+            <a href='https://www.youtube.com/watch?v=t19VnornoF8' target ='_blank'
+            >10 Comandments in ancient America</a><br />
+            <a href='https://www.youtube.com/watch?v=Oef_MBInu2E' target ='_blank'
+            >Book of Mormon Part 1: Hopewell Moundbuilders</a><br />
+            <a href='https://www.youtube.com/watch?v=bcscJXWJoeI' target ='_blank'
+            >Book of Mormon Part 2: Forts and Cities</a><br />
+            <a href='https://www.youtube.com/watch?v=H2bk-UtYGbc' target ='_blank'
+            >Book of Mormon Part 3: Mounds with human Bones</a><br />
+            <a href='https://www.youtube.com/watch?v=chjf9C5nieY&list=PLo3HJBcdzHXCKm5Gm3vbaBO7qUYB5Gzns&index=5' target ='_blank'
+            >Book of Mormon Part 4:Metal armor and Weopons</a><br />
+            <a href='https://www.youtube.com/watch?v=5pgZbsNqurc&list=PLo3HJBcdzHXCKm5Gm3vbaBO7qUYB5Gzns&index=6' target ='_blank'
+            >Book of Mormon Part 5: Haplogroup X2a</a><br />
+            <a href='https://www.youtube.com/watch?v=s_rN3gJWJw0&list=PLo3HJBcdzHXCKm5Gm3vbaBO7qUYB5Gzns&index=7' target ='_blank'
+            >Book of Mormon Part 6: Ancient Light Skinned Native Americans</a><br />
+            <a href='https://www.youtube.com/watch?v=2L3FvGc3XKY' target ='_blank'
+            >Cheyanne prophecy of Joseph Smith</a><br />
+            <a href='https://www.youtube.com/watch?v=XIR0SFgxS7g' target ='_blank'
+            >Hebrews were in America</a><br />
+            <a href='https://www.youtube.com/watch?v=s_CxzQKb1ZA' target ='_blank'
+            >Beit Lehi, Israel (Translation: The House of Lehi)</a><br />
+            <hr/>
+          <h3>Millet, Robert</h3>
+            <li><a href='https://www.youtube.com/watch?v=Z8CAH2rh8o0' target='_blank'
+            >Robert L. Millet, "The Atonement as Taught in The Book of Mormon"</a></li>
+            Beyond the Grave, Second Comming of Christ
+            <hr/>
+          <h3>Monet, Jack</h3>
+            <a href="https://www.youtube.com/watch?v=t5hvDfFE7jY" target ='_blank'
+            >Jack Monnett and Joel Skousen - Awakening to Our Awful Situation</a><br />
+            <a href="https://www.youtube.com/watch?v=N_iEH0eMsZ4&t=1035s" target ='_blank'
+            >Jack Monnett History of Secret Combinations - BYU Freedom Society</a><br />
+            <hr/>
+          <h3>Muelstein, Kerry</h3>
+            <a href="https://www.youtube.com/watch?v=ZL-wgUAeunk" target="_blank"
+            >The Book of Abraham and unnoticed Assumptions-Kerry Muelstien</a><br />
+            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/muhlestein-v22-2016-pp17-40-AUDIO.mp3" target="_blank"
+            >Assessing the Papyri-Kerry Muelstein</a><br />
+            <a href="https://www.youtube.com/watch?v=-zW1LdDx8ks" target="_blank"
+            >37 Sperry Symposium-Kerry Muelestein</a><br />
+            <hr/>
+          <h3>Nelson, Amberli</h3>
+            <a href='https://www.youtube.com/watch?v=e9UR2gbDh1c&t=2868s' target ='_blank'
+            >Amberli Nelson — Jehovah's Holy Days In the Heartland</a><br />
+            <hr/>
+          <h3>Nephite Explorer</h3>
+            <a href='https://www.youtube.com/watch?v=tBcWZrJLpl4&t=10s' target ='_blank'
+            >Search for Nephite Lands Part 1</a><br />
+            <a href='https://www.youtube.com/watch?v=QBGc4QtRXXI&t=11s' target ='_blank'
+            >Search for Nephite Lands Part 2</a><br />
+            <hr/>
+          <h3>Nyman, Monte S.</h3>
+            When will Zion Be Redeemed?
+          <h3>Oster, Blake</h3>
+            <a href='https://www.youtube.com/watch?v=zVAqXOvN9ag&t=61s' target ='_blank'
+            >The Fallacy of Fundamentalist Assumptions 1, FAIR Conference</a><br />
+            <a href='https://www.youtube.com/watch?v=gCZXooasVkk&t=15s' target ='_blank'
+            >The Fallacy of Fundamentalist Assumptions 2, FAIR Conference</a><br />
+            <a href='https://www.youtube.com/watch?v=lHF6AIgfv2s&t=2s' target ='_blank'
+            >The Fallacy of Fundamentalist Assumptions 3, FAIR Conference</a><br />
+            <a href='https://www.youtube.com/watch?v=htfKW7s70nQ&t=13s' target ='_blank'
+            >The Fallacy of Fundamentalist Assumptions 4, FAIR Conference</a><br />
+            <a href='https://www.youtube.com/watch?v=lU4ZqoDsrCc&t=43s' target ='_blank'
+            >The Fallacy of Fundamentalist Assumptions 5, FAIR Conference</a><br />
+            <a href='https://www.youtube.com/watch?v=QkXFXtyqD_A&t=104s' target ='_blank'
+            >The Fallacy of Fundamentalist Assumptions 6, FAIR Conference</a><br />
+            <hr/>
+          <h3>Peck, Steven L.</h3>
+            <li><a href='https://www.youtube.com/watch?v=CsDA4pSC9l4&t=37s' target ='_blank'
+            >Steven L Peck on Why Evolution and LDS Thought are Fully Compatible</a></li>
+            <hr/>
+          <h3>Peterson, Dan</h3>
+            <a href="https://www.youtube.com/watch?v=RzSOdBmrIhY" target="_blank"
+            >Eyewitnesses & ancient Parrallels-Dan Peterson</a><br />
+            <a href="https://www.youtube.com/watch?v=V38jsyMnyIs&t=83s" target="_blank"
+            >Tangible Restoration: Eye Witnesses-Dan Peterson</a><br />
+            <a href="https://www.youtube.com/watch?v=Y3j695n5a8A&t=132s" target="_blank"
+            >Daniel Peterson - The Book of Ether</a><br />
+            <a href="https://www.youtube.com/watch?v=kOuDw0XzBNs&t=9s" target="_blank"
+            >What Difference does it make? Daniel C. Peterson 2017 Fairmormon Conference</a><br />
+            <hr/>
+          <h3>Peterson, Scott</h3>
+            <a href='https://www.youtube.com/watch?v=NLxNqnP7j7M&t=29s' target ='_blank'
+            >Jesus Christ, the Same Yesterday, Today, and Forever: A Restoration of Primitive Christianity</a><br />
+            <hr/>
+          <h3>Porter, Bruce</h3>
+            <li><a href='https://www.youtube.com/watch?v=F19d5ClZMWo&t=1094s'target='_blank'
+            >The Book of Abraham</a></li>
+            <a href="https://www.youtube.com/watch?v=a_edcw-HTMU&t=11s" target ='_blank'
+            >Book of Mormon Evidence for AMERICA</a><br />
+            <a href="https://www.youtube.com/watch?v=Y0ZewQZo7js&t=38s" target ='_blank'
+            >A Title of Liberty and Responsibility for Freedom</a><br />
+            <a href="https://www.youtube.com/watch?v=1LGx9tWI7AQ&t=10s" target ='_blank'
+            >Prophecies of the Book of Mormon</a><br />
+            <a href="https://www.youtube.com/watch?v=F19d5ClZMWo" target="_blank"
+            >Book of Abraham</a><br />
+            <hr/>
+          <h3>Reed, Steve</h3>
+            <li><a href='https://www.youtube.com/watch?v=zIJhLOwam7I' target='_blank'
+            >Reading Temples - Understanding LDS Symbology</a></li>
+            <hr/>
+          <h3>Ro, Brandon</h3>
+            <li><a href='https://www.youtube.com/watch?v=OeREsLe5LEU&t=1030s' target='_blank'
+            >***The Mormon Temple Ritual-Architectural Experience: Connections to Jewish
+            and Catholic Precedents</a></li>
+            <li><a href='https://www.youtube.com/watch?v=dDf749kbEHU' target='_blank'
+            >Sacred Time as One Eternal Round: Understanding the Chiastic Pattern of
+            Temple, Cosmos, History</a></li>
+            <li><a href='https://www.youtube.com/watch?v=4wFF9BHihf4&t=4s' target='_blank'
+            >Templum Dei: Exploring the Language of Sacred Architecture</a></li>
+            <hr/>
+          <h3>Roper, Matt</h3>
+            <a href='https://www.youtube.com/watch?v=sx8v6R7Gb9s&t=2220s' target ='_blank'
+            >Howlers In The Book Of Mormon - Matthew Roper - Book of Mormon Conference 2017</a><br />
+            <hr/>
+            <a href='https://www.youtube.com/watch?v=u9eubJLYIRk' target ='_blank'
+            >Adam in Ancient Texts and the Restoration</a><br />
+          <h3>Skousen, Cleon</h3>
+            <a href='https://josephsmithfoundation.org/audio/the-meaning-of-the-atonement/' target='_blank'
+            >Meaning of the Atonement</a><br />
+            <a href='https://www.latterdayconservative.com/files/w-cleon-skousen/W_Cleon_Skousen_Prophecy_and_the_Constitution.mp4' target='_blank'
+            >Prophecy and Constitution</a><br />
+            <a href='https://www.latterdayconservative.com/files/w-cleon-skousen/W_Cleon_Skousen_on_Secret_Combinations_and_Freedom.mp3' target='_blank'
+            >Secret Combinations and Freedom</a><br />
+            Prophecy and Modern Times, Ancient Scriptures, Gospel Principles for
+            Youth, Sermon on the Mount, Old testament Predicts Our Day
+          <h3>Smoot, Steven O.</h3>
+            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/smoot-v28-2018-pp299-308-AUDIO.mp3" target="_blank"
+            >Pressing Forward with the Book of Abraham-Stephen O. Smoot</a><br />
+            <hr/>
+          <h3>Top, Brent L.</h3>
+            <a href='https://www.youtube.com/watch?v=c5RCrmE6Y9s&t=29s' target ='_blank'
+            >***Brent L. Top, 2010 ED Week - What Is This Thing Men Call Death? LDS Teachings about the Spirit World</a><br />
+            <hr/>
+          <h3>Tvedness, John</h3>
+            <a href='https://www.youtube.com/watch?v=66leGpvGujM&t=60s' target ='_blank'
+            >Book of Mormon "Hits" by John Tvedtnes in his 2003 BMAF lecture</a><br />
+            <hr/>
+          <h3>Welch, John</h3>
+            <a href='https://www.youtube.com/watch?v=IvcytgdwuBM&t=28s' target ='_blank'
+            >Commencement of the Translation - John W Welch - Book of Mormon Central Conference 2018</a><br />
+            <hr/>
+          <h3>Wilcox, S. Michael</h3>
+            <a href='https://www.youtube.com/watch?v=xpiThYIBhxQ' target ='_blank'
+            >Education Week 2008 - S. Michael Wilcox - The Great Visions of The Pearl of Great Price</a><br />
+            <hr/>
+          <h3>Woodword, Scott</h3>
+            <li><a href='https://www.youtube.com/watch?v=yF3yrzoPbmM' target='_blank'
+            >D&C 88 in Context</a></li>
+            <li><a href='https://www.youtube.com/watch?v=B0oZLFDQ16o' target='_blank'
+            >D&C 91-93 in Context</a></li>
+            <hr/>
+          <h3>Write, Brian Timothy</h3>
+            <li><a href='https://speeches.byu.edu/talks/brian-timothy-wright_brighter-perfect-day/' target='_blank'
+            >“Brighter Until the Perfect Day” - BRIAN TIMOTHY WRIGHT</a></li>
+            <hr/>
+          <h3>Zinner, Samuel</h3>
+            <a href="https://s3.us-east-2.amazonaws.com/jnlartaudio/zinner-v12-2014-pp281-323-AUDIO.mp3" target="_blank"
+            >Zion and Jerusalem:Lady Wisdom and Tree of Life</a><br />
+            <hr/>
+
           <h3>Non-Member</h3>
             <h4>Barker, Margaret</h4>
               <a href='https://www.youtube.com/watch?v=nOnHDQgIoCU&t=1085s' target ='_blank'
@@ -453,6 +424,13 @@ class Educators extends React.Component {
             >Artifacts</a><br />
             <a href='https://www.youtube.com/watch?v=b06JwSCx8Zo&t=8s' target ='_blank'
             >old testament sacrifices</a><br />
+            <h3>Ben S</h3>
+            <a href='https://www.youtube.com/watch?v=XxQ2Cyx4QbQ' target ='_blank'
+            >Jaclyn Glenn Tries to Disprove Christianity</a><br />
+            <a href='https://www.youtube.com/watch?v=BO13BSSjsYU' target ='_blank'
+            >Why the Villain of Eden was a Serpent</a><br />
+            <a href='' target ='_blank'
+            ></a><br />
             <hr/>
           <h3>Not Sure</h3>
             <a href="https://www.youtube.com/watch?v=Cug9KLkcdKU&t=1s" target ='_blank'

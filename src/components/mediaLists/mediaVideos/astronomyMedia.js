@@ -20,6 +20,8 @@ class Astronomy extends React.Component {
         >How much of the earth can you see at Once?</a><br />
         <a href='https://www.youtube.com/watch?v=L1bT2NJN-O8' target ='_blank'
         >Polaris: The North Star</a><br />
+        <a href='https://www.youtube.com/watch?v=5AUA7XS0TvA' target ='_blank'
+        >Thunderbolts of the Gods | Official Movie</a><br />
       </div>
     );
   }
