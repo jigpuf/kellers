@@ -295,6 +295,9 @@ class Bom0100 extends React.Component {
           <li>Jeremiah</li>
           <li>Savior 1</li>
           <li>12 Apostles 1</li>
+          <li>Jacob</li>
+          <li>Joseph</li>
+          <li>Isaiah</li>
         <h3>People from quotes</h3>
         <h3>Groups:</h3>
           <li>Jews 1</li>
@@ -312,6 +315,8 @@ class Bom0100 extends React.Component {
           <li>Nahom</li>
           <li>Bountiful</li>
           <li>Irreantum</li>
+          <li>Valley of Lemuel</li>
+          <li>River of Laman</li>
         <h3>Locations from quotes:</h3>
         <h3>Symbols:</h3>
         <h3>Sermons:</h3>
@@ -340,6 +345,37 @@ class Bom0100 extends React.Component {
           <li>Temple Themes</li>
           <li>War with Zion</li>
           <li>Zion</li>
+        <h3>Stories:</h3>
+          <li>Escape from Jerusalem</li>
+          <li>Deuteronomist Reformation</li>
+          <li>Fall of Jerusalem to Babylon</li>
+          <li>Retrieving the Plates</li>
+          <li>Getting the women</li>
+          <li>Lehi/Nephi's vision</li>
+          <li>Record Keeping</li>
+          <li>Travels to Bountiful</li>
+          <li>Ship Building/Voyage</li>
+          <li>Isaiah Prophecy</li>
+        <h3>Governmental Systems</h3>
+          <li>Monarchy</li>
+          <li>Patriarchy</li>
+        <h3>Theology</h3>
+          <li>Deuteronomist Reformation</li>
+          <li>Brass Plates</li>
+          <li>1st vision of Lehi</li>
+          <li>2nd Vision of Lehi</li>
+          <li>Lehi's vision of the tree of life</li>
+          <li>Nephi's vision</li>
+          <li>Alegory of the olive tree</li>
+          <li>Isaiah quotes</li>
+          <li>Land Covenant</li>
+          <li>Angels/Holy Spirit</li>
+        <h3>Technology</h3>
+          <li>Writing</li>
+          <li>Hebrew, Egyptian</li>
+          <li>Metalurgy</li>
+          <li>Ship Building</li>
+          <li>Navigation?</li>
       </div>
     );
   }

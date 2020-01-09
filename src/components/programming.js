@@ -11,6 +11,7 @@ import PLC from './programming/plc.js'
 import Node from './programming/node.js'
 import Labview from './programming/labview.js'
 import Command from '././work/computer/command.js'
+import MakingVideo from './programming/makingVideo.js'
 
 class Programming extends React.Component {
   state = {
@@ -34,7 +35,8 @@ class Programming extends React.Component {
       {name: 'PLC', slug: 'plc', component:<PLC /> },
       {name: 'Node.JS', slug: 'node', component:<Node /> },
       {name: 'Labview', slug: 'labview', component:<Labview /> },
-      {name: 'Command Line', slug: 'command', component:<Command />}
+      {name: 'Command Line', slug: 'command', component:<Command />},
+      {name: 'Video', slug: 'video', component:<MakingVideo />},
     ]
     const renderItems = Items.map(item => {
       return (

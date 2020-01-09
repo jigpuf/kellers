@@ -4,72 +4,110 @@ class Body extends React.Component {
   render () {
     return (
       <div>
-      <ul>
-        <li>Head-La Cabeza</li>
-        <li>Hair-El Pelo</li>
-        <li>Eye-El Ojo</li>
-        <li>Eyebrow-La Ceja</li>
-        <li>Brain-El Cerebro</li>
-        <li>Forehead</li>
-        <li>Ear-La oreja</li>
-        <li>Mouth-La boca</li>
-        <li>Toungue-La lengua</li>
-        <li>Pupil</li>
-        <li>Cornea</li>
-        <li>Eye lid</li>
-        <li>Tooth-El diente</li>
-        <li>Lip-El labio</li>
-        <li>Gum</li>
-        <li>Cheek</li>
-        <li>Neck</li>
-        <li>Throat-La garganta</li>
-        <li>Adam's Apple</li>
-        <li>Shoulder</li>
-        <li>Back</li>
-        <li>Rib-La costilla</li>
-        <li>Heart-El corazon</li>
-        <li>Lung</li>
-        <li>Kidney</li>
-        <li>Liver</li>
-        <li>Stomach-El estomago</li>
-        <li>Intestine</li>
-        <li>Spine-</li>
-        <li>Nipple</li>
-        <li>Arm Pit</li>
-        <li>Elbow</li>
-        <li>Forearm</li>
-        <li>Upper Arm</li>
-        <li>Funny Bone</li>
-        <li>Finger-El Dedo</li>
-        <li>Thumb-El Pulgar</li>
-        <li>Knuckle</li>
-        <li>Joint</li>
-        <li>Palm-La palma</li>
-        <li>Wrist</li>
-        <li>Fingernail</li>
-        <li>Pointer finger</li>
-        <li>Ring Finger</li>
-        <li>Middle Finger</li>
-        <li>Pinky</li>
-        <li>Navel</li>
-        <li>Waist</li>
-        <li>Hip</li>
-        <li>Penis</li>
-        <li>Vagina</li>
-        <li>Buttocks</li>
-        <li>Leg</li>
-        <li>Arm-El brazo</li>
-        <li>Knee-</li>
-        <li>Shin</li>
-        <li>Calf</li>
-        <li>Foot-El pie</li>
-        <li>Ankle</li>
-        <li>Toe-El dedo de pie</li>
-        <li>Toe Nail</li>
-        <li>Ball of the foot</li>
-        <li>Arch of the foot</li>
-        <li></li>
-      </ul>
+        <table>
+          <tr><th>Rating</th><th>English</th><th>Spanish</th></tr>
+          <tr><td>1</td><td>time/an occurance</td><td>la vez</td></tr>
+          <tr><td>2</td><td>year</td><td>el a&ntilde;o</td></tr>
+          <tr><td>3</td><td>time(general)/weather</td><td>el tiempo</td></tr>
+          <tr><td>4</td><td>day</td><td>el d&iacute;a</td></tr>
+          <tr><td>5</td><td>little(bit)</td><td>el poco</td></tr>
+          <tr><td>6</td><td>thing</td><td>la cosa</td></tr>
+          <tr><td>7</td><td>man</td><td>el hombre</td></tr>
+          <tr><td>8</td><td>part/portion</td><td>la parte</td></tr>
+          <tr><td>9</td><td>nothing</td><td>nada</td></tr>
+          <tr><td>10</td><td>something</td><td>algo</td></tr>
+          <tr><td>11</td><td>moment</td><td>el momento</td></tr>
+          <tr><td>12</td><td>form/shape/way</td><td>la forma</td></tr>
+          <tr><td>13</td><td>house</td><td>la casa</td></tr>
+          <tr><td>14</td><td>world</td><td>el mundo</td></tr>
+          <tr><td>15</td><td>woman/wife</td><td>la mujer</td></tr>
+          <tr><td>16</td><td>case/ocasion</td><td>el caso</td></tr>
+          <tr><td>17</td><td>country</td><td>el pa&iacute;s</td></tr>
+          <tr><td>18</td><td>place/position</td><td>el lugar</td></tr>
+          <tr><td>19</td><td>time/hour</td><td>la hora</td></tr>
+          <tr><td>20</td><td>work</td><td>el trabajo</td></tr>
+          <tr><td>21</td><td>point/dot/period</td><td>el punto</td></tr>
+          <tr><td>22</td><td>hand</td><td>la mano</td></tr>
+          <tr><td>23</td><td>way/manner</td><td>la manera</td></tr>
+          <tr><td>24</td><td>end</td><td>la fin</td></tr>
+          <tr><td>25</td><td>type/kind</td><td>el tipo</td></tr>
+          <tr><td>26</td><td>people</td><td>la gente</td></tr>
+          <tr><td>27</td><td>example</td><td>el ejemplo</td></tr>
+          <tr><td>28</td><td>today</td><td>hoy</td></tr>
+          <tr><td>29</td><td>side</td><td>el lado</td></tr>
+          <tr><td>30</td><td>son</td><td>el hijo</td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td></tr>
+
+        </table>
       </div>
     );
   }

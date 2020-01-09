@@ -23,6 +23,7 @@ class PLC extends React.Component {
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
       {name: 'Hardware', slug: 'hardware', component:<PlcHardware /> },
+      {name: 'Firmware', slug: 'firmware'},
       {name: 'Software', slug: 'software', component:<PlcSoftware /> },
       {name: 'Configure', slug: 'configure', component:<PlcConfigure /> },
       {name: 'Programming', slug: 'programming', component:<PlcProgramming />},

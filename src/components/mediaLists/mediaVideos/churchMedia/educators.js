@@ -384,7 +384,7 @@ class Educators extends React.Component {
             >Zion and Jerusalem:Lady Wisdom and Tree of Life</a><br />
             <hr/>
 
-          <h3>Non-Member</h3>
+          <h2>Non-Member Educators</h2>
             <h4>Barker, Margaret</h4>
               <a href='https://www.youtube.com/watch?v=nOnHDQgIoCU&t=1085s' target ='_blank'
               >Theosis & Divinization</a><br />
