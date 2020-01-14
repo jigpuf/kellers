@@ -10,14 +10,18 @@ class Lectures extends React.Component {
             >1-Like No other Book</a><br />
             <a href="https://www.youtube.com/watch?v=z6kQAB-fmPk&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=2" target ='_blank'
             >2-Nephi's Heritage</a><br />
+            Autobiography of Kai 1:30-4:30, Mysteries 7:30-10:00, Reformed Egyptian 11:15-13:15, Abraham to Ephraim 21:30-24:30<br />
             <a href="https://www.youtube.com/watch?v=rSV4hKlo08I&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=3" target ='_blank'
             >3-Geopolitics</a><br />
             <a href="https://www.youtube.com/watch?v=G2Ok7MsoJfA&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=4" target ='_blank'
             >4-600 BC</a><br />
+            Line of Kings 11:00-15:00<br />
             <a href="https://www.youtube.com/watch?v=k6PSfvbDgMk&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=5" target ='_blank'
             >5-Lehi's Contemporaries</a><br />
+            4 categories of evil  35:00-35:30<br />
             <a href="https://www.youtube.com/watch?v=zaLCrgkLUI0&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=6" target ='_blank'
             >6-1Ne 1</a><br />
+            Josh-35:30-36:25<br />
             <a href="https://www.youtube.com/watch?v=qWOUjyeiTH8&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=7" target ='_blank'
             >7-1Ne and Jeremiah</a><br />
             <a href="https://www.youtube.com/watch?v=PCXVp4-mVM8&list=PLfv_F_JnfozRI-BetijBCBaXZR2XF9Nyw&index=8" target ='_blank'

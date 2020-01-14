@@ -21,7 +21,11 @@ class Astronomy extends React.Component {
         <a href='https://www.youtube.com/watch?v=L1bT2NJN-O8' target ='_blank'
         >Polaris: The North Star</a><br />
         <a href='https://www.youtube.com/watch?v=5AUA7XS0TvA' target ='_blank'
-        >Thunderbolts of the Gods | Official Movie</a><br />
+        >Thunderbolts of the Gods</a><br />
+        <a href='https://www.youtube.com/watch?v=17XkpDl4udU&list=PLQ18J7P31iBySZxzDzlCLpTLJhWf6EgHq&index=12&t=0s' target ='_blank'
+        >Hollis R. Johnson - One Day To A Cubit</a><br />
+        <a href='https://www.youtube.com/watch?v=gVeZLP_1-Rc&list=PLQ18J7P31iBySZxzDzlCLpTLJhWf6EgHq&index=11&t=0s' target ='_blank'
+        >Ron Hellings on Joseph Smith and Modern Cosmology</a><br />
       </div>
     );
   }

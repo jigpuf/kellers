@@ -11,7 +11,7 @@ class Paycheck extends React.Component {
     taxes: .136,
     selectedOption: 'night',
     shiftWage: 1.085,
-    mortgage:850,
+    mortgage:1800,
     carInsurance:50,
     electricity:200,
     water:45,
@@ -19,7 +19,7 @@ class Paycheck extends React.Component {
     internet:95,
     fuel:250,
     cellPhones:185,
-    carPayment:420,
+    carPayment:800,
     Hulu:13,
     Netflix:15,
     Amazon:15,
@@ -72,9 +72,9 @@ class Paycheck extends React.Component {
         Shift:<br />
         <form>
           <input type="radio" name="shift" value="day" onChange={this.handleOptionChange}
-          checked={this.state.selectedOption === 'day'}/>Day
+          checked={this.state.selectedOption === 'day'}/>Day<br />
           <input type="radio" name="shift" value="night" onChange={this.handleOptionChange}
-          checked={this.state.selectedOption === 'night'} /> Night
+          checked={this.state.selectedOption === 'night'} /> Night<br />
           <input type="radio" name="shift" value="graveyard" onChange={this.handleOptionChange}
           checked={this.state.selectedOption === 'graveyard'}/> Graveyard
         </form>

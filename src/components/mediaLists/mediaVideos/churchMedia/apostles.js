@@ -9,8 +9,10 @@ class Apostles extends React.Component {
         <h3>Ashton, Marvin J.</h3>
           What Shall we Do Then
         <h3>Brown, Hugh B.</h3>
+          <a href='https://www.youtube.com/watch?v=3uV9lJNyzd8' target='_blank'
+          >Father Are You There?</a><br />
           A testimony and a Witness, Be What You Will Be, Christ-Jehova-Messiah,
-          Father Are You There?, God is the Gardener, Profile of a Prophet
+           God is the Gardener, Profile of a Prophet
         <h3>Brown, Victor L.</h3>
           Conformity and Non-Conformity
         <h3>Burton, Theodore M.</h3>
@@ -107,7 +109,9 @@ class Apostles extends React.Component {
           Spirituality, When Thou Art Converted, Strengthen Thy Brethren, When
           Thou Art Converted
         <h3>Richards, Legrand</h3>
-          America a Land of Promise, Earth's Crammed with Heaven, God's Simple
+          <a href='https://www.youtube.com/watch?v=48oInWmqy4k' target='_blank'
+          >America a Land of Promise</a><br />
+          Earth's Crammed with Heaven, God's Simple
           Eternal Truth, I am More Interested in the Long Hereafter Than the
           Brief Present, The Prophets and the Scriptures, The Value of a
           Testimony, Value of the Scriptures, We Believe in Prophecy,We Have to
