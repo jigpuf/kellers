@@ -38,6 +38,7 @@ class Electrical extends React.Component {
               <li>Undo 4 screws on Stereo</li>
               <li>Pull stereo and take out harness</li>
             </ol>
+          <h3>Tundra</h3>
 
       </div>
     );

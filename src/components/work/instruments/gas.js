@@ -114,6 +114,24 @@ class Gas extends React.Component {
           Simulate Instrument:<br />
           Instrument Checkout:<br />
         <h3>Adding to software</h3>
+        <h3>Tripod AWS</h3>
+          Gas sensor:
+          <table>
+            <tr><th>Signal</th><th>Description</th><th>Operation</th></tr>
+            <tr><td>Analog Out</td><td>% of LEL</td><td>Scaled 4-20mA based on Level of LEL</td></tr>
+            <tr><td>Relay</td><td>High/Red</td><td>Open when Device on, Closes with High Level or loss of device power</td></tr>
+            <tr><td>Relay</td><td>Low/Yellow</td><td>Open when Device on, Closes with Low Level or loss of device power</td></tr>
+            <tr><td>Relay</td><td>Blue/Fault</td><td>Open when Device on, Closes with Fault or loss of device power</td></tr>
+          </table>
+        <h3>Tripod Logic</h3>
+        Gas Sensor
+          <table>
+            <tr><th>Signal</th><th>Description</th><th>Operation</th></tr>
+            <tr><td>Digital Out</td><td>Red/High</td><td>N.C. contact powered on. Releases open state when high Level or power loss. Controls red and alarm</td></tr>
+            <tr><td>Digital Out</td><td>Yellow/Low</td><td>N.O. contact. Powered Closed state when Low Level and High level not true. Controls Yellow.</td></tr>
+            <tr><td>Digital Out</td><td>Blue/Fault</td><td>N.O. contact. Powered Closed state when Fault. Controls Blue.</td></tr>
+            <tr><td>Digital Out</td><td>Green/Safe</td><td>N.O. contact. Powered Closed state when Yellow and Red not Active. Controls Green.</td></tr>
+          </table>
       </div>
     );
   }

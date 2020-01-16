@@ -21,6 +21,7 @@ class Stats extends React.Component {
             <li>Drive</li>
             <li>Horsepower</li>
             <li>Rims</li>
+          <h3>Tundra</h3>
 
       </div>
     );

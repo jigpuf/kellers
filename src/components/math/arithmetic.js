@@ -1,4 +1,5 @@
 import React from 'react';
+import NumberSystems from './arithmetic/numberSystems.js'
 
 class Arithmetic extends React.Component {
   state = {
@@ -11,7 +12,7 @@ class Arithmetic extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Number Systems', slug: 'systems',},
+      {name: 'Number Systems', slug: 'systems', component: <NumberSystems />},
       {name: 'Math Properties', slug: 'properties',},
       {name: 'Addition', slug: 'add',},
       {name: 'Subtraction', slug: 'subtract',},

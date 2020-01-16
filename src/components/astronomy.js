@@ -1,10 +1,5 @@
 import React from 'react'
-import Sirius from './astronomy/sirius.js'
-import Polaris from './astronomy/polaris.js'
-import Eclipses from './astronomy/eclipses.js'
-import Electric from './astronomy/electric.js'
-import Lectures from './astronomy/lectures.js'
-import Seasons from './astronomy/seasons.js'
+import Lectures from './mediaLists/mediaVideos/astronomyMedia.js'
 import Constallations from './astronomy/constallations.js'
 import Calendar from './astronomy/calendar.js'
 
@@ -20,13 +15,8 @@ class Astronomy extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Sirius', slug: 'sirius', component: <Sirius /> },
       {name: 'Constallations', slug: 'constallations', component:<Constallations /> },
-      {name: 'Seasons', slug: 'seasons', component:<Seasons /> },
-      {name: 'Polaris', slug: 'polaris', component:<Polaris />},
-      {name: 'Eclipses', slug: 'eclipses', component:<Eclipses />},
-      {name: 'Electric Universe', slug: 'electric', component:<Electric /> },
-      {name: 'Astronomy Lectures', slug: 'lectures', component: <Lectures />},
+      {name: 'Astronomy Videos', slug: 'lectures', component: <Lectures />},
       {name: 'Calendar', slug: 'calendar', component: <Calendar />},
     ]
     const renderItems = Items.map(item => {

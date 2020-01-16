@@ -1,6 +1,8 @@
 import React from 'react';
-import Training from './leadership/training.js';
-import Relation from './leadership/relation.js';
+import Trust from './leadership/trust.js';
+import Conflict from './leadership/conflict.js';
+import Morale from './leadership/morale.js';
+import Enpower from './leadership/enpower.js';
 
 class Leadership extends React.Component {
   state = {
@@ -13,8 +15,10 @@ class Leadership extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Training', slug: 'training',component:<Training />},
-      {name: 'Relationship', slug: 'relation',component:<Relation /> },
+      {name: 'Trust', slug: 'trust', component:<Trust />},
+      {name: 'Conflict Resolution', slug: 'conflict', component:<Conflict />},
+      {name: 'Morale', slug: 'morale', component:<Morale />},
+      {name: 'Enpowerment', slug: 'enpowerment', component:<Enpower /> },
     ]
     const renderItems = Items.map(item => {
       return (

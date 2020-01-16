@@ -4,12 +4,35 @@ class Songs extends React.Component {
   render () {
     return (
       <div>
+      <table>
+        <tr><th>Song</th><th>Chords</th><th>Meter</th><th>Chordify Link</th></tr>
+        <tr><td>Alianza Eterna</td><td></td><td></td><td></td></tr>
+        <tr><td>A dios le Pido</td><td></td><td></td><td></td></tr>
+        <tr><td>All creatures of our God and King</td><td></td><td></td><td></td></tr>
+        <tr><td>Abide with me</td><td></td><td></td><td></td></tr>
+        <tr><td>Brightly Beams my Fathers mercy</td><td></td><td></td><td><a href='https://chordify.net/search/' target='_blank'>Chordify</a></td></tr>
+        <tr><td>Horse with no Name</td><td>Em,D,Dm,Bm,F#m,A</td><td></td><td></td></tr>
+        <tr><td>Battle hymn of the Republic</td><td></td><td></td><td></td></tr>
+        <tr><td>Babel</td><td></td><td></td><td></td></tr>
+        <tr><td>Battle of Evermore</td><td></td><td></td><td></td></tr>
+        <tr><td>Broken Crown</td><td></td><td></td><td></td></tr>
+        <tr><td>Babe I'm gonna Leave You</td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+      </table>
       <li>Maleguena</li>
-      <li>Alianza Eterna</li>
       <li>Down in a Hole</li>
-      <li>Horse with no name</li>
-      Chords:Em,D,Dm,Bm,F#m,A<br />
-      Meter:<br />
       <li>No Rain</li>
       <li>Clumsy Card House</li>
       <li>Redemption Song</li>
@@ -25,18 +48,13 @@ class Songs extends React.Component {
       <li>Irish Pub Song</li>
       <li>Hands</li>
       <li>Who will Save your Soul</li>
-      <li>A dios le Pido</li>
       <li>Track 4</li>
       <li>Track 12</li>
-      <li>Battle of Evermore</li>
-      <li>Babe I'm gonna Leave You</li>
       <li>Stairway to Heaven</li>
       <li>I alone</li>
       <li>Night ride across the Caucuses</li>
       <li>The Old Ways</li>
-      <li>Babel</li>
       <li>Hopeless Wanderer</li>
-      <li>Broken Crown</li>
       <li>Wonderwall</li>
       <li>Old Crow Medicine Show</li>
       <li>4AM</li>
@@ -65,20 +83,14 @@ class Songs extends React.Component {
       <li>Redeamer of israel</li>
       <li>Praise to the Man</li>
       <li>Come come ye Saints</li>
-      <li>Battle hymn of the Republic</li>
-      <li>All creatures of our God and King</li>
       <li>I need thee every hour</li>
       <li>Sweet hour of Prayer</li>
-      <li>Abide with me</li>
       <li>I stand all amazed</li>
       <li>Onward Christian Soldiers</li>
       <li>We are all enlisted</li>
       <li>If you could hie to Kolob</li>
       <li>Oh my Father</li>
       <li>Ye Elders of Israel</li>
-      <li>Brightly Beams my Fathers mercy</li>
-      <a href='https://chordify.net/search/' target='_blank'
-      >Chordify</a><br/>
       </div>
     );
   }

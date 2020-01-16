@@ -12,6 +12,11 @@ class Books extends React.Component {
             <tr><td>CS Lewis</td><td>Screwtape Letters</td><td>Religious</td></tr>
             <tr><td>CS Lewis</td><td>All chronicles of Narnia</td><td>Fantasy</td></tr>
             <tr><td>CS Lewis</td><td>On the weight of Glory</td><td>Religious</td></tr>
+            <tr><td>Douglas Adams</td><td>All Hitchhikers Guide to the Galaxy</td><td>Comedy/Scifi</td></tr>
+            <tr><td>Douglas Adams</td><td>Dirk Gently's Holistic Detective Agency</td><td>Comedy/Scifi</td></tr>
+            <tr><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td></tr>
           </table>

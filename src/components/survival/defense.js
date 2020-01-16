@@ -1,6 +1,7 @@
 import React from 'react';
 import Hand from './defense/hand.js'
 import Hardened from './defense/hardened.js'
+import Firearms from './defense/firearms.js'
 
 class Defense extends React.Component {
   state = {
@@ -14,7 +15,7 @@ class Defense extends React.Component {
   render () {
     const Items = [
       {name:'Hand Combat', slug:'hand', component:<Hand />},
-      {name:'Firearms', slug:'firearms',},
+      {name:'Firearms', slug:'firearms', component:<Firearms />},
       {name:'Traps', slug:'traps',},
       {name:'Hardened Home', slug:'hardened', component:<Hardened />},
       {name:'Tactics', slug:'tactics',},
