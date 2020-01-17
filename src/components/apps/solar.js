@@ -143,7 +143,7 @@ class Solar extends React.Component {
         </tr>
         <tr>
           <td>
-            Lights
+            <input type='text' value = 'Lights'/>
           </td>
           <td>
             <input type='number' value = {this.state.LightNumber}
@@ -160,7 +160,7 @@ class Solar extends React.Component {
         </tr>
         <tr>
           <td>
-            pumps
+            <input type='text' value = 'Pumps'/>
           </td>
           <td>
             <input type='number' value = {this.state.PumpNumber}
@@ -177,7 +177,7 @@ class Solar extends React.Component {
         </tr>
         <tr>
           <td>
-            Controller
+            <input type='text' value = 'Controller'/>
           </td>
           <td>
             <input type='number' value = {this.state.ControlNumber}
@@ -194,7 +194,7 @@ class Solar extends React.Component {
         </tr>
         <tr>
           <td>
-            Fans
+            <input type='text' value = 'Fans'/>
           </td>
           <td>
             <input type='number' value = {this.state.FanNumber}
@@ -232,7 +232,7 @@ class Solar extends React.Component {
         </tr>
         <tr>
           <th>
-            Panels needed
+            Panel Production
           </th>
           <td>
             {`${Math.round(this.getBatteryCapacity() / this.state.SunHours)} Watts`}
@@ -244,6 +244,19 @@ class Solar extends React.Component {
         </tr>
       </table>
       <br />< br />
+      <h3>Panel Arrangement</h3>
+      <h3>Angle of Panel</h3>
+      Lattitude: 31.5N
+      <table>
+        <tr><th>Month</th><th>Angle</th></tr>
+        <tr><td>Dec</td><td>34</td></tr>
+        <tr><td>Jan/Nov</td><td>42</td></tr>
+        <tr><td>Feb/Oct</td><td>50</td></tr>
+        <tr><td>Mar/Sep</td><td>58</td></tr>
+        <tr><td>Apr/Aug</td><td>66</td></tr>
+        <tr><td>May/Jul</td><td>74</td></tr>
+        <tr><td>Jun</td><td>82</td></tr>
+      </table>
       </div>
     );
   }

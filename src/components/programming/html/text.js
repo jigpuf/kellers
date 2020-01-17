@@ -30,7 +30,7 @@ class Text extends React.Component {
           <tr><td>Bi-directional override</td><td>&lt;bdo dir="rtl"&gt;Bi-Directional Overridden Text&lt;/bdo&gt;</td><td><bdo dir="rtl">Bi-Directional Overridden Text</bdo></td><td>In-Line</td></tr>
           <tr><td>Preformatted</td><td>&lt;pre&gt;<pre>Pre    Formatted Text</pre>&lt;/pre&gt;</td><td><pre>Pre    Formatted Text</pre></td><td>In-Line</td></tr>
         </table>
-        <h3>Symbols</h3>
+        <h3>Escape Characters</h3>
         <div className='twoColumn'>
         <table>
           <tr><th>Name</th><th>Entity</th><th>Decimal</th></tr>
@@ -63,10 +63,11 @@ class Text extends React.Component {
           <tr><td>&#252;</td><td>&amp;uuml;</td><td>&amp;#252;</td></tr>
           <tr><td>&#181;</td><td>&amp;micro;</td><td>&amp;#181;</td></tr>
           <tr><td>&#8594;</td><td>&amp;rarr;</td><td>&amp;#8594;</td></tr>
-
-
+          <tr><td>Blank Space</td><td>&amp;nbsp;</td><td>&amp;#160;</td></tr>
         </table>
         </div>
+        <h3>Commenting in html</h3>
+        &lt;&#33;-- all my comments here  --&gt;
       </div>
     );
   }

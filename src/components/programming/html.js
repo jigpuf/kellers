@@ -2,10 +2,10 @@ import React from 'react';
 import Lectures from './html/lectures.js'
 import Display from './html/display.js'
 import Text from './html/text.js';
+import HtmlSetup from './html/htmlSetup.js';
 import Media from './html/media.js'
 import Layouts from './html/layouts.js'
 import Atributes from './html/attributes.js'
-import Identifiers from './html/identifiers'
 import Forms from './html/forms.js'
 import Storage from './html/storage.js'
 
@@ -22,15 +22,15 @@ class Html extends React.Component {
     render () {
 
       const Items = [
-        {name: 'Lectures', slug: 'lectures', component:<Lectures />},
+        {name: 'Setup', slug: 'setup', component:<HtmlSetup />},
+        {name: 'Layouts', slug: 'layouts', component:<Layouts />},
         {name: 'Text', slug: 'text', component:<Text />},
         {name: 'Display', slug: 'display', component: <Display />},
         {name: 'Media', slug: 'media', component:<Media />},
-        {name: 'Layouts', slug: 'layouts', component:<Layouts />},
         {name: 'Atributes', slug: 'atributes', component:<Atributes />},
-        {name: 'Identifiers', slug: 'identifiers', component:<Identifiers />},
         {name: 'Forms', slug: 'forms', component:<Forms />},
         {name: 'Web Storage', slug: 'storage', component:<Storage />},
+        {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       ]
       const renderItems = Items.map(item => {
         return (

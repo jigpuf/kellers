@@ -9,13 +9,16 @@ class Media extends React.Component {
           &lt;a href = 'http:....'&gt;Link Name&lt;/a&gt;<br />
           <a href=''>Link Name</a>
         <h3>Images</h3>
-          &lt;img&gt;
+          &lt;img src="smiley.gif" alt="Smiley face" height="42" width="42"&gt;
         <h3>Video</h3>
           &lt;video&gt;<br />
           &lt;source src='path.mp4 type='video/mp4'&gt;<br />
           &lt;/video&gt;<br />
         <h3>Audio</h3>
-          &lt;&gt;&lt;/&gt;
+          &lt;audio controls&gt;<br />
+          &lt;source src="horse.ogg" type="audio/ogg"&gt;<br />
+          &lt;source src="horse.mp3" type="audio/mpeg&gt;<br />
+          &lt;/audio&gt;<br />
       </div>
     );
   }

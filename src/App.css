@@ -64,3 +64,13 @@ table, th, td {
 a:hover {
   color: gray;
 }
+
+.tttButton{
+  height: 50px;
+  border: 2px solid black;
+  display: inline;
+  width: 50px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}

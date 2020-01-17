@@ -1,6 +1,7 @@
 import React from 'react';
 import Lectures from './css/lectures.js'
 import Notes from './css/notes.js'
+import FlexBox from './css/flexBox.js'
 
 class Css extends React.Component {
   state = {
@@ -17,6 +18,7 @@ class Css extends React.Component {
     const Items = [
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
+      {name: 'FlexBox', slug: 'flexBox', component:<FlexBox />},
     ]
     const renderItems = Items.map(item => {
       return (

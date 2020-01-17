@@ -2,6 +2,7 @@ import React from 'react';
 import Paycheck from './apps/paycheck.js'
 import Solar from './apps/solar.js'
 import Dice from './apps/dice.js';
+import TicTac from './apps/tictac.js';
 import SolarCopy from './apps/solar-copy.js';
 
 
@@ -22,7 +23,7 @@ class Apps extends React.Component {
       {name: 'Clockout', slug: 'clockout'},
       {name: 'Dice Rolling Tool', slug: 'dice', component: <Dice /> },
       {name: 'Battleship', slug: 'battleship' },
-      {name: 'Tic-Tac-Toe', slug: 'ttt' },
+      {name: 'Tic-Tac-Toe', slug: 'ttt', component: <TicTac /> },
       {name: 'Electronics Test', slug: 'et' },
       {name: 'Homeschool', slug: 'homeschool'},
       {name: 'Lawnmowing', slug: 'lawnmowing'},
