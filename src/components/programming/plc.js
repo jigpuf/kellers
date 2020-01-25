@@ -6,6 +6,7 @@ import PlcSoftware from './plc/plcSoftware.js'
 import PlcHardware from './plc/plcHardware.js'
 import PlcCommunications from './plc/plcCommunications.js'
 import PlcConfigure from './plc/plcConfigure.js'
+import PlcProject from './plc/plcProject.js'
 
 class PLC extends React.Component {
   state = {
@@ -28,6 +29,7 @@ class PLC extends React.Component {
       {name: 'Configure', slug: 'configure', component:<PlcConfigure /> },
       {name: 'Programming', slug: 'programming', component:<PlcProgramming />},
       {name: 'Communications', slug: 'communications', component:<PlcCommunications />},
+      {name: 'Project', slug: 'project', component:<PlcProject />},
     ]
     const renderItems = Items.map(item => {
       return (

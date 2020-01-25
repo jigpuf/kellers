@@ -14,8 +14,7 @@ import Avionics from './work/avionics.js'
 import Network from './work/network.js'
 import Training from './work/training.js'
 import TimeOff from './work/timeOff.js'
-import Statuses from './work/statuses.js'
-import WorkLinks from './work/workLinks.js'
+
 
 
 class Work extends React.Component {
@@ -44,8 +43,6 @@ class Work extends React.Component {
       {name: 'Networking', slug: 'network', component:<Network /> },
       {name: 'Training', slug: 'training', component:<Training />},
       {name: 'TimeOff', slug: 'time', component:<TimeOff />},
-      {name: 'Statuses', slug: 'statuses', component:<Statuses />},
-      {name: 'Links', slug: 'links', component:<WorkLinks />},
 
     ]
     const renderTier1Items = tier1Items.map(item => {

@@ -5,6 +5,7 @@ import Pid from './controls/pid.js'
 import Channels from './controls/channels.js'
 import FileSync from './controls/sync.js'
 import Deploy from './controls/deploy.js'
+import Tripod from './controls/tripod.js'
 
 class Controls extends React.Component {
   state = {
@@ -30,6 +31,7 @@ class Controls extends React.Component {
       {name: 'Sea Level', slug: 'seaLevel'},
       {name: 'Beckoff', slug: 'beckoff'},
       {name: 'Deploying System', slug: 'deploy', component:<Deploy />},
+      {name: 'Tripod Breakdown', slug: 'Tripod', component:<Tripod />},
 
     ]
     const renderItems = Items.map(item => {

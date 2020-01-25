@@ -1,7 +1,8 @@
 import React from 'react';
 import PlcLogic from './plcProgramming/plcLogic.js'
 import PlcInstructions from './plcProgramming/plcInstructions.js'
-import Firmware from './plcProgramming/firmware.js'
+import PlcProgramHandling from './plcProgramming/plcProgramHandling.js'
+
 
 class PlcProgramming extends React.Component {
   state = {
@@ -18,7 +19,7 @@ class PlcProgramming extends React.Component {
     const Items = [
       {name: 'Instructions', slug: 'commands', component:<PlcInstructions />},
       {name: 'Logic Examples', slug: 'logic', component:<PlcLogic />},
-      {name: 'Firmware', slug: 'firmware', component:<Firmware />},
+      {name: 'Program Handling', slug: 'handling', component:<PlcProgramHandling />},
       {name: 'File Structure', slug: 'structure'},
       {name: 'Sequential Function', slug: 'sequential'},
       {name: 'Structured Text', slug: 'structured'},
