@@ -20,6 +20,8 @@ class Music extends React.Component {
         <div className='twoColumn'>
         <a href='https://www.youtube.com/watch?v=Q-Qu_nrV3U4' target ='_blank'
         >4U(Julius Dreising Remix)</a><br/>
+        <a href='https://www.youtube.com/watch?v=aFpefbl6JRE&list=PLQ18J7P31iBz9d-lPsnrFhZ7CIlLRlYMT&index=3&t=0s' target ='_blank'
+        >Drop It</a><br/>
         </div>
         <hr/>
       <li>Alice in Chains:</li>
