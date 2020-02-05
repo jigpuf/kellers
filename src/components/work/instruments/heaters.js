@@ -32,10 +32,11 @@ class Heaters extends React.Component {
       ></a></li>
       <li><a href='' target='_blank'
       ></a></li>
-      <li><a href='' target='_blank'
-      ></a></li>
-      <img src='instrumentation/heaterBoxTop.jpg' height='200'></img>
 
+      <img src='instrumentation/heaterBoxTop.jpg' height='200'></img><br /><br /><br />
+      Small temp controller for heater:<br />
+      Pt. Number:PM6C3KK-ALEJAAA<br />
+      <img src='instrumentation/babyWatlow.svg' height='400'></img><br />
 
 
       <h3>Information</h3>
