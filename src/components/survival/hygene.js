@@ -4,6 +4,7 @@ class Hygene extends React.Component {
   render () {
     return (
       <div>
+      <h2>Hygene</h2>
       Stock:
       <li>Shampoo</li>
       <li>Conditioner</li>
@@ -26,9 +27,6 @@ class Hygene extends React.Component {
       <li>Girl Products</li>
       <li>Eye Stuff</li>
       <li>Nail Clippers</li>
-      <li></li>
-      <li></li>
-      <li></li>
       </div>
     );
   }

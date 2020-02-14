@@ -12,6 +12,8 @@ class Links extends React.Component {
           >Udemy</a><br />
           <a href='https://www.drawsvg.org/drawsvg.html' target='_blank'
           >Draw SVG</a><br />
+          <a href='https://www.khanacademy.org/computing/computer-programming/html-css/' target='_blank'
+          >Khan Academy HTML-CSS</a><br />
           <hr/>
         <h4>Travel</h4>
           <a href='https://www.atlasobscura.com/' target='_blank'
@@ -40,6 +42,8 @@ class Links extends React.Component {
           >BYU Speeches</a><br />
           <a href='https://bookofmormoncentral.org/' target='_blank'
           >Book of Mormon Central</a><br />
+          <a href='http://centerplace.org/hs/iv/default.htm' target='_blank'
+          >Joseph Smith Translation</a><br />
           <hr />
         <h4>Cooking</h4>
           <a href='https://www.epicurious.com/' target='_blank'

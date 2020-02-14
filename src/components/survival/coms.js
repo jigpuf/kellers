@@ -4,7 +4,13 @@ class Coms extends React.Component {
   render () {
     return (
       <div>
-      Ham Radio, Walkie Talkies, Signalling, Code, FM/AM, Phone, 
+      <h2>Communications</h2>
+      <li>Ham Radio</li>
+      <li>Walkie Talkies</li>
+      <li>Signalling</li>
+      <li>Code</li>
+      <li>FM/AM</li>
+      <li>Phone</li> 
       </div>
     );
   }

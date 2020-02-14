@@ -4,6 +4,7 @@ class Kit extends React.Component {
   render () {
     return (
       <div>
+      <h2>72-Hour Kit</h2>
       <li>Comunications:</li>
       Phones, chargers, additional batteries, walkie Talkies, Ham Radio,
       Solar USB Charger, Headsets, Mirror, Paper, Pencils, code book<hr/>

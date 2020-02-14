@@ -50,6 +50,8 @@ class Instruments extends React.Component {
       {name: 'AWS Box', slug:'aws', component:<Aws />},
       {name: 'Coms', slug:'coms', component:<Coms />},
       {name: 'Video', slug:'video', component:<Video />},
+      {name: 'Dumb Instruments', slug:'dumb'},
+      {name: 'Smart Instruments', slug:'smart'},
     ]
     const renderItems = Items.map(item => {
       return (

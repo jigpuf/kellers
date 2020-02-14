@@ -18,12 +18,7 @@ class Temperature extends React.Component {
           >(E-Type)</a>
           <a href='https://www.thermocoupleinfo.com/type-k-thermocouple.htm' target='_blank'
           >(K-Type)</a>
-        <h3>TC Checkout</h3>
-          <img src='/instrumentation/tcMeasure.jpeg' />
-        <h3>TC Simulate</h3>
-          <img src='/instrumentation/tcSource.jpeg'/>
-          <hr />
-        <h2>RTD</h2>
+        <h3>RTD</h3>
           <h3>RTD Pinout</h3>
           <tr><th>Pin</th><th>Signal</th></tr>
           <tr><td>1</td><td>Red/Excite +</td></tr>
@@ -75,9 +70,12 @@ class Temperature extends React.Component {
             Software<br />
             Paramaters<br />
           <h3>Calibration</h3>
+          None
           <h3>Troubleshooting</h3>
-            Simulate Instrument:<br />
-            Instrument Checkout:<br />
+            Check Instrument:<br />
+            <img src='/instrumentation/tcChannel.svg' /><br />
+            Check Channel:<br />
+            <img src='/instrumentation/tcInstrument.svg'/><br />
           <h3>Adding to software</h3>
       </div>
     );
