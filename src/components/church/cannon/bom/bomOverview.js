@@ -73,6 +73,26 @@ class BomOverview extends React.Component {
               <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
               <tr><td>Secret Combinations</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
             </table>
+
+          <h3>Historical Doctrinal</h3>
+            <table>
+              <tr><th>Chapter</th><th>History</th><th>Doctrine</th><th>Doctrinal</th></tr>
+              <tr><td>1 Ne 1</td><td>1-13,15-20</td><td>14,20</td><td>Deliverence</td></tr>
+              <tr><td>1 Ne 2</td><td>1-15,18-24</td><td>16-17</td><td>Conversion</td></tr>
+              <tr><td>1 Ne 3</td><td>1-5,8-31</td><td>6-7</td><td></td></tr>
+              <tr><td>1 Ne 4</td><td>1-12,14-38</td><td>13</td><td></td></tr>
+              <tr><td>1 Ne 5</td><td>1-13,15-22</td><td></td><td>14</td></tr>
+              <tr><td>1 Ne 6</td><td>All</td><td></td><td></td></tr>
+              <tr><td>1 Ne 7</td><td>1-11,13,15-22</td><td></td><td></td></tr>
+              <tr><td>1 Ne 8</td><td>1-3,36-38</td><td>4-35</td><td></td></tr>
+              <tr><td>1 Ne 9</td><td>1-5</td><td>6</td><td></td></tr>
+              <tr><td>1 Ne 10</td><td>1-2,15-16</td><td>3-14,17-22</td><td></td></tr>
+              <tr><td>1 Ne </td><td></td><td></td><td></td></tr>
+              <tr><td>1 Ne </td><td></td><td></td><td></td></tr>
+              <tr><td>1 Ne </td><td></td><td></td><td></td></tr>
+              <tr><td>1 Ne </td><td></td><td></td><td></td></tr>
+              <tr><td>1 Ne </td><td></td><td></td><td></td></tr>
+            </table>
       </div>
     );
   }

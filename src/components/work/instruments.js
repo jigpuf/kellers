@@ -18,6 +18,7 @@ import Avionics from './instruments/avionics.js'
 import Aws from './instruments/aws.js'
 import Coms from './instruments/coms.js'
 import Video from './instruments/video.js'
+import Tugger from './instruments/tugger.js'
 
 
 class Instruments extends React.Component {
@@ -50,6 +51,7 @@ class Instruments extends React.Component {
       {name: 'AWS Box', slug:'aws', component:<Aws />},
       {name: 'Coms', slug:'coms', component:<Coms />},
       {name: 'Video', slug:'video', component:<Video />},
+      {name: 'Tugger', slug:'tugger', component:<Tugger />},
       {name: 'Dumb Instruments', slug:'dumb'},
       {name: 'Smart Instruments', slug:'smart'},
     ]
