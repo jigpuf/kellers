@@ -1,6 +1,8 @@
 import React from 'react';
 import Crimpers from './tools/crimpers.js'
 import TroubleshootingToolbox from './tools/troubleshootingToolbox.js'
+import Taps from './tools/taps.js'
+
 
 class Tools extends React.Component {
   state = {
@@ -19,6 +21,7 @@ class Tools extends React.Component {
       {name: 'Troubleshooting', slug: 'troubleshooting', component:<TroubleshootingToolbox />},
       {name: 'Swagelock', slug: 'swage',},
       {name: 'Label Maker', slug: 'labelMaker',},
+      {name: 'Taps', slug: 'Taps', component:<Taps />},
     ]
     const renderItems = Items.map(item => {
       return (
