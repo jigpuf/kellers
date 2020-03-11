@@ -97,10 +97,10 @@ class Presidents extends React.Component {
           Fulfillment of Prophecy
           <hr />
         <li>Harold B. Lee</li>
-          <a href='https://speeches.byu.edu/talks/harold-b-lee/men-women-tomorrow-depends-upon/' target ='_blank'
-          >What Men and Women Are Tomorrow Depends upon What You Do Today(1952)(test)</a><br />
           <a href='https://speeches.byu.edu/talks/harold-b-lee/divine-revelation/' target ='_blank'
-          >Divine Revelation(1952)(test)</a><br />
+          >Divine Revelation(1952)</a><br />
+          <a href='https://speeches.byu.edu/talks/harold-b-lee/glory-god-intelligence/' target ='_blank'
+          >The Glory of God Is Intelligence(1953)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/todays-young-people?lang=eng' target ='_blank'
           >Today's Young People (1971)</a><br />
           <a href='https://www.churchofjesuschrist.org/study/general-conference/1971/04/the-iron-rod?lang=eng' target ='_blank'
