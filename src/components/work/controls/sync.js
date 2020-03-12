@@ -23,7 +23,7 @@ class FileSync extends React.Component {
               <tr><td>HS</td><td></td><td>YES</td><td>YES</td><td></td></tr>
               <tr><td>HSV</td><td></td><td>YES</td><td>YES</td><td></td></tr>
             </table>
-          <h3>Current channels</h3>
+          <h3>Channels being used</h3>
             <table>
               <tr><th>System</th><th>Chasis/Module</th><th>AI</th><th>Channel</th></tr>
               <tr><td>GSE</td><td>C1/M12</td><td>18</td><td>V018</td></tr>

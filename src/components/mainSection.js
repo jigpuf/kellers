@@ -1,5 +1,5 @@
-import Leadership from './leadership.js';
 import Work from './work.js';
+import Leadership from './leadership.js';
 import React from 'react';
 import Apps from './apps.js';
 import Astronomy from './astronomy.js';
@@ -33,8 +33,8 @@ const MainSection = (props) => {
   //creates variable to contain the props.activeTab2 value from App.js
   return (
     <div className="mainSection">
-      {activeTab3 === 'leadership' && <Leadership />}
       {activeTab3 === 'work' && <Work />}
+      {activeTab3 === 'leadership' && <Leadership />}
       {activeTab3 === 'apps' && <Apps />}
       {activeTab3 === 'astronomy' && <Astronomy />}
       {activeTab3 === 'business' && <Business />}
@@ -54,7 +54,7 @@ const MainSection = (props) => {
       {activeTab3 === 'survival' && <Survival />}
       {activeTab3 === 'construction' && <Construction />}
       {activeTab3 === 'links' && <Links />}
-      
+
     </div>
   );
 };
