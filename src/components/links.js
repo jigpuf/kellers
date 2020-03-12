@@ -4,7 +4,6 @@ class Links extends React.Component {
   render () {
     return (
       <div>
-
         <h4>Programming</h4>
           <a href='https://www.w3schools.com/' target='_blank'
           >W3 Schools</a><br />
@@ -47,7 +46,7 @@ class Links extends React.Component {
           <hr />
         <h4>Cooking</h4>
           <a href='https://www.epicurious.com/' target='_blank'
-          >Epicuiour</a><br/>
+          >Epicuious</a><br/>
           <hr/>
         <h4>Nutrition</h4>
           <a href='https://nutritiondata.self.com/' target='_blank'
@@ -101,6 +100,11 @@ class Links extends React.Component {
           <a href="https://drive.google.com/drive/folders/0B4o7q1habMugMDlJMTNycFFNVms" target ='_blank'
           >Hugh Nibley Lecture Streaming</a><br />
           <hr/>
+        <h4>Banks</h4>
+          <a href='https://www.plainscapital.com/' target ='_blank'
+          >Plains Capital</a><br />
+          <a href='https://www.hillcrestbank.com/' target ='_blank'
+          >Hilcrest Bank</a><br />
       </div>
     );
   }

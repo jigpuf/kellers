@@ -1,10 +1,4 @@
 import React from 'react';
-import Ni from './controls/ni.js'
-import Plc from './controls/plc.js'
-import Pid from './controls/pid.js'
-import Channels from './controls/channels.js'
-import FileSync from './controls/sync.js'
-import Deploy from './controls/deploy.js'
 import Tripod from './controls/tripod.js'
 
 class Controls extends React.Component {
@@ -18,19 +12,7 @@ class Controls extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'National Instruments', slug: 'ni', component:<Ni />},
-      {name: 'Allen Bradley', slug: 'plc', component:<Plc />},
-      {name: 'Watlow Controller', slug: 'watlow',},
-      {name: 'Siemens', slug: 'siemens',},
-      {name: 'PID Theory', slug:'pid', component:<Pid />},
-      {name: 'Channel Types', slug:'channels', component:<Channels />},
-      {name: 'File_Sync', slug:'sync', component:<FileSync />},
-      {name: 'Stat Lines', slug: 'stat'},
       {name: 'AWS', slug: 'aws'},
-      {name: 'Sneider', slug: 'sneider'},
-      {name: 'Sea Level', slug: 'seaLevel'},
-      {name: 'Beckoff', slug: 'beckoff'},
-      {name: 'Deploying System', slug: 'deploy', component:<Deploy />},
       {name: 'Tripod Breakdown', slug: 'Tripod', component:<Tripod />},
 
     ]

@@ -1,6 +1,4 @@
 import React from 'react';
-import Terminations from './cables/terminations.js'
-import Waterproofing from './cables/waterproofing.js'
 import Codes from './cables/codes.js'
 
 class Cables extends React.Component {
@@ -14,8 +12,6 @@ class Cables extends React.Component {
   }
   render () {
     const Items = [
-      {name: 'Terminations', slug: 'terminations', component:<Terminations />},
-      {name: 'Waterproofing', slug: 'waterproofing', component:<Waterproofing />},
       {name: 'Codes', slug: 'codes', component:<Codes />},
 
     ]

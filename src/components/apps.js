@@ -36,6 +36,7 @@ class Apps extends React.Component {
       {name: 'Fitness Tracker', slug: 'fitness'},
       {name: 'Stocks', slug: 'stocks'},
       {name: 'Solar-Copy', slug: 'copy', component: <SolarCopy />},
+      {name: 'Resister', slug: 'resister'},
     ]
     const renderItems = Items.map(item => {
       return (

@@ -6,9 +6,9 @@ class Codes extends React.Component {
       <div>
       <li>NEC 500-Hazardous locations for electrical</li>
       <li>AS 9100-Aerospace and Defense</li>
-      <li>AV2057-1/2/3/4</li>
-      <li>AV1200-1A</li>
       <li>12-400</li>
+      <li>AV2057-1/2/3/4(2)</li>
+      <li>AV1200-1A(2,3)</li>
       </div>
     );
   }
