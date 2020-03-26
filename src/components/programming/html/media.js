@@ -6,8 +6,10 @@ class Media extends React.Component {
       <div>
         <h2>Media</h2>
         <h3>Links</h3>
-          &lt;a href = 'http:....'&gt;Link Name&lt;/a&gt;<br />
-          <a href=''>Link Name</a>
+          &lt;a href = 'http:....' target="_blank" &gt;Link Name&lt;/a&gt;<br />
+          <a href=''>Link Name</a><br />
+          Internal links:<br />
+          &lt;a href = '#idName' &gt;Link Name&lt;/a&gt;<br />
         <h3>Images</h3>
           &lt;img src="smiley.gif" alt="Smiley face" height="42" width="42"&gt;
         <h3>Video</h3>

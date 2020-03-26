@@ -44,6 +44,7 @@ class Text extends React.Component {
           <tr><td>&#40;</td><td></td><td>&amp;#40;</td></tr>
           <tr><td>&#41;</td><td></td><td>&amp;#41;</td></tr>
           <tr><td>&#123;</td><td></td><td>&amp;#123;</td></tr>
+          <tr><td>&#125;</td><td></td><td>&amp;#125;</td></tr>
           <tr><td>&#124;</td><td></td><td>&amp;#124;</td></tr>
           <tr><td>&#35;</td><td></td><td>&amp;#35;</td></tr>
           <tr><td>&#37;</td><td></td><td>&amp;#37;</td></tr>

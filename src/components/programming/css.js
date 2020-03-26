@@ -2,6 +2,7 @@ import React from 'react';
 import Lectures from './css/lectures.js'
 import Notes from './css/notes.js'
 import FlexBox from './css/flexBox.js'
+import Selectors from './css/selectors.js'
 
 class Css extends React.Component {
   state = {
@@ -19,6 +20,8 @@ class Css extends React.Component {
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
       {name: 'FlexBox', slug: 'flexBox', component:<FlexBox />},
+      {name: 'Selectors', slug: 'selectors', component:<Selectors />},
+
     ]
     const renderItems = Items.map(item => {
       return (
