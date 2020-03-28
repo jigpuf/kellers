@@ -2,17 +2,17 @@ import React from 'react';
 
 class Paycheck extends React.Component {
   state ={
-    hourlyWage: 34,
+    hourlyWage: 35.5,
     hoursWorked: 110,
-    insurance: 195,
+    insurance: 400,
     setAside: 1500,
     effectiveHours:125,
     espp:.15,
-    taxes: .136,
+    taxes: .11,
     selectedOption: 'night',
     shiftWage: 1.085,
     mortgage:1800,
-    carInsurance:50,
+    carInsurance:100,
     electricity:200,
     water:45,
     gas:50,
@@ -51,7 +51,7 @@ class Paycheck extends React.Component {
     return this.setState({espp:esppChange});
   }
   calculateTaxes = () => {
-    const grossTaxable =(this.state.hourlyWage * this.state.effectiveHours * 26) - 24400;
+    const grossTaxable =(this.state.hourlyWage * this.state.effectiveHours * 26) - 24800;
 
   }
   shiftWageChanger = () => {
@@ -113,11 +113,11 @@ class Paycheck extends React.Component {
           <tr>
             <td><strong>Gross Income:</strong></td>
             <td>{parseInt(this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage)}</td>
-            <td><strong>Net Income:</strong></td>
+            <td><strong>Take Home:</strong></td>
             <td>{parseInt((((this.state.hourlyWage * this.state.effectiveHours
               * this.state.shiftWage) - this.state.insurance)
               * (1-this.state.taxes)) - (this.state.hourlyWage
-              * this.state.effectiveHours) * this.state.espp)}</td>
+              * this.state.effectiveHours * this.state.shiftWage) * this.state.espp)}</td>
           </tr>
           <tr>
             <td><strong>Projected annual Gross:</strong></td>
@@ -133,6 +133,8 @@ class Paycheck extends React.Component {
           </tr>
         </table>
         <br />< br />
+        <h3>Monthly</h3>
+        Take home:
         <table>
           <tr><th>Bill</th><th>Amount</th></tr>
           <tr><td>Mortgage</td><td>{this.state.mortgage}</td></tr>
@@ -148,10 +150,10 @@ class Paycheck extends React.Component {
             + this.state.electricity + this.state.water + this.state.gas
             + this.state.internet + this.state.fuel + this.state.cellPhones
             + this.state.carPayment}</td></tr>
-          <tr><td>After Bills</td><td>{parseInt(((((this.state.hourlyWage * this.state.effectiveHours
+          <tr><td>After Bills</td><td>{parseInt((((((this.state.hourlyWage * this.state.effectiveHours
             * this.state.shiftWage) - this.state.insurance)
             * (1-this.state.taxes)) - (this.state.hourlyWage
-            * this.state.effectiveHours) * this.state.espp))-(this.state.mortgage + this.state.carInsurance
+            * this.state.effectiveHours * this.state.shiftWage) * this.state.espp))*2)-(this.state.mortgage + this.state.carInsurance
               + this.state.electricity + this.state.water + this.state.gas
               + this.state.internet + this.state.fuel + this.state.cellPhones
               + this.state.carPayment)}</td></tr>

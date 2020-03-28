@@ -134,13 +134,25 @@ class Lectures extends React.Component {
             <a href='https://www.youtube.com/watch?v=c62_yTwex9E&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=10' target='_blank'
             >HTML internal links(done)</a><br />
             <a href='https://www.youtube.com/watch?v=LwX_v2jGmYU&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=11' target='_blank'
-            >CSS specificity </a><br />
+            >CSS specificity(done)</a><br />
+            <a href='' target='_blank'
+            ></a><br /><hr />
+            <a href='https://www.youtube.com/watch?v=a3mvlBdcELc&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=13' target='_blank'
+            >Grouping CSS selectors(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=6UYA4zow-Ps&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=14' target='_blank'
+            >CSS dynamic pseudo-classes(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=V0-KK15Bc_g&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=15CSS position' target='_blank'
+            >CSS position</a><br /><hr />
             <a href='' target='_blank'
             ></a><br /><hr />
             <a href='' target='_blank'
-            ></a><br />
+            ></a><br /><hr />
             <a href='' target='_blank'
-            ></a><br />
+            ></a><br /><hr />
+            <a href='' target='_blank'
+            ></a><br /><hr />
+            <a href='' target='_blank'
+            ></a><br /><hr />
             <a href='' target='_blank'
             ></a><br /><hr />
           <h3>Programming with Mosh</h3>
