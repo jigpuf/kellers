@@ -21,6 +21,18 @@ class Media extends React.Component {
           &lt;source src="horse.ogg" type="audio/ogg"&gt;<br />
           &lt;source src="horse.mp3" type="audio/mpeg&gt;<br />
           &lt;/audio&gt;<br />
+        <h3>PDF</h3>
+
+
+          <a href='https://drive.google.com/open?id=15roj--KrhNHGiRgd3C_mxXGqmvO9ict-' target ='_blank'
+          >hyrum</a><br />
+
+          <a href="https://drive.google.com/open?id=1JlsWQXM9qxZ0WNG6zmmAt21cs1c0ja3S"
+          onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;"
+          >MyPDF</a>
+
+
+
       </div>
     );
   }

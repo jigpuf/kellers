@@ -5,7 +5,6 @@ class Paycheck extends React.Component {
     hourlyWage: 35.5,
     hoursWorked: 110,
     insurance: 200,
-    setAside: 1500,
     effectiveHours:125,
     espp:.15,
     taxes: .11,
@@ -13,7 +12,7 @@ class Paycheck extends React.Component {
     standardDeduction:24800,
     shiftWage: 1.085,
     mortgage:1800,
-    carInsurance:100,
+    carInsurance:200,
     electricity:200,
     water:45,
     gas:50,
@@ -67,7 +66,7 @@ class Paycheck extends React.Component {
 
       this.setState({selectedOption:event.target.value},this.shiftWageChanger)
     );
-//it seems to grab the last value, not the current 1
+// it seems to grab the last value, not the current 1
   }
   render () {
     return (
@@ -107,7 +106,7 @@ class Paycheck extends React.Component {
               <td>{parseInt(this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage * 26)}</td>
             </tr>
           </table>
-          //Anuaal Gross = gross*26
+          //Annual Gross = gross*26
           <h3>Taken from Paycheck</h3>
             <table>
             <tr>
@@ -170,7 +169,7 @@ class Paycheck extends React.Component {
               + this.state.internet + this.state.fuel + this.state.cellPhones
               + this.state.carPayment + this.state.tithing))}</td></tr>
         </table>
-        //need to program tithing percentage
+        {/*need to program tithing percentage*/}
         <br /><br /><br /><br />
       </div>
     );

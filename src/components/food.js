@@ -11,7 +11,7 @@ import Nationality from './food/nationality.js'
 import Diet from './food/diet.js'
 import Spice from './food/spice.js'
 import Restaurants from './food/restaurants.js';
-
+import Storage from './food/storage.js'
 
 class Food extends React.Component {
   state = {
@@ -38,6 +38,7 @@ class Food extends React.Component {
       {name: 'Diet', slug: 'diet', component:<Diet /> },
       {name: 'Spice', slug: 'Spice', component:<Spice />},
       {name: 'Restaurants', slug: 'restaurants', component:<Restaurants /> },
+      {name: 'Food Storage', slug: 'storage', component:<Storage /> },
     ];
     const renderItems = Items.map(item => {
       return (

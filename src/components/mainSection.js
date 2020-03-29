@@ -59,7 +59,7 @@ const MainSection = (props) => {
   );
 };
 /*
-If the active tab prop from App.js ==== the given value,and the following
+If the active tab prop from App.js === the given value,and the following
 component exists, then it will call the component.
 */
 export default MainSection;

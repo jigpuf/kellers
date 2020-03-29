@@ -11,6 +11,7 @@ class Drinks extends React.Component {
       Milk,Vanilla, Sugar
       <li>Salty lemon Drink</li>
       <li>Fruity Orange Juice</li>
+      <li>Leprechaun Milk</li>
       </div>
     );
   }
