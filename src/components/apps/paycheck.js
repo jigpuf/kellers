@@ -21,24 +21,33 @@ class Paycheck extends React.Component {
     cellPhones:185,
     carPayment:800,
     tithing:540,
-    Hulu:13,
-    Netflix:15,
-    Amazon:15,
-    Zander:13,
-    Gym:45,
+    hulu:13,
+    netflix:15,
+    amazon:15,
+    zander:13,
+    gym:45,
     AtmInternet:155,
+    setAside:3000,
   }
-
-  changeHourlyWage = (event) => {
-    const wage = parseFloat(event.target.value,10);
-    return this.setState({hourlyWage:wage});
+  shiftWageChanger = () => {
+    if(this.state.selectedOption === "night"){ return this.setState({shiftWage:1.085})};
+    if(this.state.selectedOption === "day"){ return this.setState({shiftWage:1.0})};
+     return this.setState({shiftWage:1.1});
   }
   changeHoursWorked = (event) => {
     const hours = parseInt(event.target.value,10);
     const bigHours = ((hours - 80) * 1.5) +80;
     return (
-      this.setState({hoursWorked:hours,effectiveHours:((hours - 80) * 1.5) +80})
+      this.setState({hoursWorked:hours, effectiveHours:((hours - 80) * 1.5) +80})
     );
+  }
+  changeHourlyWage = (event) => {
+    const wage = parseFloat(event.target.value,10);
+    return this.setState({hourlyWage:wage});
+  }
+  changeEspp = (event) => {
+    const esppChange = parseFloat(event.target.value,10);
+    return this.setState({espp:esppChange});
   }
   changeinsurance = (event) => {
     const insuranceCost =parseInt(event.target.value,10);
@@ -48,25 +57,14 @@ class Paycheck extends React.Component {
     const setAsideMoney = parseInt(event.target.value,10);
     return this.setState({setAside:setAsideMoney});
   }
-  changeEspp = (event) => {
-    const esppChange = parseFloat(event.target.value,10);
-    return this.setState({espp:esppChange});
-  }
-  calculateTaxes = () => {
-    const grossTaxable =(this.state.hourlyWage * this.state.effectiveHours * 26) - this.state.standardDeduction;
 
-  }
-  shiftWageChanger = () => {
-    if(this.state.selectedOption === "night"){ return this.setState({shiftWage:1.085})};
-    if(this.state.selectedOption === "day"){ return this.setState({shiftWage:1.0})};
-    if(this.state.selectedOption === "graveyard"){ return this.setState({shiftWage:1.1})};
-  }
+
+
   handleOptionChange = (event) => {
     return (
 
       this.setState({selectedOption:event.target.value},this.shiftWageChanger)
     );
-// it seems to grab the last value, not the current 1
   }
   render () {
     return (
@@ -154,22 +152,44 @@ class Paycheck extends React.Component {
           <tr><td>Electricity</td><td>{this.state.electricity}</td></tr>
           <tr><td>Water</td><td>{this.state.water}</td></tr>
           <tr><td>Gas</td><td>{this.state.gas}</td></tr>
+          <tr><td>Gym</td><td>{this.state.gym}</td></tr>
           <tr><td>Internet</td><td>{this.state.internet}</td></tr>
           <tr><td>Fuel</td><td>{this.state.fuel}</td></tr>
           <tr><td>Cell Phones</td><td>{this.state.cellPhones}</td></tr>
           <tr><td>Car Payment</td><td>{this.state.carPayment}</td></tr>
-          <tr><td>Tithing</td><td>{this.state.tithing}</td></tr>
+          <tr><td>Zander</td><td>{this.state.zander}</td></tr>
+          <tr><td>Amazon</td><td>{this.state.amazon}</td></tr>
+          <tr><td>Netflix</td><td>{this.state.netflix}</td></tr>
+          <tr><td>Hulu</td><td>{this.state.hulu}</td></tr>
+          <tr><td>Tithing</td><td>{(this.state.mortgage + this.state.carPayment
+            + this.state.internet + this.state.gym + this.state.cellPhones
+            + this.state.setAside)*.112}</td></tr>
+          {/*Tithing = (mortgage + Car + internet + gym + cellPhones + setAside)*.112*/}
           <tr><td>Total</td><td>{this.state.mortgage + this.state.carInsurance
             + this.state.electricity + this.state.water + this.state.gas
             + this.state.internet + this.state.fuel + this.state.cellPhones
-            + this.state.carPayment + this.state.tithing}</td></tr>
-          <tr><td>After Bills</td><td>{parseInt((((this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage) - (((this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage * 26) - this.state.standardDeduction) * this.state.taxes / 26) - (this.state.hourlyWage * this.state.effectiveHours * this.state.shiftWage * this.state.espp) - (this.state.insurance))*2)
+            + this.state.carPayment + this.state.tithing + this.state.gym
+            + this.state.hulu + this.state.netflix + this.state.amazon
+            + this.state.zander}</td></tr>
+            {/*Total = mortgage + Car Insurance + electricity + water + gas
+              + internet + fuel + cell Phones + car Payments + tithing + gym
+              + hulu + netflix + amazon + zander*/}
+          <tr><td>After Bills</td><td>{parseInt((((this.state.hourlyWage
+            * this.state.effectiveHours * this.state.shiftWage)
+            - (((this.state.hourlyWage * this.state.effectiveHours
+              * this.state.shiftWage * 26) - this.state.standardDeduction)
+              * this.state.taxes / 26) - (this.state.hourlyWage
+                * this.state.effectiveHours * this.state.shiftWage
+                * this.state.espp) - (this.state.insurance))*2)
             -(this.state.mortgage + this.state.carInsurance
               + this.state.electricity + this.state.water + this.state.gas
               + this.state.internet + this.state.fuel + this.state.cellPhones
-              + this.state.carPayment + this.state.tithing))}</td></tr>
+              + this.state.carPayment + this.state.tithing + this.state.gym
+              + this.state.hulu + this.state.netflix + this.state.amazon
+              + this.state.zander))}</td></tr>
+            {/*After Bills = (effective hours * shift wage* hourlyWage)-*/}
         </table>
-        {/*need to program tithing percentage*/}
+
         <br /><br /><br /><br />
       </div>
     );

@@ -105,16 +105,29 @@ class Links extends React.Component {
           >Plains Capital</a><br />
           <a href='https://www.hillcrestbank.com/' target ='_blank'
           >Hilcrest Bank</a><br />
-
-
-          
+          <a href='' target ='_blank'
+          >Evolve!!!!</a><br />
+          <a href='' target ='_blank'
+          >Coleman county state bank</a><br />
+          <a href='' target ='_blank'
+          >Clasic bank</a><br />
+          <a href='' target ='_blank'
+          >farmers bank and trust</a><br />
+          <a href='' target ='_blank'
+          >First federal community bank,ssb</a><br />
+          <a href='' target ='_blank'
+          >first national bank of hereford</a><br />
+          <a href='' target ='_blank'
+          >First State bank </a><br />
+          <a href='' target ='_blank'
+          >First lockhart national bank</a><br />
+          <a href='' target ='_blank'
+          >Flanagan State Bank</a><br />
+          <a href='' target ='_blank'
+          >Frontier Bank</a><br />
       </div>
     );
   }
 }
 
 export default Links;
-
-
-//<a href='' target='_blank'
-//></a><br/>

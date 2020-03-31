@@ -5,50 +5,39 @@ class Selectors extends React.Component {
     return (
       <div>
         <h2>Selectors</h2>
-          <ol>
-            <li>Select by Id</li>
-            <li>Select By class</li>
-            <li>Select by tag</li>
-            <li>Specificity</li>
-            <li>Descendant Selector </li>
-            <li>Grouping Selector </li>
-            <li>Pseudo Classes</li>
-          </ol>
-        <h3>Select by Id</h3>
-          &#35;scripture &#123;<br />
-          &#125;<br />
-          <hr />
-        <h3>Select by Class</h3>
-          .scripture &#123;<br />
-          &#125;<br />
-        <hr />
-        <h3>Select by Tag</h3>
-          h2 &#123;<br />
-          &#125;<br />
-          <hr />
+          <table>
+            <tr><th>Select Type</th><th>Symbol</th><th>Description</th></tr>
+            <tr><td>Class</td><td>.className</td><td>Selects all of a specific class</td></tr>
+            <tr><td>Id</td><td>#idName</td><td>Selects particular element by id</td></tr>
+            <tr><td>Tag</td><td>tagName</td><td>Selects all of a certain type of tag</td></tr>
+            <tr><td>All</td><td>*</td><td>Selects all elements</td></tr>
+            <tr><td>Pseudo Class</td><td>tagName:pseudoclass</td><td>Selects all of this tag with PseudoClass</td></tr>
+            <tr><td>Attribute</td><td>[attribute = value]</td><td>Selects all of this tag with PseudoClass</td></tr>
+          </table>
+        <h3>Operators</h3>
+          <table>
+            <tr><th>Selector operator</th><th>Symbol</th><th>Description</th></tr>
+            <tr><td></td><td>,</td><td></td></tr>
+            <tr><td></td><td>spaces</td><td></td></tr>
+            <tr><td></td><td>	&gt;</td><td></td></tr>
+            <tr><td></td><td>~</td><td></td></tr>
+            <tr><td></td><td>+</td><td></td></tr>
+            <tr><td></td><td>=</td><td></td></tr>
+            <tr><td></td><td>~=</td><td></td></tr>
+            <tr><td></td><td>|=</td><td></td></tr>
+            <tr><td></td><td>^=</td><td></td></tr>
+            <tr><td></td><td>$=</td><td></td></tr>
+            <tr><td></td><td>*=</td><td></td></tr>
+            <tr><td></td><td>:</td><td></td></tr>
+            <tr><td></td><td>::</td><td></td></tr>
+          </table>
+
         <h3>Specificity</h3>
           <ol>
             <li>id</li>
             <li>class</li>
             <li>tag</li>
           </ol>
-          The lower number here will take precedence.  If two selectors have
-          equally specific rules, the last one in page wins.
-          <hr />
-        <h3>Descendant Selector</h3>
-          .true p .scripture &#123;<br />
-          &#125;<br />
-          The space says the scripture class found in a paragraph in a true class<br />
-          <hr />
-        <h3>Grouping Selectors</h3>
-          h1, h2 &#123;<br />
-          &#125;<br />
-          <hr />
-        <h3>Pseudo classes</h3>
-          based on event states<br />
-          a:hover &#123;<br />
-          &#125;<br />
-
       </div>
     );
   }

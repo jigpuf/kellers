@@ -20,8 +20,8 @@ class Css extends React.Component {
     const Items = [
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
-      {name: 'FlexBox', slug: 'flexBox', component:<FlexBox />},
       {name: 'Selectors', slug: 'selectors', component:<Selectors />},
+      {name: 'FlexBox', slug: 'flexBox', component:<FlexBox />},
       {name: 'Position', slug: 'position', component:<Position />},
     ]
     const renderItems = Items.map(item => {
