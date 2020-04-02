@@ -13,6 +13,7 @@ class Selectors extends React.Component {
             <tr><td>All</td><td>*</td><td>Selects all elements</td></tr>
             <tr><td>Pseudo Class</td><td>tagName:pseudoclass</td><td>Selects all of this tag with PseudoClass</td></tr>
             <tr><td>Attribute</td><td>[attribute = value]</td><td>Selects all of this tag with PseudoClass</td></tr>
+            <tr><td>Class within element</td><td>element.class</td><td>Selects a class within a certain type of element</td></tr>
           </table>
         <h3>Operators</h3>
           <table>

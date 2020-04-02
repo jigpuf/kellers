@@ -1,6 +1,6 @@
 import React from 'react';
 
-class JsControlFlow extends React.Component {
+class ControlFlow extends React.Component {
   render () {
     return (
       <div>Control Flow</div>
@@ -8,4 +8,4 @@ class JsControlFlow extends React.Component {
   }
 }
 
-export default JsControlFlow;
+export default ControlFlow;

@@ -1,9 +1,12 @@
 import React from 'react';
 import Lectures from './css/lectures.js'
 import Notes from './css/notes.js'
+import Box from './css/box.js'
 import FlexBox from './css/flexBox.js'
 import Selectors from './css/selectors.js'
 import Position from './css/position.js'
+import Text from './css/text.js'
+
 
 class Css extends React.Component {
   state = {
@@ -21,8 +24,11 @@ class Css extends React.Component {
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
       {name: 'Selectors', slug: 'selectors', component:<Selectors />},
-      {name: 'FlexBox', slug: 'flexBox', component:<FlexBox />},
       {name: 'Position', slug: 'position', component:<Position />},
+      {name: 'Text Properties', slug: 'text', component:<Text />},
+      {name: 'Box Model', slug: 'box', component:<Box />},
+      {name: 'FlexBox', slug: 'flexBox', component:<FlexBox />},
+
     ]
     const renderItems = Items.map(item => {
       return (

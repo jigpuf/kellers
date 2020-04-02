@@ -7,13 +7,13 @@ class Lectures extends React.Component {
         <h2>HTML Lectures</h2>
           <h3>New Boston</h3>
             <a href='https://www.youtube.com/watch?v=Mp0f0zTPLec&list=PL081AC329706B2953' target='_blank'
-            >HTML5 - 1 - Introduction</a><br />
+            >HTML5 - 1 - Introduction(done)</a><br />
             <a href='https://www.youtube.com/watch?v=qseNjA-73Fw&list=PL081AC329706B2953&index=2' target='_blank'
-            >HTML5 - 2 - Creating a Basic Template</a><br />
+            >HTML5 - 2 - Creating a Basic Template(done)</a><br />
             <a href='https://www.youtube.com/watch?v=eDR7zpVfX_4&list=PL081AC329706B2953&index=3' target='_blank'
-            >HTML5 - 3 - Setting up the body</a><br />
+            >HTML5 - 3 - Setting up the body(done)</a><br />
             <a href='https://www.youtube.com/watch?v=go5U9wfM9h4&list=PL081AC329706B2953&index=4' target='_blank'
-            >HTML5 - 4 - Adding the Meat!</a><br />
+            >HTML5 - 4 - Adding the Meat!(done)</a><br />
             <a href='https://www.youtube.com/watch?v=a5KD47HDRho&list=PL081AC329706B2953&index=5' target='_blank'
             >HTML5 - 5 - Attribute Selectors</a><br />
             <a href='https://www.youtube.com/watch?v=0pb81VdSO_E&list=PL081AC329706B2953&index=6' target='_blank'
@@ -130,31 +130,40 @@ class Lectures extends React.Component {
             <a href='https://www.youtube.com/watch?v=q3kVcOTWsC0&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=8' target='_blank'
             >HTML comments(done)</a><br />
             <a href='https://www.youtube.com/watch?v=UL3Gvq2zOLs&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=9' target='_blank'
-            >HTML tables(done)</a><br /><hr />
+            >HTML tables(done)</a><br />
             <a href='https://www.youtube.com/watch?v=c62_yTwex9E&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=10' target='_blank'
             >HTML internal links(done)</a><br />
             <a href='https://www.youtube.com/watch?v=LwX_v2jGmYU&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=11' target='_blank'
             >CSS specificity(done)</a><br />
-            <a href='' target='_blank'
-            ></a><br /><hr />
             <a href='https://www.youtube.com/watch?v=a3mvlBdcELc&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=13' target='_blank'
             >Grouping CSS selectors(done)</a><br />
             <a href='https://www.youtube.com/watch?v=6UYA4zow-Ps&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=14' target='_blank'
             >CSS dynamic pseudo-classes(done)</a><br />
             <a href='https://www.youtube.com/watch?v=V0-KK15Bc_g&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=15CSS position' target='_blank'
-            >CSS position</a><br /><hr />
-            <a href='' target='_blank'
-            ></a><br /><hr />
-            <a href='' target='_blank'
-            ></a><br /><hr />
-            <a href='' target='_blank'
-            ></a><br /><hr />
-            <a href='' target='_blank'
-            ></a><br /><hr />
-            <a href='' target='_blank'
-            ></a><br /><hr />
-            <a href='' target='_blank'
-            ></a><br /><hr />
+            >CSS position(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=jBd9-jw-kTc&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=16' target='_blank'
+            >CSS floating elements(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=PZYwZxDcs78&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=17' target='_blank'
+            >Using multiple CSS classes(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=go9d5Ywqx2k&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=18' target='_blank'
+            >Combining CSS class and element selectors(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=PhyF-HdbV8M&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=19' target='_blank'
+            >CSS inheritance(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=KGGF6WZdsns&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=20' target='_blank'
+            >CSS grouping elements(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=Xhta9NIqG0o&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=21' target='_blank'
+            >CSS width, height, and overflow(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=g3jMAW7k7TE&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=22' target='_blank'
+            >CSS box model(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=pSyjy3HctSM&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=23' target='_blank'
+            >More CSS Text Properties(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=Jm_nbl55rWE&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=24' target='_blank'
+            >CSS font styles and shorthand(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=gc1O5v1Zhyo&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=25' target='_blank'
+            >CSS font-size property(done)</a><br />
+            <a href='https://www.youtube.com/watch?v=6kylHlh-1k4&list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr&index=26' target='_blank'
+            >CSS font-family property(done)</a><br />
+            <hr />
           <h3>Programming with Mosh</h3>
             <a href='' target='_blank'
             ></a><br /><hr />

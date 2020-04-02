@@ -1,6 +1,11 @@
 import React from 'react';
 import Lectures from './js/lectures.js'
-import Notes from './js/notes.js'
+import Basics from './js/jsBasics.js'
+import DataTypes from './js/dataTypes.js'
+import Variables from './js/variables.js'
+import ControlFlow from './js/controlFlow.js'
+import Functions from './js/functions.js'
+import ObjectLiterals from './js/objectLiterals.js'
 
 
 class Js extends React.Component {
@@ -17,7 +22,13 @@ class Js extends React.Component {
 
     const Items = [
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
-      {name: 'Notes', slug: 'notes', component:<Notes />},
+      {name: 'Javascript Basics', slug: 'basics', component:<Basics />},
+      {name: 'Data Types', slug: 'dataTypes', component:<DataTypes />},
+      {name: 'Variables', slug: 'variables', component:<Variables />},
+      {name: 'Control Flow', slug: 'controlFlow', component:<ControlFlow />},
+      {name: 'Functions/Methods', slug: 'functions', component:<Functions />},
+      {name: 'Object Literals', slug: 'objectLiterals', component:<ObjectLiterals />},
+
     ]
     const renderItems = Items.map(item => {
       return (
