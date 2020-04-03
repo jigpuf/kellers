@@ -1,6 +1,7 @@
 import React from 'react';
 import Lectures from './css/lectures.js'
 import Notes from './css/notes.js'
+import Layout from './css/layout.js'
 import Box from './css/box.js'
 import FlexBox from './css/flexBox.js'
 import Selectors from './css/selectors.js'
@@ -23,6 +24,7 @@ class Css extends React.Component {
     const Items = [
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
+      {name: 'Layout', slug: 'layout', component:<Layout />},
       {name: 'Selectors', slug: 'selectors', component:<Selectors />},
       {name: 'Position', slug: 'position', component:<Position />},
       {name: 'Text Properties', slug: 'text', component:<Text />},

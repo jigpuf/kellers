@@ -15,23 +15,23 @@ class Lectures extends React.Component {
             <a href='https://www.youtube.com/watch?v=go5U9wfM9h4&list=PL081AC329706B2953&index=4' target='_blank'
             >HTML5 - 4 - Adding the Meat!(done)</a><br />
             <a href='https://www.youtube.com/watch?v=a5KD47HDRho&list=PL081AC329706B2953&index=5' target='_blank'
-            >HTML5 - 5 - Attribute Selectors</a><br />
+            >HTML5 - 5 - Attribute Selectors(done)</a><br />
             <a href='https://www.youtube.com/watch?v=0pb81VdSO_E&list=PL081AC329706B2953&index=6' target='_blank'
-            >HTML5 - 6 - Introduction to pseudo-classes</a><br />
+            >HTML5 - 6 - Introduction to pseudo-classes(done)</a><br />
             <a href='https://www.youtube.com/watch?v=JaLebQ-QDVo&list=PL081AC329706B2953&index=7' target='_blank'
-            >HTML5 - 7 - negation pseudo-class</a><br />
+            >HTML5 - 7 - negation pseudo-class(done)</a><br />
             <a href='https://www.youtube.com/watch?v=tIznbrsfQZQ&list=PL081AC329706B2953&index=8' target='_blank'
-            >HTML5 - 8 - Sweet New CSS3 Selectors</a><br />
+            >HTML5 - 8 - Sweet New CSS3 Selectors(done)</a><br />
             <a href='https://www.youtube.com/watch?v=Q7eoOSZ7JdY&list=PL081AC329706B2953&index=9' target='_blank'
-            >HTML5 - 9 - Laying Out the Website</a><br />
+            >HTML5 - 9 - Laying Out the Website(done)</a><br />
             <a href='https://www.youtube.com/watch?v=P71U-doyzNg&list=PL081AC329706B2953&index=10' target='_blank'
-            >HTML5 - 10 - Starting the Styling</a><br />
+            >HTML5 - 10 - Starting the Styling(done)</a><br />
             <a href='https://www.youtube.com/watch?v=8uTNq7fs5-s&list=PL081AC329706B2953&index=11' target='_blank'
-            >HTML5 - 11 - Styling the Navigation Menu</a><br />
+            >HTML5 - 11 - Styling the Navigation Menu(done)</a><br />
             <a href='https://www.youtube.com/watch?v=yNtIO4X6cag&list=PL081AC329706B2953&index=12' target='_blank'
-            >HTML5 - 12 - Making Everything Pretty</a><br />
+            >HTML5 - 12 - Making Everything Pretty(done)</a><br />
             <a href='https://www.youtube.com/watch?v=tzAEGnBNAn0&list=PL081AC329706B2953&index=13' target='_blank'
-            >HTML5 - 13 - Finishing the Layout</a><br />
+            >HTML5 - 13 - Finishing the Layout(done)</a><br />
             <a href='https://www.youtube.com/watch?v=xgYmccJ61eA&list=PL081AC329706B2953&index=14' target='_blank'
             >HTML5 - 14 - Flexible Box Model</a><br />
             <a href='https://www.youtube.com/watch?v=bi7ccKky8JU&list=PL081AC329706B2953&index=15' target='_blank'
@@ -165,33 +165,38 @@ class Lectures extends React.Component {
             >CSS font-family property(done)</a><br />
             <hr />
           <h3>Programming with Mosh</h3>
+          No HTML
             <a href='' target='_blank'
             ></a><br /><hr />
           <h3>EJ Media</h3>
-            <a href='' target='_blank'
-            ></a><br /><hr />
+            <a href='https://www.youtube.com/watch?v=Sa6lzOe-e70&list=PLr6-GrHUlVf8JluGhfyaOSN8bugLtDXhK&index=2&t=0s' target='_blank'
+            >HTML5 Tutorial for Beginners - 01 - Introduction</a><br /><hr />
           <h3>Teach Me Computer</h3>
+          No HTML
             <a href='' target='_blank'
             ></a><br /><hr />
           <h3>Learn Code Academy</h3>
-            <a href='' target='_blank'
-            ></a><br /><hr />
+            <a href='https://www.youtube.com/watch?v=gQojMIhELvM&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc&index=2&t=0s' target='_blank'
+            >Web Development Tutorial For Beginners</a><br /><hr />
           <h3>Programming Knowledge</h3>
-            <a href='' target='_blank'
-            ></a><br /><hr />
+            <a href='https://www.youtube.com/watch?v=g3L2jUmnuNA&list=PLS1QulWo1RIbU9SCKLXBou3-p6LZye5L_' target='_blank'
+            >HTML5 Tutorial For Beginners 1 # Introduction</a><br /><hr />
           <h3>Net Ninja</h3>
-            <a href='' target='_blank'
-            ></a><br /><hr />
+            <a href='https://www.youtube.com/watch?v=Y1BlT4_c_SU&list=PL4cUxeGkcC9ibZ2TSBaGGNrgh4ZgYE6Cc' target='_blank'
+            >HTML Tutorial for Beginners 01 - HTML Introduction</a><br /><hr />
           <h3>Learn Web Code</h3>
+          No HTML
             <a href='' target='_blank'
             ></a><br /><hr />
           <h3>Tech Sith</h3>
+          No HTML
             <a href='' target='_blank'
             ></a><br /><hr />
           <h3>Tutor 4 you</h3>
-            <a href='' target='_blank'
-            ></a><br /><hr />
+            <a href='https://www.youtube.com/watch?v=9gTw2EDkaDQ&list=PLzmyR17f55-J7oZew4QxQ7cfw7d3__ZZs&index=2&t=0s' target='_blank'
+            >HTML5 Tutorial For Beginners - part 1 of 6</a><br /><hr />
           <h3>Null Byte</h3>
+          No HTML
             <a href='' target='_blank'
             ></a><br /><hr />
       </div>
