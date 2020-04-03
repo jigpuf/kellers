@@ -5,7 +5,7 @@ class Attributes extends React.Component {
     return (
       <div>
         <h2>Attributes</h2>
-        <a href='https://www.w3schools.com/tags/ref_attributes.asp' target='_blank'<
+        <a href='https://www.w3schools.com/tags/ref_attributes.asp' target='_blank'
         >Ref sheet</a><br />
           <table>
             <tr><th>Tag</th><th>Specific Attribute</th><th> Event Attributes</th></tr>
