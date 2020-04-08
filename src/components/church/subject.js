@@ -42,6 +42,8 @@ pickTier2 = (item) => {
       {name: 'Symbolism', slug: 'symbolism', component:<Symbolism />},
       {name: 'Comandments', slug: 'comandments', component:<Comandments />},
       {name: 'Church of the Devil', slug:'whore', component:<Whore />},
+      {name: 'Book of Abraham', slug:'abraham',},
+
     ]
       const renderItems = Items.map(item => {
         return (

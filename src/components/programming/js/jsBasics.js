@@ -18,6 +18,12 @@ class JsBasics extends React.Component {
             console.log();<br />
             <p>In the parentheses, you put what you want to log in the console.
             This is a good way to test code.</p>
+          <h3>Commenting Out</h3>
+          <table>
+            <tr><th>Type</th><th>Example</th></tr>
+            <tr><td>One-line comments</td><td>&#47;&#47;ThingsToCommentOutHere</td></tr>
+            <tr><td>Muti-line comments</td><td>&#47;&#42; ThingsToCommentOutHere&#42;&#47;</td></tr>
+          </table>
       </div>
     );
   }
