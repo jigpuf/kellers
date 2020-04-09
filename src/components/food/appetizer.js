@@ -5,12 +5,13 @@ class Appetizer extends React.Component {
     return (
       <div>
         <h2>Appetizers:</h2>
+          <li>Bagel</li>
           <li>Chicken Dip</li>
           <li>Cracker dip(Cream Cheese, Habanero Jelly)</li>
           <li><a href = '#tortaFrita' >Torta Frita</a></li>
           <li>Nachos</li>
 
-          <li></li>
+          <li>Cream Cheese and Jelly Dip w/ habanero Sauce</li>
           <li></li>
           <li></li>
 
@@ -38,8 +39,7 @@ class Appetizer extends React.Component {
               <li>Make dough</li>
               <li>Roll dough and flatten, put hole in middle</li>
               <li>Fry until golden</li>
-
-        </ol>
+              </ol>
 
 
       </div>

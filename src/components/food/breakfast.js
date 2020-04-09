@@ -4,9 +4,9 @@ class Breakfast extends React.Component {
   render () {
     return (
       <div>
-        <h3>Breakfast:</h3>
+        <h2>Breakfast:</h2>
           <li>Eggs</li>
-          <li></li>
+          <li>Pancakes</li>
           <li></li>
           <li></li>
           <li></li>
