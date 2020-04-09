@@ -13,9 +13,25 @@ class Strings extends React.Component {
             <tr><th>Part</th><th>code</th><th>Result</th></tr>
             <tr><td>Set First Variable</td><td>let firstName = 'Kman'; console.log(firstName);</td><td>Kman</td></tr>
             <tr><td>Set Second Variable</td><td>let lastName = 'Supreme'; console.log(lastName);</td><td>Supreme</td></tr>
-            <tr><td>+ form of concatination</td><td>console.log('firstName'+' ' + 'lastName')</td><td>Kman Supreme</td></tr>
-            <tr><td>Literal form of concatination</td><td>console.log('$&#123;firstName&#125; $&#123;lastName&#125;');</td><td>Kman Supreme</td></tr>
+            <tr><td>+ form of concatination</td><td>console.log('firstName'+' ' + 'lastName')</td><td>firstName lastName</td></tr>
+            <tr><td>Literal form of concatination</td><td>console.log(firstName + ' ' + lastName);</td><td>Kman Supreme</td></tr>
           </table>
+          <br />  <br />  <br />
+          Escape Characters:<br />
+          <table>
+            <tr><th>Character</th><th>Escape Character</th></tr>
+            <tr><td>Horizontal Tab</td><td>\t</td></tr>
+            <tr><td>Vertical Tab</td><td>\v</td></tr>
+            <tr><td>Nul char</td><td>\0</td></tr>
+            <tr><td>Backspace</td><td>\b</td></tr>
+            <tr><td>Form feed</td><td>\f</td></tr>
+            <tr><td>Newline</td><td>\n</td></tr>
+            <tr><td>Carriage return</td><td>\r</td></tr>
+            <tr><td>Single quote</td><td>\'</td></tr>
+            <tr><td>Double quote</td><td>\"</td></tr>
+            <tr><td>Backslash</td><td>\\</td></tr>
+          </table>
+
       </div>
     );
   }

@@ -21,7 +21,7 @@ class JsNumbers extends React.Component {
             <tr><td>Add</td><td>+</td><td>5+5</td><td>10</td></tr>
             <tr><td>Subtract</td><td>-</td><td>5-5</td><td>0</td></tr>
             <tr><td>Multiply</td><td>*</td><td>5*5</td><td>25</td></tr>
-            <tr><td>Divide</td><td>/</td><td>5/5</td><td>1</td></tr>
+            <tr><td>Divide</td><td>/</td><td>6/5</td><td>1.2</td></tr>
             <tr><td>Power</td><td>**</td><td>5**5</td><td>125</td></tr>
             <tr><td>Remainder</td><td>%</td><td>11%5</td><td>1</td></tr>
             <tr><td>Increment Up</td><td>++</td><td>let Variable = 4; Variable++;</td><td>5</td></tr>

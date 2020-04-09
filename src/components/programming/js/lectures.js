@@ -8,39 +8,39 @@ class Lectures extends React.Component {
 
         <h3>New Boston</h3>
           <a href='https://www.youtube.com/watch?v=yQaAGmHNn9s&list=PL46F0A159EC02DF82&index=2&t=0s' target='_blank'
-          >Beginner JavaScript Tutorial - 1 - Introduction to JavaScript</a><br />
+          >Beginner JavaScript Tutorial - 1 - Introduction to JavaScript(done)</a><br />
           <a href='https://www.youtube.com/watch?v=yUyJ1gcaraM&list=PL46F0A159EC02DF82&index=2' target='_blank'
-          >Beginner JavaScript Tutorial - 2 - Comments and Statements</a><br />
+          >Beginner JavaScript Tutorial - 2 - Comments and Statements(done)</a><br />
           <a href='https://www.youtube.com/watch?v=og4Zku5VVl0&list=PL46F0A159EC02DF82&index=3' target='_blank'
-          >Beginner JavaScript Tutorial - 3 - Variables</a><br />
+          >Beginner JavaScript Tutorial - 3 - Variables(done)</a><br />
           <a href='https://www.youtube.com/watch?v=sY8qiSaAi9g&list=PL46F0A159EC02DF82&index=4' target='_blank'
-          >Beginner JavaScript Tutorial - 4 - Different Types of Variables</a><br />
+          >Beginner JavaScript Tutorial - 4 - Different Types of Variables(done)</a><br />
           <a href='https://www.youtube.com/watch?v=QLpghQ2MMfs&list=PL46F0A159EC02DF82&index=5' target='_blank'
-          >Beginner JavaScript Tutorial - 5 - Using Variables with Strings</a><br />
+          >Beginner JavaScript Tutorial - 5 - Using Variables with Strings(done)</a><br />
           <a href='https://www.youtube.com/watch?v=5nuqALOHN1M&list=PL46F0A159EC02DF82&index=6' target='_blank'
-          >Beginner JavaScript Tutorial - 6 - Functions</a><br />
+          >Beginner JavaScript Tutorial - 6 - Functions(done)</a><br />
           <a href='https://www.youtube.com/watch?v=7i1f23AVsn4&list=PL46F0A159EC02DF82&index=7' target='_blank'
-          >Beginner JavaScript Tutorial - 7 - Using Parameters with Functions</a><br />
+          >Beginner JavaScript Tutorial - 7 - Using Parameters with Functions(done)</a><br />
           <a href='https://www.youtube.com/watch?v=BgtdojEoWFI&list=PL46F0A159EC02DF82&index=8' target='_blank'
-          >Beginner JavaScript Tutorial - 8 - Functions with Multiple Parameters</a><br />
+          >Beginner JavaScript Tutorial - 8 - Functions with Multiple Parameters(done)</a><br />
           <a href='https://www.youtube.com/watch?v=AdQcd3sKGC8&list=PL46F0A159EC02DF82&index=9' target='_blank'
-          >Beginner JavaScript Tutorial - 9 - The return Statement</a><br />
+          >Beginner JavaScript Tutorial - 9 - The return Statement(done)</a><br />
           <a href='https://www.youtube.com/watch?v=95mIis5M-gU&list=PL46F0A159EC02DF82&index=10' target='_blank'
-          >Beginner JavaScript Tutorial - 10 - Calling a Function From Another Function</a><br />
+          >Beginner JavaScript Tutorial - 10 - Calling a Function From Another Function(done)</a><br />
           <a href='https://www.youtube.com/watch?v=waF2Isf-phQ&list=PL46F0A159EC02DF82&index=11' target='_blank'
-          >Beginner JavaScript Tutorial - 11 - Global & Local Variables</a><br />
+          >Beginner JavaScript Tutorial - 11 - Global & Local Variables(done)</a><br />
           <a href='https://www.youtube.com/watch?v=ZH5qZB0UucQ&list=PL46F0A159EC02DF82&index=12' target='_blank'
-          >Beginner JavaScript Tutorial - 12 - Math Operators</a><br />
+          >Beginner JavaScript Tutorial - 12 - Math Operators(done)</a><br />
           <a href='https://www.youtube.com/watch?v=VfBr32W-hRA&list=PL46F0A159EC02DF82&index=13' target='_blank'
-          >Beginner JavaScript Tutorial - 13 - Assignment Operators</a><br />
+          >Beginner JavaScript Tutorial - 13 - Assignment Operators(done)</a><br />
           <a href='https://www.youtube.com/watch?v=5gjr15aWp24&list=PL46F0A159EC02DF82&index=14' target='_blank'
-          >Beginner JavaScript Tutorial - 14 - if Statement</a><br />
+          >Beginner JavaScript Tutorial - 14 - if Statement(done)</a><br />
           <a href='https://www.youtube.com/watch?v=FKyrQYkihGw&list=PL46F0A159EC02DF82&index=15' target='_blank'
-          >Beginner JavaScript Tutorial - 15 - if/else Statement</a><br />
+          >Beginner JavaScript Tutorial - 15 - if/else Statement(done)</a><br />
           <a href='https://www.youtube.com/watch?v=ebjo8_u82mI&list=PL46F0A159EC02DF82&index=16' target='_blank'
-          >Beginner JavaScript Tutorial - 16 - Nesting and Fridays!</a><br />
+          >Beginner JavaScript Tutorial - 16 - Nesting(done)</a><br />
           <a href='https://www.youtube.com/watch?v=aQf-zeuHijU&list=PL46F0A159EC02DF82&index=17' target='_blank'
-          >Beginner JavaScript Tutorial - 17 - Complex Conditions</a><br />
+          >Beginner JavaScript Tutorial - 17 - Complex Conditions(done)</a><br />
           <a href='https://www.youtube.com/watch?v=NXMu5ljw9kc&list=PL46F0A159EC02DF82&index=18' target='_blank'
           >Beginner JavaScript Tutorial - 18 - switch</a><br />
           <a href='https://www.youtube.com/watch?v=Coxgr66EwRk&list=PL46F0A159EC02DF82&index=19' target='_blank'

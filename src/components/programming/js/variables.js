@@ -10,8 +10,8 @@ class Variables extends React.Component {
           Variable Naming Conventions:
           <ol>
             <li>No spaces</li>
-            <li>Only contain letters, #, underscore, or $</li>
-            <li>Cannot start with number</li>
+            <li>Only contain letters, numbers, underscore</li>
+            <li>Has to start with letter or underscore</li>
             <li>Cannot use Javascript key words</li>
           </ol>
           <table>
