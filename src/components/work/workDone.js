@@ -28,7 +28,7 @@ class WorkDone extends React.Component {
             Remounted DAQs in tripod hardening<br />
             Wired up boxes for shake test on Raptor and worked out electronics math for power load<br />
             </td>
-            <td>T1.2.9<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></td></tr>
+            <td>T1.2.9<br />T5.3.1<br /><br /><br />T1.3.7<br /><br /><br /><br /><br /><br /></td></tr>
           <tr><td>2</td><td>April 1-11</td>
             <td>Built Lighting schemattic to assist in Lox Tower AWS Light Project<br />
             Wired AWS Box on Raptor Stand<br />
@@ -37,7 +37,7 @@ class WorkDone extends React.Component {
             Fixed signals on Methane propellant pad AO Signals not reading right<br />
             Planned project for Lox Pad expansion<br />
             Built Cable tray and installed all wiring for Lox Pad</td>
-            <td><br /><br />T1.1.1<br /><br /><br /><br /><br /></td></tr>
+            <td>T5.3.2<br />T1.3.7<br />T1.1.1<br /><br /><br /><br />T1.3.5,T1.3.6,T1.3.7<br /></td></tr>
           <tr><td>3</td><td>April 12-18</td>
             <td>Caught up on training<br />
             Priced, Ordered Draeger gas sensors<br />
@@ -52,7 +52,7 @@ class WorkDone extends React.Component {
             Got Part Numbers together for Valve Drawer on LSCS<br />
             Asked for less caviots in 60v rul for boxes, All DC AC under 60V<br />
             </td>
-            <td>T1.1.2,S1.1.1<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />T1.4.2<br /></td></tr>
+            <td>T1.1.2,S1.1.1<br /><br /><br />T5.3.1,T5.3.3<br /><br />T1.3.7<br /><br />T1.3.5,T1.3.6<br /><br />T5.3.3,T5.3.4<br /><br />T1.4.2<br /></td></tr>
           <tr><td>4</td><td>April 19-25</td>
             <td>Sent Tucker training needs<br />
             Programed recieved Drager Gas Sensors<br />
@@ -63,15 +63,21 @@ class WorkDone extends React.Component {
             Fixed Non-reading RTD in North Bay(wiring)<br />
             Re-congigures Sensalert CH4 detectors for new guidlines on monitoring<br />
             Added Circuit Protection to individual lines on AWS lights CH4 Pad<br />
+            Built TC Breakout Cable for WSCS<br />
+            Added ducer cable for rig in North Bay Raptor<br />
             </td>
-            <td><br /><br /><br /><br /><br /><br /><br /><br />T1.2.2<br /></td></tr>
-          <tr><td>5</td><td>April 26-May 2</td><td></td><td></td></tr>
+            <td><br /><br /><br />T1.3.5,T1.3.7<br /><br />T5.3.1,T5.3.3,T5.3.4<br /><br /><br />T1.2.2<br /><br />T1.3.5,T1.3.6,T1.3.7<br /><br /></td></tr>
+          <tr><td>5</td><td>April 26-May 2</td>
+          <td>Built 3 cables for WSCS<br />
+          Developed way to build cables outside of box for ergonomics, speed and quality<br />
+          </td>
+          <td><br /><br /></td></tr>
         </table>
         <h3>DCS Matrix</h3>
         <table>
         <tr><th>Matrix Level</th><th>Category</th><th>Requirement</th><th>Site</th><th>Date</th></tr>
-        <tr><td>T1.1.1</td><td>Computer Skills</td><td>MS Office</td><td></td><td>2</td></tr>
-        <tr><td>T1.1.2</td><td>Computer Skills</td><td>Up to date Bridge</td><td>Helper &rarr; training &rarr; Required Classes</td><td>3</td></tr>
+        <tr><td>T1.1.1</td><td>Computer</td><td>MS Office</td><td></td><td>2</td></tr>
+        <tr><td>T1.1.2</td><td>Computer</td><td>Up to date Bridge</td><td>Helper &rarr; training &rarr; Required Classes</td><td>3</td></tr>
         <tr><td>T1.2.1</td><td>Knowledge</td><td>Identify components: Resisters, Capacitors, Diodes, inductors, PTC's, Fuses</td><td></td><td></td></tr>
         <tr><td>T1.2.2</td><td>Knowledge</td><td>Circuits, PTCs, Circuit Breakers</td><td>rarr; RLC Circuits</td><td>4</td></tr>
         <tr><td>T1.2.4</td><td>Knowledge</td><td>Use MWL for channel Assignment</td><td></td><td></td></tr>
@@ -82,140 +88,140 @@ class WorkDone extends React.Component {
         <tr><td>T1.2.9</td><td>Knowledge</td><td>Ability to Solve Electrical problems, Circuit Analysis</td><td>Helper &rarr; Electronic &rarr; RLC Circuits</td><td>1</td></tr>
         <tr><td>T1.3.1</td><td>Practical</td><td>Utilize safety Equipment, procedures</td><td></td><td></td></tr>
         <tr><td>T1.3.2</td><td>Practical</td><td>Hand tools, Sockets, Grinder, Band Saw Holee Punch</td><td></td><td></td></tr>
-        <tr><td>T1.3.3</td><td>Practical</td><td>Strippers, Crimpers, cutters, label maker</td><td></td><td></td></tr>
-        <tr><td>T1.3.4</td><td>Practical</td><td>Shrink Tube, Heat Gun, solder splice, hot melt</td><td></td><td></td></tr>
-        <tr><td>T1.3.5</td><td>Practical</td><td>Terminate instrumentation in the field</td><td></td><td></td></tr>
-        <tr><td>T1.3.6</td><td>Practical</td><td>MS, D38, D-sub</td><td></td><td></td></tr>
-        <tr><td>T1.3.7</td><td>Practical</td><td>J-box and header landing</td><td></td><td></td></tr>
+        <tr><td>T1.3.3</td><td>Practical</td><td>Strippers, Crimpers, cutters, label maker</td><td>All</td><td>All</td></tr>
+        <tr><td>T1.3.4</td><td>Practical</td><td>Shrink Tube, Heat Gun, solder splice, hot melt</td><td>All</td><td>All</td></tr>
+        <tr><td>T1.3.5</td><td>Practical</td><td>Terminate instrumentation in the field</td><td></td><td>2-4</td></tr>
+        <tr><td>T1.3.6</td><td>Practical</td><td>MS, D38, D-sub</td><td></td><td>2-4</td></tr>
+        <tr><td>T1.3.7</td><td>Practical</td><td>J-box and header landing</td><td></td><td>1-4</td></tr>
         <tr><td>T1.4.1</td><td>Team</td><td>Individual Contributer</td><td>All</td><td>All</td></tr>
         <tr><td>T1.4.2</td><td>Team</td><td>Active in group Discussions</td><td></td><td>3</td></tr>
         <tr><td>T1.4.3</td><td>Team</td><td>Helps Team Members</td><td></td><td></td></tr>
         <tr><td>T1.4.4</td><td>Team</td><td>Does what is required</td><td>All</td><td>All</td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T2.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T3.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T4.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>T5.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T2.1.1</td><td>Computer</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.1.2</td><td>Computer</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.1.3</td><td>Computer</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.1.4</td><td>Computer</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.1.5</td><td>Computer</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.1.6</td><td>Computer</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.1</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.2</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.3</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.4</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.5</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.6</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.7</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.8</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.9</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.2.10</td><td>Knowedge</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.1</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.2</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.3</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.4</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.5</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.6</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.7</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.8</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.9</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.10</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.3.11</td><td>Practical</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.4.1</td><td>Team</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.4.2</td><td>Team</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.4.3</td><td>Team</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.4.4</td><td>Team</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.4.5</td><td>Team</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.5.1</td><td>Training</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.5.2</td><td>Training</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.5.3</td><td>Training</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.5.4</td><td>Training</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.5.5</td><td>Training</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.5.6</td><td>Training</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.5.7</td><td>Training</td><td></td><td></td><td></td></tr>
+        <tr><td>T2.5.8</td><td>Training</td><td></td><td></td><td></td></tr>
+        <tr><td>T3.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.5.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.5.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.5.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.5.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T3.5.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.1.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.2.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.3.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.4.</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T4.5.1</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>T5.1.1</td><td>Computer</td><td>Write job work flow documents</td><td></td><td></td></tr>
+        <tr><td>T5.1.2</td><td>Computer</td><td>Make approved MWL and deploy on new Systems</td><td></td><td></td></tr>
+        <tr><td>T5.2.1</td><td>Knowledge</td><td>Technical Expert</td><td>All</td><td>All</td></tr>
+        <tr><td>T5.2.2</td><td>Knowledge</td><td>Demonstrate test requirements for complex electronics, knowledge of regulatory requirements</td><td></td><td></td></tr>
+        <tr><td>T5.2.3</td><td>Knowledge</td><td>Demonstrates knowledge of signal conditioning circuitry and DAQ cards</td><td></td><td></td></tr>
+        <tr><td>T5.2.4</td><td>Knowledge</td><td>Knowledge of all field instruments</td><td></td><td></td></tr>
+        <tr><td>T5.3.1</td><td>Practical</td><td>Gives engineering team recomendations for hardware based on ease/research/cost</td><td></td><td>1,3,4</td></tr>
+        <tr><td>T5.3.2</td><td>Practical</td><td>Demonstrates ability to generate advanced electrical circuits and documents schematics, onelines, flow charts, etc.</td><td></td><td>2</td></tr>
+        <tr><td>T5.3.3</td><td>Practical</td><td>Design Implement and commision PLC</td><td></td><td>3,4</td></tr>
+        <tr><td>T5.3.4</td><td>Practical</td><td>Demonstrate ability to take initial test requirements and design, build, prepare a full DAQ</td><td></td><td>3,4</td></tr>
+        <tr><td>T5.4.1</td><td>Team</td><td>Consumate Leader and professional</td><td></td><td></td></tr>
+        <tr><td>T5.4.2</td><td>Team</td><td>Fosters team cohesiveness and builds possitive relationships</td><td></td><td></td></tr>
+        <tr><td>T5.5.1</td><td>Training</td>Qualified authorized oversight<td></td><td></td><td></td></tr>
+        <tr><td>T5.5.2</td><td>Training</td>Highly functional mechanical expertise<td></td><td></td><td></td></tr>
         </table>
         <h3>DCS Specialist Matrix</h3>
         <table>
@@ -230,7 +236,7 @@ class WorkDone extends React.Component {
         <tr><td>S1.1.8</td><td>Computer Skills</td><td>Update and Commit MWL, Scaling using SVN</td><td></td><td></td></tr>
         <tr><td>S1.1.9</td><td>Computer Skills</td><td>Configure and checkouts DAQs using rockwell and NI Max</td><td></td><td></td></tr>
         <tr><td>S1.1.10</td><td>Computer Skills</td><td>GUI opperation and setup plots</td><td></td><td></td></tr>
-        <tr><td>S1.2.1</td><td>Knowledge</td><td>Provide tech support no matter the system</td><td></td><td></td></tr>
+        <tr><td>S1.2.1</td><td>Knowledge</td><td>Provide tech support no matter the system</td><td>All</td><td>All</td></tr>
         <tr><td>S1.2.2</td><td>Knowledge</td><td>Instrumentation and calibration</td><td></td><td></td></tr>
         <tr><td>S1.2.3</td><td>Knowledge</td><td>NFPA-70E How to work around energized circuits</td><td></td><td></td></tr>
         <tr><td>S1.3.1</td><td>Practical</td><td>Written and communication skills</td><td></td><td></td></tr>

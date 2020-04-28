@@ -34,6 +34,15 @@ class Writings extends React.Component {
       <li>Discourse on Daniel and Revelation - Joseph Smith</li>
       <img src='church/dibble.jpeg' /><br />
       <img src='church/fac2.jpg' /><br />
+      <h3>Lectures</h3>
+      <li>FAIR- BOM as a seer stone having faith</li>
+      <li>Teryl Givens Joseph Smith's American Bible</li>
+      <li>Fair- Tangible Restoraton</li>
+      <li>BMC- Evidences of BOM Translatio</li>
+      <li>Don Quijote- Seers and Seer Stones</li>
+      <li></li>
+      <li></li>
+      <li></li>
       </div>
     );
   }
