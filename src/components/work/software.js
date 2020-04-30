@@ -4,6 +4,7 @@ import Architect from './software/architect.js'
 import Remote from './software/remote.js'
 import ProgramLinks from './software/programLinks.js'
 import SoftwareRequest from './software/softwareRequest.js'
+import BridgeAnswers from './software/bridgeAnswers.js'
 
 
 class Software extends React.Component {
@@ -22,6 +23,7 @@ class Software extends React.Component {
       {name:'Remote In', slug:'remote', component:<Remote />},
       {name:'program links', slug:'programLinks', component:<ProgramLinks />},
       {name:'Software Requests', slug:'request', component:<SoftwareRequest />},
+      {name:'Bridge Answers', slug:'bridge', component:<BridgeAnswers />},
 
     ]
     const renderItems = Items.map(item => {
@@ -42,7 +44,7 @@ class Software extends React.Component {
         <ul>
           {renderItems}
         </ul>
-        
+
         <hr />
         {renderTier2Component}
       </div>

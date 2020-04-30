@@ -5,6 +5,7 @@ import Controls from './work/controls.js'
 import Software from './work/software.js'
 import Avionics from './work/avionics.js'
 import WorkDone from './work/workDone.js'
+import SuperProject from './work/superProject.js'
 
 
 
@@ -26,6 +27,7 @@ class Work extends React.Component {
       {name: 'Software', slug: 'computer', component:<Software />},
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},
       {name: 'Work Done', slug: 'done', component:<WorkDone />},
+      {name: 'Super Project', slug :'super', component:<SuperProject />,},
 
 
 
