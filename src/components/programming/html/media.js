@@ -22,8 +22,9 @@ class Media extends React.Component {
           &lt;source src="horse.mp3" type="audio/mpeg&gt;<br />
           &lt;/audio&gt;<br />
         <h3>PDF</h3>
-
-
+          &lt;a href="path" onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes');
+          return false;" &gt;visibleName &lt;&#47;a&gt;
+          <br />
           <a href='https://drive.google.com/open?id=15roj--KrhNHGiRgd3C_mxXGqmvO9ict-' target ='_blank'
           >hyrum</a><br />
 
