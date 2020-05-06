@@ -2,182 +2,83 @@ import React from 'react';
 
 class Music extends React.Component {
   render () {
+    const Items = [
+      {artist: 'Adriana Mezzadri', song: 'Alianza Eterna', slug: 'am1', url:'https://www.youtube.com/watch?v=19Yni_ffrKA' },
+      {artist: 'Adriana Mezzadri', song: 'Fruto de la Inocencia', slug: 'am2', url:'https://www.youtube.com/watch?v=XJqRzHbZIxQ' },
+      {artist: 'Adriana Mezzadri', song: 'Marcas de Ayer', slug: 'am3', url:'https://www.youtube.com/watch?v=z1toYIJKPa0' },
+      {artist: 'Adriana Mezzadri', song: 'Te tengo Miedo', slug: 'am4', url:'https://www.youtube.com/watch?v=jke4CDzI1Ns' },
+      {artist: 'Aerocord', song: '4U(Julius Dreising Remix)', slug: 'ac1', url:'https://www.youtube.com/watch?v=Q-Qu_nrV3U4' },
+      {artist: 'Aerocord', song: 'Drop It', slug: 'ac2', url:'https://www.youtube.com/watch?v=aFpefbl6JRE&list=PLQ18J7P31iBz9d-lPsnrFhZ7CIlLRlYMT&index=3&t=0s' },
+      {artist: 'Alice in Chains', song: 'Down in a Hole', slug: 'aic1', url:'https://www.youtube.com/watch?v=nWK0kqjPSVI' },
+      {artist: 'Alanis Morisett', song: 'Uninvited', slug: 'al1', url:'https://www.youtube.com/watch?v=uvgi7P97lu0' },
+      {artist: 'America', song: 'Horse with no Name', slug: 'america1', url:'https://www.youtube.com/watch?v=oEHBTjIYejE' },
+      {artist: 'Animals', song: 'House of the rising Sun', slug: 'animals1', url:'https://www.youtube.com/watch?v=uS90B4sZf7U' },
+      {artist: 'AWOL Nation', song: 'Sail', slug: 'awol1', url:'https://www.youtube.com/watch?v=tgIqecROs5M' },
+      {artist: 'Beastie Boys', song: 'Sabatage', slug: 'beastie1', url:'https://www.youtube.com/watch?v=z5rRZdiu1UE' },
+      {artist: 'Beastie Boys', song: 'Intergallactic', slug: 'beastie2', url:'https://www.youtube.com/watch?v=ln-Jq6X6p-g' },
+      {artist: 'Beck', song: 'Where its at', slug: 'beck1', url:'https://www.youtube.com/watch?v=EPfmNxKLDG4&list=PLaQqUACtlRRQvISGgS3IeEih-ViHzSWt1' },
+      {artist: 'Ben E. King', song: 'Stand by Me', slug: 'ben1', url:'https://www.youtube.com/watch?v=hwZNL7QVJjE' },
+      {artist: 'Bjork', song: 'Human Behavior', slug: 'bjork1', url:'https://www.youtube.com/watch?v=36Srr08PN_Y' },
+      {artist: 'Bjork', song: 'Joga', slug: 'bjork2', url:'https://www.youtube.com/watch?v=BBju9Sdh94k' },
+      {artist: 'Bjork', song: 'Black Coffee', slug: 'bjork3', url:'https://www.youtube.com/watch?v=wBWJnp1YyJU' },
+      {artist: 'Blind Melon', song: 'No Rain', slug: 'blind1', url:'https://www.youtube.com/watch?v=3qVPNONdF58' },
+      {artist: 'Blink 182', song: 'I miss You', slug: 'blink1', url:'https://www.youtube.com/watch?v=s1tAYmMjLdY' },
+      {artist: 'Blue Foundation', song: 'Eyes on Fire', slug: 'bluef1', url:'https://www.youtube.com/watch?v=IUGzY-ihqWc' },
+      {artist: 'Blue October', song: 'Come in Closer', slug: 'blue1', url:'https://www.youtube.com/watch?v=AzOnZ4rj6b0' },
+      {artist: 'Blue October', song: 'X amount of Words', slug: 'blue2', url:'https://www.youtube.com/watch?v=wsk4QV4WLZ8' },
+      {artist: 'Blue October', song: 'Clumsy Card House', slug: 'blue3', url:'https://www.youtube.com/watch?v=-pa8qsdIUqw' },
+      {artist: 'Bob Marley', song: 'Exodous', slug: 'bobm1', url:'https://www.youtube.com/watch?v=nv584jRwh0s' },
+      {artist: 'Bob Marley', song: 'Get up Stand Up', slug: 'bobm2', url:'https://www.youtube.com/watch?v=X2W3aG8uizA' },
+      {artist: 'Bob Marley', song: 'Jammin', slug: 'bobm3', url:'https://www.youtube.com/watch?v=oFRbZJXjWIA' },
+      {artist: 'Bob Marley', song: 'No Woman No Cry', slug: 'bobm4', url:'https://www.youtube.com/watch?v=pHlSE9j5FGY' },
+      {artist: 'Bob Marley', song: 'Roots Rock Raege', slug: 'bobm5', url:'https://www.youtube.com/watch?v=MJB5L9F05tc' },
+      {artist: 'Bob Marley', song: 'Three Little Birds', slug: 'bobm6', url:'https://www.youtube.com/watch?v=zaGUr6wzyT8' },
+      {artist: 'Bobby McFerrin', song: 'Dont Worry Be Happy', slug: 'bobby1', url:'https://www.youtube.com/watch?v=d-diB65scQU' },
+      {artist: 'Bola Ocho', song: 'Echa Palante', slug: 'bola1', url:'https://www.youtube.com/watch?v=RKjkwyqwREo' },
+      {artist: 'Bola Ocho', song: 'La Novela', slug: 'bola2', url:'https://www.youtube.com/watch?v=NaDma_-MuW0' },
+      {artist: 'Bola Ocho', song: 'Ya es Ajena', slug: 'bola3', url:'https://www.youtube.com/watch?v=HRojdxMwo2g' },
+      {artist: 'Bola Ocho', song: '*Plena Loca*', slug: 'bola4', url:'' },
+      {artist: 'Bola Ocho', song: '*Como te mueve*', slug: 'bola5', url:'' },
+      {artist: 'Bola Ocho', song: '*Mi Que Se Yo*', slug: 'bola6', url:'' },
+      {artist: 'Bola Ocho', song: '*Funky Plena*', slug: 'bola7', url:'' },
+      {artist: 'Bola Ocho', song: '*Julialee*', slug: 'bola8', url:'' },
+      {artist: 'Bola Ocho', song: '*Lo que Yo No Tengo*', slug: 'bola9', url:'' },
+      {artist: 'Bola Ocho', song: '*Hip Hop Plena*', slug: 'bola10', url:'' },
+      {artist: 'Bola Ocho', song: '*Negro el Ocho*', slug: 'bola11', url:'' },
+      {artist: 'Bone Thugz-n-Harmony', song: '*east 1999*', slug: 'bone1', url:'' },
+      {artist: 'Bone Thugz-n-Harmony', song: '*eternal*', slug: 'bone2', url:'' },
+      {artist: 'Bone Thugz-n-Harmony', song: '*mo murder*', slug: 'bone3', url:'' },
+      {artist: 'Bone Thugz-n-Harmony', song: '*the escape*', slug: 'bone4', url:'' },
+      {artist: 'Bone Thugz-n-Harmony', song: '*no surrender*', slug: 'bone5', url:'' },
+      {artist: 'Brand New Heavies', song: '', slug: 'brand1', url:'' },
+      {artist: 'Bright Eyes', song: '*Lover I dont have to love*', slug: 'bright1', url:'' },
+      {artist: 'BT', song: '', slug: 'bt1', url:'' },
+      {artist: 'Bush', song: '', slug: 'bush1', url:'' },
+      {artist: 'Busta Rhymes', song: '', slug: 'busta1', url:'' },
+      {artist: 'Butthole Surfers', song: '', slug: 'butt1', url:'' },
+      {artist: 'Cake', song: '', slug: 'cake1', url:'' },
+      {artist: '', song: '', slug: '', url:'' },
+
+    ]
+    const renderItems = Items.map(item => {
+      return (
+        <tr key={item.slug}>
+          <td >{item.artist}</td>
+          <td><a href={item.url} target ='_blank'>{item.song}</a></td>
+        </tr>
+      )
+    })
     return (
       <div>
-      <li>Adriana Mezzadri:</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=19Yni_ffrKA' target ='_blank'
-          >Alianza Eterna</a><br/>
-          <a href='https://www.youtube.com/watch?v=XJqRzHbZIxQ' target ='_blank'
-          >Fruto de la Inocencia,</a><br/>
-          <a href='https://www.youtube.com/watch?v=z1toYIJKPa0' target ='_blank'
-          >Marcas de Ayer,</a><br/>
-          <a href='https://www.youtube.com/watch?v=jke4CDzI1Ns' target ='_blank'
-          >Te tengo Miedo</a><br/>
-        </div>
-        <hr/>
-      <li>Aerocord</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=Q-Qu_nrV3U4' target ='_blank'
-        >4U(Julius Dreising Remix)</a><br/>
-        <a href='https://www.youtube.com/watch?v=aFpefbl6JRE&list=PLQ18J7P31iBz9d-lPsnrFhZ7CIlLRlYMT&index=3&t=0s' target ='_blank'
-        >Drop It</a><br/>
-        </div>
-        <hr/>
-      <li>Alice in Chains:</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=nWK0kqjPSVI' target ='_blank'
-        >Down in a Hole</a><br/>
-        </div>
-        <hr/>
-      <li>Alanis Morisett:</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=uvgi7P97lu0' target ='_blank'
-        >Uninvited</a><br/>
-        </div>
-        <hr/>
-      <li>America:</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=oEHBTjIYejE' target ='_blank'
-        >Horse with no Name</a><br/>
-        </div>
-        <hr/>
-      <li>Animals:</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=uS90B4sZf7U' target ='_blank'
-        >House of the rising Sun</a><br/>
-        </div>
-        <hr/>
-      <li>AWOL Nation:</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=tgIqecROs5M' target ='_blank'
-        >Sail</a><br/>
-        </div>
-        <hr/>
-      <li>Beastie Boys:</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=z5rRZdiu1UE' target ='_blank'
-        >Sabatage</a><br/>
-        <a href='https://www.youtube.com/watch?v=ln-Jq6X6p-g' target ='_blank'
-        >Intergallactic</a><br/>
-        </div>
-        <hr/>
-      <li>Beck:</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=EPfmNxKLDG4&list=PLaQqUACtlRRQvISGgS3IeEih-ViHzSWt1' target ='_blank'
-        >Where it's at</a><br/>
-        </div>
-        <hr/>
-      <li>Ben E. King:</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=hwZNL7QVJjE' target ='_blank'
-        >Stand by Me</a><br/>
-        </div>
-        <hr/>
-      <li>Bjork:</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=36Srr08PN_Y' target ='_blank'
-          >Human Behavior</a><br/>
-          <a href='https://www.youtube.com/watch?v=BBju9Sdh94k' target ='_blank'
-          >Joga</a><br/>
-          <a href='https://www.youtube.com/watch?v=wBWJnp1YyJU' target ='_blank'
-          >Black Coffee</a><br/>
-        </div>
-        <hr/>
-      <li>Blind Melon:</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=3qVPNONdF58' target ='_blank'
-          >No Rain</a><br/>
-        </div>
-        <hr/>
-      <li>Blink 182:</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=s1tAYmMjLdY' target ='_blank'
-          >I miss You</a><br/>
-        </div>
-        <hr/>
-      <li>Blue Foundation:</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=IUGzY-ihqWc' target ='_blank'
-          >Eyes on Fire</a><br/>
-        </div>
-        <hr/>
-      <li>Blue October:</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=AzOnZ4rj6b0' target ='_blank'
-          >Come in Closer</a><br/>
-          <a href='https://www.youtube.com/watch?v=wsk4QV4WLZ8' target ='_blank'
-          >X amount of Words</a><br/>
-          <a href='https://www.youtube.com/watch?v=-pa8qsdIUqw' target ='_blank'
-          >Clumsy Card House</a><br/>
-        </div>
-        <hr/>
-      <li>Bob Marley:</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=nv584jRwh0s' target ='_blank'
-        >Exodous</a><br/>
-        <a href='https://www.youtube.com/watch?v=X2W3aG8uizA' target ='_blank'
-        >Get up Stand Up</a><br/>
-        <a href='https://www.youtube.com/watch?v=oFRbZJXjWIA' target ='_blank'
-        >Jammin'</a><br/>
-        <a href='https://www.youtube.com/watch?v=pHlSE9j5FGY' target ='_blank'
-        >No Woman No Cry</a><br/>
-        <a href='https://www.youtube.com/watch?v=MJB5L9F05tc' target ='_blank'
-        >Roots Rock Raege</a><br/>
-        <a href='https://www.youtube.com/watch?v=zaGUr6wzyT8' target ='_blank'
-        >Three Little Birds</a><br/>
-        </div>
-        <hr/>
-      <li>Bobby McFerrin</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=d-diB65scQU' target ='_blank'
-          > Don't Worry Be Happy </a><br/>
-        </div>
-        <hr/>
-      <li>Bola Ocho</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=RKjkwyqwREo' target ='_blank'
-        >Echa Pa'lante</a><br/>
-        <a href='https://www.youtube.com/watch?v=NaDma_-MuW0' target ='_blank'
-        >La Novela</a><br/>
-        <a href='https://www.youtube.com/watch?v=HRojdxMwo2g' target ='_blank'
-        >Ya es Ajena</a><br/>
-        <a href='' target ='_blank'
-        ></a><br/>
-        <a href='' target ='_blank'
-        ></a><br/>
-        <a href='' target ='_blank'
-        ></a><br/>
-        <a href='' target ='_blank'
-        ></a><br/>
-        <a href='' target ='_blank'
-        ></a><br/>
-        <a href='' target ='_blank'
-        ></a><br/>
-        <a href='' target ='_blank'
-        ></a><br/>
-        <a href='' target ='_blank'
-        ></a><br/>
-          <li>Plena Loca</li>
-          <li>Como te mueve</li>
-          <li>Mi Que Se Yo</li>
-          <li>Funky Plena</li>
-          <li>Julialee</li>
-          <li>Lo que Yo No Tengo</li>
-          <li>Hip Hop Plena</li>
-          <li>Negro el Ocho</li>
-        </div>
-        <hr/>
-      <li>Bone Thugz-n-Harmony</li>
-      east 1999, eternal, mo murder, the escape, no surrender
-      <li>Brand New Heavies</li>
-      <li>Bright Eyes</li>
-      Lover I don't have to love
-      <li>BT</li>
-      <li>Bush</li>
-      <li>Busta Rhymes</li>
-      <li>Butthole Surfers</li>
-      <li>Cake</li>
+
+      <div className='twoColumn'>
+      <table>
+      <tr><th>Artist</th><th>Song</th></tr>
+      {renderItems}
+      </table>
+      *No active link<br />
+      </div>
+///////////////////////////////////////////
       <li>Cannibal Ox</li>
       <li>Chainsmokers</li>
       <li>Chevelle</li>

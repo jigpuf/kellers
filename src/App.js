@@ -29,7 +29,7 @@ to the state of active Tab.
     return (
       <div className="App">
         <header>
-          <h2>Keller's Sweet Page</h2>
+          <h2>Kman's Sweet Page</h2>
         </header>
         <SideMenu openTab={this.openTab} activeTab={activeTab} />
         <MainSection activeTab2={activeTab} />
