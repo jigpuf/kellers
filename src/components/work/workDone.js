@@ -162,10 +162,12 @@ class WorkDone extends React.Component {
                 <li>Built inner box cables for WSCS HS</li>
                 <li>Helped unload supplies in area M</li>
                 <li>Caught up on new training</li>
+                <li>Built cables to help Marcus with 100v Circuit on Raptor</li>
               </ol>
             </td>
             <td>
               <ol>
+                <li><a href='#'></a></li>
                 <li><a href='#'></a></li>
                 <li><a href='#'></a></li>
                 <li><a href='#'></a></li>
@@ -175,12 +177,14 @@ class WorkDone extends React.Component {
           <tr id='7'><td>7</td><td></td>
             <td>
               <ol>
-                <li></li>
+                <li>Got practical for manlift and scissorlift</li>
+                <li>Built cables for 9 ducers, 1 Valve, 8 limits LSCS</li>
                 <li></li>
               </ol>
             </td>
             <td>
               <ol>
+                <li><a href='#'></a></li>
                 <li><a href='#'></a></li>
                 <li><a href='#'></a></li>
               </ol>

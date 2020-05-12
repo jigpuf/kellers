@@ -16,7 +16,6 @@ class Nutrition extends React.Component {
       {name: 'Minerals', slug: 'minerals' },
       {name: 'Amino Acids', slug: 'amino' },
       {name: 'Compounds', slug: 'compounds' },
-      {name: 'Hormones', slug: 'hormones' },
     ]
     const renderItems = Items.map(item => {
       return (

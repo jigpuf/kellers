@@ -7,7 +7,6 @@ import Adverbs from './spanish/adverbs.js'
 import Prepositions from './spanish/prepositions.js'
 import Pronouns from './spanish/pronouns.js'
 import Numbers from './spanish/numbers.js'
-import Vocabulary from './spanish/vocabulary.js'
 import Finer from './spanish/finer.js'
 import Top100 from './spanish/top100.js'
 import Top20K from './spanish/top20k.js'
@@ -31,7 +30,6 @@ class Spanish extends React.Component {
       {name: 'Prepositions', slug: 'prepositions', component:<Prepositions /> },
       {name: 'Pronouns', slug: 'pronouns', component:<Pronouns /> },
       {name: 'Numbers', slug: 'numbers', component:<Numbers /> },
-      {name: 'Vocabulary', slug: 'vocabulary', component:<Vocabulary /> },
       {name: 'Finer Points', slug: 'finer', component:<Finer /> },
       {name: 'Top 100 Words', slug: '100', component:<Top100 />},
       {name: 'Next 20000 Words', slug: '20000', component:<Top20K />},

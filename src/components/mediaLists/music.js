@@ -45,18 +45,194 @@ class Music extends React.Component {
       {artist: 'Bola Ocho', song: '*Lo que Yo No Tengo*', slug: 'bola9', url:'' },
       {artist: 'Bola Ocho', song: '*Hip Hop Plena*', slug: 'bola10', url:'' },
       {artist: 'Bola Ocho', song: '*Negro el Ocho*', slug: 'bola11', url:'' },
-      {artist: 'Bone Thugz-n-Harmony', song: '*east 1999*', slug: 'bone1', url:'' },
-      {artist: 'Bone Thugz-n-Harmony', song: '*eternal*', slug: 'bone2', url:'' },
-      {artist: 'Bone Thugz-n-Harmony', song: '*mo murder*', slug: 'bone3', url:'' },
-      {artist: 'Bone Thugz-n-Harmony', song: '*the escape*', slug: 'bone4', url:'' },
-      {artist: 'Bone Thugz-n-Harmony', song: '*no surrender*', slug: 'bone5', url:'' },
-      {artist: 'Brand New Heavies', song: '', slug: 'brand1', url:'' },
-      {artist: 'Bright Eyes', song: '*Lover I dont have to love*', slug: 'bright1', url:'' },
-      {artist: 'BT', song: '', slug: 'bt1', url:'' },
+      {artist: 'Bone Thugz-n-Harmony', song: 'East 1999', slug: 'bone1', url:'https://www.youtube.com/watch?v=nts-x67Usqc' },
+      {artist: 'Bone Thugz-n-Harmony', song: 'Eternal', slug: 'bone2', url:'https://www.youtube.com/watch?v=hKQe23hUnY4' },
+      {artist: 'Bone Thugz-n-Harmony', song: 'Mo Murder', slug: 'bone3', url:'https://www.youtube.com/watch?v=yjexC3phymM' },
+      {artist: 'Bone Thugz-n-Harmony', song: 'Down 71', slug: 'bone4', url:'https://www.youtube.com/watch?v=_tARMnDih_A' },
+      {artist: 'Bone Thugz-n-Harmony', song: 'No Surrender', slug: 'bone5', url:'https://www.youtube.com/watch?v=PGMd8vOLEDw' },
+      {artist: 'Bright Eyes', song: 'Lover I dont have to love', slug: 'bright1', url:'https://www.youtube.com/watch?v=bVOrsK9yEgY' },
+      {artist: 'BT', song: 'Remember', slug: 'bt1', url:'https://www.youtube.com/watch?v=OiW38lWFM-Y' },
+      {artist: 'Buku', song: 'Front to Back', slug: 'buku1', url:'https://www.youtube.com/watch?v=LoorIc5V6T8' },
       {artist: 'Bush', song: '', slug: 'bush1', url:'' },
       {artist: 'Busta Rhymes', song: '', slug: 'busta1', url:'' },
       {artist: 'Butthole Surfers', song: '', slug: 'butt1', url:'' },
-      {artist: 'Cake', song: '', slug: 'cake1', url:'' },
+      {artist: 'Cake', song: '*Short Skirt Long Jacket*', slug: 'cake1', url:'' },
+      {artist: 'Cake', song: '*Frank Sinatra*', slug: 'cake2', url:'' },
+      {artist: 'Cake', song: '*The Distance*', slug: 'cake3', url:'' },
+      {artist: 'Cake', song: '*Never There*', slug: 'cake3', url:'' },
+      {artist: 'Cannibal Ox', song: '', slug: 'cannibal1', url:'' },
+      {artist: 'Chainsmokers', song: '', slug: 'chain1', url:'' },
+      {artist: 'Chevelle', song: '', slug: 'chevelle1', url:'' },
+      {artist: 'ColdPlay', song: '', slug: 'coldplay1', url:'' },
+      {artist: 'Collective Soul', song: '', slug: 'collective1', url:'' },
+      {artist: 'Common Ground', song: '', slug: 'common1', url:'' },
+      {artist: 'Counting Crows', song: '', slug: 'counting1', url:'' },
+      {artist: 'Cranberries', song: 'Ode to my Family', slug: 'cranberries1', url:'https://www.youtube.com/watch?v=Zz-DJr1Qs54' },
+      {artist: 'Cranberries', song: 'Dreams', slug: 'cranberries2', url:'https://www.youtube.com/watch?v=Yam5uK6e-bQ' },
+      {artist: 'Crucial Conflict', song: '', slug: 'crucial1', url:'' },
+      {artist: 'Cubanismo', song: '', slug: 'cuban1', url:'' },
+      {artist: 'Cypress Hill', song: '', slug: 'cypress1', url:'' },
+      {artist: 'Da Rude', song: '', slug: 'daRude1', url:'' },
+      {artist: 'Deaf Leopard', song: '', slug: 'deaf1', url:'' },
+      {artist: 'Deftones', song: '*No ordinary love*', slug: 'deaftones1', url:'' },
+      {artist: 'Dido', song: 'Thank You', slug: 'dido1', url:'https://www.youtube.com/watch?v=1TO48Cnl66w' },
+      {artist: 'Dido', song: 'My Lovers Gone', slug: 'dido2', url:'https://www.youtube.com/watch?v=9LtrXAgsvB0' },
+      {artist: 'Dispatch', song: '', slug: 'dispatch1', url:'' },
+      {artist: 'DNA and Susan Vega', song: '', slug: 'dna1', url:'' },
+      {artist: 'Duran Duran', song: 'Ordinary World', slug: 'duran1', url:'https://www.youtube.com/watch?v=wUgLge_MPIM' },
+      {artist: 'Duran Duran', song: 'Come Undone', slug: 'duran2', url:'https://www.youtube.com/watch?v=Epj84QVw2rc' },
+      {artist: 'Eddie Brickell', song: 'What I am', slug: 'eddie1', url:'https://www.youtube.com/watch?v=tDl3bdE3YQA' },
+      {artist: 'Edward Maya', song: '', slug: 'edward1', url:'' },
+      {artist: 'Enigma', song: 'Return to Innocense', slug: 'enigma1', url:'https://www.youtube.com/watch?v=Rk_sAHh9s08' },
+      {artist: 'Enigma', song: 'Beyond the invisible', slug: 'enigma2', url:'https://www.youtube.com/watch?v=f8mMWh62XpU' },
+      {artist: 'Eminem', song: 'Rap God', slug: 'em1', url:'' },
+      {artist: 'Eminem', song: 'Till I Collapse', slug: 'em2', url:'' },
+      {artist: 'Eminem', song: 'I Am Who You Say I Am', slug: 'em3', url:'' },
+      {artist: 'Enya', song: '', slug: 'enya1', url:'' },
+      {artist: 'Everything but the Girl', song: '', slug: 'everything1', url:'' },
+      {artist: 'The Faint', song: '', slug: 'faint1', url:'' },
+      {artist: 'Faithless', song: 'Woozy', slug: 'fathless1', url:'https://www.youtube.com/watch?v=j8m68wL9hYw' },
+      {artist: 'Far East Movement', song: '*G6*', slug: 'far1', url:'' },
+      {artist: 'Far East Movement', song: '**', slug: 'far2', url:'' },
+      {artist: 'FC Kahuna', song: '', slug: 'fc1', url:'' },
+      {artist: 'Filter', song: '', slug: 'filter1', url:'' },
+      {artist: 'Flight Facilities', song: '', slug: 'flight1', url:'' },
+      {artist: 'Flo Rida', song: '', slug: 'flo1', url:'' },
+      {artist: 'Flosstradamus', song: '', slug: 'flos1', url:'' },
+      {artist: 'Flume and Chet Faker', song: '', slug: 'flume1', url:'' },
+      {artist: 'Foo Fighters', song: '', slug: 'foo1', url:'' },
+      {artist: 'Foreign Beggers', song: '', slug: 'foreign1', url:'' },
+      {artist: 'Freestylers', song: '', slug: 'freestyle1', url:'' },
+      {artist: 'Frou Frou', song: '', slug: 'frou1', url:'' },
+      {artist: 'Fuel', song: '', slug: 'fuel1', url:'' },
+      {artist: 'Fugees', song: '', slug: 'fugees1', url:'' },
+      {artist: 'Garbage', song: '', slug: 'garbage1', url:'' },
+      {artist: 'Gary Jules', song: 'Mad World', slug: 'gary1', url:'https://www.youtube.com/watch?v=4N3N1MlvVc4' },
+      {artist: 'Gnarles Barkley', song: 'Crazy', slug: 'gnarles1', url:'https://www.youtube.com/watch?v=-N4jf6rtyuw' },
+      {artist: 'Gorillaz', song: '', slug: 'gorillaz1', url:'' },
+      {artist: 'Gotye', song: 'Somebody That I Used To Know', slug: 'gotye1', url:'https://www.youtube.com/watch?v=8UVNT4wvIGY' },
+      {artist: 'Grandaddy', song: '', slug: 'grandad1', url:'' },
+      {artist: 'Green Day', song: '', slug: 'green1', url:'' },
+      {artist: 'Guns and Roses', song: '', slug: 'guns1', url:'' },
+      {artist: 'High Kings', song: 'The Irish Pub', slug: 'high1', url:'https://www.youtube.com/watch?v=bp3UsU5pQT8' },
+      {artist: 'Imagine Dragons', song: '', slug: 'imagine1', url:'' },
+      {artist: 'Jem', song: '', slug: 'jem1', url:'' },
+      {artist: 'Jewel', song: '', slug: 'jewel1', url:'' },
+      {artist: 'Jimmy Eat World', song: '', slug: 'jimmy1', url:'' },
+      {artist: 'John Williams', song: '', slug: 'john1', url:'' },
+      {artist: 'Juanes', song: '', slug: 'juanes1', url:'' },
+      {artist: 'Kansas', song: 'Dust in the Wind', slug: 'kansas1', url:'https://www.youtube.com/watch?v=tH2w6Oxx0kQ' },
+      {artist: 'Kito & Reija Lee', song: 'Run For Cover', slug: 'kito1', url:'https://www.youtube.com/watch?v=2zgcKDg4w94' },
+      {artist: 'Kito & Reija Lee', song: 'Sweet Talk', slug: 'kito2', url:'https://www.youtube.com/watch?v=4eUNXqblOak' },
+      {artist: 'Kito & Reija Lee', song: 'Starting Line', slug: 'kito3', url:'https://www.youtube.com/watch?v=ytyWFj2sFbs' },
+      {artist: 'Korn', song: '', slug: 'korn1', url:'' },
+      {artist: 'Kylie Minogue', song: 'Cant Get You Out Of My Head', slug: 'kylie1', url:'https://www.youtube.com/watch?v=YPwtJ89jes4' },
+      {artist: 'La Roux', song: 'In For The Kill', slug: 'la1', url:'https://www.youtube.com/watch?v=CpEOErRV-u4' },
+      {artist: 'La Vela Puerca', song: '', slug: 'vela1', url:'' },
+      {artist: 'Led Zeplin', song: '', slug: 'led1', url:'' },
+      {artist: 'Lenny Kravitz', song: 'If You Cant Say No', slug: 'lenny1', url:'https://www.youtube.com/watch?v=uxm11aSfSR8' },
+      {artist: 'Lighthouse Family', song: '', slug: 'lighthouse1', url:'' },
+      {artist: 'Lindsey Sterling', song: '', slug: 'lindsey1', url:'' },
+      {artist: 'Live', song: '', slug: 'live1', url:'' },
+      {artist: 'Loreena Mckennitt', song: 'Mummers Dance', slug: 'loreena1', url:'https://www.youtube.com/watch?v=LzE32ChEp24&list=RDLzE32ChEp24&start_radio=1' },
+      {artist: 'Loreena Mckennitt', song: 'All Souls Night', slug: 'loreena2', url:'https://www.youtube.com/watch?v=RooTTuLCfNM' },
+      {artist: 'Loreena Mckennitt', song: 'Prologue', slug: 'loreena3', url:'https://www.youtube.com/watch?v=6i1AwS-bVnk' },
+      {artist: 'Loreena Mckennitt', song: 'Skellig', slug: 'loreena4', url:'https://www.youtube.com/watch?v=SrGuV3QHYME' },
+      {artist: 'Loreena Mckennitt', song: 'Night Ride Across The Caucasus', slug: 'loreena5', url:'https://www.youtube.com/watch?v=eUTci9UbxNU' },
+      {artist: 'Loreena Mckennitt', song: 'The Old Ways', slug: 'loreena6', url:'https://www.youtube.com/watch?v=lQh0MTmBUQ4' },
+      {artist: 'Lumineers', song: '*hey ho*', slug: 'lumineers1', url:'' },
+      {artist: 'M.I.A.', song: '', slug: 'mia1', url:'' },
+      {artist: 'Mandalay', song: '', slug: 'mand1', url:'' },
+      {artist: 'Marc Antony', song: '', slug: 'marc1', url:'' },
+      {artist: 'Maroon 5', song: '', slug: 'maroon1', url:'' },
+      {artist: 'Marvin Gaye', song: '*Sitting on the dock of the Bay*', slug: 'marvin1', url:'' },
+      {artist: 'Massive Attack', song: '', slug: 'massive1', url:'' },
+      {artist: 'Matisyahu', song: '', slug: 'matis1', url:'' },
+      {artist: 'Mazzy Star', song: 'Fade into you', slug: 'mazzy1', url:'https://www.youtube.com/watch?v=ImKY6TZEyrI' },
+      {artist: 'Metallica', song: '', slug: 'metal1', url:'' },
+      {artist: 'Missy Elliot', song: '*I cant stand the rain*', slug: 'missy1', url:'' },
+      {artist: 'Modest Mouse', song: '', slug: 'modest1', url:'' },
+      {artist: 'Morcheeba', song: '', slug: 'morcheeba1', url:'' },
+      {artist: 'Mormon Tabernacle Choir', song: 'What Child Is This ?', slug: 'motab1', url:'https://www.youtube.com/watch?v=B3PPU91809Q' },
+      {artist: 'Mormon Tabernacle Choir', song: 'O Holy Night', slug: 'motab2', url:'https://www.youtube.com/watch?v=LbVrjFjulxo' },
+      {artist: 'Mormon Tabernacle Choir', song: 'Carol of the Bells', slug: 'motab3', url:'https://www.youtube.com/watch?v=k-W2Bkz_Rno' },
+      {artist: 'Mormon Tabernacle Choir', song: 'Come, Thou Fount of Every Blessing', slug: 'motab4', url:'https://www.youtube.com/watch?v=gPKpkrqBwNs' },
+      {artist: 'Mumford and sons', song: '', slug: 'mumford1', url:'' },
+      {artist: 'Nelly Furtado', song: '*turn out the lights*', slug: 'nelly1', url:'' },
+      {artist: 'No Doubt', song: '*Dont Speak*', slug: 'nodoubt1', url:'' },
+      {artist: 'No Doubt', song: '*Spider webs*', slug: 'nodoubt2', url:'' },
+      {artist: 'No Doubt', song: '*Hellagood*', slug: 'nodoubt3', url:'' },
+      {artist: 'Oasis', song: '', slug: 'oasis1', url:'' },
+      {artist: 'Offspring', song: '', slug: 'offspring1', url:'' },
+      {artist: 'Old Crow Medicine Show', song: '', slug: 'oldCrow1', url:'' },
+      {artist: 'Our Lady Peace', song: '*Supermans Dead*', slug: 'ourLady1', url:'' },
+      {artist: 'Our Lady Peace', song: '4AM', slug: 'ourLady2', url:'' },
+      {artist: 'Outkast', song: '*Elevators*', slug: 'outkast1', url:'' },
+      {artist: 'Outkast', song: '*Sorry Miss Jackson*', slug: 'outkast2', url:'' },
+      {artist: 'Pearl Jam', song: '', slug: 'pearl1', url:'' },
+      {artist: 'Pentatonix', song: '*Mary Did You Know*', slug: 'penta1', url:'' },
+      {artist: 'Phil Collins', song: 'In the Air Tonight', slug: 'phil1', url:'https://www.youtube.com/watch?v=MN3x-kAbgFU' },
+      {artist: 'Poe', song: 'Hello', slug: 'poe1', url:'https://www.youtube.com/watch?v=1cujypawzVQ' },
+      {artist: 'Portishead', song: 'Wandering Star', slug: 'portishead1', url:'https://www.youtube.com/watch?v=gEQNAZGoZrw' },
+      {artist: 'Portishead', song: 'Roads', slug: 'portishead2', url:'https://www.youtube.com/watch?v=WQYsGWh_vpE' },
+      {artist: 'Portishead', song: 'Strangers', slug: 'portishead3', url:'https://www.youtube.com/watch?v=B4TxEsRxltg' },
+      {artist: 'Portishead', song: 'It Could Be Sweet', slug: 'portishead4', url:'https://www.youtube.com/watch?v=57C_eWa2bgo' },
+      {artist: 'Portishead', song: 'Its a Fire', slug: 'portishead5', url:'https://www.youtube.com/watch?v=wlW1XtdxGFE' },
+      {artist: 'Portishead', song: 'All Mine', slug: 'portishead6', url:'https://www.youtube.com/watch?v=vozNQX6Ye1A' },
+      {artist: 'Portishead', song: 'Undenied', slug: 'portishead7', url:'https://www.youtube.com/watch?v=31BS2oTkaw8' },
+      {artist: 'Portishead', song: 'Tear drop', slug: 'portishead8', url:'https://www.youtube.com/watch?v=u7K72X4eo_s' },
+      {artist: 'Portishead', song: 'Insensible', slug: 'portishead9', url:'https://www.youtube.com/watch?v=wwTcxoBaca8' },
+      {artist: 'Portishead', song: 'Glory Box', slug: 'portishead10', url:'https://www.youtube.com/watch?v=6ylDDs3mdJE' },
+      {artist: 'Postal Service', song: '', slug: 'postal1', url:'' },
+      {artist: 'Prodigy', song: '', slug: 'prodigy1', url:'' },
+      {artist: 'Purity Ring', song: 'Flood on the Floor', slug: 'purity1', url:'https://www.youtube.com/watch?v=0ZyZxxf5fVE' },
+      {artist: 'Ra', song: '', slug: 'ra1', url:'' },
+      {artist: 'Rage Against the Machine', song: '', slug: 'rage1', url:'' },
+      {artist: 'Red Hot Chili Peppers', song: '', slug: 'redHot1', url:'' },
+      {artist: 'REM', song: 'Losing My Religion', slug: 'rem1', url:'https://www.youtube.com/watch?v=xwtdhWltSIg' },
+      {artist: 'REM', song: 'Everybody Hurts', slug: 'rem2', url:'https://www.youtube.com/watch?v=5rOiW_xY-kc' },
+      {artist: 'REM', song: 'Shiny Happy People', slug: 'rem3', url:'https://www.youtube.com/watch?v=YYOKMUTTDdA' },
+      {artist: 'REM', song: 'Stand', slug: 'rem4', url:'https://www.youtube.com/watch?v=AKKqLl_ZEEY' },
+      {artist: 'Roots', song: '', slug: 'roots1', url:'' },
+      {artist: 'Sade', song: 'No Ordinary Love', slug: 'sade1', url:'https://www.youtube.com/watch?v=_WcWHZc8s2I' },
+      {artist: 'Santana', song: '*Oye Como Va*', slug: 'santana1', url:'' },
+      {artist: 'Santana', song: '*BNlack Magic Woman*', slug: 'santana2', url:'' },
+      {artist: 'Seether', song: '', slug: 'seether1', url:'' },
+      {artist: 'Shakira', song: 'La Tortura', slug: 'shakira1', url:'https://www.youtube.com/watch?v=Dsp_8Lm1eSk' },
+      {artist: 'Shakira', song: 'Ojos Así', slug: 'shakira2', url:'https://www.youtube.com/watch?v=5BzkbSq7pww' },
+      {artist: 'Shakira', song: 'Suerte (Whenever, Wherever)', slug: 'shakira3', url:'https://www.youtube.com/watch?v=a8Rwz6zBJSE' },
+      {artist: 'Shakira', song: 'Hips Dont Lie', slug: 'shakira4', url:'https://www.youtube.com/watch?v=DUT5rEU6pqM' },
+      {artist: 'Skinny Puppy', song: '*Blood Rave*', slug: 'skinny1', url:'' },
+      {artist: 'Smashing Pumpkins', song: '', slug: 'smashing1', url:'' },
+      {artist: 'Soggy Bottom Boys', song: '*Man of Constant Sorow*', slug: 'soggy1', url:'' },
+      {artist: 'Soul Coughing', song: '', slug: 'soul1', url:'' },
+      {artist: 'Soundgarden', song: '', slug: 'soundgarden1', url:'' },
+      {artist: 'Staind', song: '', slug: 'staind1', url:'' },
+      {artist: 'Stereo MCs', song: '*Get Connected*', slug: 'stereo1', url:'' },
+      {artist: 'Sting', song: '*Desert Rose*', slug: 'sting1', url:'' },
+      {artist: 'Sting', song: '*1000 Years*', slug: 'sting2', url:'' },
+      {artist: 'Stone Sour', song: '', slug: 'stoneSour1', url:'' },
+      {artist: 'Stone Temple Pilots', song: '', slug: 'stoneTemple', url:'' },
+      {artist: 'Sublime', song: '', slug: 'sublime1', url:'' },
+      {artist: 'Submarines', song: '', slug: 'submarines1', url:'' },
+      {artist: 'Susanne Vega', song: 'Toms Diner', slug: 'tom1', url:'https://www.youtube.com/watch?v=-26hsZqwveA' },
+      {artist: 'Switchfoot', song: '', slug: 'switchfoot1', url:'' },
+      {artist: 'System of a Down', song: '', slug: 'system1', url:'' },
+      {artist: 'Temptations', song: '*Stand By Me*', slug: 'temptation1', url:'' },
+      {artist: 'Third Eye Blind', song: '*Semi charmed Kind of Life*', slug: 'third1', url:'' },
+      {artist: 'Tom Petty', song: '*Last Dance With Mary Jane*', slug: 'tomPetty1', url:'' },
+      {artist: 'Tonic', song: '', slug: 'tonic1', url:'' },
+      {artist: 'Trapt', song: '', slug: 'trapt1', url:'' },
+      {artist: 'A Tribe Called Quest', song: '', slug: 'tribe1', url:'' },
+      {artist: 'Two Finger', song: '*Fools Rhythm*', slug: 'twoFinger1', url:'' },
+      {artist: 'Unkle', song: '', slug: 'unkle1', url:'' },
+      {artist: 'Verve', song: '', slug: 'verve1', url:'' },
+      {artist: 'Verve Pipe', song: '', slug: 'vervePipe1', url:'' },
+      {artist: 'Weezer', song: '', slug: 'weezer1', url:'' },
+      {artist: 'White Town', song: '', slug: 'white1', url:'' },
+      {artist: 'Willie Nelson', song: '', slug: 'Willie1', url:'' },
+      {artist: 'Zack Brown Band', song: '*Toes*', slug: 'Zack1', url:'' },
+      {artist: 'ZHU', song: '', slug: 'zhu1', url:'' },
       {artist: '', song: '', slug: '', url:'' },
 
     ]
@@ -69,336 +245,12 @@ class Music extends React.Component {
       )
     })
     return (
-      <div>
-
       <div className='twoColumn'>
       <table>
       <tr><th>Artist</th><th>Song</th></tr>
       {renderItems}
       </table>
       *No active link<br />
-      </div>
-///////////////////////////////////////////
-      <li>Cannibal Ox</li>
-      <li>Chainsmokers</li>
-      <li>Chevelle</li>
-      <li>ColdPlay</li>
-      <li>Collective Soul</li>
-      <li>Common Ground</li>
-      <li>Counting Crows</li>
-      <li>Cranberries</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=Zz-DJr1Qs54' target ='_blank'
-          >Ode to my Family</a><br/>
-          <a href='https://www.youtube.com/watch?v=Yam5uK6e-bQ' target ='_blank'
-          >Dreams</a><br/>
-        </div>
-        <hr/>
-      <li>Crucial Conflict</li>
-      <li>Cubanismo</li>
-      <li>Cypress Hill</li>
-      <li>Da Rude</li>
-      <li>Deaf Leopard</li>
-      <li>Deftones</li>
-      No ordinary love
-      <li>Dido</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=1TO48Cnl66w' target ='_blank'
-          >Thank You</a><br/>
-          <a href='https://www.youtube.com/watch?v=9LtrXAgsvB0' target ='_blank'
-          >My Lover's Gone</a><br/>
-        </div>
-        <hr/>
-      <li>Dispatch</li>
-      <li>DNA and Susan Vega</li>
-      <li>Duran Duran</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=wUgLge_MPIM' target ='_blank'
-          >Ordinary World</a><br/>
-          <a href='https://www.youtube.com/watch?v=Epj84QVw2rc' target ='_blank'
-          >Come Undone</a><br/>
-        </div>
-        <hr/>
-      <li>Eddie Brickell:</li>
-        <a href='https://www.youtube.com/watch?v=tDl3bdE3YQA' target ='_blank'
-        >What I am</a><br/>
-        <hr/>
-      <li>Edward Maya</li>
-      <li>Enigma</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=Rk_sAHh9s08' target ='_blank'
-          >Return to Innocense</a><br />
-          <a href='https://www.youtube.com/watch?v=f8mMWh62XpU' target ='_blank'
-          >Beyond the invisible</a><br />
-        </div>
-      <hr/>
-      <li>Eminem</li>
-      rap god, till I collapse, I am who you say I am
-      <hr/>
-      <li>Enya</li>
-      <li>Everything but the Girl</li>
-      <li>The Faint</li>
-      <li>Faithless</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=j8m68wL9hYw' target ='_blank'
-          >Woozy</a><br />
-        </div>
-        <hr/>
-      <li>Far East Movement</li>
-      <li>FC Kahuna</li>
-      <li>Filter</li>
-      <li>Flight Facilities</li>
-      <li>Flo Rida'</li>
-      <li>Flosstradamus</li>
-      <li>Flume and Chet Faker</li>
-      <li>Foo Fighters</li>
-      <li>Foreign Beggers</li>
-      <li>Freestylers</li>
-      <li>Frou Frou</li>
-      <li>Fuel</li>
-      <li>Fugees</li>
-      <li>Garbage</li>
-      <li>Gary Jules</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=4N3N1MlvVc4' target ='_blank'
-        >Mad World</a><br />
-        </div>
-        <hr/>
-      <li>Gnarles Barkley</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=-N4jf6rtyuw' target ='_blank'
-        >Crazy</a><br />
-        </div>
-        <hr/>
-      <li>Gorillaz</li>
-      <li>Gotye</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=8UVNT4wvIGY' target ='_blank'
-        >Somebody That I Used To Know</a><br/>
-        </div>
-        <hr />
-      <li>Grandaddy</li>
-      <li>Green Day</li>
-      <li>Guns and Roses</li>
-      <li>High Kings</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=bp3UsU5pQT8' target ='_blank'
-        >The Irish Pub</a><br/>
-        </div>
-        <hr />
-      <li>Imagine Dragons</li>
-      <li>Jem</li>
-      <li>Jewel</li>
-      <li>Jimmy Eat World</li>
-      <li>John Williams</li>
-      <li>Juanes</li>
-      <li>Kansas</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=tH2w6Oxx0kQ' target ='_blank'
-        >Dust in the Wind</a><br/>
-        </div>
-        <hr />
-      <li>Kito & Reija Lee</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=2zgcKDg4w94' target ='_blank'
-          >Run For Cover</a><br />
-          <a href='https://www.youtube.com/watch?v=4eUNXqblOak' target ='_blank'
-          >Sweet Talk</a><br />
-          <a href='https://www.youtube.com/watch?v=ytyWFj2sFbs' target ='_blank'
-          >Starting Line</a><br />
-        </div>
-        <hr />
-      <li>Korn</li>
-      <li>Kylie Minogue</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=YPwtJ89jes4' target ='_blank'
-        >Can't Get You Out Of My Head</a><br/>
-        </div>
-        <hr />
-      <li>La Roux</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=CpEOErRV-u4' target ='_blank'
-        >In For The Kill</a><br/>
-        </div>
-        <hr />
-      <li>La Vela Puerca</li>
-      <li>Led Zeplin</li>
-      <li>Lenny Kravitz</li>
-      <div className='twoColumn'>
-      <a href='https://www.youtube.com/watch?v=uxm11aSfSR8' target ='_blank'
-      >If You Can't Say No</a><br/>
-      </div>
-      <hr />
-      <li>Lighthouse Family</li>
-      <li>Lindsey Sterling</li>
-      <li>Live</li>
-      <li>Loreena Mckennitt</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=LzE32ChEp24&list=RDLzE32ChEp24&start_radio=1' target ='_blank'
-          >mummers dance</a><br />
-          <a href='https://www.youtube.com/watch?v=RooTTuLCfNM' target ='_blank'
-          >All Souls Night</a><br />
-          <a href='https://www.youtube.com/watch?v=6i1AwS-bVnk' target ='_blank'
-          >Prologue</a><br />
-          <a href='https://www.youtube.com/watch?v=SrGuV3QHYME' target ='_blank'
-          >Skellig</a><br />
-          <a href='https://www.youtube.com/watch?v=eUTci9UbxNU' target ='_blank'
-          >Night Ride Across The Caucasus</a><br />
-          <a href='https://www.youtube.com/watch?v=lQh0MTmBUQ4' target ='_blank'
-          >The Old Ways</a><br />
-
-          </div>
-          <hr/>
-      <li>Lumineers</li>
-      <li>M.I.A.</li>
-      <li>Mandalay</li>
-      <li>Marc Antony</li>
-      <li>Maroon 5</li>
-      <li>Marvin Gaye</li>
-      <li>Massive Attack</li>
-      <li>Matisyahu</li>
-      <li>Mazzy Star</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=ImKY6TZEyrI' target ='_blank'
-          >Fade into you</a><br/>
-        </div>
-        <hr />
-      <li>Metallica</li>
-      <li>Missy Elliot</li>
-      <li>Modest Mouse</li>
-      <li>Morcheeba</li>
-      <li>Mormon Tabernacle Choir</li>
-        <div className='twoColumn'>
-        <a href='https://www.youtube.com/watch?v=B3PPU91809Q' target ='_blank'
-        >What Child Is This ?</a><br/>
-        <a href='https://www.youtube.com/watch?v=LbVrjFjulxo' target ='_blank'
-        >O Holy Night</a><br/>
-        <a href='https://www.youtube.com/watch?v=k-W2Bkz_Rno' target ='_blank'
-        >Carol of the Bells</a><br/>
-        <a href='https://www.youtube.com/watch?v=gPKpkrqBwNs' target ='_blank'
-        >Come, Thou Fount of Every Blessing</a><br/>
-        </div>
-        <hr />
-      <li>Mumford and sons</li>
-      <li>Nelly Furtado</li>
-      <li>No Doubt</li>
-      <li>Oasis</li>
-      <li>Offspring</li>
-      <li>Old Crow Medicine Show</li>
-      <li>Our Lady Peace</li>
-      <li>Outkast</li>
-      <li>Pearl Jam</li>
-      <li>Pentatonix</li>
-      <li>Phil Collins</li>
-        <a href='https://www.youtube.com/watch?v=MN3x-kAbgFU' target ='_blank'
-        >In the Air Tonight</a><br/>
-        <hr />
-      <li>Poe</li>
-        <a href='https://www.youtube.com/watch?v=1cujypawzVQ' target ='_blank'
-        >Hello</a><br/>
-        <hr />
-      <li>Portishead</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=gEQNAZGoZrw' target ='_blank'
-          >Wandering Star</a><br/>
-          <a href='https://www.youtube.com/watch?v=WQYsGWh_vpE' target ='_blank'
-          >Roads</a><br/>
-          <a href='https://www.youtube.com/watch?v=B4TxEsRxltg' target ='_blank'
-          >Strangers</a><br/>
-          <a href='https://www.youtube.com/watch?v=57C_eWa2bgo' target ='_blank'
-          >It Could Be Sweet</a><br/>
-          <a href='https://www.youtube.com/watch?v=wlW1XtdxGFE' target ='_blank'
-          >It's a Fire</a><br/>
-          <a href='https://www.youtube.com/watch?v=vozNQX6Ye1A' target ='_blank'
-          >All Mine</a><br/>
-          <a href='https://www.youtube.com/watch?v=31BS2oTkaw8' target ='_blank'
-          >Undenied</a><br/>
-          <a href='https://www.youtube.com/watch?v=u7K72X4eo_s' target ='_blank'
-          >Tear drop</a><br/>
-          <a href='https://www.youtube.com/watch?v=wwTcxoBaca8' target ='_blank'
-          >Insensible</a><br/>
-          <a href='https://www.youtube.com/watch?v=6ylDDs3mdJE' target ='_blank'
-          >Glory Box</a><br/>
-        </div>
-      <hr/>
-      <li>Postal Service</li>
-      <li>Prodigy</li>
-      <li>Purity Ring</li>
-        <a href='https://www.youtube.com/watch?v=0ZyZxxf5fVE' target ='_blank'
-        >Flood on the Floor</a><br/>
-        <hr />
-      <li>Ra</li>
-      <li>Rage Against the Machine</li>
-      <li>Red Hot Chili Peppers</li>
-      <li>REM</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=xwtdhWltSIg' target ='_blank'
-          >Losing My Religion</a><br/>
-          <a href='https://www.youtube.com/watch?v=5rOiW_xY-kc' target ='_blank'
-          >Everybody Hurts </a><br/>
-          <a href='https://www.youtube.com/watch?v=YYOKMUTTDdA' target ='_blank'
-          >Shiny Happy People</a><br/>
-          <a href='https://www.youtube.com/watch?v=AKKqLl_ZEEY' target ='_blank'
-          >Stand </a><br/>
-        </div>
-        <hr/>
-      <li>Roots</li>
-      <li>Sade</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=_WcWHZc8s2I' target ='_blank'
-          >No Ordinary Love </a><br/>
-        </div>
-        <hr/>
-      <li>Santana</li>
-      <li>Seether</li>
-      <li>Shakira</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=Dsp_8Lm1eSk' target ='_blank'
-          >La Tortura</a><br/>
-          <a href='https://www.youtube.com/watch?v=5BzkbSq7pww' target ='_blank'
-          >Ojos Así</a><br/>
-          <a href='https://www.youtube.com/watch?v=a8Rwz6zBJSE' target ='_blank'
-          >Suerte (Whenever, Wherever)</a><br/>
-          <a href='https://www.youtube.com/watch?v=DUT5rEU6pqM' target ='_blank'
-          >Hips Don't Lie</a><br/>
-        </div>
-        <hr/>
-      <li>Skinny Puppy</li>
-      <li>Smashing Pumpkins</li>
-      <li>Soggy Bottom Boys</li>
-      <li>Soul Coughing</li>
-      <li>Soundgarden</li>
-      <li>Staind</li>
-      <li>Stereo MCs</li>
-      <li>Sting</li>
-      <li>Stone Sour</li>
-      <li>Stone Temple Pilots</li>
-      <li>Sublime</li>
-      <li>Submarines</li>
-      <li>Susanne Vega</li>
-        <div className='twoColumn'>
-          <a href='https://www.youtube.com/watch?v=-26hsZqwveA' target ='_blank'
-          >Tom's Diner</a><br/>
-        </div>
-        <hr/>
-      <li>Switchfoot</li>
-      <li>Sysem of a Down</li>
-      <li>Temptations</li>
-      <li>Third Eye Blind</li>
-      <li>Tom Petty</li>
-      <li>Tonic</li>
-      <li>Trapt</li>
-      <li>A Tribe Called Quest</li>
-      <li>Two Finger</li>
-      <li>Unkle</li>
-      <li>Verve</li>
-      <li>Verve Pipe</li>
-      <li>Weezer</li>
-      <li>White Town</li>
-      <li>Willie Nelson</li>
-      <li>Zack Brown Band</li>
-      <li>ZHU</li>
-
       </div>
     );
   }

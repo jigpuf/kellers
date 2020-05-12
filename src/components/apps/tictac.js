@@ -12,10 +12,12 @@ class Tictac extends React.Component {
     c2:'.',
     c3:'.',
     turn:'X',
+    winner:' ',
   }
 
   onClickButton = (button) => {
     this.setState({[button]:this.state.turn},this.turns);
+//    this.checkWinner();
   }
   //[]: says to take parameter as the key in the specified object
   //set state second parameter is the callback function.  This causes the turns function to fire after rather than asyncrounously
@@ -25,7 +27,28 @@ class Tictac extends React.Component {
     }
     return this.setState({turn:'X'});
   }
-
+/*
+  checkWinner(){
+    if(this.state.a1 === this.state.a2 && this.state.a1 === this.state.a3 ){
+      this.setstate({winner:this.state.turn});
+    }
+  }
+*/
+/*
+  resetTTT(){
+    this.setState.({a1:'.'});
+    this.setState.({a2:'.'});
+    this.setState.({a3:'.'});
+    this.setState.({b1:'.'});
+    this.setState.({b2:'.'});
+    this.setState.({b3:'.'});
+    this.setState.({c1:'.'});
+    this.setState.({c2:'.'});
+    this.setState.({c3:'.'});
+    this.setState.({turn:'X'});
+    this.setState.({winner:' '});
+  }
+*/
 
   render () {
     return (
@@ -45,6 +68,7 @@ class Tictac extends React.Component {
           <br />
           <div>{this.state.turn}'s Turn</div>
           <button id = 'resetButton' onClick = 'resetTTT()'>Reset</button>
+          <span>{this.state.winner}</span>
       </div>
 
     );

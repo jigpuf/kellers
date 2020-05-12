@@ -3,53 +3,46 @@ import React from 'react';
 
 class Movies extends React.Component {
   render () {
+    const Items = [
+      {movie: 'Adjustment Bureau', slug: 'adjust', url:'https://www.youtube.com/watch?v=wZJ0TP4nTaE' },
+      {movie: 'Aeon Flux', slug: 'aeon', url:'https://www.youtube.com/watch?v=d11loPMnC2w' },
+      {movie: 'Akira', slug: 'akira', url:'https://www.youtube.com/watch?v=i_MONOV1_sc' },
+      {movie: 'Aladdin', slug: 'aladin', url:'https://www.youtube.com/watch?v=HlULSKurtzg' },
+      {movie: 'Alien', slug: 'alien', url:'https://www.youtube.com/watch?v=LjLamj-b0I8' },
+      {movie: 'Alien 2', slug: '', url:'https://www.youtube.com/watch?v=XKSQmYUaIyE' },
+      {movie: '***American Beauty', slug: '', url:'https://www.youtube.com/watch?v=3ycmmJ6rxA8' },
+      {movie: 'Amile', slug: '', url:'https://www.youtube.com/watch?v=HUECWi5pX7o' },
+      {movie: 'Anchorman', slug: 'anchorman', url:'https://www.youtube.com/watch?v=-T3wnP91OnI' },
+      {movie: 'Apocalypto', slug: 'apoalypto', url:'https://www.youtube.com/watch?v=pXuwjdQx924' },
+      {movie: 'Atlantis', slug: 'atlantis', url:'https://www.youtube.com/watch?v=sZIimDPZQwg' },
+      {movie: '***Babadook', slug: 'babadook', url:'https://www.youtube.com/watch?v=k5WQZzDRVtw' },
+      {movie: 'Batteries not Included', slug: 'batteries', url:'https://www.youtube.com/watch?v=h25ZL7fxZ8o' },
+      {movie: '***Beach', slug: 'beach', url:'https://www.youtube.com/watch?v=RweHayPG3wA' },
+      {movie: 'Behind Enemy Lines', slug: '', url:'https://www.youtube.com/watch?v=PUeWBp_kmuo' },
+      {movie: 'Beowolf', slug: 'beowolf', url:'https://www.youtube.com/watch?v=DaShOr5AeKA' },
+      {movie: 'Beatlejuice', slug: 'beetlejuice', url:'https://www.youtube.com/watch?v=ickbVzajrk0' },
+      {movie: '***Big Fish', slug: 'bigFish', url:'https://www.youtube.com/watch?v=dF-Iy7vIOJA' },
+      {movie: '', slug: '', url:'' },
+    ]
+    const renderItems = Items.map(item => {
+      return (
+        <tr key={item.slug}>
+          <td><a href={item.url} target ='_blank'>{item.movie}</a></td>
+        </tr>
+      )
+    })
     return (
       <div>
-      <h3>Keller's Favorite Movies</h3>
-      <div className="twoColumn">
+        <h2>Favorite Movies</h2>
+        <div>
+          <div className='twoColumn'>
+            <table>
+            <tr><th>movie</th></tr>
+            {renderItems}
+            </table>
+          </div>
+      <div className= "twoColumn">
       <ol>
-        <li><a href="https://www.youtube.com/watch?v=wZJ0TP4nTaE" target='_blank'
-        >Adjustment Bureau</a></li>
-        <li><a href="https://www.youtube.com/watch?v=d11loPMnC2w" target='_blank'
-        >Aeon Flux</a></li>
-        <li><a href="https://www.youtube.com/watch?v=i_MONOV1_sc" target='_blank'
-        >Akira</a></li>
-        <li><a href="https://www.youtube.com/watch?v=HlULSKurtzg" target='_blank'
-        >Aladdin</a></li>
-        <li><a href="https://www.youtube.com/watch?v=LjLamj-b0I8" target='_blank'
-        >Alien</a></li>
-        <li><a href="https://www.youtube.com/watch?v=XKSQmYUaIyE" target='_blank'
-        >Alien 2</a></li>
-        <li><a href="https://www.youtube.com/watch?v=3ycmmJ6rxA8" target='_blank'
-        >***American Beauty</a></li>
-        <li><a href="https://www.youtube.com/watch?v=HUECWi5pX7o" target='_blank'
-        >Amile</a></li>
-        <li><a href="https://www.youtube.com/watch?v=-T3wnP91OnI" target='_blank'
-        >Anchorman</a></li>
-        <li><a href="https://www.youtube.com/watch?v=pXuwjdQx924" target='_blank'
-        >Apocalypto</a></li>
-        <li><a href="https://www.youtube.com/watch?v=sZIimDPZQwg" target='_blank'
-        >Atlantis</a></li>
-        <li><a href="https://www.youtube.com/watch?v=k5WQZzDRVtw" target='_blank'
-        >***Babadook</a></li>
-        <li><a href="https://www.youtube.com/watch?v=qvsgGtivCgs" target='_blank'
-        >Back to the Future</a></li>
-        <li><a href="https://www.youtube.com/watch?v=MdENmefJRpw" target='_blank'
-        >Back to the Future 2</a></li>
-        <li><a href="https://www.youtube.com/watch?v=EYkguxpqsrg" target='_blank'
-        >Back to the Future 3</a></li>
-        <li><a href="https://www.youtube.com/watch?v=h25ZL7fxZ8o" target='_blank'
-        >Batteries not Included</a></li>
-        <li><a href="https://www.youtube.com/watch?v=RweHayPG3wA" target='_blank'
-        >***Beach</a></li>
-        <li><a href="https://www.youtube.com/watch?v=PUeWBp_kmuo" target='_blank'
-        >Behind Enemy Lines</a></li>
-        <li><a href="https://www.youtube.com/watch?v=DaShOr5AeKA" target='_blank'
-        >Beowolf</a></li>
-        <li><a href="https://www.youtube.com/watch?v=ickbVzajrk0" target='_blank'
-        >beatlejuice</a></li>
-        <li><a href="https://www.youtube.com/watch?v=dF-Iy7vIOJA" target='_blank'
-        >***Big Fish</a></li>
         <li><a href="https://www.youtube.com/watch?v=cd-go0oBF4Y" target='_blank'
         >Big Lebowski</a></li>
         <li><a href="https://www.youtube.com/watch?v=2GfBkC3qs78" target='_blank'
@@ -188,7 +181,6 @@ class Movies extends React.Component {
         >***Indiana Jones 3</a></li>
         <li><a href='https://www.youtube.com/watch?v=qRYDNWXuip8' target='_blank'
         >Inglorious Bastards</a></li>
-
         <li><a href="https://www.youtube.com/watch?v=UrIbxk7idYA" target='_blank'
         >***300</a></li>
         <li><a href="https://www.youtube.com/watch?v=_qApXdc1WPY" target='_blank'
@@ -223,6 +215,8 @@ class Movies extends React.Component {
         <li>The Vault</li>
         <li>Tusk</li>
         </div>
+
+      </div>
       </div>
     );
   }
@@ -231,31 +225,18 @@ class Movies extends React.Component {
 export default Movies;
 
 /*
-       <li><a href='' target='_blank'
         >Inception</a></li>
-        <li><a href='' target='_blank'
         >Interstellar</a></li>
-        <li><a href='' target='_blank'
         >Interview with a Vampire</a></li>
-        <li><a href='' target='_blank'
         >Island</a></li>
-        <li><a href='' target='_blank'
         >Isle of Dogs</a></li>
-        <li><a href='' target='_blank'
         >***It's a Wonderful Life</a></li>
-        <li><a href='' target='_blank'
         >Joe Dirt</a></li>
-        <li><a href='' target='_blank'
         >***Jurassic Park</a></li>
-        <li><a href='' target='_blank'
         >Jurasic World Fallen Kingdom</a></li>
-        <li><a href='' target='_blank'
         >Kick Ass</a></li>
-        <li><a href='' target='_blank'
         >***Kill Bill</a></li>
-        <li><a href='' target='_blank'
         >***Kill Bill 2</a></li>
-        <li><a href='' target='_blank'
         >***King Arthur</a></li>
         <li><a href='' target='_blank'
         >kingsman</a></li>
@@ -413,21 +394,14 @@ export default Movies;
         >Wheels on Meals</a></li>
         <li><a href='' target='_blank'
         >Willow</a></li>
-        <li><a href='' target='_blank'
         >Wizard of Oz</a></li>
-        <li><a href='' target='_blank'
         >Wizard of Oz 2</a></li>
-        <li><a href='' target='_blank'
         >Wrist Cutters</a></li>
-        <li><a href='' target='_blank'
         >Zombieland</a></li>
-        <li><a href='' target='_blank'
         >10 Cloverfield Lane</a></li>
-        <li><a href='' target='_blank'
         >13th Warrior</a></li>
-        <li><a href='' target='_blank'
+        1917
         >***28 Days Later</a></li>
-        <li><a href='' target='_blank'
         >28 Weeks Later</a></li>
 
 
