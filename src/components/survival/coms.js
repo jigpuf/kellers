@@ -10,7 +10,10 @@ class Coms extends React.Component {
       <li>Signalling</li>
       <li>Code</li>
       <li>FM/AM</li>
-      <li>Phone</li> 
+      <li>Phone</li>
+      <li>Internet</li>
+      <li></li>
+      <li></li>
       </div>
     );
   }

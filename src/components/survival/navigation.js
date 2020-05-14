@@ -10,6 +10,9 @@ class Navigation extends React.Component {
           <li>Location List</li>
           <li>Astronomy</li>
           <li>GPS</li>
+          <li>Stars</li>
+          <li>Routes</li>
+          <li>Landmarks</li>
       </div>
     );
   }

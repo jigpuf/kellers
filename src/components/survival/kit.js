@@ -5,14 +5,14 @@ class Kit extends React.Component {
     return (
       <div>
       <h2>72-Hour Kit</h2>
-      <li>Comunications:</li>
+      <li>Communications/ community:</li>
       Phones, chargers, additional batteries, walkie Talkies, Ham Radio,
-      Solar USB Charger, Headsets, Mirror, Paper, Pencils, code book<hr/>
-      <li>Defense:</li>
-      Guns, Bullets, machete, Binoculars, paracord,<hr/>
-      <li>Fire Making:</li>
+      Solar USB Charger, Headsets, Mirror, Paper, Pencils, code book, addresses<hr/>
+      <li>Defense/intelligence/tools:</li>
+      Guns, Bullets, machete, Binoculars, paracord, multitool<hr/>
+      <li>Fire Making/cooking:</li>
       Axe, Magnifying Glass, Lighters, Cotton/vaseline, flint/steel, matches,
-      shovel<hr/>
+      shovel, propane<hr/>
       <li>First Aid:</li>
       Manual, Bandaids, Neosporine, Alcohol, peroxide, Sling, Gauze, Tape,
       Tweezers, Scisors, stitching glue, Fiber pills, needles , Alergy medicine,
@@ -24,7 +24,7 @@ class Kit extends React.Component {
       Mac and Cheese, Powdered Milk, Instant Pudding, instant Jello, Mess Kit,
       Utensils, Wash Pad, dish soap, powdered eggs, Sugar, Salt, Powdered Butter,
       Raman, Dehydrated fruit, Oatmeal, cooking spray, powdered Mashed potatoes,
-      Fishing pole and gear<hr/>
+      Fishing pole and gear, plant identification<hr/>
       <li>Navigation:</li>
       GPS, Batteries, Maps, List of Locations, routes, Compass, Phone Numbers<hr/>
       <li>Recreation:</li>

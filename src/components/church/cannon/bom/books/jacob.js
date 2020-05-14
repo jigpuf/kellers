@@ -1,4 +1,5 @@
 import React from 'react';
+import Bom0305 from './jacob/bom0305.js'
 
 class Jacob extends React.Component {
   state= {
@@ -16,7 +17,7 @@ class Jacob extends React.Component {
         {name: '2', slug:'2',},
         {name: '3', slug:'3',},
         {name: '4', slug:'4',},
-        {name: '5', slug:'5',},
+        {name: '5', slug:'5', component:<Bom0305 />},
         {name: '6', slug:'6',},
         {name: '7', slug:'7',},
       ]

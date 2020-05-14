@@ -15,6 +15,10 @@ class Energy extends React.Component {
     const tier1Items = [
       {name: 'Solar', slug: 'solar', component:<Solar /> },
       {name: 'Fuel', slug: 'fuel', component:<Fuel /> },
+      {name: 'Wood', slug: 'wood',},
+      {name: 'Propane', slug: 'propane',},
+      {name: 'Gassifier', slug: 'gasifier',},
+      {name: 'Gas Digester', slug: 'digester',},
     ]
     const renderTier1Items = tier1Items.map(item => {
       return (

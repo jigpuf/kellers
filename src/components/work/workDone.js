@@ -179,7 +179,7 @@ class WorkDone extends React.Component {
               <ol>
                 <li>Got practical for manlift and scissorlift</li>
                 <li>Built cables for 9 ducers, 1 Valve, 8 limits LSCS</li>
-                <li></li>
+                <li>Landed Cables for valves</li>
               </ol>
             </td>
             <td>

@@ -14,6 +14,11 @@ import Water from './survival/water.js'
 import Hygene from './survival/hygene.js'
 import Clothing from './survival/clothing.js'
 import Kit from './survival/kit.js'
+import Transportation from './survival/transportation.js'
+import Community from './survival/community.js'
+import Mind from './survival/mind.js'
+import Financial from './survival/financial.js'
+import Efficiency from './survival/efficiency.js'
 
 
 class Survival extends React.Component {
@@ -42,6 +47,11 @@ class Survival extends React.Component {
       {name: 'hygene', slug: 'hygene', component:<Hygene />},
       {name: 'clothing', slug: 'clothing', component:<Clothing />},
       {name: '72-hour kit', slug: 'kit', component:<Kit />},
+      {name: 'Transportation', slug: 'transportation', component:<Transportation />},
+      {name: 'Community', slug: 'Community', component:<Community />},
+      {name: 'Mind', slug: 'mind', component:<Mind />},
+      {name: 'Financial', slug: 'financial', component:<Financial />},
+      {name: 'Efficiency', slug: 'efficiency', component:<Efficiency />},
     ]
     const renderItems = Items.map(item => {
       return (

@@ -14,6 +14,7 @@ class Shelter extends React.Component {
           <li>Mosquito nets</li>
           <li>Rope</li>
           <li>Stakes</li>
+          <li>Bushcraft</li>
       </div>
     );
   }
