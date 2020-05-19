@@ -7,7 +7,7 @@ class Kit extends React.Component {
       <h2>72-Hour Kit</h2>
       <li>Communications/ community:</li>
       Phones, chargers, additional batteries, walkie Talkies, Ham Radio,
-      Solar USB Charger, Headsets, Mirror, Paper, Pencils, code book, addresses<hr/>
+      Solar USB Charger, Headsets, Paper, Pencils, code book, addresses<hr/>
       <li>Defense/intelligence/tools:</li>
       Guns, Bullets, machete, Binoculars, paracord, multitool<hr/>
       <li>Fire Making/cooking:</li>
@@ -44,6 +44,46 @@ class Kit extends React.Component {
       Hiking Boots, Camo, Ski Mask, Gloves<hr/>
       <li>Tools:</li>
       Leatherman, Shovel, machete <hr/>
+
+      Compartments:
+      <li>Fire(deep)</li>
+      Lighters, cotton balls/ vaseline, Magnifying glass, Knife, Flint, tinder, matches
+      <li>Cooking(outside)</li>
+      Propane, stove, mess kit, utensils,
+      <li>Tools(deep)</li>
+      Multitool, Shovel, Axe, Saw, rope, gloves, machete, duct tape
+      <li>Electronics(outside)</li>
+      Cell phone, Solar Chargers, batteries, walkies, GPS
+      <li>Paper(outside)</li>
+      Books, Maps, Route Plans, paper, pencils, code book, money, cards,
+      contacts, Games, plant identification, binoculars, Harmonica, Whistle
+      <li>Shelter(deep)</li>
+      Tent, Sleeping Bag,emergency blanket, poncho, trash bags water proofing(outside),
+      cold gear
+      <li>Water(outside)</li>
+      Filter, iodine Pills, Water bottle, distiller, Bandannas
+      <li>Weopons(outside)</li>
+      Knife, Gun, bullets, Slingshot, shots
+      <li>First Aid Kit(outside)</li>
+      Needles, Floss, firstaid, scissors
+      <li>Hygiene(deep)</li>
+      <li>clothes(deep)</li>
+
+      Mini Packs:
+      <li>Main</li>
+      Tent, Sleeping bag, Phone, Solar USB charger, ham radio, multitool, propane,
+      stove, mess kit, shovel, axe, saw, machete, GPS, first aid, Filter, distiller,
+      Gun, bullets, Clothes,emergency blanket, poncho, trash bags, money
+      <li>1</li>
+      Lighter, cotton balls, rope, Duct tape, Paper/Pencil, iodine,slingshot, shots
+      <li>2</li>
+      Flint/Knife,rope, Duct Tape, Paper/Pencil, bandanas
+      <li>3</li>
+      Magnifying glass,rope, Duct tape/Paper/Pencil,
+      <li>4</li>
+      Matches, tinder, rope, Duct tape, Paper/pencil,
+      <li>body</li>
+      Whistle, Hat,
       </div>
     );
   }
