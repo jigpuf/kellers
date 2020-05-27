@@ -18,12 +18,13 @@ class Layouts extends React.Component {
           &nbsp;&lt;/head&gt;<br />
           &nbsp;&lt;body&gt;<br />
           &nbsp;&nbsp;&lt;&#33;-- all my comments here  --&gt;<br />
-          &nbsp;&nbsp;&lt;nav&gt;&lt;/nav&gt;<br />
-          &nbsp;&nbsp;&lt;header id='header'&gt;&lt;/header&gt;<br />
+          &nbsp;&nbsp;&lt;header id='mainHeader'&gt;&lt;/header&gt;<br />
+          &nbsp;&nbsp;&lt;nav id='mainNav'&gt;&lt;/nav&gt;<br />
           &nbsp;&nbsp;&lt;aside id='rightAside'&gt;&lt;/aside&gt;<br />
-          &nbsp;&nbsp;&lt;footer id='footer'&gt;&lt;/footer&gt;<br />
-          &nbsp;&nbsp;&lt;article id='article'&gt;<br />
-          &nbsp;&nbsp;&nbsp;&lt;h1&gt;Big Title&lt;/h1&gt;<br />
+          &nbsp;&nbsp;&lt;aside id='leftAside'&gt;&lt;/aside&gt;<br />
+          &nbsp;&nbsp;&lt;article id='mainArticle'&gt;<br />
+          &nbsp;&nbsp;&nbsp;&lt;h1&gt;Big Heading&lt;/h1&gt;<br />
+          &nbsp;&nbsp;&lt;footer id='mainFooter'&gt;&lt;/footer&gt;<br />
           &nbsp;&nbsp;&lt;/article&gt;<br />
           &nbsp;&lt;/body&gt;<br />
           &lt;/html&gt;<br />

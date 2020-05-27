@@ -9,6 +9,8 @@ import Simplicity from './efficiency/simplicity.js'
 import Space from './efficiency/space.js'
 import Spirituality from './efficiency/spirituality.js'
 import Time from './efficiency/time.js'
+import Check from './efficiency/check.js'
+
 
 class Efficiency extends React.Component {
   state = {
@@ -34,6 +36,7 @@ class Efficiency extends React.Component {
       {name: 'Space', slug: 'Space', component:<Space />},
       {name: 'Spirituality', slug: 'spirituality', component:<Spirituality />},
       {name: 'Time', slug: 'time', component:<Time />},
+      {name: 'Checklists', slug: 'check', component:<Check />},
     ]
     const renderItems = Items.map(item => {
       return (

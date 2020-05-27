@@ -14,6 +14,8 @@ class HtmlSetup extends React.Component {
             >Sublime(Mac)</a><br />
             <a href='https://notepad-plus-plus.org/' target='_blank'
             >Notepad ++(Windows)</a><br />
+            <a href='https://atom.io/' target='_blank'
+            >Atom</a><br />
           <h3>Software setup</h3>
             Sublime- to create html file<br />
             file&rarr;save with encoding&rarr;File Name:index.html

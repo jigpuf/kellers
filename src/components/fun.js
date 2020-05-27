@@ -9,7 +9,7 @@ import Education from './fun/education.js'
 import Travel from './fun/travel.js'
 import Bucket from './fun/bucket.js'
 
-class Paintball extends React.Component {
+class Fun extends React.Component {
   state = {
     tier1: undefined,
   }
@@ -54,4 +54,4 @@ class Paintball extends React.Component {
     )
     }
   }
-export default Paintball;
+export default Fun;

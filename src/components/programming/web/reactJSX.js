@@ -40,6 +40,8 @@ class Jsx extends React.Component {
         <hr />
         {renderTier2Component}
       </ul>
+      If you lose your file tree in Atom VIEW &rarr; TOGGLE FILE TREE
+      <hr />
       </div>
 
     )
