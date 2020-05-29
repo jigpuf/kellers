@@ -6,6 +6,7 @@ import Cpp from './programming/cpp.js'
 import PLC from './programming/plc.js'
 import Labview from './programming/labview.js'
 import MakingVideo from './programming/makingVideo.js'
+import Office from './programming/office.js'
 
 class Programming extends React.Component {
   state = {
@@ -25,6 +26,7 @@ class Programming extends React.Component {
       {name: 'PLC', slug: 'plc', component:<PLC /> },
       {name: 'Labview', slug: 'labview', component:<Labview /> },
       {name: 'Video', slug: 'video', component:<MakingVideo />},
+      {name: 'Office', slug: 'office', component:<Office />},
     ]
     const renderItems = Items.map(item => {
       return (

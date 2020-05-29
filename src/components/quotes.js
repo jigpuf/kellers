@@ -2,6 +2,7 @@ import React from 'react';
 import Author from './quotes/author.js';
 import Subject from './quotes/subject.js';
 import MovieQuotes from './quotes/movieQuotes.js';
+import ReadMe from './quotes/readMe.js';
 
 class Quotes extends React.Component {
   state = {
@@ -17,6 +18,7 @@ class Quotes extends React.Component {
       {name: 'Author', slug: 'author', component:<Author />},
       {name: 'Subject', slug: 'subject', component:<Subject /> },
       {name: 'Movie Quotes', slug: 'movies', component:<MovieQuotes />},
+      {name: 'Read Me', slug: 'readme', component:<ReadMe />},
     ]
     const renderItems = Items.map(item => {
       return (
