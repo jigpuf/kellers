@@ -47,10 +47,16 @@ class Media extends React.Component {
           onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;"
           >MyPDF</a>
         <h3>API</h3>
+          <li>Set up account with API provider</li>
+          <li>Look at documentation to find out if you need a key</li>
+          <li>App name you are using as well as local host name</li>
+          <li>Create App using npm create-react-app appName</li>
+          <li>Get fetch comands from documentation</li>
+          <li>Manipulate data</li>
         <h3>Meter</h3>
         <h3>Progress</h3>
         <h3>Canvas</h3>
-        
+
         <h3>Figure</h3>
 
 
