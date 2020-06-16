@@ -20,6 +20,10 @@ class Variables extends React.Component {
             <tr><td>Not changeable after assignment</td><td>const variableNameHere = valueHere;</td></tr>
             <tr><td>Global</td><td>var variableNameHere = valueHere;</td></tr>
           </table>
+          <h3>Example</h3>
+            let age = 25; // create variable age. type can be changed<br />
+            age = 30; //asign new value to age<br />
+          <h3></h3>
 
       </div>
     );

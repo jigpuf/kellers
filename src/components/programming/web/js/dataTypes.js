@@ -2,6 +2,9 @@ import React from 'react';
 import DataTypesBasics from './dataTypes/dataTypesBasics.js';
 import Strings from './dataTypes/strings.js';
 import Numbers from './dataTypes/jsNumbers.js';
+import Arrays from './dataTypes/arrays.js';
+import Boolean from './dataTypes/boolean.js';
+import TypeConversion from './dataTypes/typeConversion.js';
 
 class DataTypes extends React.Component {
   state = {
@@ -19,6 +22,9 @@ class DataTypes extends React.Component {
       {name: 'Data Types Basics', slug: 'basics', component:<DataTypesBasics />},
       {name: 'Strings', slug: 'strings', component:<Strings />},
       {name: 'Numbers', slug: 'numbers', component:<Numbers />},
+      {name: 'Arrays', slug: 'arrays', component:<Arrays />},
+      {name: 'Boolean', slug: 'boolean', component:<Boolean />},
+      {name: 'Type Conversion', slug: 'type', component:<TypeConversion />},
 
     ]
     const renderItems = Items.map(item => {

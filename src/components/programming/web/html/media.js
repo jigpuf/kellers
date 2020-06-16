@@ -49,9 +49,12 @@ class Media extends React.Component {
         <h3>API</h3>
           <li>Set up account with API provider</li>
           <li>Look at documentation to find out if you need a key</li>
-          <li>App name you are using as well as local host name</li>
-          <li>Create App using npm create-react-app appName</li>
+          <li>App name you are using as well as local host name(http://localhost:3000/)</li>
+          <li>Create App using npx create-react-app appName</li>
           <li>Get fetch comands from documentation</li>
+          <li>There will be a baseurl, possibly an api key, and some different perameters</li>
+          <li>It will look something like fetch(`givenbaseURL?apikey=givenapiKey&perameter1=given parameter1&parameter2=givenparameter2`)</li>
+          <li>? is the querry for the apikey and the amperasands are different perameters</li>
           <li>Manipulate data</li>
         <h3>Meter</h3>
         <h3>Progress</h3>

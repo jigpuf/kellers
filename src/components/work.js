@@ -1,7 +1,6 @@
 import React from 'react';
 import TimeOff from './work/timeOff.js'
 import Codes from './work/codes.js'
-import Controls from './work/controls.js'
 import Software from './work/software.js'
 import Avionics from './work/avionics.js'
 import WorkDone from './work/workDone.js'
@@ -23,7 +22,6 @@ class Work extends React.Component {
     const tier1Items = [
       {name: 'TimeOff', slug: 'time', component:<TimeOff />},
       {name: 'Codes', slug: 'codes', component:<Codes />},
-      {name: 'Controls', slug: 'controls', component:<Controls />},
       {name: 'Software', slug: 'computer', component:<Software />},
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},
       {name: 'Work Done', slug: 'done', component:<WorkDone />},

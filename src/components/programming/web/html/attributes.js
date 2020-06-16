@@ -20,11 +20,11 @@ class Attributes extends React.Component {
       {tag:'<div>', subTags:'', attribute:'', property:'', js:'',   slug: 'div'},
       {tag:'', subTags:'', attribute:'', property:'', js:'',   slug: ''},
       ]
-      const Globals = [
-        {attribute:'id', slug:'id'},
-        {tag:'', subTags:'', attribute:'', property:'', js:'',   slug: ''},
-        {tag:'', subTags:'', attribute:'', property:'', js:'',   slug: ''},
-        ]
+    const Globals = [
+      {attribute:'id', slug:'id'},
+      {tag:'', subTags:'', attribute:'', property:'', js:'',   slug: ''},
+      {tag:'', subTags:'', attribute:'', property:'', js:'',   slug: ''},
+      ]
     const renderItems = Items.map(item => {
       return (
         <tr key={item.slug}>
@@ -89,7 +89,7 @@ class Attributes extends React.Component {
             </tr>
             <tr>
               <td>audio controls</td>
-              <td></td>
+              <td>src, controls, type</td>
               <td></td>
             </tr>
             <tr>

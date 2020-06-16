@@ -28,6 +28,10 @@ class JsNumbers extends React.Component {
             <tr><td>Increment Down</td><td>--</td><td>let Variable = 4; Variable--;</td><td>3</td></tr>
             <tr><td>Set with Operator</td><td>+= -= *= /= **= %=</td><td>let Variable = 4; Variable *= 5;</td><td>20</td></tr>
           </table>
+          NAN means Not a number when program is expecting a number and gets
+          another data type.<br />
+          let likes = 'me' + 'hello';<br />
+          NAN<br />
       </div>
     );
   }

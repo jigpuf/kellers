@@ -16,7 +16,7 @@ class SwitchStatement extends React.Component {
             &#160;&#160;&#160;&#160;&#160;&#160;&#160;Console.log(‘You are stupid’);<br />
           &#125;<br />
           You got a B would be output<br />
-
+          Switch Statements are strict Quality<br />
       </div>
     );
   }

@@ -46,7 +46,12 @@ class Stocks extends React.Component {
         <li>Stop Limit</li>
         <li>Market Buy</li>
         <li>EMCA? Line</li>
-
+      <h3>Warren Buffet Method</h3>
+        <li>P/E Ratio under 15</li>
+        <li>P/B Ratio under 1.5</li>
+        <li></li>
+        <li></li>
+        <li></li>
       </div>
     );
   }

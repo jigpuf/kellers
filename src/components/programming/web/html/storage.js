@@ -5,6 +5,7 @@ class Storage extends React.Component {
     return (
       <div>
         <h2>Storage</h2>
+        const storedSymbols = window.localStorage.getItem('symbols');
       </div>
     );
   }

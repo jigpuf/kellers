@@ -22,7 +22,6 @@ class SideMenu extends React.Component {
       { name: 'Programming', slug: 'programming' },
       { name: 'Quotes', slug: 'quotes' },
       { name: 'Spanish', slug: 'spanish' },
-      { name: 'Stocks', slug: 'stocks' },
       { name: 'Stories', slug: 'stories' },
       { name: 'Survival', slug: 'survival' },
       { name: 'Links', slug: 'links' },

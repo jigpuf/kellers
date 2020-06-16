@@ -6,7 +6,7 @@ class Forms extends React.Component {
       <div>
       <h2>Forms</h2>
       input types-text, submit, radio, checkbox, number, range, color, date,
-      tel, email, url, password, file<br />
+      tel, email, url, password, file, pulldown menu<br />
       textarea<br />
       select/option- multiple<br />
       button,fieldset/legend,

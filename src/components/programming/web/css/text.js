@@ -14,6 +14,10 @@ class Text extends React.Component {
             <tr><td>text-decoration</td><td></td><td></td></tr>
             <tr><td>line-height</td><td></td><td></td></tr>
             <tr><td>text-align</td><td></td><td></td></tr>
+            <tr><td>color</td><td>color: black,</td><td>Choose color of font</td></tr>
+            <tr><td>letter spacing</td><td></td><td></td></tr>
+            <tr><td>text-align</td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td></tr>
           </table>
       </div>

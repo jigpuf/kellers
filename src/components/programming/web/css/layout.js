@@ -68,7 +68,15 @@ class Layout extends React.Component {
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align:center;<br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 20px;<br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-top: 2px solid green;<br />
+        &#125;<br /><br />
+
+        table, th, td &#123;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border: 1px solid black;<br />
         &#125;<br />
+
+        tr:nth-child(2n)&#123;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: lightgray;<br />
+        &#125;
         <br />
       </div>
     );

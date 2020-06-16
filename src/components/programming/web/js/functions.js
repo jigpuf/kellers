@@ -2,6 +2,10 @@ import React from 'react';
 import Declaration from './functions/declaration.js'
 import Arguments from './functions/arguments.js'
 import Arrow from './functions/arrow.js'
+import FM from './functions/fm.js'
+import Callbacks from './functions/callbacks.js'
+import ForEach from './functions/forEach.js'
+import Useful from './functions/useful.js'
 
 class Functions extends React.Component {
   state = {
@@ -19,6 +23,10 @@ class Functions extends React.Component {
       {name: 'Declaration/Expression', slug: 'declare', component:<Declaration />},
       {name: 'Arguments/parameters', slug: 'arguments', component:<Arguments />},
       {name: 'Arrow Functions', slug: 'arrow', component:<Arrow />},
+      {name: 'Functions/Methods', slug: 'methods', component:<FM />},
+      {name: 'Callbacks', slug: 'callback', component:<Callbacks />},
+      {name: 'For Each', slug: 'forEach', component:<ForEach />},
+      {name: 'Useful Functions', slug: 'useful', component:<Useful />},
     ]
     const renderItems = Items.map(item => {
       return (
