@@ -6,6 +6,12 @@ class Arrays extends React.Component {
       <div>
         <h2>Javascript Arrays</h2>
         <h3>Starting Array</h3>
+          Creating the array:<br />
+          let names = new Array();<br />
+          names[0] = 'Larry';<br />
+          names[1] = 'Curley';<br />
+          names[2] = 'Moe';<br /><br />
+          Creating literal array:<br />
           let names = ['Larry', 'Curley', 'Moe'];<br />
           let second = names[2];<br />
           console.log(second); // Moe<br />

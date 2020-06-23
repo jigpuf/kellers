@@ -6,6 +6,7 @@ import Subjects from './prophecy/subjects.js'
 import American from './prophecy/american.js'
 import Hyrum from './prophecy/hyrum.js'
 import BOM from './prophecy/bomProphecy.js'
+import Kingdoms from './prophecy/kingdoms.js'
 
 class Prophecy extends React.Component {
     state = {
@@ -29,7 +30,7 @@ class Prophecy extends React.Component {
           {name: 'American Covenant', slug: 'american', component:<American />},
           {name: 'Hyrum Andrus View', slug: 'hyrum', component:<Hyrum />},
           {name: 'BOM Prophecy', slug: 'bom', component:<BOM />},
-
+          {name: 'Kingdoms', slug: 'kingdoms', component:<Kingdoms />},
 
         ]
         const renderItems = Items.map(item => {

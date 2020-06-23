@@ -1,5 +1,5 @@
 import React from 'react';
-
+import BOM0913 from './alma/bom0913.js'
 class Alma extends React.Component {
   state= {
   tier2: undefined,
@@ -24,7 +24,7 @@ class Alma extends React.Component {
         {name: '10', slug:'10',},
         {name: '11', slug:'11',},
         {name: '12', slug:'12',},
-        {name: '13', slug:'13',},
+        {name: '13', slug:'13', component:<BOM0913 />},
         {name: '14', slug:'14',},
         {name: '15', slug:'15',},
         {name: '16', slug:'16',},
