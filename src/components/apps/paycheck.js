@@ -3,15 +3,15 @@ import React from 'react';
 class Paycheck extends React.Component {
   state ={
     hourlyWage: 35.5,
-    hoursWorked: 110,
+    hoursWorked: 90,
     insurance: 200,
-    effectiveHours:125,
+    effectiveHours:95,
     espp:.15,
     taxes: .11,
     selectedOption: 'night',
     standardDeduction:24800,
     shiftWage: 1.085,
-    mortgage:1800,
+    mortgage:1500,
     carInsurance:200,
     electricity:200,
     water:45,

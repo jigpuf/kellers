@@ -7,7 +7,7 @@ class Intro extends React.Component {
       <h3>Text</h3>
       <h4>Introduction</h4>
       <div class='twoColumn'>
-      <p>
+
         The Book of Mormon is a volume of holy scripture comparable to the
         Bible. It is a record of God’s dealings with ancient inhabitants of the
         Americas and contains the fulness of the everlasting gospel.<br />
@@ -23,12 +23,14 @@ class Intro extends React.Component {
         The crowning event recorded in the Book of Mormon is the personal
         ministry of the Lord Jesus Christ among the Nephites soon after His
         resurrection.<br />
+
         <ol>
-          <li>It puts forth the doctrines of the gospel</li>
-          <li>outlines the plan of salvation</li>
-          <li>tells men what they must do to gain peace in this
-          life and eternal salvation in the life to come.</li>
+          <li><mark>It puts forth the doctrines of the gospel</mark></li>
+          <li><mark>outlines the plan of salvation</mark></li>
+          <li><mark>tells men what they must do to gain peace in this
+          life and eternal salvation in the life to come.</mark></li>
         </ol>
+
         After Mormon completed his writings, he delivered the account to his son
         Moroni, who added a few words of his own and hid up the plates in the
         Hill Cumorah. On September 21, 1823, the same Moroni, then a glorified,
@@ -51,25 +53,26 @@ class Intro extends React.Component {
         Testimony of Eight Witnesses.”<br />
         We invite all men everywhere to:<br />
         <ol>
-          <li>read the Book of Mormon</li>
-          <li>ponder in their hearts the message it contains</li>
-          <li>ask God, the Eternal Father, in the name of Christ if the book is
-          true.</li>
+          <li><mark>read the Book of Mormon</mark></li>
+          <li><mark>ponder in their hearts the message it contains</mark></li>
+          <li><mark>ask God, the Eternal Father, in the name of Christ if the book is
+          true.</mark></li>
           Those who pursue this course and ask in faith will:
-          <li>gain a testimony of its truth and divinity by the power of the Holy
-          Ghost. (See Moroni 10:3–5.)</li>
+          <li><mark>gain a testimony of its truth and divinity by the power of the Holy
+          Ghost. (See Moroni 10:3–5.)</mark></li>
         </ol>
         Those who gain this divine witness from the Holy Spirit will also come
         to know by the same power that:
         <ol>
-          <li>Jesus Christ is the Savior of the world</li>
-          <li>Joseph Smith is His revelator and prophet in these last days</li>
-          <li>The Church of Jesus Christ of Latter-day Saints is the Lord’s
+          <li><mark>Jesus Christ is the Savior of the world</mark></li>
+          <li><mark>Joseph Smith is His revelator and prophet in these last days</mark></li>
+          <li><mark>The Church of Jesus Christ of Latter-day Saints is the Lord’s
           kingdom once again established on the earth, preparatory to the Second
-          Coming of the Messiah.</li>
+          Coming of the Messiah.</mark></li>
         </ol>
-      </p>
+
       </div>
+      <hr />
       <h4>Title Page</h4>
       <div class='twoColumn'>
       <p>
@@ -86,16 +89,16 @@ class Intro extends React.Component {
       An abridgment taken from the Book of Ether also, which is a record of the
       people of Jared, who were scattered at the time the Lord confounded the
       language of the people, when they were building a tower to get to
-      heaven—Which is to show unto the remnant of the house of Israel<br />
+      heaven—Which is to <mark>show unto the remnant of the house of Israel</mark><br />
       <ol>
-        <li>what great things the Lord hath done for their fathers</li>
-        <li>that they may know the covenants of the Lord</li>
-        <li>that they are not cast off forever</li>
+        <li><mark>what great things the Lord hath done for their fathers</mark></li>
+        <li><mark>that they may know the covenants of the Lord</mark></li>
+        <li><mark>that they are not cast off forever</mark></li>
       </ol>
       —And also to the convincing of the Jew and Gentile that:
       <ol>
-        <li>Jesus is the Christ, the Eternal God, manifesting himself unto all
-        nations</li>
+        <li><mark>Jesus is the Christ, the Eternal God, manifesting himself unto all
+        nations</mark></li>
       </ol>
       —And now, if there are faults they are the mistakes of men; wherefore,
       condemn not the things of God, that ye may be found spotless at the
@@ -103,6 +106,7 @@ class Intro extends React.Component {
       TRANSLATED BY JOSEPH SMITH, Jun.
       </p>
       </div>
+      <hr />
       <h3>Lectures</h3>
       <h4>Interpreter Round Table:</h4>
         <a href="https://www.youtube.com/watch?v=NKb1SO4X-q0&list=PLRMn4gyXMWLujWOQeQnYwuONeAY0VzIXv" target='_blank'

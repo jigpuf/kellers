@@ -4,6 +4,7 @@ import Solar from './apps/solar.js'
 import Converters from './apps/converters.js'
 import Dice from './apps/dice.js';
 import TicTac from './apps/tictac.js';
+import Fitness from './apps/fitness.js';
 import SolarCopy from './apps/solar-copy.js';
 
 
@@ -35,7 +36,7 @@ class Apps extends React.Component {
       {name: 'Scripture Keeper', slug: 'scripture'},
       {name: 'Companion Planting', slug: 'companion'},
       {name: 'Quotes', slug: 'quotes'},
-      {name: 'Fitness Tracker', slug: 'fitness'},
+      {name: 'Fitness Tracker', slug: 'fitness', component: <Fitness/>},
       {name: 'Solar-Copy', slug: 'copy', component: <SolarCopy />},
       {name: 'Resister', slug: 'resister'},
     ]

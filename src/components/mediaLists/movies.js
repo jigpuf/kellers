@@ -11,10 +11,10 @@ class Movies extends React.Component {
       {movie: 'Alien', slug: 'alien', url:'https://www.youtube.com/watch?v=LjLamj-b0I8' },
       {movie: 'Alien 2', slug: '', url:'https://www.youtube.com/watch?v=XKSQmYUaIyE' },
       {movie: '***American Beauty', slug: '', url:'https://www.youtube.com/watch?v=3ycmmJ6rxA8' },
-      {movie: 'Amile', slug: '', url:'https://www.youtube.com/watch?v=HUECWi5pX7o' },
+      {movie: '***Amile', slug: '', url:'https://www.youtube.com/watch?v=HUECWi5pX7o' },
       {movie: 'Anchorman', slug: 'anchorman', url:'https://www.youtube.com/watch?v=-T3wnP91OnI' },
       {movie: 'Apocalypto', slug: 'apoalypto', url:'https://www.youtube.com/watch?v=pXuwjdQx924' },
-      {movie: 'Atlantis', slug: 'atlantis', url:'https://www.youtube.com/watch?v=sZIimDPZQwg' },
+      {movie: '***Atlantis', slug: 'atlantis', url:'https://www.youtube.com/watch?v=sZIimDPZQwg' },
       {movie: '***Babadook', slug: 'babadook', url:'https://www.youtube.com/watch?v=k5WQZzDRVtw' },
       {movie: 'Batteries not Included', slug: 'batteries', url:'https://www.youtube.com/watch?v=h25ZL7fxZ8o' },
       {movie: '***Beach', slug: 'beach', url:'https://www.youtube.com/watch?v=RweHayPG3wA' },
@@ -22,6 +22,14 @@ class Movies extends React.Component {
       {movie: 'Beowolf', slug: 'beowolf', url:'https://www.youtube.com/watch?v=DaShOr5AeKA' },
       {movie: 'Beatlejuice', slug: 'beetlejuice', url:'https://www.youtube.com/watch?v=ickbVzajrk0' },
       {movie: '***Big Fish', slug: 'bigFish', url:'https://www.youtube.com/watch?v=dF-Iy7vIOJA' },
+      {movie: 'Big Lebowski', slug: 'bigLebowski', url:'https://www.youtube.com/watch?v=cd-go0oBF4Y' },
+      {movie: 'Black Hawk Down', slug: 'blackHawk', url:'https://www.youtube.com/watch?v=2GfBkC3qs78' },
+      {movie: 'Blade', slug: 'Blade', url:'https://www.youtube.com/watch?v=kaU2A7KyOu4' },
+      {movie: 'Blair Witch Project', slug: 'blairWhitch', url:'https://www.youtube.com/watch?v=a_Hw4bAUj8A' },
+      {movie: 'Boondock Saints', slug: 'boondock', url:'https://www.youtube.com/watch?v=ydXojYfCF3I' },
+      {movie: '', slug: '', url:'' },
+      {movie: '', slug: '', url:'' },
+      {movie: '', slug: '', url:'' },
       {movie: '', slug: '', url:'' },
     ]
     const renderItems = Items.map(item => {
@@ -43,16 +51,6 @@ class Movies extends React.Component {
           </div>
       <div className= "twoColumn">
       <ol>
-        <li><a href="https://www.youtube.com/watch?v=cd-go0oBF4Y" target='_blank'
-        >Big Lebowski</a></li>
-        <li><a href="https://www.youtube.com/watch?v=2GfBkC3qs78" target='_blank'
-        >Black Hawk Down</a></li>
-        <li><a href="https://www.youtube.com/watch?v=kaU2A7KyOu4" target='_blank'
-        >Blade</a></li>
-        <li><a href="https://www.youtube.com/watch?v=a_Hw4bAUj8A" target='_blank'
-        >Blair Witch Project</a></li>
-        <li><a href="https://www.youtube.com/watch?v=ydXojYfCF3I" target='_blank'
-        >Boondock Saints</a></li>
         <li><a href="https://www.youtube.com/watch?v=PlDbxogHPao" target='_blank'
         >***Bram Stokers Dracula</a></li>
         <li><a href="https://www.youtube.com/watch?v=pa9331xmvhg" target='_blank'
@@ -189,8 +187,6 @@ class Movies extends React.Component {
       <h3>To Watch</h3>
         <li><a href="https://www.youtube.com/watch?v=u1uP_8VJkDQ" target='_blank'
         >Night Crawler</a></li>
-        <li><a href="https://www.youtube.com/watch?v=om9YCk7ufHs" target='_blank'
-        >The Foreigner(Jackie Chan)</a></li>
         <li><a href="https://www.youtube.com/watch?v=iqkcX_I5MMU" target='_blank'
         >The edge</a></li>
         <li><a href="https://www.youtube.com/watch?v=kKsceLZu_wg" target='_blank'

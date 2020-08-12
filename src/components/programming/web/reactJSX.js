@@ -2,6 +2,7 @@ import React from 'react';
 import Lectures from './react/lectures.js'
 import Notes from './react/notes.js'
 import Mine from './react/mine.js'
+import Dif from './react/dif.js'
 
 class Jsx extends React.Component {
   state = {
@@ -18,7 +19,8 @@ class Jsx extends React.Component {
     const Items = [
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
-      {name: 'MyBook of React', slug:'mine', component:<Mine />}
+      {name: 'MyBook of React', slug:'mine', component:<Mine />},
+      {name: 'Different from JS', slug:'dif', component:<Dif />},
     ]
     const renderItems = Items.map(item => {
       return (

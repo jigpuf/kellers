@@ -18,7 +18,8 @@ class Useful extends React.Component {
           Math.PI;<br />
           Math.floor();<br />
         <h3>Event Handling</h3>
-        <h3></h3>
+        <h3>Time</h3>
+          Date().getTime();
       </div>
     );
   }
