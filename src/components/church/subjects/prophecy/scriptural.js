@@ -205,7 +205,8 @@ class Scriptural extends React.Component {
           <a href='https://www.youtube.com/watch?v=XtPR_mBWdas'
           >Alegory Breakdown</a>
         </ol>
-        6<br />
+        6-<br />
+        Mosiah 12<br />
         3 Ne 16,20-22,24,25<br />
         Mormon 5,6<br />
         Ether 4,8,13<br />

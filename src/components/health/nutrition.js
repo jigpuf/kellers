@@ -1,5 +1,9 @@
 import React from 'react'
 import Vitamins from './nutrition/vitamins.js'
+import Minerals from './nutrition/minerals.js'
+import Amino from './nutrition/amino.js'
+import Compounds from './nutrition/compounds.js'
+
 
 class Nutrition extends React.Component {
   state = {
@@ -13,9 +17,9 @@ class Nutrition extends React.Component {
   render () {
     const Items = [
       {name: 'Vitamins', slug: 'vitamins', component:<Vitamins /> },
-      {name: 'Minerals', slug: 'minerals' },
-      {name: 'Amino Acids', slug: 'amino' },
-      {name: 'Compounds', slug: 'compounds' },
+      {name: 'Minerals', slug: 'minerals', component:<Minerals /> },
+      {name: 'Amino Acids', slug: 'amino', component:<Amino /> },
+      {name: 'Compounds', slug: 'compounds', component:<Compounds /> },
     ]
     const renderItems = Items.map(item => {
       return (

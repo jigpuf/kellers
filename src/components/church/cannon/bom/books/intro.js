@@ -140,6 +140,7 @@ class Intro extends React.Component {
         Joseph Smith</li>
         <li>Put forth the doctrines of the gospel</li>
         <li>Explains the Plan of Salvation</li>
+        <li>Shows how to find peace in life and Salvation</li>
         </ol>
         To the remnant of Israel:
         <ol>
