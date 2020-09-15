@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 //so it needs to be imported.
 
 ReactDOM.render(<App />, document.getElementById('root'));
+//ReactDOM.render(<App />, document.querySelector('#root')); This works too
 //This puts the DOM into the root that lives in index.html
 
 

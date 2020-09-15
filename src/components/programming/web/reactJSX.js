@@ -1,5 +1,6 @@
 import React from 'react';
 import Lectures from './react/lectures.js'
+import FileStructure from './react/fileStructure.js'
 import Notes from './react/notes.js'
 import Mine from './react/mine.js'
 import Dif from './react/dif.js'
@@ -19,10 +20,11 @@ class Jsx extends React.Component {
 
     const Items = [
       {name: 'Setup', slug:'setup', component:<Setup />},
+      {name: 'File Structure', slug:'fileStructure', component:<FileStructure />},
       {name: 'Lectures', slug: 'lectures', component:<Lectures />},
       {name: 'Notes', slug: 'notes', component:<Notes />},
       {name: 'MyBook of React', slug:'mine', component:<Mine />},
-      {name: 'Different from JS', slug:'dif', component:<Dif />},    
+      {name: 'Different from JS', slug:'dif', component:<Dif />},
     ]
     const renderItems = Items.map(item => {
       return (
