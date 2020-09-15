@@ -5,7 +5,7 @@ class Layouts extends React.Component {
     return (
       <div>
         <h2>Layouts</h2>
-          <h3>Example</h3>
+          <h3>Starting Code</h3>
           <pre>
           &lt;!DOCTYPE html/&gt;<br />
           &lt;html lang="en-US"/&gt;<br />
@@ -29,6 +29,8 @@ class Layouts extends React.Component {
           &nbsp;&lt;/body&gt;<br />
           &lt;/html&gt;<br />
           </pre>
+          <h3>Header Layouts</h3>
+          &nbsp;&nbsp;&lt;header id='mainHeader'&gt;&lt;/header&gt;<br />
       </div>
     );
   }

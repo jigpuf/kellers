@@ -7,13 +7,13 @@ class Media extends React.Component {
         <h2>Media</h2>
         <h3>Links</h3>
           &lt;a href = '....' target="_blank" &gt;Link Name&lt;/a&gt;<br />
-          <a href=''>Link Name</a><br />
+          <a href='' >Link Name</a><br />
 
           <table>
             <tr><th>Path type</th><th>Syntax</th></tr>
             <tr><td>External Link</td><td>href = 'http:....'</td></tr>
             <tr><td>Up a folder</td><td>href='../'</td></tr>
-            <tr><td>In same folder</td><td>href='nothing required'</td></tr>
+            <tr><td>In same folder</td><td>href='./'</td></tr>
             <tr><td>Internal to page</td><td>href='#idName'</td></tr>
             <tr></tr>
           </table>
@@ -25,6 +25,14 @@ class Media extends React.Component {
             <li>GIF- moving images</li>
             <li>SVG- Vector</li>
           </ul>
+          Copyright free images:<br />
+          <ul>
+            <li><a href='https://www.pexels.com/royalty-free-images' target='_blank'>Pexels</a></li>
+            <li><a href='https://pixabay.com/' target='_blank'>Pixabay</a></li>
+            <li><a href='https://gratisography.com/' target='_blank'>Gratisography</a></li>
+          </ul>
+          Images can be cropped down and resized using adobe preview <br />
+          Tools&rarr;Adjust Size
         <h3>Video</h3>
           &lt;video id='idName' controls src='path.mp4' poster='path.png'&gt;<br />
           &lt;/video&gt;<br />
