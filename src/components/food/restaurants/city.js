@@ -8,6 +8,8 @@ class City extends React.Component {
       <li>Salt Lake</li>
       Spitz, The Pie<hr/>
       <h3>Texas</h3>
+      <li>Brownsville</li>
+      The Vermillion
       <li>San Antonio</li>
       El Mirasol
       <li>Killeen</li>

@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Aid extends React.Component {
-  render () {
+const Aid = () =>{
     return (
       <div>
         <h2>First Aid</h2>
@@ -21,8 +20,8 @@ class Aid extends React.Component {
           <li>Razor blades</li>
           <li>Tweezers</li>
       </div>
-    );
+    )
   }
-}
+
 
 export default Aid;

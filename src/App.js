@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import SideMenu from './components/sideMenu';
 import MainSection from './components/mainSection';
+import WhiteHorse from './text/whiteHorse.js'
 //must import all components that will render in this App component.
 
 class App extends React.Component {
@@ -33,6 +34,7 @@ to the state of active Tab.
         </header>
         <SideMenu openTab={this.openTab} activeTab={activeTab} />
         <MainSection activeTab2={activeTab} />
+        <WhiteHorse name="Kman" />
       </div>
     );
 /*
