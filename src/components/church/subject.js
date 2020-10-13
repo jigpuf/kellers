@@ -13,6 +13,7 @@ import Symbolism from './subjects/symbolism.js'
 import Comandments from './subjects/comandments.js'
 import Whore from './subjects/whore.js'
 import Quoting from './subjects/quoting.js'
+import Festivals from './subjects/festivals.js'
 
 class Subject extends React.Component {
   state= {
@@ -45,6 +46,8 @@ pickTier2 = (item) => {
       {name: 'Church of the Devil', slug:'whore', component:<Whore />},
       {name: 'Book of Abraham', slug:'abraham',},
       {name: 'Scripture Quoting', slug:'quote', component:<Quoting />},
+      {name: 'Festivals of Moses', slug:'moses', component:<Festivals />},
+
 
     ]
       const renderItems = Items.map(item => {

@@ -5,6 +5,8 @@ import Remote from './software/remote.js'
 import ProgramLinks from './software/programLinks.js'
 import SoftwareRequest from './software/softwareRequest.js'
 import BridgeAnswers from './software/bridgeAnswers.js'
+import Portal from './software/portal.js'
+
 
 
 class Software extends React.Component {
@@ -24,7 +26,7 @@ class Software extends React.Component {
       {name:'program links', slug:'programLinks', component:<ProgramLinks />},
       {name:'Software Requests', slug:'request', component:<SoftwareRequest />},
       {name:'Bridge Answers', slug:'bridge', component:<BridgeAnswers />},
-
+      {name:'Part Portal', slug:'portal', component:<Portal />},
     ]
     const renderItems = Items.map(item => {
       return (
