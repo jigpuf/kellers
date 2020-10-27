@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-class Movies extends React.Component {
-  render () {
+const Movies = () => {
     const Items = [
       {movie: 'Adjustment Bureau', slug: 'adjust', url:'https://www.youtube.com/watch?v=wZJ0TP4nTaE' },
       {movie: 'Aeon Flux', slug: 'aeon', url:'https://www.youtube.com/watch?v=d11loPMnC2w' },
@@ -27,6 +26,13 @@ class Movies extends React.Component {
       {movie: 'Blade', slug: 'Blade', url:'https://www.youtube.com/watch?v=kaU2A7KyOu4' },
       {movie: 'Blair Witch Project', slug: 'blairWhitch', url:'https://www.youtube.com/watch?v=a_Hw4bAUj8A' },
       {movie: 'Boondock Saints', slug: 'boondock', url:'https://www.youtube.com/watch?v=ydXojYfCF3I' },
+      {movie: '***Bram Stokers Dracula', slug: 'bram', url:'https://www.youtube.com/watch?v=PlDbxogHPao' },
+      {movie: 'Bubba Hotep', slug: 'bubba', url:'https://www.youtube.com/watch?v=pa9331xmvhg' },
+      {movie: 'Burbs', slug: 'burbs', url:'https://www.youtube.com/watch?v=pyRUijyrXr4' },
+      {movie: 'Cabin in the Woods', slug: 'cabin', url:'https://www.youtube.com/watch?v=NsIilFNNmkY' },
+      {movie: '***Castaway', slug: 'castaway', url:'https://www.youtube.com/watch?v=2TWYDogv4WQ' },
+      {movie: 'Cell', slug: 'cell', url:'https://www.youtube.com/watch?v=RQUdbvUVfgE' },
+      {movie: 'Cocoon', slug: 'cocoon', url:'https://www.youtube.com/watch?v=HHamE8gmA8Q' },
       {movie: '', slug: '', url:'' },
       {movie: '', slug: '', url:'' },
       {movie: '', slug: '', url:'' },
@@ -51,20 +57,6 @@ class Movies extends React.Component {
           </div>
       <div className= "twoColumn">
       <ol>
-        <li><a href="https://www.youtube.com/watch?v=PlDbxogHPao" target='_blank'
-        >***Bram Stokers Dracula</a></li>
-        <li><a href="https://www.youtube.com/watch?v=pa9331xmvhg" target='_blank'
-        >Bubba Hotep</a></li>
-        <li><a href="https://www.youtube.com/watch?v=pyRUijyrXr4" target='_blank'
-        >Burbs</a></li>
-        <li><a href='https://www.youtube.com/watch?v=NsIilFNNmkY' target='_blank'
-        >Cabin in the Woods</a></li>
-        <li><a href='https://www.youtube.com/watch?v=2TWYDogv4WQ' target='_blank'
-        >***Castaway</a></li>
-        <li><a href='https://www.youtube.com/watch?v=RQUdbvUVfgE' target='_blank'
-        >Cell</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HHamE8gmA8Q' target='_blank'
-        >Cocoon</a></li>
         <li><a href='https://www.youtube.com/watch?v=OFVGCUIXJls' target='_blank'
         >Charlie and the Chocolate F</a></li>
         <li><a href='https://www.youtube.com/watch?v=AEOfT7hUcDs' target='_blank'
@@ -215,7 +207,7 @@ class Movies extends React.Component {
       </div>
       </div>
     );
-  }
+  
 }
 
 export default Movies;
