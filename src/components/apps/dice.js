@@ -1,72 +1,86 @@
 import React, {useState} from 'react';
 
 const Dice = () => {
-  const [sides,changeSides] = useState(20);
-  const [output,rolled] = useState(0);
-  const [dice,changeDice] = useState(1);
-  const [adjuster,changeAdjuster] = useState(0);
-  const [rollNumber, changeRollNumber] = useState(0);
-  const [total, addTotal] = useState(0);
+  const [output,setOutput] = useState([]);
+  const [options,setOptions] = useState({sides:20, dice:5, adjuster:0});
 
   const rollDice = () => {
-    let finalNumber;
-    finalNumber = Math.floor(Math.random() * Math.floor(sides))+1+adjuster;
-    if(rollNumber<dice){
-      changeRollNumber(rollNumber+1);
-      addTotal(total+finalNumber);
+    const finalNumber = Math.floor(Math.random() * options.sides)+1+options.adjuster;
+    const rollArray = [...output,finalNumber];
+    //spread operator looks at output[], copies array elements and adds new element = to value of finalNumber
+    if(output.length<options.dice){
+      setOutput(rollArray);
     }
-    else {
-      changeRollNumber(0);
-      rolled(0);
-      addTotal(0);
-      return;
-    }
-      rolled(finalNumber);
   }
-
-  const forChangeSides = (event) => {
-    const numberOfSides = parseInt(event.target.value,10);
-    changeSides(numberOfSides);
+  const clearButton = () =>{
+    setOutput([]);
   }
-
-  const forChangeDice = (event) => {
-    const numberOfDice = parseInt(event.target.value,10);
-    changeDice(numberOfDice);
-  }
-
-  const forChangeAdjuster = (event) => {
-    const rollAdjuster = parseInt(event.target.value,10);
-    changeAdjuster(rollAdjuster);
+  const forChange = (event) => {
+    const name = event.target.name;
+    const value = parseInt(event.target.value,10);
+    setOptions({...options, [name]:value});
   }
 
 
+  const rollTable = output.map((number,index) =>{
+    return (
+      <tr>
+        <td>{index+1}</td>
+        <td>{number}</td>
+      </tr>
+    )
+  })
+
+  const total = output.reduce((total,number) =>{
+    return total+number;
+  },0);
+
+
+//0 is initial value of total.  Total is the running total and number is the element
     return (
       <div>
         Sides to Dice:
         <input
+          name="sides"
           type="number"
-          value={sides}
-          onChange={forChangeSides}/>
+          value={options.sides}
+          onChange={forChange}/>
           <br />
         Roll Adjuster:
         <input
+          name="adjuster"
           type="number"
-          value={adjuster}
-          onChange={forChangeAdjuster}/>
+          value={options.adjuster}
+          onChange={forChange}/>
           <br />
         Number of Dice:
         <input
+          name="dice"
           type= 'number'
-          value={dice}
-          onChange={forChangeDice}/>
+          value={options.dice}
+          onChange={forChange}/>
         <button
           onClick={rollDice}>Roll em'
         </button>
-        <h1>Roll:{rollNumber}</h1>
-        <h1>{output}</h1>
-        <h1>Total:{total}</h1>
+        <table>
+          <tr>
+            <th>Roll</th>
+            <th>Reading</th>
+          </tr>
+          {rollTable}
+          <tr>
+            <td>Total</td>
+            <td>{total}</td>
+          </tr>
+        </table>
+        <button
+          onClick={clearButton}>Clear
+        </button>
       </div>
+
     );
 }
 export default Dice;
 //add dice adjuster, number of dice, set up for dice state like hero quest.
+
+//<h1>Roll:{rollNumber}</h1>
