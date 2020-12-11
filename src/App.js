@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import SideMenu from './components/sideMenu';
 import MainSection from './components/mainSection';
-import WhiteHorse from './text/whiteHorse.js'
+import WhiteHorse from './text/whiteHorse.js';
+
 //must import all components that will render in this App component.
 
 class App extends React.Component {

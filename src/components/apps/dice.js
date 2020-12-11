@@ -3,19 +3,25 @@ import React, {useState} from 'react';
 const Dice = () => {
   const [output,setOutput] = useState([]);
   const [options,setOptions] = useState({sides:20, dice:5, adjuster:0});
+  const [classism,setClassism] = useState(null);
 
   const rollDice = () => {
-    const finalNumber = Math.floor(Math.random() * options.sides)+1+options.adjuster;
-    const rollArray = [...output,finalNumber];
+    const roll = Math.floor(Math.random() * options.sides)+1+options.adjuster;
+    const rollArray = [...output,roll];
+    const doneValue = 'done';
     //spread operator looks at output[], copies array elements and adds new element = to value of finalNumber
     if(output.length<options.dice){
       setOutput(rollArray);
     }
+    else{
+      setClassism(doneValue);
+    }
   }
   const clearButton = () =>{
     setOutput([]);
+    setClassism('null');
   }
-  const forChange = (event) => {
+  const changeOptions = (event) => {
     const name = event.target.name;
     const value = parseInt(event.target.value,10);
     setOptions({...options, [name]:value});
@@ -44,21 +50,21 @@ const Dice = () => {
           name="sides"
           type="number"
           value={options.sides}
-          onChange={forChange}/>
+          onChange={changeOptions}/>
           <br />
         Roll Adjuster:
         <input
           name="adjuster"
           type="number"
           value={options.adjuster}
-          onChange={forChange}/>
+          onChange={changeOptions}/>
           <br />
         Number of Dice:
         <input
           name="dice"
           type= 'number'
           value={options.dice}
-          onChange={forChange}/>
+          onChange={changeOptions}/>
         <button
           onClick={rollDice}>Roll em'
         </button>
@@ -70,7 +76,7 @@ const Dice = () => {
           {rollTable}
           <tr>
             <td>Total</td>
-            <td>{total}</td>
+            <td className={classism}><span >{total}</span></td>
           </tr>
         </table>
         <button

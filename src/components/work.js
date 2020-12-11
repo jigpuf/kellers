@@ -5,57 +5,24 @@ import Software from './work/software.js'
 import Avionics from './work/avionics.js'
 import WorkDone from './work/workDone.js'
 import SuperProject from './work/superProject.js'
+import ButtonMaker from './buttonMaker.js';
 
 
+const Work = () =>{
 
-
-class Work extends React.Component {
-  state = {
-    tier1: undefined,
-  }
-  pickTier1  = (item) => {
-    return () => {
-      this.setState({tier1:item})
-    }
-  }
-  render () {
-    const tier1Items = [
+    const items = [
       {name: 'TimeOff', slug: 'time', component:<TimeOff />},
       {name: 'Codes', slug: 'codes', component:<Codes />},
       {name: 'Software', slug: 'computer', component:<Software />},
       {name: 'Avionics', slug: 'avionics', component:<Avionics />},
       {name: 'Work Done', slug: 'done', component:<WorkDone />},
       {name: 'Super Project', slug :'super', component:<SuperProject />,},
-
-
-
-
     ]
-    const renderTier1Items = tier1Items.map(item => {
-      return (
-        <button
-          key={item.slug}
-          onClick={this.pickTier1(item.slug)}
-          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
-        >{item.name}</button>
-      )
-    })
-    const tier1 = tier1Items.filter(item => {
-      return this.state.tier1 === item.slug;
-    });
-    const renderTier2Component = tier1[0] && tier1[0].component;
+
     return (
       <div>
-        <ul>
-          {renderTier1Items}
-        </ul>
-        <h3><a href='http://dcs-helper.herokuapp.com' target='_blank'
-        >DCS Helper</a><br /></h3>
-        <hr />
-        {renderTier2Component}
+        <ButtonMaker buttons={items}/>
       </div>
     )
-    }
-  }
-
+    };
 export default Work;

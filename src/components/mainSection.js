@@ -54,7 +54,7 @@ const MainSection = (props) => {
       {activeTab3 === 'survival' && <Survival />}
       {activeTab3 === 'construction' && <Construction />}
       {activeTab3 === 'links' && <Links />}
-
+ 
     </div>
   );
 };

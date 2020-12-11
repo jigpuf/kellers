@@ -5,47 +5,24 @@ import Geometry from './math/geometry.js'
 import Trigonometry from './math/trigonometry.js'
 import Applied from './math/applied.js'
 import Paradox from './math/paradox.js';
+import ButtonMaker from './buttonMaker.js';
 
-class Math extends React.Component {
-  state = {
-    tier1: undefined,
-  }
-  pickTier1  = (item) => {
-    return () => {
-      this.setState({tier1:item})
-    }
-  }
-  render () {
-    const tier1Items = [
-      {name: 'Arithmetic', slug: 'arithmetic', component:<Arithmetic /> },
-      {name: 'Algebra', slug: 'algebra', component:<Algebra />},
-      {name: 'Geometry', slug: 'geometry', component:<Geometry /> },
-      {name: 'Trigonometry', slug: 'trig', component:<Trigonometry /> },
-      {name: 'Applied Math', slug: 'applied', component:<Applied /> },
-      {name: 'Paradoxes', slug: 'paradoxes', component:<Paradox /> },
-    ]
-    const renderTier1Items = tier1Items.map(item => {
-      return (
-        <button
-          key={item.slug}
-          onClick={this.pickTier1(item.slug)}
-          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
-        >{item.name}</button>
-      )
-    })
-    const tier1 = tier1Items.filter(item => {
-      return this.state.tier1 === item.slug;
-    });
-    const renderTier2Component = tier1[0] && tier1[0].component;
-    return (
-      <div>
-        <ul>
-          {renderTier1Items}
-        </ul>
-        <hr />
-        {renderTier2Component}
-      </div>
-    )
-    }
-  }
+const Math = () =>{
+
+  const items = [
+    {name: 'Arithmetic', slug: 'arithmetic', component:<Arithmetic /> },
+    {name: 'Algebra', slug: 'algebra', component:<Algebra />},
+    {name: 'Geometry', slug: 'geometry', component:<Geometry /> },
+    {name: 'Trigonometry', slug: 'trig', component:<Trigonometry /> },
+    {name: 'Applied Math', slug: 'applied', component:<Applied /> },
+    {name: 'Paradoxes', slug: 'paradoxes', component:<Paradox /> },
+  ]
+
+  return (
+    <div>
+      <ButtonMaker buttons={items}/>
+    </div>
+  )
+  };
+
 export default Math;

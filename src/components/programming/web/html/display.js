@@ -5,12 +5,12 @@ class Display extends React.Component {
     return (
       <div>
         <h2>Tables</h2>
-          <p>
+          <pre>
             &lt;table&gt;<br />
                  &lt;tr&gt;&lt;th&gt;Number&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;/tr&gt;<br />
                  &lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Porpois Oriface&lt;/td&gt;&lt;/tr&gt;<br />
             &lt;/table&gt;<br />
-          </p>
+          </pre>
           Renders:<br />
           <table>
             <tr><th>Number</th><th>Name</th></tr>
@@ -20,12 +20,12 @@ class Display extends React.Component {
         <h2>Lists</h2>
           <div class='twoColumn'>
             Ordered List:
-            <p>
+            <pre>
               &lt;ol&gt;<br />
                    &lt;li&gt;2Pac&lt;/li&gt;<br />
                    &lt;li&gt;Eminem&lt;/li&gt;<br />
               &lt;/ol&gt;<br />
-            </p>
+            </pre>
             Renders:<br />
             <ol>
               <li>2Pac</li>
