@@ -1,15 +1,18 @@
 import React from 'react';
+import Scriptures from '../../scriptures.js';
 
-class Scriptural extends React.Component {
-  render () {
+const Scriptural = () => {
     return (
       <div className='twoColumn'>
-      <h3>Doctrine and Covenants</h3>
-        <p>
-        1-The Lord and Satan will <mark>both have power over their dominions.
-        </mark>This will happen after or as peace is taken from the Earth(35,36)
-        </p>
-        <p>
+      <h2>Doctrine and Covenants 1</h2>
+
+        <ol>
+          <li><strong>Peace taken from earth</strong></li>
+          <li><strong>God and Devil have power</strong></li>
+        </ol>
+        <Scriptures code='dc0135' />
+        <Scriptures code='dc0136' />
+      <h2>Doctrine and Covenants 45</h2>
         45-Remnant will remain scattered until the <mark>time of the Gentiles
         is fulfilled.</mark> There will be wars and rumors of wars.The earth
         will be in commotion. Men's hearts will fail them. They will claim He
@@ -37,7 +40,19 @@ class Scriptural extends React.Component {
         will be there.</mark> It will be called Zion. If any man doesn't want
         to fight in the chaos, he will have to come to Zion. It will be the only
         people not at war with its neighbor.(63-75)
-        </p>
+        <Scriptures code='dc4563' />
+        <Scriptures code='dc4564' />
+        <Scriptures code='dc4565' />
+        <Scriptures code='dc4566' />
+        <Scriptures code='dc4567' />
+        <Scriptures code='dc4568' />
+        <Scriptures code='dc4569' />
+        <Scriptures code='dc4570' />
+        <Scriptures code='dc4571' />
+        <Scriptures code='dc4572' />
+        <Scriptures code='dc4573' />
+        <Scriptures code='dc4574' />
+        <Scriptures code='dc4575' />
         <p>
         49-The heaven and Earth will be shaken. At the sounding of the trump,
         <mark>mountains and Valleys will be made smooth.</mark> Before the
@@ -137,6 +152,21 @@ class Scriptural extends React.Component {
         </p>
         <p>
         97-
+        D&C 97:15 And inasmuch as my people build a house unto me in the name of the Lord, and do not suffer any unclean thing to come into it, that it be not defiled, my glory shall rest upon it;
+        D&C 97:16 Yea, and my presence shall be there, for I will come into it, and all the pure in heart that shall come into it shall see God.
+        D&C 97:17 But if it be defiled I will not come into it, and my glory shall not be there; for I will not come into unholy temples.
+        D&C 97:18 And, now, behold, if Zion do these things she shall prosper, and spread herself and become very glorious, very great, and very terrible.
+        D&C 97:19 And the nations of the earth shall honor her, and shall say: Surely Zion is the city of our God, and surely Zion cannot fall, neither be moved out of her place, for God is there, and the hand of the Lord is there;
+        D&C 97:20 And he hath sworn by the power of his might to be her salvation and her high tower.
+        D&C 97:21 Therefore, verily, thus saith the Lord, let Zion rejoice, for this is Zion--THE PURE IN HEART; therefore, let Zion rejoice, while all the wicked shall mourn.
+        D&C 97:22 For behold, and lo, vengeance cometh speedily upon the ungodly as the whirlwind; and who shall escape it?
+        D&C 97:23 The Lord's scourge shall pass over by night and by day, and the report thereof shall vex all people; yea, it shall not be stayed until the Lord come;
+        D&C 97:24 For the indignation of the Lord is kindled against their abominations and all their wicked works.
+        D&C 97:25 Nevertheless, Zion shall escape if she observe to do all things whatsoever I have commanded her.
+        D&C 97:26 But if she observe not to do whatsoever I have commanded her, I will visit her according to all her works, with sore affliction, with pestilence, with plague, with sword, with vengeance, with devouring fire.
+        D&C 97:27 Nevertheless, let it be read this once to her ears, that I, the Lord, have accepted of her offering; and if she sin no more none of these things shall come upon her;
+        D&C 97:28 And I will bless her with blessings, and multiply a multiplicity of blessings upon her, and upon her generations forever and ever, saith the Lord your God. Amen.
+
         101,103,105,106,109,112,113,115,116,130,133
         </p>
       <h3>Book of Mormon</h3>
@@ -241,10 +271,11 @@ class Scriptural extends React.Component {
 
       <h3>Consider:</h3>
         D&C 29,43,57,63,64,86,
+
       <br /><br /><br /><br /><br />
+
       </div>
     );
-  }
-}
+};
 
 export default Scriptural;

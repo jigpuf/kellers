@@ -23,7 +23,7 @@ const ButtonMaker = (props) =>{
       {buttons}
     </ul>
     <hr />
-    {renderActiveButton}
+      {renderActiveButton}
     </div>
   );
 }
