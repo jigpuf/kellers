@@ -8,18 +8,10 @@ import Pest from './construction/pest.js'
 import Plumbing from './construction/plumbing.js'
 import Masonry from './construction/masonry.js'
 import Painting from './construction/painting.js'
+import ButtonMaker from './buttonMaker.js'
 
-class Construction extends React.Component {
-  state = {
-    tier1: undefined,
-  }
-  pickTier1  = (item) => {
-    return () => {
-      this.setState({tier1:item})
-    }
-  }
-  render () {
-    const Items = [
+const Construction = () => {
+    const items = [
       {name: 'Heat/Ac', slug: 'ac', component:<Ac /> },
       {name: 'Carpentry', slug: 'carpentry', component:<Carpentry /> },
       {name: 'Electrical', slug: 'electrical', component:<Electrical /> },
@@ -30,28 +22,11 @@ class Construction extends React.Component {
       {name: 'Masonry', slug: 'masonry', component:<Masonry />},
       {name: 'Painting', slug: 'paint', component:<Painting />},
     ]
-    const renderItems = Items.map(item => {
-      return (
-        <button
-          key={item.slug}
-          onClick={this.pickTier1(item.slug)}
-          className={this.state.tier1 === item.slug ? "tier1 active" : "tier1"}
-        >{item.name}</button>
-      )
-    })
-    const tier1 = Items.filter(item => {
-      return this.state.tier1 === item.slug;
-    });
-    const renderTier2Component = tier1[0] && tier1[0].component;
-    return (
-      <div>
-        <ul>
-          {renderItems}
-        </ul>
-        <hr />
-        {renderTier2Component}
-      </div>
-    )
-    }
-  }
+
+        return (
+          <div>
+            <ButtonMaker buttons={items}/>
+          </div>
+        )
+        }
 export default Construction;

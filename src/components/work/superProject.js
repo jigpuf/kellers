@@ -1,7 +1,6 @@
 import React from 'react';
 
-class SuperProject extends React.Component {
-  render () {
+const SuperProject = () =>{
     return (
       <div>
       <h2>Super Project</h2>
@@ -90,7 +89,6 @@ class SuperProject extends React.Component {
         </ol>
       </div>
     );
-  }
 }
 
 export default SuperProject;

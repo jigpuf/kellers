@@ -8,7 +8,7 @@ class Paycheck extends React.Component {
     effectiveHours:95,
     espp:.15,
     taxes: .11,
-    selectedOption: 'night',
+    selectedOption: 'day',
     standardDeduction:24800,
     shiftWage: 1.085,
     mortgage:1500,

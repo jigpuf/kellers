@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Scriptures extends React.Component {
+class ScriptureQuotes extends React.Component {
   render () {
     return (
       <div>
@@ -29,7 +29,7 @@ class Scriptures extends React.Component {
             And it came to pass that I, Nephi, said unto my father: I will go
             and do the things which the Lord hath commanded, for I know that the
             Lord giveth no commandments unto the children of men. save he shall
-            prepare a way for them that they may accomplish the thing which he 
+            prepare a way for them that they may accomplish the thing which he
             commandeth them.
           </p>
           <br/>
@@ -87,4 +87,4 @@ class Scriptures extends React.Component {
   }
 }
 
-export default Scriptures;
+export default ScriptureQuotes;

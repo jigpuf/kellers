@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Tax extends React.Component {
-  render () {
+const Tax = () => {
     return (
       <div>
         <h3>Income</h3>
@@ -23,7 +22,6 @@ class Tax extends React.Component {
           <li>Children</li>
       </div>
     );
-  }
 }
 
 export default Tax;

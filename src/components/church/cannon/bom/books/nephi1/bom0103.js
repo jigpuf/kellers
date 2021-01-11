@@ -1,4 +1,5 @@
 import React from 'react';
+import Scriptures from '../../../../scriptures.js';
 
 class Bom0103 extends React.Component {
   render () {
@@ -58,6 +59,8 @@ class Bom0103 extends React.Component {
           <hr />
         <h3>Major Points to consider</h3>
           <hr />
+        <h3>Text</h3>
+        <Scriptures chap='ne1-3'/>
 </div>
     );
   }

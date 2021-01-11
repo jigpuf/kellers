@@ -25,13 +25,11 @@ const Apps = () => {
       {name: 'Lawnmowing', slug: 'lawnmowing'},
       {name: 'Countdown', slug: 'countdown'},
       {name: 'Essential Oils', slug: 'oils'},
-      {name: 'Spanish', slug: 'spanish'},
       {name: 'Scripture Keeper', slug: 'scripture'},
       {name: 'Companion Planting', slug: 'companion'},
       {name: 'Quotes', slug: 'quotes'},
       {name: 'Fitness Tracker', slug: 'fitness', component: <Fitness/>},
       {name: 'Solar-Copy', slug: 'copy', component: <SolarCopy />},
-      {name: 'Resister', slug: 'resister'},
     ]
 
     return (

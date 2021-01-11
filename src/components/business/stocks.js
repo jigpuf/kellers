@@ -52,6 +52,12 @@ class Stocks extends React.Component {
         <li></li>
         <li></li>
         <li></li>
+      <h3>Channel up trading</h3>
+      <a href='https://finviz.com/screener.ashx?v=111&f=fa_epsqoq_pos,fa_epsyoy_pos,fa_pb_u10,fa_pe_u50,geo_usa,sh_avgvol_o100,ta_pattern_channelup,ta_rsi_nob60&ft=4' target='_blank'
+        >Some buffet</a>
+        Squeeze in until you find one you want. P/B down, PE down,
+        Tight and steep is better
+
       </div>
     );
   }

@@ -4,7 +4,6 @@ import Conflict from './leadership/conflict.js';
 import Morale from './leadership/morale.js';
 import Enpower from './leadership/enpower.js';
 import Super from './leadership/super.js';
-import Lead from './leadership/lead.js';
 
 class Leadership extends React.Component {
   state = {
@@ -22,7 +21,6 @@ class Leadership extends React.Component {
       {name: 'Morale', slug: 'morale', component:<Morale />},
       {name: 'Enpowerment', slug: 'enpowerment', component:<Enpower /> },
       {name: 'Supervisor', slug: 'super', component:<Super /> },
-      {name: 'Lead', slug: 'lead', component:<Lead /> },
     ]
     const renderItems = Items.map(item => {
       return (

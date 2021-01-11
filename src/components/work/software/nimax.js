@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Nimax extends React.Component {
-  render () {
+const Nimax = () => {
     return (
       <div>
         <p>1) In order to access NIMAX, you have to remote into the server</p>
@@ -14,7 +13,6 @@ class Nimax extends React.Component {
         <p>8)  East Bay may work on a different system</p>
       </div>
     );
-  }
 }
 
 export default Nimax;

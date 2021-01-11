@@ -48,12 +48,44 @@ const Movies = () => {
       {movie: '***Crouching Tiger Hidden Dragon', slug: 'crouching', url:'https://www.youtube.com/watch?v=gLpZ_5bHmo8' },
       {movie: 'Dale and Tucker Vs Evil', slug: 'dale', url:'https://www.youtube.com/watch?v=l1t8OZn_uhE' },
       {movie: '***Dogma', slug: 'dogma', url:'https://www.youtube.com/watch?v=20CRw3XdETA' },
+      {movie: '***Donnie Darko', slug: 'donnie', url:'' },
+      {movie: 'Drag me to Hell', slug: 'drag', url:'https://www.youtube.com/watch?v=PPOaxHqoYxo' },
+      {movie: 'Edward Scissorhands', slug: 'edward', url:'https://www.youtube.com/watch?v=M94yyfWy-KI' },
+      {movie: 'Enemy at the Gates', slug: 'enemy', url:'https://www.youtube.com/watch?v=4O-sMh_DO6I' },
+      {movie: 'ET', slug: 'et', url:'https://www.youtube.com/watch?v=qYAETtIIClk' },
+      {movie: 'Eternal Sunshine of the Spotless Mind', slug: 'eternal', url:'https://www.youtube.com/results?search_query=eternal+sunshine+of+the+spotless+mind+official+trailer'},
+      {movie: 'Evil Dead', slug: 'evil', url:'https://www.youtube.com/watch?v=coGH4OaR9hc' },
+      {movie: 'Evil Dead 2', slug: 'evil2', url:'https://www.youtube.com/watch?v=6lM3NPeEG24' },
+      {movie: 'Evil Dead 3', slug: 'evil3', url:'https://www.youtube.com/watch?v=UHZQEtG8xYo' },
+      {movie: 'eXistenz', slug: 'exist', url:'https://www.youtube.com/watch?v=HAdbdUt_h9M' },
+      {movie: 'Explorers', slug: 'explorers', url:'https://www.youtube.com/watch?v=HAdbdUt_h9M' },
+      {movie: 'Fall', slug: 'fall', url:'https://www.youtube.com/watch?v=IwsYyRc9j4g' },
+      {movie: 'Fantastic fear of Everything', slug: 'fear', url:'https://www.youtube.com/watch?v=HIjhgXteLlY' },
+      {movie: '***Fantastic Mr. Fox', slug: 'fox', url:'https://www.youtube.com/watch?v=n2igjYFojUo' },
+      {movie: '***Fifth Element', slug: 'fifth', url:'https://www.youtube.com/watch?v=fQ9RqgcR24g' },
+      {movie: '***Fight Club', slug: 'fightClub', url:'https://www.youtube.com/watch?v=Y6cwmHL2tFI' },
+      {movie: '***Finding a friend for the End of the World', slug: 'friend', url:'https://www.youtube.com/watch?v=EmXWcXKXWBk' },
+      {movie: 'Flight of the Navigator', slug: 'navigator', url:'https://www.youtube.com/watch?v=gVebPEYiq2o' },
+      {movie: 'Forrest Gump', slug: 'forrest', url:'https://www.youtube.com/watch?v=XHhAG-YLdk8' },
+      {movie: 'Fury Road', slug: 'fury', url:'https://www.youtube.com/watch?v=hEJnMQG9ev8' },
+      {movie: 'Ghostbusters', slug: 'ghostbuster', url:'https://www.youtube.com/watch?v=6hDkhw5Wkas' },
+      {movie: 'Ghostbusters 2', slug: 'ghostbuster2', url:'https://www.youtube.com/watch?v=UnzH75FlwvU' },
+      {movie: '***Ghost Dog', slug: 'ghostdog', url:'https://www.youtube.com/watch?v=Rml5ehAl7SM' },
+      {movie: '***Goonies', slug: 'goonies', url:'https://www.youtube.com/watch?v=hJ2j4oWdQtU' },
+      {movie: '***Gladiator', slug: 'gladiator', url:'https://www.youtube.com/watch?v=owK1qxDselE' },
+      {movie: 'Grand Budapest Hotel', slug: '', url:'https://www.youtube.com/watch?v=zru-1DbbcsA' },
+      {movie: 'Green Street Hooligans', slug: '', url:'https://www.youtube.com/watch?v=EAe-1Lv1KYU' },
+      {movie: 'Grudge', slug: '', url:'https://www.youtube.com/watch?v=YC3bzK_i9_s' },
+      {movie: 'Guardians of the Galaxy', slug: '', url:'https://www.youtube.com/watch?v=yM7VVKxjeag' },
+      {movie: 'Guardians of the Galaxy 2', slug: '', url:'https://www.youtube.com/watch?v=2LIQ2-PZBC8' },
+      {movie: '', slug: '', url:'' },
     ]
     const renderItems = items.map(item => {
       return (
         <tr key={item.slug}>
           <td><a href={item.url} target ='_blank'>{item.movie}</a></td>
         </tr>
+
       )
     })
     return (
@@ -68,66 +100,6 @@ const Movies = () => {
           </div>
       <div className= "twoColumn">
       <ol>
-        <li><a href='https://www.youtube.com/watch?v=bzLn8sYeM9o' target='_blank'
-        >***Donnie Darko</a></li>
-        <li><a href='https://www.youtube.com/watch?v=PPOaxHqoYxo' target='_blank'
-        >Drag me to Hell</a></li>
-        <li><a href='https://www.youtube.com/watch?v=M94yyfWy-KI' target='_blank'
-        >Edward Scissorhands</a></li>
-        <li><a href='https://www.youtube.com/watch?v=4O-sMh_DO6I' target='_blank'
-        >Enemy at the Gates</a></li>
-        <li><a href='https://www.youtube.com/watch?v=qYAETtIIClk' target='_blank'
-        >ET</a></li>
-        <li><a href='https://www.youtube.com/results?search_query=eternal+sunshine+of+the+spotless+mind+official+trailer' target='_blank'
-        >Eternal Sunshine of the Spotless Mind</a></li>
-        <li><a href='https://www.youtube.com/watch?v=coGH4OaR9hc' target='_blank'
-        >Evil Dead</a></li>
-        <li><a href='https://www.youtube.com/watch?v=6lM3NPeEG24' target='_blank'
-        >Evil Dead 2</a></li>
-        <li><a href='https://www.youtube.com/watch?v=UHZQEtG8xYo' target='_blank'
-        >Evil Dead 3</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HAdbdUt_h9M' target='_blank'
-        >eXistenz</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HAdbdUt_h9M' target='_blank'
-        >Explorers</a></li>
-        <li><a href='https://www.youtube.com/watch?v=IwsYyRc9j4g' target='_blank'
-        >Fall</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HIjhgXteLlY' target='_blank'
-        >Fantastic fear of Everything</a></li>
-        <li><a href='https://www.youtube.com/watch?v=n2igjYFojUo' target='_blank'
-        >***Fantastic Mr. Fox</a></li>
-        <li><a href='https://www.youtube.com/watch?v=fQ9RqgcR24g' target='_blank'
-        >***Fifth Element</a></li>
-        <li><a href='https://www.youtube.com/watch?v=Y6cwmHL2tFI' target='_blank'
-        >***Fight Club</a></li>
-        <li><a href='https://www.youtube.com/watch?v=EmXWcXKXWBk' target='_blank'
-        >***Finding a friend for the End of the World</a></li>
-        <li><a href='https://www.youtube.com/watch?v=gVebPEYiq2o' target='_blank'
-        >Flight of the Navigator</a></li>
-        <li><a href='https://www.youtube.com/watch?v=XHhAG-YLdk8' target='_blank'
-        >Forrest Gump</a></li>
-        <li><a href='https://www.youtube.com/watch?v=hEJnMQG9ev8' target='_blank'
-        >Fury Road</a></li>
-        <li><a href='https://www.youtube.com/watch?v=6hDkhw5Wkas' target='_blank'
-        >Ghostbusters</a></li>
-        <li><a href='https://www.youtube.com/watch?v=UnzH75FlwvU' target='_blank'
-        >Ghostbusters 2</a></li>
-        <li><a href='https://www.youtube.com/watch?v=Rml5ehAl7SM' target='_blank'
-        >***Ghost Dog</a></li>
-        <li><a href='https://www.youtube.com/watch?v=hJ2j4oWdQtU' target='_blank'
-        >***Goonies</a></li>
-        <li><a href='https://www.youtube.com/watch?v=owK1qxDselE' target='_blank'
-        >***Gladiator</a></li>
-        <li><a href='https://www.youtube.com/watch?v=zru-1DbbcsA' target='_blank'
-        >Grand Budapest Hotel</a></li>
-        <li><a href='https://www.youtube.com/watch?v=EAe-1Lv1KYU' target='_blank'
-        >Green Street Hooligans</a></li>
-        <li><a href='https://www.youtube.com/watch?v=YC3bzK_i9_s' target='_blank'
-        >Grudge</a></li>
-        <li><a href='https://www.youtube.com/watch?v=yM7VVKxjeag' target='_blank'
-        >Guardians of the Galaxy</a></li>
-        <li><a href='https://www.youtube.com/watch?v=2LIQ2-PZBC8' target='_blank'
-        >Guardians of the Galaxy 2</a></li>
         <li><a href='https://www.youtube.com/watch?v=iWFVAIbIkS4' target='_blank'
         >***Hector's Search for Happiness</a></li>
         <li><a href='https://www.youtube.com/watch?v=iWFVAIbIkS4' target='_blank'
@@ -158,7 +130,7 @@ const Movies = () => {
         >***9</a></li>
       </ol>
 
-        <h3>Rest of Lit</h3>
+        <h3>Rest of List</h3>
         <li>Parasite</li>
         <li>Nightmare on Elm Street</li>
         <li>The Resort</li>

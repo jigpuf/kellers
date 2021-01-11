@@ -1,7 +1,8 @@
 import React from 'react';
+import Scriptures from '../../../../scriptures.js';
 
-class Bom0102 extends React.Component {
-  render () {
+
+const Bom0102 = () => {
     return (
       <div>
       <h2>First Nephi 2</h2>
@@ -58,10 +59,10 @@ class Bom0102 extends React.Component {
           <hr />
         <h3>Major Points to consider</h3>
           <hr />
-
+        <h3>Text</h3>
+        <Scriptures chap='ne1-2'/>
       </div>
     );
-  }
 }
 
 export default Bom0102;

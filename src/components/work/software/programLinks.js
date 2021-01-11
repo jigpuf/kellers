@@ -1,7 +1,6 @@
 import React from 'react';
 
-class ProgramLinks extends React.Component {
-  render () {
+const ProgramLinks = () =>{
     return (
       <div>
         <h2>Program Links</h2>
@@ -86,7 +85,6 @@ class ProgramLinks extends React.Component {
         </table>
       </div>
     );
-  }
 }
 
 export default ProgramLinks;

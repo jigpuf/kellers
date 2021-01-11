@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Architect extends React.Component {
-  render () {
+const Architect = () => {
     return (
       <div>
         <h3>Architect is everything to build and troubleshoot a cable</h3>
@@ -21,7 +20,6 @@ class Architect extends React.Component {
         <h3>Questions</h3>
       </div>
     );
-  }
 }
 
 export default Architect;

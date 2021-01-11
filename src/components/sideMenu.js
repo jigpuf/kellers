@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-class SideMenu extends React.Component {
-  render () {
+const SideMenu = (props) => {
     const sideMenuItems = [
       { name: 'Work', slug: 'work' },
       { name: 'Leadership', slug: 'leadership' },
@@ -26,13 +25,13 @@ class SideMenu extends React.Component {
       { name: 'Survival', slug: 'survival' },
       { name: 'Links', slug: 'links' },
     ];
-//Build  array.  slug is an attribute of each item. Name is what shows.
+
     const renderSideMenuItems = sideMenuItems.map(item => {
       return (
         <li key={item.slug}>
           <button
-            className={this.props.activeTab === item.slug ? 'active' : ''} //ternary
-            onClick={this.props.openTab(item.slug)}
+            className={props.activeTab === item.slug ? 'active' : ''} //ternary
+            onClick={props.openTab(item.slug)}
           >{item.name}
           </button>
         </li>
@@ -53,7 +52,6 @@ chosen by item.name,
         </ul>
       </aside>
     );
-  }
 }
 
 export default SideMenu;

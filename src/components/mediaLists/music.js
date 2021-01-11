@@ -1,8 +1,7 @@
 import React from 'react';
 
-class Music extends React.Component {
-  render () {
-    const Items = [
+const Music = () =>{
+    const items = [
       {artist: 'Adriana Mezzadri', song: 'Alianza Eterna', slug: 'am1', url:'https://www.youtube.com/watch?v=19Yni_ffrKA' },
       {artist: 'Adriana Mezzadri', song: 'Fruto de la Inocencia', slug: 'am2', url:'https://www.youtube.com/watch?v=XJqRzHbZIxQ' },
       {artist: 'Adriana Mezzadri', song: 'Marcas de Ayer', slug: 'am3', url:'https://www.youtube.com/watch?v=z1toYIJKPa0' },
@@ -110,14 +109,17 @@ class Music extends React.Component {
       {artist: 'Crucial Conflict', song: 'Desperado', slug: 'crucial1', url:'' },
       {artist: 'Crucial Conflict', song: 'Hay', slug: 'crucial2', url:'' },
       {artist: 'Cubanismo', song: 'Descargada de Hoy', slug: 'cuban1', url:'' },
-      {artist: 'Cypress Hill', song: '', slug: 'cypress1', url:'' },
+      {artist: 'Cypress Hill', song: 'Illusions', slug: 'cypress1', url:'' },
+      {artist: 'Cypress Hill', song: 'Boom Biddy Bye Bye', slug: 'cypress2', url:'' },
+      {artist: 'Cypress Hill', song: 'Red Light Visions', slug: 'cypress3', url:'' },
+      {artist: 'Cypress Hill', song: 'Killafornia', slug: 'cypress4', url:'' },
       {artist: 'Da Rude', song: 'Dust Storm', slug: 'daRude1', url:'' },
       {artist: 'Deaf Leopard', song: 'Pour Some Sugar On Me', slug: 'deaf1', url:'' },
       {artist: 'Deftones', song: '*No ordinary love*', slug: 'deaftones1', url:'' },
       {artist: 'Dido', song: 'Thank You', slug: 'dido1', url:'https://www.youtube.com/watch?v=1TO48Cnl66w' },
       {artist: 'Dido', song: 'My Lovers Gone', slug: 'dido2', url:'https://www.youtube.com/watch?v=9LtrXAgsvB0' },
-      {artist: 'Dispatch', song: '', slug: 'dispatch1', url:'' },
-      {artist: 'DNA and Susan Vega', song: '', slug: 'dna1', url:'' },
+      {artist: 'Dispatch', song: 'Out loud', slug: 'dispatch1', url:'' },
+      {artist: 'DNA and Susan Vega', song: 'Toms Diner', slug: 'dna1', url:'' },
       {artist: 'Duran Duran', song: 'Ordinary World', slug: 'duran1', url:'https://www.youtube.com/watch?v=wUgLge_MPIM' },
       {artist: 'Duran Duran', song: 'Come Undone', slug: 'duran2', url:'https://www.youtube.com/watch?v=Epj84QVw2rc' },
       {artist: 'Eddie Brickell', song: 'What I am', slug: 'eddie1', url:'https://www.youtube.com/watch?v=tDl3bdE3YQA' },
@@ -127,8 +129,9 @@ class Music extends React.Component {
       {artist: 'Eminem', song: 'Rap God', slug: 'em1', url:'' },
       {artist: 'Eminem', song: 'Till I Collapse', slug: 'em2', url:'' },
       {artist: 'Eminem', song: 'I Am Who You Say I Am', slug: 'em3', url:'' },
-      {artist: 'Enya', song: '', slug: 'enya1', url:'' },
-      {artist: 'Everything but the Girl', song: '', slug: 'everything1', url:'' },
+      {artist: 'Enya', song: 'Boadicea', slug: 'enya1', url:'' },
+      {artist: 'Everything but the Girl', song: 'Before Today', slug: 'everything1', url:'' },
+      {artist: 'Everything but the Girl', song: 'Better Things', slug: 'everything2', url:'' },
       {artist: 'The Faint', song: '', slug: 'faint1', url:'' },
       {artist: 'Faithless', song: 'Woozy', slug: 'fathless1', url:'https://www.youtube.com/watch?v=j8m68wL9hYw' },
       {artist: 'Far East Movement', song: '*G6*', slug: 'far1', url:'' },
@@ -275,7 +278,7 @@ class Music extends React.Component {
       {artist: '', song: '', slug: '', url:'' },
 
     ]
-    const renderItems = Items.map(item => {
+    const renderItems = items.map(item => {
       return (
         <tr key={item.slug}>
           <td >{item.artist}</td>
@@ -292,7 +295,6 @@ class Music extends React.Component {
       *No active link<br />
       </div>
     );
-  }
 }
 
 export default Music ;

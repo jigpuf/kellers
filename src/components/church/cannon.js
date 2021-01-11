@@ -4,7 +4,7 @@ import Dc from './cannon/dc.js'
 import Pogp from './cannon/pogp.js'
 import Ot from './cannon/ot.js'
 import Nt from './cannon/nt.js'
-import Scriptures from './cannon/scriptures.js'
+import ScriptureQuotes from './cannon/scriptureQuotes.js'
 import Redux from './cannon/redux.js'
 
 class Cannon extends React.Component {
@@ -23,7 +23,7 @@ class Cannon extends React.Component {
       {name: 'POGP', slug: 'pogp', component:<Pogp />},
       {name: 'OT', slug: 'ot', component:<Ot />},
       {name: 'NT', slug: 'nt', component:<Nt />},
-      {name: 'Favorite Scriptures', slug: 'scriptures', component:<Scriptures />},
+      {name: 'Favorite Scriptures', slug: 'scriptures', component:<ScriptureQuotes />},
       {name: 'Redux Scripture', slug: 'bible', component:<Redux />},
     ]
     const renderTier1Items = tier1Items.map(item => {

@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Remote extends React.Component {
-  render () {
+const Remote = () =>{
     return (
       <div>
         <h2>Remote In</h2>
@@ -18,14 +17,13 @@ class Remote extends React.Component {
             <tr><td>2</td><td>Home Computer</td><td>Enigma Server</td><td>enigma/</td><td>Self, MFA</td><td>Self</td></tr>
             <tr><td>3</td><td>Bastion Server</td><td>Target Server</td><td>ex. MC1-RS-COM</td><td>.\txtest</td><td>Enigma</td></tr>
           </table>
-      
+
 
 
 
 
       </div>
     );
-  }
 }
 
 export default Remote;

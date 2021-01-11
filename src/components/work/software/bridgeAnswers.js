@@ -1,7 +1,6 @@
 import React from 'react';
 
-class BridgeAnswers extends React.Component {
-  render () {
+const BridgeAnswers = () =>{
     return (
       <div>
         <table>
@@ -52,7 +51,6 @@ class BridgeAnswers extends React.Component {
           </div>
       </div>
     );
-  }
 }
 
 export default BridgeAnswers;

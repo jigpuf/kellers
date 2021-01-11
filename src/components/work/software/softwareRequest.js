@@ -1,7 +1,7 @@
 import React from 'react';
 
-class SoftwareRequest extends React.Component {
-  render () {
+const SoftwareRequest = ()  =>{
+
     return (
       <div>
         <h2>Software Request process</h2>
@@ -15,7 +15,6 @@ class SoftwareRequest extends React.Component {
           <h3>Escalation</h3>
       </div>
     );
-  }
 }
 
 export default SoftwareRequest;
