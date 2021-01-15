@@ -78,6 +78,12 @@ const Movies = () => {
       {movie: 'Grudge', slug: '', url:'https://www.youtube.com/watch?v=YC3bzK_i9_s' },
       {movie: 'Guardians of the Galaxy', slug: '', url:'https://www.youtube.com/watch?v=yM7VVKxjeag' },
       {movie: 'Guardians of the Galaxy 2', slug: '', url:'https://www.youtube.com/watch?v=2LIQ2-PZBC8' },
+      {movie: '***Hectors Search for Happiness', slug: '', url:'https://www.youtube.com/watch?v=iWFVAIbIkS4' },
+      {movie: '***Hidden', slug: '', url:'https://www.youtube.com/watch?v=iWFVAIbIkS4' },
+      {movie: 'Hogfather', slug: '', url:'https://www.youtube.com/watch?v=cSOUIuGcY74' },
+      {movie: 'Hotel Budapest', slug: '', url:'https://www.youtube.com/watch?v=1Fg5iWmQjwk' },
+      {movie: '***House of Flying Daggers', slug: '', url:'https://www.youtube.com/watch?v=-GLVaSYzAvg' },
+      {movie: 'Hugo', slug: '', url:'https://www.youtube.com/watch?v=Hv3obL9HqyY' },
       {movie: '', slug: '', url:'' },
     ]
     const renderItems = items.map(item => {
@@ -100,18 +106,6 @@ const Movies = () => {
           </div>
       <div className= "twoColumn">
       <ol>
-        <li><a href='https://www.youtube.com/watch?v=iWFVAIbIkS4' target='_blank'
-        >***Hector's Search for Happiness</a></li>
-        <li><a href='https://www.youtube.com/watch?v=iWFVAIbIkS4' target='_blank'
-        >***Hidden</a></li>
-        <li><a href='https://www.youtube.com/watch?v=cSOUIuGcY74' target='_blank'
-        >Hogfather</a></li>
-        <li><a href='https://www.youtube.com/watch?v=1Fg5iWmQjwk' target='_blank'
-        >Hotel Budapest</a></li>
-        <li><a href='https://www.youtube.com/watch?v=-GLVaSYzAvg' target='_blank'
-        >***House of Flying Daggers</a></li>
-        <li><a href='https://www.youtube.com/watch?v=Hv3obL9HqyY' target='_blank'
-        >Hugo</a></li>
         <li><a href='https://www.youtube.com/watch?v=HcVrp--9UUc' target='_blank'
         >Idle Hands</a></li>
         <li><a href='https://www.youtube.com/watch?v=AlugldzO9zY' target='_blank'
