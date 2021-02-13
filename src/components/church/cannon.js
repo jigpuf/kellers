@@ -44,7 +44,6 @@ class Cannon extends React.Component {
         <ul>
           {renderTier1Items}
         </ul>
-          <a href="church/scriptures.pdf" onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;" >Scriptures</a>
         <hr />
         {renderTier2Component}
 

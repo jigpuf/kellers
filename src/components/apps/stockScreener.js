@@ -6,6 +6,7 @@ const StockScreener = () => {
   const [symbol2,setSymbol2]= useState(null);
   const [symbol3,setSymbol3]= useState(null);
   const [spread,setSpread] = useState({high:100, low:0, bottom:0});
+
   /*
   const [high, setHigh]= useState(null);
   const [low, setLow]= useState(null);
@@ -75,6 +76,7 @@ const changeSpread = (event) => {
   }
 
 
+
     return (
       <div>
       Symbol:<input
@@ -109,9 +111,9 @@ const changeSpread = (event) => {
           </tr>
           <tr>
             <td>{symbol}</td>
-            <td>{(spread.high-spread.low)}</td>
-            <td>{((spread.high-spread.low)/spread.high)*100}%</td>
-            <td>{((spread.low-spread.bottom)/spread.bottom)*100}%</td>
+            <td>{((spread.high-spread.low)).toFixed(2)}</td>
+            <td>{(((spread.high-spread.low)/spread.high)*100).toFixed(2)}%</td>
+            <td>{(((spread.low-spread.bottom)/spread.bottom)*100).toFixed(2)}%</td>
           </tr>
         </table>
         <br />
@@ -128,32 +130,33 @@ const changeSpread = (event) => {
           </tr>
           <tr>
             <td>{saveSymbol}</td>
-            <td>{(saveHigh-saveLow)}</td>
-            <td>{((saveHigh-saveLow)/saveHigh)*100}%</td>
-            <td>{((saveLow-saveBottom)/saveBottom)*100}%</td>
+            <td>{((saveHigh-saveLow)).toFixed(2)}</td>
+            <td>{(((saveHigh-saveLow)/saveHigh)*100).toFixed(2)}%</td>
+            <td>{(((saveLow-saveBottom)/saveBottom)*100).toFixed(2)}%</td>
             <td><button onClick={saver}>save</button></td>
           </tr>
           <tr>
             <td>{saveSymbol1}</td>
-            <td>{(saveHigh1-saveLow1)}</td>
-            <td>{((saveHigh1-saveLow1)/saveHigh1)*100}%</td>
-            <td>{((saveLow1-saveBottom1)/saveBottom1)*100}%</td>
+            <td>{((saveHigh1-saveLow1)).toFixed(2)}</td>
+            <td>{(((saveHigh1-saveLow1)/saveHigh1)*100).toFixed(2)}%</td>
+            <td>{(((saveLow1-saveBottom1)/saveBottom1)*100).toFixed(2)}%</td>
             <td><button onClick={saver1}>save</button></td>
           </tr>
           <tr>
             <td>{saveSymbol2}</td>
-            <td>{(saveHigh2-saveLow2)}</td>
-            <td>{((saveHigh2-saveLow2)/saveHigh2)*100}%</td>
-            <td>{((saveLow2-saveBottom2)/saveBottom2)*100}%</td>
+            <td>{((saveHigh2-saveLow2)).toFixed(2)}</td>
+            <td>{(((saveHigh2-saveLow2)/saveHigh2)*100).toFixed(2)}%</td>
+            <td>{(((saveLow2-saveBottom2)/saveBottom2)*100).toFixed(2)}%</td>
             <td><button onClick={saver2}>save</button></td>
           </tr>
           <tr>
             <td>{saveSymbol3}</td>
-            <td>{(saveHigh3-saveLow3)}</td>
-            <td>{((saveHigh3-saveLow3)/saveHigh3)*100}%</td>
-            <td>{((saveLow3-saveBottom3)/saveBottom3)*100}%</td>
+            <td>{((saveHigh3-saveLow3)).toFixed(2)}</td>
+            <td>{(((saveHigh3-saveLow3)/saveHigh3)*100).toFixed(2)}%</td>
+            <td>{(((saveLow3-saveBottom3)/saveBottom3)*100).toFixed(2)}%</td>
             <td><button onClick={saver3}>save</button></td>
           </tr>
+
         </table>
 
       </div>

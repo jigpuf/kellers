@@ -8,6 +8,7 @@ import Fitness from './apps/fitness.js';
 import SolarCopy from './apps/solar-copy.js';
 import ButtonMaker from './buttonMaker.js';
 import StockScreener from './apps/stockScreener.js';
+import AboutMe from './apps/me.js';
 
 
 const Apps = () => {
@@ -31,6 +32,7 @@ const Apps = () => {
       {name: 'Fitness Tracker', slug: 'fitness', component: <Fitness/>},
       {name: 'Solar-Copy', slug: 'copy', component: <SolarCopy />},
       {name: 'Stock Screener', slug: 'stockScreener', component: <StockScreener/>},
+      {name: 'AboutMe', slug: 'aboutMe', component: <AboutMe/>},
     ]
 
     return (

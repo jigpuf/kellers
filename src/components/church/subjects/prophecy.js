@@ -7,6 +7,7 @@ import American from './prophecy/american.js'
 import Hyrum from './prophecy/hyrum.js'
 import BOM from './prophecy/bomProphecy.js'
 import Kingdoms from './prophecy/kingdoms.js'
+import Timeline from './prophecy/timeline.js'
 
 class Prophecy extends React.Component {
     state = {
@@ -31,6 +32,7 @@ class Prophecy extends React.Component {
           {name: 'Hyrum Andrus View', slug: 'hyrum', component:<Hyrum />},
           {name: 'BOM Prophecy', slug: 'bom', component:<BOM />},
           {name: 'Kingdoms', slug: 'kingdoms', component:<Kingdoms />},
+          {name: 'Timeline', slug: 'timeline', component:<Timeline />},
 
         ]
         const renderItems = Items.map(item => {

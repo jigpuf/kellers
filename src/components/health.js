@@ -8,6 +8,7 @@ import Speed from './health/speed.js'
 import Hormones from './health/hormones.js'
 import Systems from './health/systems.js'
 import Nutrition from './health/nutrition.js'
+import WeightLoss from './health/weightLoss.js'
 
 class Health extends React.Component {
   state = {
@@ -31,6 +32,7 @@ class Health extends React.Component {
       {name: 'Hormones', slug: 'hormones', component:<Hormones /> },
       {name: 'Body Systems', slug: 'systems', component:<Systems />},
       {name: 'Nutrition', slug: 'nutrition', component:<Nutrition />},
+      {name: 'Weight Loss', slug: 'loss', component:<WeightLoss />},
     ]
     const renderItems = Items.map(item => {
       return (
