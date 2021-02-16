@@ -19,8 +19,8 @@ const AboutMe =() => {
       <div>
       <h2>About Me</h2>
       <button onClick={changeLocation()}>findMe</button>
-      Latitude:{location.latitude}<br/>
-      Longitude:{location.longitude}<br/>
+      Latitude(N/S):{location.latitude}<br/>
+      Longitude(E/W):{location.longitude}<br/>
       Altitude:{location.altitude}<br/>
       Time:<br/>
       Date:<br/>

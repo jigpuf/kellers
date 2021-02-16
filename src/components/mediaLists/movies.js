@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Movies = () => {
-    const items = [
+    const movies = [
       {movie: 'Adjustment Bureau', slug: 'adjust', url:'https://www.youtube.com/watch?v=wZJ0TP4nTaE' },
       {movie: 'Aeon Flux', slug: 'aeon', url:'https://www.youtube.com/watch?v=d11loPMnC2w' },
       {movie: 'Akira', slug: 'akira', url:'https://www.youtube.com/watch?v=i_MONOV1_sc' },
@@ -73,198 +73,181 @@ const Movies = () => {
       {movie: '***Ghost Dog', slug: 'ghostdog', url:'https://www.youtube.com/watch?v=Rml5ehAl7SM' },
       {movie: '***Goonies', slug: 'goonies', url:'https://www.youtube.com/watch?v=hJ2j4oWdQtU' },
       {movie: '***Gladiator', slug: 'gladiator', url:'https://www.youtube.com/watch?v=owK1qxDselE' },
-      {movie: 'Grand Budapest Hotel', slug: '', url:'https://www.youtube.com/watch?v=zru-1DbbcsA' },
-      {movie: 'Green Street Hooligans', slug: '', url:'https://www.youtube.com/watch?v=EAe-1Lv1KYU' },
-      {movie: 'Grudge', slug: '', url:'https://www.youtube.com/watch?v=YC3bzK_i9_s' },
-      {movie: 'Guardians of the Galaxy', slug: '', url:'https://www.youtube.com/watch?v=yM7VVKxjeag' },
-      {movie: 'Guardians of the Galaxy 2', slug: '', url:'https://www.youtube.com/watch?v=2LIQ2-PZBC8' },
-      {movie: '***Hectors Search for Happiness', slug: '', url:'https://www.youtube.com/watch?v=iWFVAIbIkS4' },
-      {movie: '***Hidden', slug: '', url:'https://www.youtube.com/watch?v=iWFVAIbIkS4' },
-      {movie: 'Hogfather', slug: '', url:'https://www.youtube.com/watch?v=cSOUIuGcY74' },
-      {movie: 'Hotel Budapest', slug: '', url:'https://www.youtube.com/watch?v=1Fg5iWmQjwk' },
-      {movie: '***House of Flying Daggers', slug: '', url:'https://www.youtube.com/watch?v=-GLVaSYzAvg' },
-      {movie: 'Hugo', slug: '', url:'https://www.youtube.com/watch?v=Hv3obL9HqyY' },
-      {movie: '', slug: '', url:'' },
+      {movie: 'Grand Budapest Hotel', slug: 'budapest', url:'https://www.youtube.com/watch?v=zru-1DbbcsA' },
+      {movie: 'Green Street Hooligans', slug: 'hooligans', url:'https://www.youtube.com/watch?v=EAe-1Lv1KYU' },
+      {movie: 'Grudge', slug: 'grudge', url:'https://www.youtube.com/watch?v=YC3bzK_i9_s' },
+      {movie: 'Guardians of the Galaxy', slug: 'gaurdians', url:'https://www.youtube.com/watch?v=yM7VVKxjeag' },
+      {movie: 'Guardians of the Galaxy 2', slug: 'gaurdians2', url:'https://www.youtube.com/watch?v=2LIQ2-PZBC8' },
+      {movie: '***Hectors Search for Happiness', slug: 'hectors', url:'https://www.youtube.com/watch?v=iWFVAIbIkS4' },
+      {movie: '***Hidden', slug: 'hidden', url:'https://www.youtube.com/watch?v=iWFVAIbIkS4' },
+      {movie: 'Hogfather', slug: 'hogfather', url:'https://www.youtube.com/watch?v=cSOUIuGcY74' },
+      {movie: '***House of Flying Daggers', slug: 'daggers', url:'https://www.youtube.com/watch?v=-GLVaSYzAvg' },
+      {movie: 'Hugo', slug: 'hugo', url:'https://www.youtube.com/watch?v=Hv3obL9HqyY' },
+      {movie: 'Idle Hands', slug: 'idle', url:'https://www.youtube.com/watch?v=HcVrp--9UUc' },
+      {movie: 'In the Mouth of Madness', slug: 'mouth', url:'https://www.youtube.com/watch?v=AlugldzO9zY' },
+      {movie: '***Indiana Jones', slug: 'ij1', url:'https://www.youtube.com/watch?v=HqOSLZl9GUo' },
+      {movie: '***Indiana Jones 2', slug: 'ij2', url:'https://www.youtube.com/watch?v=HOwWfns4qqw' },
+      {movie: '***Indiana Jones 3', slug: 'ij3', url:'https://www.youtube.com/watch?v=sagmdpkWUqc' },
+      {movie: 'Inglorious Bastards', slug: 'inglorious', url:'https://www.youtube.com/watch?v=qRYDNWXuip8' },
+      {movie: 'Inception', slug: 'inception', url:'' },
+      {movie: 'Interstellar', slug: 'interstellar', url:'' },
+      {movie: 'Interview with a Vampire', slug: 'interview', url:'' },
+      {movie: 'Island', slug: 'island', url:'' },
+      {movie: 'Isle of Dogs', slug: 'isle', url:'' },
+      {movie: '***Its a Wonderful Life', slug: 'wonderful', url:'' },
+      {movie: 'Joe Dirt', slug: 'joe', url:'' },
+      {movie: '***Jurassic Park', slug: 'jurasic', url:'' },
+      {movie: 'Jurasic World Fallen Kingdom', slug: 'fallen', url:'' },
+      {movie: 'Kick Ass', slug: 'kick', url:'' },
+      {movie: '***Kill Bill', slug: 'kill1', url:'' },
+      {movie: '***Kill Bill 2', slug: 'kill2', url:'' },
+      {movie: '***King Arthur', slug: 'kill3', url:'' },
+      {movie: 'kingsman', slug: 'kingman', url:'' },
+      {movie: '***Kung Fu Hustle', slug: '', url:'' },
+      {movie: '***Laberinth', slug: '', url:'' },
+      {movie: 'Legend of the Drunken Master', slug: '', url:'' },
+      {movie: 'Legend of Sleepy Hollow', slug: '', url:'' },
+      {movie: '***Let the Right One In', slug: '', url:'' },
+      {movie: '***Life of Pi', slug: '', url:'' },
+      {movie: 'Little Evil', slug: '', url:'' },
+      {movie: 'Little Prince', slug: '', url:'' },
+      {movie: '***Lord of the Rings', slug: '', url:'' },
+      {movie: '***Lord of the Rings 2', slug: '', url:'' },
+      {movie: '***Lord of the Rings 3', slug: '', url:'' },
+      {movie: 'Lucy', slug: '', url:'' },
+      {movie: 'Maze Runner', slug: '', url:'' },
+      {movie: 'Mexican', slug: '', url:'' },
+      {movie: 'Momento', slug: '', url:'' },
+      {movie: 'Moon', slug: '', url:'' },
+      {movie: '***Moonrise Kingdom', slug: '', url:'' },
+      {movie: 'Mystery Men', slug: '', url:'' },
+      {movie: '***Nacho Libre', slug: '', url:'' },
+      {movie: 'Napoleon Dynomite', slug: '', url:'' },
+      {movie: 'National Treasure', slug: '', url:'' },
+      {movie: '***Neverending Story', slug: '', url:'' },
+      {movie: '***O Brother Where Art Thou', slug: '', url:'' },
+      {movie: 'Odd Thomas', slug: '', url:'' },
+      {movie: 'Office Space', slug: '', url:'' },
+      {movie: '***Once Upon a Time in Mexico', slug: '', url:'' },
+      {movie: 'Orphanage', slug: '', url:'' },
+      {movie: 'Others', slug: '', url:'' },
+      {movie: 'Pans Labrynth', slug: '', url:'' },
+      {movie: 'Pee Wee Hermans big Adventure', slug: '', url:'' },
+      {movie: 'Postman', slug: '', url:'' },
+      {movie: '***Princess Bride', slug: '', url:'' },
+      {movie: 'Princess Mononoke', slug: '', url:'' },
+      {movie: '***Pulp Fiction', slug: '', url:'' },
+      {movie: 'Quiet Place', slug: '', url:'' },
+      {movie: 'Red', slug: '', url:'' },
+      {movie: 'Ring', slug: '', url:'' },
+      {movie: 'Romancing the Stone', slug: '', url:'' },
+      {movie: 'Romeo and Juliet', slug: '', url:'' },
+      {movie: 'Saving Private Ryan', slug: '', url:'' },
+      {movie: 'Scott Pilgrim Vs. the World', slug: '', url:'' },
+      {movie: 'Scrooged', slug: '', url:'' },
+      {movie: '***Second Hand Lions', slug: '', url:'' },
+      {movie: '***Secret Life of Walter Mitty', slug: '', url:'' },
+      {movie: 'Secret Window', slug: '', url:'' },
+      {movie: '***Series of unfortunate Events', slug: '', url:'' },
+      {movie: 'Sherlock Holmes', slug: '', url:'' },
+      {movie: 'Shoot em Up', slug: '', url:'' },
+      {movie: 'Shutter Island', slug: '', url:'' },
+      {movie: 'Sicarrio', slug: '', url:'' },
+      {movie: 'Simple Plan', slug: '', url:'' },
+      {movie: '***Sin City', slug: '', url:'' },
+      {movie: '***Snatch', slug: '', url:'' },
+      {movie: 'Space Balls', slug: '', url:'' },
+      {movie: 'Star Wars 4', slug: '', url:'' },
+      {movie: 'Star Wars 5', slug: '', url:'' },
+      {movie: 'Star Wars 6', slug: '', url:'' },
+      {movie: 'Star Wars 7', slug: '', url:'' },
+      {movie: 'Sucker Punch', slug: '', url:'' },
+      {movie: 'Super 8', slug: '', url:'' },
+      {movie: 'Swiss Family Robinson', slug: '', url:'' },
+      {movie: 'Terminator', slug: '', url:'' },
+      {movie: 'Terminator 2', slug: '', url:'' },
+      {movie: '***They Look Like People', slug: '', url:'' },
+      {movie: 'Thin Red Line', slug: '', url:'' },
+      {movie: '***Troy', slug: '', url:'' },
+      {movie: 'Truman Show', slug: '', url:'' },
+      {movie: '***Unbreakable', slug: '', url:'' },
+      {movie: '***Underworld', slug: '', url:'' },
+      {movie: 'Very Bad Things', slug: '', url:'' },
+      {movie: 'Village', slug: '', url:'' },
+      {movie: 'Waterboy', slug: '', url:'' },
+      {movie: '***Way of the Gun', slug: '', url:'' },
+      {movie: 'What Dreams May Come', slug: '', url:'' },
+      {movie: 'What Lies Beneath', slug: '', url:'' },
+      {movie: 'Wheels on Meals', slug: '', url:'' },
+      {movie: 'Willow', slug: '', url:'' },
+      {movie: 'Wizard of Oz', slug: '', url:'' },
+      {movie: 'Wizard of Oz 2', slug: '', url:'' },
+      {movie: 'Wrist Cutters', slug: '', url:'' },
+      {movie: 'Zombieland', slug: '', url:'' },
+      {movie: '10 Cloverfield Lane', slug: '', url:'' },
+      {movie: '13th Warrior', slug: '', url:'' },
+      {movie: '1917', slug: '', url:'' },
+      {movie: '***28 Days Later', slug: '', url:'' },
+      {movie: '28 Weeks Later', slug: '', url:'' },
+      {movie: '***300', slug: '', url:'https://www.youtube.com/watch?v=UrIbxk7idYA' },
+      {movie: '***9', slug: '', url:'https://www.youtube.com/watch?v=_qApXdc1WPY' },
     ]
-    const renderItems = items.map(item => {
+
+    const moviesToSee = [
+      {movie: 'Night Crawler', slug: '', url:'https://www.youtube.com/watch?v=u1uP_8VJkDQ' },
+      {movie: 'The edge', slug: '', url:'https://www.youtube.com/watch?v=iqkcX_I5MMU' },
+      {movie: 'From The Dark', slug: '', url:'https://www.youtube.com/watch?v=kKsceLZu_wg' },
+      {movie: 'To Watch', slug: '', url:'https://www.youtube.com/watch?v=4Zfw8__A7ps' },
+      {movie: 'Bricks(detective movie)', slug: '', url:'' },
+      {movie: 'It follows', slug: '', url:'https://www.youtube.com/watch?v=HkZYbOH0ujw' },
+      {movie: 'What happened to Monday', slug: '', url:'https://www.youtube.com/watch?v=5F-YEbm65a8' },
+      {movie: 'Taking Lives', slug: '', url:'https://www.youtube.com/watch?v=Nfoa6QKe4e0' },
+      {movie: 'Horns', slug: '', url:'https://www.youtube.com/watch?v=yg9GW3Krsi8' },
+      {movie: 'Snake Eyes', slug: '', url:'https://www.youtube.com/watch?v=VucLIxy23TA' },
+      {movie: 'Django Unchained', slug: '', url:'' },
+      {movie: 'Parasite', slug: '', url:'' },
+      {movie: 'Nightmare on Elm Street', slug: '', url:'' },
+      {movie: 'The Resort', slug: '', url:'' },
+      {movie: 'The Vault', slug: '', url:'' },
+      {movie: 'Tusk', slug: '', url:'' },
+    ]
+
+
+    const renderMovies = movies.map(item => {
       return (
         <tr key={item.slug}>
           <td><a href={item.url} target ='_blank'>{item.movie}</a></td>
         </tr>
-
       )
     })
+
+    const renderToSee = moviesToSee.map(item => {
+      return (
+        <tr key={item.slug}>
+          <td><a href={item.url} target ='_blank'>{item.movie}</a></td>
+        </tr>
+      )
+    })
+
+
     return (
       <div>
         <h2>Favorite Movies</h2>
-        <div>
-          <div className='twoColumn'>
             <table>
-            <tr><th>movie</th></tr>
-            {renderItems}
+              <tr><th>movie</th></tr>
+              {renderMovies}
             </table>
-          </div>
-      <div className= "twoColumn">
-      <ol>
-        <li><a href='https://www.youtube.com/watch?v=HcVrp--9UUc' target='_blank'
-        >Idle Hands</a></li>
-        <li><a href='https://www.youtube.com/watch?v=AlugldzO9zY' target='_blank'
-        >In the Mouth of Madness</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HqOSLZl9GUo' target='_blank'
-        >***Indiana Jones</a></li>
-        <li><a href='https://www.youtube.com/watch?v=HOwWfns4qqw' target='_blank'
-        >***Indiana Jones 2</a></li>
-        <li><a href='https://www.youtube.com/watch?v=sagmdpkWUqc' target='_blank'
-        >***Indiana Jones 3</a></li>
-        <li><a href='https://www.youtube.com/watch?v=qRYDNWXuip8' target='_blank'
-        >Inglorious Bastards</a></li>
-        <li><a href="https://www.youtube.com/watch?v=UrIbxk7idYA" target='_blank'
-        >***300</a></li>
-        <li><a href="https://www.youtube.com/watch?v=_qApXdc1WPY" target='_blank'
-        >***9</a></li>
-      </ol>
 
-        <h3>Rest of List</h3>
-        <li>Parasite</li>
-        <li>Nightmare on Elm Street</li>
-        <li>The Resort</li>
-        <li>The Vault</li>
-        <li>Tusk</li>
-        <li>Inception</li>
-        <li>Interstellar</li>
-        <li>Interview with a Vampire</li>
-        <li>Island</li>
-        <li>Isle of Dogs</li>
-        <li>***It's a Wonderful Life</li>
-        <li>Joe Dirt</li>
-        <li>***Jurassic Park</li>
-        <li>Jurasic World Fallen Kingdom</li>
-        <li>Kick Ass</li>
-        <li>***Kill Bill</li>
-        <li>***Kill Bill 2</li>
-        <li>***King Arthur</li>
-        <li>kingsman</li>
-        <li>***Kung Fu Hustle</li>
-        <li>***Laberinth</li>
-        <li>Legend of the Drunken Master</li>
-        <li>Legend of Sleepy Hollow</li>
-        <li>***Let the Right One In</li>
-        <li>***Life of Pi</li>
-        <li>Little Evil</li>
-        <li>Little Prince</li>
-        <li>***Lord of the Rings</li>
-        <li>***Lord of the Rings 2</li>
-        <li>***Lord of the Rings 3</li>
-        <li>Lucy</li>
-        <li>Maze Runner</li>
-        <li>Mexican</li>
-        <li>Momento</li>
-        <li>Moon</li>
-        <li>***Moonrise Kingdom</li>
-        <li>Mystery Men</li>
-        <li>***Nacho Libre</li>
-        <li>Napoleon Dynomite</li>
-        <li>National Treasure</li>
-        <li>***Neverending Story</li>
-        <li>***O Brother Where Art Thou</li>
-        <li>Odd Thomas</li>
-        <li>Office Space</li>
-        <li>***Once Upon a Time in Mexico</li>
-        <li>Orphanage</li>
-        <li>Others</li>
-        <li>Pan's Labrynth</li>
-        <li>Pee Wee Herman's big Adventure</li>
-        <li>Postman</li>
-        <li>***Princess Bride</li>
-        <li>Princess Mononoke</li>
-        <li>***Pulp Fiction</li>
-        <li>Quiet Place</li>
-        <li>Red</li>
-        <li>Ring</li>
-        <li>Romancing the Stone</li>
-        <li>Romeo and Juliet</li>
-        <li>Saving Private Ryan</li>
-        <li>Scott Pilgrim Vs. the World</li>
-        <li>Scrooged</li>
-        <li>***Second Hand Lions</li>
-        <li>***Secret Life of Walter Mitty</li>
-        <li>Secret Window</li>
-        <li>***Series of unfortunate Events</li>
-        <li>Sherlock Holmes</li>
-        <li>Shoot em Up</li>
-        <li>Shutter Island</li>
-        <li>Sicarrio</li>
-        <li>Simple Plan</li>
-        <li>***Sin City</li>
-        <li>***Snatch</li>
-        <li>Space Balls</li>
-        <li>Star Wars 4</li>
-        <li>Star Wars 5</li>
-        <li>Star Wars 6</li>
-        <li>Star Wars 7</li>
-        <li>Sucker Punch</li>
-        <li>Super 8</li>
-        <li>Swiss Family Robinson</li>
-        <li>Terminator</li>
-        <li>Terminator 2</li>
-        <li>***They Look Like People</li>
-        <li>Thin Red Line</li>
-        <li>***Troy</li>
-        <li>Truman Show</li>
-        <li>***Unbreakable</li>
-        <li>***Underworld</li>
-        <li>Very Bad Things</li>
-        <li>Village</li>
-        <li>Waterboy</li>
-        <li>***Way of the Gun</li>
-        <li>What Dreams May Come</li>
-        <li>What Lies Beneath</li>
-        <li>Wheels on Meals</li>
-        <li>Willow</li>
-        <li>Wizard of Oz</li>
-        <li>Wizard of Oz 2</li>
-        <li>Wrist Cutters</li>
-        <li>Zombieland</li>
-        <li>10 Cloverfield Lane</li>
-        <li>13th Warrior</li>
-        <li>1917</li>
-        <li>***28 Days Later</li>
-        <li>28 Weeks Later</li>
-        <h3>To Watch</h3>
-          <li><a href="https://www.youtube.com/watch?v=u1uP_8VJkDQ" target='_blank'
-          >Night Crawler</a></li>
-          <li><a href="https://www.youtube.com/watch?v=iqkcX_I5MMU" target='_blank'
-          >The edge</a></li>
-          <li><a href="https://www.youtube.com/watch?v=kKsceLZu_wg" target='_blank'
-          >From The Dark</a></li>
-          <li><a href="https://www.youtube.com/watch?v=4Zfw8__A7ps" target='_blank'
-          >Bricks(detective movie)</a></li>
-          <li><a href="https://www.youtube.com/watch?v=HkZYbOH0ujw" target='_blank'
-          >It follows</a></li>
-          <li><a href="https://www.youtube.com/watch?v=5F-YEbm65a8" target='_blank'
-          >What happened to Monday</a></li>
-          <li><a href="https://www.youtube.com/watch?v=Nfoa6QKe4e0" target='_blank'
-          >Taking Lives</a></li>
-          <li><a href="https://www.youtube.com/watch?v=yg9GW3Krsi8" target='_blank'
-          >Horns</a></li>
-          <li><a href="https://www.youtube.com/watch?v=VucLIxy23TA" target='_blank'
-          >Snake Eyes</a></li>
-          <li><a href="https://www.youtube.com/watch?v=eUdM9vrCbow" target='_blank'
-          >Django Unchained</a></li>
-        </div>
+        <h2>Movies to See</h2>
+            <table>
+              <tr><th>movie</th></tr>
+              {renderToSee}
+            </table>
 
-      </div>
+
       </div>
     );
 
 }
 
 export default Movies;
-
-/*
-
-
-
-
-
-*/

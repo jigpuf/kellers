@@ -7,11 +7,6 @@ const StockScreener = () => {
   const [symbol3,setSymbol3]= useState(null);
   const [spread,setSpread] = useState({high:100, low:0, bottom:0});
 
-  /*
-  const [high, setHigh]= useState(null);
-  const [low, setLow]= useState(null);
-  const [bottom, setBottom]= useState(null);
-  */
   const [saveSymbol, setSaveSymbol]= useState(null);
   const [saveHigh, setSaveHigh]= useState(null);
   const [saveLow, setSaveLow]= useState(null);
@@ -38,13 +33,7 @@ const StockScreener = () => {
     const value = event.target.value;
     setSymbol(value);
   }
-/*
-const changeSpread = (event) => {
-  const name = event.target.name;
-  const value = parseInt(event.target.value,10);
-  setSpread({...spread,[name]:value});
-}
-*/
+
   const changeSpread = (event) => {
     const name = event.target.name;
     const value = parseInt(event.target.value,10);
