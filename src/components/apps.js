@@ -7,7 +7,7 @@ import TicTac from './apps/tictac.js';
 import Fitness from './apps/fitness.js';
 import SolarCopy from './apps/solar-copy.js';
 import ButtonMaker from './buttonMaker.js';
-import StockScreener from './apps/stockScreener.js';
+import BestScreener from './apps/bestScreener.js';
 import AboutMe from './apps/me.js';
 
 
@@ -31,7 +31,7 @@ const Apps = () => {
       {name: 'Quotes', slug: 'quotes'},
       {name: 'Fitness Tracker', slug: 'fitness', component: <Fitness/>},
       {name: 'Solar-Copy', slug: 'copy', component: <SolarCopy />},
-      {name: 'Stock Screener', slug: 'stockScreener', component: <StockScreener/>},
+      {name: 'Best Screener', slug: 'bestScreener', component: <BestScreener/>},
       {name: 'AboutMe', slug: 'aboutMe', component: <AboutMe/>},
     ]
 
